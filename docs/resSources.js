@@ -1,4 +1,3 @@
-// File: docs/resSources.js
 export const resSources = [
 "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1754972596/37-fbc1b84596d7ae897d0c6acb07313e58-1920x1080_svnhkf.mp4",
 "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1754972596/37-f0ea3cc1ab88f56b1edc1a26863273ed-1920x1080_lox6dh.mp4",
