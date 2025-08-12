@@ -10,5 +10,5 @@ export const resSources = [
 "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1754981930/37-2ccefa54ade10124645ef3ed07744251-1920x1080_qes1xj.mp4",
 "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1754981930/37-25b677b7133e20d28a3bdb8aaaeb897e-1920x1080_t4aewx.mp4",
 "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1754981930/37-1e0d0a4f1d0f9471ace0566034009306-1920x1080_w8ogmb.mp4",
-"https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1754981930/37-05c8c61b4c758d4c29cd166ac7d7d9a7-1920x1080_j9xbh2.mp4",
+"https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1754981930/37-05c8c61b4c758d4c29cd166ac7d7d9a7-1920x1080_j9xbh2.mp4"
 ];
