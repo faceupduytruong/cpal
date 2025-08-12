@@ -6,5 +6,5 @@ export const woodSources = [
 "https://assets.mixkit.co/videos/14189/14189-720.mp4",
 "https://assets.mixkit.co/videos/45831/45831-720.mp4",
 "https://assets.mixkit.co/videos/50729/50729-720.mp4",
-"https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1754981930/37-2ccefa54ade10124645ef3ed07744251-1920x1080_qes1xj.mp4"
+"http://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/media/end.d4a6b496.mp4"
   ];
