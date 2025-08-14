@@ -19,7 +19,6 @@ const albumLinks = [
 "https://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/image/21.a8621a67.jpeg",
 "https://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/image/22.4e85033b.jpeg",
 "https://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/image/23.6b026406.jpeg",
-"https://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/image/24.1b0337ac.jpeg",
 "https://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/image/25.80e72c32.jpeg",
 "https://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/image/Upupu.92433843.png",
 "https://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/image/%E5%B0%8F%E6%9D%8E%E5%BA%94%E8%AF%A5%E5%9C%A8%E5%AD%A6%E4%B9%A0.644f3224.png",
@@ -51,4 +50,5 @@ const albumLinks = [
 "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/b1092a46a4f446fd83acbce4c671b29f~c5_375x375.jpg",
 "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/e9a48cc72aaa4c57aba36214dd580368~c5_375x375.jpg"
 ];
+
 
