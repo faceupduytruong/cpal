@@ -1,4 +1,5 @@
 const albumLinks = [
+"https://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/image/1_%E9%80%8F%E6%98%8E%E5%BA%95.49df9b34.gif",
 "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o0naAQcENIEeUAwmCNAEZ14FafBRuhtDADxBgg~c5_375x375.jpg",
 "https://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/image/1.21c91509.jpeg",
 "https://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/image/2.4b7d9fc8.jpeg",
@@ -50,5 +51,6 @@ const albumLinks = [
 "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/b1092a46a4f446fd83acbce4c671b29f~c5_375x375.jpg",
 "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/e9a48cc72aaa4c57aba36214dd580368~c5_375x375.jpg"
 ];
+
 
 
