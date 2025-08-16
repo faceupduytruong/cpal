@@ -1,4 +1,7 @@
 const albumLinks = [
+"https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oMeXA96AtgfqEAItbeWLC1gGEKAseEm99GIKAC~c5_375x375.jpg",
+"https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/c03f4c2835fd414a84db0a2db05f6278~c5_375x375.jpg",
+"https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/3cf7173524d04828b66989720e78ce9d~c5_375x375.jpg",
 "https://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/image/1_%E9%80%8F%E6%98%8E%E5%BA%95.49df9b34.gif",
 "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o0naAQcENIEeUAwmCNAEZ14FafBRuhtDADxBgg~c5_375x375.jpg",
 "https://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/image/1.21c91509.jpeg",
@@ -53,6 +56,7 @@ const albumLinks = [
 "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oYAnAetzGBCRLAla5HIDhVEbDCGEe6fARxzFtF~c5_375x375.jpg",
 "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o08tfAFDnEDKLiAC9NAgfME1oPEvZavADA0yLB~c5_375x375.jpg"
 ];
+
 
 
 
