@@ -1,122 +1,111 @@
 const suggestions = [
-  "Jackie Chan", // Thành Long – diễn viên hành động
-  "Jay Chou", // Châu Kiệt Luân – ca sĩ, nhạc sĩ
-  "Fan Bingbing", // Phạm Băng Băng – diễn viên
-  "Yao Ming", // Diêu Minh – vận động viên bóng rổ
-  "Zhao Liying", // Triệu Lệ Dĩnh – diễn viên
-  "Dilraba Dilmurat", // Địch Lệ Nhiệt Ba – diễn viên, người mẫu
-  "Wang Yibo", // Vương Nhất Bác – ca sĩ, diễn viên
-  "Li Yifeng", // Lý Dịch Phong – diễn viên
+  "JackieChan", // Thành Long – diễn viên hành động
+  "JayChou", // Châu Kiệt Luân – ca sĩ, nhạc sĩ
+  "FanBingbing", // Phạm Băng Băng – diễn viên
+  "YaoMing", // Diêu Minh – vận động viên bóng rổ
+  "ZhaoLiying", // Triệu Lệ Dĩnh – diễn viên
+  "DilrabaDilmurat", // Địch Lệ Nhiệt Ba – diễn viên, người mẫu
+  "WangYibo", // Vương Nhất Bác – ca sĩ, diễn viên
+  "LiYifeng", // Lý Dịch Phong – diễn viên
   "Angelababy", // người mẫu, diễn viên
-  "Lay Zhang", // Trương Nghệ Hưng – thành viên EXO
-  "Zhou Dongyu", // Châu Đông Vũ – ảnh hậu
-  "Xu Zheng", // Từ Tranh – đạo diễn, diễn viên hài
-  "Hu Ge", // Hồ Ca – diễn viên
-  "Yang Mi", // Dương Mịch – diễn viên
+  "LayZhang", // Trương Nghệ Hưng – thành viên EXO
+  "ZhouDongyu", // Châu Đông Vũ – ảnh hậu
+  "XuZheng", // Từ Tranh – đạo diễn, diễn viên hài
+  "HuGe", // Hồ Ca – diễn viên
+  "YangMi", // Dương Mịch – diễn viên
   "Luhan", // Lộc Hàm – ca sĩ, diễn viên
-  "Kris Wu", // Ngô Diệc Phàm – ca sĩ, diễn viên
-  "Li Na", // vận động viên tennis
-  "Lang Lang", // nghệ sĩ piano
-  "Gong Li", // Củng Lợi – diễn viên
-  "Zhang Ziyi", // Chương Tử Di – diễn viên
-  "Zhao Wei", // Triệu Vy – diễn viên, đạo diễn
-  "Chen Kun", // diễn viên
+  "KrisWu", // Ngô Diệc Phàm – ca sĩ, diễn viên
+  "LiNa", // vận động viên tennis
+  "LangLang", // nghệ sĩ piano
+  "GongLi", // Củng Lợi – diễn viên
+  "ZhangZiyi", // Chương Tử Di – diễn viên
+  "ZhaoWei", // Triệu Vy – diễn viên, đạo diễn
+  "ChenKun", // diễn viên
   "Tao", // Hoàng Tử Thao – ca sĩ, diễn viên
-  "Han Hong", // ca sĩ
-  "Na Ying", // ca sĩ
-  "Eason Chan", // ca sĩ
-  "Nicholas Tse", // Tạ Đình Phong – ca sĩ, diễn viên
-  "Li Ronghao", // ca sĩ, nhà sản xuất
+  "HanHong", // ca sĩ
+  "NaYing", // ca sĩ
+  "EasonChan", // ca sĩ
+  "NicholasTse", // Tạ Đình Phong – ca sĩ, diễn viên
+  "LiRonghao", // ca sĩ, nhà sản xuất
   "TFBoys", // nhóm nhạc gồm Dịch Dương Thiên Tỉ, Vương Tuấn Khải, Vương Nguyên
-  "Zhang Yimou", // Trương Nghệ Mưu – đạo diễn
-  "Chen Daoming", // diễn viên gạo cội
-  "Liu Yifei", // Lưu Diệc Phi – diễn viên
-  "Tang Wei", // diễn viên
-  "Sun Li", // Tôn Lệ – diễn viên
-  "Zheng Shuang", // diễn viên
-  "Bai Baihe", // diễn viên
-  "Ma Yili", // diễn viên
-  "Tong Liya", // diễn viên
-  "Huang Bo", // Hoàng Bột – diễn viên
-  "Wang Junkai", // Vương Tuấn Khải – TFBoys
-  "Jackson Yee", // Dịch Dương Thiên Tỉ – TFBoys
-  "Zhang Ruoyun", // diễn viên
-  "Li Xian", // diễn viên
-  "Yang Yang", // diễn viên
-  "Ju Jingyi", // ca sĩ, diễn viên
-  "Victoria Song", // Tống Thiến – ca sĩ, diễn viên
-  "Zhang Han", // diễn viên
-  "Jing Boran", // diễn viên
-  "Chen Xiao", // diễn viên
-  "Shen Yue", // diễn viên
-  "Wu Jing", // Ngô Kinh – diễn viên hành động
-  "Zhao Jinmai", // diễn viên trẻ
-  "Liu Haoran", // diễn viên
-  "Zhang Xincheng", // diễn viên
-  "Tan Songyun", // diễn viên
-  "Bai Jingting", // diễn viên
-  "Wang Kai", // diễn viên
-  "Liu Tao", // diễn viên
-  "Sun Yang", // vận động viên bơi lội
-  "Gu Ailing", // vận động viên trượt tuyết
-  "Zhu Ting", // vận động viên bóng chuyền
-  "Li Wenwen", // vận động viên cử tạ
-  "He Bingjiao", // vận động viên cầu lông
-  "Chen Long", // vận động viên cầu lông
-  "Ding Junhui", // vận động viên bi-a
-  "Meng Meiqi", // ca sĩ, diễn viên
-  "Zhou Shen", // ca sĩ
-  "Hua Chenyu", // ca sĩ
-  "Wang Feng", // ca sĩ
+  "ZhangYimou", // Trương Nghệ Mưu – đạo diễn
+  "ChenDaoming", // diễn viên gạo cội
+  "LiuYifei", // Lưu Diệc Phi – diễn viên
+  "TangWei", // diễn viên
+  "SunLi", // Tôn Lệ – diễn viên
+  "ZhengShuang", // diễn viên
+  "BaiBaihe", // diễn viên
+  "MaYili", // diễn viên
+  "TongLiya", // diễn viên
+  "HuangBo", // Hoàng Bột – diễn viên
+  "WangJunkai", // Vương Tuấn Khải – TFBoys
+  "JacksonYee", // Dịch Dương Thiên Tỉ – TFBoys
+  "ZhangRuoyun", // diễn viên
+  "LiXian", // diễn viên
+  "YangYang", // diễn viên
+  "JuJingyi", // ca sĩ, diễn viên
+  "VictoriaSong", // Tống Thiến – ca sĩ, diễn viên
+  "ZhangHan", // diễn viên
+  "JingBoran", // diễn viên
+  "ChenXiao", // diễn viên
+  "ShenYue", // diễn viên
+  "WuJing", // Ngô Kinh – diễn viên hành động
+  "ZhaoJinmai", // diễn viên trẻ
+  "LiuHaoran", // diễn viên
+  "ZhangXincheng", // diễn viên
+  "TanSongyun", // diễn viên
+  "BaiJingting", // diễn viên
+  "WangKai", // diễn viên
+  "LiuTao", // diễn viên
+  "SunYang", // vận động viên bơi lội
+  "GuAiling", // vận động viên trượt tuyết
+  "ZhuTing", // vận động viên bóng chuyền
+  "LiWenwen", // vận động viên cử tạ
+  "HeBingjiao", // vận động viên cầu lông
+  "ChenLong", // vận động viên cầu lông
+  "DingJunhui", // vận động viên bi-a
+  "MengMeiqi", // ca sĩ, diễn viên
+  "ZhouShen", // ca sĩ
+  "HuaChenyu", // ca sĩ
+  "WangFeng", // ca sĩ
   "G.E.M.", // ca sĩ
-  "Jolin Tsai", // Thái Y Lâm – ca sĩ
-  "Show Lo", // La Chí Tường – ca sĩ, diễn viên
-  "Rainie Yang", // Dương Thừa Lâm – ca sĩ, diễn viên
-  "Amber Liu", // ca sĩ
-  "Jackson Wang", // ca sĩ, thành viên GOT7
-  "Esther Yu", // Ngu Thư Hân – diễn viên, idol
-  "Zhang Zhehan", // diễn viên
-  "Gao Yuanyuan", // diễn viên
-  "Liu Shishi", // diễn viên
-  "William Chan", // ca sĩ, diễn viên
-  "Chen Linong", // ca sĩ
-  "Cai Xukun", // ca sĩ, idol
-  "Ren Jialun", // diễn viên
-  "Song Weilong", // diễn viên
-  "Li Qin", // diễn viên
-  "Zhang Huiwen", // diễn viên
-  "Zhang Tianai", // diễn viên
-  "Zhao Lusi", // diễn viên
-  "Bambi Zhu", // diễn viên
-  "Xu Kai", // diễn viên
-  "Yang Chaoyue", // idol
-  "Lai Kuanlin", // idol
-  "Wu Xuanyi", // idol
+  "JolinTsai", // Thái Y Lâm – ca sĩ
+  "ShowLo", // La Chí Tường – ca sĩ, diễn viên
+  "RainieYang", // Dương Thừa Lâm – ca sĩ, diễn viên
+  "AmberLiu", // ca sĩ
+  "JacksonWang", // ca sĩ, thành viên GOT7
+  "EstherYu", // Ngu Thư Hân – diễn viên, idol
+  "ZhangZhehan", // diễn viên
+  "GaoYuanyuan", // diễn viên
+  "LiuShishi", // diễn viên
+  "WilliamChan", // ca sĩ, diễn viên
+  "ChenLinong", // ca sĩ
+  "CaiXukun", // ca sĩ, idol
+  "RenJialun", // diễn viên
+  "SongWeilong", // diễn viên
+  "LiQin", // diễn viên
+  "ZhangHuiwen", // diễn viên
+  "ZhangTianai", // diễn viên
+  "ZhaoLusi", // diễn viên
+  "BambiZhu", // diễn viên
+  "XuKai", // diễn viên
+  "YangChaoyue", // idol
+  "LaiKuanlin", // idol
+  "WuXuanyi", // idol
   "Yamy", // idol
-  "Rocket Girls 101", // nhóm nhạc nữ
-  "Nine Percent", // nhóm nhạc nam
+  "RocketGirls101", // nhóm nhạc nữ
+  "NinePercent", // nhóm nhạc nam
   "UNIQ", // nhóm nhạc nam
   "NEXT", // nhóm nhạc nam
   "WayV", // nhóm nhạc nam
-  "Li Jiaqi", // livestreamer, beauty influencer
+  "LiJiaqi", // livestreamer, beauty influencer
   "Viya", // livestreamer
   "Papi酱", // vlogger, influencer
-  "Lexie Liu", // rapper, ca sĩ
-  "Zhang Dayi", // fashion influencer
+  "LexieLiu", // rapper, ca sĩ
+  "ZhangDayi", // fashion influencer
   "Tibbers", // streamer game
   "Miss", // streamer game
   "Doinb", // tuyển thủ eSports
   "Uzi", // tuyển thủ eSports
   "TheShy" // tuyển thủ eSports
 ];
-
-// Hàm hiển thị gợi ý lên console
-function showSuggestions() {
-  console.log("Gợi ý người nổi tiếng Trung Quốc:");
-  suggestions.forEach((name, index) => {
-    console.log(`${index + 1}. ${name}`);
-  });
-}
-
-// Gọi hàm khi file được tải
-showSuggestions();
