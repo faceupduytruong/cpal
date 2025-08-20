@@ -41,7 +41,7 @@ export function openPlatformPopupLeft(platform, url, w = window.innerWidth, h = 
   const width = window.innerWidth ?? document.documentElement.clientWidth ?? screen.width;
   const height = window.innerHeight ?? document.documentElement.clientHeight ?? screen.height;
 
-  const left = -width - 42.5 + screenLeft;
+  const left = screenLeft - width / 2; // Điều chỉnh để không bị lệch quá xa
   const top = (height - h) / 2 + screenTop;
 
   const windowName = `popup_${platform}`;
