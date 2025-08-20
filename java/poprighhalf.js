@@ -10,3 +10,6 @@ export function openRightHalfPopup(url, title, w, h) {
   const popupWindow = window.open(url, title, `scrollbars=yes,width=${w},height=${h},top=${top},left=${left}`);
   if (window.focus) popupWindow?.focus();
 }
+
+// 👇 Thêm dòng này để gọi được từ HTML inline
+window.openRightHalfPopup = openRightHalfPopup;
