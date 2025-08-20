@@ -20,7 +20,6 @@ function stopAllAudio() {
     audio.pause();
     audio.currentTime = 0;
   });
-  currentAudioIndex = 1;
 }
 
 function playNextAudio() {
@@ -32,6 +31,7 @@ function playNextAudio() {
 
 homeBtn.addEventListener("click", () => {
   stopAllAudio();
+  currentAudioIndex = 1; // ✅ Reset ở đây nếu cần
   audios[0].play();
 
   popup.style.display = "flex";
@@ -65,3 +65,4 @@ popup.addEventListener("click", (e) => {
       document.getElementById("popupOverlay").style.display = "none";
     }
   });
+
