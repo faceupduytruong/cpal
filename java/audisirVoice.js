@@ -51,3 +51,17 @@ popup.addEventListener("click", (e) => {
     stopAllAudio();
   }
 });
+
+
+<!-- 👉 Quản lý Popup Siri -->
+
+  document.getElementById("homeBtn").addEventListener("click", () => {
+    document.getElementById("popupOverlay").style.display = "flex";
+  });
+
+  // Optional: Đóng popup khi click ra ngoài
+  document.getElementById("popupOverlay").addEventListener("click", (e) => {
+    if (e.target.id === "popupOverlay") {
+      document.getElementById("popupOverlay").style.display = "none";
+    }
+  });
