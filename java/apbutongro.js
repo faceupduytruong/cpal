@@ -1,4 +1,5 @@
-// Biến lưu popup cho từng nền tảng
+// 👉 Biến lưu popup cho từng nền tảng
+
 let popupWindows = {
   douyin: null,
   bilibili: null,
@@ -145,7 +146,8 @@ function openFacebook() {
 }
 
 
-// Tạo giao diện nút app
+// 👉 Tạo giao diện nút app
+
 const appsContainer = document.getElementById("appsContainer");
 
 const appButtonsHTML = `
@@ -240,8 +242,38 @@ const appButtonsHTML = `
       <p>Facebook</p>
     </div>
 
-   <!-- Thêm nhiều app-button khác ở đây -->
+   <!-- 👉 Thêm nhiều app-button khác ở đây -->
 
 `;
 
 appsContainer.innerHTML = appButtonsHTML;
+
+
+<!-- 👉  -->
+
+    let clickCount = 0;
+
+     function openXiaohongshu() {
+       const query = getQuery();
+       const encodedQuery = encodeURIComponent(`${query} #xiaohongshu# #小红书#`);
+
+      switch (clickCount % 3) {
+        case 0:
+          // 🔍 YouTube
+          const youtubeUrl = `https://www.youtube.com/results?search_query=${encodedQuery}`;
+          openRightHalfPopup(youtubeUrl,"youtube", window.innerWidth, 700);
+          break;
+        case 1:
+          // 🔍 Bilibili
+          const bilibiliUrl = `https://search.bilibili.com/all?keyword=${encodedQuery}`;
+          openRightHalfPopup(bilibiliUrl,"bilibili", window.innerWidth, 700);
+          break;
+        case 2:
+          // 🔍 Douyin
+          const douyinUrl = `https://www.douyin.com/search/${encodedQuery}`;
+          openRightHalfPopup(douyinUrl,"douyin", window.innerWidth, 700);
+          break;
+      }
+      clickCount++;
+    }
+
