@@ -1,3 +1,22 @@
+// 👉 Chèn CSS vào DOM
+const style = document.createElement('style');
+style.textContent = `
+
+.app-button {
+  margin: 0px 0px; /* 0px trên/dưới, 30px trái/phải */
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.app-button:hover {
+  transform: scale(1.1);
+}
+
+`;
+document.head.appendChild(style);
+
+
 // 👉 Biến lưu popup cho từng nền tảng
 
 let popupWindows = {
@@ -294,3 +313,4 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
