@@ -249,7 +249,7 @@ const appButtonsHTML = `
 appsContainer.innerHTML = appButtonsHTML;
 
 
-<!-- 👉  -->
+<!-- 👉 Khi ấn vào Xiaohongshu để vao 3 trang web  -->
 
     let clickCount = 0;
 
@@ -277,3 +277,20 @@ appsContainer.innerHTML = appButtonsHTML;
       clickCount++;
     }
 
+<!-- 👉 Khi ấn vào Talkin để vao 3 trang web  -->
+
+  let talkinClickCount = 0;
+
+  function openTalkin() {
+    const links = [
+      "https://www.instagram.com/talk_in_talkin/",
+      "https://www.facebook.com/profile.php?id=61555486984178",
+      "https://www.reddit.com/user/talk_in_TalkIn/",
+      "https://talkin.com.cn/moments",
+      "https://x.com/GlobalTalkIn?s=20"
+    ];
+
+    const currentUrl = links[talkinClickCount % links.length];
+    openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
+    talkinClickCount++;
+  }
