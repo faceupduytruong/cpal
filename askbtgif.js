@@ -1,5 +1,5 @@
-  // Danh sách ảnh GIF
-  const gifList = [
+// Danh sách ảnh GIF
+window.gifList = [
     "https://cdn.dribbble.com/userupload/21897811/file/original-28ad4207577eef7e70d245b9a2cb9b56.gif",
     "https://cdn.dribbble.com/userupload/23662114/file/original-e1b947cb36707ae1cec1023eddafec04.gif", 
     "https://i.pinimg.com/originals/70/eb/0b/70eb0b53eb57c91db403928c5d02a19a.gif",
@@ -25,4 +25,5 @@
     "https://cdnb.artstation.com/p/assets/images/images/018/467/105/original/ivan-boyko-energy-orb-art.gif?1559502600",
     "https://images.squarespace-cdn.com/content/v1/54bdcba5e4b08f92b173441f/f34f7c2a-4226-4145-aea9-a6890d9c7990/Apple-Event-iphone16.gif"
   ];
+
 
