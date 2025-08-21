@@ -683,6 +683,9 @@ container.innerHTML = `
 
 `;
 
+// Thêm vào DOM
+document.body.appendChild(container);
+
 // Định nghĩa style h2
 const style = document.createElement('style');
 style.textContent = `
@@ -713,10 +716,8 @@ style.textContent = `
   }
 }
 `;
-document.head.appendChild(style);
 
-// Thêm vào DOM
-document.body.appendChild(container);
+document.head.appendChild(style);
 
 // 👉 Sau khi thêm vào DOM, gọi lại applyColor
 const glassElements = document.querySelectorAll(".glass-bg");
@@ -728,6 +729,7 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
 
