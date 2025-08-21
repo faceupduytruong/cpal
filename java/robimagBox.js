@@ -691,7 +691,7 @@ const style = document.createElement('style');
 style.textContent = `
   h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 32px;
+    font-size: 43px;
     font-weight: bold;
     color: white;
     animation: greenPulse 7s infinite;
@@ -729,10 +729,3 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
-
-
-
-
-
-
-
