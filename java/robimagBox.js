@@ -677,7 +677,6 @@ container.innerHTML = `
 </div>
         <div class="caption">Turboscribe.ai</div>
       </div>
-</div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://otter.ai/home', 'SmartApp Popup', window.innerWidth, 700)">
@@ -685,6 +684,7 @@ container.innerHTML = `
 </div>
         <div class="caption">Otter.ai</div>
       </div>
+      
 </div>
 
 `;
@@ -734,4 +734,5 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
