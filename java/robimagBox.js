@@ -673,7 +673,7 @@ container.innerHTML = `
     <h2 class="row-title">Sound recorder to text</h2>
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://turboscribe.ai/vi/dashboard/', 'SmartApp Popup', window.innerWidth, 700)">
-          <img src="https://soundwise.ai/logo.png">
+          <img src="https://turboscribe.ai/_content/hashed/1575aa4bfd65eca48c4c1529be18d3a0.svg?cr=1&s=8bryVuvieZMCyH5p3bCwnmLZclUPLoaAm9mBuSasaDc">
 </div>
         <div class="caption">Turboscribe.ai</div>
       </div>
@@ -728,5 +728,6 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
