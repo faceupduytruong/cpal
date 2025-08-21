@@ -684,6 +684,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Otter.ai</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://speaknotes.io/free-tools/transcribe/ogg', 'SmartApp Popup', window.innerWidth, 700)">
+          <img src="https://cdn-1.webcatalog.io/catalog/speaknotes/speaknotes-icon-filled-256.png?v=1753061659135">
+</div>
+        <div class="caption">Otter.ai</div>
+      </div>
       
 </div>
 
@@ -734,5 +741,6 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
