@@ -1,4 +1,9 @@
-    <!-- Hàng thứ 1 -->
+// Tạo HTML động
+const container = document.createElement("div");
+container.innerHTML = `
+
+ 
+   <!-- Hàng thứ 1 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Structural<br>System</h2>
       <div class="image-box">
@@ -674,3 +679,12 @@
         <div class="caption">SoundWise.ai</div>
       </div>
 </div>
+
+
+
+`;
+
+// Chèn vào phần tử có id="main-content" (hoặc bạn đổi theo ý bạn)
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("main-content")?.appendChild(container);
+});
