@@ -1,36 +1,42 @@
-  import { resSources } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@
-f5bc25e/docs/resSources.js';
+    import { woodSources } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@e365a5b/docs/woodSources.js';
+    window.woodSources = woodSources; // Gán vào window để dùng ở script thường
+  </script>
 
-  const video = document.getElementById('bgVideo');
-  let currentIndex = -1;
 
-  function getRandomIndex(excludeIndex) {
-    let newIndex;
-    do {
-      newIndex = Math.floor(Math.random() * resSources.length);
-    } while (newIndex === excludeIndex); // tránh lặp lại video hiện tại
-    return newIndex;
-  }
+  <!-- Script chính -->
+  <script>
+    const video = document.getElementById('bgVideo');
+    let currentIndex = -1;
 
-  function loadBackgroundVideo(index) {
-    video.style.opacity = 0;
+    function getRandomIndex(excludeIndex) {
+      let newIndex;
+      do {
+        newIndex = Math.floor(Math.random() * window.woodSources.length);
+      } while (newIndex === excludeIndex);
+      return newIndex;
+    }
 
-    setTimeout(() => {
-      video.src = resSources[index]; // Sử dụng đúng tên biến đã import
-      video.load();
+    function loadBackgroundVideo(index) {
+      video.style.opacity = 0;
 
-      video.oncanplay = () => {
-        video.style.opacity = 1;
-      };
-    }, 1000);
-  }
+      setTimeout(() => {
+        video.src = window.woodSources[index];
+        video.load();
 
-  // Khởi tạo video đầu tiên
-  currentIndex = getRandomIndex(-1);
-  loadBackgroundVideo(currentIndex);
+        video.oncanplay = () => {
+          video.style.opacity = 1;
+        };
+      }, 1000);
+    }
 
-  // Tự động chuyển video ngẫu nhiên sau mỗi 30 giây
-  setInterval(() => {
-    currentIndex = getRandomIndex(currentIndex);
-    loadBackgroundVideo(currentIndex);
-  }, 30000);
+    // Khởi tạo video đầu tiên
+    window.addEventListener("DOMContentLoaded", () => {
+      currentIndex = getRandomIndex(-1);
+      loadBackgroundVideo(currentIndex);
+
+      // Tự động chuyển video sau mỗi 30 giây
+      setInterval(() => {
+        currentIndex = getRandomIndex(currentIndex);
+        loadBackgroundVideo(currentIndex);
+      }, 30000);
+    });
