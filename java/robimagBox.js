@@ -684,10 +684,8 @@ container.innerHTML = `
 
 `;
 
-// Chèn vào phần tử có id="main-content" (hoặc bạn đổi theo ý bạn)
-document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("main-content")?.appendChild(container);
-});
+// Thêm vào DOM
+document.body.appendChild(container);
 
 // 👉 Sau khi thêm vào DOM, gọi lại applyColor
 const glassElements = document.querySelectorAll(".glass-bg");
@@ -700,3 +698,4 @@ glassElements.forEach(el => {
 // Thêm vào DOM
 document.body.appendChild(container);
 applyColor(colorIndex); // Gọi lại sau khi DOM đã có .glass-bg
+
