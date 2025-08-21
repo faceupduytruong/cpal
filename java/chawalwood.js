@@ -1,6 +1,5 @@
     import { woodSources } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/woodSources.js';
     window.woodSources = woodSources; // Gán vào window để dùng ở script thường
-  </script>
 
 
   <!-- Script chính -->
@@ -40,4 +39,5 @@
         loadBackgroundVideo(currentIndex);
       }, 30000);
     });
+
 
