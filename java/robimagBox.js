@@ -671,6 +671,14 @@ container.innerHTML = `
    <!-- Hàng thứ 20 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Sound recorder to text</h2>
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://speaknotes.io/free-tools/transcribe/ogg', 'SmartApp Popup', window.innerWidth, 700)">
+          <img src="https://cdn-1.webcatalog.io/catalog/speaknotes/speaknotes-icon-filled-256.png?v=1753061659135">
+</div>
+        <div class="caption">Speaknotes</div>
+      </div>
+      
+</div>
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://turboscribe.ai/vi/dashboard/', 'SmartApp Popup', window.innerWidth, 700)">
           <img src="https://turboscribe.ai/_content/hashed/1575aa4bfd65eca48c4c1529be18d3a0.svg?cr=1&s=8bryVuvieZMCyH5p3bCwnmLZclUPLoaAm9mBuSasaDc">
@@ -684,15 +692,6 @@ container.innerHTML = `
 </div>
         <div class="caption">Otter.ai</div>
       </div>
-
-  <div class="image-box">
-  <div onclick="openRightHalfPopup('https://speaknotes.io/free-tools/transcribe/ogg', 'SmartApp Popup', window.innerWidth, 700)">
-          <img src="https://cdn-1.webcatalog.io/catalog/speaknotes/speaknotes-icon-filled-256.png?v=1753061659135">
-</div>
-        <div class="caption">Otter.ai</div>
-      </div>
-      
-</div>
 
 `;
 
@@ -741,6 +740,7 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
 
