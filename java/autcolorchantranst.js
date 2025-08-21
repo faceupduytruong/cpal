@@ -1,4 +1,6 @@
-  import colors from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/java/colorarray.js';
+document.addEventListener("DOMContentLoaded", () => {
+
+import colors from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/java/colorarray.js';
 
 const glassElements = document.querySelectorAll(".glass-bg");
 const searchInput = document.getElementById("searchInput");
@@ -38,4 +40,7 @@ setInterval(() => {
 document.getElementById("toggleEffectBtn").addEventListener("click", () => {
   applyColor(colorIndex);
   colorIndex = (colorIndex + 1) % colors.length;
+
+});
+
 });
