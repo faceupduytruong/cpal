@@ -12,8 +12,10 @@
     }
   }
 
-  <!-- 👉 Xóa ô nhập vào ô tìm kiếm -->
+  <!-- 👉 Xóa ô nhập vào ô tìm kiếm và xóa ClipboardText -->
   // Hàm xóa nội dung ô nhập
   document.getElementById("DelBtn").onclick = function() {
     document.getElementById("searchInput").value = "";
+    document.getElementById("clipboardText").value = "";   
   }
+
