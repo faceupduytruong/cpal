@@ -684,6 +684,9 @@ container.innerHTML = `
 
 `;
 
+// Thêm vào DOM
+document.body.appendChild(container);
+
 // 👉 Sau khi thêm vào DOM, gọi lại applyColor
 const glassElements = document.querySelectorAll(".glass-bg");
 const color = colors[0]; // hoặc dùng biến colorIndex nếu có
@@ -692,8 +695,8 @@ glassElements.forEach(el => {
   el.style.backgroundColor = color;
 });
 
-// Thêm vào DOM
-document.body.appendChild(container);
-applyColor(colorIndex); // Gọi lại sau khi DOM đã có .glass-bg
+// Gọi lại sau khi DOM đã có .glass-bg
+applyColor(colorIndex); 
+
 
 
