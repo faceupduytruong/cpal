@@ -17,13 +17,3 @@
   document.getElementById("DelBtn").onclick = function() {
     document.getElementById("searchInput").value = "";
   }
-
-// 👉 Dán nội dung từ clipboard
-document.getElementById("PasteBtn").onclick = async function() {
-  try {
-    const text = await navigator.clipboard.readText();
-    document.getElementById("searchInput").value = text;
-  } catch (err) {
-    alert("Không thể truy cập clipboard. Hãy đảm bảo bạn đã cấp quyền.");
-  }
-};
