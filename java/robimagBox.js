@@ -678,8 +678,7 @@ container.innerHTML = `
         <div class="caption">Speaknotes</div>
       </div>
       
-</div>
-  <div class="image-box">
+<div class="image-box">
   <div onclick="openRightHalfPopup('https://turboscribe.ai/vi/dashboard/', 'SmartApp Popup', window.innerWidth, 700)">
           <img src="https://turboscribe.ai/_content/hashed/1575aa4bfd65eca48c4c1529be18d3a0.svg?cr=1&s=8bryVuvieZMCyH5p3bCwnmLZclUPLoaAm9mBuSasaDc">
 </div>
@@ -693,6 +692,7 @@ container.innerHTML = `
         <div class="caption">Otter.ai</div>
       </div>
 
+</div>
 `;
 
 // Thêm vào DOM
@@ -740,6 +740,7 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
 
