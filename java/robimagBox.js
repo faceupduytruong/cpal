@@ -2,7 +2,8 @@
 const container = document.createElement("div");
 container.innerHTML = `
 
- 
+  <h1 class="glowing-text">Artificial Intelligence Administration Center</h1>
+
    <!-- Hàng thứ 1 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Structural<br>System</h2>
@@ -697,6 +698,7 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
 
