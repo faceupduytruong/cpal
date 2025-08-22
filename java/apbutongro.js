@@ -172,27 +172,11 @@ function openYoutube() {
 }
 
 function openSpotify() {
-  const query = getQuery();
+  const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
-
-  // URI để mở ứng dụng Spotify
-  const appUrl = `spotify:search:${encodedQuery}`;
-
-  // URL dự phòng để mở Spotify Web
-  const webUrl = `https://open.spotify.com/search/${encodedQuery}`;
-
-  // Tạo một thẻ <iframe> ẩn để thử mở ứng dụng Spotify
-  const iframe = document.createElement("iframe");
-  iframe.style.display = "none";
-  iframe.src = appUrl;
-  document.body.appendChild(iframe);
-
-  // Sau 500ms, nếu ứng dụng không mở, thì mở Spotify Web
-  setTimeout(() => {
-    window.open(webUrl, "Spotify", `width=700,height=${window.innerHeight},left=${window.innerWidth - 700},top=0`);
-    document.body.removeChild(iframe);
-  }, 500);
-}
+  const url = `https://open.spotify.com/search/${encodedQuery}`;
+  openRightHalfPopup(url,"Spotify", window.innerWidth, 700);
+} 
 
 // 👉 Tạo giao diện nút app
 
@@ -352,6 +336,7 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
 
