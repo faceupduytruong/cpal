@@ -263,12 +263,12 @@ const appButtonsHTML = `
     </div>
 
     <div class="app-button" onclick="openFacebook()">
-      <img src="https://cdn0.iconfinder.com/data/icons/web-social-and-folder-icons/512/Facebook.png" alt="openTwitterX">
+      <img src="https://cdn0.iconfinder.com/data/icons/web-social-and-folder-icons/512/Facebook.png" alt="openFacebook">
       <p>Facebook</p>
     </div>
 
        <div class="app-button" onclick="openYoutube()">
-      <img src="https://alternative.me/media/256/youtube-center-icon-w3mdsze2r8ifo5gv-c.png" alt="openTwitterX">
+      <img src="https://alternative.me/media/256/youtube-center-icon-w3mdsze2r8ifo5gv-c.png" alt="openYoutube">
       <p>Youtube</p>
     </div>
 
@@ -324,7 +324,3 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
-
-
-
-
