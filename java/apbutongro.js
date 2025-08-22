@@ -72,7 +72,7 @@ function openIqiyi() {
   const query = getQuery();
   const encodedQuery = encodeURIComponent(query);
   const url = `https://www.iqiyi.com/search/${encodedQuery}.html`;
-  openRightHalfPopup(url,"Iqiyi", window.innerWidth, 700);
+  openRightHalfPopup(url,"IQiYi", window.innerWidth, 700);
 }
 
 function openTencentVideo() {
@@ -313,4 +313,5 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
