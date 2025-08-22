@@ -171,6 +171,13 @@ function openYoutube() {
   openRightHalfPopup(url,"Youtube", window.innerWidth, 700);
 }
 
+function openSpotify() {
+  const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
+  const encodedQuery = encodeURIComponent(query);
+  const url = `https://open.spotify.com/search/${encodedQuery}`;
+  openRightHalfPopup(url,"Spotify", window.innerWidth, 700);
+}
+
 // 👉 Tạo giao diện nút app
 
 const appsContainer = document.getElementById("appsContainer");
@@ -267,9 +274,14 @@ const appButtonsHTML = `
       <p>Facebook</p>
     </div>
 
-       <div class="app-button" onclick="openYoutube()">
+    <div class="app-button" onclick="openYoutube()">
       <img src="https://alternative.me/media/256/youtube-center-icon-w3mdsze2r8ifo5gv-c.png" alt="openYoutube">
       <p>Youtube</p>
+    </div>
+
+    <div class="app-button" onclick="openSpotify()">
+      <img src="https://cdn.jim-nielsen.com/ios/512/spotify-2012-06-25.png?rf=512" alt="openSpotify">
+      <p>Spotify</p>
     </div>
 
    <!-- 👉 Thêm nhiều app-button khác ở đây -->
@@ -324,3 +336,4 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
