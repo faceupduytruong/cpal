@@ -68,7 +68,7 @@ function openYouku() {
   openRightHalfPopup(url,"Youku", window.innerWidth, 700);
 }
 
-function openIqiyi() {
+function openIQiYi() {
   const query = getQuery();
   const encodedQuery = encodeURIComponent(query);
   const url = `https://www.iqiyi.com/search/${encodedQuery}.html`;
@@ -191,9 +191,9 @@ const appButtonsHTML = `
       <p>Youku</p>
     </div>
 
-    <div class="app-button" onclick="openIqiyi()">
-      <img src="https://pp.myapp.com/ma_icon/0/icon_7720_1754895658/256" alt="Iqiyi">
-      <p>Iqiyi</p>
+    <div class="app-button" onclick="openIQiYi()">
+      <img src="https://pp.myapp.com/ma_icon/0/icon_7720_1754895658/256" alt="IQiYi">
+      <p>IQiYi</p>
     </div>
 
     <div class="app-button" onclick="openTencentVideo()">
@@ -313,5 +313,6 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
