@@ -171,13 +171,6 @@ function openYoutube() {
   openRightHalfPopup(url,"Youtube", window.innerWidth, 700);
 }
 
-<!-- 👉 function openSpotify() {
-  const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
-  const encodedQuery = encodeURIComponent(query);
-  const url = `https://open.spotify.com/search/${encodedQuery}`;
-  openRightHalfPopup(url,"Spotify", window.innerWidth, 700);
-}  -->
-
 function openSpotify() {
   const query = getQuery();
   const encodedQuery = encodeURIComponent(query);
@@ -359,5 +352,6 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
