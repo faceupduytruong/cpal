@@ -164,6 +164,12 @@ function openFacebook() {
   openRightHalfPopup(url,"Facebook", window.innerWidth, 700);
 }
 
+function openYoutube() {
+  const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
+  const encodedQuery = encodeURIComponent(query);
+  const url = `https://www.youtube.com/results?search_query=${encodedQuery}`;
+  openRightHalfPopup(url,"Youtube", window.innerWidth, 700);
+}
 
 // 👉 Tạo giao diện nút app
 
@@ -261,6 +267,11 @@ const appButtonsHTML = `
       <p>Facebook</p>
     </div>
 
+       <div class="app-button" onclick="openYoutube()">
+      <img src="https://alternative.me/media/256/youtube-center-icon-w3mdsze2r8ifo5gv-c.png" alt="openTwitterX">
+      <p>Youtube</p>
+    </div>
+
    <!-- 👉 Thêm nhiều app-button khác ở đây -->
 
 `;
@@ -313,6 +324,7 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
 
