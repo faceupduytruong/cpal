@@ -2,7 +2,6 @@ const suggestions = [
   "JackieChan", // Thành Long – diễn viên hành động
   "JayChou", // Châu Kiệt Luân – ca sĩ, nhạc sĩ
   "FanBingbing", // Phạm Băng Băng – diễn viên
-  "YaoMing", // Diêu Minh – vận động viên bóng rổ
   "ZhaoLiying", // Triệu Lệ Dĩnh – diễn viên
   "DilrabaDilmurat", // Địch Lệ Nhiệt Ba – diễn viên, người mẫu
   "WangYibo", // Vương Nhất Bác – ca sĩ, diễn viên
@@ -31,42 +30,22 @@ const suggestions = [
   "ZhangYimou", // Trương Nghệ Mưu – đạo diễn
   "ChenDaoming", // diễn viên gạo cội
   "LiuYifei", // Lưu Diệc Phi – diễn viên
-  "TangWei", // diễn viên
   "SunLi", // Tôn Lệ – diễn viên
-  "ZhengShuang", // diễn viên
   "BaiBaihe", // diễn viên
-  "MaYili", // diễn viên
-  "TongLiya", // diễn viên
-  "HuangBo", // Hoàng Bột – diễn viên
-  "WangJunkai", // Vương Tuấn Khải – TFBoys
   "JacksonYee", // Dịch Dương Thiên Tỉ – TFBoys
   "ZhangRuoyun", // diễn viên
-  "LiXian", // diễn viên
-  "YangYang", // diễn viên
   "JuJingyi", // ca sĩ, diễn viên
-  "VictoriaSong", // Tống Thiến – ca sĩ, diễn viên
   "ZhangHan", // diễn viên
   "JingBoran", // diễn viên
-  "ChenXiao", // diễn viên
   "ShenYue", // diễn viên
   "WuJing", // Ngô Kinh – diễn viên hành động
-  "ZhaoJinmai", // diễn viên trẻ
-  "LiuHaoran", // diễn viên
-  "ZhangXincheng", // diễn viên
-  "TanSongyun", // diễn viên
-  "BaiJingting", // diễn viên
   "WangKai", // diễn viên
-  "LiuTao", // diễn viên
-  "SunYang", // vận động viên bơi lội
-  "GuAiling", // vận động viên trượt tuyết
   "ZhuTing", // vận động viên bóng chuyền
   "LiWenwen", // vận động viên cử tạ
   "HeBingjiao", // vận động viên cầu lông
   "ChenLong", // vận động viên cầu lông
   "DingJunhui", // vận động viên bi-a
-  "MengMeiqi", // ca sĩ, diễn viên
   "ZhouShen", // ca sĩ
-  "HuaChenyu", // ca sĩ
   "WangFeng", // ca sĩ
   "G.E.M.", // ca sĩ
   "JolinTsai", // Thái Y Lâm – ca sĩ
@@ -75,10 +54,8 @@ const suggestions = [
   "AmberLiu", // ca sĩ
   "JacksonWang", // ca sĩ, thành viên GOT7
   "EstherYu", // Ngu Thư Hân – diễn viên, idol
-  "ZhangZhehan", // diễn viên
   "GaoYuanyuan", // diễn viên
   "LiuShishi", // diễn viên
-  "WilliamChan", // ca sĩ, diễn viên
   "ChenLinong", // ca sĩ
   "CaiXukun", // ca sĩ, idol
   "RenJialun", // diễn viên
@@ -101,7 +78,6 @@ const suggestions = [
   "LiJiaqi", // livestreamer, beauty influencer
   "Viya", // livestreamer
   "Papi酱", // vlogger, influencer
-  "LexieLiu", // rapper, ca sĩ
   "ZhangDayi", // fashion influencer
   "Tibbers", // streamer game
   "Miss", // streamer game
@@ -127,7 +103,6 @@ const suggestions = [
   "MyolieWu", // Hồ Hạnh Nhi – diễn viên
   "TaviaYeung", // Dương Di – diễn viên
   "RucoChan", // Trần Triển Bằng – diễn viên
-  "FayeWong", // Vương Phi – ca sĩ
   "AlanTam", // Đàm Vịnh Lân – ca sĩ
   "SamHui", // Hứa Quan Kiệt – ca sĩ
   "JoeyYung", // Dung Tổ Nhi – ca sĩ
@@ -211,6 +186,144 @@ const suggestions = [
   "EthanRuan", // Nguyễn Kinh Thiên – diễn viên
   "MarkChao", // Triệu Hựu Đình – diễn viên
   "MichelleChen", // Trần Nghiên Hy – diễn viên
-  "KaiKo" // Kha Chấn Đông – diễn viên
+  "KaiKo", // Kha Chấn Đông – diễn viên
+  "YaoMing", // Diêu Minh – vận động viên bóng rổ
+  "ZhangZiyi", // Chương Tử Di – diễn viên
+  "GongLi", // Củng Lợi – diễn viên
+  "LiLianjie", // Lý Liên Kiệt – diễn viên võ thuật
+  "JetLi", // Jet Li – tên tiếng Anh của Lý Liên Kiệt
+  "ZhaoWei", // Triệu Vy – diễn viên
+  "FayeWong", // Vương Phi – ca sĩ
+  "TangWei", // Thang Duy – diễn viên
+  "LiuYifei", // Lưu Diệc Phi – diễn viên
+  "YangMi", // Dương Mịch – diễn viên
+  "ZhouDongyu", // Châu Đông Vũ – diễn viên
+  "XuZheng", // Từ Tranh – đạo diễn, diễn viên hài
+  "XiaoZhan", // Tiêu Chiến – ca sĩ, diễn viên
+  "LayZhang", // Trương Nghệ Hưng – ca sĩ, thành viên EXO
+  "TFBoys", // Nhóm nhạc TFBoys – thần tượng tuổi teen
+  "SunYatSen", // Tôn Trung Sơn – chính trị gia
+  "MaoZedong", // Mao Trạch Đông – lãnh tụ Trung Quốc
+  "DengXiaoping", // Đặng Tiểu Bình – chính trị gia
+  "Confucius", // Khổng Tử – triết gia
+  "IMPei", // Ieoh Ming Pei – kiến trúc sư
+  "ZhangYimou", // Trương Nghệ Mưu – đạo diễn
+  "ChenKaige", // Trần Khải Ca – đạo diễn
+  "LiBingbing", // Lý Băng Băng – diễn viên
+  "LiuTao", // Lưu Đào – diễn viên
+  "HuGe", // Hồ Ca – diễn viên
+  "MaYili", // Mã Y Lợi – diễn viên
+  "HuangBo", // Hoàng Bột – diễn viên
+  "AndyLau", // Lưu Đức Hoa – ca sĩ, diễn viên
+  "TonyLeung", // Lương Triều Vỹ – diễn viên
+  "DonnieYen", // Chân Tử Đan – diễn viên võ thuật
+  "StephenChow", // Châu Tinh Trì – diễn viên hài, đạo diễn
+  "CarinaLau", // Lưu Gia Linh – diễn viên
+  "TangYan", // Đường Yên – diễn viên
+  "ZhengShuang", // Trịnh Sảng – diễn viên
+  "YangYang", // Dương Dương – diễn viên
+  "LiXian", // Lý Hiện – diễn viên
+  "BaiYu", // Bạch Vũ – diễn viên
+  "NiNi", // Nghê Ni – diễn viên
+  "HanGeng", // Hàn Canh – ca sĩ, diễn viên
+  "LuHan", // Lộc Hàm – ca sĩ, diễn viên
+  "KrisWu", // Ngô Diệc Phàm – ca sĩ, diễn viên
+  "ZhangHan", // Trương Hàn – diễn viên
+  "ChenFeiyu", // Trần Phi Vũ – diễn viên
+  "LeoWu", // Ngô Lỗi – diễn viên
+  "ZhaoLiying", // Triệu Lệ Dĩnh – diễn viên
+  "BaiBaihe", // Bạch Bách Hà – diễn viên
+  "HuangXuan", // Hoàng Hiên – diễn viên
+  "LiYuchun", // Lý Vũ Xuân – ca sĩ
+  "HanHong", // Hàn Hồng – ca sĩ
+  "NaYing", // Na Anh – ca sĩ
+  "ZhangJie", // Trương Kiệt – ca sĩ
+  "GEM", // Đặng Tử Kỳ – ca sĩ
+  "JaneZhang", // Trương Lương Dĩnh – ca sĩ
+  "AngelaBaby", // Dương Dĩnh – diễn viên, người mẫu
+  "VictoriaSong", // Tống Thiến – ca sĩ, diễn viên
+  "ChenKun", // Trần Khôn – diễn viên
+  "WallaceHuo", // Hoắc Kiến Hoa – diễn viên
+  "WilliamChan", // Trần Vỹ Đình – ca sĩ, diễn viên
+  "LiChen", // Lý Thần – diễn viên
+  "ZhangRuoyun", // Trương Nhược Quân – diễn viên
+  "GuoJingming", // Quách Kính Minh – nhà văn, đạo diễn
+  "HanHan", // Hàn Hàn – nhà văn, đạo diễn
+  "LangLang", // Lang Lang – nghệ sĩ piano
+  "YundiLi", // Lý Vân Địch – nghệ sĩ piano
+  "AiWeiwei", // Ai Weiwei – nghệ sĩ, nhà hoạt động
+  "MaYun", // Jack Ma – doanh nhân, nhà sáng lập Alibaba
+  "PonyMa", // Mã Hóa Đằng – doanh nhân, nhà sáng lập Tencent
+  "LeiJun", // Lôi Quân – doanh nhân, nhà sáng lập Xiaomi
+  "RobinLi", // Lý Ngạn Hồng – nhà sáng lập Baidu
+  "ZhouHongyi", // Chu Hồng Ỷ – nhà sáng lập Qihoo 360
+  "RenZhengfei", // Nhậm Chính Phi – nhà sáng lập Huawei
+  "ZhangYiming", // Trương Nhất Minh – nhà sáng lập ByteDance
+  "LiNa", // Lý Na – vận động viên quần vợt
+  "SuBingtian", // Tô Bính Thiên – vận động viên điền kinh
+  "GuAiling", // Cốc Á Lăng – vận động viên trượt tuyết
+  "WuJing", // Ngô Kinh – diễn viên, đạo diễn
+  "ZhaoTao", // Triệu Đào – diễn viên
+  "SongJia", // Tống Giai – diễn viên
+  "ZhangZhehan", // Trương Triết Hạn – diễn viên
+  "JingTian", // Cảnh Điềm – diễn viên
+  "ChenXuedong", // Trần Học Đông – diễn viên
+  "LiYifeng", // Lý Dịch Phong – diễn viên
+  "ZhangYixing", // Trương Nghệ Hưng – ca sĩ, diễn viên
+  "HuHaiquan", // Hồ Hải Tuyền – ca sĩ
+  "ChenLi", // Trần Lập – ca sĩ
+  "ZhouShen", // Chu Thâm – ca sĩ
+  "TNT", // Nhóm nhạc TNT – thần tượng tuổi teen
+  "SNH48", // Nhóm nhạc SNH48 – thần tượng nữ
+  "NinePercent", // Nhóm nhạc Nine Percent – thần tượng nam
+  "RocketGirls101", // Nhóm nhạc Rocket Girls 101 – thần tượng nữ
+  "ZhouXun", // Châu Tấn – diễn viên
+  "TongLiya", // Đồng Lệ Á – diễn viên
+  "JingBorany", // Tỉnh Bách Nhiên – diễn viên
+  "LiQin", // Lý Thấm – diễn viên
+  "SongQian", // Tống Thiến – ca sĩ, diễn viên
+  "ZhangTianai", // Trương Thiên Ái – diễn viên
+  "ChenXiao", // Trần Hiểu – diễn viên
+  "GuanXiaotong", // Quan Hiểu Đồng – diễn viên
+  "OuyangNana", // Âu Dương Na Na – nghệ sĩ cello, diễn viên
+  "ZhangZhehan", // Trương Triết Hạn – diễn viên
+  "TanSongyun", // Đàm Tùng Vận – diễn viên
+  "LiRonghao", // Lý Vinh Hạo – ca sĩ, nhạc sĩ
+  "ZhangBichen", // Trương Bích Thần – ca sĩ
+  "WangJunkai", // Vương Tuấn Khải – thành viên TFBoys
+  "WangYuan", // Vương Nguyên – thành viên TFBoys
+  "ZhouShen", // Chu Thâm – ca sĩ
+  "HeJiong", // Hà Cảnh – MC, diễn viên
+  "XieNa", // Tạ Na – MC, ca sĩ
+  "HuaChenyu", // Hoa Thần Vũ – ca sĩ
+  "LiXiaolu", // Lý Tiểu Lộ – diễn viên
+  "ZhangYujian", // Trương Vũ Kiện – diễn viên
+  "ZhaoJinmai", // Triệu Kim Mạch – diễn viên trẻ
+  "WuLei", // Ngô Lỗi – diễn viên
+  "ZhangLinghe", // Trương Lăng Hách – diễn viên
+  "ChenDuling", // Trần Đô Linh – diễn viên
+  "ZhangJiani", // Trương Gia Nghê – diễn viên
+  "SunYang", // Tôn Dương – vận động viên bơi lội
+  "GuoAilun", // Quách Ái Luân – vận động viên bóng rổ
+  "ZhuYilong", // Chu Nhất Long – diễn viên
+  "BaiJingting", // Bạch Kính Đình – diễn viên
+  "SongWeilong", // Tống Uy Long – diễn viên
+  "RenJialun", // Nhậm Gia Luân – diễn viên
+  "ChenZheyuan", // Trần Triết Nguyên – diễn viên
+  "LiuHaoran", // Lưu Hạo Nhiên – diễn viên
+  "ZhangXincheng", // Trương Tân Thành – diễn viên
+  "YangChaoyue", // Dương Siêu Việt – ca sĩ, diễn viên
+  "MengMeiqi", // Mạnh Mỹ Kỳ – ca sĩ, diễn viên
+  "ZhouYe", // Châu Dã – diễn viên
+  "YuShuxin", // Ngu Thư Hân – diễn viên
+  "WangHedi", // Vương Hạc Đệ – diễn viên
+  "DingYuxi", // Đinh Vũ Hề – diễn viên
+  "LuoYunxi", // La Vân Hi – diễn viên
+  "ChengYi", // Thành Nghị – diễn viên
+  "YangZi", // Dương Tử – diễn viên
+  "LiYitong", // Lý Nhất Đồng – diễn viên
+  "ZhangHuili", // Trương Huệ Lệ – vận động viên bóng bàn
+  "ChenMeng", // Trần Mộng – vận động viên bóng bàn
 ];
+
 
