@@ -103,8 +103,9 @@
 
     // Nhận nội dung clipboard từ opener
     window.onload = () => {
-      const text = window.opener?.clipboardText || "(Không có nội dung)";
-      document.getElementById("clipboardContent").textContent = text;
+      const params = new URLSearchParams(window.location.search);
+      const text = params.get("data") || "(Không có nội dung)";
+      document.getElementById("clipboardContent").textContent = decodeURIComponent(text);
     };
   </script>
 </body>
