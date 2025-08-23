@@ -322,6 +322,13 @@ container.innerHTML = `
         <div class="caption">Poe</div>
       </div>
 
+        <div class="image-box">
+  <div onclick="openRightHalfPopup('https://openrouter.ai/models', 'SmartApp Popup', window.innerWidth, 700)">
+          <img src="https://license-market.ir/uploads/image/rootimage/7319/da1b97dc60f6daccd6fe79498c8d4839.jpg?w=800&h=800">
+</div>
+        <div class="caption">OpenRouter</div>
+      </div>
+
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://gemini.google.com/app?hl=vi', 'SmartApp Popup', window.innerWidth, 700)">
           <img src="https://link-meta.dcard.tw/v2/assets/images?signature=CjAKINadzuIKbksjtdBRUBGG-yq49ci6hOMoajMbqB3uCHgDEgwI88j4xAYQlKLAuwE&url=https%3A%2F%2Fwww.gstatic.com%2Flamda%2Fimages%2Fgemini_sparkle_4g_512_lt_f94943af3be039176192d.png">
@@ -747,6 +754,7 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
 
