@@ -324,7 +324,7 @@ container.innerHTML = `
 
         <div class="image-box">
   <div onclick="openRightHalfPopup('https://openrouter.ai/models', 'SmartApp Popup', window.innerWidth, 700)">
-          <img src="https://license-market.ir/uploads/image/rootimage/7319/da1b97dc60f6daccd6fe79498c8d4839.jpg?w=800&h=800">
+          <img src="https://avatars.githubusercontent.com/u/139423088?v=4">
 </div>
         <div class="caption">OpenRouter</div>
       </div>
@@ -754,6 +754,7 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
 
