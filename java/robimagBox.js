@@ -315,6 +315,13 @@ container.innerHTML = `
         <div class="caption">Microsoft Copilot</div>
       </div>
 
+        <div class="image-box">
+  <div onclick="openRightHalfPopup('https://poe.com/', 'SmartApp Popup', window.innerWidth, 700)">
+          <img src="https://play-lh.googleusercontent.com/A9D18P0Sm7s9T4LMjmuL8YWsYSGQrPABiLNh9LNvRrJlQ80HVI4hxe-GaCyi-180Cg=w256">
+</div>
+        <div class="caption">Poe</div>
+      </div>
+
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://gemini.google.com/app?hl=vi', 'SmartApp Popup', window.innerWidth, 700)">
           <img src="https://link-meta.dcard.tw/v2/assets/images?signature=CjAKINadzuIKbksjtdBRUBGG-yq49ci6hOMoajMbqB3uCHgDEgwI88j4xAYQlKLAuwE&url=https%3A%2F%2Fwww.gstatic.com%2Flamda%2Fimages%2Fgemini_sparkle_4g_512_lt_f94943af3be039176192d.png">
@@ -740,6 +747,7 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
 
