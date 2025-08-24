@@ -71,35 +71,6 @@ document.getElementById("PasteBtn").addEventListener("click", async () => {
 });
 
 
- <!-- 👉 Ấn vào nút convertBtn để mở ra trang web Speaknotes -->
-window.addEventListener("DOMContentLoaded", () => {
-   document.getElementById("convertBtn").addEventListener("click", () => {
-    const url = "https://speaknotes.io/free-tools/transcribe/ogg";
-    const title = "Transcribe OGG";
-    openRightHalfPopup(url, title, window.innerWidth, 700);
-  });
-});
-
-
- <!-- 👉 Mở Popup Google translate -->
-let existingPopup = null;
-let lastUrl = "";
-
-async function translateClipboardPopup() {
-  try {
-    const text = await navigator.clipboard.readText();
-    const encodedText = encodeURIComponent(text);
-    const url = `https://translate.google.com.vn/?sl=auto&tl=vi&text=${encodedText}&op=translate`;
-    const title = "Google Dịch";
-
-    openRightHalfPopup(url, title, window.innerWidth, 700);
-  } catch (err) {
-    alert("Không thể đọc clipboard. Hãy cấp quyền truy cập.");
-    console.error(err);
-  }
-}
-
-
 <!-- 👉 Xử lý file ghi âm và lưu lại file ogg -->
   let mediaRecorder;
   let audioChunks = [];
@@ -182,6 +153,7 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
     stopAllSiriSounds();
     // ... xử lý tải về
   });
+
 
 
 
