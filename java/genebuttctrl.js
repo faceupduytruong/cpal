@@ -11,7 +11,8 @@ document.getElementById("DelBtn").addEventListener("click", () => {
       el.innerText = text;
       el.style.display = "inline-block";
       el.style.opacity = "1";
-
+       
+    // Ẩn dòng clipboardText đi sao 30 giây
       setTimeout(() => {
         el.style.opacity = "0";
         setTimeout(() => {
@@ -142,10 +143,9 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
   });
 
 
-
-
-
-
-
-
-
+ <!-- 👉 Ấn vào nút convertBtn để mở ra trang web Speaknotes -->
+   document.getElementById("convertBtn").addEventListener("click", () => {
+    const url = "https://speaknotes.io/free-tools/transcribe/ogg";
+    const title = "Transcribe OGG";
+    openRightHalfPopup(url, title, window.innerWidth, 700);
+  });
