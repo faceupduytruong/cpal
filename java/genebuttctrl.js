@@ -6,7 +6,6 @@ document.getElementById("DelBtn").addEventListener("click", () => {
 
 
   <!-- 👉 JavaScript cho vệc hiển thị & tự động ẩn dòng chữ hiện ra -->
-   window.addEventListener("DOMContentLoaded", () => {
      function showClipboardText(text) {
       const el = document.getElementById("clipboardText");
       el.innerText = text;
@@ -39,7 +38,6 @@ document.getElementById("PasteBtn").addEventListener("click", async () => {
     console.error("Lỗi khi đọc clipboard:", err);
   }
  });
-});
 
 
   <!-- 👉 Hiển thị popup khi nhấn homeBtn -->
@@ -142,6 +140,7 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
     stopAllSiriSounds();
     // ... xử lý tải về
   });
+
 
 
 
