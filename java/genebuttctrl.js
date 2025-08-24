@@ -43,10 +43,8 @@ document.getElementById("PasteBtn").addEventListener("click", async () => {
 
 
   <!-- 👉 Hiển thị popup khi nhấn homeBtn -->
-  <!-- 👉 Hiển thị dòng chữ "I'm Siri, Your Virtual Assisstant khi ấn homeBtn -->
   document.getElementById("homeBtn").onclick = () => {
     document.getElementById("popupOverlay").style.display = "block";
-    showClipboardText("I'm Siri, Your Virtual Assistant");
   };
 
 
@@ -144,6 +142,7 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
     stopAllSiriSounds();
     // ... xử lý tải về
   });
+
 
 
 
