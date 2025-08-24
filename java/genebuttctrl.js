@@ -1,3 +1,8 @@
+ <!-- 👉 Gọi 3 loại Sound Siri -->
+<audio id="audio1" src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/sound/Sound%201.mp3"></audio>
+<audio id="audio2" src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/sound/Sound%202.mp3"></audio>
+<audio id="audio3" src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/sound/Sound%203.mp3"></audio>
+
  <!-- 👉 Ấn nút Delbtn thì dòng chữ biến mất -->
 document.getElementById("DelBtn").addEventListener("click", () => {
   const el = document.getElementById("clipboardText");
@@ -6,6 +11,7 @@ document.getElementById("DelBtn").addEventListener("click", () => {
 
 
   <!-- 👉 JavaScript cho vệc hiển thị & tự động ẩn dòng chữ hiện ra -->
+   window.addEventListener("DOMContentLoaded", () => {
      function showClipboardText(text) {
       const el = document.getElementById("clipboardText");
       el.innerText = text;
@@ -29,7 +35,6 @@ document.getElementById("DelBtn").addEventListener("click", () => {
 
 
   <!-- 👉 Ấn nút Paste thì dòng chữ trong clipboard hiện ra -->
-window.addEventListener("DOMContentLoaded", () => {
 document.getElementById("PasteBtn").addEventListener("click", async () => {
   try {
     const text = await navigator.clipboard.readText();
@@ -45,11 +50,11 @@ document.getElementById("PasteBtn").addEventListener("click", async () => {
   document.getElementById("homeBtn").onclick = () => {
     document.getElementById("popupOverlay").style.display = "block";
   };
+
   <!-- 👉 Hiển thị dòng chữ "I'm Siri, Your Virtual Assisstant khi ấn homeBtn -->
   document.getElementById("homeBtn").addEventListener("click", () => {
     showClipboardText("I'm Siri, Your Virtual Assistant");
   });
-
 
   <!-- 👉 Dòng chữ hiển thị nội dung clipboard -->
 document.getElementById("PasteBtn").addEventListener("click", async () => {
@@ -64,11 +69,13 @@ document.getElementById("PasteBtn").addEventListener("click", async () => {
 
 
  <!-- 👉 Ấn vào nút convertBtn để mở ra trang web Speaknotes -->
+window.addEventListener("DOMContentLoaded", () => {
    document.getElementById("convertBtn").addEventListener("click", () => {
     const url = "https://speaknotes.io/free-tools/transcribe/ogg";
     const title = "Transcribe OGG";
     openRightHalfPopup(url, title, window.innerWidth, 700);
   });
+});
 
 
  <!-- 👉 Mở Popup Google translate -->
@@ -144,11 +151,6 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
 };
 
 
- <!-- 👉 Gọi 3 loại Sound Siri -->
-<audio id="audio1" src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/sound/Sound%201.mp3"></audio>
-<audio id="audio2" src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/sound/Sound%202.mp3"></audio>
-<audio id="audio3" src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/sound/Sound%203.mp3"></audio>
-
 
 <!-- 👉 Dừng âm thanh Voice Siri khi ấn 3 nút Record, Stop, Download -->
   function stopAllSiriSounds() {
@@ -177,3 +179,4 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
     stopAllSiriSounds();
     // ... xử lý tải về
   });
+
