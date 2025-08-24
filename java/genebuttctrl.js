@@ -7,6 +7,29 @@ document.getElementById("DelBtn").addEventListener("click", () => {
 });
 
 
+  <!-- 👉 JavaScript cho vệc hiển thị & tự động ẩn dòng chữ hiện ra -->
+     function showClipboardText(text) {
+      const el = document.getElementById("clipboardText");
+      el.innerText = text;
+      el.style.display = "inline-block";
+      el.style.opacity = "1";
+
+      setTimeout(() => {
+        el.style.opacity = "0";
+        setTimeout(() => {
+          el.style.display = "none";
+        }, 300);
+      }, 300000); // 5 phút
+    }
+    // Lắng nghe sự kiện paste
+    document.addEventListener("paste", (e) => {
+      const pastedText = e.clipboardData.getData("text");
+      if (pastedText) {
+        showClipboardText(pastedText);
+      }
+    });
+
+
   <!-- 👉 Ấn nút Paste thì dòng chữ trong clipboard hiện ra -->
 document.getElementById("PasteBtn").addEventListener("click", async () => {
   try {
@@ -39,29 +62,6 @@ document.getElementById("PasteBtn").addEventListener("click", async () => {
     console.error("Lỗi khi đọc clipboard:", err);
   }
 });
-
-
-  <!-- 👉 JavaScript cho vệc hiển thị & tự động ẩn dòng chữ hiện ra -->
-     function showClipboardText(text) {
-      const el = document.getElementById("clipboardText");
-      el.innerText = text;
-      el.style.display = "inline-block";
-      el.style.opacity = "1";
-
-      setTimeout(() => {
-        el.style.opacity = "0";
-        setTimeout(() => {
-          el.style.display = "none";
-        }, 300);
-      }, 300000); // 5 phút
-    }
-    // Lắng nghe sự kiện paste
-    document.addEventListener("paste", (e) => {
-      const pastedText = e.clipboardData.getData("text");
-      if (pastedText) {
-        showClipboardText(pastedText);
-      }
-    });
 
 
  <!-- 👉 Ấn vào nút convertBtn để mở ra trang web Speaknotes -->
@@ -180,3 +180,4 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
   });
 
 });
+
