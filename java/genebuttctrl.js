@@ -1,4 +1,6 @@
-   <!-- 👉 Ấn nút Delbtn thì dòng chữ biến mất -->
+window.addEventListener("DOMContentLoaded", () => {
+
+ <!-- 👉 Ấn nút Delbtn thì dòng chữ biến mất -->
 document.getElementById("DelBtn").addEventListener("click", () => {
   const el = document.getElementById("clipboardText");
   el.style.opacity = "0";
@@ -175,4 +177,7 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
   document.getElementById("downloadBtn").addEventListener("click", () => {
     stopAllSiriSounds();
     // ... xử lý tải về
+
   });
+
+});
