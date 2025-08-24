@@ -1,4 +1,3 @@
-<script>
 async function showCelebrityInfo() {
   try {
     const items = await navigator.clipboard.read();
@@ -106,4 +105,3 @@ function openRightHalfPopup(url, name, width, height) {
   const left = width / 2;
   window.open(url, name, `width=${width / 2},height=${height},left=${left},top=100`);
 }
-</script>
