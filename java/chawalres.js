@@ -4,6 +4,12 @@ import { resSources } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/doc
 const style = document.createElement('style');
 style.textContent = `
 
+    video.bg-video {
+      position: fixed; top: 0; left: 0;
+      width: 100%; height: 100%;
+      object-fit: cover; z-index: -1;
+    }
+
     .bg-video {
       position: fixed;
       top: 0;
@@ -77,4 +83,5 @@ setInterval(() => {
 document.getElementById("toggleEffectBtn")?.addEventListener("click", () => {
   currentIndex = getRandomIndex(currentIndex);
   loadBackgroundVideo(currentIndex);
+
 });
