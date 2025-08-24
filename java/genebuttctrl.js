@@ -47,6 +47,12 @@ document.getElementById("PasteBtn").addEventListener("click", async () => {
   };
 
 
+ <!-- 👉 Hiển thị dòng chữ "I'm Siri, Your Virtual Assisstant khi ấn homeBtn -->
+  document.getElementById("homeBtn").addEventListener("click", () => {
+    showClipboardText("I'm Siri, Your Virtual Assistant");
+  });
+
+
   <!-- 👉 Dòng chữ hiển thị nội dung clipboard -->
 document.getElementById("PasteBtn").addEventListener("click", async () => {
   try {
@@ -164,3 +170,4 @@ async function translateClipboardPopup() {
     console.error(err);
   }
 }
+
