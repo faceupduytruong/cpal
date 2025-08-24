@@ -1,4 +1,4 @@
-/* Xuất hiện 2 đầu mũi tên trên scrollbar */
+/* Nhúng style scrollbar ốm màu xám trong suốt. Xuất hiện 2 đầu mũi tên trên scrollbar */
 
 /* Chrome, Edge, Safari */
 .player-container::-webkit-scrollbar,
