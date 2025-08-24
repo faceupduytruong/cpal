@@ -1,9 +1,4 @@
- <!-- 👉 Gọi 3 loại Sound Siri -->
-<audio id="audio1" src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/sound/Sound%201.mp3"></audio>
-<audio id="audio2" src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/sound/Sound%202.mp3"></audio>
-<audio id="audio3" src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/sound/Sound%203.mp3"></audio>
-  
- <!-- 👉 Ấn nút Delbtn thì dòng chữ biến mất -->
+  <!-- 👉 Ấn nút Delbtn thì dòng chữ biến mất -->
 document.getElementById("DelBtn").addEventListener("click", () => {
   const el = document.getElementById("clipboardText");
   el.style.opacity = "0";
@@ -150,6 +145,7 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
     stopAllSiriSounds();
     // ... xử lý tải về
   });
+
 
 
 
