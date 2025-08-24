@@ -1,5 +1,3 @@
-window.addEventListener("DOMContentLoaded", () => {
-
  <!-- 👉 Ấn nút Delbtn thì dòng chữ biến mất -->
 document.getElementById("DelBtn").addEventListener("click", () => {
   const el = document.getElementById("clipboardText");
@@ -31,6 +29,7 @@ document.getElementById("DelBtn").addEventListener("click", () => {
 
 
   <!-- 👉 Ấn nút Paste thì dòng chữ trong clipboard hiện ra -->
+window.addEventListener("DOMContentLoaded", () => {
 document.getElementById("PasteBtn").addEventListener("click", async () => {
   try {
     const text = await navigator.clipboard.readText();
@@ -39,8 +38,8 @@ document.getElementById("PasteBtn").addEventListener("click", async () => {
     showClipboardText("Không thể truy cập clipboard");
     console.error("Lỗi khi đọc clipboard:", err);
   }
+ });
 });
-
 
   <!-- 👉 Hiển thị popup khi nhấn homeBtn -->
   document.getElementById("homeBtn").onclick = () => {
@@ -178,6 +177,3 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
     stopAllSiriSounds();
     // ... xử lý tải về
   });
-
-});
-
