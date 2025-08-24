@@ -177,7 +177,6 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
   document.getElementById("downloadBtn").addEventListener("click", () => {
     stopAllSiriSounds();
     // ... xử lý tải về
-
   });
 
 });
