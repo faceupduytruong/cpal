@@ -4,8 +4,7 @@
 <audio id="audio3" src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/sound/Sound%203.mp3"></audio>
 
  <!-- 👉 Nhúng JS cho việc hiển thị vị trí Popup -->
-<script type="module" src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@
-08dd398/java/popriglefhalf.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@08dd398/java/popriglefhalf.js"></script>
   
  <!-- 👉 Ấn nút Delbtn thì dòng chữ biến mất -->
 document.getElementById("DelBtn").addEventListener("click", () => {
@@ -183,5 +182,6 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
     stopAllSiriSounds();
     // ... xử lý tải về
   });
+
 
 
