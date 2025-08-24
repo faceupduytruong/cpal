@@ -1,8 +1,12 @@
-// 👉 Tạo trang web html hiển thị nội dung trong Clipboard
-
 async function showCelebrityInfo() {
   const display = document.getElementById("displayArea");
   display.innerHTML = "";
+
+  // Kiểm tra trình duyệt có hỗ trợ clipboard API không
+  if (!navigator.clipboard || !navigator.clipboard.read) {
+    alert("⚠️ Trình duyệt của bạn không hỗ trợ clipboard.read(). Hãy dùng Chrome hoặc Edge mới nhất.");
+    return;
+  }
 
   try {
     const items = await navigator.clipboard.read();
@@ -60,7 +64,7 @@ async function showCelebrityInfo() {
       display.appendChild(content);
     }
   } catch (err) {
-    alert("⚠️ Không thể truy cập clipboard. Trình duyệt không hỗ trợ hoặc chưa cấp quyền.");
+    alert("❌ Không thể truy cập clipboard. Hãy đảm bảo bạn đã cấp quyền và đang chạy trên HTTPS hoặc localhost.");
     console.error(err);
   }
 }
