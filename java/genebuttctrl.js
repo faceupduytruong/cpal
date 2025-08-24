@@ -149,3 +149,18 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
     const title = "Transcribe OGG";
     openRightHalfPopup(url, title, window.innerWidth, 700);
   });
+
+ <!-- 👉 Mở Popup Google translate -->
+async function translateClipboardPopup() {
+  try {
+    const text = await navigator.clipboard.readText();
+    const encodedText = encodeURIComponent(text);
+    const url = `https://translate.google.com.vn/?sl=auto&tl=vi&text=${encodedText}&op=translate`;
+    const title = "Google Dịch";
+
+    openRightHalfPopup(url, title, window.innerWidth, 700);
+  } catch (err) {
+    alert("Không thể đọc clipboard. Hãy cấp quyền truy cập.");
+    console.error(err);
+  }
+}
