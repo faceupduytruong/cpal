@@ -41,15 +41,14 @@ document.getElementById("PasteBtn").addEventListener("click", async () => {
  });
 });
 
+
   <!-- 👉 Hiển thị popup khi nhấn homeBtn -->
+  <!-- 👉 Hiển thị dòng chữ "I'm Siri, Your Virtual Assisstant khi ấn homeBtn -->
   document.getElementById("homeBtn").onclick = () => {
     document.getElementById("popupOverlay").style.display = "block";
+    showClipboardText("I'm Siri, Your Virtual Assistant");
   };
 
-  <!-- 👉 Hiển thị dòng chữ "I'm Siri, Your Virtual Assisstant khi ấn homeBtn -->
-  document.getElementById("homeBtn").addEventListener("click", () => {
-    showClipboardText("I'm Siri, Your Virtual Assistant");
-  });
 
   <!-- 👉 Dòng chữ hiển thị nội dung clipboard -->
 document.getElementById("PasteBtn").addEventListener("click", async () => {
@@ -145,6 +144,7 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
     stopAllSiriSounds();
     // ... xử lý tải về
   });
+
 
 
 
