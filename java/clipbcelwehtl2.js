@@ -1,6 +1,5 @@
 <!-- 👉 Tạo trang web html hiển thị nội dung trong Clipboard -->
 
-<script>
 async function showCelebrityInfo() {
   const text = await navigator.clipboard.readText();
 
@@ -74,4 +73,3 @@ body::-webkit-scrollbar-thumb {
   const url = URL.createObjectURL(blob);
   openRightHalfPopup(url, "CelebrityInfo", window.innerWidth, 700);
 }
-</script>
