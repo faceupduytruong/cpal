@@ -10,7 +10,7 @@ style.textContent = `
   justify-content: center;
   overflow: hidden;
   background-color: #f0f0f0;
-  margin: 20px auto; /* căn giữa theo chiều ngang */
+  margin: 50px auto; /* căn giữa theo chiều ngang */
 }
 
   #imageZone img {
@@ -23,13 +23,14 @@ document.head.appendChild(style);
 
 // Tạo phần tử tiêu đề và vùng chứa hình ảnh
 const heading = document.createElement('h2');
-heading.textContent = 'Newest album cover';
+heading.textContent = 'Summary of the song's content';
 // Thêm style để căn giữa và font chữ uốn lượn
 heading.style.textAlign = 'center';
-heading.style.marginTop = '20px';
+heading.style.marginTop = '50px';
 heading.style.fontFamily = '"Brush Script MT", "Dancing Script", cursive';
-heading.style.fontSize = '14px'; // kích thước nhỏ vừa phải
-heading.style.color = '#333'; // màu chữ nhẹ nhàng
+heading.style.fontSize = '28px'; // kích thước nhỏ vừa phải
+heading.style.color = '#fff'; // màu chữ trắng
+heading.style.textShadow = '2px 2px 4px rgba(0, 0, 0, 0.3)'; // bóng xám mờ
 document.body.appendChild(heading);
 
 const imageZone = document.createElement('div');
@@ -75,5 +76,6 @@ window.addEventListener('paste', (e) => {
       break;
     }
   }
+
 
 });
