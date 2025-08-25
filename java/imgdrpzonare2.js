@@ -1,3 +1,5 @@
+// Tạo vùng Dropzone Mindmap 320x600 pixel
+
 // Tạo phần tử style và thêm vào head
 const style2 = document.createElement('style');
 style2.textContent = `
@@ -11,8 +13,10 @@ style2.textContent = `
   overflow: hidden;
   background-color: #f0f0f0;
   margin: 20px auto; /* căn giữa theo chiều ngang */
+  font-size: 16px;
+  color: #666;
+  text-align: center;
 }
-
 #imageZone2 img {
   width: 100%;
   height: 100%;
@@ -37,6 +41,7 @@ document.body.appendChild(heading2);
 const imageZone2 = document.createElement('div');
 imageZone2.id = 'imageZone2';
 imageZone2.textContent = 'Thả hoặc dán hình ảnh vào đây';
+imageZone2.setAttribute('tabindex', '0'); // để vùng có thể nhận paste khi được focus
 document.body.appendChild(imageZone2);
 
 // Xử lý kéo hình ảnh
@@ -64,8 +69,8 @@ imageZone2.addEventListener('drop', (e) => {
   }
 });
 
-// Xử lý dán hình ảnh
-window.addEventListener('paste', (e) => {
+// Xử lý dán hình ảnh riêng cho imageZone2
+imageZone2.addEventListener('paste', (e) => {
   const items = e.clipboardData.items;
   for (let item of items) {
     if (item.type.indexOf('image') !== -1) {
@@ -78,7 +83,3 @@ window.addEventListener('paste', (e) => {
     }
   }
 });
-
-
-
-
