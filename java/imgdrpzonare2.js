@@ -1,6 +1,6 @@
 // Tạo phần tử style và thêm vào head
-const style = document.createElement('style');
-style.textContent = `
+const style2 = document.createElement('style');
+style2.textContent = `
 #imageZone2 {
   width: 650px;
   height: 320px;
@@ -19,19 +19,19 @@ style.textContent = `
   object-fit: cover;
 }
 `;
-document.head.appendChild(style);
+document.head.appendChild(style2);
 
 // Tạo phần tử tiêu đề và vùng chứa hình ảnh
-const heading = document.createElement('h2');
-heading.textContent = "Summary of the song's content";
+const heading2 = document.createElement('h2');
+heading2.textContent = "Summary of the song's content";
 // Thêm style để căn giữa và font chữ uốn lượn
-heading.style.textAlign = 'center';
-heading.style.marginTop = '50px';
-heading.style.fontFamily = '"Brush Script MT", "Dancing Script", cursive';
-heading.style.fontSize = '28px'; // kích thước nhỏ vừa phải
-heading.style.color = '#fff'; // màu chữ trắng
-heading.style.textShadow = '2px 2px 4px rgba(0, 0, 0, 0.3)'; // bóng xám mờ
-document.body.appendChild(heading);
+heading2.style.textAlign = 'center';
+heading2.style.marginTop = '50px';
+heading2.style.fontFamily = '"Brush Script MT", "Dancing Script", cursive';
+heading2.style.fontSize = '28px'; // kích thước nhỏ vừa phải
+heading2.style.color = '#fff'; // màu chữ trắng
+heading2.style.textShadow = '2px 2px 4px rgba(0, 0, 0, 0.3)'; // bóng xám mờ
+document.body.appendChild(heading2);
 
 // Tạo vùng chứa hình ảnh mới với ID khác
 const imageZone2 = document.createElement('div');
