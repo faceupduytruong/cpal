@@ -70,7 +70,7 @@ body::-webkit-scrollbar-thumb {
 <script src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@7f29216/java/imgdrpzonare1.js"></script>
 
 <!-- 👉 Nhúng js cho việc dropzone và hiển thị clipboard -->
-<script src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@438d645/java/imgdrpzonare2.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@7b8536d/java/imgdrpzonare2.js"></script>
 
 <div class="content">${text}</div>
 
