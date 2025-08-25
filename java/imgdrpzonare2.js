@@ -2,7 +2,7 @@
 const style2 = document.createElement('style');
 style2.textContent = `
 #imageZone2 {
-  width: 650px;
+  width: 600px;
   height: 320px;
   border: 2px dashed #aaa;
   display: flex;
@@ -10,7 +10,7 @@ style2.textContent = `
   justify-content: center;
   overflow: hidden;
   background-color: #f0f0f0;
-  margin: 150px auto; /* căn giữa theo chiều ngang */
+  margin: 115px auto; /* căn giữa theo chiều ngang */
 }
 
 #imageZone2 img {
@@ -26,7 +26,7 @@ const heading2 = document.createElement('h2');
 heading2.textContent = "Summary of the song's content";
 // Thêm style để căn giữa và font chữ uốn lượn
 heading2.style.textAlign = 'center';
-heading2.style.marginTop = '50px';
+heading2.style.marginTop = '45px';
 heading2.style.fontFamily = '"Brush Script MT", "Dancing Script", cursive';
 heading2.style.fontSize = '28px'; // kích thước nhỏ vừa phải
 heading2.style.color = '#fff'; // màu chữ trắng
@@ -78,3 +78,4 @@ window.addEventListener('paste', (e) => {
     }
   }
 });
+
