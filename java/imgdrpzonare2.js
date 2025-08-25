@@ -1,10 +1,10 @@
-// Tạo vùng Dropzone Mindmap 320x600 pixel
+// Tạo vùng Dropzone Mindmap 320x620 pixel
 
 // Tạo phần tử style và thêm vào head
 const style2 = document.createElement('style');
 style2.textContent = `
 #imageZone2 {
-  width: 600px;
+  width: 620px;
   height: 320px;
   border: 2px dashed #aaa;
   display: flex;
@@ -83,3 +83,4 @@ imageZone2.addEventListener('paste', (e) => {
     }
   }
 });
+
