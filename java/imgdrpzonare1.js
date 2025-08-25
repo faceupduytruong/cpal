@@ -1,7 +1,7 @@
 // Tạo phần tử style và thêm vào head
-const style = document.createElement('style');
-style.textContent = `
-#imageZone {
+const style1 = document.createElement('style');
+style1.textContent = `
+#imageZone1 {
   width: 200px;
   height: 200px;
   border: 2px dashed #aaa;
@@ -13,53 +13,53 @@ style.textContent = `
   margin: 20px auto; /* căn giữa theo chiều ngang */
 }
 
-  #imageZone img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+#imageZone1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 `;
-document.head.appendChild(style);
+document.head.appendChild(style1);
 
 // Tạo phần tử tiêu đề và vùng chứa hình ảnh
-const heading = document.createElement('h2');
-heading.textContent = 'Newest album cover';
+const heading1 = document.createElement('h2');
+heading1.textContent = 'Newest album cover';
 // Thêm style để căn giữa và font chữ uốn lượn
-heading.style.textAlign = 'center';
-heading.style.marginTop = '20px';
-heading.style.fontFamily = '"Brush Script MT", "Dancing Script", cursive';
-heading.style.fontSize = '28px'; // kích thước nhỏ vừa phải
-heading.style.color = '#fff'; // màu chữ trắng
-heading.style.textShadow = '2px 2px 4px rgba(0, 0, 0, 0.3)'; // bóng xám mờ
-document.body.appendChild(heading);
+heading1.style.textAlign = 'center';
+heading1.style.marginTop = '20px';
+heading1.style.fontFamily = '"Brush Script MT", "Dancing Script", cursive';
+heading1.style.fontSize = '28px'; // kích thước nhỏ vừa phải
+heading1.style.color = '#fff'; // màu chữ trắng
+heading1.style.textShadow = '2px 2px 4px rgba(0, 0, 0, 0.3)'; // bóng xám mờ
+document.body.appendChild(heading1);
 
-const imageZone = document.createElement('div');
-imageZone.id = 'imageZone';
-imageZone.textContent = 'Thả hoặc dán hình ảnh vào đây';
-document.body.appendChild(imageZone);
+const imageZone1 = document.createElement('div');
+imageZone1.id = 'imageZone1';
+imageZone1.textContent = 'Thả hoặc dán hình ảnh vào đây';
+document.body.appendChild(imageZone1);
 
 // Xử lý kéo hình ảnh
-imageZone.addEventListener('dragover', (e) => {
+imageZone1.addEventListener('dragover', (e) => {
   e.preventDefault();
-  imageZone.style.borderColor = '#00aaff';
+  imageZone1.style.borderColor = '#00aaff';
 });
 
-imageZone.addEventListener('dragleave', () => {
-  imageZone.style.borderColor = '#aaa';
+imageZone1.addEventListener('dragleave', () => {
+  imageZone1.style.borderColor = '#aaa';
 });
 
-imageZone.addEventListener('drop', (e) => {
+imageZone1.addEventListener('drop', (e) => {
   e.preventDefault();
-  imageZone.style.borderColor = '#aaa';
+  imageZone1.style.borderColor = '#aaa';
 
   const imageUrl = e.dataTransfer.getData('text/uri-list') || e.dataTransfer.getData('text/plain');
   if (imageUrl && imageUrl.match(/\.(jpeg|jpg|gif|png|webp)$/i)) {
     const img = document.createElement('img');
     img.src = imageUrl;
-    imageZone.innerHTML = '';
-    imageZone.appendChild(img);
+    imageZone1.innerHTML = '';
+    imageZone1.appendChild(img);
   } else {
-    imageZone.innerHTML = 'Không phải hình ảnh hợp lệ!';
+    imageZone1.innerHTML = 'Không phải hình ảnh hợp lệ!';
   }
 });
 
@@ -71,11 +71,9 @@ window.addEventListener('paste', (e) => {
       const blob = item.getAsFile();
       const img = document.createElement('img');
       img.src = URL.createObjectURL(blob);
-      imageZone.innerHTML = '';
-      imageZone.appendChild(img);
+      imageZone1.innerHTML = '';
+      imageZone1.appendChild(img);
       break;
     }
   }
-
-
 });
