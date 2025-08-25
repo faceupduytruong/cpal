@@ -1,17 +1,17 @@
 // Tạo phần tử style và thêm vào head
 const style = document.createElement('style');
 style.textContent = `
-  #imageZone {
-    width: 300px;
-    height: 300px;
-    border: 2px dashed #aaa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background-color: #f0f0f0;
-    margin-top: 20px;
-  }
+#imageZone {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  margin: 20px auto; /* căn giữa theo chiều ngang */
+}
 
   #imageZone img {
     width: 100%;
@@ -23,7 +23,13 @@ document.head.appendChild(style);
 
 // Tạo phần tử tiêu đề và vùng chứa hình ảnh
 const heading = document.createElement('h2');
-heading.textContent = 'Kéo hoặc Dán hình ảnh vào vùng dưới đây 🖼️';
+heading.textContent = 'Newest album cover';
+// Thêm style để căn giữa và font chữ uốn lượn
+heading.style.textAlign = 'center';
+heading.style.marginTop = '20px';
+heading.style.fontFamily = '"Brush Script MT", "Dancing Script", cursive';
+heading.style.fontSize = '14px'; // kích thước nhỏ vừa phải
+heading.style.color = '#333'; // màu chữ nhẹ nhàng
 document.body.appendChild(heading);
 
 const imageZone = document.createElement('div');
@@ -69,4 +75,5 @@ window.addEventListener('paste', (e) => {
       break;
     }
   }
+
 });
