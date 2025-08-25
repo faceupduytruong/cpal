@@ -66,9 +66,6 @@ body::-webkit-scrollbar-thumb {
         <h1>Celebrity profile you're searching for</h1>
 
 
-  <div id="imageZone">Thả hoặc dán hình ảnh vào đây</div>
-
-
 <!-- 👉 Nhúng js cho việc dropzone và hiển thị clipboard -->
 <script src="https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@be184de/java/imgdrpzonare.js"></script>
 
