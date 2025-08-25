@@ -10,7 +10,7 @@ style.textContent = `
   justify-content: center;
   overflow: hidden;
   background-color: #f0f0f0;
-  margin: 50px auto; /* căn giữa theo chiều ngang */
+  margin: 150px auto; /* căn giữa theo chiều ngang */
 }
 
   #imageZone img {
@@ -79,3 +79,4 @@ window.addEventListener('paste', (e) => {
 
 
 });
+
