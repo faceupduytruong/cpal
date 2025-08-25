@@ -1,7 +1,7 @@
 // Tạo phần tử style và thêm vào head
 const style = document.createElement('style');
 style.textContent = `
-#imageZone {
+#imageZone2 {
   width: 650px;
   height: 320px;
   border: 2px dashed #aaa;
@@ -13,17 +13,17 @@ style.textContent = `
   margin: 150px auto; /* căn giữa theo chiều ngang */
 }
 
-  #imageZone img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+#imageZone2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 `;
 document.head.appendChild(style);
 
 // Tạo phần tử tiêu đề và vùng chứa hình ảnh
 const heading = document.createElement('h2');
-heading.textContent = 'Summary of the song's content';
+heading.textContent = "Summary of the song's content";
 // Thêm style để căn giữa và font chữ uốn lượn
 heading.style.textAlign = 'center';
 heading.style.marginTop = '50px';
@@ -33,33 +33,34 @@ heading.style.color = '#fff'; // màu chữ trắng
 heading.style.textShadow = '2px 2px 4px rgba(0, 0, 0, 0.3)'; // bóng xám mờ
 document.body.appendChild(heading);
 
-const imageZone = document.createElement('div');
-imageZone.id = 'imageZone';
-imageZone.textContent = 'Thả hoặc dán hình ảnh vào đây';
-document.body.appendChild(imageZone);
+// Tạo vùng chứa hình ảnh mới với ID khác
+const imageZone2 = document.createElement('div');
+imageZone2.id = 'imageZone2';
+imageZone2.textContent = 'Thả hoặc dán hình ảnh vào đây';
+document.body.appendChild(imageZone2);
 
 // Xử lý kéo hình ảnh
-imageZone.addEventListener('dragover', (e) => {
+imageZone2.addEventListener('dragover', (e) => {
   e.preventDefault();
-  imageZone.style.borderColor = '#00aaff';
+  imageZone2.style.borderColor = '#00aaff';
 });
 
-imageZone.addEventListener('dragleave', () => {
-  imageZone.style.borderColor = '#aaa';
+imageZone2.addEventListener('dragleave', () => {
+  imageZone2.style.borderColor = '#aaa';
 });
 
-imageZone.addEventListener('drop', (e) => {
+imageZone2.addEventListener('drop', (e) => {
   e.preventDefault();
-  imageZone.style.borderColor = '#aaa';
+  imageZone2.style.borderColor = '#aaa';
 
   const imageUrl = e.dataTransfer.getData('text/uri-list') || e.dataTransfer.getData('text/plain');
   if (imageUrl && imageUrl.match(/\.(jpeg|jpg|gif|png|webp)$/i)) {
     const img = document.createElement('img');
     img.src = imageUrl;
-    imageZone.innerHTML = '';
-    imageZone.appendChild(img);
+    imageZone2.innerHTML = '';
+    imageZone2.appendChild(img);
   } else {
-    imageZone.innerHTML = 'Không phải hình ảnh hợp lệ!';
+    imageZone2.innerHTML = 'Không phải hình ảnh hợp lệ!';
   }
 });
 
@@ -71,12 +72,9 @@ window.addEventListener('paste', (e) => {
       const blob = item.getAsFile();
       const img = document.createElement('img');
       img.src = URL.createObjectURL(blob);
-      imageZone.innerHTML = '';
-      imageZone.appendChild(img);
+      imageZone2.innerHTML = '';
+      imageZone2.appendChild(img);
       break;
     }
   }
-
-
 });
-
