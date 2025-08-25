@@ -28,8 +28,9 @@ heading.textContent = 'Newest album cover';
 heading.style.textAlign = 'center';
 heading.style.marginTop = '20px';
 heading.style.fontFamily = '"Brush Script MT", "Dancing Script", cursive';
-heading.style.fontSize = '14px'; // kích thước nhỏ vừa phải
-heading.style.color = '#333'; // màu chữ nhẹ nhàng
+heading.style.fontSize = '28px'; // kích thước nhỏ vừa phải
+heading.style.color = '#fff'; // màu chữ trắng
+heading.style.textShadow = '2px 2px 4px rgba(0, 0, 0, 0.3)'; // bóng xám mờ
 document.body.appendChild(heading);
 
 const imageZone = document.createElement('div');
@@ -75,5 +76,6 @@ window.addEventListener('paste', (e) => {
       break;
     }
   }
+
 
 });
