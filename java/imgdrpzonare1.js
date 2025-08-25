@@ -1,4 +1,6 @@
-// Tạo phần tử style và thêm vào head
+// Tạo vùng Dropzone bìa đĩa album 200x200 pixel
+
+// Tạo phần tử style và thêm vào head 
 const style1 = document.createElement('style');
 style1.textContent = `
 #imageZone1 {
@@ -11,8 +13,10 @@ style1.textContent = `
   overflow: hidden;
   background-color: #f0f0f0;
   margin: 20px auto; /* căn giữa theo chiều ngang */
+  font-size: 14px;
+  color: #666;
+  text-align: center;
 }
-
 #imageZone1 img {
   width: 100%;
   height: 100%;
@@ -33,9 +37,11 @@ heading1.style.color = '#fff'; // màu chữ trắng
 heading1.style.textShadow = '2px 2px 4px rgba(0, 0, 0, 0.3)'; // bóng xám mờ
 document.body.appendChild(heading1);
 
+// Tạo vùng chứa hình ảnh
 const imageZone1 = document.createElement('div');
 imageZone1.id = 'imageZone1';
 imageZone1.textContent = 'Thả hoặc dán hình ảnh vào đây';
+imageZone1.setAttribute('tabindex', '0'); // để vùng có thể nhận paste khi focus
 document.body.appendChild(imageZone1);
 
 // Xử lý kéo hình ảnh
@@ -63,8 +69,8 @@ imageZone1.addEventListener('drop', (e) => {
   }
 });
 
-// Xử lý dán hình ảnh
-window.addEventListener('paste', (e) => {
+// Xử lý dán hình ảnh riêng cho imageZone1
+imageZone1.addEventListener('paste', (e) => {
   const items = e.clipboardData.items;
   for (let item of items) {
     if (item.type.indexOf('image') !== -1) {
