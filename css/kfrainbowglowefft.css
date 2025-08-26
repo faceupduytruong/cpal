@@ -1,0 +1,31 @@
+    /* Keyframes phát sáng 7 màu lan tỏa bắt đầu từ tím */
+    @keyframes rainbowGlowShift {
+      0%   { box-shadow: 0 0 20px indigo, 0 0 40px indigo, 0 0 60px indigo; }
+      14%  { box-shadow: 0 0 20px orange, 0 0 40px orange, 0 0 60px orange; }
+      28%  { box-shadow: 0 0 20px yellow, 0 0 40px yellow, 0 0 60px yellow; }
+      42%  { box-shadow: 0 0 20px green, 0 0 40px green, 0 0 60px green; }
+      57%  { box-shadow: 0 0 20px blue, 0 0 40px blue, 0 0 60px blue; }
+      71%  { box-shadow: 0 0 20px red, 0 0 40px red, 0 0 60px red; }
+      85%  { box-shadow: 0 0 20px violet, 0 0 40px violet, 0 0 60px violet; }
+      100% { box-shadow: 0 0 20px indigo, 0 0 40px indigo, 0 0 60px indigo; }
+    }
+
+/* Keyframes phát sáng 7 màu lan tỏa bắt đầu từ đỏ */
+    @keyframes rainbowGlow {
+      0%   { box-shadow: 0 0 20px red, 0 0 40px red, 0 0 60px red; }
+      14%  { box-shadow: 0 0 20px orange, 0 0 40px orange, 0 0 60px orange; }
+      28%  { box-shadow: 0 0 20px yellow, 0 0 40px yellow, 0 0 60px yellow; }
+      42%  { box-shadow: 0 0 20px green, 0 0 40px green, 0 0 60px green; }
+      57%  { box-shadow: 0 0 20px blue, 0 0 40px blue, 0 0 60px blue; }
+      71%  { box-shadow: 0 0 20px indigo, 0 0 40px indigo, 0 0 60px indigo; }
+      85%  { box-shadow: 0 0 20px violet, 0 0 40px violet, 0 0 60px violet; }
+      100% { box-shadow: 0 0 20px red, 0 0 40px red, 0 0 60px red; }
+    }
+
+      /* Hiệu ứng chữ cầu vồng khi hover */
+     @keyframes rainbowMove {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+
