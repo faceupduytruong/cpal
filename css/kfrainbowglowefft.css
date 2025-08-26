@@ -122,3 +122,13 @@
     opacity: 0;
   }
 }
+
+@keyframes fall {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  100% {
+    top: 100vh;
+    transform: translateX(200px) rotate(360deg);
+  }
+}
