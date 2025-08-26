@@ -64,3 +64,36 @@
     opacity: 1;
   }
 }
+
+@keyframes yellowPulse {
+  0% {
+    text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff33, 0 0 20px #ffcc00; /* vàng rực */
+    opacity: 1;
+  }
+  50% {
+    text-shadow: 0 0 2px #cc6600, 0 0 4px #993300; /* cam đậm */
+    opacity: 0.5;
+  }
+  100% {
+    text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff33, 0 0 20px #ffcc00;
+    opacity: 1;
+  }
+}
+
+@keyframes bluePulse {
+  0% {
+    color: #ffffff; /* Trắng hoàn toàn đậm */
+    text-shadow: 0 0 10px #0000ff, 0 0 20px #0000ff;  /* Xanh dương đậm */
+    opacity: 1;
+  }
+  50% {
+    color: #ffffff; /* Trắng hoàn toàn đậm */
+    text-shadow: 0 0 15px #00bfff, 0 0 30px #00bfff;  /* Xanh dương nhạt */
+    opacity: 0.9;
+  }
+  100% {
+    color: #ffffff; /* Trắng hoàn toàn đậm */ 
+    text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;  /* Trắng hoàn toàn đậm */
+    opacity: 1;
+  }
+}
