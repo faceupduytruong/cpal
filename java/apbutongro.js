@@ -187,21 +187,21 @@ function openSpotify() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
   const url = `https://open.spotify.com/search/${encodedQuery}`;
-  openRightHalfPopup(url,"Spotify", window.innerWidth*2, 700);
+  openRightHalfPopup(url,"Spotify", window.innerWidth*2 + 40, 700);
 } 
 
 function openSoundCloud() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
   const url = `https://soundcloud.com/search?q=${encodedQuery}`;
-  openRightHalfPopup(url, "SoundCloud", window.innerWidth*2, 700);
+  openRightHalfPopup(url, "SoundCloud", window.innerWidth*2 + 40, 700);
 }
 
 function openApplePodcast() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
   const url = `https://podcasts.apple.com/vn/search?term=${encodedQuery}`;
-  openRightHalfPopup(url, "ApplePodcast", window.innerWidth*2, 700);
+  openRightHalfPopup(url, "ApplePodcast", window.innerWidth*2 + 40, 700);
 }
 
 function openCenterManager() {
@@ -388,6 +388,7 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
 
