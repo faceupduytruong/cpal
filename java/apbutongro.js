@@ -197,6 +197,13 @@ function openSoundCloud() {
   openRightHalfPopup(url, "SoundCloud", window.innerWidth, 700);
 }
 
+function openApplePodcast() {
+  const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
+  const encodedQuery = encodeURIComponent(query);
+  const url = `https://podcasts.apple.com/vn/search?term=${encodedQuery}`;
+  openRightHalfPopup(url, "ApplePodcast", window.innerWidth, 700);
+}
+
 function openCenterManager() {
   const url = `file:///C:/Users/Admin/OneDrive/Documents/Reset%20System%20Windows/Music%20Playlist/index.html`;
   openRightHalfPopup(url, "CenterManager", window.innerWidth, 700);
@@ -315,12 +322,17 @@ const appButtonsHTML = `
     </div>
 
     <div class="app-button" onclick="openSoundCloud()">
-      <img src="https://koyesthepromoter.com/wp-content/uploads/2021/12/SoundCloud-promotion.png" alt="openSpotify">
+      <img src="https://icons.iconarchive.com/icons/uiconstock/noir-social-media/512/soundcloud-icon.png" alt="openSoundCloud">
       <p>SoundCloud</p>
     </div>
 
+    <div class="app-button" onclick="openApplePodcast()">
+      <img src="https://colorinmypiano.com/wp-content/uploads/2015/09/Podcasts-iOS-7.png" alt="openApplePodcast">
+      <p>ApplePodcast</p>
+    </div>
+
     <div class="app-button" onclick="openCenterManager()">
-      <img src="https://pp.myapp.com/ma_icon/0/icon_11323616_1751360470/256" alt="openCenterManager">
+      <img src="https://img.appledb.dev/images@256/tvOS/0.png" alt="openCenterManager">
       <p>CenterManager</p>
     </div>
 
@@ -376,6 +388,7 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
 
