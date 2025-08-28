@@ -290,7 +290,7 @@ const appButtonsHTML = `
     </div>
 
     <div class="app-button" onclick="openCenterManager()">
-      <img src="https://www.storagereview.com/wp-content/uploads/2021/04/thumb_256.png" alt="openCenterManager">
+      <img src="https://pp.myapp.com/ma_icon/0/icon_11323616_1751360470/256" alt="openCenterManager">
       <p>CenterManager</p>
     </div>
 
@@ -346,6 +346,7 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
 
