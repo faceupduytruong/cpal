@@ -179,8 +179,8 @@ function openSpotify() {
 } 
 
 function openCenterManager() {
-  const url = `file:///C:/Users/Admin/OneDrive/Documents/Reset%20System%20Windows/Music%20Playlist/index.html';
-  openRightHalfPopup(url,"CenterManager", window.innerWidth, 700);
+  const url = `file:///C:/Users/Admin/OneDrive/Documents/Reset%20System%20Windows/Music%20Playlist/index.html`;
+  openRightHalfPopup(url, "CenterManager", window.innerWidth, 700);
 }
 
 // 👉 Tạo giao diện nút app
@@ -346,6 +346,7 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
 
