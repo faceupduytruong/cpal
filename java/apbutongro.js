@@ -179,7 +179,7 @@ function openSpotify() {
 } 
 
 function openCenterManager() {
-  const url = `file:///C:/Users/Admin/OneDrive/Documents/Reset%20System%20Windows/Music%20Playlist/index.html;
+  const url = `file:///C:/Users/Admin/OneDrive/Documents/Reset%20System%20Windows/Music%20Playlist/index.html';
   openRightHalfPopup(url,"CenterManager", window.innerWidth, 700);
 }
 
@@ -346,6 +346,7 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
 
