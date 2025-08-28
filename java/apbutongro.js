@@ -129,6 +129,18 @@ function openTalkin() {
   openRightHalfPopup(url,"Talkin", window.innerWidth, 700);
 }
 
+function openTalkinapp() {
+  fetch('http://127.0.0.1:5000/run-talkin')
+    .then(response => response.text())
+    .then(data => {
+      console.log("Đã gọi API:", data);
+    })
+    .catch(error => {
+      console.error("Lỗi khi gọi API:", error);
+      alert("Không thể kết nối đến server Flask. Hãy kiểm tra lại.");
+    });
+}
+
 function openIzuiyou() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
@@ -249,6 +261,12 @@ const appButtonsHTML = `
       <p>Talkin</p>
     </div>
 
+<div class="app-button" onclick="openTalkinapp()">
+  <img src="https://play-lh.googleusercontent.com/5Yu9hrHeOxSpud_PKuMyE_dprMPUiXYu15C4XtR2T2U1szlO2MKJdP1QL94i0AfcFg=w240-h480-rw" alt="Talkin">
+  <p>Talkin app</p>
+</div>
+
+
     <div class="app-button" onclick="openIzuiyou()">
       <img src="https://i-2.92sucai.com/2025/7/25/4741527e-234f-41ab-a7a1-0c829d59d491.png" alt="Izuiyou">
       <p>Izuiyou</p>
@@ -346,6 +364,7 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
 
