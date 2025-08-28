@@ -137,7 +137,7 @@ function openTalkinapp() {
     })
     .catch(error => {
       console.error("Lỗi khi gọi API:", error);
-      alert("Không thể kết nối đến server Flask. Hãy kiểm tra lại.");
+      alert("We're having trouble connecting to the Flask server. Please verify that it's running properly.");
     });
 }
 
@@ -189,6 +189,13 @@ function openSpotify() {
   const url = `https://open.spotify.com/search/${encodedQuery}`;
   openRightHalfPopup(url,"Spotify", window.innerWidth, 700);
 } 
+
+function openSoundCloud() {
+  const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
+  const encodedQuery = encodeURIComponent(query);
+  const url = `https://soundcloud.com/search?q=${encodedQuery}`;
+  openRightHalfPopup(url, "SoundCloud", window.innerWidth, 700);
+}
 
 function openCenterManager() {
   const url = `file:///C:/Users/Admin/OneDrive/Documents/Reset%20System%20Windows/Music%20Playlist/index.html`;
@@ -307,6 +314,11 @@ const appButtonsHTML = `
       <p>Spotify</p>
     </div>
 
+    <div class="app-button" onclick="openSoundCloud()">
+      <img src="https://koyesthepromoter.com/wp-content/uploads/2021/12/SoundCloud-promotion.png" alt="openSpotify">
+      <p>SoundCloud</p>
+    </div>
+
     <div class="app-button" onclick="openCenterManager()">
       <img src="https://pp.myapp.com/ma_icon/0/icon_11323616_1751360470/256" alt="openCenterManager">
       <p>CenterManager</p>
@@ -364,6 +376,7 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
 
