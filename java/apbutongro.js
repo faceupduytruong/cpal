@@ -178,6 +178,11 @@ function openSpotify() {
   openRightHalfPopup(url,"Spotify", window.innerWidth, 700);
 } 
 
+function openCenterManager() {
+  const url = `file:///C:/Users/Admin/OneDrive/Documents/Reset%20System%20Windows/Music%20Playlist/index.html;
+  openRightHalfPopup(url,"CenterManager", window.innerWidth, 700);
+}
+
 // 👉 Tạo giao diện nút app
 
 const appsContainer = document.getElementById("appsContainer");
@@ -284,6 +289,11 @@ const appButtonsHTML = `
       <p>Spotify</p>
     </div>
 
+    <div class="app-button" onclick="openCenterManager()">
+      <img src="https://www.storagereview.com/wp-content/uploads/2021/04/thumb_256.png" alt="openCenterManager">
+      <p>CenterManager</p>
+    </div>
+
    <!-- 👉 Thêm nhiều app-button khác ở đây -->
 
 `;
@@ -336,6 +346,7 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
 
