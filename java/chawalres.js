@@ -22,25 +22,6 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-
-// 👉 Tạo video nền
-const video = document.createElement('video');
-video.id = 'bgVideo';
-video.autoplay = true;
-video.muted = true;
-video.loop = true;
-video.playsInline = true;
-video.style.position = 'fixed';
-video.style.top = '0';
-video.style.left = '0';
-video.style.width = '100vw';
-video.style.height = '100vh';
-video.style.objectFit = 'cover';
-video.style.zIndex = '-1';
-video.style.transition = 'opacity 1s ease-in-out';
-document.body.appendChild(video);
-
-
 // 👉 Logic đổi video
 const video = document.getElementById('bgVideo');
 let currentIndex = -1;
@@ -79,4 +60,5 @@ document.getElementById("toggleEffectBtn")?.addEventListener("click", () => {
   loadBackgroundVideo(currentIndex);
 
 });
+
 
