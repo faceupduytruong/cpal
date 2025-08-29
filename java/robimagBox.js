@@ -322,6 +322,7 @@ container.innerHTML = `
         <div class="caption">Poe</div>
       </div>
 
+        <div class="image-box">
         <div onclick="openRightHalfPopup('https://www.toolify.ai/', 'SmartApp Popup', window.innerWidth, 700)">
           <img src="https://ph-files.imgix.net/ec89dc60-a341-4b1f-bbb3-450783916aa9.png?auto=format">
 </div>
@@ -760,6 +761,7 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
 
