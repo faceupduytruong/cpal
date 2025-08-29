@@ -322,6 +322,12 @@ container.innerHTML = `
         <div class="caption">Poe</div>
       </div>
 
+        <div onclick="openRightHalfPopup('https://www.toolify.ai/', 'SmartApp Popup', window.innerWidth, 700)">
+          <img src="https://ph-files.imgix.net/ec89dc60-a341-4b1f-bbb3-450783916aa9.png?auto=format">
+</div>
+        <div class="caption">Toolify.ai</div>
+      </div>
+
         <div class="image-box">
   <div onclick="openRightHalfPopup('https://openrouter.ai/models', 'SmartApp Popup', window.innerWidth, 700)">
           <img src="https://avatars.githubusercontent.com/u/139423088?v=4">
@@ -754,6 +760,7 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
 
