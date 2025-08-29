@@ -38,6 +38,10 @@ setInterval(() => {
 document.getElementById("toggleEffectBtn").addEventListener("click", () => {
   applyColor(colorIndex);
   colorIndex = (colorIndex + 1) % colors.length;
-
 });
 
+// 👉 Ngăn Popup đóng khi nhấn nút toggle
+document.getElementById("toggleEffectBtn").addEventListener("click", function(event) {
+  event.stopPropagation();
+  event.stopImmediatePropagation();
+});
