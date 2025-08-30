@@ -127,6 +127,8 @@ function openTalkin() {
   const encodedQuery = encodeURIComponent(query);
   const url = `https://news.qq.com/search?query=${encodedQuery}&page=1`;
   openRightHalfPopup(url,"Talkin", window.innerWidth, 700);
+  event.stopPropagation();              // Ngăn lan ra ngoài
+  event.stopImmediatePropagation();     // Ngăn mọi listener khác xử lý
 }
 
 function openTalkinapp() {
@@ -388,6 +390,7 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
     talkinClickCount++;
   }
+
 
 
 
