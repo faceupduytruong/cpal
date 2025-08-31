@@ -343,6 +343,13 @@ container.innerHTML = `
         <div class="caption">Gemini</div>
       </div>
 
+              <div class="image-box">
+  <div onclick="openRightHalfPopup('https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=3&atb=v487-1', 'SmartApp Popup', window.innerWidth, 700)">
+          <img src="https://cdn-1.webcatalog.io/catalog/duckduckgo-ai-chat/duckduckgo-ai-chat-icon-filled-256.png?v=1754872352660">
+</div>
+        <div class="caption">DuckDuckGo</div>
+      </div>
+
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://chat.deepseek.com/', 'SmartApp Popup', window.innerWidth, 700)">
           <img src="https://cdn.deepseek.com/chat/icon.png">
@@ -761,6 +768,7 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
 
