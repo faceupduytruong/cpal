@@ -338,7 +338,7 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://gemini.google.com/app?hl=vi', 'SmartApp Popup', window.innerWidth, 700)">
-          <img src="https://link-meta.dcard.tw/v2/assets/images?signature=CjAKINadzuIKbksjtdBRUBGG-yq49ci6hOMoajMbqB3uCHgDEgwI88j4xAYQlKLAuwE&url=https%3A%2F%2Fwww.gstatic.com%2Flamda%2Fimages%2Fgemini_sparkle_4g_512_lt_f94943af3be039176192d.png">
+          <img src="https://embed.zenn.studio/api/optimize-og-image/8ab1b6a021cf8837f99e/https%3A%2F%2Fwww.gstatic.com%2Fimages%2Fbranding%2Fproductlogos%2Fgemini_2025%2Fv1%2F192px.svg">
 </div>
         <div class="caption">Gemini</div>
       </div>
@@ -768,6 +768,7 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
 
