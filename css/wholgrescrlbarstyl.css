@@ -3,10 +3,13 @@ const style = document.createElement('style');
 style.textContent = `
 
     body {
-      overflow: auto; /* OK */
+      margin-bottom: 0 !important;
+      padding-bottom: 0 !important;
+      overflow: auto;
     }
     body::-webkit-scrollbar {
       width: 5px;
+      display: none;
     }
     body::-webkit-scrollbar-track {
       background: rgba(30, 30, 30, 0.3);
@@ -28,4 +31,5 @@ style.textContent = `
 
 
 `;
+
 document.head.appendChild(style);
