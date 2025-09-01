@@ -22,6 +22,17 @@
       100% { box-shadow: 0 0 20px red, 0 0 40px red, 0 0 60px red; }
     }
 
+@keyframes rainbowengGlow {
+  0%   { box-shadow: 0 0 30px rgba(255,0,0,0.9); }
+  14%  { box-shadow: 0 0 30px rgba(255,127,0,0.9); }
+  28%  { box-shadow: 0 0 30px rgba(255,255,0,0.9); }
+  42%  { box-shadow: 0 0 30px rgba(0,255,0,0.9); }
+  57%  { box-shadow: 0 0 30px rgba(0,0,255,0.9); }
+  71%  { box-shadow: 0 0 30px rgba(75,0,130,0.9); }
+  85%  { box-shadow: 0 0 30px rgba(148,0,211,0.9); }
+  100% { box-shadow: 0 0 30px rgba(255,0,0,0.9); }
+}
+
       /* Hiệu ứng chữ cầu vồng khi hover */
      @keyframes rainbowMove {
         0% { background-position: 0% 50%; }
@@ -130,5 +141,26 @@
   100% {
     top: 100vh;
     transform: translateX(200px) rotate(360deg);
+  }
+}
+
+@keyframes redGlow {
+  0%   { text-shadow: 0 0 5px #ff0000; }
+  50%  { text-shadow: 0 0 20px #ff3333; }
+  100% { text-shadow: 0 0 5px #ff0000; }
+}
+
+@keyframes redbackgroundGlow {
+  0% {
+    background-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+  }
+  50% {
+    background-color: #ff3333;
+    box-shadow: 0 0 30px #ff3333;
+  }
+  100% {
+    background-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
   }
 }
