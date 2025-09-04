@@ -14,7 +14,7 @@ export function openRightHalfPopup(url, title, w, h) {
 window.openRightHalfPopup = openRightHalfPopup;
 
 // 👉 Hàm 2: Mở popup bên phải với tên cố định theo nền tảng
-export function openPlatformPopup(platform, url, w = window.innerWidth, h = 700) {
+export function openPlatformPopup(platform, url, w = window.innerWidth, h = 745) {
   const screenLeft = window.screenLeft ?? window.screenX;
   const screenTop = window.screenTop ?? window.screenY;
   const width = window.innerWidth ?? document.documentElement.clientWidth ?? screen.width;
@@ -35,7 +35,7 @@ export function openPlatformPopup(platform, url, w = window.innerWidth, h = 700)
 window.openPlatformPopup = openPlatformPopup;
 
 // 👉 Hàm 3: Mở popup bên trái với tên cố định theo nền tảng
-export function openPlatformPopupLeft(platform, url, w = window.innerWidth, h = 700) {
+export function openPlatformPopupLeft(platform, url, w = window.innerWidth, h = 745) {
   const screenLeft = window.screenLeft ?? window.screenX;
   const screenTop = window.screenTop ?? window.screenY;
   const width = window.innerWidth ?? document.documentElement.clientWidth ?? screen.width;
@@ -54,3 +54,4 @@ export function openPlatformPopupLeft(platform, url, w = window.innerWidth, h = 
   }
 }
 window.openPlatformPopupLeft = openPlatformPopupLeft;
+
