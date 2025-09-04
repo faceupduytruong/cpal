@@ -46,87 +46,87 @@ function openWeibo() {
   const query = getQuery(); // lấy nội dung từ ô input
   const encodedQuery = encodeURIComponent(`${query} m.weibo.cn`);
   const url = `https://www.google.com/search?q=${encodedQuery}`;
-  openRightHalfPopup(url,"Weibo", window.innerWidth, 700);
+  openRightHalfPopup(url,"Weibo", window.innerWidth, 745);
 }
 
 function openDouyin() {
   const query = getQuery();
   const url = `https://www.douyin.com/search/${query}`;
-  openRightHalfPopup(url,"Douyin", window.innerWidth, 700);
+  openRightHalfPopup(url,"Douyin", window.innerWidth, 745);
 }
 
 function openBilibili() {
   const query = getQuery();
   const url = `https://search.bilibili.com/all?keyword=${query}`;
-  openRightHalfPopup(url,"Bilibili", window.innerWidth, 700);
+  openRightHalfPopup(url,"Bilibili", window.innerWidth, 745);
 }
 
 function openYouku() {
   const query = getQuery();
   const encodedQuery = encodeURIComponent(query).replace(/%20/g, '');
   const url = `https://so.youku.com/search/q_${encodedQuery}`;
-  openRightHalfPopup(url,"Youku", window.innerWidth, 700);
+  openRightHalfPopup(url,"Youku", window.innerWidth, 745);
 }
 
 function openIQiYi() {
   const query = getQuery();
   const encodedQuery = encodeURIComponent(query);
   const url = `https://www.iqiyi.com/search/${encodedQuery}.html`;
-  openRightHalfPopup(url,"IQiYi", window.innerWidth, 700);
+  openRightHalfPopup(url,"IQiYi", window.innerWidth, 745);
 }
 
 function openTencentVideo() {
   const query = getQuery();
   const encodedQuery = encodeURIComponent(query);
   const url = `https://v.qq.com/x/search/?q=${encodedQuery}&queryFrom=0`;
-  openRightHalfPopup(url,"TencentVideo", window.innerWidth, 700);
+  openRightHalfPopup(url,"TencentVideo", window.innerWidth, 745);
 }
 
 function openSohuVideo() {
   const query = getQuery();
   const encodedQuery = encodeURIComponent(query);
   const url = `https://tv.sohu.com/mts/?key=${encodedQuery}`;
-  openRightHalfPopup(url,"SohuVideo", window.innerWidth, 700);
+  openRightHalfPopup(url,"SohuVideo", window.innerWidth, 745);
 }
 
 function openXiaohongshu() {
   const query = getQuery();
   const encodedQuery = encodeURIComponent(query);
   const url = `https://news.qq.com/search?query=${encodedQuery}&page=1`;
-  openRightHalfPopup(url,"Xiaohongshu", window.innerWidth, 700);
+  openRightHalfPopup(url,"Xiaohongshu", window.innerWidth, 745);
 }
 
 function openKuaishou() {
   const query = getQuery();
   const url = `https://www.kuaishou.com/search/video?searchKey=${encodeURIComponent(query)}`;
-  openRightHalfPopup(url,"Kuaishou", window.innerWidth, 700);
+  openRightHalfPopup(url,"Kuaishou", window.innerWidth, 745);
 }
 
 function openZhihu() {
   const query = getQuery();
   const encodedQuery = encodeURIComponent(`${query} Zhihu`);
   const url = `https://www.google.com/search?q=${encodedQuery}`;
-  openRightHalfPopup(url,"Zhihu", window.innerWidth, 700);
+  openRightHalfPopup(url,"Zhihu", window.innerWidth, 745);
 }
 
 function openDouban() {
   const query = getQuery();
   const url = `https://www.douban.com/search?q=${query}`;
-  openRightHalfPopup(url,"Douban", window.innerWidth, 700);
+  openRightHalfPopup(url,"Douban", window.innerWidth, 745);
 }
 
 function openTencentQQ() {
   const query = getQuery();
   const encodedQuery = encodeURIComponent(query);
   const url = `https://news.qq.com/search?query=${encodedQuery}&page=1`;
-  openRightHalfPopup(url,"TencentQQ", window.innerWidth, 700);
+  openRightHalfPopup(url,"TencentQQ", window.innerWidth, 745);
 }
 
 function openTalkin() {
   const query = getQuery();
   const encodedQuery = encodeURIComponent(query);
   const url = `https://news.qq.com/search?query=${encodedQuery}&page=1`;
-  openRightHalfPopup(url,"Talkin", window.innerWidth, 700);
+  openRightHalfPopup(url,"Talkin", window.innerWidth, 745);
   event.stopPropagation();              // Ngăn lan ra ngoài
   event.stopImmediatePropagation();     // Ngăn mọi listener khác xử lý
 }
@@ -147,68 +147,68 @@ function openIzuiyou() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
   const url = `https://www.izuiyou.com/search?keyword=${encodedQuery}`;
-  openRightHalfPopup(url,"Izuiyou", window.innerWidth, 700);
+  openRightHalfPopup(url,"Izuiyou", window.innerWidth, 745);
 }
 
 function openInstagram() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
   const url = `https://www.instagram.com/explore/tags/${encodedQuery}/`;
-  openRightHalfPopup(url,"Instagram", window.innerWidth, 700);
+  openRightHalfPopup(url,"Instagram", window.innerWidth, 745);
 }
 
 function openThreads() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
   const url = `https://www.threads.com/search?q=${encodedQuery}`; // giả định URL tìm kiếm
-  openRightHalfPopup(url,"Threads", window.innerWidth, 700);
+  openRightHalfPopup(url,"Threads", window.innerWidth, 745);
 }
 
 function openTwitterX() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
   const url = `https://x.com/search?q=${encodedQuery}&src=typed_query`;
-  openRightHalfPopup(url,"TwitterX", window.innerWidth, 700);
+  openRightHalfPopup(url,"TwitterX", window.innerWidth, 745);
 }
 
 function openFacebook() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
   const url = `https://www.facebook.com/search/top?q=${encodedQuery}`;
-  openRightHalfPopup(url,"Facebook", window.innerWidth, 700);
+  openRightHalfPopup(url,"Facebook", window.innerWidth, 745);
 }
 
 function openYoutube() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
   const url = `https://www.youtube.com/results?search_query=${encodedQuery}`;
-  openRightHalfPopup(url,"Youtube", window.innerWidth, 700);
+  openRightHalfPopup(url,"Youtube", window.innerWidth, 745);
 }
 
 function openSpotify() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
   const url = `https://open.spotify.com/search/${encodedQuery}`;
-  openRightHalfPopup(url,"Spotify", window.innerWidth*2 + 40, 700);
+  openRightHalfPopup(url,"Spotify", window.innerWidth*2 + 40, 745);
 } 
 
 function openSoundCloud() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
   const url = `https://soundcloud.com/search?q=${encodedQuery}`;
-  openRightHalfPopup(url, "SoundCloud", window.innerWidth*2 + 40, 700);
+  openRightHalfPopup(url, "SoundCloud", window.innerWidth*2 + 40, 745);
 }
 
 function openApplePodcast() {
   const query = getQuery(); // Hàm lấy từ khóa người dùng nhập
   const encodedQuery = encodeURIComponent(query);
   const url = `https://podcasts.apple.com/vn/search?term=${encodedQuery}`;
-  openRightHalfPopup(url, "ApplePodcast", window.innerWidth*2 + 40, 700);
+  openRightHalfPopup(url, "ApplePodcast", window.innerWidth*2 + 40, 745);
 }
 
 function openCenterManager() {
   const url = `file:///C:/Users/Admin/OneDrive/Documents/Reset%20System%20Windows/Music%20Playlist/index.html`;
-  openRightHalfPopup(url, "CenterManager", window.innerWidth, 700);
+  openRightHalfPopup(url, "CenterManager", window.innerWidth, 745);
 }
 
 // 👉 Tạo giao diện nút app
@@ -357,17 +357,17 @@ appsContainer.innerHTML = appButtonsHTML;
         case 0:
           // 🔍 YouTube
           const youtubeUrl = `https://www.youtube.com/results?search_query=${encodedQuery}`;
-          openRightHalfPopup(youtubeUrl,"youtube", window.innerWidth, 700);
+          openRightHalfPopup(youtubeUrl,"youtube", window.innerWidth, 745);
           break;
         case 1:
           // 🔍 Bilibili
           const bilibiliUrl = `https://search.bilibili.com/all?keyword=${encodedQuery}`;
-          openRightHalfPopup(bilibiliUrl,"bilibili", window.innerWidth, 700);
+          openRightHalfPopup(bilibiliUrl,"bilibili", window.innerWidth, 745);
           break;
         case 2:
           // 🔍 Douyin
           const douyinUrl = `https://www.douyin.com/search/${encodedQuery}`;
-          openRightHalfPopup(douyinUrl,"douyin", window.innerWidth, 700);
+          openRightHalfPopup(douyinUrl,"douyin", window.innerWidth, 745);
           break;
       }
       clickCount++;
@@ -387,20 +387,6 @@ appsContainer.innerHTML = appButtonsHTML;
     ];
 
     const currentUrl = links[talkinClickCount % links.length];
-    openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 700);
+    openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 745);
     talkinClickCount++;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
