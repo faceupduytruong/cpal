@@ -53,5 +53,10 @@ export const resSources = [
   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1756222236/37-9a3cc91cf585d141577a305beef97499-1920x1080_qofjff.mp4",
   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1756222198/37-3c8ad3dd71abc76b20497bf7bb43fe80-1920x1080_iihfll.mp4",
   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1756222159/37-145771e69ba8db844463ad346454c69d-1920x1080_buirzi.mp4",
-  "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1756222158/37-15df0a6b84c1bc110163c22323c9718f-1920x1080_v5eqn1.mp4"
+  "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1756222158/37-15df0a6b84c1bc110163c22323c9718f-1920x1080_v5eqn1.mp4",
+  "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1757041091/37-9df9554d3b750b467d287d385e3d414e-1920x1080_c2gujh.mp4",
+  "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1757041091/37-8c6711269145dc8c594e7c7fdf27af6e-1920x1080_get6cd.mp4",
+  "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1757041089/37-f93b41562c3ef65d2f698365eb3b04f2-1920x1080_llftiq.mp4",
+  "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1757041089/37-7957daec742f4acf0fe5b88cf89bdcf1-1920x1080_tpgulo.mp4",
+  "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1757041088/37-6419149261015eb2c8835e6493561135-1920x1080_duy78v.mp4"
 ];
