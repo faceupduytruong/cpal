@@ -1,3 +1,5 @@
+const baseURL = 'https://starlit-syrniki-english-source-0eaf6f.netlify.app/source of talkin/';
+
 const customThumbnails = {
   Art: 'https://maludesign.vn/wp-content/uploads/2022/08/illustration-sandro-rybak-feature.jpg',
   Contrast: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbtizEhJchxqVlPA8tXuneisjq-Z1RLcj48A&s',
