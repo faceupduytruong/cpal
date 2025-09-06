@@ -4,7 +4,7 @@ let panzoomInstance = null;
 
 
 // 👉 Đường dẫn gốc tới Netlify
-const baseURL = 'https://starlit-syrniki-english-source-0eaf6f.netlify.app/source of talkin/';
+const baseURL = document.getElementById('base-url').value;
 const folderGrid = document.getElementById('folder-grid');
 const popup = document.getElementById('popup');
 const gallery = document.getElementById('gallery');
@@ -225,3 +225,4 @@ document.getElementById('scroll-to-photo-btn').addEventListener('click', () => {
     alert(`Số thứ tự không hợp lệ. Folder "${currentFolder}" có ${folders[currentFolder].length} ảnh.`);
   }
 });
+
