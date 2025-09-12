@@ -1,3 +1,6 @@
+window.addEventListener('DOMContentLoaded', () => {
+    // Gọi script của bạn ở đây nếu cần
+
 // VIDEO PLAYER SETUP
 const video = document.getElementById('player');
 const playBtn = document.getElementById('playBtn');
@@ -34,3 +37,6 @@ if (Hls.isSupported()) {
         audio.play();
       });
     }
+
+});
+
