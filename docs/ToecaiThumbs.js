@@ -37,10 +37,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/vutrutailieutoeic/media',
     thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/453068250_462772276606777_2117871877648613853_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2285d6&_nc_ohc=Y22MBvhSqo4Q7kNvwGSJ99j&_nc_oc=AdlFM6f5gd9eWDOqRdjAE3SFyjWbt024dHtofXq_S-UDR1q4TkwbSu8TTXMK9ZpiJ0I&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=IUzDN2EzzTroUmaT7VesMA&oh=00_AfaGVUfht9WMq3uTwt00wgzFRYQ9anQSu8M_UqPRkqBmBw&oe=68D2DD58'
   },
- 'VŨ TRỤ TÀI LIỆU TOEIC': {
-    url: 'https://www.facebook.com/groups/vutrutailieutoeic/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/453068250_462772276606777_2117871877648613853_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2285d6&_nc_ohc=Y22MBvhSqo4Q7kNvwGSJ99j&_nc_oc=AdlFM6f5gd9eWDOqRdjAE3SFyjWbt024dHtofXq_S-UDR1q4TkwbSu8TTXMK9ZpiJ0I&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=IUzDN2EzzTroUmaT7VesMA&oh=00_AfaGVUfht9WMq3uTwt00wgzFRYQ9anQSu8M_UqPRkqBmBw&oe=68D2DD58'
-  },
   'Estudyme - Practice for TOEIC Test Pro': {
     url: 'https://www.facebook.com/toeictestonline/photos',
     thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/499460242_682632611184977_5897717757206992512_n.png?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=tY0BgRevRTsQ7kNvwGf-xG9&_nc_oc=AdlzPgNUL6IG0VfyXXnBfEgdtUJwjvSEFiuKuI2KzxoSFURHIAv58UBeRkn4CxGrfV0&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=WBWOy81h8ubQUhMWcYyc0Q&oh=00_AfZlF6PECp9StBsCz3N5MwtFSOtvbZh6YLNN5W0uAu_7cQ&oe=68D2DF24'
