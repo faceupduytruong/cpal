@@ -232,7 +232,7 @@ const grid = document.getElementById('folder-grid');
 Object.entries(folderLinks).forEach(([name, data]) => {
   const folderItem = document.createElement('div');
   folderItem.className = 'folder-item';
-  folderItem.onclick = () => openRightHalfPopup(name, data.url, window.innerWidth, 745);
+  folderItem.onclick = () => openRightHalfPopup(data.url, name, window.innerWidth, 745);
 
   const img = document.createElement('img');
   img.src = data.thumbnail;
@@ -246,3 +246,4 @@ Object.entries(folderLinks).forEach(([name, data]) => {
   folderItem.appendChild(folderName);
   grid.appendChild(folderItem);
 });
+
