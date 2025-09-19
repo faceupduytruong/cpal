@@ -1,7 +1,6 @@
 const customThumbnails = {
   'Creative English - Bao Đỗ TOEIC': 'https://manifestedharmony.com/wp-content/uploads/2014/04/creativity1.jpg',
   'Nguyễn Đức English': 'https://www.englishguru.com/blog/wp-content/uploads/2022/12/Is-It-Really-Possible-to-Learn-English-Online.jpg',
-  'Bổ sung link Anh Văn': 'https://i-test4u.vn/images/test-thumbnail/toeic.png',
   // thêm các mục khác nếu cần
 };
 
@@ -13,6 +12,9 @@ const folders = {
 };
 
 const folderLinks = {
-  'Chia sẻ kinh nghiệm tự học TOEIC 4 Kỹ Năng': 'https://www.facebook.com/groups/phadaotoeic990/media',
+  'Chia sẻ kinh nghiệm tự học TOEIC 4 Kỹ Năng': {
+    url: 'https://www.facebook.com/groups/phadaotoeic990/media',
+    thumbnail: 'https://i-test4u.vn/images/test-thumbnail/toeic.png'
+  },
   // thêm các mục khác nếu cần
 };
