@@ -232,7 +232,7 @@ const grid = document.getElementById('folder-grid');
 Object.entries(folderLinks).forEach(([name, data]) => {
   const folderItem = document.createElement('div');
   folderItem.className = 'folder-item';
-  folderItem.onclick = () => openPlatformPopup(name, data.url, window.innerWidth * 2 + 40, 745);
+  folderItem.onclick = () => openRightHalfPopup(name, data.url, window.innerWidth, 745);
 
   const img = document.createElement('img');
   img.src = data.thumbnail;
