@@ -15,11 +15,11 @@ const folders = {
 const folderLinks = {
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://www.cnet.com/a/img/resize/bb3309731c72de8eed76bce93bb319a95a5c077f/hub/2023/02/08/2d11bc90-7f23-4347-a07a-1b3e251aea4c/gettyimages-1245835347.jpg?auto=webp&fit=crop&height=675&width=1200'
+    thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
-  'Chia sẻ kinh nghiệm tự học TOEIC 4 Kỹ Năng': {
-    url: 'https://www.facebook.com/groups/phadaotoeic990/media',
-    thumbnail: 'https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/438242952_1131217354881645_379388401459276142_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2285d6&_nc_ohc=tz71DeREz0EQ7kNvwHYW75O&_nc_oc=AdkXQkJg6AFVKzcBgFjhLfJ7R9f18UBE61e4tjvxw9H9Litq68f7d5awsnBESz4N8LgZzkhCImCDQO7a5yJLtn66&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=c2dZ_Cu4D6cG_b6E4Bxtng&oh=00_AfZ62295Y0buhLr-449KX3EIsFWlnDGetX0d5aNIp1lI9A&oe=68D2C423'
+  'A+ English': {
+    url: 'https://www.facebook.com/aplusenglish.edu.vn/photos',
+    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/464657755_856642516659656_2639540335995074212_n.png?stp=dst-png_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=DQW84Lnm3sUQ7kNvwEAI_Ax&_nc_oc=AdnadllLdpymdJ79VtXBkuKCQElEK3rbauOxVPibPHQg8nOtdUP3-O7k3k547GexjGA&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=_tAiQ1DIb3kLlOHuH6ofyA&oh=00_AfYSdS8Kyk33FkMWZLuSgmADR6UE0EF0gkH6ixt0tpOG0w&oe=68D3025E'
   },
  'ZIM Academy': {
     url: 'https://www.facebook.com/zim.school/photos',
