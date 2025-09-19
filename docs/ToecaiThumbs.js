@@ -15,7 +15,7 @@ const folders = {
 const folderLinks = {
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://images.indianexpress.com/2024/06/Google-Translate.jpg'
+    thumbnail: 'https://www.cnet.com/a/img/resize/bb3309731c72de8eed76bce93bb319a95a5c077f/hub/2023/02/08/2d11bc90-7f23-4347-a07a-1b3e251aea4c/gettyimages-1245835347.jpg?auto=webp&fit=crop&height=675&width=1200'
   },
   'Chia sẻ kinh nghiệm tự học TOEIC 4 Kỹ Năng': {
     url: 'https://www.facebook.com/groups/phadaotoeic990/media',
