@@ -21,9 +21,25 @@ const folderLinks = {
     url: 'https://www.facebook.com/HPJuniorVN/photos',
     thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/485658491_1253644413183375_7222980792412689697_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9tibT_xU4SsQ7kNvwGsJQG3&_nc_oc=AdkMjTneuwLS5uIrhvvdfkqo_0--TcvNH6dWXOA83VriSauSTMAzFcH5UfrkF1owAgk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=tzSiO4U9T4k6nStSHrW42Q&oh=00_AfbdRpnOcZ8YI4wZGwM4wyZmJBRgkw2MBZxybBZTk7FK_Q&oe=68D321EF'
   },
+  'Học Tiếng Anh cô Thu Oanh': {
+    url: 'https://www.facebook.com/HoctienganhcoThuOanh/photos',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/473591263_1036001908572111_3237118623569368368_n.png?stp=dst-png_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=EQcdLZmGzegQ7kNvwEkxXog&_nc_oc=Adn70mKRP9uQlovkaChbW1Ggffc-S-UA9gmQmqr5g_U4eJ0wDnWUcZGmViyAot12Qso&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8F362mw8XuJBzs-dyto6XA&oh=00_Afb-g1GOmTlMZIMvLls3g91vRStB60xUzky576eM-XKsuA&oe=68D33C5D'
+  },
+  'Tiếng Anh giao tiếp Langmaster': {
+    url: 'https://www.facebook.com/HoctiengAnhLangmaster/photos',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/481356515_1033253312173105_2891607896168362442_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=bv62jkRU3akQ7kNvwEGeNw9&_nc_oc=AdmDf6nN4PhrrkTv8yYpC7XzeirbxTcqrK1VqqKfYjtK4PNj4UfAkru6tgMR2yUFDHI&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=2NcCXH6GJe9PyJV16EOP6Q&oh=00_AfardxS3GdikSIGrc_CY4ea9hPbae_cBEesRxCasQCcWRg&oe=68D32666'
+  },
+  'Trung Tâm Anh Ngữ Aten': {
+    url: 'https://www.facebook.com/atendoanhnhan/photos',
+    thumbnail: 'https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/490832267_670404202402833_8153603844587782713_n.png?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=xw3HHWSfP40Q7kNvwGGW3CA&_nc_oc=Adn839S7_f8mPzZvg5y5_2vxi6tLcjHeqEw53IMI4Co8aCYF6PKo7fItv6ksKtaNqAU&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=nnwrje5gTSqX1fIiKNVL4g&oh=00_AfbBikWmnb198pz4GansjiV1X5PDtFsERpgZ4ZX-1ui7SQ&oe=68D30B7D'
+  },
   'Anh Ngữ Aten Cần Thơ': {
     url: 'https://www.facebook.com/atenenglishcantho/photos',
     thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/491816091_1086681436817774_3271870199844522415_n.png?stp=dst-png_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=WJNxDqzYBuwQ7kNvwGU2cbY&_nc_oc=AdlDXR7NXR6OvbScMqMhdrtUmhyzOfOOheEm3Xzmev1qMVvoKNyjfGjmBT4bcxpBAAg&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=XANwMvB6qF4dZhabFGtpUw&oh=00_AfaSyPMm0o8ai5qU77AaSTY6UOigMgJmFYYAF_fXd1_AAA&oe=68D2F7A5'
+  },
+  'Tiếng Anh nhanh gọn mỗi ngày ': {
+    url: 'https://www.facebook.com/tieng.anh.nhanh.gon.moi.ngay/photos',
+    thumbnail: 'https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/468950791_122156616890274524_1754358772350937261_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=XQcUjPWsrSsQ7kNvwEGg4J5&_nc_oc=AdnPL5UFL_rEXBvV7qutACHmtla4oVEb0GFzI2PM9LUa5OgBmoQ0BmOO_ZPrc11xxtc&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=DQyOAsodraBUnMLMiSyFsA&oh=00_AfZoaho9oECE-yxyxO3etosIxK8Vb9fImq6XGjiGi4WJnQ&oe=68D355CA'
   },
   'Phát Âm Hay - American Pronunciation': {
     url: 'https://www.facebook.com/phatamhay/photos',
