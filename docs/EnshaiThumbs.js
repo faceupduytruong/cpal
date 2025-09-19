@@ -17,37 +17,41 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
+  'Anh Ngữ Aten Cần Thơ': {
+    url: 'https://www.facebook.com/atenenglishcantho/photos',
+    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/491816091_1086681436817774_3271870199844522415_n.png?stp=dst-png_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=WJNxDqzYBuwQ7kNvwGU2cbY&_nc_oc=AdlDXR7NXR6OvbScMqMhdrtUmhyzOfOOheEm3Xzmev1qMVvoKNyjfGjmBT4bcxpBAAg&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=XANwMvB6qF4dZhabFGtpUw&oh=00_AfaSyPMm0o8ai5qU77AaSTY6UOigMgJmFYYAF_fXd1_AAA&oe=68D2F7A5'
+  },
+  'Phát Âm Hay - American Pronunciation': {
+    url: 'https://www.facebook.com/phatamhay/photos',
+    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/432433699_786109550218124_605992304346716023_n.png?stp=dst-png_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=ARdAl3GeYQ4Q7kNvwFoW50A&_nc_oc=Adm6auMo3fEKoQO2OtSes6x4RwEPIgK-HRG3uJR7-NCTq9fY448zE1glyeVtkXSoDJ4&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=yGyqvYZhne-RIuNNC1JVGA&oh=00_Afb-rVCbK5pGPGsPsR6cLCxv0A48QjqhQT_ZnCoiD1QSmA&oe=68D300CA'
+  },
+  'iBetter Books': {
+    url: 'https://www.facebook.com/iBetterBooks/photos',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/515491896_122192076206356406_3681132779686878603_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=z5yYYpa70wAQ7kNvwHq7ad-&_nc_oc=Adl4v9C7Cewh05pRaaCn2-2o3jp7FD87MYy1ufuKJNPZjKDgY0q46SIB9Kh5HayTrCU&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=-SZMxbWUm0PC9JzntLkduw&oh=00_Afap4q-vVJQZyDghWyZA9lClrnbjJ5iNWVVFTH0CYIM6fQ&oe=68D30DC7'
+  },
+  'Spoken English and Vocabulary': {
+    url: 'https://www.facebook.com/profile.php?id=100083296070350&sk=photos',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/469362135_576515788397143_3480835147537745084_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=r6ctTWJ7gb8Q7kNvwEY-79w&_nc_oc=AdlwlSQ3oXYb1y3EWsksAKpm2dMBP0PxKTM3OT85MGtrXVBHaXRMC1sKLT2IK01w_-8&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8Dgo03E8FmndfgZhP7Haog&oh=00_AfaXIlYjpqhII_kukDu_sJkIZBQQWPAs9nWkwSwWlbAzmA&oe=68D30CB4'
+  },
   'A+ English': {
     url: 'https://www.facebook.com/aplusenglish.edu.vn/photos',
     thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/464657755_856642516659656_2639540335995074212_n.png?stp=dst-png_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=DQW84Lnm3sUQ7kNvwEAI_Ax&_nc_oc=AdnadllLdpymdJ79VtXBkuKCQElEK3rbauOxVPibPHQg8nOtdUP3-O7k3k547GexjGA&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=_tAiQ1DIb3kLlOHuH6ofyA&oh=00_AfYSdS8Kyk33FkMWZLuSgmADR6UE0EF0gkH6ixt0tpOG0w&oe=68D3025E'
   },
- 'ZIM Academy': {
-    url: 'https://www.facebook.com/zim.school/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/499157696_122203853156252223_3687477849485625107_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=N97EDx9LPZAQ7kNvwFMCufK&_nc_oc=AdkMeTAavutwYVz3aJMMkXXgbFcND30MYDJO5THQiimdaWDqsBWZM3DEyW_rAm96ips&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=M9KHDKjW7crIqf8ESwYxRw&oh=00_AfaVzKIpDXlc9vk5T3lihlgUXO7AX8rJUwYdtfvS0GzIkA&oe=68D2BAC9'
+ 'Effortless English Center (FREE Posts)': {
+    url: 'https://www.facebook.com/groups/effortlessenglishcenter/media',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/428326511_795574775927138_8522639557168607584_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2285d6&_nc_ohc=PxkwwV7hkp8Q7kNvwHbN6Y7&_nc_oc=Admyn27B_ADJ_C6DwF4gnznR5hE8qiu8jIVGmccAjU_UTQJe55ABiTnsDGFT3cBCjDk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Dhqx9In7w_Z6oeV9c4yfsg&oh=00_AfZBqB-98QokUjs3ckbZwiv2KiQDeie9boGKPHxLoPb6lg&oe=68D2FB29'
   },
- 'Cộng đồng tự học TOEIC trên STUDY4': {
-    url: 'https://www.facebook.com/groups/517057750992723/media',
-    thumbnail: 'https://smartcom.vn/wp-content/uploads/2024/05/toeic-smartcom-english_optimized.jpg'
+ 'English Learning Together': {
+    url: 'https://www.facebook.com/groups/285910352529079/media',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/440450010_1480801532822188_6893067917698009453_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=2285d6&_nc_ohc=IIr81k9Y-kwQ7kNvwHYCXXL&_nc_oc=AdmVty3R7PZ6pdsEOCCqCJMefCKnR70UkHM3-BKbA3qh1ZCvZb9O3lvq4A6cwqy9qxA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=oqR275t_0MJDR7-J9HRTmA&oh=00_AfbO19ukgPuwEvabQIc5t5j65dnaNoaJ7qHKtkoH-4e9dg&oe=68D2F75C'
   },
- 'TOEIC Ứng Dụng - Toeicungdung.vn': {
-    url: 'https://www.facebook.com/toeicungdung/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/509849962_715335681464000_7536220030201513251_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=24j7YbimX9YQ7kNvwFtE9DY&_nc_oc=AdmsKbK0JgS-Ad0RlIkb9fGVbM-RjDk-a3JWcMaNP0atEDn69rlS2cVrNmdtugDzgPY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8CFFLPBrSIisbDBJLWuzqA&oh=00_AfaUxS9hSRppp6UOr2uB7g4Gk0ZyP0lfMPq5ky99jEJTqQ&oe=68D2D9B4'
+ 'Advanced English Learners': {
+    url: 'https://www.facebook.com/groups/3487114231364090/media',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/470528470_2973613616146722_6620122141191379346_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2285d6&_nc_ohc=Tk8enKM5dEcQ7kNvwH_ADQa&_nc_oc=Adm5q9qNgxz52OIntmVliv906voNiLqkQ7iCi0ljD1S4xReHAE046814O3k3MFU8Pqk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=yOrvEaEQeiDkHQ8e2emhIw&oh=00_AfbV8ipHuIPm62Fak5CbkaLrEdsL48yM7SE9U396mGzWCg&oe=68D2F31E'
   },
- 'GIẢI ĐỀ TOEIC CHO NGƯỜI MẤT GỐC': {
-    url: 'https://www.facebook.com/groups/306159104453989/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/290944458_788115952625212_4887322025746080198_n.png?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=2285d6&_nc_ohc=bkw-pQKkNH8Q7kNvwF0TEhQ&_nc_oc=AdmhhqOt_UOFM97x6FKBIfzJRB2xbVH--I5coCLAqHHAfzCeKVV9PbVs1ciQUHF51og&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=ZK7Zlh7GXLupeKWneYXj6A&oh=00_AfYwJmkIa9_TdddHF2ovdV0WjaMILcUFKUsnI6iJ4pqR2A&oe=68D2CF7D'
-  },
- 'VŨ TRỤ TÀI LIỆU TOEIC': {
-    url: 'https://www.facebook.com/groups/vutrutailieutoeic/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/453068250_462772276606777_2117871877648613853_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2285d6&_nc_ohc=Y22MBvhSqo4Q7kNvwGSJ99j&_nc_oc=AdlFM6f5gd9eWDOqRdjAE3SFyjWbt024dHtofXq_S-UDR1q4TkwbSu8TTXMK9ZpiJ0I&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=IUzDN2EzzTroUmaT7VesMA&oh=00_AfaGVUfht9WMq3uTwt00wgzFRYQ9anQSu8M_UqPRkqBmBw&oe=68D2DD58'
-  },
-  'Estudyme - Practice for TOEIC Test Pro': {
-    url: 'https://www.facebook.com/toeictestonline/photos',
-    thumbnail: 'https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/499460242_682632611184977_5897717757206992512_n.png?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=tY0BgRevRTsQ7kNvwE0Aaky&_nc_oc=AdlWpgGCHo0BGZd9J6CBQj7hb3gsWVai8Lf0vKscMfXTHuvBleACXrajLYALCOZk6OjHYgCgsJ5MEzSskp15MVH9&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=pPXawyUnKQZ97vNRq-wZqQ&oh=00_AfbJWkepEGYWR3y7AKg4ZwLFp79MjwqEp4UU-WrwpujSYw&oe=68D2DF24'
-  },
-  'Luyện đề thi thử TOEIC online miễn phí': {
-    url: 'https://estudyme.com/test/toeic-test/',
-    thumbnail: 'https://taec.edu.vn/wp-content/uploads/2023/08/1-Luyen-Thi-toeic-onl-01.jpg'
+ 'English with JayTen': {
+    url: 'https://www.facebook.com/EnglishWithJayten/photos',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/533058224_696788230053908_83702061495370474_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9mRU4D7okaMQ7kNvwGOwNEk&_nc_oc=AdlY6XD4OjgYPaX9eRNuP5oYboXoR_lOBSS0oIyDpElPy2yT6bZ8C3VK99uBSAp4vII&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=fLxDIJHikrfIMvORFA__2A&oh=00_AfYKKrlDkyK9lQq_PrfnMAjZkHt0nHhUZ3rzSzTwhY4HWQ&oe=68D2F861'
   },
   // thêm các mục khác nếu cần
 };
