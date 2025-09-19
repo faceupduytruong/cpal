@@ -18,3 +18,23 @@ const folderLinks = {
   },
   // thêm các mục khác nếu cần
 };
+
+const grid = document.getElementById('folder-grid');
+
+Object.entries(folderLinks).forEach(([name, data]) => {
+  const folderItem = document.createElement('div');
+  folderItem.className = 'folder-item';
+  folderItem.onclick = () => openPlatformPopup(name, data.url, window.innerWidth * 2 + 40, 745);
+
+  const img = document.createElement('img');
+  img.src = data.thumbnail;
+  img.alt = name;
+  folderItem.appendChild(img);
+
+  const folderName = document.createElement('div');
+  folderName.className = 'folder-name';
+  folderName.textContent = name;
+
+  folderItem.appendChild(folderName);
+  grid.appendChild(folderItem);
+});
