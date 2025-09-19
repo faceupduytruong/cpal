@@ -226,3 +226,23 @@ document.getElementById('scroll-to-photo-btn').addEventListener('click', () => {
   }
 });
 
+// 👉 Xử lý các folderLinks, click vào sẽ mở Popup
+const grid = document.getElementById('folder-grid');
+
+Object.entries(folderLinks).forEach(([name, data]) => {
+  const folderItem = document.createElement('div');
+  folderItem.className = 'folder-item';
+  folderItem.onclick = () => openPlatformPopup(name, data.url, window.innerWidth * 2 + 40, 745);
+
+  const img = document.createElement('img');
+  img.src = data.thumbnail;
+  img.alt = name;
+  folderItem.appendChild(img);
+
+  const folderName = document.createElement('div');
+  folderName.className = 'folder-name';
+  folderName.textContent = name;
+
+  folderItem.appendChild(folderName);
+  grid.appendChild(folderItem);
+});
