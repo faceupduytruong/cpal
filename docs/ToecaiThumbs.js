@@ -16,5 +16,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/phadaotoeic990/media',
     thumbnail: 'https://i-test4u.vn/images/test-thumbnail/toeic.png'
   },
+ 'ZIM Academy ': {
+    url: 'https://www.facebook.com/zim.school/photos',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/499157696_122203853156252223_3687477849485625107_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=N97EDx9LPZAQ7kNvwFMCufK&_nc_oc=AdkMeTAavutwYVz3aJMMkXXgbFcND30MYDJO5THQiimdaWDqsBWZM3DEyW_rAm96ips&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=M9KHDKjW7crIqf8ESwYxRw&oh=00_AfaVzKIpDXlc9vk5T3lihlgUXO7AX8rJUwYdtfvS0GzIkA&oe=68D2BAC9'
+  },
   // thêm các mục khác nếu cần
 };
