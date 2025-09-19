@@ -17,6 +17,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
+  'HP Junior - Dạy con song ngữ': {
+    url: 'https://www.facebook.com/HPJuniorVN/photos',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/485658491_1253644413183375_7222980792412689697_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9tibT_xU4SsQ7kNvwGsJQG3&_nc_oc=AdkMjTneuwLS5uIrhvvdfkqo_0--TcvNH6dWXOA83VriSauSTMAzFcH5UfrkF1owAgk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=tzSiO4U9T4k6nStSHrW42Q&oh=00_AfbdRpnOcZ8YI4wZGwM4wyZmJBRgkw2MBZxybBZTk7FK_Q&oe=68D321EF'
+  },
   'Anh Ngữ Aten Cần Thơ': {
     url: 'https://www.facebook.com/atenenglishcantho/photos',
     thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/491816091_1086681436817774_3271870199844522415_n.png?stp=dst-png_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=WJNxDqzYBuwQ7kNvwGU2cbY&_nc_oc=AdlDXR7NXR6OvbScMqMhdrtUmhyzOfOOheEm3Xzmev1qMVvoKNyjfGjmBT4bcxpBAAg&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=XANwMvB6qF4dZhabFGtpUw&oh=00_AfaSyPMm0o8ai5qU77AaSTY6UOigMgJmFYYAF_fXd1_AAA&oe=68D2F7A5'
@@ -29,6 +33,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/iBetterBooks/photos',
     thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/515491896_122192076206356406_3681132779686878603_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=z5yYYpa70wAQ7kNvwHq7ad-&_nc_oc=Adl4v9C7Cewh05pRaaCn2-2o3jp7FD87MYy1ufuKJNPZjKDgY0q46SIB9Kh5HayTrCU&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=-SZMxbWUm0PC9JzntLkduw&oh=00_Afap4q-vVJQZyDghWyZA9lClrnbjJ5iNWVVFTH0CYIM6fQ&oe=68D30DC7'
   },
+  'Oxford English Academy - Vietnam': {
+    url: 'https://www.facebook.com/OEA.ENGLISH/photos',
+    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/537135172_1231711582302436_8103153116958002071_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=71ybjRryFJ0Q7kNvwGiJI3J&_nc_oc=Adnh8yY0Myuq1Zu-qkIGWR0z4gmRNXxWaScfKXWlyLkm92TaCg_Ueq65__S3CLsqrjc&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=KYZZ4xv2Ea4KmRCwpO6ORA&oh=00_Afa3NvHn-F3iZ35rKzm9jdL1b9ADNUoDto5oUtDviQLvew&oe=68D306C6'
+  },
   'Spoken English and Vocabulary': {
     url: 'https://www.facebook.com/profile.php?id=100083296070350&sk=photos',
     thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/469362135_576515788397143_3480835147537745084_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=r6ctTWJ7gb8Q7kNvwEY-79w&_nc_oc=AdlwlSQ3oXYb1y3EWsksAKpm2dMBP0PxKTM3OT85MGtrXVBHaXRMC1sKLT2IK01w_-8&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8Dgo03E8FmndfgZhP7Haog&oh=00_AfaXIlYjpqhII_kukDu_sJkIZBQQWPAs9nWkwSwWlbAzmA&oe=68D30CB4'
@@ -37,7 +45,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/aplusenglish.edu.vn/photos',
     thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/464657755_856642516659656_2639540335995074212_n.png?stp=dst-png_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=DQW84Lnm3sUQ7kNvwEAI_Ax&_nc_oc=AdnadllLdpymdJ79VtXBkuKCQElEK3rbauOxVPibPHQg8nOtdUP3-O7k3k547GexjGA&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=_tAiQ1DIb3kLlOHuH6ofyA&oh=00_AfYSdS8Kyk33FkMWZLuSgmADR6UE0EF0gkH6ixt0tpOG0w&oe=68D3025E'
   },
- 'Effortless English Center (FREE Posts)': {
+  'UCA Academy': {
+    url: 'https://www.facebook.com/academy.uca/photos',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/527933635_122124445754912989_2668487100834082784_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=IoSYfl0p9GUQ7kNvwGbgWus&_nc_oc=AdmmY2HRc2ORvVH_Hi61wZf9-EtY_pN13hg6wznT63msOlIQ5eH1qwudD4crBC303tY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Q_zl328qr-TiHgrYEq9oNA&oh=00_AfZdH3-NX2KgLN_g9SRTtuS5HhxZWIczvR3_22qugxgP1w&oe=68D31AB8'
+  },
+  'Effortless English Center (FREE Posts)': {
     url: 'https://www.facebook.com/groups/effortlessenglishcenter/media',
     thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/428326511_795574775927138_8522639557168607584_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2285d6&_nc_ohc=PxkwwV7hkp8Q7kNvwHbN6Y7&_nc_oc=Admyn27B_ADJ_C6DwF4gnznR5hE8qiu8jIVGmccAjU_UTQJe55ABiTnsDGFT3cBCjDk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Dhqx9In7w_Z6oeV9c4yfsg&oh=00_AfZBqB-98QokUjs3ckbZwiv2KiQDeie9boGKPHxLoPb6lg&oe=68D2FB29'
   },
