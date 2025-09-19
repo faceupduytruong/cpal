@@ -1,6 +1,7 @@
 const customThumbnails = {
   'Creative English - Bao Đỗ TOEIC': 'https://manifestedharmony.com/wp-content/uploads/2014/04/creativity1.jpg',
   'Nguyễn Đức English': 'https://www.englishguru.com/blog/wp-content/uploads/2022/12/Is-It-Really-Possible-to-Learn-English-Online.jpg',
+  'Bổ sung links': 'https://i-test4u.vn/images/test-thumbnail/toeic.png',
   // thêm các mục khác nếu cần
 };
 
@@ -14,11 +15,23 @@ const folders = {
 const folderLinks = {
   'Chia sẻ kinh nghiệm tự học TOEIC 4 Kỹ Năng': {
     url: 'https://www.facebook.com/groups/phadaotoeic990/media',
-    thumbnail: 'https://i-test4u.vn/images/test-thumbnail/toeic.png'
+    thumbnail: 'https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/438242952_1131217354881645_379388401459276142_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2285d6&_nc_ohc=tz71DeREz0EQ7kNvwHYW75O&_nc_oc=AdkXQkJg6AFVKzcBgFjhLfJ7R9f18UBE61e4tjvxw9H9Litq68f7d5awsnBESz4N8LgZzkhCImCDQO7a5yJLtn66&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=c2dZ_Cu4D6cG_b6E4Bxtng&oh=00_AfZ62295Y0buhLr-449KX3EIsFWlnDGetX0d5aNIp1lI9A&oe=68D2C423'
   },
- 'ZIM Academy ': {
+ 'ZIM Academy': {
     url: 'https://www.facebook.com/zim.school/photos',
     thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/499157696_122203853156252223_3687477849485625107_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=N97EDx9LPZAQ7kNvwFMCufK&_nc_oc=AdkMeTAavutwYVz3aJMMkXXgbFcND30MYDJO5THQiimdaWDqsBWZM3DEyW_rAm96ips&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=M9KHDKjW7crIqf8ESwYxRw&oh=00_AfaVzKIpDXlc9vk5T3lihlgUXO7AX8rJUwYdtfvS0GzIkA&oe=68D2BAC9'
+  },
+ 'Cộng đồng tự học TOEIC trên STUDY4': {
+    url: 'https://www.facebook.com/groups/517057750992723/media',
+    thumbnail: 'https://smartcom.vn/wp-content/uploads/2024/05/toeic-smartcom-english_optimized.jpg'
+  },
+ 'TOEIC Ứng Dụng - Toeicungdung.vn': {
+    url: 'https://www.facebook.com/toeicungdung/photos',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/509849962_715335681464000_7536220030201513251_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=24j7YbimX9YQ7kNvwFtE9DY&_nc_oc=AdmsKbK0JgS-Ad0RlIkb9fGVbM-RjDk-a3JWcMaNP0atEDn69rlS2cVrNmdtugDzgPY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8CFFLPBrSIisbDBJLWuzqA&oh=00_AfaUxS9hSRppp6UOr2uB7g4Gk0ZyP0lfMPq5ky99jEJTqQ&oe=68D2D9B4'
+  },
+ 'GIẢI ĐỀ TOEIC CHO NGƯỜI MẤT GỐC': {
+    url: 'https://www.facebook.com/groups/306159104453989/media',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/290944458_788115952625212_4887322025746080198_n.png?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=2285d6&_nc_ohc=bkw-pQKkNH8Q7kNvwF0TEhQ&_nc_oc=AdmhhqOt_UOFM97x6FKBIfzJRB2xbVH--I5coCLAqHHAfzCeKVV9PbVs1ciQUHF51og&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=ZK7Zlh7GXLupeKWneYXj6A&oh=00_AfYwJmkIa9_TdddHF2ovdV0WjaMILcUFKUsnI6iJ4pqR2A&oe=68D2CF7D'
   },
   // thêm các mục khác nếu cần
 };
