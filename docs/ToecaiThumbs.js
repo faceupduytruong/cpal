@@ -13,6 +13,10 @@ const folders = {
 };
 
 const folderLinks = {
+  'Google': {
+    url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
+    thumbnail: 'https://media.wired.com/photos/5926b80caf95806129f50662/master/pass/google-translate-logo-f.png'
+  },
   'Chia sẻ kinh nghiệm tự học TOEIC 4 Kỹ Năng': {
     url: 'https://www.facebook.com/groups/phadaotoeic990/media',
     thumbnail: 'https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/438242952_1131217354881645_379388401459276142_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2285d6&_nc_ohc=tz71DeREz0EQ7kNvwHYW75O&_nc_oc=AdkXQkJg6AFVKzcBgFjhLfJ7R9f18UBE61e4tjvxw9H9Litq68f7d5awsnBESz4N8LgZzkhCImCDQO7a5yJLtn66&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=c2dZ_Cu4D6cG_b6E4Bxtng&oh=00_AfZ62295Y0buhLr-449KX3EIsFWlnDGetX0d5aNIp1lI9A&oe=68D2C423'
