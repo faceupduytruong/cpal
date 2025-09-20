@@ -25,6 +25,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/HoctienganhcoThuOanh/photos',
     thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/473591263_1036001908572111_3237118623569368368_n.png?stp=dst-png_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=EQcdLZmGzegQ7kNvwEkxXog&_nc_oc=Adn70mKRP9uQlovkaChbW1Ggffc-S-UA9gmQmqr5g_U4eJ0wDnWUcZGmViyAot12Qso&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8F362mw8XuJBzs-dyto6XA&oh=00_Afb-g1GOmTlMZIMvLls3g91vRStB60xUzky576eM-XKsuA&oe=68D33C5D'
   },
+  'Học Tiếng Anh Nghe Nói Với Giáo Viên Nước Ngoài': {
+    url: 'https://www.facebook.com/HocTiengAnhGiaoTiepVoiGiaoVienNuocNgoai/photos',
+    thumbnail: 'https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/497731544_1122764383218363_2359867179986849266_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=e5vxa53EjewQ7kNvwGdJsyT&_nc_oc=AdnQ7kfP5Vdt6sTBjYbGn99fbMDcknkZHu6BzPBOMQRMXwnas0ykVqoE7G421aiHyx1kPOLiH0ig4zlEw6GxM0CH&_nc_zt=23&_nc_ht=scontent.fsgn2-10.fna&_nc_gid=jk0EyUc6dXeLkWH5V2ifXQ&oh=00_Afb1ngJeBMQvgkgjonudB5fHXW-i0j5EC3XPime6Zlebjg&oe=68D41EC5'
+  },
+  'Luyện thi Hồ Thành': {
+    url: 'https://www.facebook.com/luyenthihothanh/photos',
+    thumbnail: 'https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/535325524_771339955596055_979708450855220140_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=p2U3eJoCCxcQ7kNvwHmTVzS&_nc_oc=AdnfkXQyDq4goog_pOgLQE9hP28iDl010VzSKffuXJ_1u1zpPsJLB_MvtM5b9dzHZ-KVswdMMaIIurz_zxOIsB2K&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=XRtyh-55q9Jj2wf88G_efw&oh=00_AfYe43pwf5yYIUSGqRyJIzwvoQIR7_GgJB-R5KabE1ASVQ&oe=68D442A6'
+  },
   'Tiếng Anh giao tiếp Langmaster': {
     url: 'https://www.facebook.com/HoctiengAnhLangmaster/photos',
     thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/481356515_1033253312173105_2891607896168362442_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=bv62jkRU3akQ7kNvwEGeNw9&_nc_oc=AdmDf6nN4PhrrkTv8yYpC7XzeirbxTcqrK1VqqKfYjtK4PNj4UfAkru6tgMR2yUFDHI&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=2NcCXH6GJe9PyJV16EOP6Q&oh=00_AfardxS3GdikSIGrc_CY4ea9hPbae_cBEesRxCasQCcWRg&oe=68D32666'
@@ -80,6 +88,22 @@ const folderLinks = {
  'English with JayTen': {
     url: 'https://www.facebook.com/EnglishWithJayten/photos',
     thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/533058224_696788230053908_83702061495370474_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9mRU4D7okaMQ7kNvwGOwNEk&_nc_oc=AdlY6XD4OjgYPaX9eRNuP5oYboXoR_lOBSS0oIyDpElPy2yT6bZ8C3VK99uBSAp4vII&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=fLxDIJHikrfIMvORFA__2A&oh=00_AfYKKrlDkyK9lQq_PrfnMAjZkHt0nHhUZ3rzSzTwhY4HWQ&oe=68D2F861'
+  },
+  'English Planet': {
+    url: 'https://www.facebook.com/groups/3234236886616750/media',
+    thumbnail: 'https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/504009321_1419688175828100_5723485374612148765_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=2285d6&_nc_ohc=bJg8FsUrxKkQ7kNvwG9RYDN&_nc_oc=AdnFLrV1Z04Z_I_6fVZum9Sf3jfdQNERQOaA_5fvWcqhnb9rYYzZhnxBwi8uSg7WsI__x81lPwKiay5Fvh6Hkxpu&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=e4kbs5_sOZDJOTKLBuZFag&oh=00_AfYfU_4yZGXAKRbaxUlJ3e5gWmUihFiMuR1enlCdrLGieA&oe=68D3EAA1'
+  },
+  'English Classes': {
+    url: 'https://www.facebook.com/profile.php?id=61555347784246&sk=photos',
+    thumbnail: 'https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/473589706_122200178822178259_6341057741508291587_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=TP0pBynAO2gQ7kNvwFbrU8v&_nc_oc=AdniLLWPG_KSJt42z3DWfIoDBpVR94rMHIdJMBk9qSWArTNv6GXu1YYMeUVdjz4GSxFGYHavEBGhqjirxeELSQgU&_nc_zt=23&_nc_ht=scontent.fsgn2-4.fna&_nc_gid=wCRwMK8tMKV9_CtWJzK5QA&oh=00_AfaSFQMlcGg1MnajvRtdSrwk7qNPw_xN28H7nBPma4xNqw&oe=68D44923'
+  },
+  'Learn English Effortlessly': {
+    url: 'https://www.facebook.com/groups/245525535304118/media',
+    thumbnail: 'https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/480881934_122209231364210898_7309684670221919_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=2285d6&_nc_ohc=xWoB9IgAxnkQ7kNvwGuK6lh&_nc_oc=Admvdkr_w112wG2T2fj5h8mIWqYvKv6UZUWH-39zPFIHuqvh9eI1Bt9qEytppg0nXI58PV2C_gAbGf8AoZppEkRj&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=f0Srp8hCERKX4s-miAvo-Q&oh=00_AfZOq21ARBfUG0hnlh4ip3dj27l8fMqg2jBAPOPLHrlkVA&oe=68D42914'
+  },
+  'English Speaking practice': {
+    url: 'https://www.facebook.com/groups/5688211251275040/media',
+    thumbnail: 'https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/499411523_2183293602092515_6327617338590995305_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=2285d6&_nc_ohc=9EJhyWvQVyEQ7kNvwH5cE_u&_nc_oc=Adn8Bs_c77O6UkmEpyWRbnGSMH64GWqIo69d1plirIxZG17qkeoZJqonytiJPwmC6HAVjSJL2_pj-5BgIPk4-2_B&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=RZkrTW9AuDdKPAwkf7uV9Q&oh=00_AfYhMoggpixL8DD1lLLR93bOCT7YEvf59UTNVo2cr-uucQ&oe=68D420E0'
   },
   // thêm các mục khác nếu cần
 };
