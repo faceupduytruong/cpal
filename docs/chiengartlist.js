@@ -139,5 +139,5 @@ export const chineseArtists = [
   { english: "Xu Beihong", chinese: "徐悲鸿" },
   { english: "Pan Yuliang", chinese: "潘玉良" },
   { english: "Fu Baoshi", chinese: "傅抱石" },
-  { english: "Guan Tong", chinese: "关仝" },
+  { english: "Guan Tong", chinese: "关仝" }
 ];
