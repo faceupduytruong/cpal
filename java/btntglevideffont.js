@@ -36,8 +36,8 @@ document.getElementById("toggleEffectBtn").addEventListener("click", function ()
   const selectedFont = artisticFonts[randomFontIndex];
   document.getElementById("title").style.fontFamily = selectedFont;
 
-  // 👉 Đổi hiệu ứng bong bóng
-  currentEffectIndex = (currentEffectIndex + 1) % bubbleEffects.length;
+ // 👉 Đổi hiệu ứng bong bóng ngẫu nhiên
+  currentEffectIndex = Math.floor(Math.random() * bubbleEffects.length);
 
   // 👉 Đổi video nền ngẫu nhiên
   const randomVideoIndex = Math.floor(Math.random() * bgVideos.length);
