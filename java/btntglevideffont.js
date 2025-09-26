@@ -39,13 +39,13 @@ document.getElementById("toggleEffectBtn").addEventListener("click", function ()
   // 👉 Đổi hiệu ứng bong bóng
   currentEffectIndex = (currentEffectIndex + 1) % bubbleEffects.length;
 
-  // 👉 Đổi video nền
-  currentVideoIndex = (currentVideoIndex + 1) % bgVideos.length;
+  // 👉 Đổi video nền ngẫu nhiên
+  const randomVideoIndex = Math.floor(Math.random() * bgVideos.length);
   const bgVideo = document.querySelector(".bg-video");
   bgVideo.style.opacity = 0;
 
   setTimeout(() => {
-    bgVideo.src = bgVideos[currentVideoIndex];
+    bgVideo.src = bgVideos[randomVideoIndex];
     bgVideo.load();
     bgVideo.play();
     bgVideo.style.opacity = 1;
