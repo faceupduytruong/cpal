@@ -19,7 +19,7 @@ const folderLinks = {
   },
   'HP Junior - Dạy con song ngữ': {
     url: 'https://www.facebook.com/HPJuniorVN/photos',
-    thumbnail: 'https://ucd1980153c5afa434d6f8e772b8.dl.dropboxusercontent.com/cd/0/inline/CynoAGu9v1LwQJWWVXwsl4mDWQC63XhUBxlt7gTskzVT93t_XKumuQ-hGHjpSP9z_7H9h1dMkieI6IvRZwYnkOg_zryB_0iay5uARQVyfOqsNu2OZNx8hco5p4IQAiIX1iOTS3xmtKxftdNI2jMRn-DV/file#'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ecocnheaelwqxux3lm9la/HP-Junior-D-y-con-song-ng.jpg?rlkey=446nryhxp5uxs73tl19joh6cq&st=l3v5ftel&raw=1',
   },
   'Tiếng Anh Siêu Dễ': {
     url: 'https://www.facebook.com/vetco.edu.vn/photos',
