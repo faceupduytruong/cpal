@@ -39,11 +39,11 @@ const folderLinks = {
   },
   'Tiếng Anh giao tiếp Langmaster': {
     url: 'https://www.facebook.com/HoctiengAnhLangmaster/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/481356515_1033253312173105_2891607896168362442_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=bv62jkRU3akQ7kNvwEGeNw9&_nc_oc=AdmDf6nN4PhrrkTv8yYpC7XzeirbxTcqrK1VqqKfYjtK4PNj4UfAkru6tgMR2yUFDHI&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=2NcCXH6GJe9PyJV16EOP6Q&oh=00_AfardxS3GdikSIGrc_CY4ea9hPbae_cBEesRxCasQCcWRg&oe=68D32666'
+    thumbnail: 'https://www.dropbox.com/scl/fi/jbblukjkllifotfrqqogv/Ti-ng-Anh-giao-ti-p-Langmaster.jpg?rlkey=nyfqactzlrih6mopjp6dilqrd&st=xdehm9u3&raw=1'
   },
   'Trung Tâm Anh Ngữ Aten': {
     url: 'https://www.facebook.com/atendoanhnhan/photos',
-    thumbnail: 'https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/490832267_670404202402833_8153603844587782713_n.png?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=xw3HHWSfP40Q7kNvwGGW3CA&_nc_oc=Adn839S7_f8mPzZvg5y5_2vxi6tLcjHeqEw53IMI4Co8aCYF6PKo7fItv6ksKtaNqAU&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=nnwrje5gTSqX1fIiKNVL4g&oh=00_AfbBikWmnb198pz4GansjiV1X5PDtFsERpgZ4ZX-1ui7SQ&oe=68D30B7D'
+    thumbnail: 'https://www.dropbox.com/scl/fi/o9obuqcfkvfb5rf5shv7j/Trung-T-m-Anh-Ng-Aten.png?rlkey=jcreotoq5p9j0wjyut9f3zppj&st=ji9pkleo&raw=1'
   },
   'Anh Ngữ Aten Cần Thơ': {
     url: 'https://www.facebook.com/atenenglishcantho/photos',
