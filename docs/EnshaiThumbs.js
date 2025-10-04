@@ -47,11 +47,11 @@ const folderLinks = {
   },
   'Anh Ngữ Aten Cần Thơ': {
     url: 'https://www.facebook.com/atenenglishcantho/photos',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/491816091_1086681436817774_3271870199844522415_n.png?stp=dst-png_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=WJNxDqzYBuwQ7kNvwGU2cbY&_nc_oc=AdlDXR7NXR6OvbScMqMhdrtUmhyzOfOOheEm3Xzmev1qMVvoKNyjfGjmBT4bcxpBAAg&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=XANwMvB6qF4dZhabFGtpUw&oh=00_AfaSyPMm0o8ai5qU77AaSTY6UOigMgJmFYYAF_fXd1_AAA&oe=68D2F7A5'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ux4nkjbsbpsozxtoquscl/Anh-Ng-Aten-C-n-Th.png?rlkey=gnl01rwcrwzhhrzi4ypku9132&st=dmlvdheb&raw=1'
   },
   'Tiếng Anh nhanh gọn mỗi ngày ': {
     url: 'https://www.facebook.com/tieng.anh.nhanh.gon.moi.ngay/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ofiavmv6cyaflq1cuafpk/Ti-ng-Anh-nhanh-g-n-m-i-ng-y.jpg?rlkey=hs5tu7q69kevtls28hc9ag9ue&st=0v26rvsu&dl=0'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ofiavmv6cyaflq1cuafpk/Ti-ng-Anh-nhanh-g-n-m-i-ng-y.jpg?rlkey=hs5tu7q69kevtls28hc9ag9ue&st=5j8ye2bt&raw=1'
   },
   'Phát Âm Hay - American Pronunciation': {
     url: 'https://www.facebook.com/phatamhay/photos',
@@ -83,15 +83,15 @@ const folderLinks = {
   },
   'Effortless English Center (FREE Posts)': {
     url: 'https://www.facebook.com/groups/effortlessenglishcenter/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/428326511_795574775927138_8522639557168607584_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2285d6&_nc_ohc=PxkwwV7hkp8Q7kNvwHbN6Y7&_nc_oc=Admyn27B_ADJ_C6DwF4gnznR5hE8qiu8jIVGmccAjU_UTQJe55ABiTnsDGFT3cBCjDk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Dhqx9In7w_Z6oeV9c4yfsg&oh=00_AfZBqB-98QokUjs3ckbZwiv2KiQDeie9boGKPHxLoPb6lg&oe=68D2FB29'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ohezz7nu2v4zarzq51q38/Effortless-English-Center-FREE-Posts.jpg?rlkey=bkset48a2d68n2lajex8nvrli&st=8jeqkskg&raw=1'
   },
  'English Learning Together': {
     url: 'https://www.facebook.com/groups/285910352529079/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/440450010_1480801532822188_6893067917698009453_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=2285d6&_nc_ohc=IIr81k9Y-kwQ7kNvwHYCXXL&_nc_oc=AdmVty3R7PZ6pdsEOCCqCJMefCKnR70UkHM3-BKbA3qh1ZCvZb9O3lvq4A6cwqy9qxA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=oqR275t_0MJDR7-J9HRTmA&oh=00_AfbO19ukgPuwEvabQIc5t5j65dnaNoaJ7qHKtkoH-4e9dg&oe=68D2F75C'
+    thumbnail: 'https://www.dropbox.com/scl/fi/rtsmvl5mpg6xx1khz8x5p/English-Learning-together.jpg?rlkey=i1j18cnr2xmq61wqj2b1tmimm&st=2zipd8gg&raw=1'
   },
  'Advanced English Learners': {
     url: 'https://www.facebook.com/groups/3487114231364090/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/470528470_2973613616146722_6620122141191379346_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2285d6&_nc_ohc=Tk8enKM5dEcQ7kNvwH_ADQa&_nc_oc=Adm5q9qNgxz52OIntmVliv906voNiLqkQ7iCi0ljD1S4xReHAE046814O3k3MFU8Pqk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=yOrvEaEQeiDkHQ8e2emhIw&oh=00_AfbV8ipHuIPm62Fak5CbkaLrEdsL48yM7SE9U396mGzWCg&oe=68D2F31E'
+    thumbnail: 'https://www.dropbox.com/scl/fi/rtsmvl5mpg6xx1khz8x5p/English-Learning-together.jpg?rlkey=i1j18cnr2xmq61wqj2b1tmimm&st=2zipd8gg&raw=1'
   },
  'English with JayTen': {
     url: 'https://www.facebook.com/EnglishWithJayten/photos',
