@@ -23,7 +23,7 @@ const folderLinks = {
   },
   'Tiếng Anh Siêu Dễ': {
     url: 'https://www.facebook.com/vetco.edu.vn/photos',
-    thumbnail: 'https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/537017644_1225509136259058_2610158099793633113_n.png?stp=dst-png_s960x960&_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Q0ZgtyFlItUQ7kNvwHYzrtH&_nc_oc=Adko93SakhMU52aDn8P4Xz2NsuYBWyuEhC4VMnlv--583tnpTa5SgeKJ-BfdsiiegJKpAQmsWgERPFbFd8dkhNch&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=PBriQeO4I-axMSwQg7Z4Cw&oh=00_AfYBKKQy9IUusFXDQky4DIMJFbZSiqmaKQXsK3DpkG8X1w&oe=68D544F3'
+    thumbnail: 'https://www.dropbox.com/scl/fi/zsdahyirv79w9z3ucqpj3/Ti-ng-Anh-Si-u-D.png?rlkey=rmb615q5r1pj05ozyvghx9lxg&st=v656k8i1&raw=1'
   },
   'Học Tiếng Anh cô Thu Oanh': {
     url: 'https://www.facebook.com/HoctienganhcoThuOanh/photos',
