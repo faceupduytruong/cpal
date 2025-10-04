@@ -27,7 +27,7 @@ const folderLinks = {
   },
   'Học Tiếng Anh cô Thu Oanh': {
     url: 'https://www.facebook.com/HoctienganhcoThuOanh/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/473591263_1036001908572111_3237118623569368368_n.png?stp=dst-png_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=EQcdLZmGzegQ7kNvwEkxXog&_nc_oc=Adn70mKRP9uQlovkaChbW1Ggffc-S-UA9gmQmqr5g_U4eJ0wDnWUcZGmViyAot12Qso&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8F362mw8XuJBzs-dyto6XA&oh=00_Afb-g1GOmTlMZIMvLls3g91vRStB60xUzky576eM-XKsuA&oe=68D33C5D'
+    thumbnail: 'https://www.dropbox.com/scl/fi/aann4sowm8weqroeq39wy/H-c-Ti-ng-Anh-c-Thu-Oanh.png?rlkey=joliybexn7w4861aggmi367wv&st=jern2bvc&raw=1'
   },
   'Học Tiếng Anh Nghe Nói Với Giáo Viên Nước Ngoài': {
     url: 'https://www.facebook.com/HocTiengAnhGiaoTiepVoiGiaoVienNuocNgoai/photos',
