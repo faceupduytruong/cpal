@@ -31,11 +31,11 @@ const folderLinks = {
   },
   'Học Tiếng Anh Nghe Nói Với Giáo Viên Nước Ngoài': {
     url: 'https://www.facebook.com/HocTiengAnhGiaoTiepVoiGiaoVienNuocNgoai/photos',
-    thumbnail: 'https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/497731544_1122764383218363_2359867179986849266_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=e5vxa53EjewQ7kNvwGdJsyT&_nc_oc=AdnQ7kfP5Vdt6sTBjYbGn99fbMDcknkZHu6BzPBOMQRMXwnas0ykVqoE7G421aiHyx1kPOLiH0ig4zlEw6GxM0CH&_nc_zt=23&_nc_ht=scontent.fsgn2-10.fna&_nc_gid=jk0EyUc6dXeLkWH5V2ifXQ&oh=00_Afb1ngJeBMQvgkgjonudB5fHXW-i0j5EC3XPime6Zlebjg&oe=68D41EC5'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ro3xnd60qrvtqydjapwdh/H-c-Ti-ng-Anh-Nghe-N-i-V-i-Gi-o-Vi-n-N-c-Ngo-i.jpg?rlkey=jcm1lhrx93ke07wfiqeldq5mz&st=ragksfsz&raw=1'
   },
   'Luyện thi Hồ Thành': {
     url: 'https://www.facebook.com/luyenthihothanh/photos',
-    thumbnail: 'https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/535325524_771339955596055_979708450855220140_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=p2U3eJoCCxcQ7kNvwHmTVzS&_nc_oc=AdnfkXQyDq4goog_pOgLQE9hP28iDl010VzSKffuXJ_1u1zpPsJLB_MvtM5b9dzHZ-KVswdMMaIIurz_zxOIsB2K&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=XRtyh-55q9Jj2wf88G_efw&oh=00_AfYe43pwf5yYIUSGqRyJIzwvoQIR7_GgJB-R5KabE1ASVQ&oe=68D442A6'
+    thumbnail: 'https://www.dropbox.com/scl/fi/jatatty04pa9shsh07arq/Luy-n-thi-H-Th-nh.jpg?rlkey=u359ye05eldyxln170ounkvol&st=r9amvm47&dl=0'
   },
   'Tiếng Anh giao tiếp Langmaster': {
     url: 'https://www.facebook.com/HoctiengAnhLangmaster/photos',
