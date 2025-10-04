@@ -31,7 +31,7 @@ const folderLinks = {
   },
   'Luyện thi IELTS LangGo': {
     url: 'https://www.facebook.com/luyenthiIELTSLangGo/photos',
-    thumbnail: 'https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/501039156_1091679436324479_6285224061186029353_n.png?stp=dst-png_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=qEyIMUoJnmMQ7kNvwFPKyxv&_nc_oc=Adkcjl1Y17OgxiIa9cKzO_eHxZslg5HD6reLtPwA44c7sWVaTfnXpYMELQrZLMBrvBcIWe_MgJ3Sznb7nFHbBIDp&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=zv26U8ertEBwsTlqFr3m8g&oh=00_AfZ5EmgmwzVZxkVraaSHezENk3ZfTTY5RKiH6utNJe2Slg&oe=68D42B9C'
+    thumbnail: 'https://www.dropbox.com/scl/fi/pcnkbjm526vhi3x82wexu/Luy-n-thi-IELTS-LangGo.png?rlkey=biftyb1cbe80ba9649jukr7ri&st=36quy7bj&raw=1'
   },
   'Trung tâm Ngoại ngữ ECE': {
     url: 'https://www.facebook.com/NgoainguECE/photos',
