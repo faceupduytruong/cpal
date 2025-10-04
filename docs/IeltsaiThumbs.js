@@ -69,15 +69,23 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61565708207506&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7bf9c099hqz7wsfd8qmle/IELTS-Prediction-VN.jpg?rlkey=49z2117ye2wj4f7s92tb5it4l&st=pqehz00p&raw=1'
   },
- 'English Learning Together': {
-    url: 'https://www.facebook.com/groups/285910352529079/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/440450010_1480801532822188_6893067917698009453_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=2285d6&_nc_ohc=IIr81k9Y-kwQ7kNvwHYCXXL&_nc_oc=AdmVty3R7PZ6pdsEOCCqCJMefCKnR70UkHM3-BKbA3qh1ZCvZb9O3lvq4A6cwqy9qxA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=oqR275t_0MJDR7-J9HRTmA&oh=00_AfbO19ukgPuwEvabQIc5t5j65dnaNoaJ7qHKtkoH-4e9dg&oe=68D2F75C'
+ 'Hieu Nguyen IELTS': {
+    url: 'https://www.facebook.com/HieuNguyenIELTS/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rcekc82ptgmfnafk0h7kd/Hieu-Nguyen-IELTS.jpg?rlkey=rtqgz1x3zhb2pxeg1ltz6bysk&st=koa3l5oj&raw=1'
   },
- 'Advanced English Learners': {
-    url: 'https://www.facebook.com/groups/3487114231364090/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/470528470_2973613616146722_6620122141191379346_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2285d6&_nc_ohc=Tk8enKM5dEcQ7kNvwH_ADQa&_nc_oc=Adm5q9qNgxz52OIntmVliv906voNiLqkQ7iCi0ljD1S4xReHAE046814O3k3MFU8Pqk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=yOrvEaEQeiDkHQ8e2emhIw&oh=00_AfbV8ipHuIPm62Fak5CbkaLrEdsL48yM7SE9U396mGzWCg&oe=68D2F31E'
+ 'IELTS Fighter - Chiến binh IELTS': {
+    url: 'https://www.facebook.com/ieltsfighter/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/kgydixkovdru0hox1up9d/IELTS-Fighter-Chi-n-binh-IELTS.png?rlkey=2to3oi51xutr5h8h3nb8cnzxc&st=ik3dz3fu&raw=1'
   },
- 'English with JayTen': {
+ 'Lani Ielts': {
+    url: 'https://www.facebook.com/lani.ielts.learning/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lnqy6pkivg2zf6joxmlyi/Lani-Ielts.jpg?rlkey=p50p1mnc51cr5ajuez7rxbubo&st=dcyliutt&raw=1'
+  },
+  'Jaxtina English Center': {
+    url: 'https://www.facebook.com/jaxtinaenglish/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9t7jefdesg7i7jiuulvra/Jaxtina-English-Center.jpg?rlkey=r87toe08nhgyu7i814ptva87y&st=gds37pca&raw=1'
+  },
+  'English with JayTen': {
     url: 'https://www.facebook.com/EnglishWithJayten/photos',
     thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/533058224_696788230053908_83702061495370474_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9mRU4D7okaMQ7kNvwGOwNEk&_nc_oc=AdlY6XD4OjgYPaX9eRNuP5oYboXoR_lOBSS0oIyDpElPy2yT6bZ8C3VK99uBSAp4vII&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=fLxDIJHikrfIMvORFA__2A&oh=00_AfYKKrlDkyK9lQq_PrfnMAjZkHt0nHhUZ3rzSzTwhY4HWQ&oe=68D2F861'
   },
