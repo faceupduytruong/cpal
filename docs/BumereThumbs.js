@@ -17,17 +17,17 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
-  'HP Junior - Dạy con song ngữ': {
-    url: 'https://www.facebook.com/HPJuniorVN/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/485658491_1253644413183375_7222980792412689697_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9tibT_xU4SsQ7kNvwGsJQG3&_nc_oc=AdkMjTneuwLS5uIrhvvdfkqo_0--TcvNH6dWXOA83VriSauSTMAzFcH5UfrkF1owAgk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=tzSiO4U9T4k6nStSHrW42Q&oh=00_AfbdRpnOcZ8YI4wZGwM4wyZmJBRgkw2MBZxybBZTk7FK_Q&oe=68D321EF'
+  'Cao Công Thành': {
+    url: 'https://www.facebook.com/CaoCongThanhOfficial/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/41whnduk9dmm391z8o0br/Cao-C-ng-Th-nh.png?rlkey=uzrt4su0px7smp5a8juaqcdjy&st=e1sjecto&raw=1',
   },
-  'Học Tiếng Anh cô Thu Oanh': {
-    url: 'https://www.facebook.com/HoctienganhcoThuOanh/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/473591263_1036001908572111_3237118623569368368_n.png?stp=dst-png_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=EQcdLZmGzegQ7kNvwEkxXog&_nc_oc=Adn70mKRP9uQlovkaChbW1Ggffc-S-UA9gmQmqr5g_U4eJ0wDnWUcZGmViyAot12Qso&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8F362mw8XuJBzs-dyto6XA&oh=00_Afb-g1GOmTlMZIMvLls3g91vRStB60xUzky576eM-XKsuA&oe=68D33C5D'
+  'Master Anh Đức (Nguyễn Anh Đức)': {
+    url: 'https://www.facebook.com/MasterAnhDucOfficial/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/srczs0lzb5y1sgp9n49j0/Master-Anh-c-Nguy-n-Anh-c.jpg?rlkey=btd9bg6nidwkwnw2syyoabjfk&st=0a6iyze0&raw=1',
   },
-  'Tiếng Anh giao tiếp Langmaster': {
-    url: 'https://www.facebook.com/HoctiengAnhLangmaster/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/481356515_1033253312173105_2891607896168362442_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=bv62jkRU3akQ7kNvwEGeNw9&_nc_oc=AdmDf6nN4PhrrkTv8yYpC7XzeirbxTcqrK1VqqKfYjtK4PNj4UfAkru6tgMR2yUFDHI&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=2NcCXH6GJe9PyJV16EOP6Q&oh=00_AfardxS3GdikSIGrc_CY4ea9hPbae_cBEesRxCasQCcWRg&oe=68D32666'
+  'Chu Quang Minh': {
+    url: 'https://www.facebook.com/cqm10x/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/41r33ahnzo5h5ltroe3ep/Chu-Quang-Minh.png?rlkey=xr48942q1zn7q8t692boyt7yy&st=4srrtql2&raw=1',
   },
   'Trung Tâm Anh Ngữ Aten': {
     url: 'https://www.facebook.com/atendoanhnhan/photos',
