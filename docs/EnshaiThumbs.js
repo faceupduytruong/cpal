@@ -25,6 +25,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/vetco.edu.vn/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/zsdahyirv79w9z3ucqpj3/Ti-ng-Anh-Si-u-D.png?rlkey=rmb615q5r1pj05ozyvghx9lxg&st=v656k8i1&raw=1'
   },
+  'Eflita Edu - Tiếng Anh Gia Đình': {
+    url: 'https://www.facebook.com/eflitaedu/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/bjl7bjhcr4xf1vli8mqax/Eflita-Edu-Ti-ng-Anh-Gia-nh.png?rlkey=ie5nis7r7acdjei5nmzi8qcnd&st=4jw1o0n0&raw=1',
+  },
   'Học Tiếng Anh cô Thu Oanh': {
     url: 'https://www.facebook.com/HoctienganhcoThuOanh/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/aann4sowm8weqroeq39wy/H-c-Ti-ng-Anh-c-Thu-Oanh.png?rlkey=joliybexn7w4861aggmi367wv&st=jern2bvc&raw=1'
@@ -124,6 +128,14 @@ const folderLinks = {
   'Practical English Grammar Idioms Group': {
     url: 'https://www.facebook.com/groups/450969245668882/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/2ntfanvt013wdso5udc33/Practical-English-Grammar-Idioms-Group.jpg?rlkey=6o6srvgiy7cnojtd3zlc085qa&st=irudmd48&raw=1'
+  },
+  'Improve English Skills': {
+    url: 'https://www.facebook.com/ImproveEnglishSkills121/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ayfy2f3om199luaubbh4o/Improve-English-Skills.png?rlkey=kmx6pfhrjphjha7mjbezz54hl&st=ewy4fjo5&raw=1',
+  },
+  'Enjoy English': {
+    url: 'https://www.facebook.com/groups/1487687748646438/media',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s736owu1r606bd9hjradt/Enjoy-English.jpg?rlkey=qqf4765jm3dzsw9liut4lrgsg&st=3jjrjv1w&raw=1',
   },
   // thêm các mục khác nếu cần
 };
