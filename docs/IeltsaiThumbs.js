@@ -53,13 +53,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/OEA.ENGLISH/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ib8bwaupx5y0mn03il0yb/Oxford-English-Academy-Vietnam.jpg?rlkey=u76swikzf7lj1r2j6t2vgdcg5&st=8ryctk46&raw=1'
   },
-  'Spoken English and Vocabulary': {
-    url: 'https://www.facebook.com/profile.php?id=100083296070350&sk=photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/469362135_576515788397143_3480835147537745084_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=r6ctTWJ7gb8Q7kNvwEY-79w&_nc_oc=AdlwlSQ3oXYb1y3EWsksAKpm2dMBP0PxKTM3OT85MGtrXVBHaXRMC1sKLT2IK01w_-8&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8Dgo03E8FmndfgZhP7Haog&oh=00_AfaXIlYjpqhII_kukDu_sJkIZBQQWPAs9nWkwSwWlbAzmA&oe=68D30CB4'
+  'Teaching English with Cambridge': {
+    url: 'https://www.facebook.com/CambridgeEnglishTeaching/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8estwhp3z7rthiswxf4yl/Teaching-English-with-Cambridge.jpg?rlkey=tjc0aq7maehdnp12nu6ephmjd&st=lwygckay&raw=1'
   },
-  'A+ English': {
-    url: 'https://www.facebook.com/aplusenglish.edu.vn/photos',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/464657755_856642516659656_2639540335995074212_n.png?stp=dst-png_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=DQW84Lnm3sUQ7kNvwEAI_Ax&_nc_oc=AdnadllLdpymdJ79VtXBkuKCQElEK3rbauOxVPibPHQg8nOtdUP3-O7k3k547GexjGA&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=_tAiQ1DIb3kLlOHuH6ofyA&oh=00_AfYSdS8Kyk33FkMWZLuSgmADR6UE0EF0gkH6ixt0tpOG0w&oe=68D3025E'
+  'Abit - Học IELTS Đạt Chuẩn Tư Duy Của Giám Khảo Chấm Thi': {
+    url: 'https://www.facebook.com/abitieltschuantuduygiamkhao/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/k0uibor1lk6sl2xwfvxao/Abit-H-c-IELTS-t-Chu-n-T-Duy-C-a-Gi-m-Kh-o-Ch-m-Thi.jpg?rlkey=e810wasqcdu9n9nth0xay78ka&st=f0oiw9tu&raw=1'
   },
   'UCA Academy': {
     url: 'https://www.facebook.com/academy.uca/photos',
