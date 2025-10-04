@@ -71,7 +71,7 @@ const folderLinks = {
   },
   'A+ English': {
     url: 'https://www.facebook.com/aplusenglish.edu.vn/photos',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/464657755_856642516659656_2639540335995074212_n.png?stp=dst-png_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=DQW84Lnm3sUQ7kNvwEAI_Ax&_nc_oc=AdnadllLdpymdJ79VtXBkuKCQElEK3rbauOxVPibPHQg8nOtdUP3-O7k3k547GexjGA&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=_tAiQ1DIb3kLlOHuH6ofyA&oh=00_AfYSdS8Kyk33FkMWZLuSgmADR6UE0EF0gkH6ixt0tpOG0w&oe=68D3025E'
+    thumbnail: 'https://www.dropbox.com/scl/fi/9xvbb7soo5qhxzm9xnjru/A-English.png?rlkey=4erqj5kndu4fsk9dsz0ilbeaw&st=b21rd5w2&raw=1'
   },
   'UCA Academy': {
     url: 'https://www.facebook.com/academy.uca/photos',
@@ -103,7 +103,7 @@ const folderLinks = {
   },
   'English Classes': {
     url: 'https://www.facebook.com/profile.php?id=61555347784246&sk=photos',
-    thumbnail: 'https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/473589706_122200178822178259_6341057741508291587_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=TP0pBynAO2gQ7kNvwFbrU8v&_nc_oc=AdniLLWPG_KSJt42z3DWfIoDBpVR94rMHIdJMBk9qSWArTNv6GXu1YYMeUVdjz4GSxFGYHavEBGhqjirxeELSQgU&_nc_zt=23&_nc_ht=scontent.fsgn2-4.fna&_nc_gid=wCRwMK8tMKV9_CtWJzK5QA&oh=00_AfaSFQMlcGg1MnajvRtdSrwk7qNPw_xN28H7nBPma4xNqw&oe=68D44923'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ly6gudo4mntalba75wq9r/English-Classes.jpg?rlkey=pz067r9sh4812m8b4de2zlvha&st=knx6xx11&raw=1'
   },
   'English Grammar': {
     url: 'https://www.facebook.com/groups/1167156720775359/media',
