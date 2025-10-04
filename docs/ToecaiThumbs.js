@@ -19,11 +19,11 @@ const folderLinks = {
   },
   'Chia sẻ kinh nghiệm tự học TOEIC 4 Kỹ Năng': {
     url: 'https://www.facebook.com/groups/phadaotoeic990/media',
-    thumbnail: 'https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/438242952_1131217354881645_379388401459276142_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2285d6&_nc_ohc=tz71DeREz0EQ7kNvwHYW75O&_nc_oc=AdkXQkJg6AFVKzcBgFjhLfJ7R9f18UBE61e4tjvxw9H9Litq68f7d5awsnBESz4N8LgZzkhCImCDQO7a5yJLtn66&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=c2dZ_Cu4D6cG_b6E4Bxtng&oh=00_AfZ62295Y0buhLr-449KX3EIsFWlnDGetX0d5aNIp1lI9A&oe=68D2C423'
+    thumbnail: 'https://www.dropbox.com/scl/fi/q0e1z7xsimu0fe10u754g/Chia-s-kinh-nghi-m-t-h-c-TOEIC-4-K-N-ng.jpg?rlkey=qilxaw7nr6ft947gxmq5d21ee&st=4k8cf2dk&raw=1'
   },
  'ZIM Academy': {
     url: 'https://www.facebook.com/zim.school/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/499157696_122203853156252223_3687477849485625107_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=N97EDx9LPZAQ7kNvwFMCufK&_nc_oc=AdkMeTAavutwYVz3aJMMkXXgbFcND30MYDJO5THQiimdaWDqsBWZM3DEyW_rAm96ips&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=M9KHDKjW7crIqf8ESwYxRw&oh=00_AfaVzKIpDXlc9vk5T3lihlgUXO7AX8rJUwYdtfvS0GzIkA&oe=68D2BAC9'
+    thumbnail: 'https://www.dropbox.com/scl/fi/zuavbvfm8hlgr55v6uz9q/ZIM-Academy.jpg?rlkey=lwieekm822mb25i53o6z9dyht&st=w8dap899&raw=1'
   },
  'Cộng đồng tự học TOEIC trên STUDY4': {
     url: 'https://www.facebook.com/groups/517057750992723/media',
@@ -31,23 +31,23 @@ const folderLinks = {
   },
  'TOEIC Ứng Dụng - Toeicungdung.vn': {
     url: 'https://www.facebook.com/toeicungdung/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/509849962_715335681464000_7536220030201513251_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=24j7YbimX9YQ7kNvwFtE9DY&_nc_oc=AdmsKbK0JgS-Ad0RlIkb9fGVbM-RjDk-a3JWcMaNP0atEDn69rlS2cVrNmdtugDzgPY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8CFFLPBrSIisbDBJLWuzqA&oh=00_AfaUxS9hSRppp6UOr2uB7g4Gk0ZyP0lfMPq5ky99jEJTqQ&oe=68D2D9B4'
+    thumbnail: 'https://www.dropbox.com/scl/fi/q5is8ank2q6gj2pq24hqq/TOEIC-ng-D-ng-Toeicungdung.vn.png?rlkey=6eerfpdi07xt126rimh5uu6fz&st=khu9lwhu&raw=1'
   },
  'GIẢI ĐỀ TOEIC CHO NGƯỜI MẤT GỐC': {
     url: 'https://www.facebook.com/groups/306159104453989/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/290944458_788115952625212_4887322025746080198_n.png?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=2285d6&_nc_ohc=bkw-pQKkNH8Q7kNvwF0TEhQ&_nc_oc=AdmhhqOt_UOFM97x6FKBIfzJRB2xbVH--I5coCLAqHHAfzCeKVV9PbVs1ciQUHF51og&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=ZK7Zlh7GXLupeKWneYXj6A&oh=00_AfYwJmkIa9_TdddHF2ovdV0WjaMILcUFKUsnI6iJ4pqR2A&oe=68D2CF7D'
+    thumbnail: 'https://www.dropbox.com/scl/fi/6b67t1czj1058jloqh0ou/GI-I-TOEIC-CHO-NG-I-M-T-G-C.jpg?rlkey=btjhtjtlorxp5g8fn0lx5ak66&st=1hv6fjcj&raw=1'
   },
  'VŨ TRỤ TÀI LIỆU TOEIC': {
     url: 'https://www.facebook.com/groups/vutrutailieutoeic/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/453068250_462772276606777_2117871877648613853_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2285d6&_nc_ohc=Y22MBvhSqo4Q7kNvwGSJ99j&_nc_oc=AdlFM6f5gd9eWDOqRdjAE3SFyjWbt024dHtofXq_S-UDR1q4TkwbSu8TTXMK9ZpiJ0I&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=IUzDN2EzzTroUmaT7VesMA&oh=00_AfaGVUfht9WMq3uTwt00wgzFRYQ9anQSu8M_UqPRkqBmBw&oe=68D2DD58'
+    thumbnail: 'https://www.dropbox.com/scl/fi/2potc3k57bqdn29bp1n2j/V-TR-T-I-LI-U-TOEIC.jpg?rlkey=9dm0oeowqvoeivotal02aryjp&st=969g3y1s&raw=1'
   },
   'Estudyme - Practice for TOEIC Test Pro': {
     url: 'https://www.facebook.com/toeictestonline/photos',
-    thumbnail: 'https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/499460242_682632611184977_5897717757206992512_n.png?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=tY0BgRevRTsQ7kNvwE0Aaky&_nc_oc=AdlWpgGCHo0BGZd9J6CBQj7hb3gsWVai8Lf0vKscMfXTHuvBleACXrajLYALCOZk6OjHYgCgsJ5MEzSskp15MVH9&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=pPXawyUnKQZ97vNRq-wZqQ&oh=00_AfbJWkepEGYWR3y7AKg4ZwLFp79MjwqEp4UU-WrwpujSYw&oe=68D2DF24'
+    thumbnail: 'https://www.dropbox.com/scl/fi/wk0slgeljoddphaugwp5g/Estudyme-Practice-for-TOEIC-Test-Pro.png?rlkey=q9xpwgl5phsifzo2o4klrzv12&st=1qjwu0lk&raw=1'
   },
   'Anh Lê TOEIC': {
     url: 'https://www.facebook.com/anhleluyenthiTOEIC/photos',
-    thumbnail: 'https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/481925983_948102007525761_8981226258877044522_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=nuurDM1FniIQ7kNvwGKALbC&_nc_oc=AdmaSArMAZzBQ7OsP8Xhbv4g8CZlfEa63xPMJstKIuPR3p8oBQtlCfcpOtGmdUbOmkhKk_BzpOQBInPJcYu-9Blo&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=pLIWVZ0eEuw5vzMsnHd0iA&oh=00_AfYoVNV_sd4np0-Shu3q5jLzyTRxt9WZvsLxnxYd-673OQ&oe=68D54603'
+    thumbnail: 'https://www.dropbox.com/scl/fi/168zgp4hyicxoi1c9mo36/Anh-L-TOEIC.jpg?rlkey=jiiumfmiug1szj266q6dlm05r&st=l2hc2x9b&raw=1'
   },
   'Luyện đề thi thử TOEIC online miễn phí': {
     url: 'https://estudyme.com/test/toeic-test/',
