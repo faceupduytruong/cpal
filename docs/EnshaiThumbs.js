@@ -51,23 +51,23 @@ const folderLinks = {
   },
   'Tiếng Anh nhanh gọn mỗi ngày ': {
     url: 'https://www.facebook.com/tieng.anh.nhanh.gon.moi.ngay/photos',
-    thumbnail: 'https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/468950791_122156616890274524_1754358772350937261_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=XQcUjPWsrSsQ7kNvwEGg4J5&_nc_oc=AdnPL5UFL_rEXBvV7qutACHmtla4oVEb0GFzI2PM9LUa5OgBmoQ0BmOO_ZPrc11xxtc&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=DQyOAsodraBUnMLMiSyFsA&oh=00_AfZoaho9oECE-yxyxO3etosIxK8Vb9fImq6XGjiGi4WJnQ&oe=68D355CA'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ofiavmv6cyaflq1cuafpk/Ti-ng-Anh-nhanh-g-n-m-i-ng-y.jpg?rlkey=hs5tu7q69kevtls28hc9ag9ue&st=0v26rvsu&dl=0'
   },
   'Phát Âm Hay - American Pronunciation': {
     url: 'https://www.facebook.com/phatamhay/photos',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/432433699_786109550218124_605992304346716023_n.png?stp=dst-png_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=ARdAl3GeYQ4Q7kNvwFoW50A&_nc_oc=Adm6auMo3fEKoQO2OtSes6x4RwEPIgK-HRG3uJR7-NCTq9fY448zE1glyeVtkXSoDJ4&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=yGyqvYZhne-RIuNNC1JVGA&oh=00_Afb-rVCbK5pGPGsPsR6cLCxv0A48QjqhQT_ZnCoiD1QSmA&oe=68D300CA'
+    thumbnail: 'https://www.dropbox.com/scl/fi/myp5fsuhhczmbu3ly1811/Ph-t-m-Hay-American-Pronunciation.png?rlkey=rrfwzqbx1drtaq1lcf8lj69w5&st=wy2s0xvs&raw=1'
   },
   'iBetter Books': {
     url: 'https://www.facebook.com/iBetterBooks/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/515491896_122192076206356406_3681132779686878603_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=z5yYYpa70wAQ7kNvwHq7ad-&_nc_oc=Adl4v9C7Cewh05pRaaCn2-2o3jp7FD87MYy1ufuKJNPZjKDgY0q46SIB9Kh5HayTrCU&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=-SZMxbWUm0PC9JzntLkduw&oh=00_Afap4q-vVJQZyDghWyZA9lClrnbjJ5iNWVVFTH0CYIM6fQ&oe=68D30DC7'
+    thumbnail: 'https://www.dropbox.com/scl/fi/0b0gmvh2ndlklbw1j3hpx/iBetter-Books.png?rlkey=7ykv7g7bjcggkf5yjzjspyl7p&st=woimpg2g&raw=1'
   },
   'Oxford English Academy - Vietnam': {
     url: 'https://www.facebook.com/OEA.ENGLISH/photos',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/537135172_1231711582302436_8103153116958002071_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=71ybjRryFJ0Q7kNvwGiJI3J&_nc_oc=Adnh8yY0Myuq1Zu-qkIGWR0z4gmRNXxWaScfKXWlyLkm92TaCg_Ueq65__S3CLsqrjc&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=KYZZ4xv2Ea4KmRCwpO6ORA&oh=00_Afa3NvHn-F3iZ35rKzm9jdL1b9ADNUoDto5oUtDviQLvew&oe=68D306C6'
+    thumbnail: 'https://www.dropbox.com/scl/fi/hrjmhpens9muqypn880iu/Oxford-English-Academy-Vietnam.jpg?rlkey=k2xis3d0iw2zwa9md551ivdci&st=8yz5o30l&raw=1'
   },
   'Spoken English and Vocabulary': {
     url: 'https://www.facebook.com/profile.php?id=100083296070350&sk=photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/469362135_576515788397143_3480835147537745084_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=r6ctTWJ7gb8Q7kNvwEY-79w&_nc_oc=AdlwlSQ3oXYb1y3EWsksAKpm2dMBP0PxKTM3OT85MGtrXVBHaXRMC1sKLT2IK01w_-8&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8Dgo03E8FmndfgZhP7Haog&oh=00_AfaXIlYjpqhII_kukDu_sJkIZBQQWPAs9nWkwSwWlbAzmA&oe=68D30CB4'
+    thumbnail: 'https://www.dropbox.com/scl/fi/dh0zcvbm9p4p5q2a7sl85/Spoken-English-and-Vocabulary.jpg?rlkey=cci21a001m2z7oqass702e1lz&st=5vfkn3ux&raw=1'
   },
   'A+ English': {
     url: 'https://www.facebook.com/aplusenglish.edu.vn/photos',
@@ -75,11 +75,11 @@ const folderLinks = {
   },
   'UCA Academy': {
     url: 'https://www.facebook.com/academy.uca/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/527933635_122124445754912989_2668487100834082784_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=IoSYfl0p9GUQ7kNvwGbgWus&_nc_oc=AdmmY2HRc2ORvVH_Hi61wZf9-EtY_pN13hg6wznT63msOlIQ5eH1qwudD4crBC303tY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Q_zl328qr-TiHgrYEq9oNA&oh=00_AfZdH3-NX2KgLN_g9SRTtuS5HhxZWIczvR3_22qugxgP1w&oe=68D31AB8'
+    thumbnail: 'https://www.dropbox.com/scl/fi/tjevdzjw17m3jtcm2yyun/UCA-Academy.png?rlkey=j1iotv8chg2mz0kw7sg8xbdhg&st=ymlrqw38&raw=1'
   },
   'Learning Treasure': {
     url: 'https://www.facebook.com/learningtreasure5/photos',
-    thumbnail: 'https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/485693924_1061239679362131_5901639986738894121_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=zE4ik1els5sQ7kNvwHxsaGr&_nc_oc=AdniV891odrJLHW4NmDS8GlgTnz2YM7wbFZUgPqnPFIZsp2zpUJk9wNqps0CiyWszpvoATmxdyvoVHGY0qprk2vk&_nc_zt=23&_nc_ht=scontent.fsgn2-4.fna&_nc_gid=QMlwFGFd0w3UWO0rBpKpbA&oh=00_AfYzTSSgU6c5GJGbjjlt4u5dmDb_sqphsPgJpj2pBUKabA&oe=68D5330B'
+    thumbnail: 'https://www.dropbox.com/scl/fi/qqqmzguucjnxd03v6mmdk/Learning-Treasure.jpg?rlkey=kijt48ioj9hzsm2s8m51nobqi&st=hmuptsf6&raw=1'
   },
   'Effortless English Center (FREE Posts)': {
     url: 'https://www.facebook.com/groups/effortlessenglishcenter/media',
@@ -95,7 +95,7 @@ const folderLinks = {
   },
  'English with JayTen': {
     url: 'https://www.facebook.com/EnglishWithJayten/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/533058224_696788230053908_83702061495370474_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9mRU4D7okaMQ7kNvwGOwNEk&_nc_oc=AdlY6XD4OjgYPaX9eRNuP5oYboXoR_lOBSS0oIyDpElPy2yT6bZ8C3VK99uBSAp4vII&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=fLxDIJHikrfIMvORFA__2A&oh=00_AfYKKrlDkyK9lQq_PrfnMAjZkHt0nHhUZ3rzSzTwhY4HWQ&oe=68D2F861'
+    thumbnail: 'https://www.dropbox.com/scl/fi/wq9kumgq0nby1qxq3d925/English-with-JayTen.jpg?rlkey=amku2di5vnu08hyvn9bv9agoj&st=llhsi51f&raw=1'
   },
   'English Planet': {
     url: 'https://www.facebook.com/groups/3234236886616750/media',
@@ -107,11 +107,11 @@ const folderLinks = {
   },
   'English Grammar': {
     url: 'https://www.facebook.com/groups/1167156720775359/media',
-    thumbnail: 'https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/314365160_153286387412699_1837286373740703568_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=2285d6&_nc_ohc=aIGNY1knbmAQ7kNvwHIGVxV&_nc_oc=AdkQolyI3KXtt9DxZsmSXVJis7aIXwbcG-2-0XpHSqzJvePhE-ziV6HgNU8fNcVu7aYWW_LLbeDlaIRTSZrDB8Y_&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=_eN8RNNmn_gJBzucw233pA&oh=00_AfZ2FB7AD1sEhL9Xv-T9L5m9peWbqH6qfY5e9PGAZjQ0Zg&oe=68D53BB8'
+    thumbnail: 'https://www.dropbox.com/scl/fi/34253fx5hpba5c4vdrbno/English-Grammar.jpg?rlkey=1h28feiz8hsqcz5x0sbydjta6&st=o6n3he37&raw=1'
   },
   'English Learning': {
     url: 'https://www.facebook.com/EnglishLearningGS/photos',
-    thumbnail: 'https://scontent.fsgn2-11.fna.fbcdn.net/v/t39.30808-6/488601036_3167406696750192_3214003942370012393_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=Y9G8yidIC_oQ7kNvwFB26Zl&_nc_oc=AdnQH07924sVSlEB0klbcLKYHfh8wvbwy5VYvr-l-iT1G0YkWtaGRbZqaAIs1unb2l0x1nUhFV6kYE-JHS4IMFDK&_nc_zt=23&_nc_ht=scontent.fsgn2-11.fna&_nc_gid=A7k9MGA0PHbx4U9LfJInjg&oh=00_AfZEWYlRBY5UIYcxKEm3wgqgKG45jVpHNMlV7IqDoISClA&oe=68D5C462'
+    thumbnail: 'https://www.dropbox.com/scl/fi/3o0hr54yxj67yd0vb6izf/English-Learning.jpg?rlkey=jbw8rnsk2xf9pummd58197hnd&st=tsx1html&raw=1'
   },
   'English Planet': {
     url: 'https://www.facebook.com/groups/3234236886616750/media',
@@ -123,11 +123,11 @@ const folderLinks = {
   },
   'English Speaking practice': {
     url: 'https://www.facebook.com/groups/5688211251275040/media',
-    thumbnail: 'https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/499411523_2183293602092515_6327617338590995305_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=2285d6&_nc_ohc=9EJhyWvQVyEQ7kNvwH5cE_u&_nc_oc=Adn8Bs_c77O6UkmEpyWRbnGSMH64GWqIo69d1plirIxZG17qkeoZJqonytiJPwmC6HAVjSJL2_pj-5BgIPk4-2_B&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=RZkrTW9AuDdKPAwkf7uV9Q&oh=00_AfYhMoggpixL8DD1lLLR93bOCT7YEvf59UTNVo2cr-uucQ&oe=68D420E0'
+    thumbnail: 'https://www.dropbox.com/scl/fi/i1eoqcn831eizxqa2s304/English-Speaking-practice.jpg?rlkey=ro51xu5ou06fi0y6xb782a4nx&st=w63rl9pq&raw=1'
   },
   'Practical English Grammar Idioms Group': {
     url: 'https://www.facebook.com/groups/450969245668882/media',
-    thumbnail: 'https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/68273832_409193809705037_4329864180157906944_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=2285d6&_nc_ohc=ESYoYB03mNQQ7kNvwFdEFH8&_nc_oc=AdnNB6AKeTCybVyhaMDRaBs4Yior8y3HfT47rqmTeegMs8uYr0D_kYPCCcG1DjAlMiE04suPyv1cEHp5uQdx5JiG&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=0bwStUrYSxrZBt-8ls2nkw&oh=00_AfaQDdpKP_e3azIyyl1ka5deg3qJTAo8qlNfpKAxxtd_vg&oe=68F6F565'
+    thumbnail: 'https://www.dropbox.com/scl/fi/2ntfanvt013wdso5udc33/Practical-English-Grammar-Idioms-Group.jpg?rlkey=6o6srvgiy7cnojtd3zlc085qa&st=irudmd48&raw=1'
   },
   // thêm các mục khác nếu cần
 };
