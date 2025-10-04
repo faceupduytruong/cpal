@@ -61,13 +61,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/abitieltschuantuduygiamkhao/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/k0uibor1lk6sl2xwfvxao/Abit-H-c-IELTS-t-Chu-n-T-Duy-C-a-Gi-m-Kh-o-Ch-m-Thi.jpg?rlkey=e810wasqcdu9n9nth0xay78ka&st=f0oiw9tu&raw=1'
   },
-  'UCA Academy': {
-    url: 'https://www.facebook.com/academy.uca/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/527933635_122124445754912989_2668487100834082784_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=IoSYfl0p9GUQ7kNvwGbgWus&_nc_oc=AdmmY2HRc2ORvVH_Hi61wZf9-EtY_pN13hg6wznT63msOlIQ5eH1qwudD4crBC303tY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Q_zl328qr-TiHgrYEq9oNA&oh=00_AfZdH3-NX2KgLN_g9SRTtuS5HhxZWIczvR3_22qugxgP1w&oe=68D31AB8'
+  'TỰ HỌC IELTS': {
+    url: 'https://www.facebook.com/groups/738230156586625/media',
+    thumbnail: 'https://vinuni.edu.vn/wp-content/uploads/2024/09/chung-chi-tieng-anh-ielts-1.jpg'
   },
-  'Effortless English Center (FREE Posts)': {
-    url: 'https://www.facebook.com/groups/effortlessenglishcenter/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/428326511_795574775927138_8522639557168607584_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2285d6&_nc_ohc=PxkwwV7hkp8Q7kNvwHbN6Y7&_nc_oc=Admyn27B_ADJ_C6DwF4gnznR5hE8qiu8jIVGmccAjU_UTQJe55ABiTnsDGFT3cBCjDk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Dhqx9In7w_Z6oeV9c4yfsg&oh=00_AfZBqB-98QokUjs3ckbZwiv2KiQDeie9boGKPHxLoPb6lg&oe=68D2FB29'
+  'IELTS Prediction VN': {
+    url: 'https://www.facebook.com/profile.php?id=61565708207506&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7bf9c099hqz7wsfd8qmle/IELTS-Prediction-VN.jpg?rlkey=49z2117ye2wj4f7s92tb5it4l&st=pqehz00p&raw=1'
   },
  'English Learning Together': {
     url: 'https://www.facebook.com/groups/285910352529079/media',
