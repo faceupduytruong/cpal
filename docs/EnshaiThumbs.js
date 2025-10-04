@@ -31,11 +31,11 @@ const folderLinks = {
   },
   'Học Tiếng Anh Nghe Nói Với Giáo Viên Nước Ngoài': {
     url: 'https://www.facebook.com/HocTiengAnhGiaoTiepVoiGiaoVienNuocNgoai/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ro3xnd60qrvtqydjapwdh/H-c-Ti-ng-Anh-Nghe-N-i-V-i-Gi-o-Vi-n-N-c-Ngo-i.jpg?rlkey=jcm1lhrx93ke07wfiqeldq5mz&st=ragksfsz&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ro3xnd60qrvtqydjapwdh/H-c-Ti-ng-Anh-Nghe-N-i-V-i-Gi-o-Vi-n-N-c-Ngo-i.jpg?rlkey=jcm1lhrx93ke07wfiqeldq5mz&st=n1nc4oic&raw=1'
   },
   'Luyện thi Hồ Thành': {
     url: 'https://www.facebook.com/luyenthihothanh/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jatatty04pa9shsh07arq/Luy-n-thi-H-Th-nh.jpg?rlkey=u359ye05eldyxln170ounkvol&st=r9amvm47&dl=0'
+    thumbnail: 'https://www.dropbox.com/scl/fi/jatatty04pa9shsh07arq/Luy-n-thi-H-Th-nh.jpg?rlkey=u359ye05eldyxln170ounkvol&st=7vidhcjh&raw=1'
   },
   'Tiếng Anh giao tiếp Langmaster': {
     url: 'https://www.facebook.com/HoctiengAnhLangmaster/photos',
