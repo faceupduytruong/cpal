@@ -19,15 +19,15 @@ const folderLinks = {
   },
   'IZONE - IELTS Chiến Lược': {
     url: 'https://www.facebook.com/IELTSIZONE/photos',
-    thumbnail: 'https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/486667627_979851524348809_580826815833863325_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=_ANmKdhSYSMQ7kNvwGSVrmt&_nc_oc=AdkoEVqtT1-u29CAuin6LmHtbdTXJNJ35qn9oCsyzWaZYhvBRLjSyf5OCOoqJ1bvrDLNMGMIwfeBlXrmqXvPZyN7&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=vM3Nfq2_cGz30INiFw4U7Q&oh=00_AfYTn2_c6UTkR_OYUWGYOeHMLx5qXXSqQHhLbR-o9YtsnA&oe=68D44977'
+    thumbnail: 'https://www.dropbox.com/scl/fi/2va0g33q229p4gy2m2jbu/IZONE-IELTS-Chi-n-L-c.jpg?rlkey=oc8ve6cya2zya4ata867j28eo&st=3tvjeh9e&raw=1'
   },
   'CÀY NÁT IELTS 8+': {
     url: 'https://www.facebook.com/groups/hoicayde/media',
-    thumbnail: 'https://scontent.fsgn2-11.fna.fbcdn.net/v/t1.6435-9/117815780_844228979442645_7777359257550059725_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=2285d6&_nc_ohc=DsyY1pIDygcQ7kNvwGr-DQy&_nc_oc=AdkpnZz14JOwOyO5VVqOKuJYNdks3XfEt-HO1ywuFSSNgzgLkxS-OmJNOVKc1hSQxc1ROKCF1ZEm7RO3QmhWjo6J&_nc_zt=23&_nc_ht=scontent.fsgn2-11.fna&_nc_gid=zUo2PTGTvdZjY7jspRHpiw&oh=00_AfZYhp0nh0iC32WOCHOBasFPP8x6M4FBf5zemydoJgAXVg&oe=68F5CAA9'
+    thumbnail: 'https://www.dropbox.com/scl/fi/85uc9cstk95csohi2ntbz/C-Y-N-T-IELTS-8.jpg?rlkey=8hxrta113a5yga9mkyr20j81i&st=0wcgadej&raw=1'
   },
   'Giải đáp IELTS - Yes IELTS': {
     url: 'https://www.facebook.com/groups/giaidapIELTS/media',
-    thumbnail: 'https://scontent.fsgn2-5.fna.fbcdn.net/v/t1.6435-9/79092579_10215512314137979_8417608559780429824_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=2285d6&_nc_ohc=G3ZIo68JR7oQ7kNvwGhZEW-&_nc_oc=Adnf-TO1iXSMjruAxHs7qCA-TNAQ7zaD2P_ShSObIiBe1Kg-Nu3T4eut4Zy2-lHsCfpk2NNKXtPGO0gTW3a74ytZ&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=8U2i1CIE8DoK9RMd2r5XbA&oh=00_Afb1KD2d9R98YJgQ1To1zEskCNhrWxRznSLZBrm74hTUaQ&oe=68F5CC3C'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ztk81remkng4rpv1k80da/Gi-i-p-IELTS-Yes-IELTS.jpg?rlkey=uo56mje2rm7ljfi08j1qgkjc2&st=d2sx0iiq&raw=1'
   },
   'Luyện thi IELTS LangGo': {
     url: 'https://www.facebook.com/luyenthiIELTSLangGo/photos',
@@ -35,23 +35,23 @@ const folderLinks = {
   },
   'Trung tâm Ngoại ngữ ECE': {
     url: 'https://www.facebook.com/NgoainguECE/photos',
-    thumbnail: 'https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/548527374_1353076160154616_4782789347778065674_n.png?stp=dst-png_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=YV6mijn6ls0Q7kNvwHz9rmA&_nc_oc=AdlPy55QMx7TyhkbglRdluZrwnY3SPnWePM42JnSpmPUkixTpY-BdePi79BLH2RHWfJ_nrJ_eo8OTyP3qe3KYTM6&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=gjYye_sB98akm-ux9Zf3gg&oh=00_AfbO4G5wkB1w0AM1n6fOZj_-UBQEnuWO0W6AL89nwrubzg&oe=68D450C0'
+    thumbnail: 'https://www.dropbox.com/scl/fi/tftmcuvzqc39tsaqazzl8/Trung-t-m-Ngo-i-ng-ECE.jpg?rlkey=jr0blmzygllfjgfhtz0e4r4ut&st=vhzwgsfu&raw=1'
   },
   'Cộ': {
     url: 'https://www.facebook.com/coawabe/photos',
-    thumbnail: 'https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/472003182_924728219802013_1173223091285199981_n.png?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=THVZhXHdgCIQ7kNvwHZsQxs&_nc_oc=AdnLmPjY0uWPBUcFUrwyJQD4lMkntIoF0tM5cqjBbZ2u1caQTFW9FqBE5ffQ31Nn9BpAFn0DlpyNqrp3XEl0Tvq-&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=A-3KpW6NptdP0w5L2b5yYw&oh=00_AfZnXmUypXia7-O4hHah-lOi8YGeOX-fwIR287-hsPHlHA&oe=68D440E4'
+    thumbnail: 'https://www.dropbox.com/scl/fi/t73j8jjudsazncprg3ff1/C.png?rlkey=fu4e3n204k569hdf50xvmp1q1&st=l32p6lyc&raw=1'
   },
   'The Real IELTS': {
     url: 'https://www.facebook.com/realieltsvn',
-    thumbnail: 'https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/541839963_772157035563597_7908432816147517016_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=shzl5G5qrioQ7kNvwFq3Bxa&_nc_oc=Adn5VHqYCJosmpmSYBLPkGHkLucHSFu1kHGEoxaNsI0jvmgSVtrlGbLrGZsg2oZjXS59L4YjMlpemokUi-gpme5H&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=jsoOCmhUVDuXSJToK5dN8A&oh=00_AfZ1wfKLR4fQ0DwVrXcM5YIemk5x9lE9fdNm3ndriKM9_A&oe=68D446C8'
+    thumbnail: 'https://www.dropbox.com/scl/fi/gtcjpmioqeh5mtdafba1q/The-Real-IELTS.jpg?rlkey=y3cq9fu2a1dvr0s9633ivzwwo&st=2yyfcmdp&raw=1'
   },
   'Edmicro - Học IELTS cùng AI': {
     url: 'https://www.facebook.com/edmicroielts/photos',
-    thumbnail: 'https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/542319689_760446973580615_7399577720256594755_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=epdu5bVw3mwQ7kNvwE1Jx6k&_nc_oc=Admytu1wZwZnzesLRIWqocil5NsENMisarfR_qZc01Ryq6sVM-VYjFGxG460GLvNM8IHTNRLWyh1BZ6fvNDxfdOZ&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=NGlQdGlzFqsPda8Pg1zCnA&oh=00_AfaE-bT64VqvEKThazA5g3ElNlLh7BkKWIho9-Do9bBbAw&oe=68D44FA1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/lglk37pehopulkjop2dks/Edmicro-H-c-IELTS-c-ng-AI.jpg?rlkey=n38cg8xq3xi3de61vcxsml36a&st=kfymv70u&raw=1'
   },
   'Oxford English Academy - Vietnam': {
     url: 'https://www.facebook.com/OEA.ENGLISH/photos',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/537135172_1231711582302436_8103153116958002071_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=71ybjRryFJ0Q7kNvwGiJI3J&_nc_oc=Adnh8yY0Myuq1Zu-qkIGWR0z4gmRNXxWaScfKXWlyLkm92TaCg_Ueq65__S3CLsqrjc&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=KYZZ4xv2Ea4KmRCwpO6ORA&oh=00_Afa3NvHn-F3iZ35rKzm9jdL1b9ADNUoDto5oUtDviQLvew&oe=68D306C6'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ib8bwaupx5y0mn03il0yb/Oxford-English-Academy-Vietnam.jpg?rlkey=u76swikzf7lj1r2j6t2vgdcg5&st=8ryctk46&raw=1'
   },
   'Spoken English and Vocabulary': {
     url: 'https://www.facebook.com/profile.php?id=100083296070350&sk=photos',
