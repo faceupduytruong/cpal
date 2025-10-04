@@ -101,6 +101,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/study4.ielts/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/jn8x1iyufvnt2a5f6ejd2/Chia-s-kinh-nghi-m-v-t-i-li-u-t-h-c-IELTS-8.0.jpg?rlkey=u8wmcf5tygt4b27gfgo8dmsp9&st=p5ddcq4g&raw=1',
   },
+  'TỰ HỌC IELTS MỖI NGÀY': {
+    url: 'https://www.facebook.com/groups/tuhocieltsmoingay9.0/media',
+    thumbnail: 'https://www.dropbox.com/scl/fi/bu7oekjudn8yhxt5aicvo/T-H-C-IELTS-M-I-NG-Y.jpg?rlkey=pw6jdv11dx44dkez9egaxsumd&st=ad13h6tr&raw=1',
+  },
+  'IELTS BẢO QUỐC_Tự học IELTS Listening-Reading 9.0': {
+    url: 'https://www.facebook.com/groups/ieltsbaoquoc.ieltscanhanhoa.listeningreading.group/media',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jdb4g9ijes8ik8u2uxy54/IELTS-B-O-QU-C_T-h-c-IELTS-Listening-Reading-9.0.jpg?rlkey=zi4vr1j9p9h649c8pi55vq8zy&st=3fi4xf3x&raw=1',
+  },
   'English with JayTen': {
     url: 'https://www.facebook.com/EnglishWithJayten/photos',
     thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/533058224_696788230053908_83702061495370474_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9mRU4D7okaMQ7kNvwGOwNEk&_nc_oc=AdlY6XD4OjgYPaX9eRNuP5oYboXoR_lOBSS0oIyDpElPy2yT6bZ8C3VK99uBSAp4vII&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=fLxDIJHikrfIMvORFA__2A&oh=00_AfYKKrlDkyK9lQq_PrfnMAjZkHt0nHhUZ3rzSzTwhY4HWQ&oe=68D2F861'
