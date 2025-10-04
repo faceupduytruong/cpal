@@ -91,7 +91,7 @@ const folderLinks = {
   },
  'Advanced English Learners': {
     url: 'https://www.facebook.com/groups/3487114231364090/media',
-    thumbnail: 'https://www.dropbox.com/scl/fi/rtsmvl5mpg6xx1khz8x5p/English-Learning-together.jpg?rlkey=i1j18cnr2xmq61wqj2b1tmimm&st=2zipd8gg&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/1ntnnrlq340tb8loiiy2s/Advanced-English-Learners.jpg?rlkey=k87z4f0ia3574rfbodw0sqc3x&st=wj7ivhxl&raw=1'
   },
  'English with JayTen': {
     url: 'https://www.facebook.com/EnglishWithJayten/photos',
@@ -113,13 +113,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/EnglishLearningGS/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/3o0hr54yxj67yd0vb6izf/English-Learning.jpg?rlkey=jbw8rnsk2xf9pummd58197hnd&st=tsx1html&raw=1'
   },
-  'English Planet': {
-    url: 'https://www.facebook.com/groups/3234236886616750/media',
-    thumbnail: 'https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/504009321_1419688175828100_5723485374612148765_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=2285d6&_nc_ohc=bJg8FsUrxKkQ7kNvwG9RYDN&_nc_oc=AdnFLrV1Z04Z_I_6fVZum9Sf3jfdQNERQOaA_5fvWcqhnb9rYYzZhnxBwi8uSg7WsI__x81lPwKiay5Fvh6Hkxpu&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=e4kbs5_sOZDJOTKLBuZFag&oh=00_AfYfU_4yZGXAKRbaxUlJ3e5gWmUihFiMuR1enlCdrLGieA&oe=68D3EAA1'
-  },
   'Learn English Effortlessly': {
     url: 'https://www.facebook.com/groups/245525535304118/media',
-    thumbnail: 'https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/480881934_122209231364210898_7309684670221919_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=2285d6&_nc_ohc=xWoB9IgAxnkQ7kNvwGuK6lh&_nc_oc=Admvdkr_w112wG2T2fj5h8mIWqYvKv6UZUWH-39zPFIHuqvh9eI1Bt9qEytppg0nXI58PV2C_gAbGf8AoZppEkRj&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=f0Srp8hCERKX4s-miAvo-Q&oh=00_AfZOq21ARBfUG0hnlh4ip3dj27l8fMqg2jBAPOPLHrlkVA&oe=68D42914'
+    thumbnail: 'https://www.dropbox.com/scl/fi/zczi2iwnypgdjz4rzx0nf/Learn-English-Effortlessly.jpg?rlkey=bvjad16wowgbdl0e6xvpbym5n&st=fsb8xl6u&raw=1'
   },
   'English Speaking practice': {
     url: 'https://www.facebook.com/groups/5688211251275040/media',
