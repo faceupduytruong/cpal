@@ -19,7 +19,7 @@ const folderLinks = {
   },
   'HP Junior - Dạy con song ngữ': {
     url: 'https://www.facebook.com/HPJuniorVN/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/485658491_1253644413183375_7222980792412689697_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9tibT_xU4SsQ7kNvwGsJQG3&_nc_oc=AdkMjTneuwLS5uIrhvvdfkqo_0--TcvNH6dWXOA83VriSauSTMAzFcH5UfrkF1owAgk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=tzSiO4U9T4k6nStSHrW42Q&oh=00_AfbdRpnOcZ8YI4wZGwM4wyZmJBRgkw2MBZxybBZTk7FK_Q&oe=68D321EF'
+    thumbnail: 'https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/485658491_1253644413183375_7222980792412689697_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=ujrPGHOfMTQQ7kNvwGXmvi7&_nc_oc=AdktBKS6Pr_0bf1eJOg98aLz2Zag75K7GZJbsoD1b-Qr8DSf3yUW3oP3FQ9S9UUTYGmI9KNle91QUMXCC1tH-LF3&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=Q51TGSpMewztOS1ku76fUQ&oh=00_AfdxPia97kIa6oMST6fYXqtdfdZ98ivCWmKvlrhnAOzVCg&oe=68E677EF'
   },
   'Tiếng Anh Siêu Dễ': {
     url: 'https://www.facebook.com/vetco.edu.vn/photos',
