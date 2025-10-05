@@ -17,9 +17,21 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
+  'Phạm Ngọc': {
+    url: 'https://www.facebook.com/KenhPhuNuPhamNgoc/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/uibt8yvfg1uav75omxo7v/Ph-m-Ng-c.jpg?rlkey=pinpbjl7clls25u8tz6ouv7jb&st=7y2ovna5&raw=1',
+  },
+  'ĐẠI TƯỚNG QUÂN': {
+    url: 'https://www.facebook.com/profile.php?id=61576922346529&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/bxiq0mn2ufhhcn00ppc6h/I-T-NG-QU-N.jpg?rlkey=ulmrbyq8zbrmzhlxzf2396vw7&st=fjbqlgv8&raw=1',
+  },
   'Cao Công Thành': {
     url: 'https://www.facebook.com/CaoCongThanhOfficial/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/41whnduk9dmm391z8o0br/Cao-C-ng-Th-nh.png?rlkey=uzrt4su0px7smp5a8juaqcdjy&st=e1sjecto&raw=1',
+  },
+  'Nguyễn Minh Chính  (Vạn Sự Tùy Duyên)': {
+    url: 'https://www.facebook.com/chinh.nguyenminh.5074/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1mzzmuso1v2lynxpl5hhl/Nguy-n-Minh-Ch-nh-V-n-S-T-y-Duy-n.jpg?rlkey=r2t6ahmba3n0ltcmefuxrfuhm&st=a6w002hv&raw=1',
   },
   'Master Anh Đức (Nguyễn Anh Đức)': {
     url: 'https://www.facebook.com/MasterAnhDucOfficial/reels/',
@@ -29,13 +41,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/cqm10x/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/41r33ahnzo5h5ltroe3ep/Chu-Quang-Minh.png?rlkey=xr48942q1zn7q8t692boyt7yy&st=4srrtql2&raw=1',
   },
-  'Trung Tâm Anh Ngữ Aten': {
-    url: 'https://www.facebook.com/atendoanhnhan/photos',
-    thumbnail: 'https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/490832267_670404202402833_8153603844587782713_n.png?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=xw3HHWSfP40Q7kNvwGGW3CA&_nc_oc=Adn839S7_f8mPzZvg5y5_2vxi6tLcjHeqEw53IMI4Co8aCYF6PKo7fItv6ksKtaNqAU&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=nnwrje5gTSqX1fIiKNVL4g&oh=00_AfbBikWmnb198pz4GansjiV1X5PDtFsERpgZ4ZX-1ui7SQ&oe=68D30B7D'
-  },
-  'Anh Ngữ Aten Cần Thơ': {
-    url: 'https://www.facebook.com/atenenglishcantho/photos',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/491816091_1086681436817774_3271870199844522415_n.png?stp=dst-png_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=WJNxDqzYBuwQ7kNvwGU2cbY&_nc_oc=AdlDXR7NXR6OvbScMqMhdrtUmhyzOfOOheEm3Xzmev1qMVvoKNyjfGjmBT4bcxpBAAg&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=XANwMvB6qF4dZhabFGtpUw&oh=00_AfaSyPMm0o8ai5qU77AaSTY6UOigMgJmFYYAF_fXd1_AAA&oe=68D2F7A5'
+  'Trần Toản': {
+    url: 'https://www.facebook.com/trantoan886868/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lq8c6arhkukj5rtu3kxy7/Tr-n-To-n.png?rlkey=uyhvegrw2wjywxod5tf90w5rn&st=8s2s86ic&raw=1',
   },
   'Tiếng Anh nhanh gọn mỗi ngày ': {
     url: 'https://www.facebook.com/tieng.anh.nhanh.gon.moi.ngay/photos',
