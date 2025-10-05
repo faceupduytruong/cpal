@@ -17,13 +17,33 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
+  'Dũng Phan': {
+    url: 'https://www.facebook.com/dung.phan.77/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/n25tawauugxzd9hy1skzb/D-ng-Phan.jpg?rlkey=yaqlqjiv2i0ikpxetgwhdja85&st=xjttz85t&raw=1',
+  },
+  'Emily Chung Nguyen': {
+    url: 'https://www.facebook.com/EmilyChungNguyen/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/069vci1z7kgburkva555z/Emily-Chung-Nguyen.png?rlkey=57i5hrkghx5g1huk4p43afywn&st=6aeisyvy&raw=1',
+  },
   'Phạm Ngọc': {
     url: 'https://www.facebook.com/KenhPhuNuPhamNgoc/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uibt8yvfg1uav75omxo7v/Ph-m-Ng-c.jpg?rlkey=pinpbjl7clls25u8tz6ouv7jb&st=7y2ovna5&raw=1',
   },
+  'Phát triển Bản Thân Liên Tục': {
+    url: 'https://www.facebook.com/groups/phattrienbanthanlientuc/media',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ees17ngvzumv0et65mthw/Ph-t-tri-n-B-n-Th-n-Li-n-T-c.jpg?rlkey=pea6pdt5hhztlnljopdcox13r&st=h1gmdwbm&raw=1',
+  },
+  'Bền Chí Thành Nhân': {
+    url: 'https://www.facebook.com/profile.php?id=61579175547025&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/myrz9k1fbsrunltxdnyd4/B-n-Ch-Th-nh-Nh-n.png?rlkey=xdyjz96zt13qaz242mk40gyk7&st=42gz0011&raw=1',
+  },
   'ĐẠI TƯỚNG QUÂN': {
     url: 'https://www.facebook.com/profile.php?id=61576922346529&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/bxiq0mn2ufhhcn00ppc6h/I-T-NG-QU-N.jpg?rlkey=ulmrbyq8zbrmzhlxzf2396vw7&st=fjbqlgv8&raw=1',
+  },
+  'Thêm Tổng': {
+    url: 'https://www.facebook.com/themtong.88/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ruzywrxeghbvhi5ej6jaj/Th-m-T-ng.jpg?rlkey=mfsgl7iv90iu1mty5371oap9x&st=dwybnaz6&raw=1',
   },
   'Cao Công Thành': {
     url: 'https://www.facebook.com/CaoCongThanhOfficial/photos',
@@ -44,50 +64,6 @@ const folderLinks = {
   'Trần Toản': {
     url: 'https://www.facebook.com/trantoan886868/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lq8c6arhkukj5rtu3kxy7/Tr-n-To-n.png?rlkey=uyhvegrw2wjywxod5tf90w5rn&st=8s2s86ic&raw=1',
-  },
-  'Tiếng Anh nhanh gọn mỗi ngày ': {
-    url: 'https://www.facebook.com/tieng.anh.nhanh.gon.moi.ngay/photos',
-    thumbnail: 'https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/468950791_122156616890274524_1754358772350937261_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=XQcUjPWsrSsQ7kNvwEGg4J5&_nc_oc=AdnPL5UFL_rEXBvV7qutACHmtla4oVEb0GFzI2PM9LUa5OgBmoQ0BmOO_ZPrc11xxtc&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=DQyOAsodraBUnMLMiSyFsA&oh=00_AfZoaho9oECE-yxyxO3etosIxK8Vb9fImq6XGjiGi4WJnQ&oe=68D355CA'
-  },
-  'Phát Âm Hay - American Pronunciation': {
-    url: 'https://www.facebook.com/phatamhay/photos',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/432433699_786109550218124_605992304346716023_n.png?stp=dst-png_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=ARdAl3GeYQ4Q7kNvwFoW50A&_nc_oc=Adm6auMo3fEKoQO2OtSes6x4RwEPIgK-HRG3uJR7-NCTq9fY448zE1glyeVtkXSoDJ4&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=yGyqvYZhne-RIuNNC1JVGA&oh=00_Afb-rVCbK5pGPGsPsR6cLCxv0A48QjqhQT_ZnCoiD1QSmA&oe=68D300CA'
-  },
-  'iBetter Books': {
-    url: 'https://www.facebook.com/iBetterBooks/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/515491896_122192076206356406_3681132779686878603_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=z5yYYpa70wAQ7kNvwHq7ad-&_nc_oc=Adl4v9C7Cewh05pRaaCn2-2o3jp7FD87MYy1ufuKJNPZjKDgY0q46SIB9Kh5HayTrCU&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=-SZMxbWUm0PC9JzntLkduw&oh=00_Afap4q-vVJQZyDghWyZA9lClrnbjJ5iNWVVFTH0CYIM6fQ&oe=68D30DC7'
-  },
-  'Oxford English Academy - Vietnam': {
-    url: 'https://www.facebook.com/OEA.ENGLISH/photos',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/537135172_1231711582302436_8103153116958002071_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=71ybjRryFJ0Q7kNvwGiJI3J&_nc_oc=Adnh8yY0Myuq1Zu-qkIGWR0z4gmRNXxWaScfKXWlyLkm92TaCg_Ueq65__S3CLsqrjc&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=KYZZ4xv2Ea4KmRCwpO6ORA&oh=00_Afa3NvHn-F3iZ35rKzm9jdL1b9ADNUoDto5oUtDviQLvew&oe=68D306C6'
-  },
-  'Spoken English and Vocabulary': {
-    url: 'https://www.facebook.com/profile.php?id=100083296070350&sk=photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/469362135_576515788397143_3480835147537745084_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=r6ctTWJ7gb8Q7kNvwEY-79w&_nc_oc=AdlwlSQ3oXYb1y3EWsksAKpm2dMBP0PxKTM3OT85MGtrXVBHaXRMC1sKLT2IK01w_-8&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8Dgo03E8FmndfgZhP7Haog&oh=00_AfaXIlYjpqhII_kukDu_sJkIZBQQWPAs9nWkwSwWlbAzmA&oe=68D30CB4'
-  },
-  'A+ English': {
-    url: 'https://www.facebook.com/aplusenglish.edu.vn/photos',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/464657755_856642516659656_2639540335995074212_n.png?stp=dst-png_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=DQW84Lnm3sUQ7kNvwEAI_Ax&_nc_oc=AdnadllLdpymdJ79VtXBkuKCQElEK3rbauOxVPibPHQg8nOtdUP3-O7k3k547GexjGA&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=_tAiQ1DIb3kLlOHuH6ofyA&oh=00_AfYSdS8Kyk33FkMWZLuSgmADR6UE0EF0gkH6ixt0tpOG0w&oe=68D3025E'
-  },
-  'UCA Academy': {
-    url: 'https://www.facebook.com/academy.uca/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/527933635_122124445754912989_2668487100834082784_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=IoSYfl0p9GUQ7kNvwGbgWus&_nc_oc=AdmmY2HRc2ORvVH_Hi61wZf9-EtY_pN13hg6wznT63msOlIQ5eH1qwudD4crBC303tY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Q_zl328qr-TiHgrYEq9oNA&oh=00_AfZdH3-NX2KgLN_g9SRTtuS5HhxZWIczvR3_22qugxgP1w&oe=68D31AB8'
-  },
-  'Effortless English Center (FREE Posts)': {
-    url: 'https://www.facebook.com/groups/effortlessenglishcenter/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/428326511_795574775927138_8522639557168607584_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2285d6&_nc_ohc=PxkwwV7hkp8Q7kNvwHbN6Y7&_nc_oc=Admyn27B_ADJ_C6DwF4gnznR5hE8qiu8jIVGmccAjU_UTQJe55ABiTnsDGFT3cBCjDk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Dhqx9In7w_Z6oeV9c4yfsg&oh=00_AfZBqB-98QokUjs3ckbZwiv2KiQDeie9boGKPHxLoPb6lg&oe=68D2FB29'
-  },
- 'English Learning Together': {
-    url: 'https://www.facebook.com/groups/285910352529079/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/440450010_1480801532822188_6893067917698009453_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=2285d6&_nc_ohc=IIr81k9Y-kwQ7kNvwHYCXXL&_nc_oc=AdmVty3R7PZ6pdsEOCCqCJMefCKnR70UkHM3-BKbA3qh1ZCvZb9O3lvq4A6cwqy9qxA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=oqR275t_0MJDR7-J9HRTmA&oh=00_AfbO19ukgPuwEvabQIc5t5j65dnaNoaJ7qHKtkoH-4e9dg&oe=68D2F75C'
-  },
- 'Advanced English Learners': {
-    url: 'https://www.facebook.com/groups/3487114231364090/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/470528470_2973613616146722_6620122141191379346_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2285d6&_nc_ohc=Tk8enKM5dEcQ7kNvwH_ADQa&_nc_oc=Adm5q9qNgxz52OIntmVliv906voNiLqkQ7iCi0ljD1S4xReHAE046814O3k3MFU8Pqk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=yOrvEaEQeiDkHQ8e2emhIw&oh=00_AfbV8ipHuIPm62Fak5CbkaLrEdsL48yM7SE9U396mGzWCg&oe=68D2F31E'
-  },
- 'English with JayTen': {
-    url: 'https://www.facebook.com/EnglishWithJayten/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/533058224_696788230053908_83702061495370474_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9mRU4D7okaMQ7kNvwGOwNEk&_nc_oc=AdlY6XD4OjgYPaX9eRNuP5oYboXoR_lOBSS0oIyDpElPy2yT6bZ8C3VK99uBSAp4vII&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=fLxDIJHikrfIMvORFA__2A&oh=00_AfYKKrlDkyK9lQq_PrfnMAjZkHt0nHhUZ3rzSzTwhY4HWQ&oe=68D2F861'
   },
   // thêm các mục khác nếu cần
 };
