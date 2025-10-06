@@ -81,5 +81,6 @@ body::-webkit-scrollbar-thumb {
 
   const blob = new Blob([htmlContent], { type: "text/html" });
   const url = URL.createObjectURL(blob);
-  openRightHalfPopup(url, "CelebrityInfo", window.innerWidth, 700);
+  openRightHalfPopup(url, "CelebrityInfo", window.innerWidth, 745);
 }
+
