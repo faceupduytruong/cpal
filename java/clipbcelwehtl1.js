@@ -94,7 +94,7 @@ src="https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1754981930
 
   const screenWidth = window.innerWidth;
   const popupWidth = Math.floor(screenWidth); // nửa phải
-  const popupHeight = 700;
+  const popupHeight = 745;
   const left = screenWidth + popupWidth;
   const top = Math.floor((window.innerHeight - popupHeight));
 
@@ -103,4 +103,5 @@ src="https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1754981930
     "_blank",
     `width=${popupWidth},height=${popupHeight},left=${left},top=${top},resizable=yes,scrollbars=yes`
   );
+
 }
