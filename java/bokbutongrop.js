@@ -23,7 +23,7 @@ function togglePopup(liElement) {
 }
 
 function openLink(url) {
-  window.openRightHalfPopup(url, 'Popup', window.innerWidth*2, 698);
+  window.openRightHalfPopup(url, 'Popup', window.innerWidth*2, 745);
 }
 
 function clearSearch(event) {
@@ -114,3 +114,4 @@ function openLink(baseUrl) {
   window.openRightHalfPopup(finalUrl, 'Popup', window.innerWidth * 2 + 40, 745);
 
 }
+
