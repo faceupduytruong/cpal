@@ -390,3 +390,4 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 745);
     talkinClickCount++;
   }
+
