@@ -91,6 +91,8 @@ function openLink(baseUrl) {
     finalUrl = `https://nhasachmienphi.com/?s=${encodeURIComponent(query)}`;
   } else if (baseUrl.includes("download.com.vn")) {
     finalUrl = `https://download.com.vn/s?q=${encodeURIComponent(query)}`;
+  } else if (baseUrl.includes("dtv-ebook.com.vn")) {
+    finalUrl = `https://dtv-ebook.com.vn/search?q=${encodeURIComponent(query)}`;
   } else if (baseUrl.includes("apple.com")) {
     const combinedQuery = "sách nói " + query;
     finalUrl = `https://podcasts.apple.com/vn/search?term=${encodeURIComponent(combinedQuery)}`;
@@ -114,4 +116,5 @@ function openLink(baseUrl) {
   window.openRightHalfPopup(finalUrl, 'Popup', window.innerWidth * 2 + 40, 745);
 
 }
+
 
