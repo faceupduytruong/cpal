@@ -1,5 +1,73 @@
 // 👉 Ứng dụng search books theo các đường dẫn
 
+  const bookList = document.getElementById('bookList');
+  const bookFrame = document.getElementById('bookFrame');
+  const popup = document.getElementById('popup');
+
+  bookList.addEventListener('click', function (e) {
+    const li = e.target.closest('li');
+    if (li && li.dataset.src) {
+      bookFrame.src = li.dataset.src;
+      popup.style.display = 'block';
+    }
+  });
+
+  function closePopup() {
+    popup.style.display = 'none';
+    bookFrame.src = '';
+  }
+
+function togglePopup(liElement) {
+  const popup = liElement.querySelector('.popup');
+  popup.style.display = popup.style.display === 'block' ? 'none' : 'block';
+}
+
+function openLink(url) {
+  window.openRightHalfPopup(url, 'Popup', window.innerWidth*2, 698);
+}
+
+function clearSearch(event) {
+  event.stopPropagation();              // Ngăn lan ra ngoài
+  event.stopImmediatePropagation();     // Ngăn mọi listener khác xử lý
+  document.getElementById("searchInput").value = "";
+}
+
+function suggestKeyword(event) {
+  event.stopPropagation(); // 👈 Ngăn đóng popup
+  const randomIndex = Math.floor(Math.random() * suggestions.length);
+  const keyword = suggestions[randomIndex];
+  document.getElementById("searchInput").value = keyword;
+}
+
+document.getElementById("DelBtn").addEventListener("click", function(event) {
+  event.stopPropagation();
+  event.stopImmediatePropagation();
+  document.getElementById("searchInput").value = "";
+});
+
+document.getElementById("suggestBtn").addEventListener("click", function(event) {
+  event.stopPropagation();
+  const randomIndex = Math.floor(Math.random() * suggestions.length);
+  const keyword = suggestions[randomIndex];
+  document.getElementById("searchInput").value = keyword;
+});
+
+function openEpubViewer() {
+  try {
+  window.openRightHalfPopup("chrome-extension://jhhclmfgfllimlhabjkgkeebkbiadflb/reader.html", 'Popup', window.innerWidth * 2 + 40, 745);
+  } catch (e) {
+    alert("Không thể mở EPUB Viewer. Hãy kiểm tra xem extension đã được cài chưa.");
+  }
+}
+
+function openCenterManager() {
+  try {
+  window.openRightHalfPopup("file:///C:/Users/Admin/OneDrive/Documents/Reset%20System%20Windows/Music%20Playlist/index.html", 'Popup', window.innerWidth, 698);
+  } catch (e) {
+    alert("Không thể mở EPUB Viewer. Hãy kiểm tra xem extension đã được cài chưa.");
+  }
+}
+
 function openLink(baseUrl) {
   const query = document.getElementById("searchInput").value.trim();
   if (!query) {
@@ -44,4 +112,5 @@ function openLink(baseUrl) {
   }
 
   window.openRightHalfPopup(finalUrl, 'Popup', window.innerWidth * 2 + 40, 745);
+
 }
