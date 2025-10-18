@@ -43,8 +43,12 @@ export const resSources = [
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760023323/37-9ce0a90f955e351fb0b78bbce0b7f040-1920x1080_xizwv3.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760023323/37-5be587c07245de205dac79d6d20622de-1920x1080_n82ycs.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760023323/37-4ec0546f0dc4611a10e8f05da5ff3079-1920x1080_txep76.mp4",
+   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760027177/37-31fc575ed1d2471145c767f4b3500ad0-1920x1080_i342jn.mp4",
 
    // Fresh Fruit
+   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760777911/37-e2683754bd361d7ce083a35aea7e4f10-1920x1080_yez3na.mp4",
+   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760777894/37-adcf6348e1d65e8bf3cdf03dbee76d04-1920x1080_be0f8m.mp4",
+   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760777824/37-11922fb7c44a64204c5b975305cd4761-1920x1080_yehjn2.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-e17ec37e083375aa2f64aa22b8fc33f5-1920x1080_tcrbee.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059557/37-e8bdfe956db762062159b90731726faa-1920x1080_hstiy7.mp4",  
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059545/37-a554014bd79d88607bcfb418728bf586-1920x1080_qvrtv9.mp4",
@@ -61,34 +65,13 @@ export const resSources = [
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-37e4b29dd03c10310bbbed2adc34ee6f-1920x1080_zlyri2.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-33ae3fe5857155b78f7998eb325951ba-1920x1080_ikafa0.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059520/37-28e5818148788b1de4c40e43c16d7d3f-1920x1080_odvfll.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059520/37-31fc575ed1d2471145c767f4b3500ad0-1920x1080_rgcpbe.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-10c9347cc82430a904b246658e039278-1920x1080_mbfxrc.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-14c3053d5890fd2a5ce2db46b5b1a710-1920x1080_ljigsk.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-1d16ce01dba4f29d0a2c6b3e817418ce-1920x1080_bqievo.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059511/37-5ccf0876ae9ff158be2bbc0be523e8a4-1920x1080_zbtd35.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-1b34c50755b7e5af933a68029ae276c3-1920x1080_pnvtd1.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059505/37-0b32a3d17695b69d17ca1c4e6534dae0-1920x1080_bnmbmc.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760027206/37-a554014bd79d88607bcfb418728bf586-1920x1080_cmf76y.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-a0f1a5467739f55b579577a3869d99bb-1920x1080_ohoqr2.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-e17ec37e083375aa2f64aa22b8fc33f5-1920x1080_hixehb.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-08400622fb5cb5338a34b084a9d60bb4-1920x1080_f1vaoh.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-e9d6eeeab19f03cb3a7097a5002fb5de-1920x1080_vspzkb.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760027189/37-4483e2efa70a04067e93607893a1607c-1920x1080_hd7mcv.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-d9cce0fe41d1fb39b9e21dfd9e54e1b2-1920x1080_bx30zv.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-25754e2364a29338a1d2e2a29e121149-1920x1080_tl6uzm.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-301d877f088ee7b9f5a04ad0d38e81b2-1920x1080_ba0lov.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-86dcfd8cb4e03629ea87e3a533852771-1920x1080_qywgij.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-14c3053d5890fd2a5ce2db46b5b1a710-1920x1080_lzote6.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-95c97dd8f6357c49475e768ec1544241-1920x1080_mv6c5x.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-4053c65744984338789b962d3fa26a83-1920x1080_ilregl.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-37e4b29dd03c10310bbbed2adc34ee6f-1920x1080_p69uby.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-28e5818148788b1de4c40e43c16d7d3f-1920x1080_xtvk63.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-33ae3fe5857155b78f7998eb325951ba-1920x1080_hg9s0t.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-1d16ce01dba4f29d0a2c6b3e817418ce-1920x1080_kx5cq5.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-10c9347cc82430a904b246658e039278-1920x1080_nj5zz5.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-5ccf0876ae9ff158be2bbc0be523e8a4-1920x1080_c3htlr.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-0b32a3d17695b69d17ca1c4e6534dae0-1920x1080_joicvd.mp4",
-   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059512/37-1b34c50755b7e5af933a68029ae276c3-1920x1080_onmy9c.mp4",
+   "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760027177/37-31fc575ed1d2471145c767f4b3500ad0-1920x1080_i342jn.mp4",
    
    // Red China
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760059995/37-6da606fcfbccc6813bc1ccf26e192fd9-1920x1080_xvv0dg.mp4",
@@ -706,5 +689,6 @@ export const resSources = [
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760061116/37-4ebaa461e90aa11cb415e1ca1effe5d1-1920x1080_c6ohji.mp4",
    "https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760061113/37-00d60f8a843bfe0e4c388aa03f616faf-1920x1080_ewspkl.mp4",
 ];
+
 
 
