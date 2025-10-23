@@ -83,7 +83,7 @@ body::-webkit-scrollbar-thumb {
   muted
   loop
   playsinline
-src="https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1754981930/37-d93c264285c811b7f55bca5029131e35-1920x1080_xeystq.mp4">
+src="https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760062745/37-dcdbda88d9c3d5b5c0c946be17791415-1920x1080_wm9shm.mp4">
 </video>
 
   </body>
@@ -105,3 +105,4 @@ src="https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1754981930
   );
 
 }
+
