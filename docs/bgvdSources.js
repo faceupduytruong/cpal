@@ -1,4 +1,4 @@
-export const bgVideos = [
+const bgVideos = [
   "https://assets.mixkit.co/videos/18111/18111-720.mp4",
   "https://assets.mixkit.co/videos/3843/3843-720.mp4",
   "https://assets.mixkit.co/videos/52304/52304-720.mp4",
