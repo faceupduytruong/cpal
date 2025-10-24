@@ -6,22 +6,6 @@
   // 👉 Nhúng js các loại màu sắc vào html
   import { colors } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@cd2e5da/docs/coloarramodif.js';
 
-  const video = document.getElementById('player');
-  const playBtn = document.getElementById('playBtn');
-  const stopBtn = document.getElementById('stopBtn');
-  const hls = new Hls();
-  const streamUrl = 'https://vnso-pt-8-tf-multi-playlist-zmp3.zmdcdn.me/nDOW7B2Y4NI/zhls/playback-realtime/audio/97b35e1f625a8b04d24b/audio.m3u8';
-
-  hls.loadSource(streamUrl);
-  hls.attachMedia(video);
-  video.play();              // Phát tự động
-
-  playBtn.onclick = () => { video.play(); };
-  stopBtn.onclick = () => {
-    video.pause();
-    video.currentTime = 0;
-  };
-
 let isUsingUrl1 = true; // Bắt đầu với dynamicUrl1
 
 document.getElementById("homeBtn").addEventListener("click", function () {
