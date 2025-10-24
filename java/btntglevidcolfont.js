@@ -4,7 +4,6 @@ import { chineseArtists } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal
 import { artisticFonts } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@a3bb5ff/docs/artisticfonlist2.js';
 import { colors } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@6adac98/docs/coloarramodif.js';
 
-window.addEventListener("DOMContentLoaded", () => {
   let currentIndex = 0;
   let isUsingUrl1 = true;
 
@@ -68,4 +67,3 @@ window.addEventListener("DOMContentLoaded", () => {
       bgVideo.style.opacity = 1;
     }, 500);
   });
-});
