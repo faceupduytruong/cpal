@@ -64,5 +64,3 @@ export const colors = [
   "rgba(250, 128, 114, 0.2)"   // cam san hô
 ];
 
-export default colors;
-
