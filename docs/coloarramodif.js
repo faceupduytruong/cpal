@@ -1,7 +1,7 @@
 // colors.js
 // Mảng màu RGBA với độ trong suốt khác nhau
 
-const colors = [
+export const colors = [
   "rgba(255, 255, 255, 0.08)",   // trắng mờ
   "rgba(255, 0, 0, 0.2)",       // đỏ tươi
   "rgba(255, 69, 0, 0.2)",      // đỏ cam
@@ -65,3 +65,4 @@ const colors = [
 ];
 
 export default colors;
+
