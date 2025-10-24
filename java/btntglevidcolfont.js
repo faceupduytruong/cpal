@@ -1,16 +1,15 @@
-window.addEventListener('DOMContentLoaded', () => {
-  
 // 👉 Nhúng dữ liệu từ các file JS trên GitHub
 import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@8edee09/docs/mxktSources.js';
 import { chineseArtists } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@ad3a146/docs/chiengartlist.js';
 import { artisticFonts } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@a3bb5ff/docs/artisticfonlist2.js';
 import { colors } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@6adac98/docs/coloarramodif.js';
 
-  let currentIndex = 0;
-  let isUsingUrl1 = true;
+let currentIndex = 0;
+let isUsingUrl1 = true;
 
+window.addEventListener("DOMContentLoaded", () => {
   // 👉 Đổi iframe theo nghệ sĩ
-  document.getElementById("homeBtn")?.addEventListener("click", function () {
+    document.getElementById("homeBtn")?.addEventListener("click", function () {
     const iframe = document.querySelector(".player-container iframe");
     if (!chineseArtists || chineseArtists.length === 0) return;
     const randomArtist = chineseArtists[Math.floor(Math.random() * chineseArtists.length)];
