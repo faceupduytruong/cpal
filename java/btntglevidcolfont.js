@@ -20,6 +20,17 @@ window.addEventListener("DOMContentLoaded", () => {
     if (iframe) iframe.src = nextUrl;
   });
 
+  function openRightHalfPopup(url, title, w, h) {
+    const screenLeft = window.screenLeft ?? window.screenX;
+    const screenTop = window.screenTop ?? window.screenY;
+    const width = window.innerWidth ?? document.documentElement.clientWidth ?? screen.width;
+    const height = window.innerHeight ?? document.documentElement.clientHeight ?? screen.height;
+    const left = width + screenLeft;
+    const top = (height - h) / 2 + screenTop;
+    const popupWindow = window.open(url, title, `scrollbars=yes,width=${w},height=${h},top=${top},left=${left}`);
+    if (window.focus) popupWindow?.focus();
+  }
+
   document.getElementById("lyricsBtn")?.addEventListener("click", () => {
     openRightHalfPopup("https://g5v304.smartapps.baidu.com/?_chatParams=%7B%22from%22%3A%22q2a%22%2C%22token%22%3A%22qqlyXvxYwHaqSiBJRHFtuj0fMzRB05Y0tLgrZYGxQK1%2BHT%2Fxu5CvjynYHAc8ehhvDN8Dq28EnShTQPKESCOMvXFcZ5rUxrbFTEmv0D2vsKL7jDSVVyeUgyxxKD1o3WSYVvBkdExGsO2I8Wrp%22%2C%22chat_no_login%22%3Atrue%2C%22agent_id%22%3A%22BxxWCDBItDylXCXgdMOK1JQYg9trJwt3%22%7D&searchid=bfce2ad00018b8ca&tplname=ai_agent_qa_recommend&srcid=61446&order=5&lid=bfce2ad00018b8ca&_swebScene=3711001210000000", "ChatBaidu", window.innerWidth, 745);
   });
