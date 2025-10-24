@@ -1,3 +1,5 @@
+window.addEventListener('DOMContentLoaded', () => {
+  
 // 👉 Nhúng dữ liệu từ các file JS trên GitHub
 import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@8edee09/docs/mxktSources.js';
 import { chineseArtists } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@ad3a146/docs/chiengartlist.js';
@@ -67,3 +69,4 @@ import { colors } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@6adac98
       bgVideo.style.opacity = 1;
     }, 500);
   });
+});
