@@ -1,4 +1,4 @@
-export const chineseArtists = [
+const chineseArtists = [
   // Trung Quốc đại lục
   { english: "Li Yuchun", chinese: "李宇春" },
   { english: "Lu Han", chinese: "鹿晗" },
