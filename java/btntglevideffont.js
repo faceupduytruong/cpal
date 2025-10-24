@@ -1,6 +1,6 @@
   // 👉 Nhúng file JS danh sách video wallpaper
-  import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@dc08274/docs/mxktSources.js';
-  import { chineseArtists } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@3aed664/docs/chiengartlist.js';
+  import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@8edee09/docs/mxktSources.js';
+  import { chineseArtists } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@ad3a146/docs/chiengartlist.js';
   import { artisticFonts } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@d2b91af/docs/artisticfonlist1.js';
   // 👉 Nhúng js các loại bubble gif vào html
   import { bubbleEffects } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/bubbeffgifimg.js';
