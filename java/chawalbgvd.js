@@ -1,6 +1,5 @@
 import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@99f1cc3/docs/bgvdSources.js';
 
-// 👉 Chèn CSS vào DOM
 const style = document.createElement('style');
 style.textContent = `
   .bg-video {
@@ -20,7 +19,6 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-// 👉 Logic đổi video
 const video = document.getElementById('bgVideo');
 let currentIndex = -1;
 
@@ -32,13 +30,13 @@ function getRandomIndex(excludeIndex) {
   return newIndex;
 }
 
-function loadBackgroundVideo(index) {
+export function loadRandomBackgroundVideo() {
+  currentIndex = getRandomIndex(currentIndex);
   video.style.opacity = 0;
 
   setTimeout(() => {
-    video.src = bgVideos[index];
+    video.src = bgVideos[currentIndex];
     video.load();
-
     video.oncanplay = () => {
       video.style.opacity = 1;
     };
@@ -46,17 +44,9 @@ function loadBackgroundVideo(index) {
 }
 
 // 👉 Khởi động video đầu tiên
-currentIndex = getRandomIndex(-1);
-loadBackgroundVideo(currentIndex);
+loadRandomBackgroundVideo();
 
 // 👉 Tự động đổi video mỗi 30 giây
 setInterval(() => {
-  currentIndex = getRandomIndex(currentIndex);
-  loadBackgroundVideo(currentIndex);
+  loadRandomBackgroundVideo();
 }, 30000);
-
-// 👉 Nút đổi hiệu ứng thủ công
-document.getElementById("toggleEffectBtn")?.addEventListener("click", () => {
-  currentIndex = getRandomIndex(currentIndex);
-  loadBackgroundVideo(currentIndex);
-});
