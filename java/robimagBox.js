@@ -721,6 +721,39 @@ container.innerHTML = `
       </div>
 
 </div>
+
+   <!-- Hàng thứ 21 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Incredibly beautiful videos</h2>
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://huabao.360.cn/pc/web/360huabao.html?sc=daohang/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://img.mydown.com/uploadImages/2025/086/12/5T97J0413FIQ.jpg">
+</div>
+        <div class="caption">360壁纸</div>
+      </div>
+      
+<div class="image-box">
+  <div onclick="openRightHalfPopup('https://mixkit.co/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://cdn-1.webcatalog.io/catalog/mixkit/mixkit-icon-filled-256.png?v=1714778166621">
+</div>
+        <div class="caption">Mixkit</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('http://www.dreamscene.org/gallery.php', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://images.stockcake.com/public/9/8/d/98dab1b3-e018-4a49-a320-6f4df54fe54a_medium/moonlit-koi-dream-stockcake.jpg">
+</div>
+        <div class="caption">Dreamscene Gallery</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/results?search_query=dreamscence', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://images.stockcake.com/public/4/9/0/490e6eb5-b2d2-4026-9b88-6f51a1af5f88_medium/peaceful-dream-scene-stockcake.jpg">
+</div>
+        <div class="caption">Dreamscene Youtube</div>
+      </div>
+
+</div>
 `;
 
 // Thêm vào DOM
@@ -768,17 +801,3 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
