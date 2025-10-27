@@ -550,7 +550,6 @@ container.innerHTML = `
 </div>
         <div class="caption">Presentations.AI</div>
       </div>
-</div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://gamma.app/create', 'SmartApp Popup', window.innerWidth, 745)">
@@ -558,7 +557,6 @@ container.innerHTML = `
 </div>
         <div class="caption">Gamma</div>
       </div>
-</div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.aippt.com/workspace', 'SmartApp Popup', window.innerWidth, 745)">
@@ -816,4 +814,5 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
