@@ -552,6 +552,21 @@ container.innerHTML = `
       </div>
 </div>
 
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://gamma.app/create', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://fahimai.com/wp-content/uploads/2025/03/GAMMA-cta.png" alt="Ảnh 2">
+</div>
+        <div class="caption">Gamma</div>
+      </div>
+</div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.aippt.com/workspace', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://deepgram.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2FidWNDQEJNX%2FidsEl7oNb8.png&w=640&q=75" alt="Ảnh 2">
+</div>
+        <div class="caption">AIppt</div>
+      </div>
+</div>
 
     <!-- Hàng thứ 14 -->
     <div class="image-row glass-bg">
@@ -801,3 +816,4 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
