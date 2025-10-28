@@ -1,4 +1,4 @@
-import { resSources } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@8edee09/docs/mxktSources.js';
+import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@8edee09/docs/mxktSources.js';
 
 // 👉 Chèn CSS vào DOM
 const style = document.createElement('style');
