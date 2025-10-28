@@ -1,35 +1,15 @@
 import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@8edee09/docs/mxktSources.js';
 
-// 👉 Chèn CSS vào DOM
-const style = document.createElement('style');
-style.textContent = `
+// Gán vào window để dùng ở script thường
+window.bgVideos = bgVideos;
 
-    .bg-video {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-      z-index: -1;
-      transition: opacity 1s ease-in-out;
-    }
- 
- #bgVideo {
-    transition: opacity 1s ease-in-out;
-  }
-
-`;
-document.head.appendChild(style);
-
-// 👉 Logic đổi video
 const video = document.getElementById('bgVideo');
 let currentIndex = -1;
 
 function getRandomIndex(excludeIndex) {
   let newIndex;
   do {
-    newIndex = Math.floor(Math.random() * resSources.length);
+    newIndex = Math.floor(Math.random() * window.bgVideos.length);
   } while (newIndex === excludeIndex);
   return newIndex;
 }
@@ -38,7 +18,7 @@ function loadBackgroundVideo(index) {
   video.style.opacity = 0;
 
   setTimeout(() => {
-    video.src = resSources[index];
+    video.src = window.bgVideos[index];
     video.load();
 
     video.oncanplay = () => {
@@ -47,16 +27,14 @@ function loadBackgroundVideo(index) {
   }, 1000);
 }
 
-currentIndex = getRandomIndex(-1);
-loadBackgroundVideo(currentIndex);
-
-setInterval(() => {
-  currentIndex = getRandomIndex(currentIndex);
-  loadBackgroundVideo(currentIndex);
-}, 30000);
-
-document.getElementById("toggleEffectBtn")?.addEventListener("click", () => {
-  currentIndex = getRandomIndex(currentIndex);
+// Khởi tạo video đầu tiên
+window.addEventListener("DOMContentLoaded", () => {
+  currentIndex = getRandomIndex(-1);
   loadBackgroundVideo(currentIndex);
 
+  // Tự động chuyển video sau mỗi 30 giây
+  setInterval(() => {
+    currentIndex = getRandomIndex(currentIndex);
+    loadBackgroundVideo(currentIndex);
+  }, 30000);
 });
