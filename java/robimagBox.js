@@ -342,6 +342,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Gemini</div>
       </div>
+      
+        <div class="image-box">
+  <div onclick="openRightHalfPopup('https://chatgpt.com/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://chat-gpt-world.com/en/wp-content/uploads/sites/56/2025/01/CHATGPTNEWLOGO_800.webp">
+</div>
+        <div class="caption">ChatGPT</div>
+      </div>
 
               <div class="image-box">
   <div onclick="openRightHalfPopup('https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=3&atb=v487-1', 'SmartApp Popup', window.innerWidth, 745)">
@@ -387,7 +394,45 @@ container.innerHTML = `
 
 </div>
 
-    <!-- Hàng thứ 9 -->
+<!-- Hàng thứ 9 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Create AI-generated images</h2>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.shakker.ai/workflows/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://cdn-1.webcatalog.io/catalog/shakker-ai/shakker-ai-icon-filled-256.png?v=1739519970241">
+</div>
+        <div class="caption">Shakker.AI</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://deepai.org/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuqxKY9yGHwb6NfzjMvGuPjVbd2PQzJ8ydfDiQ-wmVrTCt-9Afzo3F1WbkiNQfS7nvbEI&usqp=CAU">
+</div>
+        <div class="caption">Deep.Ai</div>
+      </div>    
+</div>
+
+<!-- Hàng thứ 10 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">AI-assisted content creation</h2>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://app.grammarly.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/26/a3/4726a357-c057-be36-d871-3bf9986f08bb/AppIcon-0-0-1x_U007epad-0-0-85-220.png/256x256bb.jpg">
+</div>
+        <div class="caption">Grammarly</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://quillbot.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://play-lh.googleusercontent.com/CQi_IKDq6I98E9ipzdQkcDOcQ552lM7Y9X1Pha-zRIEPJJYGaXr8uo_ShTpRzc_TYUY=w256">
+</div>
+        <div class="caption">Quillbot</div>
+      </div>    
+</div>
+
+    <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Create a product advertisement article</h2>
 
@@ -399,7 +444,7 @@ container.innerHTML = `
       </div>
 </div>
 
-    <!-- Hàng thứ 10 -->
+    <!-- Hàng thứ 12 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Information Technology Knowledge</h2>
   <div class="image-box">
@@ -447,7 +492,7 @@ container.innerHTML = `
 </div>
 
 
-   <!-- Hàng thứ 11 -->
+   <!-- Hàng thứ 13 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Mind Map</h2>
       <div class="image-box">
@@ -494,7 +539,7 @@ container.innerHTML = `
 </div>
 
 
-    <!-- Hàng thứ 12 -->
+    <!-- Hàng thứ 14 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Excel</h2>
   <div class="image-box">
@@ -506,7 +551,7 @@ container.innerHTML = `
 </div>
 
 
-    <!-- Hàng thứ 13 -->
+    <!-- Hàng thứ 15 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">PowerPoint</h2>
   <div class="image-box">
@@ -558,6 +603,13 @@ container.innerHTML = `
         <div class="caption">Gamma</div>
       </div>
 
+        <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.canva.com/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxo4K81Ei7WzcnqEk8W.MgwbrV7KGaO26hIr2djuNhOO6._j8uCsDS5VM2l2zZ5lg_lA3NC6rF2454qkJTgncsPY-&format=source" alt="Ảnh 2">
+</div>
+        <div class="caption">Canva</div>
+      </div>
+
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.aippt.com/workspace', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://deepgram.com/_next/image?url=https%3A%2F%2Fasset.brandfetch.io%2FidWNDQEJNX%2FidsEl7oNb8.png&w=640&q=75" alt="Ảnh 2">
@@ -566,7 +618,7 @@ container.innerHTML = `
       </div>
 </div>
 
-    <!-- Hàng thứ 14 -->
+    <!-- Hàng thứ 16 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Company Organizational</h2>
   <div class="image-box">
@@ -607,7 +659,7 @@ container.innerHTML = `
 
 </div>
 
-    <!-- Hàng thứ 15 -->
+    <!-- Hàng thứ 17 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Relationship Counseling</h2>
   <div class="image-box">
@@ -648,7 +700,7 @@ container.innerHTML = `
       </div>
 </div>
 
-    <!-- Hàng thứ 16 -->
+    <!-- Hàng thứ 18 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Encyclopedia of celebrities</h2>
   <div class="image-box">
@@ -666,7 +718,7 @@ container.innerHTML = `
       </div>
 </div>
 
-    <!-- Hàng thứ 17 -->
+    <!-- Hàng thứ 19 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Tour Guide</h2>
   <div class="image-box">
@@ -678,7 +730,7 @@ container.innerHTML = `
 </div>
 
 
-    <!-- Hàng thứ 18 -->
+    <!-- Hàng thứ 20 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">A discourse on poetry</h2>
   <div class="image-box">
@@ -698,7 +750,7 @@ container.innerHTML = `
 </div>
 
 
-    <!-- Hàng thứ 19 -->
+    <!-- Hàng thứ 21 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Logo design</h2>
   <div class="image-box">
@@ -709,7 +761,7 @@ container.innerHTML = `
       </div>
 </div>
 
-   <!-- Hàng thứ 20 -->
+   <!-- Hàng thứ 22 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Sound recorder to text</h2>
       <div class="image-box">
@@ -735,7 +787,7 @@ container.innerHTML = `
 
 </div>
 
-   <!-- Hàng thứ 21 -->
+   <!-- Hàng thứ 23 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Incredibly beautiful videos</h2>
       <div class="image-box">
@@ -814,5 +866,6 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
 
