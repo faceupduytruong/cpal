@@ -1,11 +1,11 @@
 const customThumbnails = {
-  'Giai phap IELTS cap toc': 'https://www.dropbox.com/scl/fi/xtdwqala35ullhq2si615/Giai-phap-IELTS-cap-toc.png?rlkey=ba7rfkwgh9iig45mr9xp6yat7&st=p6623oxf&dl=0',
-  'Hệ thống Giáo Dục Engonow IELTS Master': 'https://www.dropbox.com/scl/fi/isj845bvkvd8k6ejupazg/H-th-ng-Gi-o-D-c-Engonow-IELTS-Master.jpg?rlkey=xxoezsgr6dcxzpstqwv6dj9p0&st=n69ubpga&dl=0',
-  'Học IELTS 8.0 Cùng Tiến': 'https://www.dropbox.com/scl/fi/rujoxkxd9w8rs1k7vauij/H-c-IELTS-8.0-C-ng-Ti-n.png?rlkey=ecrtyy2fbcusrtlgn58xsvr47&st=vsyjb969&dl=0',
-  'NQH IELTS': 'https://www.dropbox.com/scl/fi/5rf96ppfby64c5m9cbe2w/NQH-IELTS.jpg?rlkey=vzkfkqg54zonghcf4ztmn4krp&st=e7hfd0dq&dl=0',
-  'Tài liệu IELTS Fighter': 'https://www.dropbox.com/scl/fi/ww4y2p52r74hpkstes67c/T-i-li-u-IELTS-Fighter.png?rlkey=h9jhrwdtrfoqr3aadp7x4yx3g&st=so8h24qo&dl=0',
-  'The Real IELTS - IELTS cho người mất gốc': 'https://www.dropbox.com/scl/fi/cv09fps50bkeu5q8bntxs/The-Real-IELTS-IELTS-cho-ng-i-m-t-g-c.png?rlkey=5085zp4qu1ptxu61yd80dsx2x&st=jengv0xh&dl=0',
-   // thêm các mục khác nếu cần
+  'Giai phap IELTS cap toc': 'https://dl.dropboxusercontent.com/scl/fi/xtdwqala35ullhq2si615/Giai-phap-IELTS-cap-toc.png?rlkey=ba7rfkwgh9iig45mr9xp6yat7&st=p6623oxf&dl=0',
+  'Hệ thống Giáo Dục Engonow IELTS Master': 'https://dl.dropboxusercontent.com/scl/fi/isj845bvkvd8k6ejupazg/H-th-ng-Gi-o-D-c-Engonow-IELTS-Master.jpg?rlkey=xxoezsgr6dcxzpstqwv6dj9p0&st=n69ubpga&dl=0',
+  'Học IELTS 8.0 Cùng Tiến': 'https://dl.dropboxusercontent.com/scl/fi/rujoxkxd9w8rs1k7vauij/H-c-IELTS-8.0-C-ng-Ti-n.png?rlkey=ecrtyy2fbcusrtlgn58xsvr47&st=vsyjb969&dl=0',
+  'NQH IELTS': 'https://dl.dropboxusercontent.com/scl/fi/5rf96ppfby64c5m9cbe2w/NQH-IELTS.jpg?rlkey=vzkfkqg54zonghcf4ztmn4krp&st=e7hfd0dq&dl=0',
+  'The Real IELTS - IELTS cho người mất gốc': 'https://dl.dropboxusercontent.com/scl/fi/cv09fps50bkeu5q8bntxs/The-Real-IELTS-IELTS-cho-ng-i-m-t-g-c.png?rlkey=5085zp4qu1ptxu61yd80dsx2x&st=jengv0xh&dl=0',
+  'Tài liệu IELTS Fighter': 'https://dl.dropboxusercontent.com/scl/fi/ww4y2p52r74hpkstes67c/T-i-li-u-IELTS-Fighter.png?rlkey=h9jhrwdtrfoqr3aadp7x4yx3g&st=so8h24qo&dl=0',
+  // thêm các mục khác nếu cần
 };
 
 // Danh sách thư mục và số lượng ảnh trong mỗi thư mục
