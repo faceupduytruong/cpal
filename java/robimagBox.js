@@ -411,7 +411,6 @@ container.innerHTML = `
 </div>
         <div class="caption">Deep.Ai</div>
       </div>    
-</div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://lexica.art/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -874,3 +873,4 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
