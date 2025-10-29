@@ -413,6 +413,14 @@ container.innerHTML = `
       </div>    
 </div>
 
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://lexica.art/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://cdn-1.webcatalog.io/catalog/prompthero/prompthero-icon-filled.png?v=1729242161456">
+</div>
+        <div class="caption">Lexica</div>
+      </div>    
+</div>
+
 <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">AI-assisted content creation</h2>
@@ -866,6 +874,3 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
-
-
-
