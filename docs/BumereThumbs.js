@@ -81,4 +81,5 @@ const folderLinks = {
     url: 'https://www.facebook.com/tonydzung.com.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/pmdrlffld7jkxb8ku9psh/Tony-Dzung.jpg?rlkey=q6u1n2d3nj9un2l4swqlwdsch&st=1vh1sez4&raw=1',
   },
-  // thêm các mục khác nếu cần};
+  // thêm các mục khác nếu cần
+};
