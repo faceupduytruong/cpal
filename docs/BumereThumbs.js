@@ -65,5 +65,20 @@ const folderLinks = {
     url: 'https://www.facebook.com/trantoan886868/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lq8c6arhkukj5rtu3kxy7/Tr-n-To-n.png?rlkey=uyhvegrw2wjywxod5tf90w5rn&st=8s2s86ic&raw=1',
   },
-  // thêm các mục khác nếu cần
-};
+  'Vũ Kim Khánh': {
+    url: 'https://www.facebook.com/vukimkhanhofficial/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qu313wfvoqej1r6fqvdxv/V-Kim-Kh-nh.jpg?rlkey=awbgocrdpddxhymvffn2ntr93&st=fkdsh6ij&raw=1',
+  },
+  'Master NLP Ngat Pro': {
+    url: 'https://www.facebook.com/Master.NLP.Ngat.Pro/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ro92q3xixefuyn6myh7ce/Master-NLP-Ngat-Pro.jpg?rlkey=cn7g1z4l9zkzl2rdd7wid8cc9&st=z4pisrrw&raw=1',
+  },
+  'Tú Tony (Chế tú hành tỏi)': {
+    url: 'https://www.facebook.com/lam.ngocthe.3/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0qc1g7fuu99qscdfo2mvb/T-Tony-Ch-t-h-nh-t-i.jpg?rlkey=c6fi5005ik8nqvo34iecipppd&st=t5due4bg&raw=1',
+  },
+  'Tony Dzung': {
+    url: 'https://www.facebook.com/tonydzung.com.vn/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pmdrlffld7jkxb8ku9psh/Tony-Dzung.jpg?rlkey=q6u1n2d3nj9un2l4swqlwdsch&st=1vh1sez4&raw=1',
+  },
+  // thêm các mục khác nếu cần};
