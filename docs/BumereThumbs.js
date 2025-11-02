@@ -21,6 +21,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/dung.phan.77/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/n25tawauugxzd9hy1skzb/D-ng-Phan.jpg?rlkey=yaqlqjiv2i0ikpxetgwhdja85&st=xjttz85t&raw=1',
   },
+  'Cô Gái Có Râu': {
+    url: 'https://www.facebook.com/cogaicorautiktok/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2kyziklt154zoslvdu0rl/C-G-i-C-R-u.jpg?rlkey=nytwa8x0yfemzagu5gh1wu9yj&st=ay2ueqam&raw=1',
+  },
+  'Anh Chi -Tâm Thức Việt': {
+    url: 'https://www.facebook.com/anhchitamthucviet/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/y1osqt8dbhzyo9lh1jnez/Anh-Chi-T-m-Th-c-Vi-t.jpg?rlkey=p41bd7fc8cao5lelvnlihy5w5&st=cevjp671&raw=1',
+  },
   'Emily Chung Nguyen': {
     url: 'https://www.facebook.com/EmilyChungNguyen/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/069vci1z7kgburkva555z/Emily-Chung-Nguyen.png?rlkey=57i5hrkghx5g1huk4p43afywn&st=6aeisyvy&raw=1',
@@ -80,6 +88,18 @@ const folderLinks = {
   'Tony Dzung': {
     url: 'https://www.facebook.com/tonydzung.com.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/pmdrlffld7jkxb8ku9psh/Tony-Dzung.jpg?rlkey=q6u1n2d3nj9un2l4swqlwdsch&st=1vh1sez4&raw=1',
+  },
+  'Topmax Academy': {
+    url: 'https://www.facebook.com/TopmaxAcademy1/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3vrmq0re33kqm1zoiqqm3/Topmax-Academy.jpg?rlkey=v3v3t1b9al89u06fuwhi2efp6&st=6rz9bvrx&raw=1',
+  },
+  'KTS Nguyễn Hà Lam': {
+    url: 'https://www.facebook.com/KTSNguyenHaLam/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9e3zpelmrsejhraghg3lx/KTS-Nguy-n-H-Lam.png?rlkey=mykhelpskrowbbavj9wvw5o8q&st=jscd7eoj&raw=1',
+  },
+  'Anh Fumi': {
+    url: 'https://www.facebook.com/anhfumi/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0mygky1z85tcvshu1844c/Anh-Fumi.jpg?rlkey=sbeej6k1hy82izx2v9bdazk0p&st=utlvfra7&raw=1',
   },
   // thêm các mục khác nếu cần
 };
