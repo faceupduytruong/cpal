@@ -223,7 +223,7 @@ const appButtonsHTML = `
     </div>
 
     <div class="app-button" onclick="openDouyin()">
-      <img src="https://i-2.paopaoche.net/2023/0824/cf4483a1aeb941529062bf9e7aae46e4.png" alt="Douyin">
+      <img src="https://pp.myapp.com/ma_icon/0/icon_54498206_1756707949/256" alt="Douyin">
       <p>Douyin</p>
     </div>
 
@@ -284,7 +284,7 @@ const appButtonsHTML = `
 
 
     <div class="app-button" onclick="openIzuiyou()">
-      <img src="https://i-2.92sucai.com/2025/7/25/4741527e-234f-41ab-a7a1-0c829d59d491.png" alt="Izuiyou">
+      <img src="https://pp.myapp.com/ma_icon/0/icon_54467262_1743559608/256" alt="Izuiyou">
       <p>Izuiyou</p>
     </div>
 
@@ -390,4 +390,5 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 745);
     talkinClickCount++;
   }
+
 
