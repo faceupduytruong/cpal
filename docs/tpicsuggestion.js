@@ -1,5 +1,6 @@
 const suggestions = [
   "sachtinhgon 1991 + ",
+  "Rèn Trí Sáng Suốt +",
   "Voiz FM + ",
   "mindfulness + ",
   "travel + ",
