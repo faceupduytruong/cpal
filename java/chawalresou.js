@@ -1,4 +1,4 @@
-import { resSources } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/resSources.js';
+import { resSources } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@21e4ce7/docs/resSources.js';
 
 // 👉 Chèn CSS vào DOM
 const style = document.createElement('style');
@@ -60,5 +60,6 @@ document.getElementById("toggleEffectBtn")?.addEventListener("click", () => {
   loadBackgroundVideo(currentIndex);
 
 });
+
 
 
