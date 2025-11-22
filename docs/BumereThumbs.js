@@ -25,6 +25,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/cogaicorautiktok/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2kyziklt154zoslvdu0rl/C-G-i-C-R-u.jpg?rlkey=nytwa8x0yfemzagu5gh1wu9yj&st=ay2ueqam&raw=1',
   },
+  'Doanh Nhân Kiến Quốc Group': {
+    url: 'https://www.facebook.com/doanhnhankienquocgroup/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/conngacapywu3vy2joe0c/Doanh-Nh-n-Ki-n-Qu-c-Group.jpg?rlkey=4i38xfmnaksdpyjvx5cbhjw4f&st=w1z99cpr&raw=1',
+  },
+  'Nguyễn Ngọc Sơn': {
+    url: 'https://www.facebook.com/NguyenNgocSonCEO.102/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o95ieobuz59de8ivawlsz/Nguy-n-Ng-c-S-n.png?rlkey=tqqdwp8ry7ky0htntqw0yl3ns&st=k109mupr&raw=1',
+  },
   'Anh Chi -Tâm Thức Việt': {
     url: 'https://www.facebook.com/anhchitamthucviet/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/y1osqt8dbhzyo9lh1jnez/Anh-Chi-T-m-Th-c-Vi-t.jpg?rlkey=p41bd7fc8cao5lelvnlihy5w5&st=cevjp671&raw=1',
@@ -100,6 +108,10 @@ const folderLinks = {
   'Anh Fumi': {
     url: 'https://www.facebook.com/anhfumi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0mygky1z85tcvshu1844c/Anh-Fumi.jpg?rlkey=sbeej6k1hy82izx2v9bdazk0p&st=utlvfra7&raw=1',
+  },
+  'Trường doanh nhân HBR': {
+    url: 'https://www.facebook.com/hbr.edu.vn/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fmd2etqlx7jxf4s7kffsk/Tr-ng-doanh-nh-n-HBR.jpg?rlkey=4ylg37vnru9tg745ulruih14l&st=q89i0xtz&raw=1',
   },
   // thêm các mục khác nếu cần
 };
