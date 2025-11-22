@@ -1,5 +1,5 @@
 const customThumbnails = {
-  Art: 'https://maludesign.vn/wp-content/uploads/2022/08/illustration-sandro-rybak-feature.jpg',
+  Art: 'https://inspgr.id/app/uploads/2021/04/illustration-sandro-rybak-feature.jpg',
   Contrast: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbtizEhJchxqVlPA8tXuneisjq-Z1RLcj48A&s',
   Correct: 'https://atlassianblog.wpengine.com/wp-content/uploads/2020/02/1120x545-4-1560x760.jpg',
   Employment: 'https://static.vecteezy.com/system/resources/thumbnails/000/174/133/small_2x/Job_Search_in_Newspaper.jpg',
