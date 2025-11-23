@@ -113,5 +113,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/hbr.edu.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/fmd2etqlx7jxf4s7kffsk/Tr-ng-doanh-nh-n-HBR.jpg?rlkey=4ylg37vnru9tg745ulruih14l&st=q89i0xtz&raw=1',
   },
+  'Ngô Bá Lục': {
+    url: 'https://www.facebook.com/ngoba.luc.3/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1d0hi4m92qyzmiol99kzh/Ng-B-L-c.png?rlkey=gknnwrdkbewg7fxi1zl65j7dl&st=abmgkir7&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
