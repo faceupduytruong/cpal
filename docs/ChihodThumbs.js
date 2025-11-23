@@ -49,9 +49,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/giaoducnaophai/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/j8toyzb0km4gjf7dkho4o/M-B-Gi-o-d-c-n-o-ph-i.png?rlkey=57ngtkd48llliec3zlymz6zmx&st=hp803psa&raw=1',
   },
-  'Oxford English Academy - Vietnam': {
-    url: 'https://www.facebook.com/OEA.ENGLISH/photos',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/537135172_1231711582302436_8103153116958002071_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=71ybjRryFJ0Q7kNvwGiJI3J&_nc_oc=Adnh8yY0Myuq1Zu-qkIGWR0z4gmRNXxWaScfKXWlyLkm92TaCg_Ueq65__S3CLsqrjc&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=KYZZ4xv2Ea4KmRCwpO6ORA&oh=00_Afa3NvHn-F3iZ35rKzm9jdL1b9ADNUoDto5oUtDviQLvew&oe=68D306C6'
+  'Book Hunter': {
+    url: 'https://www.facebook.com/HuntersBookstore/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xklw7mqa00o9i2q1uwgyc/Book-Hunter.png?rlkey=8mubahnc9u8ecwk5yjqqfrfmh&st=tpi7z903&raw=1'
   },
   'Spoken English and Vocabulary': {
     url: 'https://www.facebook.com/profile.php?id=100083296070350&sk=photos',
