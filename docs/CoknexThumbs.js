@@ -21,6 +21,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/traicaybietnoi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ye8uaaf4w53v8khliur3j/Tr-i-C-y-Bi-t-N-i.jpg?rlkey=fvkmww3jqh3l0mh13joxxpvu0&st=zl8pr36g&raw=1',
   },
+  'Chuyện lạ của Trang': {
+    url: 'https://www.facebook.com/chuyenlacuatrang/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/oz4cndjj1fnk69n9wpvq4/Chuy-n-l-c-a-Trang.jpg?rlkey=a3c8vb72wtmh00mi6e64vrgke&st=kmegfwqj&raw=1',
+  },
   'Đỗ Nhật Minh  (Minh Pháp Sư)': {
     url: 'https://www.facebook.com/donhatminh25/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/u545rmvh9fgrzbq4znnim/Nh-t-Minh-Minh-Ph-p-S.png?rlkey=r7p5jxwjk0xh9p48x8bs9ehi6&st=pegt0h3w&raw=1',
@@ -28,10 +32,6 @@ const folderLinks = {
   'Deep writier': {
     url: 'https://www.facebook.com/profile.php?id=100072497381829&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/f2vmsrz86uuho1u4ktt7e/Deep-writier.png?rlkey=ha7knjvyccu3jmoa262nr5lmk&st=gw125341&raw=1',
-  },
-  'Emily Chung Nguyen': {
-    url: 'https://www.facebook.com/EmilyChungNguyen/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/069vci1z7kgburkva555z/Emily-Chung-Nguyen.png?rlkey=57i5hrkghx5g1huk4p43afywn&st=6aeisyvy&raw=1',
   },
   'Phạm Ngọc': {
     url: 'https://www.facebook.com/KenhPhuNuPhamNgoc/reels/',
