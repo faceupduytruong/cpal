@@ -17,6 +17,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
+  'VietnamWorks.com': {
+    url: 'https://www.facebook.com/VietnamWorksFanpage/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vl7kgg4e7zluxlkrejt3j/VietnamWorks.com.png?rlkey=3n1431lm6lg5x7f50vo43nj5b&st=v4m0dw5d&raw=1',
+  },
   'Tuyển dụng xây dựng chất lượng cao': {
     url: 'https://www.facebook.com/tuyendungxaydungchatluongcao/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/67k7jzpzghohv5z63yc43/Tuy-n-d-ng-x-y-d-ng-ch-t-l-ng-cao.png?rlkey=s4mjfzk0dmalg45z3j2zucmmx&st=frpyoshm&raw=1',
