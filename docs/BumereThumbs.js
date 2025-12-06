@@ -17,13 +17,21 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
-  'Dũng Phan': {
-    url: 'https://www.facebook.com/dung.phan.77/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/n25tawauugxzd9hy1skzb/D-ng-Phan.jpg?rlkey=yaqlqjiv2i0ikpxetgwhdja85&st=xjttz85t&raw=1',
-  },
   'Cô Gái Có Râu': {
     url: 'https://www.facebook.com/cogaicorautiktok/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2kyziklt154zoslvdu0rl/C-G-i-C-R-u.jpg?rlkey=nytwa8x0yfemzagu5gh1wu9yj&st=ay2ueqam&raw=1',
+  },
+  'Tuân Xin Chào': {
+    url: 'https://www.facebook.com/tuanxinchao98/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ihaqxjbjzggk8wagghclk/Tu-n-Xin-Ch-o.jpg?rlkey=h7squuu917q6c2b5q6aswoisr&st=dz542g6e&raw=1',
+  },
+  'Dám Ước Mơ': {
+    url: 'https://www.facebook.com/info.damuocmo/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3bffxiwfysp2134s1464k/D-m-c-M.png?rlkey=eqai0o3qiyzfi12hsn7hrkt8t&st=5e4iaaj6&raw=1',
+  },
+  'CommCredit Long An -Tín Dụng Tiểu Thương -VPBank Bến Lức': {
+    url: 'https://www.facebook.com/Hotline.0908979767/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lwzlxi5972w4otarjzcfj/CommCredit-Long-An-T-n-D-ng-Ti-u-Th-ng-VPBank-B-n-L-c.jpg?rlkey=flovnxtath7uahq231c3jizd2&st=t6df40zm&raw=1',
   },
   'Doanh Nhân Kiến Quốc Group': {
     url: 'https://www.facebook.com/doanhnhankienquocgroup/reels/',
@@ -116,6 +124,18 @@ const folderLinks = {
   'Ngô Bá Lục': {
     url: 'https://www.facebook.com/ngoba.luc.3/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1d0hi4m92qyzmiol99kzh/Ng-B-L-c.png?rlkey=gknnwrdkbewg7fxi1zl65j7dl&st=abmgkir7&raw=1',
+  },
+  'Thành Công Cùng Tony': {
+    url: 'https://www.facebook.com/ThanhCongCungTony/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/w0p1yjas1i2k7zh2x5ovl/Th-nh-C-ng-C-ng-Tony.png?rlkey=o9yoi853l1jr8perarsibsqg5&st=waas5d7g&raw=1',
+  },
+  'Dũng Phan': {
+    url: 'https://www.facebook.com/dung.phan.77/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/n25tawauugxzd9hy1skzb/D-ng-Phan.jpg?rlkey=yaqlqjiv2i0ikpxetgwhdja85&st=xjttz85t&raw=1',
+  },
+  'Nguyễn Đức Thành': {
+    url: 'https://www.facebook.com/nguyenthanh.1005/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6alti459rh43fxw1brwya/Nguy-n-c-Th-nh.jpg?rlkey=3z18cufge07i71q6sl4iviisg&st=yderzsyr&raw=1',
   },
   // thêm các mục khác nếu cần
 };
