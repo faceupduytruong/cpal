@@ -17,6 +17,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
+  'Tuyển dụng xây dựng chất lượng cao': {
+    url: 'https://www.facebook.com/tuyendungxaydungchatluongcao/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/67k7jzpzghohv5z63yc43/Tuy-n-d-ng-x-y-d-ng-ch-t-l-ng-cao.png?rlkey=s4mjfzk0dmalg45z3j2zucmmx&st=frpyoshm&raw=1',
+  },
   'Cô Gái Có Râu': {
     url: 'https://www.facebook.com/cogaicorautiktok/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2kyziklt154zoslvdu0rl/C-G-i-C-R-u.jpg?rlkey=nytwa8x0yfemzagu5gh1wu9yj&st=ay2ueqam&raw=1',
