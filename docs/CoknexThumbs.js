@@ -25,9 +25,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/donhatminh25/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/u545rmvh9fgrzbq4znnim/Nh-t-Minh-Minh-Ph-p-S.png?rlkey=r7p5jxwjk0xh9p48x8bs9ehi6&st=pegt0h3w&raw=1',
   },
-  'Anh Chi -Tâm Thức Việt': {
-    url: 'https://www.facebook.com/anhchitamthucviet/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/y1osqt8dbhzyo9lh1jnez/Anh-Chi-T-m-Th-c-Vi-t.jpg?rlkey=p41bd7fc8cao5lelvnlihy5w5&st=cevjp671&raw=1',
+  'Deep writier': {
+    url: 'https://www.facebook.com/profile.php?id=100072497381829&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/f2vmsrz86uuho1u4ktt7e/Deep-writier.png?rlkey=ha7knjvyccu3jmoa262nr5lmk&st=gw125341&raw=1',
   },
   'Emily Chung Nguyen': {
     url: 'https://www.facebook.com/EmilyChungNguyen/reels/',
