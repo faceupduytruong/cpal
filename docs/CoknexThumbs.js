@@ -29,6 +29,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/CauBeXemPhimOfficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jnq2fjwk5oa5nvioei3fo/C-u-B-Xem-Phim.png?rlkey=ng5ok4kys1sktus5yvj3exi2f&st=1dfn8cbs&raw=1',
   },
+  'Hữu DuHa': {
+    url: 'https://www.facebook.com/profile.php?id=61583131784963&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6yoinm1oceibjns37qjuh/H-u-DuHa.jpg?rlkey=io6g0ppgkkmz6rhv7eo7yjrx1&st=asxzb0h4&raw=1',
+  },
   'Đỗ Nhật Minh  (Minh Pháp Sư)': {
     url: 'https://www.facebook.com/donhatminh25/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/u545rmvh9fgrzbq4znnim/Nh-t-Minh-Minh-Ph-p-S.png?rlkey=r7p5jxwjk0xh9p48x8bs9ehi6&st=pegt0h3w&raw=1',
@@ -37,25 +41,17 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100072497381829&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/f2vmsrz86uuho1u4ktt7e/Deep-writier.png?rlkey=ha7knjvyccu3jmoa262nr5lmk&st=gw125341&raw=1',
   },
-  'Phát triển Bản Thân Liên Tục': {
-    url: 'https://www.facebook.com/groups/phattrienbanthanlientuc/media',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ees17ngvzumv0et65mthw/Ph-t-tri-n-B-n-Th-n-Li-n-T-c.jpg?rlkey=pea6pdt5hhztlnljopdcox13r&st=h1gmdwbm&raw=1',
+  'Bác sĩ của bạn': {
+    url: 'https://www.facebook.com/PageBacSi/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4m07pik17swishxjzuamg/B-c-s-c-a-b-n.jpg?rlkey=had70vy3m7z7io6tvh90b6ij1&st=vwavsg7c&raw=1',
   },
-  'Bền Chí Thành Nhân': {
-    url: 'https://www.facebook.com/profile.php?id=61579175547025&sk=photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/myrz9k1fbsrunltxdnyd4/B-n-Ch-Th-nh-Nh-n.png?rlkey=xdyjz96zt13qaz242mk40gyk7&st=42gz0011&raw=1',
+  'Bông Hoa Nhỏ': {
+    url: 'https://www.facebook.com/ChurnChurnCafe/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ccqbx908i918ml43xjnph/B-ng-Hoa-Nh.jpg?rlkey=wdvnv53wk5rv8k1iq7wtsdjwn&st=fydaaeo5&raw=1',
   },
-  'ĐẠI TƯỚNG QUÂN': {
-    url: 'https://www.facebook.com/profile.php?id=61576922346529&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/bxiq0mn2ufhhcn00ppc6h/I-T-NG-QU-N.jpg?rlkey=ulmrbyq8zbrmzhlxzf2396vw7&st=fjbqlgv8&raw=1',
-  },
-  'Thêm Tổng': {
-    url: 'https://www.facebook.com/themtong.88/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ruzywrxeghbvhi5ej6jaj/Th-m-T-ng.jpg?rlkey=mfsgl7iv90iu1mty5371oap9x&st=dwybnaz6&raw=1',
-  },
-  'Cao Công Thành': {
-    url: 'https://www.facebook.com/CaoCongThanhOfficial/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/41whnduk9dmm391z8o0br/Cao-C-ng-Th-nh.png?rlkey=uzrt4su0px7smp5a8juaqcdjy&st=e1sjecto&raw=1',
+  'Nguyễn Huỳnh Lộc': {
+    url: 'https://www.facebook.com/tran.tommy.7334/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/a8l3jocmm7qdbbchcbb61/Nguy-n-Hu-nh-L-c.jpg?rlkey=0n9qezhb6p58lbnluks4c62wa&st=41zpka40&raw=1',
   },
   'Nguyễn Minh Chính  (Vạn Sự Tùy Duyên)': {
     url: 'https://www.facebook.com/chinh.nguyenminh.5074/photos',
