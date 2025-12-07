@@ -824,6 +824,7 @@ container.innerHTML = `
 </div>
         <div class="caption">Dreamscene Youtube</div>
       </div>
+</div>
 
          <!-- Hàng thứ 24 -->
     <div class="image-row glass-bg">
@@ -883,5 +884,3 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
-
-
