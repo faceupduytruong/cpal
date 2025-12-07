@@ -17,6 +17,26 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
+  'Nam Khánh': {
+    url: 'https://www.facebook.com/namkhanh1003asd/reels/',
+    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/464657755_856642516659656_2639540335995074212_n.png?stp=dst-png_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=DQW84Lnm3sUQ7kNvwEAI_Ax&_nc_oc=AdnadllLdpymdJ79VtXBkuKCQElEK3rbauOxVPibPHQg8nOtdUP3-O7k3k547GexjGA&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=_tAiQ1DIb3kLlOHuH6ofyA&oh=00_AfYSdS8Kyk33FkMWZLuSgmADR6UE0EF0gkH6ixt0tpOG0w&oe=68D3025E'
+  },
+ 'Doctor Housing': {
+    url: 'https://www.facebook.com/doctorhousingofficial/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/st587ga0viymhp769llon/Doctor-Housing.jpg?rlkey=hrnqxz8u5b5pgpi5en6u8aahx&st=n946g9gh&raw=1'
+  },
+ 'Sách Cha Mẹ - Thái Hà Books': {
+    url: 'https://www.facebook.com/wikichamethb/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8rzuqdkfhtwlxu99ak3wk/Einstein-Books-S-ch-hay-cho-gia-nh.jpg?rlkey=dauy6rn27qcricg5ovbczlrlv&st=vyk1n2fh&raw=1'
+  },
+ 'Future Me': {
+    url: 'https://www.facebook.com/futuremeV/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/bv2eqs9zbuo49fx1giu6k/Future-Me.png?rlkey=xjyb7413oa4vbfj7wkp6t4qgt&st=1w20jca3&raw=1'
+  },
+  'Trí Đức Education': {
+    url: 'https://www.facebook.com/profile.php?id=61570498768064&sk=photos',
+    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/527933635_122124445754912989_2668487100834082784_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=IoSYfl0p9GUQ7kNvwGbgWus&_nc_oc=AdmmY2HRc2ORvVH_Hi61wZf9-EtY_pN13hg6wznT63msOlIQ5eH1qwudD4crBC303tY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Q_zl328qr-TiHgrYEq9oNA&oh=00_AfZdH3-NX2KgLN_g9SRTtuS5HhxZWIczvR3_22qugxgP1w&oe=68D31AB8'
+  },
   'Trạm Đọc Mộng Mơ': {
     url: 'https://www.facebook.com/Tramdocmongmo/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/i4qttyb6z5waesgtbaynw/Tr-m-c-M-ng-M.jpg?rlkey=xzqqpypo9nvuw1kr96rfk8vyo&st=xtlja9z6&raw=1',
@@ -53,33 +73,25 @@ const folderLinks = {
     url: 'https://www.facebook.com/HuntersBookstore/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/xklw7mqa00o9i2q1uwgyc/Book-Hunter.png?rlkey=8mubahnc9u8ecwk5yjqqfrfmh&st=tpi7z903&raw=1'
   },
-  'Spoken English and Vocabulary': {
-    url: 'https://www.facebook.com/profile.php?id=100083296070350&sk=photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/469362135_576515788397143_3480835147537745084_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=r6ctTWJ7gb8Q7kNvwEY-79w&_nc_oc=AdlwlSQ3oXYb1y3EWsksAKpm2dMBP0PxKTM3OT85MGtrXVBHaXRMC1sKLT2IK01w_-8&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=8Dgo03E8FmndfgZhP7Haog&oh=00_AfaXIlYjpqhII_kukDu_sJkIZBQQWPAs9nWkwSwWlbAzmA&oe=68D30CB4'
+  'Sách Cha Mẹ - Thái Hà Books': {
+    url: 'https://www.facebook.com/wikichamethb/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9mdjkiulyevtxy8924opb/S-ch-Cha-M-Th-i-H-Books.png?rlkey=k3z1xhw2bt3z83npf16ttj3vb&st=ku7w4pi7&raw=1'
   },
-  'A+ English': {
-    url: 'https://www.facebook.com/aplusenglish.edu.vn/photos',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/464657755_856642516659656_2639540335995074212_n.png?stp=dst-png_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=DQW84Lnm3sUQ7kNvwEAI_Ax&_nc_oc=AdnadllLdpymdJ79VtXBkuKCQElEK3rbauOxVPibPHQg8nOtdUP3-O7k3k547GexjGA&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=_tAiQ1DIb3kLlOHuH6ofyA&oh=00_AfYSdS8Kyk33FkMWZLuSgmADR6UE0EF0gkH6ixt0tpOG0w&oe=68D3025E'
+  'BerryBooks': {
+    url: 'https://www.facebook.com/BerryBooks.az/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/a9oyii9uc769gr3lg73ni/BerryBooks.jpg?rlkey=8i6claszqxu6ilthl6pis5lqd&st=6p86ana2&raw=1'
   },
-  'UCA Academy': {
-    url: 'https://www.facebook.com/academy.uca/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/527933635_122124445754912989_2668487100834082784_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=IoSYfl0p9GUQ7kNvwGbgWus&_nc_oc=AdmmY2HRc2ORvVH_Hi61wZf9-EtY_pN13hg6wznT63msOlIQ5eH1qwudD4crBC303tY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Q_zl328qr-TiHgrYEq9oNA&oh=00_AfZdH3-NX2KgLN_g9SRTtuS5HhxZWIczvR3_22qugxgP1w&oe=68D31AB8'
+ 'Kitten Loves Books - Tiệm sách Mèo nhỏ': {
+    url: 'https://www.facebook.com/profile.php?id=61554016051268&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0wxkmd2pcwo9a48su8ydk/Kitten-Loves-Books-Ti-m-s-ch-M-o-nh.jpg?rlkey=9fbv7dcr1c6oqhv2zc8k2699l&st=vdefr5at&raw=1'
   },
-  'Effortless English Center (FREE Posts)': {
-    url: 'https://www.facebook.com/groups/effortlessenglishcenter/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/428326511_795574775927138_8522639557168607584_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=2285d6&_nc_ohc=PxkwwV7hkp8Q7kNvwHbN6Y7&_nc_oc=Admyn27B_ADJ_C6DwF4gnznR5hE8qiu8jIVGmccAjU_UTQJe55ABiTnsDGFT3cBCjDk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Dhqx9In7w_Z6oeV9c4yfsg&oh=00_AfZBqB-98QokUjs3ckbZwiv2KiQDeie9boGKPHxLoPb6lg&oe=68D2FB29'
+ 'Ehomebooks': {
+    url: 'https://www.facebook.com/ehomebooks/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yv9ugaf3tare6er4s2swr/Ehomebooks.png?rlkey=g6ezei11150m1bzvqobtlu6ka&st=sbjt624f&raw=1'
   },
- 'English Learning Together': {
-    url: 'https://www.facebook.com/groups/285910352529079/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/440450010_1480801532822188_6893067917698009453_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=2285d6&_nc_ohc=IIr81k9Y-kwQ7kNvwHYCXXL&_nc_oc=AdmVty3R7PZ6pdsEOCCqCJMefCKnR70UkHM3-BKbA3qh1ZCvZb9O3lvq4A6cwqy9qxA&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=oqR275t_0MJDR7-J9HRTmA&oh=00_AfbO19ukgPuwEvabQIc5t5j65dnaNoaJ7qHKtkoH-4e9dg&oe=68D2F75C'
-  },
- 'Advanced English Learners': {
-    url: 'https://www.facebook.com/groups/3487114231364090/media',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/470528470_2973613616146722_6620122141191379346_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2285d6&_nc_ohc=Tk8enKM5dEcQ7kNvwH_ADQa&_nc_oc=Adm5q9qNgxz52OIntmVliv906voNiLqkQ7iCi0ljD1S4xReHAE046814O3k3MFU8Pqk&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=yOrvEaEQeiDkHQ8e2emhIw&oh=00_AfbV8ipHuIPm62Fak5CbkaLrEdsL48yM7SE9U396mGzWCg&oe=68D2F31E'
-  },
- 'English with JayTen': {
-    url: 'https://www.facebook.com/EnglishWithJayten/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/533058224_696788230053908_83702061495370474_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9mRU4D7okaMQ7kNvwGOwNEk&_nc_oc=AdlY6XD4OjgYPaX9eRNuP5oYboXoR_lOBSS0oIyDpElPy2yT6bZ8C3VK99uBSAp4vII&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=fLxDIJHikrfIMvORFA__2A&oh=00_AfYKKrlDkyK9lQq_PrfnMAjZkHt0nHhUZ3rzSzTwhY4HWQ&oe=68D2F861'
+ 'Einstein Books - Sách hay cho gia đình': {
+    url: 'https://www.facebook.com/einstein.sachhaychomevabe/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8rzuqdkfhtwlxu99ak3wk/Einstein-Books-S-ch-hay-cho-gia-nh.jpg?rlkey=dauy6rn27qcricg5ovbczlrlv&st=yuqix6u3&raw=1'
   },
   // thêm các mục khác nếu cần
 };
