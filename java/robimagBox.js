@@ -835,6 +835,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Cường hóa AI</div>
       </div>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/nguyentatkiem.aicoaching/photos/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://scontent.fsgn5-14.fna.fbcdn.net/v/t39.30808-6/537190294_122135881754818288_3225203898784633773_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=MoEBy4ZMFYIQ7kNvwFLbfhV&_nc_oc=AdlatjNr7Su-SEyqSeYsaA9L6p9oF-HTYGB4cIWzLKuC2mXntPGNWyn0ZFNiCC4n6GMLCOEUy5R_rO_TGppEa8Fi&_nc_zt=23&_nc_ht=scontent.fsgn5-14.fna&_nc_gid=jzJONbqtvSOByGqb1_k_QA&oh=00_AfmoYvzEb2aSX286_b2O58uR2a-B3uqtdo13CS1QkoR-oQ&oe=693B587B">
+</div>
+        <div class="caption">Nguyễn Tất Kiểm - AI Coaching</div>
+      </div>
       
 </div>
 `;
