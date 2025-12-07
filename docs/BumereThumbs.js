@@ -41,6 +41,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/Hotline.0908979767/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lwzlxi5972w4otarjzcfj/CommCredit-Long-An-T-n-D-ng-Ti-u-Th-ng-VPBank-B-n-L-c.jpg?rlkey=flovnxtath7uahq231c3jizd2&st=t6df40zm&raw=1',
   },
+  'Topmax Academy': {
+    url: 'https://www.facebook.com/TopmaxAcademy1/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3vrmq0re33kqm1zoiqqm3/Topmax-Academy.jpg?rlkey=v3v3t1b9al89u06fuwhi2efp6&st=9v36e88x&raw=1',
+  },
   'Doanh Nhân Kiến Quốc Group': {
     url: 'https://www.facebook.com/doanhnhankienquocgroup/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/conngacapywu3vy2joe0c/Doanh-Nh-n-Ki-n-Qu-c-Group.jpg?rlkey=4i38xfmnaksdpyjvx5cbhjw4f&st=w1z99cpr&raw=1',
