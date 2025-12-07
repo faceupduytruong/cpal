@@ -25,6 +25,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/chuyenlacuatrang/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/oz4cndjj1fnk69n9wpvq4/Chuy-n-l-c-a-Trang.jpg?rlkey=a3c8vb72wtmh00mi6e64vrgke&st=kmegfwqj&raw=1',
   },
+  'Độc lạ Bình Dương': {
+    url: 'https://www.facebook.com/doclabinhduong.np/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7oc1572xwqqf200cgkuw0/c-l-B-nh-D-ng.jpg?rlkey=x6q20cj02qk6oskl444cm75vu&st=solby396&raw=1',
+  },
   'Cậu Bé Xem Phim': {
     url: 'https://www.facebook.com/CauBeXemPhimOfficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jnq2fjwk5oa5nvioei3fo/C-u-B-Xem-Phim.png?rlkey=ng5ok4kys1sktus5yvj3exi2f&st=1dfn8cbs&raw=1',
@@ -53,13 +57,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/tran.tommy.7334/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/a8l3jocmm7qdbbchcbb61/Nguy-n-Hu-nh-L-c.jpg?rlkey=0n9qezhb6p58lbnluks4c62wa&st=41zpka40&raw=1',
   },
-  'Nguyễn Minh Chính  (Vạn Sự Tùy Duyên)': {
-    url: 'https://www.facebook.com/chinh.nguyenminh.5074/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/1mzzmuso1v2lynxpl5hhl/Nguy-n-Minh-Ch-nh-V-n-S-T-y-Duy-n.jpg?rlkey=r2t6ahmba3n0ltcmefuxrfuhm&st=a6w002hv&raw=1',
-  },
-  'Master Anh Đức (Nguyễn Anh Đức)': {
-    url: 'https://www.facebook.com/MasterAnhDucOfficial/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/srczs0lzb5y1sgp9n49j0/Master-Anh-c-Nguy-n-Anh-c.jpg?rlkey=btd9bg6nidwkwnw2syyoabjfk&st=0a6iyze0&raw=1',
+  'IFact': {
+    url: 'https://www.facebook.com/IQFact/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/98293ku6o8zl45d0x9dmf/IFact.png?rlkey=r2jv3dmk9yspsldn1cnf1iqvk&st=otpd43zx&raw=1',
   },
   'Chu Quang Minh': {
     url: 'https://www.facebook.com/cqm10x/reels/',
