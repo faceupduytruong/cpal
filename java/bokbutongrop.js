@@ -64,7 +64,7 @@ function openCenterManager() {
   try {
   window.openRightHalfPopup("file:///C:/Users/Admin/OneDrive/Documents/Reset%20System%20Windows/Music%20Playlist/index.html", 'Popup', window.innerWidth, 745);
   } catch (e) {
-    alert("Không thể mở EPUB Viewer. Hãy kiểm tra xem extension đã được cài chưa.");
+    alert("Không thể mở file index.html. Hãy kiểm tra xem file index.html đã được đặt trong Music Playlist chưa ?");
   }
 }
 
