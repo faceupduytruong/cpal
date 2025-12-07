@@ -60,6 +60,14 @@ function openEpubViewer() {
   }
 }
 
+function openBookList() {
+  try {
+  window.openRightHalfPopup("https://www.facebook.com/tiemsachcuREBO/photos", 'Popup', window.innerWidth, 745);
+  } catch (e) {
+    alert("Không thể truy cập trang web. Hãy kiểm tra lại đường dẫn");
+  }
+}
+
 function openCenterManager() {
   try {
   window.openRightHalfPopup("file:///C:/Users/Admin/OneDrive/Documents/Reset%20System%20Windows/Music%20Playlist/index.html", 'Popup', window.innerWidth, 745);
@@ -116,3 +124,4 @@ function openLink(baseUrl) {
   window.openRightHalfPopup(finalUrl, 'Popup', window.innerWidth * 2 + 40, 745);
 
 }
+
