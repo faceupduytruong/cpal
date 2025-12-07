@@ -825,6 +825,16 @@ container.innerHTML = `
         <div class="caption">Dreamscene Youtube</div>
       </div>
 
+         <!-- Hàng thứ 24 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Study skills for using AI</h2>
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/cuonghoaai/photos/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/505521401_122130279962709067_1484517046633982560_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=2W1MkJyJ49MQ7kNvwFoTgqY&_nc_oc=AdlxBlX1FMu9VSH3kH08T5xXKw_s_tmPvF1WwM2rD6nKzaJcpgtUJxW6oI4bUZGfpACmsSEUVQmxWi3r49U0-kjm&_nc_zt=23&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=rwj0HrEieLbTIIc_dCHgpw&oh=00_AfltnVMjMCSShbGu3w3DYv8JCr9D1MQHHLYd2UjWfvkcfA&oe=693B24D0">
+</div>
+        <div class="caption">Cường hóa AI</div>
+      </div>
+      
 </div>
 `;
 
@@ -873,4 +883,5 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
