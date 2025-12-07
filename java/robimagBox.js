@@ -260,7 +260,7 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://app.spline.design/home', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://spline.design/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fspline_logo.647803e0.png&w=128&q=75">
+          <img src="https://cdn-1.webcatalog.io/catalog/spline/spline-icon-filled-256.png?v=1714775944266">
 </div>
         <div class="caption">Spline</div>
       </div>
@@ -891,3 +891,4 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
