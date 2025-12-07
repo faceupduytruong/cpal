@@ -17,9 +17,17 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
-  'HP Junior - Dạy con song ngữ': {
-    url: 'https://www.facebook.com/HPJuniorVN/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ecocnheaelwqxux3lm9la/HP-Junior-D-y-con-song-ng.jpg?rlkey=446nryhxp5uxs73tl19joh6cq&st=l3v5ftel&raw=1',
+  'Slow English Podcast': {
+    url: 'https://www.facebook.com/SlowEnglishPodcastVN/videos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/b92gx9i4iwds8k68iy8kt/Slow-English-Podcast.jpg?rlkey=4jp8mpondyqh717yze203jnyl&st=27rvqx7t&raw=1'
+  },
+  'Xuan Hai LE': {
+    url: 'https://www.facebook.com/MRXUANHAILE/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/kctxlnlxdgq0xft7w3h3f/Xuan-Hai-LE.jpg?rlkey=8n2wb0iocceok995g9dtinrq2&st=qn5y5deo&raw=1'
+  },
+  'BS Kiên - Tiếng Anh Y Khoa (Đỗ Trung Kiên)': {
+    url: 'https://www.facebook.com/bsdotrungkien/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8rdy3sooijjk30wayj5x0/BS-Ki-n-Ti-ng-Anh-Y-Khoa.png?rlkey=0ubgafinjetyft6ubrtdu4i03&st=lmckqlz7&raw=1'
   },
   'Tiếng Anh Siêu Dễ': {
     url: 'https://www.facebook.com/vetco.edu.vn/photos',
@@ -148,6 +156,14 @@ const folderLinks = {
   'Enjoy English': {
     url: 'https://www.facebook.com/groups/1487687748646438/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/s736owu1r606bd9hjradt/Enjoy-English.jpg?rlkey=qqf4765jm3dzsw9liut4lrgsg&st=3jjrjv1w&raw=1',
+  },
+  'HP Junior - Dạy con song ngữ': {
+    url: 'https://www.facebook.com/HPJuniorVN/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ecocnheaelwqxux3lm9la/HP-Junior-D-y-con-song-ng.jpg?rlkey=446nryhxp5uxs73tl19joh6cq&st=l3v5ftel&raw=1',
+  },
+  'HG Books - Tiệm sách song ngữ thiếu nhi': {
+    url: 'https://www.facebook.com/HGBooksShop/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hx6d9v8gxapvsxrhwi5hh/HG-Books-Ti-m-s-ch-song-ng-thi-u-nhi.jpg?rlkey=kyzl6w306j1hwhyxskm2cp98s&st=o1i31j3i&raw=1',
   },
   // thêm các mục khác nếu cần
 };
