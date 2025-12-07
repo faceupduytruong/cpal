@@ -25,9 +25,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/bimcenter.com.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8y9flvcltt5uyyows9cty/Dao-Khanh-Lam-L-mka.png?rlkey=n7ebi8je28zpumsrz5xioduwt&st=1nq6oapd&raw=1',
   },
-  'Anh Chi -Tâm Thức Việt': {
-    url: 'https://www.facebook.com/anhchitamthucviet/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/y1osqt8dbhzyo9lh1jnez/Anh-Chi-T-m-Th-c-Vi-t.jpg?rlkey=p41bd7fc8cao5lelvnlihy5w5&st=cevjp671&raw=1',
+  'Revit Vietnam-Tự học Revit': {
+    url: 'https://www.facebook.com/groups/revitvietnamtuhocrevit/posts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qorng9j40ln31en9qkfmj/Revit-Vietnam-T-h-c-Revit.jpg?rlkey=s7kt69ip8e2pqujwm47amclzx&st=7lofzjo9&raw=1',
   },
   'Emily Chung Nguyen': {
     url: 'https://www.facebook.com/EmilyChungNguyen/reels/',
