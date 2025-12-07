@@ -19,7 +19,7 @@ const folderLinks = {
   },
   'Nam Khánh': {
     url: 'https://www.facebook.com/namkhanh1003asd/reels/',
-    thumbnail: 'https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/464657755_856642516659656_2639540335995074212_n.png?stp=dst-png_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=DQW84Lnm3sUQ7kNvwEAI_Ax&_nc_oc=AdnadllLdpymdJ79VtXBkuKCQElEK3rbauOxVPibPHQg8nOtdUP3-O7k3k547GexjGA&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=_tAiQ1DIb3kLlOHuH6ofyA&oh=00_AfYSdS8Kyk33FkMWZLuSgmADR6UE0EF0gkH6ixt0tpOG0w&oe=68D3025E'
+    thumbnail: 'https://www.dropbox.com/scl/fi/yg64sjn08x7acv68m0w2h/Nam-Kh-nh.png?rlkey=21u80bm09plcq1ikj72wvl5hy&st=115jh9zf&raw=1'
   },
  'Doctor Housing': {
     url: 'https://www.facebook.com/doctorhousingofficial/reels/',
@@ -35,7 +35,7 @@ const folderLinks = {
   },
   'Trí Đức Education': {
     url: 'https://www.facebook.com/profile.php?id=61570498768064&sk=photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/527933635_122124445754912989_2668487100834082784_n.png?stp=dst-png_s960x960&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=IoSYfl0p9GUQ7kNvwGbgWus&_nc_oc=AdmmY2HRc2ORvVH_Hi61wZf9-EtY_pN13hg6wznT63msOlIQ5eH1qwudD4crBC303tY&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=Q_zl328qr-TiHgrYEq9oNA&oh=00_AfZdH3-NX2KgLN_g9SRTtuS5HhxZWIczvR3_22qugxgP1w&oe=68D31AB8'
+    thumbnail: 'https://www.dropbox.com/scl/fi/40e3hp0u7j5dldkqjy1tw/Tr-c-Education.jpg?rlkey=onmmqahhhyst4sckkp9b8ql4f&st=uk01btzd&raw=1'
   },
   'Trạm Đọc Mộng Mơ': {
     url: 'https://www.facebook.com/Tramdocmongmo/photos',
