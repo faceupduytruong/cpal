@@ -365,6 +365,13 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/messages/t/156025504001094/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://ph-files.imgix.net/fa5b8594-10f7-4131-b8be-dc9259a0161e.gif?auto=format">
+</div>
+        <div class="caption">Meta AI (Llama 4)</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://d1f5p0.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2025-02-14/d1ae5a64-d7e5-4b85-8880-db61225102f9.jpg?x-bce-process=image/format,f_png/resize,m_fill,w_360,h_360">
 </div>
@@ -891,4 +898,5 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
 
