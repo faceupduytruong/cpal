@@ -29,6 +29,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/doclabinhduong.np/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7oc1572xwqqf200cgkuw0/c-l-B-nh-D-ng.jpg?rlkey=x6q20cj02qk6oskl444cm75vu&st=solby396&raw=1',
   },
+  'IFact': {
+    url: 'https://www.facebook.com/IQFact/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/98293ku6o8zl45d0x9dmf/IFact.png?rlkey=r2jv3dmk9yspsldn1cnf1iqvk&st=otpd43zx&raw=1',
+  },
   'Cậu Bé Xem Phim': {
     url: 'https://www.facebook.com/CauBeXemPhimOfficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jnq2fjwk5oa5nvioei3fo/C-u-B-Xem-Phim.png?rlkey=ng5ok4kys1sktus5yvj3exi2f&st=1dfn8cbs&raw=1',
@@ -56,10 +60,6 @@ const folderLinks = {
   'Nguyễn Huỳnh Lộc': {
     url: 'https://www.facebook.com/tran.tommy.7334/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/a8l3jocmm7qdbbchcbb61/Nguy-n-Hu-nh-L-c.jpg?rlkey=0n9qezhb6p58lbnluks4c62wa&st=41zpka40&raw=1',
-  },
-  'IFact': {
-    url: 'https://www.facebook.com/IQFact/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/98293ku6o8zl45d0x9dmf/IFact.png?rlkey=r2jv3dmk9yspsldn1cnf1iqvk&st=otpd43zx&raw=1',
   },
   'Chu Quang Minh': {
     url: 'https://www.facebook.com/cqm10x/reels/',
