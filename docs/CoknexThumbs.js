@@ -21,6 +21,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/traicaybietnoi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ye8uaaf4w53v8khliur3j/Tr-i-C-y-Bi-t-N-i.jpg?rlkey=fvkmww3jqh3l0mh13joxxpvu0&st=zl8pr36g&raw=1',
   },
+  'Bạn có biết': {
+    url: 'https://www.facebook.com/bancobietaz/photos_by',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o5kbi6bctxsax22zylemn/B-n-c-bi-t.png?rlkey=gb82g3bre6j3ot0iv0htp6sbs&st=yizzokvq&raw=1',
+  },
+  'Vườn của Ba': {
+    url: 'https://www.facebook.com/vuoncuabacoi/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/g52yhqbhc7qqgtf3bmcox/V-n-c-a-Ba.jpg?rlkey=kb4djh2igu4q32nigbqyt73w5&st=ia3ef09z&raw=1',
+  },
   'Chuyện lạ của Trang': {
     url: 'https://www.facebook.com/chuyenlacuatrang/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/oz4cndjj1fnk69n9wpvq4/Chuy-n-l-c-a-Trang.jpg?rlkey=a3c8vb72wtmh00mi6e64vrgke&st=kmegfwqj&raw=1',
@@ -53,6 +61,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100072497381829&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/f2vmsrz86uuho1u4ktt7e/Deep-writier.png?rlkey=ha7knjvyccu3jmoa262nr5lmk&st=gw125341&raw=1',
   },
+  'Tuyen saphia': {
+    url: 'https://www.facebook.com/tuyensaphia92/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/v893lruulpvf3v6hafg2i/Tuyen-saphia.jpg?rlkey=eop43yf7z9bguvbxg0f87qzg8&st=s1cpfkw4&raw=1',
+  },
   'Bác sĩ của bạn': {
     url: 'https://www.facebook.com/PageBacSi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4m07pik17swishxjzuamg/B-c-s-c-a-b-n.jpg?rlkey=had70vy3m7z7io6tvh90b6ij1&st=vwavsg7c&raw=1',
@@ -68,10 +80,6 @@ const folderLinks = {
   'Thanh Đạt  (Skyland Dolls)': {
     url: 'https://www.facebook.com/swan.black.370/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nepc0v62qg7tky4f9kp2v/Thanh-t-Skyland-Dolls.jpg?rlkey=zuez4panjga24x9hcyivbngpa&st=523grpzm&raw=1',
-  },
-  'Trần Toản': {
-    url: 'https://www.facebook.com/trantoan886868/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/lq8c6arhkukj5rtu3kxy7/Tr-n-To-n.png?rlkey=uyhvegrw2wjywxod5tf90w5rn&st=8s2s86ic&raw=1',
   },
   'Vũ Kim Khánh': {
     url: 'https://www.facebook.com/vukimkhanhofficial/photos/',
