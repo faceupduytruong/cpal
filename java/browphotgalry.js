@@ -257,8 +257,6 @@ Object.entries(folderLinks).forEach(([name, data]) => {
     "https://www.facebook.com/hocieltshangngay/photos"
   ];
 
-  let currentIndex = 0; // chỉ số hiện tại
-
   document.getElementById("website-btn").addEventListener("click", function() {
     const data = { url: urls[currentIndex] };
     const name = "WebsitePopup" + currentIndex; // tên popup khác nhau
