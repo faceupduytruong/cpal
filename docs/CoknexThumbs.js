@@ -33,6 +33,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/IQFact/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/98293ku6o8zl45d0x9dmf/IFact.png?rlkey=r2jv3dmk9yspsldn1cnf1iqvk&st=otpd43zx&raw=1',
   },
+  'Tâm lý học đám đông': {
+    url: 'https://www.facebook.com/tamlihocdamdong/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xhuh9vrglkuoe4ipmejio/T-m-l-h-c-m-ng.jpg?rlkey=nzimvg9fh8bla2886kzpbag94&st=u9fvjh2y&raw=1',
+  },
   'Cậu Bé Xem Phim': {
     url: 'https://www.facebook.com/CauBeXemPhimOfficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jnq2fjwk5oa5nvioei3fo/C-u-B-Xem-Phim.png?rlkey=ng5ok4kys1sktus5yvj3exi2f&st=1dfn8cbs&raw=1',
@@ -61,9 +65,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/tran.tommy.7334/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/a8l3jocmm7qdbbchcbb61/Nguy-n-Hu-nh-L-c.jpg?rlkey=0n9qezhb6p58lbnluks4c62wa&st=41zpka40&raw=1',
   },
-  'Chu Quang Minh': {
-    url: 'https://www.facebook.com/cqm10x/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/41r33ahnzo5h5ltroe3ep/Chu-Quang-Minh.png?rlkey=xr48942q1zn7q8t692boyt7yy&st=4srrtql2&raw=1',
+  'Thanh Đạt  (Skyland Dolls)': {
+    url: 'https://www.facebook.com/swan.black.370/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nepc0v62qg7tky4f9kp2v/Thanh-t-Skyland-Dolls.jpg?rlkey=zuez4panjga24x9hcyivbngpa&st=523grpzm&raw=1',
   },
   'Trần Toản': {
     url: 'https://www.facebook.com/trantoan886868/reels/',
@@ -96,6 +100,10 @@ const folderLinks = {
   'Anh Fumi': {
     url: 'https://www.facebook.com/anhfumi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0mygky1z85tcvshu1844c/Anh-Fumi.jpg?rlkey=sbeej6k1hy82izx2v9bdazk0p&st=utlvfra7&raw=1',
+  },
+  'Hannah Thai - Trao Giá Trị': {
+    url: 'https://www.facebook.com/hannahthaitraogiatri/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2iv2i6i0wt1c84ux5t9gn/Hannah-Thai-Trao-Gi-Tr.jpg?rlkey=b0j85yfn2rq529dssrwyj90hs&st=9xhtaci5&raw=1',
   },
   // thêm các mục khác nếu cần
 };
