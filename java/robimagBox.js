@@ -366,7 +366,7 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://grok.com/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://play-lh.googleusercontent.com/dQRKhi30KpzG3gww3TdVLzyIAVuOAWylnAcgnEUxqfpm2A8dEt2sgApVvtKAy-DO8aI=s256-rw">
+          <img src="https://nationalcioreview.com/wp-content/uploads/2025/09/LMM-TNCR-Graphic-600-x-400-57.gif">
 </div>
         <div class="caption">Grok</div>
       </div>
@@ -827,7 +827,7 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('http://www.dreamscene.org/gallery.php', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://images.stockcake.com/public/9/8/d/98dab1b3-e018-4a49-a320-6f4df54fe54a_medium/moonlit-koi-dream-stockcake.jpg">
+          <img src="https://images.wondershare.com/filmora/article-images/grok-ghibli-prompt-filmora-23.gif">
 </div>
         <div class="caption">Dreamscene Gallery</div>
       </div>
@@ -905,6 +905,3 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
-
-
-
