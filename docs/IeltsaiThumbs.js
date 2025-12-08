@@ -24,6 +24,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://i.blogs.es/8f04a0/google/500_333.jpeg'
   },
+  'LY PHAM (Learnatlim)': {
+    url: 'https://www.facebook.com/learnwithlypham/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hw5ufll477cwpssw1y5vq/LY-PHAM-Learnatlim.png?rlkey=1w85i3yl2i8obwr6ksoch7cjq&st=vlnqdf6&raw=1'
+  },
   'Cộ': {
     url: 'https://www.facebook.com/coawabe/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/t73j8jjudsazncprg3ff1/C.png?rlkey=fu4e3n204k569hdf50xvmp1q1&st=l32p6lyc&raw=1'
@@ -48,9 +52,17 @@ const folderLinks = {
     url: 'https://www.facebook.com/edmicroielts/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/lglk37pehopulkjop2dks/Edmicro-H-c-IELTS-c-ng-AI.jpg?rlkey=n38cg8xq3xi3de61vcxsml36a&st=kfymv70u&raw=1'
   },
+  'Trần Anh Khang IELTS': {
+    url: 'https://www.facebook.com/khangielts/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/l5tju45bms4pkc1eu6d0k/Tr-n-Anh-Khang-IELTS.jpg?rlkey=cdcq2htxgoj94xjbzovnp9r2r&st=v68rv4iy&raw=1'
+  },
  'Hieu Nguyen IELTS': {
     url: 'https://www.facebook.com/HieuNguyenIELTS/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/rcekc82ptgmfnafk0h7kd/Hieu-Nguyen-IELTS.jpg?rlkey=rtqgz1x3zhb2pxeg1ltz6bysk&st=koa3l5oj&raw=1'
+  },
+ "Peter's IELTS Corner": {
+    url: 'https://www.facebook.com/profile.php?id=61570317867876&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5kmwrhxu43v75v7v45aae/Peter-s-IELTS-Corner.jpg?rlkey=fikrvac17z819629sl6svdxop&st=v3ewg1jp&raw=1'
   },
   'IZONE - IELTS Chiến Lược': {
     url: 'https://www.facebook.com/IELTSIZONE/photos',
@@ -59,6 +71,10 @@ const folderLinks = {
   'CÀY NÁT IELTS 8+': {
     url: 'https://www.facebook.com/groups/hoicayde/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/85uc9cstk95csohi2ntbz/C-Y-N-T-IELTS-8.jpg?rlkey=8hxrta113a5yga9mkyr20j81i&st=0wcgadej&raw=1'
+  },
+  '30 Phút Tiếng Anh Mỗi Ngày': {
+    url: 'https://www.facebook.com/tienganhgiaotiepmoingay/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5ask8016c5m5ocfov6tlo/30-Ph-t-Ti-ng-Anh-M-i-Ng-y.jpg?rlkey=vraxb6gtldhayuhd1kl23nhxl&st=6rw128xr&raw=1'
   },
   'Giải đáp IELTS - Yes IELTS': {
     url: 'https://www.facebook.com/groups/giaidapIELTS/media',
@@ -117,24 +133,20 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/8250koh7ufjdyijtqim7s/Chia-s-kinh-nghi-m-thi-IELTS-gi-o-vi-n-d-y-Ti-ng-Anh-IELTS.jpg?rlkey=z0ee5fpnlrcdtu3edvwwdwo8c&st=98k963bx&raw=1',
   },
   'Chia sẻ kinh nghiệm và tài liệu tự học IELTS 8.0+': {
-    url: 'https://www.facebook.com/groups/study4.ielts/media',
+    url: 'https://www.facebook.com/groups/study4.ielts/media/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jn8x1iyufvnt2a5f6ejd2/Chia-s-kinh-nghi-m-v-t-i-li-u-t-h-c-IELTS-8.0.jpg?rlkey=u8wmcf5tygt4b27gfgo8dmsp9&st=p5ddcq4g&raw=1',
   },
   'IELTS BẢO QUỐC_Tự học IELTS Listening-Reading 9.0': {
-    url: 'https://www.facebook.com/groups/ieltsbaoquoc.ieltscanhanhoa.listeningreading.group/media',
+    url: 'https://www.facebook.com/groups/ieltsbaoquoc.ieltscanhanhoa.listeningreading.group/media/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jdb4g9ijes8ik8u2uxy54/IELTS-B-O-QU-C_T-h-c-IELTS-Listening-Reading-9.0.jpg?rlkey=zi4vr1j9p9h649c8pi55vq8zy&st=3fi4xf3x&raw=1',
   },
   'English with JayTen': {
-    url: 'https://www.facebook.com/EnglishWithJayten/photos',
+    url: 'https://www.facebook.com/EnglishWithJayten/photos/',
     thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/533058224_696788230053908_83702061495370474_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9mRU4D7okaMQ7kNvwGOwNEk&_nc_oc=AdlY6XD4OjgYPaX9eRNuP5oYboXoR_lOBSS0oIyDpElPy2yT6bZ8C3VK99uBSAp4vII&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=fLxDIJHikrfIMvORFA__2A&oh=00_AfYKKrlDkyK9lQq_PrfnMAjZkHt0nHhUZ3rzSzTwhY4HWQ&oe=68D2F861'
   },
-  'English with JayTen': {
-    url: 'https://www.facebook.com/EnglishWithJayten/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/533058224_696788230053908_83702061495370474_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9mRU4D7okaMQ7kNvwGOwNEk&_nc_oc=AdlY6XD4OjgYPaX9eRNuP5oYboXoR_lOBSS0oIyDpElPy2yT6bZ8C3VK99uBSAp4vII&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=fLxDIJHikrfIMvORFA__2A&oh=00_AfYKKrlDkyK9lQq_PrfnMAjZkHt0nHhUZ3rzSzTwhY4HWQ&oe=68D2F861'
-  },
-  'English with JayTen': {
-    url: 'https://www.facebook.com/EnglishWithJayten/photos',
-    thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/533058224_696788230053908_83702061495370474_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=9mRU4D7okaMQ7kNvwGOwNEk&_nc_oc=AdlY6XD4OjgYPaX9eRNuP5oYboXoR_lOBSS0oIyDpElPy2yT6bZ8C3VK99uBSAp4vII&_nc_zt=23&_nc_ht=scontent-cdg4-2.xx&_nc_gid=fLxDIJHikrfIMvORFA__2A&oh=00_AfYKKrlDkyK9lQq_PrfnMAjZkHt0nHhUZ3rzSzTwhY4HWQ&oe=68D2F861'
+  'The Language Town': {
+    url: 'https://www.facebook.com/thelanguage.town/photos_by/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pteb6o7khpa31688v8fer/The-Language-Town.jpg?rlkey=3t8w5z5xaf5bc4ot79x22ryd2&st=m886fhhb&raw=1'
   },
   // thêm các mục khác nếu cần
 };
