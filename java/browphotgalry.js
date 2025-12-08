@@ -247,3 +247,23 @@ Object.entries(folderLinks).forEach(([name, data]) => {
   grid.appendChild(folderItem);
 });
 
+  // Danh sách 5 đường dẫn website
+  const urls = [
+    "https://www.facebook.com/giaiphapIELTScaptoc/photos",
+    "https://www.facebook.com/engonow/photos",
+    "https://www.facebook.com/hocielts8.0cungtien/photos",
+    "https://www.facebook.com/nqhielts.edu.vn/photos",
+    "https://www.facebook.com/therealieltschonguoimatgoc/photos",
+    "https://www.facebook.com/hocieltshangngay/photos"
+  ];
+
+  let currentIndex = 0; // chỉ số hiện tại
+
+  document.getElementById("website-btn").addEventListener("click", function() {
+    const data = { url: urls[currentIndex] };
+    const name = "WebsitePopup" + currentIndex; // tên popup khác nhau
+    openRightHalfPopup(data.url, name, window.innerWidth, 745);
+
+    // tăng chỉ số, quay vòng lại 0 nếu vượt quá 4
+    currentIndex = (currentIndex + 1) % urls.length;
+  });
