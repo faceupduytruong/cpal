@@ -29,6 +29,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/bsdotrungkien/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8rdy3sooijjk30wayj5x0/BS-Ki-n-Ti-ng-Anh-Y-Khoa.png?rlkey=0ubgafinjetyft6ubrtdu4i03&st=lmckqlz7&raw=1'
   },
+  'KISS English': {
+    url: 'https://www.facebook.com/KissEnglishCenter/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/oytydtejldtzpmuhhm7hg/KISS-English.png?rlkey=jv258fr0p5ar7vzwb77c2o2sr&st=b4zm93nr&raw=1'
+  },
+  'Ms Thao English': {
+    url: 'https://www.facebook.com/trungtammsthao/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/d1ng65nsropdimvw3p5yi/Ms-Thao-English.jpg?rlkey=9pkudx17ugtnlxybz5k4e3qm5&st=2c68szuy&raw=1'
+  },
   'Tiếng Anh Siêu Dễ': {
     url: 'https://www.facebook.com/vetco.edu.vn/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/zsdahyirv79w9z3ucqpj3/Ti-ng-Anh-Si-u-D.png?rlkey=rmb615q5r1pj05ozyvghx9lxg&st=v656k8i1&raw=1'
@@ -64,6 +72,10 @@ const folderLinks = {
   'Anh Ngữ Aten Cần Thơ': {
     url: 'https://www.facebook.com/atenenglishcantho/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ux4nkjbsbpsozxtoquscl/Anh-Ng-Aten-C-n-Th.png?rlkey=gnl01rwcrwzhhrzi4ypku9132&st=dmlvdheb&raw=1'
+  },
+  'Anh Ngữ Aten Quận 5 - Tiếng Anh Giao Tiếp': {
+    url: 'https://www.facebook.com/tienganhgiaotiepquan5/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pvndohikp1at1tii0oezz/Anh-Ng-Aten-Qu-n-5-Ti-ng-Anh-Giao-Ti-p.png?rlkey=yxk96hyibaj331q61ty87na7x&st=lvchfx67&raw=1'
   },
   'Tiếng Anh nhanh gọn mỗi ngày ': {
     url: 'https://www.facebook.com/tieng.anh.nhanh.gon.moi.ngay/photos',
