@@ -105,5 +105,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/hannahthaitraogiatri/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2iv2i6i0wt1c84ux5t9gn/Hannah-Thai-Trao-Gi-Tr.jpg?rlkey=b0j85yfn2rq529dssrwyj90hs&st=9xhtaci5&raw=1',
   },
+  'Nguyễn Minh Thư': {
+    url: 'https://www.facebook.com/NguyenMinhThu15061993/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s6gpk9ccavw8eevsp0dua/Nguy-n-Minh-Th.jpg?rlkey=iwk5pt0r8hogbs71l98gq7sa0&st=iebxxl8d&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
