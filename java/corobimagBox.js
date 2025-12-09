@@ -26,7 +26,7 @@ container.innerHTML = `
 
      <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">Linux<br>System</h2>
+    <h2 class="row-title">Linux</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/linux-os' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/OS-Linux-icon.png" alt="Ảnh 1">
