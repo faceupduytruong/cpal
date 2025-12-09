@@ -261,9 +261,9 @@ Object.entries(folderLinks).forEach(([name, data]) => {
   ];
 
   document.getElementById("website-btn-ielts").addEventListener("click", function() {
-    const data = { url: urls_ielts[currentIndex_ielts] };
-    const name = "WebsitePopup" + currentIndex_ielts; // tên popup khác nhau
-    openRightHalfPopup(data.url, name, window.innerWidth, 745);
+    const data_ielts = { url_ielts: urls_ielts[currentIndex_ielts] };
+    const name_ielts = "WebsitePopup_IELTS" + currentIndex_ielts; // tên popup khác nhau
+    openRightHalfPopup(data_ielts.url_ielts, name_ielts, window.innerWidth, 745);
 
     // tăng chỉ số, quay vòng lại 0 nếu vượt quá 4
     currentIndex_ielts = (currentIndex_ielts + 1) % urls_ielts.length;
@@ -279,9 +279,9 @@ Object.entries(folderLinks).forEach(([name, data]) => {
   ];
 
   document.getElementById("website-btn-toeic").addEventListener("click", function() {
-    const data = { url: urls_toeic[currentIndex_toeic] };
-    const name = "WebsitePopup" + currentIndex_toeic; // tên popup khác nhau
-    openRightHalfPopup(data.url, name, window.innerWidth, 745);
+    const data_toeic = { url_toeic: urls_toeic[currentIndex_toeic] };
+    const name_toeic = "WebsitePopup" + currentIndex_toeic; // tên popup khác nhau
+    openRightHalfPopup(data_toeic.url_toeic, name_toeic, window.innerWidth, 745);
 
     // tăng chỉ số, quay vòng lại 0 nếu vượt quá 4
     currentIndex_toeic = (currentIndex_toeic + 1) % urls_toeic.length;
