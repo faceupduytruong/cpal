@@ -169,6 +169,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/1487687748646438/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/s736owu1r606bd9hjradt/Enjoy-English.jpg?rlkey=qqf4765jm3dzsw9liut4lrgsg&st=3jjrjv1w&raw=1',
   },
+  'Tiếng Anh Giao Tiếp - Tiến Bộ Từng Ngày': {
+    url: 'https://www.facebook.com/groups/854814243254036/media/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lomdjop61as7wb8zesil9/Ti-ng-Anh-Giao-Ti-p-Ti-n-B-T-ng-Ng-y.jpg?rlkey=4yu2elh1hghmdbidkyji7jw57&st=phhx5emv&raw=1',
+  },
   'HP Junior - Dạy con song ngữ': {
     url: 'https://www.facebook.com/HPJuniorVN/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ecocnheaelwqxux3lm9la/HP-Junior-D-y-con-song-ng.jpg?rlkey=446nryhxp5uxs73tl19joh6cq&st=l3v5ftel&raw=1',
