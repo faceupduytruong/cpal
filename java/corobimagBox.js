@@ -33,6 +33,14 @@ container.innerHTML = `
 </div>
         <div class="caption">Quản Trị Mạng (Linux)</div>
       </div>
+
+            <div class="image-box">
+       <div onclick="openRightHalfPopup('https://tutonics.com/articles/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.honga.net/totalwar/warhammer3/images/warhammer3/flags/wh3_main_kho_exiles_of_khorne/mon_256.png" alt="Ảnh 1">
+</div>
+        <div class="caption">Tutonics</div>
+      </div>
+      
 </div>
 
 `;
