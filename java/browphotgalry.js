@@ -275,12 +275,13 @@ Object.entries(folderLinks).forEach(([name, data]) => {
   // Danh sách 2 đường dẫn website của TOEIC
   const urls_toeic = [
     "https://www.facebook.com/PLS.anhngusangtao/photos",
-    "https://www.facebook.com/NguyenDucEnglish/photos"
+    "https://www.facebook.com/NguyenDucEnglish/photos",
+    "https://www.facebook.com/PLS.anhngusangtao/photos"
   ];
 
   document.getElementById("website-btn-toeic").addEventListener("click", function() {
     const data_toeic = { url_toeic: urls_toeic[currentIndex_toeic] };
-    const name_toeic = "WebsitePopup" + currentIndex_toeic; // tên popup khác nhau
+    const name_toeic = "WebsitePopup_TOEIC" + currentIndex_toeic; // tên popup khác nhau
     openRightHalfPopup(data_toeic.url_toeic, name_toeic, window.innerWidth, 745);
 
     // tăng chỉ số, quay vòng lại 0 nếu vượt quá 4
