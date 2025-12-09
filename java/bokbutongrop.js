@@ -62,7 +62,19 @@ function openEpubViewer() {
 
 function openBookList() {
   try {
-  window.openRightHalfPopup("https://www.facebook.com/tiemsachcuREBO/photos", 'Popup', window.innerWidth, 745);
+    // Danh sách các đường dẫn
+    const urls = [
+      "https://www.facebook.com/tiemsachcuREBO/photos",
+      "https://www.facebook.com/nhasachlifebooks/photos"
+    ];
+
+    // Mở tuần tự từng popup
+    urls.forEach((url, index) => {
+      setTimeout(() => {
+        window.openRightHalfPopup(url, 'Popup' + index, window.innerWidth, 745);
+      }, index * 1000); // mỗi popup cách nhau 1 giây
+    });
+
   } catch (e) {
     alert("Không thể truy cập trang web. Hãy kiểm tra lại đường dẫn");
   }
@@ -124,4 +136,3 @@ function openLink(baseUrl) {
   window.openRightHalfPopup(finalUrl, 'Popup', window.innerWidth * 2 + 40, 745);
 
 }
-
