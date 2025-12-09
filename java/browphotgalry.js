@@ -247,6 +247,9 @@ Object.entries(folderLinks).forEach(([name, data]) => {
   grid.appendChild(folderItem);
 });
 
+  // Đặt giá trị biến của currentIndex_ielts
+  let currentIndex_ielts = 0;
+
   // Danh sách 5 đường dẫn website của IELTS
   const urls_ielts = [
     "https://www.facebook.com/giaiphapIELTScaptoc/photos",
@@ -258,13 +261,16 @@ Object.entries(folderLinks).forEach(([name, data]) => {
   ];
 
   document.getElementById("website-btn-ielts").addEventListener("click", function() {
-    const data = { url: urls_ielts[currentIndex] };
-    const name = "WebsitePopup" + currentIndex; // tên popup khác nhau
+    const data = { url: urls_ielts[currentIndex_ielts] };
+    const name = "WebsitePopup" + currentIndex_ielts; // tên popup khác nhau
     openRightHalfPopup(data.url, name, window.innerWidth, 745);
 
     // tăng chỉ số, quay vòng lại 0 nếu vượt quá 4
-    currentIndex = (currentIndex + 1) % urls_ielts.length;
+    currentIndex_ielts = (currentIndex_ielts + 1) % urls_ielts.length;
   });
+
+  // Đặt giá trị biến của currentIndex_toeic
+  let currentIndex_toeic = 0;
 
   // Danh sách 2 đường dẫn website của TOEIC
   const urls_toeic = [
@@ -273,10 +279,10 @@ Object.entries(folderLinks).forEach(([name, data]) => {
   ];
 
   document.getElementById("website-btn-toeic").addEventListener("click", function() {
-    const data = { url: urls_toeic[currentIndex] };
-    const name = "WebsitePopup" + currentIndex; // tên popup khác nhau
+    const data = { url: urls_toeic[currentIndex_toeic] };
+    const name = "WebsitePopup" + currentIndex_toeic; // tên popup khác nhau
     openRightHalfPopup(data.url, name, window.innerWidth, 745);
 
     // tăng chỉ số, quay vòng lại 0 nếu vượt quá 4
-    currentIndex = (currentIndex + 1) % urls_toeic.length;
+    currentIndex_toeic = (currentIndex_toeic + 1) % urls_toeic.length;
   });
