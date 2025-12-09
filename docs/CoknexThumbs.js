@@ -61,9 +61,17 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100072497381829&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/f2vmsrz86uuho1u4ktt7e/Deep-writier.png?rlkey=ha7knjvyccu3jmoa262nr5lmk&st=gw125341&raw=1',
   },
+  'Phùng Thị Mùi': {
+    url: 'https://www.facebook.com/profile.php?id=100063678393688&sk=photos_by',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hherjat3uwyrqjtc4madi/Ph-ng-Th-M-i.jpg?rlkey=sei7a9zt3tk1jxtefb4vi1za3&st=jnwkcz1z&raw=1',
+  },
   'Tuyen saphia': {
     url: 'https://www.facebook.com/tuyensaphia92/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/v893lruulpvf3v6hafg2i/Tuyen-saphia.jpg?rlkey=eop43yf7z9bguvbxg0f87qzg8&st=s1cpfkw4&raw=1',
+  },
+  'AloBacsi': {
+    url: 'https://www.facebook.com/alobacsihoibacsitraloi/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1fqibb18rryqyzl507n1p/AloBacsi.jpg?rlkey=8fygi3l6cvtdmo1bnt7nqkhbd&st=z4s0fhyc&raw=1',
   },
   'Bác sĩ của bạn': {
     url: 'https://www.facebook.com/PageBacSi/reels/',
@@ -96,26 +104,6 @@ const folderLinks = {
   'Tony Dzung': {
     url: 'https://www.facebook.com/tonydzung.com.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/pmdrlffld7jkxb8ku9psh/Tony-Dzung.jpg?rlkey=q6u1n2d3nj9un2l4swqlwdsch&st=1vh1sez4&raw=1',
-  },
-  'Topmax Academy': {
-    url: 'https://www.facebook.com/TopmaxAcademy1/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/3vrmq0re33kqm1zoiqqm3/Topmax-Academy.jpg?rlkey=v3v3t1b9al89u06fuwhi2efp6&st=6rz9bvrx&raw=1',
-  },
-  'KTS Nguyễn Hà Lam': {
-    url: 'https://www.facebook.com/KTSNguyenHaLam/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/9e3zpelmrsejhraghg3lx/KTS-Nguy-n-H-Lam.png?rlkey=mykhelpskrowbbavj9wvw5o8q&st=jscd7eoj&raw=1',
-  },
-  'Anh Fumi': {
-    url: 'https://www.facebook.com/anhfumi/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/0mygky1z85tcvshu1844c/Anh-Fumi.jpg?rlkey=sbeej6k1hy82izx2v9bdazk0p&st=utlvfra7&raw=1',
-  },
-  'Hannah Thai - Trao Giá Trị': {
-    url: 'https://www.facebook.com/hannahthaitraogiatri/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/2iv2i6i0wt1c84ux5t9gn/Hannah-Thai-Trao-Gi-Tr.jpg?rlkey=b0j85yfn2rq529dssrwyj90hs&st=9xhtaci5&raw=1',
-  },
-  'Nguyễn Minh Thư': {
-    url: 'https://www.facebook.com/NguyenMinhThu15061993/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/s6gpk9ccavw8eevsp0dua/Nguy-n-Minh-Th.jpg?rlkey=iwk5pt0r8hogbs71l98gq7sa0&st=iebxxl8d&raw=1',
   },
   // thêm các mục khác nếu cần
 };
