@@ -15,7 +15,7 @@ container.innerHTML = `
 
      <!-- Hàng thứ 2 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">Mac OSX<br>System</h2>
+    <h2 class="row-title">Mac OSX</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/mac-os-x' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://dreamlogic.io/img/brands/logos/apple.png" alt="Ảnh 1">
