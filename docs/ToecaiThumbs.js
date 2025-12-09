@@ -17,13 +17,21 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.cnet.com/a/img/resize/bb3309731c72de8eed76bce93bb319a95a5c077f/hub/2023/02/08/2d11bc90-7f23-4347-a07a-1b3e251aea4c/gettyimages-1245835347.jpg?auto=webp&fit=crop&height=675&width=1200'
   },
-  'Chia sẻ kinh nghiệm tự học TOEIC 4 Kỹ Năng': {
-    url: 'https://www.facebook.com/groups/phadaotoeic990/media',
-    thumbnail: 'https://www.dropbox.com/scl/fi/q0e1z7xsimu0fe10u754g/Chia-s-kinh-nghi-m-t-h-c-TOEIC-4-K-N-ng.jpg?rlkey=qilxaw7nr6ft947gxmq5d21ee&st=4k8cf2dk&raw=1'
+ 'TOEIC Max': {
+    url: 'https://www.facebook.com/toeicmax/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/85o0zkoz0lfyo0bzhwlzk/TOEIC-Max.png?rlkey=8h69bqibwzjg06sqmltjudnb8&st=mththyob&raw=1'
   },
  'ZIM Academy': {
     url: 'https://www.facebook.com/zim.school/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/zuavbvfm8hlgr55v6uz9q/ZIM-Academy.jpg?rlkey=lwieekm822mb25i53o6z9dyht&st=w8dap899&raw=1'
+  },
+ 'Edmicro TOEIC': {
+    url: 'https://www.facebook.com/TOEICMasterKit.byEdmicro/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2581snxed7hzp92ho5x35/Edmicro-TOEIC.jpg?rlkey=46c04xs7ygit0s1tjwcj12ybk&st=525ynfqe&raw=1'
+  },
+  'Chia sẻ kinh nghiệm tự học TOEIC 4 Kỹ Năng': {
+    url: 'https://www.facebook.com/groups/phadaotoeic990/media',
+    thumbnail: 'https://www.dropbox.com/scl/fi/q0e1z7xsimu0fe10u754g/Chia-s-kinh-nghi-m-t-h-c-TOEIC-4-K-N-ng.jpg?rlkey=qilxaw7nr6ft947gxmq5d21ee&st=4k8cf2dk&raw=1'
   },
  'Cộng đồng tự học TOEIC trên STUDY4': {
     url: 'https://www.facebook.com/groups/517057750992723/media',
