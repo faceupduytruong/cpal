@@ -7,7 +7,7 @@ container.innerHTML = `
     <h2 class="row-title">Windows<br>System</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/he-thong' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://timoday.edu.vn/wp-content/uploads/2016/02/windows-store.png" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/ez9n4aqk8r3eyk02pnqbj/Qu-n-Tr-M-ng-Windows.png?rlkey=b8f4ljlkvdat2gyqtrxx8tdfk&st=7ihiim50&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quản Trị Mạng (Windows)</div>
       </div>
@@ -18,7 +18,7 @@ container.innerHTML = `
     <h2 class="row-title">Mac OSX</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/mac-os-x' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://dreamlogic.io/img/brands/logos/apple.png" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/ejud8fbcb361dztr88i2o/Qu-n-Tr-M-ng-Mac-OS.png?rlkey=35nojfe2f5uoe4vhh6bl8g5hz&st=jdihzezr&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quản Trị Mạng (Mac OS)</div>
       </div>
@@ -29,35 +29,35 @@ container.innerHTML = `
     <h2 class="row-title">Linux</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/linux-os' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/OS-Linux-icon.png" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/07z64vb6983gq74qsyp8y/Qu-n-Tr-M-ng-Linux.png?rlkey=0ld4zufw37rspmm2cx45w052s&st=liv1oefw&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quản Trị Mạng (Linux)</div>
       </div>
 
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.howtogeek.com/category/linux/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://dtv-ebook.com.vn/images/Cover/aldiko.png" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/hdb9kuhjbuujtmf3wsy41/Howtogeek.png?rlkey=rlhk97knvv9gbthaslmpuenrf&st=qj7exux9&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Howtogeek</div>
       </div>
 
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://ribalinux.blogspot.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://geetagames.com/wp-content/uploads/2012/05/Linux_Package.png" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/fxewdlj7xm0a58oyv1bht/Ribalinux.png?rlkey=qv6hvtbmkwa7v2sg7wwce0b9b&st=8mwqi5o2&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Ribalinux</div>
       </div>
 
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://techmaster.vn/posts?keyword=&category=579&author=' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://media.techmaster.vn/api/static/8103/bsb9k1451cob9t3q7m4g" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/euxfmgumk31xs3sogmr5j/Techmaster-VN.webp?rlkey=ear5ix6ndncixzo2fme3ovqmw&st=l2e9e58i&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Techmaster VN</div>
       </div>
 
             <div class="image-box">
        <div onclick="openRightHalfPopup('https://tutonics.com/articles/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.honga.net/totalwar/warhammer3/images/warhammer3/flags/wh3_main_kho_exiles_of_khorne/mon_256.png" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/6vebttqx716xn0q1cplma/Tutonics.png?rlkey=4wtv6u05y4roscsiur8igj7m7&st=dnft2vf2&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tutonics</div>
       </div>
