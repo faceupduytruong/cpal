@@ -269,21 +269,21 @@ Object.entries(folderLinks).forEach(([name, data]) => {
     currentIndex_ielts = (currentIndex_ielts + 1) % urls_ielts.length;
   });
 
-  // Đặt giá trị biến của currentIndex_toeic
-  let currentIndex_toeic = 0;
+  document.addEventListener('DOMContentLoaded', () => {
+    const toeicBtn = document.getElementById("website-btn-toeic");
+    if (!toeicBtn) return;
 
-  // Danh sách 2 đường dẫn website của TOEIC
-  const urls_toeic = [
-    "https://www.facebook.com/PLS.anhngusangtao/photos",
-    "https://www.facebook.com/NguyenDucEnglish/photos",
-    "https://www.facebook.com/PLS.anhngusangtao/photos"
-  ];
+    let currentIndex_toeic = 0;
+    const urls_toeic = [
+      "https://www.facebook.com/PLS.anhngusangtao/photos",
+      "https://www.facebook.com/NguyenDucEnglish/photos",
+      "https://www.facebook.com/PLS.anhngusangtao/photos"
+    ];
 
-  document.getElementById("website-btn-toeic").addEventListener("click", function() {
-    const url_toeic = urls_toeic[currentIndex_toeic];
-    const name_toeic = "WebsitePopup_TOEIC" + currentIndex_toeic;
-    openRightHalfPopup(url_toeic, name_toeic, window.innerWidth, 745);
-
-    // tăng chỉ số, quay vòng lại 0 nếu vượt quá độ dài mảng
-    currentIndex_toeic = (currentIndex_toeic + 1) % urls_toeic.length;
- });
+    toeicBtn.addEventListener("click", () => {
+      const url = urls_toeic[currentIndex_toeic];
+      const name = "WebsitePopup_TOEIC_" + currentIndex_toeic;
+      openRightHalfPopup(url, name, window.innerWidth, 745);
+      currentIndex_toeic = (currentIndex_toeic + 1) % urls_toeic.length;
+    });
+  });
