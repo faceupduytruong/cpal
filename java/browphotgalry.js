@@ -247,8 +247,8 @@ Object.entries(folderLinks).forEach(([name, data]) => {
   grid.appendChild(folderItem);
 });
 
-  // Danh sách 5 đường dẫn website
-  const urls = [
+  // Danh sách 5 đường dẫn website của IELTS
+  const urls_ielts = [
     "https://www.facebook.com/giaiphapIELTScaptoc/photos",
     "https://www.facebook.com/engonow/photos",
     "https://www.facebook.com/hocielts8.0cungtien/photos",
@@ -257,11 +257,26 @@ Object.entries(folderLinks).forEach(([name, data]) => {
     "https://www.facebook.com/hocieltshangngay/photos"
   ];
 
-  document.getElementById("website-btn").addEventListener("click", function() {
-    const data = { url: urls[currentIndex] };
+  document.getElementById("website-btn-ielts").addEventListener("click", function() {
+    const data = { url: urls_ielts[currentIndex] };
     const name = "WebsitePopup" + currentIndex; // tên popup khác nhau
     openRightHalfPopup(data.url, name, window.innerWidth, 745);
 
     // tăng chỉ số, quay vòng lại 0 nếu vượt quá 4
-    currentIndex = (currentIndex + 1) % urls.length;
+    currentIndex = (currentIndex + 1) % urls_ielts.length;
+  });
+
+  // Danh sách 2 đường dẫn website của TOEIC
+  const urls_toeic = [
+    "https://www.facebook.com/PLS.anhngusangtao/photos",
+    "https://www.facebook.com/NguyenDucEnglish/photos"
+  ];
+
+  document.getElementById("website-btn-toeic").addEventListener("click", function() {
+    const data = { url: urls_toeic[currentIndex] };
+    const name = "WebsitePopup" + currentIndex; // tên popup khác nhau
+    openRightHalfPopup(data.url, name, window.innerWidth, 745);
+
+    // tăng chỉ số, quay vòng lại 0 nếu vượt quá 4
+    currentIndex = (currentIndex + 1) % urls_toeic.length;
   });
