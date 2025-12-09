@@ -280,10 +280,10 @@ Object.entries(folderLinks).forEach(([name, data]) => {
   ];
 
   document.getElementById("website-btn-toeic").addEventListener("click", function() {
-    const data_toeic = { url_toeic: urls_toeic[currentIndex_toeic] };
-    const name_toeic = "WebsitePopup_TOEIC" + currentIndex_toeic; // tên popup khác nhau
-    openRightHalfPopup(data_toeic.url_toeic, name_toeic, window.innerWidth, 745);
+    const url_toeic = urls_toeic[currentIndex_toeic];
+    const name_toeic = "WebsitePopup_TOEIC" + currentIndex_toeic;
+    openRightHalfPopup(url_toeic, name_toeic, window.innerWidth, 745);
 
-    // tăng chỉ số, quay vòng lại 0 nếu vượt quá 4
+    // tăng chỉ số, quay vòng lại 0 nếu vượt quá độ dài mảng
     currentIndex_toeic = (currentIndex_toeic + 1) % urls_toeic.length;
-  });
+ });
