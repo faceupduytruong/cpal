@@ -34,6 +34,27 @@ container.innerHTML = `
         <div class="caption">Quản Trị Mạng (Linux)</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.howtogeek.com/category/linux/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://dtv-ebook.com.vn/images/Cover/aldiko.png" alt="Ảnh 1">
+</div>
+        <div class="caption">Howtogeek</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://ribalinux.blogspot.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://geetagames.com/wp-content/uploads/2012/05/Linux_Package.png" alt="Ảnh 1">
+</div>
+        <div class="caption">Ribalinux</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://techmaster.vn/posts?keyword=&category=579&author=' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://media.techmaster.vn/api/static/8103/bsb9k1451cob9t3q7m4g" alt="Ảnh 1">
+</div>
+        <div class="caption">Techmaster VN</div>
+      </div>
+
             <div class="image-box">
        <div onclick="openRightHalfPopup('https://tutonics.com/articles/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.honga.net/totalwar/warhammer3/images/warhammer3/flags/wh3_main_kho_exiles_of_khorne/mon_256.png" alt="Ảnh 1">
