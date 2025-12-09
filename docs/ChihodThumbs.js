@@ -25,6 +25,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/doctorhousingofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/st587ga0viymhp769llon/Doctor-Housing.jpg?rlkey=hrnqxz8u5b5pgpi5en6u8aahx&st=n946g9gh&raw=1'
   },
+ 'Nguyet Moon': {
+    url: 'https://www.facebook.com/MoonlyNguyet/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/77uaal2r2ax0iq8q4lqwm/Nguyet-Moon.jpg?rlkey=7lwj2ai7bqrc2a5qtb4yu6q3e&st=bygcndjl&raw=1'
+  },
+ 'Hồi ức truyện tranh 199x': {
+    url: 'https://www.facebook.com/truyentranhtuoith0/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zqetjdpvm4v878ki4ug7c/H-i-c-truy-n-tranh-199x.jpg?rlkey=x5fubmm5kodv2ob78jwxftofp&st=xa363yc6&raw=1'
+  },
  'Sách Cha Mẹ - Thái Hà Books': {
     url: 'https://www.facebook.com/wikichamethb/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8rzuqdkfhtwlxu99ak3wk/Einstein-Books-S-ch-hay-cho-gia-nh.jpg?rlkey=dauy6rn27qcricg5ovbczlrlv&st=vyk1n2fh&raw=1'
