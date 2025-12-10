@@ -148,7 +148,7 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.facebook.com/MacintoshVietNam/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/hdigselpfdciaqgfep76j/MacintoshVietNam.png?rlkey=m5fth2dh8cxj7x0v9tq0wv42h&st=u33yoqp3&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">MacintoshVietNam</div>
+        <div class="caption">Macintosh VietNam</div>
       </div>
 
      <div class="image-box">
@@ -184,6 +184,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/5l81c4xxx3q7c34zc1yld/nmac.to.png?rlkey=w7umht628vbkmno4lmplk4s02&st=2yec2sw6&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Nmac.to</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.torrentmac.net/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/46q86iubdva1uou88zt85/Torrentmac.webp?rlkey=lqcmoio8zi58x8iu0q8hi4nud&st=rfzewkla&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Torrentmac</div>
       </div>
       
 </div>
