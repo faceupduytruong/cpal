@@ -24,6 +24,27 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://lzhoang2801.github.io/introduction' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/8jyxeei4af2y7hf2k7xp2/Lzhoang2801.ico?rlkey=abswebtma5jg8dnkbl5oun7hn&st=3xyx79an&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Lzhoang2801</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/macforce2601/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/f8r7u8em4scj448ozhwk4/Macforce2601.jpg?rlkey=4zlhyceeh2fmjotultc3eaf8b&st=s4yttig4&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Macforce2601</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://github.com/topics/lzhoang2601' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/otvxljy2bbqwuj3hs9ppk/Lzhoang2601-github.png?rlkey=z8x5e0c2srznjxxdrx90l456t&st=gbfeh5n4&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Lzhoang2601 Github</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://hsvn.gitbook.io/guides/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/pvzvet37rlnxgpg2m820j/Hsvn.png?rlkey=72lcdj729y9pz2tve4vte6f84&st=695m3v6f&raw=1" alt="Ảnh 1">
 </div>
@@ -49,6 +70,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/59cemdbhxpfdqbuiazf9s/Macworld.png?rlkey=spt485vs2g2jafygopqtsjbqg&st=ylev3u0w&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Macworld</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.addictivetips.com/mac-os/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ibxsn39uyw4u9dhiq3hsl/Addictivetips.png?rlkey=arpwzsjazv9dmvsay2ymgt3y3&st=xsl2z3tc&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Addictivetips</div>
       </div>
 
       <div class="image-box">
@@ -106,6 +134,14 @@ container.innerHTML = `
 </div>
         <div class="caption">MacintoshVietNam</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://brettterpstra.com/topic/macos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/c93zzc2sziyxjrj08o9sv/Brettterpstra.png?rlkey=ws0aq1pz2fxb762tx60qmjr59&st=shb8fxxa&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Brettterpstra</div>
+      </div>
+      
 </div>
 
      <!-- Hàng thứ 3 -->
