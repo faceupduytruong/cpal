@@ -151,6 +151,13 @@ container.innerHTML = `
         <div class="caption">MacintoshVietNam</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://techmaster.vn/posts?keyword=&category=88&author=' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ymzmy3swhszvg79w1g9u6/Techmaster-VN-Mac-OSX.png?rlkey=blekdcukudwprtqfqyi8ieo4g&st=rxqwe42j&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Techmaster VN (Mac OSX)</div>
+      </div>
+
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://brettterpstra.com/topic/macos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/c93zzc2sziyxjrj08o9sv/Brettterpstra.png?rlkey=ws0aq1pz2fxb762tx60qmjr59&st=shb8fxxa&raw=1" alt="Ảnh 1">
@@ -216,7 +223,7 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://techmaster.vn/posts?keyword=&category=579&author=' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/euxfmgumk31xs3sogmr5j/Techmaster-VN.webp?rlkey=ear5ix6ndncixzo2fme3ovqmw&st=l2e9e58i&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Techmaster VN</div>
+        <div class="caption">Techmaster VN (Linux)</div>
       </div>
 
             <div class="image-box">
@@ -245,13 +252,6 @@ container.innerHTML = `
         <div class="caption">Quản Trị Mạng (Android)</div>
       </div>
 
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://tinhte.vn/android/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/bm2tg285wrd4ke46ly63l/Tinh-t-Android.png?rlkey=f667m1iqvw2zmfnn7ll5vln5z&st=yqyn8g8z&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Tinh tế (Android)</div>
-      </div>
-
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.howtogeek.com/category/android/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/uluu0ghrr53juz4f1re2e/Howtogeek-Android.gif?rlkey=6da1z7a3k9dz1ypr5yiwi67rt&st=sv55l1iz&raw=1" alt="Ảnh 1">
@@ -260,10 +260,24 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://tinhte.vn/android/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/bm2tg285wrd4ke46ly63l/Tinh-t-Android.png?rlkey=f667m1iqvw2zmfnn7ll5vln5z&st=yqyn8g8z&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tinh tế (Android)</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.techsignin.com/tag/android/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/dzflr0d07w9olhk3wfc14/Techsignin.png?rlkey=uauwsb24aaktaxdqpccb5g1dc&st=r1vueheh&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Techsignin</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://techmaster.vn/posts?keyword=&category=652&author=' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/nyo81xdaa5qqqxfdpzg56/Techmaster-VN-Android.webp?rlkey=yuy4cconel3yqcj42nyzhk04g&st=co3a3q2v&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Techmaster VN (Android)</div>
       </div>
       
 </div>
