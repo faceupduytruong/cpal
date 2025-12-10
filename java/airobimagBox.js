@@ -871,6 +871,20 @@ container.innerHTML = `
 </div>
         <div class="caption">Nguyễn Tất Kiểm - AI Coaching</div>
       </div>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/openaiopen', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://photo-resize-zmp3.zmdcdn.me/w256_r1x1_jpeg/cover/5/5/1/6/5516fb18a6b7ca9ab93920f6de09aedf.jpg">
+</div>
+        <div class="caption">AI Việt Nam</div>
+      </div>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://gist.github.com/coolaj86/6f4f7b30129b0251f61fa7baaa881516', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://avatars.githubusercontent.com/u/122831?v=4">
+</div>
+        <div class="caption">ChatGPT-Dan-Jailbreak</div>
+      </div>
       
 </div>
 `;
