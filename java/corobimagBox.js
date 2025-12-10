@@ -22,6 +22,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Quản Trị Mạng (Mac OS)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/MacintoshVietNam/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/hdigselpfdciaqgfep76j/MacintoshVietNam.png?rlkey=m5fth2dh8cxj7x0v9tq0wv42h&st=u33yoqp3&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">MacintoshVietNam</div>
+      </div>
 </div>
 
      <!-- Hàng thứ 3 -->
@@ -60,8 +67,18 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/6vebttqx716xn0q1cplma/Tutonics.png?rlkey=4wtv6u05y4roscsiur8igj7m7&st=dnft2vf2&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tutonics</div>
+      </div> 
+</div>
+
+     <!-- Hàng thứ 4 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Android</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.techsignin.com/tag/android/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/dzflr0d07w9olhk3wfc14/Techsignin.png?rlkey=uauwsb24aaktaxdqpccb5g1dc&st=r1vueheh&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Techsignin</div>
       </div>
-      
 </div>
 
 `;
