@@ -59,6 +59,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://rampagedev.wordpress.com/kext-editing/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/qi0g2qng51l90sjq6bfmx/Rampagedev.jpg?rlkey=rhya0h4xenka6w6n9ui4aqte9&st=yspsbrwm&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Rampagedev</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://tinhte.vn/macos/tin-tuc' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/1fp3t9v70dg5w8okhhjnr/Tinh-t.webp?rlkey=eioatfa5uvkxv55ozch85kqsr&st=lhphwela&raw=1" alt="Ảnh 1">
 </div>
@@ -140,6 +147,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/c93zzc2sziyxjrj08o9sv/Brettterpstra.png?rlkey=ws0aq1pz2fxb762tx60qmjr59&st=shb8fxxa&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Brettterpstra</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.macbed.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/d8gnak6jnmx65estx2t6i/Macbed.png?rlkey=yoqciaut41axy3z0ejdskpa8p&st=u4rmdo7w&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Macbed</div>
       </div>
       
 </div>
