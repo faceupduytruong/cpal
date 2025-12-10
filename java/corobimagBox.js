@@ -10,7 +10,23 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/ez9n4aqk8r3eyk02pnqbj/Qu-n-Tr-M-ng-Windows.png?rlkey=b8f4ljlkvdat2gyqtrxx8tdfk&st=7ihiim50&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quản Trị Mạng (Windows)</div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.howtogeek.com/category/windows/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/eifxolenw4inm0zfdfxvv/Howtogeek-Windows.ico?rlkey=62kctyvglyplc0jhcvge55u8p&st=v1b2jxj4&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Howtogeek (Windows)</div>
       </div>
+        
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://tinhte.vn/windows' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/bfi4ycjqqn144iqysoyu5/Tinh-t-Windows.jpg?rlkey=5h5xpapboyciv9vbt7ssaj86s&st=6obk7lt0&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tinh tế (Windows)</div>
+      </div>
+      
 </div>
 
      <!-- Hàng thứ 2 -->
@@ -23,6 +39,13 @@ container.innerHTML = `
         <div class="caption">Quản Trị Mạng (Mac OS)</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://tinhte.vn/macos/tin-tuc' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/1fp3t9v70dg5w8okhhjnr/Tinh-t.webp?rlkey=eioatfa5uvkxv55ozch85kqsr&st=lhphwela&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tinh tế (Mac OSX)</div>
+      </div>
+ 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://lzhoang2801.github.io/introduction' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/8jyxeei4af2y7hf2k7xp2/Lzhoang2801.ico?rlkey=abswebtma5jg8dnkbl5oun7hn&st=3xyx79an&raw=1" alt="Ảnh 1">
@@ -66,13 +89,6 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://tinhte.vn/macos/tin-tuc' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/1fp3t9v70dg5w8okhhjnr/Tinh-t.webp?rlkey=eioatfa5uvkxv55ozch85kqsr&st=lhphwela&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Tinh tế</div>
-      </div>
-
-      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.macworld.com/software' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/59cemdbhxpfdqbuiazf9s/Macworld.png?rlkey=spt485vs2g2jafygopqtsjbqg&st=ylev3u0w&raw=1" alt="Ảnh 1">
 </div>
@@ -83,7 +99,7 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.addictivetips.com/mac-os/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/ibxsn39uyw4u9dhiq3hsl/Addictivetips.png?rlkey=arpwzsjazv9dmvsay2ymgt3y3&st=xsl2z3tc&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Addictivetips</div>
+        <div class="caption">Addictivetips (Mac OSX)</div>
       </div>
 
       <div class="image-box">
@@ -179,7 +195,7 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.howtogeek.com/category/linux/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/hdb9kuhjbuujtmf3wsy41/Howtogeek.png?rlkey=rlhk97knvv9gbthaslmpuenrf&st=qj7exux9&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Howtogeek</div>
+        <div class="caption">Howtogeek (Linux)</div>
       </div>
 
      <div class="image-box">
@@ -187,6 +203,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/fxewdlj7xm0a58oyv1bht/Ribalinux.png?rlkey=qv6hvtbmkwa7v2sg7wwce0b9b&st=8mwqi5o2&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Ribalinux</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.addictivetips.com/ubuntu-linux-tips/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/4mzl8p7skjf8os486c05c/Addictivetips-Ubuntu.png?rlkey=qc5szovplkj92exgcobqzllq8&st=86zr24hh&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Addictivetips (Linux)</div>
       </div>
 
      <div class="image-box">
@@ -221,6 +244,14 @@ container.innerHTML = `
 </div>
         <div class="caption">Techsignin</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/android' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/c2o6llfqomkfqdmmn8tx1/Qu-n-Tr-M-ng-Android.png?rlkey=5tu7ezi1nwxpwjchhi8wvuaiy&st=rjpqwujo&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Quản Trị Mạng (Android)</div>
+      </div>
+      
 </div>
 
 `;
