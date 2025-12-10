@@ -18,7 +18,7 @@ container.innerHTML = `
         <div class="caption">Howtogeek (Windows)</div>
       </div>
         
-      </div>
+</div>
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://tinhte.vn/windows' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -239,17 +239,31 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Android</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.techsignin.com/tag/android/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/dzflr0d07w9olhk3wfc14/Techsignin.png?rlkey=uauwsb24aaktaxdqpccb5g1dc&st=r1vueheh&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Techsignin</div>
-      </div>
-
-      <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/android' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/c2o6llfqomkfqdmmn8tx1/Qu-n-Tr-M-ng-Android.png?rlkey=5tu7ezi1nwxpwjchhi8wvuaiy&st=rjpqwujo&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quản Trị Mạng (Android)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://tinhte.vn/android/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/bm2tg285wrd4ke46ly63l/Tinh-t-Android.png?rlkey=f667m1iqvw2zmfnn7ll5vln5z&st=yqyn8g8z&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tinh tế (Android)</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.howtogeek.com/category/android/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/uluu0ghrr53juz4f1re2e/Howtogeek-Android.gif?rlkey=6da1z7a3k9dz1ypr5yiwi67rt&st=sv55l1iz&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Howtogeek (Android)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.techsignin.com/tag/android/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/dzflr0d07w9olhk3wfc14/Techsignin.png?rlkey=uauwsb24aaktaxdqpccb5g1dc&st=r1vueheh&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Techsignin</div>
       </div>
       
 </div>
