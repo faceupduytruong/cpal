@@ -31,10 +31,31 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html#prerequisites' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/vfqjcgmdcegd0mxqv2ob2/Dortania.png?rlkey=7xv922bzql8dd02kbhwwwsd71&st=17sv6b35&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Dortania</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://tinhte.vn/macos/tin-tuc' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/1fp3t9v70dg5w8okhhjnr/Tinh-t.webp?rlkey=eioatfa5uvkxv55ozch85kqsr&st=lhphwela&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tinh tế</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.macworld.com/software' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/59cemdbhxpfdqbuiazf9s/Macworld.png?rlkey=spt485vs2g2jafygopqtsjbqg&st=ylev3u0w&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Macworld</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://olarila.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/wrc6diecnbbqszze5hexs/Olarila.jpg?rlkey=3g0kydhy0yfr5rxv9aw4qrcrq&st=v4rbcer3&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Olarila</div>
       </div>
 
       <div class="image-box">
@@ -59,10 +80,24 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('http://www.macbreaker.com/2012/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/e1k41mh43l5hhtzwjrfmg/Macbreaker.jpg?rlkey=wdxf31wl01fpd4a7rbl5q1pz2&st=54o94jgs&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Macbreaker</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('http://s.sudre.free.fr/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/3krsoxwhr88kxu2k1t9qp/Sudre.png?rlkey=cygh1vy5xpc22q6xhhsdplbzj&st=k1a2d63l&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Sudre</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://brew.sh/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/srymwblefu3jcm1z2mxrq/Homebrew.png?rlkey=gjz8eelaar0p1pbj1fnqzn7zb&st=t2psfdaf&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Homebrew</div>
       </div>
 
       <div class="image-box">
@@ -110,6 +145,14 @@ container.innerHTML = `
 </div>
         <div class="caption">Tutonics</div>
       </div> 
+
+            <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.phoronix.com/reviews/Operating+Systems/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/utygbdqnjhzky7kvllkt3/Phoronix.png?rlkey=gefu9rhct3n3dzmt15fa380py&st=l0gm5z9x&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Phoronix</div>
+      </div> 
+      
 </div>
 
      <!-- Hàng thứ 4 -->
