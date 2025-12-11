@@ -14,7 +14,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://fptshop.com.vn/tin-tuc/tags/photoshop' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://mason.gmu.edu/~afantasi/Fantasia%20Photography/icon/photoshop.jpg" alt="Ảnh 1">
+       <img src="https://img.freepik.com/premium-vector/design-elements-set_23-2147532819.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Fptshop</div>
       </div>
