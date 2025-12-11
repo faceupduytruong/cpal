@@ -11,6 +11,27 @@ container.innerHTML = `
 </div>
         <div class="caption">Design Tutorials</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://forum.vietdesigner.net/forums/photoshop-tutorials/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://cdn-1.webcatalog.io/catalog/adobe-photoshop-express/adobe-photoshop-express-icon-filled-256.png?v=1761526525516" alt="Ảnh 1">
+</div>
+        <div class="caption">Vietdesigner</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/photoshop' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/04/84/2b/04842bc7-58b9-18a0-be30-44cf2a1e6f32/AppIcon-FreeIPAD-0-0-1x_U007emarketing-0-0-5-0-85-220.png/256x256bb.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Quantrimang (Photoshop)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://elements.envato.com/learn/c/design/add-ons/tutorials' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://img.freepik.com/free-vector/graphic-designer-desk-with-different-objects_23-2148520373.jpg?semt=ais_hybrid&w=740&q=80" alt="Ảnh 1">
+</div>
+        <div class="caption">Design Tutorials</div>
+      </div>
       
  </div>
 
@@ -23,6 +44,25 @@ container.innerHTML = `
           <img src="https://static.macupdate.com/products/14597/l/gimp-logo.png?v=1670261112">
 </div>
         <div class="caption">Gimp Tutorials</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.gimp.org/tutorials/legacy/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://files.softicons.com/download/system-icons/crystal-project-icons-by-everaldo-coelho/png/256x256/apps/gimp.png">
+</div>
+        <div class="caption">Gimp Tutorials Legacy</div>
+      </div>
+      
+</div>
+
+    <!-- Hàng thứ 3 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Photo Editor Applications</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://pixlr.com/express/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://fahimai.com/wp-content/uploads/2025/06/Pixlr-CTA.png">
+</div>
+        <div class="caption">Pixlr</div>
       </div>
 
   <div class="image-box">
