@@ -25,13 +25,6 @@ container.innerHTML = `
 </div>
         <div class="caption">Quantrimang (Photoshop)</div>
       </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://elements.envato.com/learn/c/design/add-ons/tutorials' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://img.freepik.com/free-vector/graphic-designer-desk-with-different-objects_23-2148520373.jpg?semt=ais_hybrid&w=740&q=80" alt="Ảnh 1">
-</div>
-        <div class="caption">Design Tutorials</div>
-      </div>
       
  </div>
 
@@ -63,13 +56,6 @@ container.innerHTML = `
           <img src="https://fahimai.com/wp-content/uploads/2025/06/Pixlr-CTA.png">
 </div>
         <div class="caption">Pixlr</div>
-      </div>
-
-  <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.gimp.org/tutorials/legacy/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://files.softicons.com/download/system-icons/crystal-project-icons-by-everaldo-coelho/png/256x256/apps/gimp.png">
-</div>
-        <div class="caption">Gimp Tutorials Legacy</div>
       </div>
       
 </div>
