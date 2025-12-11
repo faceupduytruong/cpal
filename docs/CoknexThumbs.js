@@ -49,6 +49,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/CauBeXemPhimOfficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jnq2fjwk5oa5nvioei3fo/C-u-B-Xem-Phim.png?rlkey=ng5ok4kys1sktus5yvj3exi2f&st=1dfn8cbs&raw=1',
   },
+  'Tứ Đại Tài Tử': {
+    url: 'https://www.facebook.com/tudaitaitu8386/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jxu18oemyrtl1x1rrur9a/T-i-T-i-T.png?rlkey=0u89s1ea44b1qwym78af2pxfn&st=6mayzvj8&raw=1',
+  },
   'Hữu DuHa': {
     url: 'https://www.facebook.com/profile.php?id=61583131784963&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/6yoinm1oceibjns37qjuh/H-u-DuHa.jpg?rlkey=io6g0ppgkkmz6rhv7eo7yjrx1&st=asxzb0h4&raw=1',
