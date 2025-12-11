@@ -414,9 +414,16 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://discord.com/channels/@me' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://dbl-discord.usercontent.prism.gg/icons/662267976984297473/39128f6c9fc33f4c95a27d4c601ad7db.png?size=256">
+          <img src="https://cdn-1.webcatalog.io/catalog/discord-bot-list/discord-bot-list-icon-filled-256.png?v=1714774149420">
 </div>
         <div class="caption">Discord</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://app.leonardo.ai/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://play-lh.googleusercontent.com/AqrK5WNAGhCVqoaCsViNHAECb3Jzvll84cmPmmzFFrsq7hayVMrTdhinoW5pyTkh1MaC=w240-h480-rw">
+</div>
+        <div class="caption">Leonardo AI</div>
       </div>
 
   <div class="image-box">
@@ -941,3 +948,4 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
+
