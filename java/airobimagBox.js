@@ -413,6 +413,13 @@ container.innerHTML = `
     <h2 class="row-title">Create AI-generated images</h2>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://discord.com/channels/@me' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://dbl-discord.usercontent.prism.gg/icons/662267976984297473/39128f6c9fc33f4c95a27d4c601ad7db.png?size=256">
+</div>
+        <div class="caption">Discord</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.shakker.ai/workflows/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://cdn-1.webcatalog.io/catalog/shakker-ai/shakker-ai-icon-filled-256.png?v=1739519970241">
 </div>
