@@ -871,6 +871,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Techmaster (AI)</div>
       </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://lifehacker.com/tech/ai', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://conted.ucalgary.ca/images/courses/ict890.png">
+</div>
+        <div class="caption">Lifehacker (AI)</div>
+      </div>
     
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/cuonghoaai/photos/', 'SmartApp Popup', window.innerWidth, 745)">
