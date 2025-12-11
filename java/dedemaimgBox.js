@@ -13,6 +13,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fptshop.com.vn/tin-tuc/tags/photoshop' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://mason.gmu.edu/~afantasi/Fantasia%20Photography/icon/photoshop.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Fptshop</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://forum.vietdesigner.net/forums/photoshop-tutorials/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://cdn-1.webcatalog.io/catalog/adobe-photoshop-express/adobe-photoshop-express-icon-filled-256.png?v=1761526525516" alt="Ảnh 1">
 </div>
@@ -20,10 +27,24 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.thegioididong.com/game-app/cach-khoi-phuc-cai-dat-goc-reset-photoshop-ve-mac-dinh-chi-1330343' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://img.freepik.com/free-vector/graphic-design-workspace-background-flat-style_23-2147799327.jpg?semt=ais_hybrid&w=740&q=80" alt="Ảnh 1">
+</div>
+        <div class="caption">Thegioididong</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/photoshop' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/04/84/2b/04842bc7-58b9-18a0-be30-44cf2a1e6f32/AppIcon-FreeIPAD-0-0-1x_U007emarketing-0-0-5-0-85-220.png/256x256bb.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Quantrimang (Photoshop)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://helpx.adobe.com/vn_vi/support.html' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://img.freepik.com/free-vector/graphic-design-workspace-background-with-desk-tools_23-2147788901.jpg?semt=ais_se_enriched&w=740&q=80" alt="Ảnh 1">
+</div>
+        <div class="caption">Adobe Help</div>
       </div>
       
  </div>
