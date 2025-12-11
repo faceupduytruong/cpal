@@ -801,21 +801,21 @@ container.innerHTML = `
     <h2 class="row-title">Sound recorder to text</h2>
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://speaknotes.io/free-tools/transcribe/ogg', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://cdn-1.webcatalog.io/catalog/speaknotes/speaknotes-icon-filled-256.png?v=1753061659135">
+          <img src="https://www.dropbox.com/scl/fi/jdcgs2vqm49t0jv1tkk0k/Speaknotes.png?rlkey=t1nxvdnoatiagcvlt76x6oylg&st=xm0hn4va&raw=1">
 </div>
         <div class="caption">Speaknotes</div>
       </div>
       
 <div class="image-box">
   <div onclick="openRightHalfPopup('https://turboscribe.ai/vi/dashboard/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://turboscribe.ai/_content/hashed/1575aa4bfd65eca48c4c1529be18d3a0.svg?cr=1&s=8bryVuvieZMCyH5p3bCwnmLZclUPLoaAm9mBuSasaDc">
+          <img src="https://www.dropbox.com/scl/fi/vcrigftompsb39v8wnc9y/Turboscribe.ai.svg?rlkey=394zptblso2zu29ofy3j8z0yt&st=u1z0wj48&raw=1">
 </div>
         <div class="caption">Turboscribe.ai</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://otter.ai/home', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://cdn-1.webcatalog.io/catalog/otter/otter-icon-filled-256.png?v=1754872689923">
+          <img src="https://www.dropbox.com/scl/fi/0tnq0rbg2z34ux4vk6m7l/Otter.ai.png?rlkey=u5wyfr94w9nlcrv1bb7lnnshd&st=q9y5yusw&raw=1">
 </div>
         <div class="caption">Otter.ai</div>
       </div>
@@ -827,28 +827,28 @@ container.innerHTML = `
     <h2 class="row-title">Incredibly beautiful videos</h2>
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://huabao.360.cn/pc/web/360huabao.html?sc=daohang/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://img.mydown.com/uploadImages/2025/086/12/5T97J0413FIQ.jpg">
+          <img src="https://www.dropbox.com/scl/fi/j7t461cdoil6bfyp7czr9/360.jpg?rlkey=7t9ke3ziojsb8nublso2l4e80&st=k4y1i71q&raw=1">
 </div>
         <div class="caption">360壁纸</div>
       </div>
       
 <div class="image-box">
   <div onclick="openRightHalfPopup('https://mixkit.co/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://cdn-1.webcatalog.io/catalog/mixkit/mixkit-icon-filled-256.png?v=1714778166621">
+          <img src="https://www.dropbox.com/scl/fi/9g6csdr4cjbnsop2xkgsb/Mixkit.png?rlkey=ew76fk3qtcpo7zatc0lkzgxdc&st=odqqlcvl&raw=1">
 </div>
         <div class="caption">Mixkit</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('http://www.dreamscene.org/gallery.php', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://images.stockcake.com/public/9/f/a/9fa29389-8fec-4e5e-b0e4-1eaa903c4dea_medium/magical-forest-portals-stockcake.jpg">
+          <img src="https://www.dropbox.com/scl/fi/y8zavk80dcbgy5dyi97n1/Dreamscene-Gallery.jpg?rlkey=2eon4v03k0h8hlxge1uhecs4j&st=gd9xcumz&raw=1">
 </div>
         <div class="caption">Dreamscene Gallery</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/results?search_query=dreamscence', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://images.stockcake.com/public/4/9/0/490e6eb5-b2d2-4026-9b88-6f51a1af5f88_medium/peaceful-dream-scene-stockcake.jpg">
+          <img src="https://www.dropbox.com/scl/fi/zymh47l0rkpurko1xgexv/Dreamscene-Youtube.jpg?rlkey=9lpyqup3hygv8amfxu13ljy9m&st=z10xoe4w&raw=1">
 </div>
         <div class="caption">Dreamscene Youtube</div>
       </div>
@@ -874,35 +874,35 @@ container.innerHTML = `
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://lifehacker.com/tech/ai', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://conted.ucalgary.ca/images/courses/ict890.png">
+          <img src="https://www.dropbox.com/scl/fi/xckr78pekysy56zki2ca8/Lifehacker-AI.png?rlkey=fzoj2m6stq7t61poi7moz5nrn&st=8rwqfrrx&raw=1">
 </div>
         <div class="caption">Lifehacker (AI)</div>
       </div>
     
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/cuonghoaai/photos/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/505521401_122130279962709067_1484517046633982560_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=2W1MkJyJ49MQ7kNvwFoTgqY&_nc_oc=AdlxBlX1FMu9VSH3kH08T5xXKw_s_tmPvF1WwM2rD6nKzaJcpgtUJxW6oI4bUZGfpACmsSEUVQmxWi3r49U0-kjm&_nc_zt=23&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=rwj0HrEieLbTIIc_dCHgpw&oh=00_AfltnVMjMCSShbGu3w3DYv8JCr9D1MQHHLYd2UjWfvkcfA&oe=693B24D0">
+          <img src="https://www.dropbox.com/scl/fi/j3exiu9pscwndcysb00zz/C-ng-h-a-AI.jpg?rlkey=t4qvhf7n11hylup24b5d9va8j&st=t3z71820&raw=1">
 </div>
         <div class="caption">Cường hóa AI</div>
       </div>
 
             <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/nguyentatkiem.aicoaching/photos/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://scontent.fsgn5-14.fna.fbcdn.net/v/t39.30808-6/537190294_122135881754818288_3225203898784633773_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=MoEBy4ZMFYIQ7kNvwFLbfhV&_nc_oc=AdlatjNr7Su-SEyqSeYsaA9L6p9oF-HTYGB4cIWzLKuC2mXntPGNWyn0ZFNiCC4n6GMLCOEUy5R_rO_TGppEa8Fi&_nc_zt=23&_nc_ht=scontent.fsgn5-14.fna&_nc_gid=jzJONbqtvSOByGqb1_k_QA&oh=00_AfmoYvzEb2aSX286_b2O58uR2a-B3uqtdo13CS1QkoR-oQ&oe=693B587B">
+          <img src="https://www.dropbox.com/scl/fi/elbhxmaz6fytnbupnfl0d/Nguy-n-T-t-Ki-m-AI.jpg?rlkey=939i6jam853nxsdndkljz4zk1&st=jbk1p2fn&raw=1">
 </div>
         <div class="caption">Nguyễn Tất Kiểm - AI Coaching</div>
       </div>
 
             <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/openaiopen', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://photo-resize-zmp3.zmdcdn.me/w256_r1x1_jpeg/cover/5/5/1/6/5516fb18a6b7ca9ab93920f6de09aedf.jpg">
+          <img src="https://www.dropbox.com/scl/fi/tlntms5tc816ru687ls76/AI-Vi-t-Nam.jpg?rlkey=j1e6a0tngoz8lu31d3n1khzhn&st=3b91s8ks&raw=1">
 </div>
         <div class="caption">AI Việt Nam</div>
       </div>
 
             <div class="image-box">
   <div onclick="openRightHalfPopup('https://gist.github.com/coolaj86/6f4f7b30129b0251f61fa7baaa881516', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://avatars.githubusercontent.com/u/122831?v=4">
+          <img src="https://www.dropbox.com/scl/fi/g272yhx54o30t2n44dbp0/ChatGPT-Dan-Jailbreak.jpg?rlkey=skdduk6d93j6xq8op6k5wodjr&st=s2trzxr0&raw=1">
 </div>
         <div class="caption">ChatGPT-Dan-Jailbreak</div>
       </div>
@@ -955,4 +955,3 @@ glassElements.forEach(el => {
 
 // Gọi lại sau khi DOM đã có .glass-bg
 applyColor(colorIndex); 
-
