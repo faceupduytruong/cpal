@@ -4,6 +4,30 @@ container.innerHTML = `
 
      <!-- Hàng thứ 1 -->
     <div class="image-row glass-bg">
+    <h2 class="row-title">Triển khai kết cấu</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/DbimConstructionSoftware/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/yc4tpmm5tzeaey39zbo40/DBim-Ph-n-m-m-h-tr-t-nh-to-n-tri-n-khai-K-t-C-u.png?rlkey=bxydub84rwreroomascep5t75&st=m6xapyr0&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">DBim - Phần mềm hỗ trợ tính toán triển khai Kết Cấu</div>
+      </div>
+    
+</div>
+
+      <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">AutoCAD</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/traiautocad/learning_content/?filter=570550154039907' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/hcfjto85ns0cjz2qfhlg4/Tr-i-AutoCAD.jpg?rlkey=d0kw070ge8mnqbc1v5zh126a3&st=uzis40ka&raw=1">
+</div>
+        <div class="caption">Trại AutoCAD</div>
+      </div>
+     
+</div>
+
+     <!-- Hàng thứ 3 -->
+    <div class="image-row glass-bg">
     <h2 class="row-title">Revit Structure</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://elements.envato.com/learn/c/design/add-ons/tutorials' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -12,10 +36,9 @@ container.innerHTML = `
         <div class="caption">Design Tutorials</div>
       </div>
     
- </div>
+</div>
 
-
-    <!-- Hàng thứ 2 -->
+    <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Architecture</h2>
   <div class="image-box">
@@ -27,7 +50,19 @@ container.innerHTML = `
      
 </div>
 
-    <!-- Hàng thứ 3 -->
+    <!-- Hàng thứ 5 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Revit Architecture</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://revittutorials.info/revit-blogs/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/unl46i12kf1c97hpdmzau/Revit-Tutorials.jpg?rlkey=inj5zlry8385xljwdok82r579&st=mxgbkgqx&raw=1">
+</div>
+        <div class="caption">Revit Tutorials</div>
+      </div>
+     
+</div>
+
+    <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Models</h2>
   <div class="image-box">
