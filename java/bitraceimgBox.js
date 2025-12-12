@@ -52,18 +52,6 @@ container.innerHTML = `
 
     <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">Revit Architecture</h2>
-  <div class="image-box">
-  <div onclick="openRightHalfPopup('https://revittutorials.info/revit-blogs/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/unl46i12kf1c97hpdmzau/Revit-Tutorials.jpg?rlkey=inj5zlry8385xljwdok82r579&st=mxgbkgqx&raw=1">
-</div>
-        <div class="caption">Revit Tutorials</div>
-      </div>
-     
-</div>
-
-    <!-- Hàng thứ 6 -->
-    <div class="image-row glass-bg">
     <h2 class="row-title">Revit Models</h2>
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://market.bimsmith.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
