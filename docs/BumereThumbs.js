@@ -149,5 +149,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/nguyenthanh.1005/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/6alti459rh43fxw1brwya/Nguy-n-c-Th-nh.jpg?rlkey=3z18cufge07i71q6sl4iviisg&st=yderzsyr&raw=1',
   },
+  '1 phút chữa lành': {
+    url: 'https://www.facebook.com/1phutchualanh/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/23ui112j0uoo31le34zi6/1-ph-t-ch-a-l-nh.jpg?rlkey=y9b6ltr6zbeg6y2oknq6r94l2&st=fpl24fmt&raw=1',
+  },
+  'Mintbooks': {
+    url: 'https://www.facebook.com/mintbooks.vn/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/toee9nyronvcsitrapr1p/Mintbooks.png?rlkey=k5mo8130vw5op006n2myki6pg&st=a1tcpj3r&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
