@@ -26,6 +26,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Tinh tế (Windows)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/minhlakhoa.tinhoc/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/d55tksj8sa0l5e8lhnjld/M-nh-L-Khoa.jpg?rlkey=caw7g2wrbfxbgp9uil3osumuw&st=x8yfl7dy&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Mình Là Khoa (Office)</div>
+      </div>
       
 </div>
 
