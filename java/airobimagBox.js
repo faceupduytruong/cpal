@@ -878,6 +878,20 @@ container.innerHTML = `
 </div>
         <div class="caption">Lifehacker (AI)</div>
       </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/ANCAvn1/reels/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/1rw8vaxv9n4mbdxmqjfuf/n-Ng-C-ng-AI.png?rlkey=4rt5ik76e9tgtuty9ns79sb2m&st=rs82uzgx&raw=1">
+</div>
+        <div class="caption">Ăn Ngủ Cùng AI</div>
+      </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090197215120&sk=reels_tab', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/y9bk0x4xzo790cf7d82gc/M-o-L-m-Ch-K-N-ng-AI.png?rlkey=knsjswisr04suvbcw7rq4mhs4&st=gtxcx1y9&raw=1">
+</div>
+        <div class="caption">Mẹo Làm Chủ Kỹ Năng AI</div>
+      </div>
     
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/cuonghoaai/photos/', 'SmartApp Popup', window.innerWidth, 745)">
