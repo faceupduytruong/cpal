@@ -101,5 +101,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/einstein.sachhaychomevabe/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/8rzuqdkfhtwlxu99ak3wk/Einstein-Books-S-ch-hay-cho-gia-nh.jpg?rlkey=dauy6rn27qcricg5ovbczlrlv&st=yuqix6u3&raw=1'
   },
+ 'Vinmec Integrated Mental Health Center - Sức khỏe Tinh thần Tích hợp Vinmec': {
+    url: 'https://www.facebook.com/ttsuckhoetinhthantichhopvinmec/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/v38c70lqn85ov9pdtx4w0/Vinmec-Integrated-Mental-Health-Center-S-c-kh-e-Tinh-th-n-T-ch-h-p-Vinmec.jpg?rlkey=g9us95xdamnv8gc4bv8b6wamh&st=5915v0w2&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
