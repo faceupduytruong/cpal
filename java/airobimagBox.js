@@ -888,7 +888,7 @@ container.innerHTML = `
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090197215120&sk=reels_tab', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/y9bk0x4xzo790cf7d82gc/M-o-L-m-Ch-K-N-ng-AI.png?rlkey=knsjswisr04suvbcw7rq4mhs4&st=gtxcx1y9&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/y9bk0x4xzo790cf7d82gc/M-o-L-m-Ch-K-N-ng-AI.png?rlkey=knsjswisr04suvbcw7rq4mhs4&st=cbqa6jl7&raw=1">
 </div>
         <div class="caption">Mẹo Làm Chủ Kỹ Năng AI</div>
       </div>
