@@ -153,6 +153,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/1phutchualanh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/23ui112j0uoo31le34zi6/1-ph-t-ch-a-l-nh.jpg?rlkey=y9b6ltr6zbeg6y2oknq6r94l2&st=fpl24fmt&raw=1',
   },
+  'Glow Books - Hành Trình Tỏa Sáng': {
+    url: 'https://www.facebook.com/GlowBooksVietnam/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mfor4nlw7cquhxupxeodb/Glow-Books-H-nh-Tr-nh-T-a-S-ng.jpg?rlkey=yp293nxbm7b92g6ebv0x2iur0&st=rd5j895t&raw=1',
+  },
   'Mintbooks': {
     url: 'https://www.facebook.com/mintbooks.vn/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/toee9nyronvcsitrapr1p/Mintbooks.png?rlkey=k5mo8130vw5op006n2myki6pg&st=a1tcpj3r&raw=1',
