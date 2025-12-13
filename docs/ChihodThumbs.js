@@ -66,31 +66,31 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/l2c0tzbzvq17zxwig5ahc/inh-T-Books-S-ch-t-ng-t-c-th-ng-minh.jpg?rlkey=k7qhbze63bok7h7dpwse7fond&st=orlulsri&raw=1',
   },
   'Bunny Kidbooks - Sách thiếu nhi thuần Việt': {
-    url: 'https://www.facebook.com/bunnykidbooks/photos',
+    url: 'https://www.facebook.com/bunnykidbooks/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/noimnbdwevmb533b0y7yl/Bunny-Kidbooks-S-ch-thi-u-nhi-thu-n-Vi-t.png?rlkey=as3mhvxo1xdf63rhvd9cns4ik&st=c3ge8di4&raw=1',
   },
   'Tân Việt Books - Đồng hành cùng con trên hành trình trưởng thành': {
-    url: 'https://www.facebook.com/tanvietbookshn/photos',
+    url: 'https://www.facebook.com/tanvietbookshn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/35ra27giupnf963frxkzy/T-n-Vi-t-Books-ng-h-nh-c-ng-con-tr-n-h-nh-tr-nh-tr-ng-th-nh.jpg?rlkey=xhh971bs16bwcdkukvvqh7jur&st=pcsllnvz&raw=1',
   },
   'HG Books - Tiệm sách song ngữ thiếu nhi': {
-    url: 'https://www.facebook.com/HGBooksShop/photos',
+    url: 'https://www.facebook.com/HGBooksShop/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vajv8eh3cnj6c3svt67wa/HG-Books-Ti-m-s-ch-song-ng-thi-u-nhi.png?rlkey=loh4qwuqfoxo8vdxk1yedgy1y&st=0q2i0l2e&raw=1',
   },
   'Mẹ Bơ - Giáo dục não phải': {
-    url: 'https://www.facebook.com/giaoducnaophai/photos',
+    url: 'https://www.facebook.com/giaoducnaophai/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/j8toyzb0km4gjf7dkho4o/M-B-Gi-o-d-c-n-o-ph-i.png?rlkey=57ngtkd48llliec3zlymz6zmx&st=hp803psa&raw=1',
   },
   'Book Hunter': {
-    url: 'https://www.facebook.com/HuntersBookstore/photos',
+    url: 'https://www.facebook.com/HuntersBookstore/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xklw7mqa00o9i2q1uwgyc/Book-Hunter.png?rlkey=8mubahnc9u8ecwk5yjqqfrfmh&st=tpi7z903&raw=1'
   },
   'Sách Cha Mẹ - Thái Hà Books': {
-    url: 'https://www.facebook.com/wikichamethb/photos',
+    url: 'https://www.facebook.com/wikichamethb/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9mdjkiulyevtxy8924opb/S-ch-Cha-M-Th-i-H-Books.png?rlkey=k3z1xhw2bt3z83npf16ttj3vb&st=ku7w4pi7&raw=1'
   },
   'BerryBooks': {
-    url: 'https://www.facebook.com/BerryBooks.az/photos',
+    url: 'https://www.facebook.com/BerryBooks.az/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/a9oyii9uc769gr3lg73ni/BerryBooks.jpg?rlkey=8i6claszqxu6ilthl6pis5lqd&st=6p86ana2&raw=1'
   },
  'Kitten Loves Books - Tiệm sách Mèo nhỏ': {
@@ -98,12 +98,16 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/0wxkmd2pcwo9a48su8ydk/Kitten-Loves-Books-Ti-m-s-ch-M-o-nh.jpg?rlkey=9fbv7dcr1c6oqhv2zc8k2699l&st=vdefr5at&raw=1'
   },
  'Ehomebooks': {
-    url: 'https://www.facebook.com/ehomebooks/photos',
+    url: 'https://www.facebook.com/ehomebooks/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/yv9ugaf3tare6er4s2swr/Ehomebooks.png?rlkey=g6ezei11150m1bzvqobtlu6ka&st=sbjt624f&raw=1'
   },
  'Einstein Books - Sách hay cho gia đình': {
-    url: 'https://www.facebook.com/einstein.sachhaychomevabe/photos',
+    url: 'https://www.facebook.com/einstein.sachhaychomevabe/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8rzuqdkfhtwlxu99ak3wk/Einstein-Books-S-ch-hay-cho-gia-nh.jpg?rlkey=dauy6rn27qcricg5ovbczlrlv&st=yuqix6u3&raw=1'
+  },
+ 'Trạm văn': {
+    url: 'https://www.facebook.com/tramvan.thcs/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lfz20t38dke6k2auajohy/Tr-m-v-n.jpg?rlkey=h89xxykwa4a7kyp4o5htb68ox&st=07mo9i4f&raw=1'
   },
   // thêm các mục khác nếu cần
 };
