@@ -52,6 +52,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Tinh tế (Mac OSX)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/maclife.vn' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/r258gatc2318zd5s9iq7t/Maclife-v-ng-B-n.webp?rlkey=49sxwetndropwztp3pu4nqqbx&st=de937bpu&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Maclife và Đồng Bọn</div>
+      </div>
  
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://lzhoang2801.github.io/introduction' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
