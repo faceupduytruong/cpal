@@ -41,9 +41,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/IQFact/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/98293ku6o8zl45d0x9dmf/IFact.png?rlkey=r2jv3dmk9yspsldn1cnf1iqvk&st=otpd43zx&raw=1',
   },
-  'Tâm lý học đám đông': {
-    url: 'https://www.facebook.com/tamlihocdamdong/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xhuh9vrglkuoe4ipmejio/T-m-l-h-c-m-ng.jpg?rlkey=nzimvg9fh8bla2886kzpbag94&st=u9fvjh2y&raw=1',
+  'IFact': {
+    url: 'https://www.facebook.com/IQFact/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/98293ku6o8zl45d0x9dmf/IFact.png?rlkey=r2jv3dmk9yspsldn1cnf1iqvk&st=otpd43zx&raw=1',
+  },
+  'Ổ Phim +': {
+    url: 'https://www.facebook.com/onghienphimx/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tndv4g6jjsidaa6moqcuu/Phim.jpg?rlkey=tooe5gu1pdawo52b8rir6i0hl&st=tk75t8ra&raw=1',
   },
   'Cậu Bé Xem Phim': {
     url: 'https://www.facebook.com/CauBeXemPhimOfficial/reels/',
