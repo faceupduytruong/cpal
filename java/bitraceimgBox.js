@@ -7,9 +7,16 @@ container.innerHTML = `
     <h2 class="row-title">Triển khai kết cấu</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/DbimConstructionSoftware/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/yc4tpmm5tzeaey39zbo40/DBim-Ph-n-m-m-h-tr-t-nh-to-n-tri-n-khai-K-t-C-u.png?rlkey=bxydub84rwreroomascep5t75&st=m6xapyr0&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/yc4tpmm5tzeaey39zbo40/DBim-Ph-n-m-m-h-tr-t-nh-to-n-tri-n-khai-K-t-C-u.png?rlkey=bxydub84rwreroomascep5t75&st=juqwtuhb&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">DBim - Phần mềm hỗ trợ tính toán triển khai Kết Cấu</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/RevitSoft/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/8hjs2n2wky9erszs12pm3/HT-Structural.jpg?rlkey=7gcebkxo59ngizo9u4k4rh9e2&st=i3u89jrd&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">HT-Structural</div>
       </div>
     
 </div>
@@ -29,6 +36,13 @@ container.innerHTML = `
      <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Structure</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/239065509920947/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/gbltfjhmku2mcds5jzze6/T-p-h-c-Revit-k-t-c-u.svg?rlkey=kc7b665n6y6p6zyfl2ww0d1bd&st=u4uq24cp&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tập học Revit kết cấu</div>
+      </div>
+
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://elements.envato.com/learn/c/design/add-ons/tutorials' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://img.freepik.com/free-vector/graphic-designer-desk-with-different-objects_23-2148520373.jpg?semt=ais_hybrid&w=740&q=80" alt="Ảnh 1">
@@ -108,4 +122,4 @@ glassElements.forEach(el => {
 });
 
 // Gọi lại sau khi DOM đã có .glass-bg
-applyColor(colorIndex); 
+applyColor(colorIndex);
