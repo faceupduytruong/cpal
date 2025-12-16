@@ -13,43 +13,7 @@ export function openRightHalfPopup(url, title, w, h) {
 }
 window.openRightHalfPopup = openRightHalfPopup;
 
-// 👉 Hàm 2: Mở popup bên phải, tái sử dụng cùng một cửa sổ
-let popupWindow = null;
-
-export function openRightHalfOnePopup(url, windowName, w, h) {
-  // Lấy thông tin màn hình
-  const screenLeft = window.screenLeft ?? window.screenX;
-  const screenTop = window.screenTop ?? window.screenY;
-  const width = window.innerWidth ?? document.documentElement.clientWidth ?? screen.width;
-  const height = window.innerHeight ?? document.documentElement.clientHeight ?? screen.height;
-
-  // Tính toán vị trí popup (nửa bên phải)
-  const left = width + 42.5 + screenLeft;
-  const top = (height - h) / 2 + screenTop;
-
-  if (popupWindow && !popupWindow.closed) {
-    // Cách 1: tái sử dụng popup cũ
-    //popupWindow.location.href = url;
-    //popupWindow.focus();
-
-    // Nếu bạn muốn đóng popup cũ rồi mở lại thì thay bằng:
-       popupWindow.close();
-    // popupWindow = window.open(url, windowName, `scrollbars=yes,width=${w},height=${h},top=${top},left=${left}`);
-  } else {
-    // Mở popup mới
-    popupWindow = window.open(
-      url,
-      windowName,
-      `scrollbars=yes,width=${w},height=${h},top=${top},left=${left}`
-    );
-    if (window.focus) popupWindow?.focus();
-  }
-}
-
-// Gắn vào window để gọi trực tiếp từ HTML onclick
-window.openRightHalfOnePopup = openRightHalfOnePopup;
-
-// 👉 Hàm 3: Mở popup bên phải với tên cố định theo nền tảng
+// 👉 Hàm 2: Mở popup bên phải với tên cố định theo nền tảng
 export function openPlatformPopup(platform, url, w = window.innerWidth, h = 745) {
   const screenLeft = window.screenLeft ?? window.screenX;
   const screenTop = window.screenTop ?? window.screenY;
@@ -70,7 +34,7 @@ export function openPlatformPopup(platform, url, w = window.innerWidth, h = 745)
 }
 window.openPlatformPopup = openPlatformPopup;
 
-// 👉 Hàm 4: Mở popup bên trái với tên cố định theo nền tảng
+// 👉 Hàm 3: Mở popup bên trái với tên cố định theo nền tảng
 export function openPlatformPopupLeft(platform, url, w = window.innerWidth, h = 745) {
   const screenLeft = window.screenLeft ?? window.screenX;
   const screenTop = window.screenTop ?? window.screenY;
