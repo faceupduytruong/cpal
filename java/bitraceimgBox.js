@@ -61,7 +61,7 @@ container.innerHTML = `
 </div>
         <div class="caption">Revit Tutorials</div>
       </div>
-     
+    
 </div>
 
     <!-- Hàng thứ 5 -->
@@ -74,6 +74,39 @@ container.innerHTML = `
         <div class="caption">Bimsmith</div>
       </div>
       
+</div>
+
+    <!-- Hàng thứ 6 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Decor</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@G%C3%B3cDecorVn/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/g1pgpub6cqkwwvwl66du9/G-c-Decor.webp?rlkey=2xxx2jdivvuorfndsra6aokqr&st=9m1wpjvd&raw=1">
+</div>
+        <div class="caption">Góc Decor</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@Sunnie_decor/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/35ez2nymejc6nk4nh6lqx/Sunnie.png?rlkey=qpfod6nl6zi0buknbqaj6y9p5&st=x75qj0dw&raw=1">
+</div>
+        <div class="caption">Sunnie</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@linhnghiendecor/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/ennl5zeoy890t8dxw48gu/Linh-Nghi-n-Decor.png?rlkey=re92tc38o0ajwy7wmro3xi4d6&st=wbb5mhsd&raw=1">
+</div>
+        <div class="caption">Linh Nghiện Decor</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/c/Ki%E1%BA%BFntr%C3%BAcAkisa/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/pr1yz03snz3eat3nw0z12/Ki-n-tr-c-Akisa.jpg?rlkey=23rb23abuwe2ozrkl32gdfdhm&st=wvcmb0fy&raw=1">
+</div>
+        <div class="caption">Kiến trúc Akisa</div>
+      </div>
+    
 </div>
 
 `;
