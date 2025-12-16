@@ -41,7 +41,7 @@ export function openRightHalfOnePopup(url, windowName, w, h) {
 }
 
 // Gắn vào window để gọi trực tiếp từ HTML onclick
-window.openRightHalfPopup = openRightHalfPopup;
+window.openRightHalfOnePopup = openRightHalfOnePopup;
 
 // 👉 Hàm 3: Mở popup bên phải với tên cố định theo nền tảng
 export function openPlatformPopup(platform, url, w = window.innerWidth, h = 745) {
@@ -84,3 +84,4 @@ export function openPlatformPopupLeft(platform, url, w = window.innerWidth, h = 
   }
 }
 window.openPlatformPopupLeft = openPlatformPopupLeft;
+
