@@ -21,9 +21,29 @@ const folderLinks = {
     url: 'https://www.facebook.com/traicaybietnoi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ye8uaaf4w53v8khliur3j/Tr-i-C-y-Bi-t-N-i.jpg?rlkey=fvkmww3jqh3l0mh13joxxpvu0&st=zl8pr36g&raw=1',
   },
+  'Vũ Trụ Quanh Ta': {
+    url: 'https://www.youtube.com/@scienceisaround/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/V-Tr-Quanh-Ta.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=akb28j8q&raw=1',
+  },
+  '1 Phút Khoa Học': {
+    url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1lqc62ak5egssjxe8pyax/1-Ph-t-Khoa-H-c.jpg?rlkey=amr5lcq3ismu9j5otk5x4g4xz&st=cz8z4477&raw=1',
+  },
+  'Hồ Sơ Vô Cực': {
+    url: 'https://www.youtube.com/@H%E1%BB%93S%C6%A1V%C3%B4C%E1%BB%B1c/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/cxyp5nj8vud8307u2qptl/H-S-V-C-c.webp?rlkey=wl3sr75acvowje7bhmft2xclk&st=q8rlhfmh&raw=1',
+  },
   'Bạn có biết': {
+    url: 'https://www.youtube.com/@dat.biettuot/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/cs6ghypswaxqxlhihp4kg/B-n-C-Bi-t.jpg?rlkey=tsvrtir39fk7azpdd3lslpqoq&st=4oyuj7kd&raw=1',
+  },
+  'Đạt Biết Tuốt': {
     url: 'https://www.facebook.com/bancobietaz/photos_by',
-    thumbnail: 'https://www.dropbox.com/scl/fi/o5kbi6bctxsax22zylemn/B-n-c-bi-t.png?rlkey=gb82g3bre6j3ot0iv0htp6sbs&st=yizzokvq&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/i713a91g6oecnfwxpa0iw/t-Bi-t-Tu-t.png?rlkey=wo35v8t4jkfdgibg15svprr38&st=7c900uou&raw=1',
+  },
+  'CatsDogFunny': {
+    url: 'https://www.youtube.com/@CatsDogFunnny',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5v52zrb8p6bkuglc7m84w/CatsDogFunny.jpg?rlkey=zkzugvir8dch000wvfwxb8xc4&st=zezipwpn&raw=1',
   },
   'Vườn của Ba': {
     url: 'https://www.facebook.com/vuoncuabacoi/reels/',
