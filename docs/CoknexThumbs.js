@@ -41,6 +41,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/bancobietaz/photos_by',
     thumbnail: 'https://www.dropbox.com/scl/fi/i713a91g6oecnfwxpa0iw/t-Bi-t-Tu-t.png?rlkey=wo35v8t4jkfdgibg15svprr38&st=7c900uou&raw=1',
   },
+  'Đình Đề ReView': {
+    url: 'https://www.youtube.com/@dedomreview/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hcw6bayduy4td75xwaesh/nh-ReView.jpg?rlkey=exl9qp7f6gqfevxatmwcgl1u7&st=42sawntw&raw=1',
+  },
   'CatsDogFunny': {
     url: 'https://www.youtube.com/@CatsDogFunnny',
     thumbnail: 'https://www.dropbox.com/scl/fi/5v52zrb8p6bkuglc7m84w/CatsDogFunny.jpg?rlkey=zkzugvir8dch000wvfwxb8xc4&st=zezipwpn&raw=1',
