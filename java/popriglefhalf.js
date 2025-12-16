@@ -28,13 +28,14 @@ export function openRightHalfOnePopup(url, windowName, w, h) {
   const top = (height - h) / 2 + screenTop;
 
   if (popupWindow && !popupWindow.closed) {
-    // Cách 1: tái sử dụng popup cũ
-    popupWindow.location.href = url;
-    popupWindow.focus();
-
     // Nếu bạn muốn đóng popup cũ rồi mở lại thì thay bằng:
-    // popupWindow.close();
-    // popupWindow = window.open(url, windowName, `scrollbars=yes,width=${w},height=${h},top=${top},left=${left}`);
+    popupWindow.close();
+    popupWindow = window.open(url, windowName, `scrollbars=yes,width=${w},height=${h},top=${top},left=${left}`);
+    
+    // Cách 1: tái sử dụng popup cũ
+    //popupWindow.location.href = url;
+    //popupWindow.focus();
+
   } else {
     // Mở popup mới
     popupWindow = window.open(
