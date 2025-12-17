@@ -42,14 +42,7 @@ container.innerHTML = `
 </div>
         <div class="caption">Tập học Revit kết cấu</div>
       </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://elements.envato.com/learn/c/design/add-ons/tutorials' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://img.freepik.com/free-vector/graphic-designer-desk-with-different-objects_23-2148520373.jpg?semt=ais_hybrid&w=740&q=80" alt="Ảnh 1">
-</div>
-        <div class="caption">Design Tutorials</div>
-      </div>
-    
+   
 </div>
 
     <!-- Hàng thứ 4 -->
