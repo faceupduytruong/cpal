@@ -81,9 +81,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/doclabinhduong.np/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ud76kenywtos4bvchbb9s/c-L-B-nh-D-ng.png?rlkey=ts92qk29wh4x8xeb7z5xj74u4&st=x32kcdiq&raw=1',
   },
-  'IFact': {
-    url: 'https://www.facebook.com/IQFact/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/98293ku6o8zl45d0x9dmf/IFact.png?rlkey=r2jv3dmk9yspsldn1cnf1iqvk&st=otpd43zx&raw=1',
+  'Ý Hay': {
+    url: 'https://www.youtube.com/@%C3%9DHay-z6r/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hyl30r8ew9qb09607an9y/Hay.jpg?rlkey=cagzjfczo33nzlka7sq7eijdb&st=ua9c0lxu&raw=1',
   },
   'IFact': {
     url: 'https://www.facebook.com/IQFact/photos/',
