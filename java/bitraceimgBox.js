@@ -164,6 +164,13 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@kinhcan86/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/2aaxbuxkakcc1q836p0z6/K-nh-C-n.webp?rlkey=bj9z7fmwbh2acti5xloiqbr79&st=rgopa4q6&raw=1">
+</div>
+        <div class="caption">Kính Cận</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/c/Ki%E1%BA%BFntr%C3%BAcAkisa/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/pr1yz03snz3eat3nw0z12/Ki-n-tr-c-Akisa.jpg?rlkey=23rb23abuwe2ozrkl32gdfdhm&st=wvcmb0fy&raw=1">
 </div>
