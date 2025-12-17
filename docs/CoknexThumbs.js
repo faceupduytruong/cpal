@@ -45,6 +45,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@dedomreview/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/hcw6bayduy4td75xwaesh/nh-ReView.jpg?rlkey=exl9qp7f6gqfevxatmwcgl1u7&st=42sawntw&raw=1',
   },
+  'Thế giới động vật': {
+    url: 'https://www.youtube.com/@Phim-hay-3/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2gkp4s80gh6l3rhmrib6k/Th-gi-i-ng-v-t.jpg?rlkey=w3jyu3eyj7kyzpm03ig7ea2pm&st=d07d3rb2&raw=1',
+  },
   'CatsDogFunny': {
     url: 'https://www.youtube.com/@CatsDogFunnny',
     thumbnail: 'https://www.dropbox.com/scl/fi/5v52zrb8p6bkuglc7m84w/CatsDogFunny.jpg?rlkey=zkzugvir8dch000wvfwxb8xc4&st=zezipwpn&raw=1',
