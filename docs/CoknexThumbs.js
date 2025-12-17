@@ -17,6 +17,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
+  'LI KHÁM PHÁ': {
+    url: 'https://www.youtube.com/@LIKHAMPHA/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/aadmv5vaye952hyrg437s/LI-KH-M-PH.webp?rlkey=85v2d0wjb9tu7ar4bz9eze10q&st=r8nmzxg8&raw=1',
+  },
   'Trái Cây Biết Nói': {
     url: 'https://www.facebook.com/traicaybietnoi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ye8uaaf4w53v8khliur3j/Tr-i-C-y-Bi-t-N-i.jpg?rlkey=fvkmww3jqh3l0mh13joxxpvu0&st=zl8pr36g&raw=1',
@@ -37,6 +41,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@dat.biettuot/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/cs6ghypswaxqxlhihp4kg/B-n-C-Bi-t.jpg?rlkey=tsvrtir39fk7azpdd3lslpqoq&st=4oyuj7kd&raw=1',
   },
+  'Bạn Biết Chưa': {
+    url: 'https://www.youtube.com/@BanBietChua-d6z/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/bvgb45gmoxmm532wemupl/B-n-Bi-t-Ch-a.jpg?rlkey=573c3f8r8qo0s7ihncon50gki&st=4ezfy8hv&raw=1',
+  },
   'Đạt Biết Tuốt': {
     url: 'https://www.facebook.com/bancobietaz/photos_by',
     thumbnail: 'https://www.dropbox.com/scl/fi/i713a91g6oecnfwxpa0iw/t-Bi-t-Tu-t.png?rlkey=wo35v8t4jkfdgibg15svprr38&st=7c900uou&raw=1',
@@ -45,6 +53,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@dedomreview/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/hcw6bayduy4td75xwaesh/nh-ReView.jpg?rlkey=exl9qp7f6gqfevxatmwcgl1u7&st=42sawntw&raw=1',
   },
+  'TÒ MÒ': {
+    url: 'https://www.youtube.com/@tomovakhampha/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3j3xtzo7bmghf6fjmpmi1/T-M.jpg?rlkey=1j6pc33t1mkb14gz2kekjv7z7&st=aeaeo2uu&raw=1',
+  },
   'Thế giới động vật': {
     url: 'https://www.youtube.com/@Phim-hay-3/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2gkp4s80gh6l3rhmrib6k/Th-gi-i-ng-v-t.jpg?rlkey=w3jyu3eyj7kyzpm03ig7ea2pm&st=d07d3rb2&raw=1',
@@ -52,6 +64,10 @@ const folderLinks = {
   'CatsDogFunny': {
     url: 'https://www.youtube.com/@CatsDogFunnny',
     thumbnail: 'https://www.dropbox.com/scl/fi/5v52zrb8p6bkuglc7m84w/CatsDogFunny.jpg?rlkey=zkzugvir8dch000wvfwxb8xc4&st=zezipwpn&raw=1',
+  },
+  'Miền Hoa Sơn': {
+    url: 'https://www.youtube.com/@MienHoaSon/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/f4iwo2jsp7aoi0693yyxe/Mi-n-Hoa-S-n.avif?rlkey=jsothpyq4cqqvbcrkekyqou0w&st=h7csf7eh&raw=1',
   },
   'Vườn của Ba': {
     url: 'https://www.facebook.com/vuoncuabacoi/reels/',
@@ -104,6 +120,10 @@ const folderLinks = {
   'Tuyen saphia': {
     url: 'https://www.facebook.com/tuyensaphia92/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/v893lruulpvf3v6hafg2i/Tuyen-saphia.jpg?rlkey=eop43yf7z9bguvbxg0f87qzg8&st=s1cpfkw4&raw=1',
+  },
+  'BS THỌ': {
+    url: 'https://www.youtube.com/@BsTho1992/playlists/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7btt8uba3qnaqkg5mi6al/BS-TH.png?rlkey=1datdlcmn0wrn8ki7854ihzps&st=cjce6ibu&raw=1',
   },
   'AloBacsi': {
     url: 'https://www.facebook.com/alobacsihoibacsitraloi/reels/',
