@@ -44,6 +44,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Trại AutoCAD</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@xdth/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/9krv1yeytwrndvubqcqm9/X-y-D-ng-Th-c-H-nh.webp?rlkey=cipu45k58von0nk0ag6po4qko&st=ex5bvotx&raw=1">
+</div>
+        <div class="caption">Xây Dựng Thực Hành</div>
+      </div>
      
 </div>
 
@@ -55,6 +62,20 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/gbltfjhmku2mcds5jzze6/T-p-h-c-Revit-k-t-c-u.svg?rlkey=kc7b665n6y6p6zyfl2ww0d1bd&st=u4uq24cp&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tập học Revit kết cấu</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/c/dev4lifes/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/d4x8xvwj0pnsffad2wwqb/eRSVN.svg?rlkey=umgrfnuazchf3wsbw3rvhdqts&st=y7ijjyu2&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">eRSVN</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@RdsicYoutube/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/733xiqp7mkmceyms9zzsh/Rdsic-Youtube.png?rlkey=q6qu5qw5rppfvzs3qh5003yak&st=helxi3dl&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Rdsic Youtube</div>
       </div>
    
 </div>
@@ -79,6 +100,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/vwywm647n9p38ngx8mzn1/Bimsmith.webp?rlkey=vwhpoqd6eiug5nvzrihro1quw&st=v431ne54&raw=1">
 </div>
         <div class="caption">Bimsmith</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://3dwarehouse.sketchup.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/gr82jz2p63h01hhai4l9w/3dwarehouse-Sketchup.webp?rlkey=5k55lwm3b97nrl3rxdbd6srcs&st=vopo6k76&raw=1">
+</div>
+        <div class="caption">3dwarehouse Sketchup</div>
       </div>
       
 </div>
