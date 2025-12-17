@@ -21,9 +21,13 @@ const folderLinks = {
     url: 'https://www.youtube.com/@LIKHAMPHA/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/aadmv5vaye952hyrg437s/LI-KH-M-PH.webp?rlkey=85v2d0wjb9tu7ar4bz9eze10q&st=r8nmzxg8&raw=1',
   },
+  'Vũ Trụ Bí Ẩn': {
+    url: 'https://www.youtube.com/@V%C5%A9Tr%E1%BB%A5.B%C3%AD%E1%BA%A8n/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/q2k7fbw0fuze4fs2zx38h/V-Tr-B-n.jpg?rlkey=6py5czq8poox5gizutzlfrv7q&st=jomtyv6y&raw=1',
+  },
   'Trái Cây Biết Nói': {
     url: 'https://www.facebook.com/traicaybietnoi/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ye8uaaf4w53v8khliur3j/Tr-i-C-y-Bi-t-N-i.jpg?rlkey=fvkmww3jqh3l0mh13joxxpvu0&st=zl8pr36g&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jil4mkdvkiuvmq0wf9f3u/Tr-i-C-y-Bi-t-N-i.png?rlkey=nsctafamhxk03t3a5yw1fbyr4&st=xpfee7zy&raw=1',
   },
   'Vũ Trụ Quanh Ta': {
     url: 'https://www.youtube.com/@scienceisaround/shorts/',
