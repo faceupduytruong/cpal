@@ -25,6 +25,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tuyendungxaydungchatluongcao/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/67k7jzpzghohv5z63yc43/Tuy-n-d-ng-x-y-d-ng-ch-t-l-ng-cao.png?rlkey=s4mjfzk0dmalg45z3j2zucmmx&st=frpyoshm&raw=1',
   },
+  'Bản Ngã Tỉnh Thức': {
+    url: 'https://www.youtube.com/@BanNgaTinhThuc/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/liihoeluq31dz0vqp51i0/B-n-Ng-T-nh-Th-c.jpg?rlkey=5yrpsm6f2zi524jihp6cjcqwc&st=bdcrlv2l&raw=1',
+  },
   'Cô Gái Có Râu': {
     url: 'https://www.facebook.com/cogaicorautiktok/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2kyziklt154zoslvdu0rl/C-G-i-C-R-u.jpg?rlkey=nytwa8x0yfemzagu5gh1wu9yj&st=ay2ueqam&raw=1',
