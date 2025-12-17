@@ -109,6 +109,7 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/1f39f017ggl9rqcnd0qwa/REVIT4U.webp?rlkey=1g50kjcbiwo89a2d3we9ypuox&st=2j6g60ra&raw=1">
 </div>
         <div class="caption">REVIT4U</div>
+      </div>
         
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://revittutorials.info/revit-blogs/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
