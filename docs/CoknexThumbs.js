@@ -35,7 +35,7 @@ const folderLinks = {
   },
   'Hồ Sơ Vô Cực': {
     url: 'https://www.youtube.com/@H%E1%BB%93S%C6%A1V%C3%B4C%E1%BB%B1c/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/cxyp5nj8vud8307u2qptl/H-S-V-C-c.webp?rlkey=wl3sr75acvowje7bhmft2xclk&st=q8rlhfmh&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/H-S-V-C-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=3w2dvt63&raw=1',
   },
   'Bạn có biết': {
     url: 'https://www.youtube.com/@dat.biettuot/shorts/',
@@ -79,7 +79,7 @@ const folderLinks = {
   },
   'Độc lạ Bình Dương': {
     url: 'https://www.facebook.com/doclabinhduong.np/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/7oc1572xwqqf200cgkuw0/c-l-B-nh-D-ng.jpg?rlkey=x6q20cj02qk6oskl444cm75vu&st=solby396&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ud76kenywtos4bvchbb9s/c-L-B-nh-D-ng.png?rlkey=ts92qk29wh4x8xeb7z5xj74u4&st=x32kcdiq&raw=1',
   },
   'IFact': {
     url: 'https://www.facebook.com/IQFact/photos/',
