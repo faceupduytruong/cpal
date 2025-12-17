@@ -21,7 +21,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/6kr27fcwtwfucdbqoikmw/X-y-D-ng-DD-CN.jpg?rlkey=vr5mybszrdul7vderhfwrgrqk&st=c5d84edv&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/4s072jmzdxpd0ah2rezkw/X-y-D-ng-DD-CN.jpg?rlkey=k56fhtci47nm8l9hzy340lbjt&st=1x4srpct&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Xây Dựng DD & CN</div>
       </div>
