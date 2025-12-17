@@ -65,6 +65,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@tuan617/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/h5p1e5y8dj6048vy2hc8e/L-P-H-C-REVIT.png?rlkey=mh4t2dw2esdwbc7glgiou2aqi&st=51ujz5ye&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">LỚP HỌC REVIT</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.youtube.com/c/dev4lifes/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/d4x8xvwj0pnsffad2wwqb/eRSVN.svg?rlkey=umgrfnuazchf3wsbw3rvhdqts&st=y7ijjyu2&raw=1" alt="Ảnh 1">
 </div>
@@ -77,12 +84,32 @@ container.innerHTML = `
 </div>
         <div class="caption">Rdsic Youtube</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@SmarterArchitect/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/fwtzxrj1s2qb0qsutzasj/Smarter-Architect.gif?rlkey=25gepcv19yhr5xqj4sk7ztav4&st=54h95adh&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Smarter Architect</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@Study771/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/g6yogf9vv7pvp3cs8oyq9/Tri-Huynh-Huu.png?rlkey=i7sminontz1qwsj1njyubcxq8&st=3mvvzsif&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tri Huynh Huu</div>
+      </div>
    
 </div>
 
     <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Architecture</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@REVIT4U/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/1f39f017ggl9rqcnd0qwa/REVIT4U.webp?rlkey=1g50kjcbiwo89a2d3we9ypuox&st=2j6g60ra&raw=1">
+</div>
+        <div class="caption">REVIT4U</div>
+        
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://revittutorials.info/revit-blogs/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/unl46i12kf1c97hpdmzau/Revit-Tutorials.jpg?rlkey=inj5zlry8385xljwdok82r579&st=mxgbkgqx&raw=1">
