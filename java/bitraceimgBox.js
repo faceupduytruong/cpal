@@ -87,7 +87,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.youtube.com/@SmarterArchitect/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/fwtzxrj1s2qb0qsutzasj/Smarter-Architect.gif?rlkey=25gepcv19yhr5xqj4sk7ztav4&st=54h95adh&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/q27dc9234ktdmqkiblk7q/Smarter-Architect.png?rlkey=x0cejqra6ak22sk4ww14a84ym&st=8vcjg85q&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Smarter Architect</div>
       </div>
