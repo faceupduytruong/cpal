@@ -33,13 +33,13 @@ const folderLinks = {
     url: 'https://www.youtube.com/@scienceisaround/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/V-Tr-Quanh-Ta.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=akb28j8q&raw=1',
   },
-  '1 Phút Khoa Học': {
-    url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/1lqc62ak5egssjxe8pyax/1-Ph-t-Khoa-H-c.jpg?rlkey=amr5lcq3ismu9j5otk5x4g4xz&st=cz8z4477&raw=1',
-  },
   'Hồ Sơ Vô Cực': {
     url: 'https://www.youtube.com/@H%E1%BB%93S%C6%A1V%C3%B4C%E1%BB%B1c/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/H-S-V-C-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=3w2dvt63&raw=1',
+  },
+  '1 Phút Khoa Học': {
+    url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1lqc62ak5egssjxe8pyax/1-Ph-t-Khoa-H-c.jpg?rlkey=amr5lcq3ismu9j5otk5x4g4xz&st=cz8z4477&raw=1',
   },
   'Bạn có biết': {
     url: 'https://www.youtube.com/@dat.biettuot/shorts/',
