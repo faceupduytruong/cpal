@@ -60,7 +60,3 @@ document.getElementById("toggleEffectBtn")?.addEventListener("click", () => {
   loadBackgroundVideo(currentIndex);
 
 });
-
-
-
-
