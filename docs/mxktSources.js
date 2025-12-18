@@ -105,5 +105,8 @@ export const bgVideos = [
   "https://assets.mixkit.co/xbvqmi3tat7beo1vev8wnre16mmd",
   "https://assets.mixkit.co/kqvbvuandf7qkjj5bohp7f3upc2b",
   "https://assets.mixkit.co/9swqxxi92d67sgw58rxpztchnl9k",
+  "https://assets.mixkit.co/9vsff2sjfiqfr79lbbgp41j1j2um",
+  "https://assets.mixkit.co/w5poz5ljlrcz83gbkklytz6zvg4y",
+  "https://assets.mixkit.co/523xkvd14k65js6r23vwntbneefc",
   "https://assets.mixkit.co/iac9ai9dr72wlh57hxf98hr2xgna"
 ];
