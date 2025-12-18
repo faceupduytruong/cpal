@@ -131,7 +131,7 @@ const folderLinks = {
   },
   'Người Cao Tuổi Radio': {
     url: 'https://www.youtube.com/@NguoiCaoTuoiRadio/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/brnx1uncgegl93fwz0yyp/Ng-i-Cao-Tu-i-Radio.jpg?rlkey=qlbiz492yhpv9rv6n0of2yrcq&st=g9d2ocmvraw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/brnx1uncgegl93fwz0yyp/Ng-i-Cao-Tu-i-Radio.jpg?rlkey=qlbiz492yhpv9rv6n0of2yrcq&st=shpjw79b&raw=1',
   },
   'BS THỌ': {
     url: 'https://www.youtube.com/@BsTho1992/playlists/',
