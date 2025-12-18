@@ -1,4 +1,4 @@
-import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@8edee09/docs/mxktSources.js';
+import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/mxktSources.js';
 
 // Gán vào window để dùng ở script thường
 window.bgVideos = bgVideos;
