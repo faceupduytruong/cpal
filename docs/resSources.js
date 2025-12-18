@@ -170,6 +170,6 @@ export const resSources = [
 "https://res.cloudinary.com/dgcwfapes/video/upload/f_auto,q_auto/v1765972156/37-0b3b0e8c09ff1c7fdfa9f6dcece09f47-1920x1080_vgymfn.mp4",
 "https://res.cloudinary.com/dgcwfapes/video/upload/f_auto,q_auto/v1765972155/37-1fe408230dcae666f78cf44dca172b99-1920x1080_ngwqnz.mp4",
 "https://res.cloudinary.com/dgcwfapes/video/upload/f_auto,q_auto/v1765972152/37-0bbd5bb9a5ce3e315edd8464dcc2e013-1920x1080_bvmbq0.mp4",
-"https://res.cloudinary.com/dgcwfapes/video/upload/f_auto,q_auto/v1765972150/37-0bfa66c7e8f2441ec498688d0e5469c2-1920x1080_hom0dr.mp4",
+"https://res.cloudinary.com/dgcwfapes/video/upload/f_auto,q_auto/v1765972150/37-0bfa66c7e8f2441ec498688d0e5469c2-1920x1080_hom0dr.mp4"
 
 ];
