@@ -36,7 +36,7 @@ const folderLinks = {
   'Huỳnh Vũ - Phong Thủy': {
     url: 'https://www.youtube.com/@VuHuynh-nlpt/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ebgt3yw3p2x83873nnbhp/Hu-nh-V-Phong-Th-y.jpg?rlkey=hkij57z3wxpkhe6lhwe0bquaf&st=ry2cqh5x&raw=1',
-  }
+  },
   'Cô Gái Có Râu': {
     url: 'https://www.facebook.com/cogaicorautiktok/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2kyziklt154zoslvdu0rl/C-G-i-C-R-u.jpg?rlkey=nytwa8x0yfemzagu5gh1wu9yj&st=ay2ueqam&raw=1',
