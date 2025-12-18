@@ -61,6 +61,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@tomovakhampha/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/3j3xtzo7bmghf6fjmpmi1/T-M.jpg?rlkey=1j6pc33t1mkb14gz2kekjv7z7&st=aeaeo2uu&raw=1',
   },
+  'Rổ Mẹo': {
+    url: 'https://www.youtube.com/@R%E1%BB%95M%E1%BA%B9o-stmn/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ljb0ko18up4hcgy9g7g6q/R-M-o.jpg?rlkey=2ku6lcuxd0o9m8wipip42fmpy&st=wywla0cv&raw=1',
+  },
   'Thế giới động vật': {
     url: 'https://www.youtube.com/@Phim-hay-3/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2gkp4s80gh6l3rhmrib6k/Th-gi-i-ng-v-t.jpg?rlkey=w3jyu3eyj7kyzpm03ig7ea2pm&st=d07d3rb2&raw=1',
@@ -124,6 +128,10 @@ const folderLinks = {
   'Tuyen saphia': {
     url: 'https://www.facebook.com/tuyensaphia92/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/v893lruulpvf3v6hafg2i/Tuyen-saphia.jpg?rlkey=eop43yf7z9bguvbxg0f87qzg8&st=s1cpfkw4&raw=1',
+  },
+  'Người Cao Tuổi Radio': {
+    url: 'https://www.youtube.com/@NguoiCaoTuoiRadio/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/brnx1uncgegl93fwz0yyp/Ng-i-Cao-Tu-i-Radio.jpg?rlkey=qlbiz492yhpv9rv6n0of2yrcq&st=g9d2ocmvraw=1',
   },
   'BS THỌ': {
     url: 'https://www.youtube.com/@BsTho1992/playlists/',
