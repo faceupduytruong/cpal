@@ -41,6 +41,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/cogaicorautiktok/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2kyziklt154zoslvdu0rl/C-G-i-C-R-u.jpg?rlkey=nytwa8x0yfemzagu5gh1wu9yj&st=ay2ueqam&raw=1',
   },
+  'Mâu Thanh Thủy': {
+    url: 'https://www.facebook.com/mentormauthuy/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/flhk9zf99avpok24pu9ro/M-u-Thanh-Th-y.jpg?rlkey=lmbvszhfyr8rx5yiqeb0jh0ya&st=m5zpyocz&raw=1',
+  },
+  'Nguyễn Viết Thắng': {
+    url: 'https://www.facebook.com/thang.nguyenviet.50309/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pjoyh81xe0umsxx1mejdk/Nguy-n-Vi-t-Th-ng.jpg?rlkey=0f9uz72g0bwm1950fv0rmw99n&st=uxvrn57x&raw=1',
+  },
   'Tuân Xin Chào': {
     url: 'https://www.facebook.com/tuanxinchao98/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ihaqxjbjzggk8wagghclk/Tu-n-Xin-Ch-o.jpg?rlkey=h7squuu917q6c2b5q6aswoisr&st=dz542g6e&raw=1',
