@@ -28,6 +28,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/traicaybietnoi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jil4mkdvkiuvmq0wf9f3u/Tr-i-C-y-Bi-t-N-i.png?rlkey=nsctafamhxk03t3a5yw1fbyr4&st=xpfee7zy&raw=1',
   },
+  'Tớ Yêu Thiên Văn Học': {
+    url: 'https://www.facebook.com/toyeuthienvanhoc/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/oiiis9zy2k12fgxw7nghu/T-Y-u-Thi-n-V-n-H-c.png?rlkey=kweipxn0rzv9cf133y79z82pe&st=gcoi134j&raw=1',
+  },
   'Vũ Trụ Quanh Ta': {
     url: 'https://www.youtube.com/@scienceisaround/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/V-Tr-Quanh-Ta.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=akb28j8q&raw=1',
@@ -51,6 +55,10 @@ const folderLinks = {
   'Đạt Biết Tuốt': {
     url: 'https://www.facebook.com/bancobietaz/photos_by',
     thumbnail: 'https://www.dropbox.com/scl/fi/i713a91g6oecnfwxpa0iw/t-Bi-t-Tu-t.png?rlkey=wo35v8t4jkfdgibg15svprr38&st=7c900uou&raw=1',
+  },
+  'Dân Công Sở': {
+    url: 'https://www.facebook.com/SPX.DanCongSo/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9c595tfsyrlj42hh7fg94/D-n-C-ng-S.jpg?rlkey=sqb4ttbbchox0r0kndfciamyn&st=yrwjava3&raw=1',
   },
   'Đình Đề ReView': {
     url: 'https://www.youtube.com/@dedomreview/shorts/',
@@ -83,6 +91,14 @@ const folderLinks = {
   'Chuyện lạ của Trang': {
     url: 'https://www.facebook.com/chuyenlacuatrang/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/oz4cndjj1fnk69n9wpvq4/Chuy-n-l-c-a-Trang.jpg?rlkey=a3c8vb72wtmh00mi6e64vrgke&st=kmegfwqj&raw=1',
+  },
+  'Bí Ẩn Thế Giới Khác': {
+    url: 'https://www.facebook.com/profile.php?id=100090791846406&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/irixstkdgvi3tql1qnxrs/B-n-Th-Gi-i-Kh-c.webp?rlkey=8iw34hqy1eykllzacyfdrg1a3&st=0k5hshff&raw=1',
+  },
+  'Bí Ẩn Tâm Linh': {
+    url: 'https://www.facebook.com/profile.php?id=61555482115414&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1rmkxo598f9rldagg7jn6/B-n-T-m-Linh.webp?rlkey=q0lkb22gxgp9six4j4v173pts&st=lequknzx&raw=1',
   },
   'Độc lạ Bình Dương': {
     url: 'https://www.facebook.com/doclabinhduong.np/reels/',
@@ -119,14 +135,6 @@ const folderLinks = {
   'Deep writier': {
     url: 'https://www.facebook.com/profile.php?id=100072497381829&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/f2vmsrz86uuho1u4ktt7e/Deep-writier.png?rlkey=ha7knjvyccu3jmoa262nr5lmk&st=gw125341&raw=1',
-  },
-  'Phùng Thị Mùi': {
-    url: 'https://www.facebook.com/profile.php?id=100063678393688&sk=photos_by',
-    thumbnail: 'https://www.dropbox.com/scl/fi/hherjat3uwyrqjtc4madi/Ph-ng-Th-M-i.jpg?rlkey=sei7a9zt3tk1jxtefb4vi1za3&st=jnwkcz1z&raw=1',
-  },
-  'Tuyen saphia': {
-    url: 'https://www.facebook.com/tuyensaphia92/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/v893lruulpvf3v6hafg2i/Tuyen-saphia.jpg?rlkey=eop43yf7z9bguvbxg0f87qzg8&st=s1cpfkw4&raw=1',
   },
   'Người Cao Tuổi Radio': {
     url: 'https://www.youtube.com/@NguoiCaoTuoiRadio/shorts/',
