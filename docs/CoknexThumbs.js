@@ -72,6 +72,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@R%E1%BB%95M%E1%BA%B9o-stmn/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ljb0ko18up4hcgy9g7g6q/R-M-o.jpg?rlkey=2ku6lcuxd0o9m8wipip42fmpy&st=wywla0cv&raw=1',
   },
+  'Hờ Biển': {
+    url: 'https://www.youtube.com/@hobienstory/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0w070f9qk5rs98lgzq8nv/H-Bi-n.jpg?rlkey=30f9tkt13rucwu8c1s4pea07b&st=nt8dce60&raw=1',
+  },
   'Thế giới động vật': {
     url: 'https://www.youtube.com/@Phim-hay-3/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2gkp4s80gh6l3rhmrib6k/Th-gi-i-ng-v-t.jpg?rlkey=w3jyu3eyj7kyzpm03ig7ea2pm&st=d07d3rb2&raw=1',
