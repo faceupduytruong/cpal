@@ -1,7 +1,6 @@
 const customThumbnails = {
-  'Cần sửa lại 1': 'https://contenthub-static.grammarly.com/blog/wp-content/uploads/2021/04/english-language-irregularities.jpeg',
-  'Cần sửa lại 2': 'https://524334.fs1.hubspotusercontent-na1.net/hubfs/524334/Blogs/Blog%20Featured/speaking_the_english_why_english_is_so_difficult_to_learn_featured.jpg',
-  'Bổ sung links': 'https://media.dolenglish.vn/PUBLIC/MEDIA/d6c8bb75-d6c5-4093-a249-6900cd9bdbf1.jpg',
+  'Cần sửa lại 1': 'https://www.dropbox.com/scl/fi/v1ehfd1pel3nfpz4pnvel/English1.jpg?rlkey=o5guumrl4aeyfid6vgfd9irot&st=tylul2in&raw=1',
+  'Cần sửa lại 2': 'https://www.dropbox.com/scl/fi/irzfnb2o7fcosw5sfxbty/English2.jpg?rlkey=3fh5k8arz1ya99motlats2nzr&st=aks7o3ol&raw=1',
   // thêm các mục khác nếu cần
 };
 
