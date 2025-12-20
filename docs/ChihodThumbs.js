@@ -53,6 +53,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/ttsuckhoetinhthantichhopvinmec/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/v38c70lqn85ov9pdtx4w0/Vinmec-Integrated-Mental-Health-Center-S-c-kh-e-Tinh-th-n-T-ch-h-p-Vinmec.jpg?rlkey=g9us95xdamnv8gc4bv8b6wamh&st=5915v0w2&raw=1'
   },
+ 'Bác sĩ Nguyên': {
+    url: 'https://www.youtube.com/c/B%C3%A1cs%C4%A9Nguy%C3%AAn/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/07auwwumwi30mqd3peoel/B-c-s-Nguy-n.jpg?rlkey=y17bhgvp5zd3a08gpgp8hqu9j&st=bawcbqnr&raw=1'
+  },
  'Sách Cha Mẹ - Thái Hà Books': {
     url: 'https://www.facebook.com/wikichamethb/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8rzuqdkfhtwlxu99ak3wk/Einstein-Books-S-ch-hay-cho-gia-nh.jpg?rlkey=dauy6rn27qcricg5ovbczlrlv&st=vyk1n2fh&raw=1'
