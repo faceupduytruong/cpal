@@ -59,6 +59,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Maclife và Đồng Bọn</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/maclifecafe/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/rmmt0mzjsldh20k7msxri/MacLife-CaFe.png?rlkey=a1l6ti1ulbdph5cdh8cos7acj&st=enxua5vb&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">MacLife CaFe</div>
+      </div>
  
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://lzhoang2801.github.io/introduction' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -217,6 +224,27 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/07z64vb6983gq74qsyp8y/Qu-n-Tr-M-ng-Linux.png?rlkey=0ld4zufw37rspmm2cx45w052s&st=liv1oefw&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quản Trị Mạng (Linux)</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/j2team.community/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/h2vvyc3l8ltoewfcykcvw/J2TEAM-Community.webp?rlkey=xy179y3ak2a03dlcyogs69mco&st=zz9xw307&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">J2TEAM Community</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/vietnamlinuxcommunity/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/7sa1m1e9v8hz3bply1bpg/Vi-t-Nam-Linux-Family-VNLF.png?rlkey=3dy1gdf8tko0vbnp6i665xiz1&st=hbd7j4pz&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Việt Nam Linux Family - VNLF</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/142870732409668/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/4mieq5fxcmraybjq6eql4/Linux-Distros-World.jpg?rlkey=k6mgutpxgjxjv1clais4v3e5y&st=3l82tf4j&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Linux Distros World</div>
       </div>
 
      <div class="image-box">
