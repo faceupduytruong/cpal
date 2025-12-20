@@ -881,7 +881,7 @@ container.innerHTML = `
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/thuychibint/reels/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/bvsv0cpqxv8fo0vyuujzk/Thu-Nguy-n.jpg?rlkey=cd6bwgdkggfgrxnm1a992g02l&st=em95idpb&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/bvsv0cpqxv8fo0vyuujzk/Thu-Nguy-n.jpg?rlkey=cd6bwgdkggfgrxnm1a992g02l&st=lzqzcgxr&raw=1">
 </div>
         <div class="caption">Thuý Nguyễn</div>
       </div>
@@ -902,7 +902,7 @@ container.innerHTML = `
     
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/cuonghoaai/photos/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/j3exiu9pscwndcysb00zz/C-ng-h-a-AI.jpg?rlkey=t4qvhf7n11hylup24b5d9va8j&st=t3z71820&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/wawbuuqtvifnu36mjoaco/C-ng-H-a-AI.png?rlkey=nvzww8vjc53qa1hlyoogimobm&st=lmjqyo0e&raw=1">
 </div>
         <div class="caption">Cường hóa AI</div>
       </div>
