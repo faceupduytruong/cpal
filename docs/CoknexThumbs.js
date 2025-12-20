@@ -133,6 +133,26 @@ const folderLinks = {
     url: 'https://www.youtube.com/@NguoiCaoTuoiRadio/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/brnx1uncgegl93fwz0yyp/Ng-i-Cao-Tu-i-Radio.jpg?rlkey=qlbiz492yhpv9rv6n0of2yrcq&st=shpjw79b&raw=1',
   },
+  'Tỉnh Táo Lên': {
+    url: 'https://www.youtube.com/@tinhtaolen19/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/esc3906wover22o8s9iy1/T-nh-t-o-l-n.jpg?rlkey=snfl686wxd110yvn9ti9kqe24&st=vrjevd8r&raw=1',
+  },
+  'Làm đẹp thật thích': {
+    url: 'https://www.youtube.com/@Lamdepthatthich1/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rf2rbvs1zya4ctkmsdb6g/L-m-p-th-t-th-ch.jpg?rlkey=obcxx6eh1n193dqcjhj83r67s&st=ezqmmb5q&raw=1',
+  },
+  'Ý Hay': {
+    url: 'https://www.youtube.com/@%C3%9DHay-z6r/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rf2rbvs1zya4ctkmsdb6g/L-m-p-th-t-th-ch.jpg?rlkey=obcxx6eh1n193dqcjhj83r67s&st=ezqmmb5q&raw=1',
+  },
+  'Cogito Hoàng Lê': {
+    url: 'https://www.youtube.com/@CogitoHoangLe/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7fv611nb4n4hdvgo28p22/Cogito-Ho-ng-L.webp?rlkey=ke25hj8rdzhkafk5yrrpq4ki5&st=h9hrlgvj&raw=1',
+  },
+  'Nhịp Sống Xanh': {
+    url: 'https://www.youtube.com/@songkhoemoingaynha/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/sjq6cho39e59zj0ov5839/Nh-p-s-ng-xanh.jpg?rlkey=3vf8n2psjczs5lossyhlv180s&st=j601pkus&raw=1',
+  },
   'BS THỌ': {
     url: 'https://www.youtube.com/@BsTho1992/playlists/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7btt8uba3qnaqkg5mi6al/BS-TH.png?rlkey=1datdlcmn0wrn8ki7854ihzps&st=cjce6ibu&raw=1',
