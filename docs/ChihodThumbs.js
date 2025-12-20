@@ -109,5 +109,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/tramvan.thcs/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lfz20t38dke6k2auajohy/Tr-m-v-n.jpg?rlkey=h89xxykwa4a7kyp4o5htb68ox&st=07mo9i4f&raw=1'
   },
+ 'Trần Quốc Phúc': {
+    url: 'https://www.facebook.com/tranquocphuc.taovang/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4svtcowh2tl67861sfpe0/Tr-n-Qu-c-Ph-c.jpg?rlkey=qlv6xyteubpp51n9gygqsl9os&st=qmw91ws9&raw=1'
+  },
+  'Phạm Ngọc': {
+    url: 'https://www.facebook.com/KenhPhuNuPhamNgoc/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/uibt8yvfg1uav75omxo7v/Ph-m-Ng-c.jpg?rlkey=pinpbjl7clls25u8tz6ouv7jb&st=7y2ovna5&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
