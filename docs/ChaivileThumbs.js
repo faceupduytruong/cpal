@@ -17,6 +17,14 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
+  'Tiếng Trung Long Vũ': {
+    url: 'https://www.facebook.com/profile.php?id=61579962517312&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/d1cdrvlt1ndq49h978s96/Ti-ng-Trung-Long-V.png?rlkey=74fttctvfy8woe4h6934yg3ks&st=p6bzxrkj&raw=1'
+  },
+  'Tiếng Trung Kim Oanh': {
+    url: 'https://www.facebook.com/tiengtrungkimoanh/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/z06vhy7zatgk6v7jj6x7p/Ti-ng-Trung-Kim-Oanh.jpg?rlkey=vttyh0snfyo27njjsvof0rxin&st=gw12v474&raw=1'
+  },
   'Trung Tâm Hoa Ngữ Hoa Lạc': {
     url: 'https://www.facebook.com/hoalac.edu.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ppna05jcpmsc99jk0qsqi/Trung-T-m-Hoa-Ng-Hoa-L-c.jpg?rlkey=xpzflurizq6c3lusgniw19tyw&st=icy3tk46&raw=1'
