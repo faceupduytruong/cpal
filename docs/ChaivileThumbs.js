@@ -33,5 +33,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/HocTiengTrungCungCoMolii/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9e4e60d16bt85uhsyr1q5/Ti-ng-Trung-Molii-FM-Ti-ng-Trung-Giao-Ti-p.png?rlkey=zajond9b9fqld1tkfp610ojb8&st=7emafd73&raw=1'
   },
+  'Học Tiếng Trung Quốc Mỗi Ngày': {
+    url: 'https://www.facebook.com/profile.php?id=61563355705752&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/p57rkvpnpd8rwjiqtaghe/H-c-Ti-ng-Trung-M-i-Ng-y.jpg?rlkey=hlr73i8r08bf98md6a0qnkqgq&st=dp3ave3f&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
