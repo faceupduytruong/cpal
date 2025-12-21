@@ -36,6 +36,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@scienceisaround/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/V-Tr-Quanh-Ta.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=akb28j8q&raw=1',
   },
+  'Trần My': {
+    url: 'https://www.facebook.com/coba.bentre.33/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zvd2cm5b1851ws3toad9z/Tr-n-My.jpg?rlkey=4kruzek0qna119p5n3xprl4ue&st=suhfltwl&raw=1',
+  },
   'Hồ Sơ Vô Cực': {
     url: 'https://www.youtube.com/@H%E1%BB%93S%C6%A1V%C3%B4C%E1%BB%B1c/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/H-S-V-C-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=3w2dvt63&raw=1',
@@ -143,6 +147,10 @@ const folderLinks = {
   'Tứ Đại Tài Tử': {
     url: 'https://www.facebook.com/tudaitaitu8386/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jxu18oemyrtl1x1rrur9a/T-i-T-i-T.png?rlkey=0u89s1ea44b1qwym78af2pxfn&st=6mayzvj8&raw=1',
+  },
+  'VFC Best Movies': {
+    url: 'https://www.facebook.com/wonderfulnature79/videos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/m74aad4flgym0isn5qw9k/VFC-Best-Movies.jpg?rlkey=rzhtpdlyrdxwn46y34a60jspt&st=o4tv6bwd&raw=1',
   },
   'Hữu DuHa': {
     url: 'https://www.facebook.com/profile.php?id=61583131784963&sk=reels_tab',
