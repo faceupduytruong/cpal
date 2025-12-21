@@ -1,0 +1,228 @@
+// Tạo HTML động
+const container = document.createElement("div");
+container.innerHTML = `
+
+     <!-- Hàng thứ 1 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Triển khai kết cấu</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/DbimConstructionSoftware/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/yc4tpmm5tzeaey39zbo40/DBim-Ph-n-m-m-h-tr-t-nh-to-n-tri-n-khai-K-t-C-u.png?rlkey=bxydub84rwreroomascep5t75&st=juqwtuhb&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">DBim - Phần mềm hỗ trợ tính toán triển khai Kết Cấu</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/RevitSoft/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/8hjs2n2wky9erszs12pm3/HT-Structural.jpg?rlkey=7gcebkxo59ngizo9u4k4rh9e2&st=i3u89jrd&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">HT-Structural</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/z1e6t97lky6n9yxbkqcwo/X-y-D-ng-DD-CN.png?rlkey=fl4gd2bvrpeoq2vry63r5aem0&st=u1nd32yx&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Xây Dựng DD & CN</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/user/100024795782340/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/54v9qmja9ymfmhopaot4n/T-o-Th-o.png?rlkey=lrpzv8w8hp2d5byi5n6eabd92&st=pn6pksdw&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tào Tháo</div>
+      </div>
+    
+</div>
+
+      <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">AutoCAD</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/traiautocad/learning_content/?filter=570550154039907' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/hcfjto85ns0cjz2qfhlg4/Tr-i-AutoCAD.jpg?rlkey=d0kw070ge8mnqbc1v5zh126a3&st=uzis40ka&raw=1">
+</div>
+        <div class="caption">Trại AutoCAD</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@xdth/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/9krv1yeytwrndvubqcqm9/X-y-D-ng-Th-c-H-nh.webp?rlkey=cipu45k58von0nk0ag6po4qko&st=ex5bvotx&raw=1">
+</div>
+        <div class="caption">Xây Dựng Thực Hành</div>
+      </div>
+     
+</div>
+
+     <!-- Hàng thứ 3 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Revit Structure</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/239065509920947/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/gbltfjhmku2mcds5jzze6/T-p-h-c-Revit-k-t-c-u.svg?rlkey=kc7b665n6y6p6zyfl2ww0d1bd&st=u4uq24cp&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tập học Revit kết cấu</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@tuan617/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/h5p1e5y8dj6048vy2hc8e/L-P-H-C-REVIT.png?rlkey=mh4t2dw2esdwbc7glgiou2aqi&st=51ujz5ye&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">LỚP HỌC REVIT</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/c/dev4lifes/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/d4x8xvwj0pnsffad2wwqb/eRSVN.svg?rlkey=umgrfnuazchf3wsbw3rvhdqts&st=y7ijjyu2&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">eRSVN</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@RdsicYoutube/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/733xiqp7mkmceyms9zzsh/Rdsic-Youtube.png?rlkey=q6qu5qw5rppfvzs3qh5003yak&st=helxi3dl&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Rdsic Youtube</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@SmarterArchitect/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/q27dc9234ktdmqkiblk7q/Smarter-Architect.png?rlkey=x0cejqra6ak22sk4ww14a84ym&st=8vcjg85q&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Smarter Architect</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@Study771/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/g6yogf9vv7pvp3cs8oyq9/Tri-Huynh-Huu.png?rlkey=i7sminontz1qwsj1njyubcxq8&st=3mvvzsif&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tri Huynh Huu</div>
+      </div>
+   
+</div>
+
+    <!-- Hàng thứ 4 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Revit Architecture</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@REVIT4U/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/1f39f017ggl9rqcnd0qwa/REVIT4U.webp?rlkey=1g50kjcbiwo89a2d3we9ypuox&st=2j6g60ra&raw=1">
+</div>
+        <div class="caption">REVIT4U</div>
+      </div>
+        
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://revittutorials.info/revit-blogs/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/unl46i12kf1c97hpdmzau/Revit-Tutorials.jpg?rlkey=inj5zlry8385xljwdok82r579&st=mxgbkgqx&raw=1">
+</div>
+        <div class="caption">Revit Tutorials</div>
+      </div>
+    
+</div>
+
+    <!-- Hàng thứ 5 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Revit Models</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://market.bimsmith.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/vwywm647n9p38ngx8mzn1/Bimsmith.webp?rlkey=vwhpoqd6eiug5nvzrihro1quw&st=v431ne54&raw=1">
+</div>
+        <div class="caption">Bimsmith</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://3dwarehouse.sketchup.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/gr82jz2p63h01hhai4l9w/3dwarehouse-Sketchup.webp?rlkey=5k55lwm3b97nrl3rxdbd6srcs&st=vopo6k76&raw=1">
+</div>
+        <div class="caption">3dwarehouse Sketchup</div>
+      </div>
+      
+</div>
+
+    <!-- Hàng thứ 6 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Decor</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@G%C3%B3cDecorVn/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/g1pgpub6cqkwwvwl66du9/G-c-Decor.webp?rlkey=2xxx2jdivvuorfndsra6aokqr&st=9m1wpjvd&raw=1">
+</div>
+        <div class="caption">Góc Decor</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@Sunnie_decor/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/35ez2nymejc6nk4nh6lqx/Sunnie.png?rlkey=qpfod6nl6zi0buknbqaj6y9p5&st=x75qj0dw&raw=1">
+</div>
+        <div class="caption">Sunnie</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@linhnghiendecor/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/ennl5zeoy890t8dxw48gu/Linh-Nghi-n-Decor.png?rlkey=re92tc38o0ajwy7wmro3xi4d6&st=wbb5mhsd&raw=1">
+</div>
+        <div class="caption">Linh Nghiện Decor</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@kinhcan86/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/2aaxbuxkakcc1q836p0z6/K-nh-C-n.webp?rlkey=bj9z7fmwbh2acti5xloiqbr79&st=rgopa4q6&raw=1">
+</div>
+        <div class="caption">Kính Cận</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/c/Ki%E1%BA%BFntr%C3%BAcAkisa/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/pr1yz03snz3eat3nw0z12/Ki-n-tr-c-Akisa.jpg?rlkey=23rb23abuwe2ozrkl32gdfdhm&st=wvcmb0fy&raw=1">
+</div>
+        <div class="caption">Kiến trúc Akisa</div>
+      </div>
+    
+</div>
+
+`;
+
+// Thêm vào DOM
+document.body.appendChild(container);
+
+// Định nghĩa style h2
+const style = document.createElement('style');
+style.textContent = `
+  h2 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    color: white;
+    animation: greenPulse 7s infinite;
+    text-shadow:
+      0 0 6px #006400,
+      0 0 12px #228B22,
+      1px 1px 4px rgba(0,0,0,0.3);
+  }
+
+@keyframes greenPulse {
+  0% {
+    text-shadow: 0 0 5px #7CFC00, 0 0 10px #32CD32, 0 0 20px #228B22;   /* Màu nhấp chớp của Music Station */
+    opacity: 1;
+  }
+  50% {
+    text-shadow: 0 0 2px #006400, 0 0 4px #013220;
+    opacity: 0.5;
+  }
+  100% {
+    text-shadow: 0 0 5px #7CFC00, 0 0 10px #32CD32, 0 0 20px #228B22;
+    opacity: 1;
+  }
+}
+`;
+
+document.head.appendChild(style);
+
+// 👉 Sau khi thêm vào DOM, gọi lại applyColor
+const glassElements = document.querySelectorAll(".glass-bg");
+const color = colors[0]; // hoặc dùng biến colorIndex nếu có
+
+glassElements.forEach(el => {
+  el.style.backgroundColor = color;
+});
+
+// Gọi lại sau khi DOM đã có .glass-bg
+applyColor(colorIndex);
