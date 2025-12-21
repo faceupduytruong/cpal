@@ -241,6 +241,13 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/1736980107212621/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/5gwe9o3inauf1rf8dgp8q/J2TEAM-Community.png?rlkey=rx824zjjcz51ymng0ygqy9ywm&st=nwb9dvzr&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">J2TEAM Community 🇻🇳</div>
+      </div>
+
+     <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/vietnamlinuxcommunity/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/7sa1m1e9v8hz3bply1bpg/Vi-t-Nam-Linux-Family-VNLF.png?rlkey=3dy1gdf8tko0vbnp6i665xiz1&st=hbd7j4pz&raw=1" alt="Ảnh 1">
 </div>
