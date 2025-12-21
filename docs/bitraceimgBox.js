@@ -165,14 +165,14 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/@DanHa-u2q/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/2947408z7c9ye6y66keyn/Bin-Decor.webp?rlkey=6dpf4053uz77kr7qucv4f2wfi&st=qshe3q0u&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/qsu0ouy7osop849838s9a/Bin-Decor.webp?rlkey=ldar94jqxk11q3dmgixrfo457&st=abcwy32h&raw=1">
 </div>
         <div class="caption">Bin Decor</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/@kinhcan86/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/2aaxbuxkakcc1q836p0z6/K-nh-C-n.webp?rlkey=bj9z7fmwbh2acti5xloiqbr79&st=rgopa4q6&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/lgjw5uy1yp4at5feapgeg/K-nh-C-n.webp?rlkey=p9nqpf4lqjb02z9phnoxu58o5&st=qtiz5s7o&raw=1">
 </div>
         <div class="caption">Kính Cận</div>
       </div>
