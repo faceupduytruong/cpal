@@ -62,7 +62,8 @@ function openEpubViewer() {
 
 let urls = [
     "https://www.facebook.com/tiemsachcuREBO/photos",
-    "https://www.facebook.com/nhasachlifebooks/photos"
+    "https://www.facebook.com/nhasachlifebooks/photos",
+    "https://www.facebook.com/sachunibooks/photos"
 ];
 
 let currentIndex = 0; // bắt đầu từ phần tử đầu tiên
@@ -142,4 +143,3 @@ function openLink(baseUrl) {
   window.openRightHalfPopup(finalUrl, 'Popup', window.innerWidth * 2 + 40, 745);
 
 }
-
