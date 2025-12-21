@@ -96,6 +96,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@CatsDogFunnny',
     thumbnail: 'https://www.dropbox.com/scl/fi/5v52zrb8p6bkuglc7m84w/CatsDogFunny.jpg?rlkey=zkzugvir8dch000wvfwxb8xc4&st=zezipwpn&raw=1',
   },
+  'Thiên nhiên hoang dã': {
+    url: 'https://www.youtube.com/@thiennhienhoangda-vn/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xb5pg69cjv8e249jvpasm/Thi-n-nhi-n-hoang-d.avif?rlkey=dm0ykh6mfz8vmv9e0bt7ko2xz&st=jbnrwugg&raw=1',
+  },
   'Miền Hoa Sơn': {
     url: 'https://www.youtube.com/@MienHoaSon/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/f4iwo2jsp7aoi0693yyxe/Mi-n-Hoa-S-n.avif?rlkey=jsothpyq4cqqvbcrkekyqou0w&st=h7csf7eh&raw=1',
