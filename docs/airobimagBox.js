@@ -922,6 +922,13 @@ container.innerHTML = `
       </div>
 
             <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/591054007361950/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/gog08btqlvdt4wt8uvb06/C-m-AI-lo.png?rlkey=su6sxkskswgl8go8jybnc6hvo&st=dgsaszoa&raw=1">
+</div>
+        <div class="caption">Cơm AI lo</div>
+      </div>
+
+            <div class="image-box">
   <div onclick="openRightHalfPopup('https://gist.github.com/coolaj86/6f4f7b30129b0251f61fa7baaa881516', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/g272yhx54o30t2n44dbp0/ChatGPT-Dan-Jailbreak.jpg?rlkey=skdduk6d93j6xq8op6k5wodjr&st=s2trzxr0&raw=1">
 </div>
