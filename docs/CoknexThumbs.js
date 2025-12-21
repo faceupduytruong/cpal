@@ -96,6 +96,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/chuyenlacuatrang/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/oz4cndjj1fnk69n9wpvq4/Chuy-n-l-c-a-Trang.jpg?rlkey=a3c8vb72wtmh00mi6e64vrgke&st=kmegfwqj&raw=1',
   },
+  'MC Quang Huy': {
+    url: 'https://www.facebook.com/profile.php?id=61581484430903&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tblc057on8le9tt4hu6ru/MC-Quang-Huy.jpg?rlkey=0zkq1d26yu1kc2dao9mqvrutx&st=u6ngatxp&raw=1',
+  },
+  'ỚT In4': {
+    url: 'https://www.facebook.com/profile.php?id=61580057953318&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8s9hhypzs8lk2atnt4xg7/T-In4.jpg?rlkey=7z1biwqpp91d262y9jxpycd19&st=rcmkv0z0&raw=1',
+  },
   'Bí Ẩn Thế Giới Khác': {
     url: 'https://www.facebook.com/profile.php?id=100090791846406&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/irixstkdgvi3tql1qnxrs/B-n-Th-Gi-i-Kh-c.webp?rlkey=8iw34hqy1eykllzacyfdrg1a3&st=0k5hshff&raw=1',
