@@ -25,6 +25,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tacathoicuocofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7sghcathlgbxuncfp36ce/TACA-TH-I-CU-C.jpg?rlkey=zu9utwmpyuc3skbrg6vzeysr8&st=mjq1akcs&raw=1',
   },
+  'Nguyễn Lê Vương  (Tám tận lương tâm)': {
+    url: 'https://www.facebook.com/tran.mi.529840/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/khee895wxuuvmydzbmbem/Nguy-n-L-V-ng-T-m-t-n-l-ng-t-m.jpg?rlkey=0xeb292weetirt4f9s7yyyx1q&st=rqocswz8&raw=1',
+  },
   'Gone Too Far': {
     url: 'https://www.facebook.com/GoneTooFarShow/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vlt091su9upsgvszm5i8p/Gone-Too-Far.png?rlkey=1ep4ehfecpkc12kpwdap6fgar&st=jyi9lucg&raw=1',
