@@ -129,6 +129,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/einstein.sachhaychomevabe/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8rzuqdkfhtwlxu99ak3wk/Einstein-Books-S-ch-hay-cho-gia-nh.jpg?rlkey=dauy6rn27qcricg5ovbczlrlv&st=yuqix6u3&raw=1'
   },
+ 'Quỳnh Chẫu - Cùng Con Độc Lập': {
+    url: 'https://www.facebook.com/cungcondoclap/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4ze216b7mswgu1amn3mdj/Qu-nh-Ch-u-C-ng-Con-c-L-p.jpg?rlkey=nf2x484u4uqib1w5ivnr41f3t&st=mtcdwxfe&raw=1'
+  },
  'Trạm văn': {
     url: 'https://www.facebook.com/tramvan.thcs/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lfz20t38dke6k2auajohy/Tr-m-v-n.jpg?rlkey=h89xxykwa4a7kyp4o5htb68ox&st=07mo9i4f&raw=1'
