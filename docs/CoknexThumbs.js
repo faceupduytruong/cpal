@@ -72,6 +72,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@R%E1%BB%95M%E1%BA%B9o-stmn/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ljb0ko18up4hcgy9g7g6q/R-M-o.jpg?rlkey=2ku6lcuxd0o9m8wipip42fmpy&st=wywla0cv&raw=1',
   },
+  'Vài Mẹo Hay': {
+    url: 'https://www.youtube.com/@vaimeohay.9/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9yyggcj6nzjqnd4vtso1e/V-i-M-o-Hay.jpg?rlkey=v3nw4roiqisbth1dm2mzyg1w9&st=v5nj9trj&raw=1',
+  },
   'Hờ Biển': {
     url: 'https://www.youtube.com/@hobienstory/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0w070f9qk5rs98lgzq8nv/H-Bi-n.jpg?rlkey=30f9tkt13rucwu8c1s4pea07b&st=nt8dce60&raw=1',
@@ -103,6 +107,10 @@ const folderLinks = {
   'ỚT In4': {
     url: 'https://www.facebook.com/profile.php?id=61580057953318&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/8s9hhypzs8lk2atnt4xg7/T-In4.jpg?rlkey=7z1biwqpp91d262y9jxpycd19&st=rcmkv0z0&raw=1',
+  },
+  'Bí Ẩn Thế Giới': {
+    url: 'https://www.youtube.com/@bianthegioi19/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s0mhl93n258ud79olo6m6/B-n-Th-Gi-i.jpg?rlkey=omqinbtj8zyejdfw1jycd8vqd&st=lejnzoq7&raw=1',
   },
   'Bí Ẩn Thế Giới Khác': {
     url: 'https://www.facebook.com/profile.php?id=100090791846406&sk=reels_tab',
