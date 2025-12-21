@@ -48,6 +48,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/tuhocieltsmoingay9.0/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/bu7oekjudn8yhxt5aicvo/T-H-C-IELTS-M-I-NG-Y.jpg?rlkey=pw6jdv11dx44dkez9egaxsumd&st=ad13h6tr&raw=1',
   },
+  '5+ từ vựng IELTS hay mỗi ngày': {
+    url: 'https://www.facebook.com/groups/657350918306254/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5k3me0oseo1yc892bkvmv/5-t-v-ng-IELTS-hay-m-i-ng-y.jpg?rlkey=fi7ze44mlmi7cj0rr7uvhv1qg&st=um9vpup&raw=1',
+  },
   'Edmicro - Học IELTS cùng AI': {
     url: 'https://www.facebook.com/edmicroielts/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/lglk37pehopulkjop2dks/Edmicro-H-c-IELTS-c-ng-AI.jpg?rlkey=n38cg8xq3xi3de61vcxsml36a&st=kfymv70u&raw=1'
