@@ -880,6 +880,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61580845559993&sk=reels_tab', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/6xg81m4z101le4i82vm86/30-Ng-y-H-c-L-m-N-i-Dung-Viral.webp?rlkey=g26syryecomhyjdqp93ahav70&st=bnsvzfyc&raw=1">
+</div>
+        <div class="caption">30 Ngày Học Làm Nội Dung Viral</div>
+      </div>
+
+      <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/thuychibint/reels/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/bvsv0cpqxv8fo0vyuujzk/Thu-Nguy-n.jpg?rlkey=cd6bwgdkggfgrxnm1a992g02l&st=lzqzcgxr&raw=1">
 </div>
