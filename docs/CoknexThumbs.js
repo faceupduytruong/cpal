@@ -38,7 +38,7 @@ const folderLinks = {
   },
   'Trần My': {
     url: 'https://www.facebook.com/coba.bentre.33/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/zvd2cm5b1851ws3toad9z/Tr-n-My.jpg?rlkey=4kruzek0qna119p5n3xprl4ue&st=suhfltwl&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yox4elgdrsyt91bilc3va/Tr-n-My.jpg?rlkey=mn9nz8sh4guidpr6zmsge3i51&st=98c2xff0&raw=1',
   },
   'Hồ Sơ Vô Cực': {
     url: 'https://www.youtube.com/@H%E1%BB%93S%C6%A1V%C3%B4C%E1%BB%B1c/shorts/',
