@@ -60,17 +60,5 @@ const folderLinks = {
     url: 'https://www.facebook.com/PageBacSi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4m07pik17swishxjzuamg/B-c-s-c-a-b-n.jpg?rlkey=had70vy3m7z7io6tvh90b6ij1&st=vwavsg7c&raw=1',
   },
-  'Bông Hoa Nhỏ': {
-    url: 'https://www.facebook.com/ChurnChurnCafe/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ccqbx908i918ml43xjnph/B-ng-Hoa-Nh.jpg?rlkey=wdvnv53wk5rv8k1iq7wtsdjwn&st=fydaaeo5&raw=1',
-  },
-  'Nguyễn Huỳnh Lộc': {
-    url: 'https://www.facebook.com/tran.tommy.7334/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/a8l3jocmm7qdbbchcbb61/Nguy-n-Hu-nh-L-c.jpg?rlkey=0n9qezhb6p58lbnluks4c62wa&st=41zpka40&raw=1',
-  },
-  'Thanh Đạt  (Skyland Dolls)': {
-    url: 'https://www.facebook.com/swan.black.370/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/nepc0v62qg7tky4f9kp2v/Thanh-t-Skyland-Dolls.jpg?rlkey=zuez4panjga24x9hcyivbngpa&st=523grpzm&raw=1',
-  },
   // thêm các mục khác nếu cần
 };
