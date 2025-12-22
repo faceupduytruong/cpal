@@ -165,6 +165,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/nguyenthanh.1005/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/6alti459rh43fxw1brwya/Nguy-n-c-Th-nh.jpg?rlkey=3z18cufge07i71q6sl4iviisg&st=yderzsyr&raw=1',
   },
+  'Bông Hoa Nhỏ': {
+    url: 'https://www.facebook.com/ChurnChurnCafe/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ccqbx908i918ml43xjnph/B-ng-Hoa-Nh.jpg?rlkey=wdvnv53wk5rv8k1iq7wtsdjwn&st=fydaaeo5&raw=1',
+  },
+  'Thanh Đạt (Skyland Dolls)': {
+    url: 'https://www.facebook.com/swan.black.370/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nepc0v62qg7tky4f9kp2v/Thanh-t-Skyland-Dolls.jpg?rlkey=zuez4panjga24x9hcyivbngpa&st=523grpzm&raw=1',
+  },
   '1 phút chữa lành': {
     url: 'https://www.facebook.com/1phutchualanh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/23ui112j0uoo31le34zi6/1-ph-t-ch-a-l-nh.jpg?rlkey=y9b6ltr6zbeg6y2oknq6r94l2&st=fpl24fmt&raw=1',
