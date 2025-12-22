@@ -72,4 +72,5 @@ const folderLinks = {
     url: 'https://www.facebook.com/swan.black.370/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nepc0v62qg7tky4f9kp2v/Thanh-t-Skyland-Dolls.jpg?rlkey=zuez4panjga24x9hcyivbngpa&st=523grpzm&raw=1',
   },
-  // thêm các mục khác nếu cần};
+  // thêm các mục khác nếu cần
+};
