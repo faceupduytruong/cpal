@@ -32,6 +32,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/coawabe/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/t73j8jjudsazncprg3ff1/C.png?rlkey=fu4e3n204k569hdf50xvmp1q1&st=l32p6lyc&raw=1'
   },
+  'Langmaster Careers': {
+    url: 'https://www.facebook.com/LangmasterCareers/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vd4d2c5cd03v77hp8sfae/Langmaster-Careers.jpg?rlkey=e47ctv24mlehmudbf1j9oog30&st=rx0dcfym&raw=1'
+  },
   'HỌC IELTS': {
     url: 'https://www.facebook.com/groups/hocielts247/media',
     thumbnail: 'https://newsky.edu.vn/wp-content/uploads/IELTS-Writing-Task-2-part-3-2.jpg'
@@ -60,11 +64,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/khangielts/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/l5tju45bms4pkc1eu6d0k/Tr-n-Anh-Khang-IELTS.jpg?rlkey=cdcq2htxgoj94xjbzovnp9r2r&st=v68rv4iy&raw=1'
   },
- 'Hieu Nguyen IELTS': {
+  'Hieu Nguyen IELTS': {
     url: 'https://www.facebook.com/HieuNguyenIELTS/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/rcekc82ptgmfnafk0h7kd/Hieu-Nguyen-IELTS.jpg?rlkey=rtqgz1x3zhb2pxeg1ltz6bysk&st=koa3l5oj&raw=1'
   },
- "Peter's IELTS Corner": {
+  "Peter's IELTS Corner": {
     url: 'https://www.facebook.com/profile.php?id=61570317867876&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/5kmwrhxu43v75v7v45aae/Peter-s-IELTS-Corner.jpg?rlkey=fikrvac17z819629sl6svdxop&st=v3ewg1jp&raw=1'
   },
@@ -108,7 +112,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61565708207506&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7bf9c099hqz7wsfd8qmle/IELTS-Prediction-VN.jpg?rlkey=49z2117ye2wj4f7s92tb5it4l&st=pqehz00p&raw=1'
   },
- 'IELTS Fighter - Chiến binh IELTS': {
+  'IELTS Fighter - Chiến binh IELTS': {
     url: 'https://www.facebook.com/ieltsfighter/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/kgydixkovdru0hox1up9d/IELTS-Fighter-Chi-n-binh-IELTS.png?rlkey=2to3oi51xutr5h8h3nb8cnzxc&st=ik3dz3fu&raw=1'
   },
