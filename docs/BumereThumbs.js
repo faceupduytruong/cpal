@@ -25,6 +25,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/tuyendungxaydungchatluongcao/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/67k7jzpzghohv5z63yc43/Tuy-n-d-ng-x-y-d-ng-ch-t-l-ng-cao.png?rlkey=s4mjfzk0dmalg45z3j2zucmmx&st=frpyoshm&raw=1',
   },
+  'Phở Đặc Biệt': {
+    url: 'https://www.facebook.com/phodacbiet.tv/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5igfepfbuqobhx7wvcee6/Ph-c-Bi-t.png?rlkey=31gtjsvisyqoe92bqfzbwqozl&st=mrjyroy8&raw=1',
+  },
+  'Tu Thân Tự Cường': {
+    url: 'https://www.facebook.com/profile.php?id=61584242907915&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/n8l9ll644hpy8olw6jbvu/Tu-Th-n-T-C-ng.jpg?rlkey=7vu15jp55ipbknjicg3nuw2xd&st=gxbap4p7&raw=1',
+  },
   'Bản Ngã Tỉnh Thức': {
     url: 'https://www.youtube.com/@BanNgaTinhThuc/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/liihoeluq31dz0vqp51i0/B-n-Ng-T-nh-Th-c.jpg?rlkey=5yrpsm6f2zi524jihp6cjcqwc&st=bdcrlv2l&raw=1',
@@ -93,6 +101,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61576922346529&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/bxiq0mn2ufhhcn00ppc6h/I-T-NG-QU-N.jpg?rlkey=ulmrbyq8zbrmzhlxzf2396vw7&st=fjbqlgv8&raw=1',
   },
+  'CO HOI KINH DOANH': {
+    url: 'https://www.facebook.com/cafe.kinhdoanh.ek/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/orwuq8fjhyhjsxdxjnxmz/CO-HOI-KINH-DOANH.jpg?rlkey=t1rrpb4x1mcqertkq951p6y77&st=y12np3by&raw=1',
+  },
   'Thêm Tổng': {
     url: 'https://www.facebook.com/themtong.88/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ruzywrxeghbvhi5ej6jaj/Th-m-T-ng.jpg?rlkey=mfsgl7iv90iu1mty5371oap9x&st=dwybnaz6&raw=1',
@@ -121,9 +133,17 @@ const folderLinks = {
     url: 'https://www.facebook.com/vukimkhanhofficial/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/qu313wfvoqej1r6fqvdxv/V-Kim-Kh-nh.jpg?rlkey=awbgocrdpddxhymvffn2ntr93&st=fkdsh6ij&raw=1',
   },
+  'Dat Phi Nguyen (Phan Li)': {
+    url: 'https://www.facebook.com/datphi.nguyen/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5wmqh1kt9k197q2u4l84z/Dat-Phi-Nguyen-Phan-Li.jpg?rlkey=5xfan3uelg1x7yz052th27jug&st=tvkziy7x&raw=1',
+  },
   'Master NLP Ngat Pro': {
     url: 'https://www.facebook.com/Master.NLP.Ngat.Pro/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ro92q3xixefuyn6myh7ce/Master-NLP-Ngat-Pro.jpg?rlkey=cn7g1z4l9zkzl2rdd7wid8cc9&st=z4pisrrw&raw=1',
+  },
+  'Tony Buổi Sáng': {
+    url: 'https://www.facebook.com/profile.php?id=100091235509247&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o41c8epcs00w19ng0gv38/Tony-Bu-i-S-ng.jpg?rlkey=muxz1zdtblno307zoh0d89zvm&st=lq1qh0t0&raw=1',
   },
   'Tú Tony (Chế tú hành tỏi)': {
     url: 'https://www.facebook.com/lam.ngocthe.3/photos/',
