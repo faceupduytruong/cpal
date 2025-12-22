@@ -182,16 +182,20 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/2ntfanvt013wdso5udc33/Practical-English-Grammar-Idioms-Group.jpg?rlkey=6o6srvgiy7cnojtd3zlc085qa&st=irudmd48&raw=1'
   },
   'Improve English Skills': {
-    url: 'https://www.facebook.com/ImproveEnglishSkills121/photos',
+    url: 'https://www.facebook.com/ImproveEnglishSkills121/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ayfy2f3om199luaubbh4o/Improve-English-Skills.png?rlkey=kmx6pfhrjphjha7mjbezz54hl&st=ewy4fjo5&raw=1',
   },
   'Enjoy English': {
-    url: 'https://www.facebook.com/groups/1487687748646438/media',
+    url: 'https://www.facebook.com/groups/1487687748646438/media/',
     thumbnail: 'https://www.dropbox.com/scl/fi/s736owu1r606bd9hjradt/Enjoy-English.jpg?rlkey=qqf4765jm3dzsw9liut4lrgsg&st=3jjrjv1w&raw=1',
   },
   'Tiếng Anh Giao Tiếp - Tiến Bộ Từng Ngày': {
     url: 'https://www.facebook.com/groups/854814243254036/media/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lomdjop61as7wb8zesil9/Ti-ng-Anh-Giao-Ti-p-Ti-n-B-T-ng-Ng-y.jpg?rlkey=4yu2elh1hghmdbidkyji7jw57&st=phhx5emv&raw=1',
+  },
+  'Cùng Con Học Tiếng Anh': {
+    url: 'https://www.facebook.com/eflitaedu.com12/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mupox76obnxgvz3g5joi4/C-ng-Con-H-c-Ti-ng-Anh.jpg?rlkey=mef0ihlnhtv9lxw7qlmvks4pk&st=zalyfcb8&raw=1',
   },
   'HP Junior - Dạy con song ngữ': {
     url: 'https://www.facebook.com/HPJuniorVN/photos',
