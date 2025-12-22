@@ -16,161 +16,13 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/go7hgrxhqjdlc8twaob54/Google.webp?rlkey=re0z5hmanpo8rp4xts7m24xck&st=riwgh2gl&raw=1'
   },
-  'LI KHÁM PHÁ': {
-    url: 'https://www.youtube.com/@LIKHAMPHA/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/aadmv5vaye952hyrg437s/LI-KH-M-PH.webp?rlkey=85v2d0wjb9tu7ar4bz9eze10q&st=r8nmzxg8&raw=1',
+  'Đại Vy Healthcare': {
+    url: 'https://www.facebook.com/bsdaivy/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/em3fhuz9ybm5hg89k6xma/i-Vy-Healthcare.png?rlkey=31pqajfcu0eq2clzw7uf6g943&st=jbgcczrm&raw=1',
   },
-  'Vũ Trụ Bí Ẩn': {
-    url: 'https://www.youtube.com/@V%C5%A9Tr%E1%BB%A5.B%C3%AD%E1%BA%A8n/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/q2k7fbw0fuze4fs2zx38h/V-Tr-B-n.jpg?rlkey=6py5czq8poox5gizutzlfrv7q&st=jomtyv6y&raw=1',
-  },
-  'Trái Cây Biết Nói': {
-    url: 'https://www.facebook.com/traicaybietnoi/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jil4mkdvkiuvmq0wf9f3u/Tr-i-C-y-Bi-t-N-i.png?rlkey=nsctafamhxk03t3a5yw1fbyr4&st=xpfee7zy&raw=1',
-  },
-  'Tớ Yêu Thiên Văn Học': {
-    url: 'https://www.facebook.com/toyeuthienvanhoc/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/oiiis9zy2k12fgxw7nghu/T-Y-u-Thi-n-V-n-H-c.png?rlkey=kweipxn0rzv9cf133y79z82pe&st=gcoi134j&raw=1',
-  },
-  'Vũ Trụ Quanh Ta': {
-    url: 'https://www.youtube.com/@scienceisaround/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/V-Tr-Quanh-Ta.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=akb28j8q&raw=1',
-  },
-  'Trần My': {
-    url: 'https://www.facebook.com/coba.bentre.33/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/yox4elgdrsyt91bilc3va/Tr-n-My.jpg?rlkey=mn9nz8sh4guidpr6zmsge3i51&st=98c2xff0&raw=1',
-  },
-  'Hồ Sơ Vô Cực': {
-    url: 'https://www.youtube.com/@H%E1%BB%93S%C6%A1V%C3%B4C%E1%BB%B1c/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/H-S-V-C-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=3w2dvt63&raw=1',
-  },
-  '1 Phút Khoa Học': {
-    url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/1lqc62ak5egssjxe8pyax/1-Ph-t-Khoa-H-c.jpg?rlkey=amr5lcq3ismu9j5otk5x4g4xz&st=cz8z4477&raw=1',
-  },
-  'Bạn có biết': {
-    url: 'https://www.youtube.com/@dat.biettuot/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/cs6ghypswaxqxlhihp4kg/B-n-C-Bi-t.jpg?rlkey=tsvrtir39fk7azpdd3lslpqoq&st=4oyuj7kd&raw=1',
-  },
-  'Bạn Biết Chưa': {
-    url: 'https://www.youtube.com/@BanBietChua-d6z/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/bvgb45gmoxmm532wemupl/B-n-Bi-t-Ch-a.jpg?rlkey=573c3f8r8qo0s7ihncon50gki&st=4ezfy8hv&raw=1',
-  },
-  'Đạt Biết Tuốt': {
-    url: 'https://www.facebook.com/bancobietaz/photos_by',
-    thumbnail: 'https://www.dropbox.com/scl/fi/i713a91g6oecnfwxpa0iw/t-Bi-t-Tu-t.png?rlkey=wo35v8t4jkfdgibg15svprr38&st=7c900uou&raw=1',
-  },
-  'Dân Công Sở': {
-    url: 'https://www.facebook.com/SPX.DanCongSo/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/9c595tfsyrlj42hh7fg94/D-n-C-ng-S.jpg?rlkey=sqb4ttbbchox0r0kndfciamyn&st=yrwjava3&raw=1',
-  },
-  'Đình Đề ReView': {
-    url: 'https://www.youtube.com/@dedomreview/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/hcw6bayduy4td75xwaesh/nh-ReView.jpg?rlkey=exl9qp7f6gqfevxatmwcgl1u7&st=42sawntw&raw=1',
-  },
-  'TÒ MÒ': {
-    url: 'https://www.youtube.com/@tomovakhampha/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/3j3xtzo7bmghf6fjmpmi1/T-M.jpg?rlkey=1j6pc33t1mkb14gz2kekjv7z7&st=aeaeo2uu&raw=1',
-  },
-  'Rổ Mẹo': {
-    url: 'https://www.youtube.com/@R%E1%BB%95M%E1%BA%B9o-stmn/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ljb0ko18up4hcgy9g7g6q/R-M-o.jpg?rlkey=2ku6lcuxd0o9m8wipip42fmpy&st=wywla0cv&raw=1',
-  },
-  'Vài Mẹo Hay': {
-    url: 'https://www.youtube.com/@vaimeohay.9/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/9yyggcj6nzjqnd4vtso1e/V-i-M-o-Hay.jpg?rlkey=v3nw4roiqisbth1dm2mzyg1w9&st=v5nj9trj&raw=1',
-  },
-  'Hờ Biển': {
-    url: 'https://www.youtube.com/@hobienstory/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/0w070f9qk5rs98lgzq8nv/H-Bi-n.jpg?rlkey=30f9tkt13rucwu8c1s4pea07b&st=nt8dce60&raw=1',
-  },
-  'Bắp cải non': {
-    url: 'https://www.youtube.com/@bapcainonxanh/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/5kwl6mkhiws4zwhla1zin/B-p-C-i-Non.jpg?rlkey=dn4cq6o61wty5fjb64v9lufbd&st=dphyekyp&raw=1',
-  },
-  'Thế giới động vật': {
-    url: 'https://www.youtube.com/@Phim-hay-3/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/2gkp4s80gh6l3rhmrib6k/Th-gi-i-ng-v-t.jpg?rlkey=w3jyu3eyj7kyzpm03ig7ea2pm&st=d07d3rb2&raw=1',
-  },
-  'CatsDogFunny': {
-    url: 'https://www.youtube.com/@CatsDogFunnny',
-    thumbnail: 'https://www.dropbox.com/scl/fi/5v52zrb8p6bkuglc7m84w/CatsDogFunny.jpg?rlkey=zkzugvir8dch000wvfwxb8xc4&st=zezipwpn&raw=1',
-  },
-  'Thiên nhiên hoang dã': {
-    url: 'https://www.youtube.com/@thiennhienhoangda-vn/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xb5pg69cjv8e249jvpasm/Thi-n-nhi-n-hoang-d.avif?rlkey=dm0ykh6mfz8vmv9e0bt7ko2xz&st=jbnrwugg&raw=1',
-  },
-  'Miền Hoa Sơn': {
-    url: 'https://www.youtube.com/@MienHoaSon/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/f4iwo2jsp7aoi0693yyxe/Mi-n-Hoa-S-n.avif?rlkey=jsothpyq4cqqvbcrkekyqou0w&st=h7csf7eh&raw=1',
-  },
-  'Vườn của Ba': {
-    url: 'https://www.facebook.com/vuoncuabacoi/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/g52yhqbhc7qqgtf3bmcox/V-n-c-a-Ba.jpg?rlkey=kb4djh2igu4q32nigbqyt73w5&st=ia3ef09z&raw=1',
-  },
-  'Chuyện lạ của Trang': {
-    url: 'https://www.facebook.com/chuyenlacuatrang/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/oz4cndjj1fnk69n9wpvq4/Chuy-n-l-c-a-Trang.jpg?rlkey=a3c8vb72wtmh00mi6e64vrgke&st=kmegfwqj&raw=1',
-  },
-  'MC Quang Huy': {
-    url: 'https://www.facebook.com/profile.php?id=61581484430903&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/tblc057on8le9tt4hu6ru/MC-Quang-Huy.jpg?rlkey=0zkq1d26yu1kc2dao9mqvrutx&st=u6ngatxp&raw=1',
-  },
-  'ỚT In4': {
-    url: 'https://www.facebook.com/profile.php?id=61580057953318&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/8s9hhypzs8lk2atnt4xg7/T-In4.jpg?rlkey=7z1biwqpp91d262y9jxpycd19&st=rcmkv0z0&raw=1',
-  },
-  'Bí Ẩn Thế Giới': {
-    url: 'https://www.youtube.com/@bianthegioi19/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/s0mhl93n258ud79olo6m6/B-n-Th-Gi-i.jpg?rlkey=omqinbtj8zyejdfw1jycd8vqd&st=lejnzoq7&raw=1',
-  },
-  'Bí Ẩn Thế Giới Khác': {
-    url: 'https://www.facebook.com/profile.php?id=100090791846406&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/irixstkdgvi3tql1qnxrs/B-n-Th-Gi-i-Kh-c.webp?rlkey=8iw34hqy1eykllzacyfdrg1a3&st=0k5hshff&raw=1',
-  },
-  'Bí Ẩn Tâm Linh': {
-    url: 'https://www.facebook.com/profile.php?id=61555482115414&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/1rmkxo598f9rldagg7jn6/B-n-T-m-Linh.webp?rlkey=q0lkb22gxgp9six4j4v173pts&st=lequknzx&raw=1',
-  },
-  'Độc lạ Bình Dương': {
-    url: 'https://www.facebook.com/doclabinhduong.np/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ud76kenywtos4bvchbb9s/c-L-B-nh-D-ng.png?rlkey=ts92qk29wh4x8xeb7z5xj74u4&st=x32kcdiq&raw=1',
-  },
-  'Ý Hay': {
-    url: 'https://www.youtube.com/@%C3%9DHay-z6r/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/hyl30r8ew9qb09607an9y/Hay.jpg?rlkey=cagzjfczo33nzlka7sq7eijdb&st=ua9c0lxu&raw=1',
-  },
-  'IFact': {
-    url: 'https://www.facebook.com/IQFact/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/98293ku6o8zl45d0x9dmf/IFact.png?rlkey=r2jv3dmk9yspsldn1cnf1iqvk&st=otpd43zx&raw=1',
-  },
-  'Ổ Phim +': {
-    url: 'https://www.facebook.com/onghienphimx/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/tndv4g6jjsidaa6moqcuu/Phim.jpg?rlkey=tooe5gu1pdawo52b8rir6i0hl&st=tk75t8ra&raw=1',
-  },
-  'Cậu Bé Xem Phim': {
-    url: 'https://www.facebook.com/CauBeXemPhimOfficial/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jnq2fjwk5oa5nvioei3fo/C-u-B-Xem-Phim.png?rlkey=ng5ok4kys1sktus5yvj3exi2f&st=1dfn8cbs&raw=1',
-  },
-  'Tứ Đại Tài Tử': {
-    url: 'https://www.facebook.com/tudaitaitu8386/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jxu18oemyrtl1x1rrur9a/T-i-T-i-T.png?rlkey=0u89s1ea44b1qwym78af2pxfn&st=6mayzvj8&raw=1',
-  },
-  'VFC Best Movies': {
-    url: 'https://www.facebook.com/wonderfulnature79/videos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/m74aad4flgym0isn5qw9k/VFC-Best-Movies.jpg?rlkey=rzhtpdlyrdxwn46y34a60jspt&st=o4tv6bwd&raw=1',
-  },
-  'Hữu DuHa': {
-    url: 'https://www.facebook.com/profile.php?id=61583131784963&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/6yoinm1oceibjns37qjuh/H-u-DuHa.jpg?rlkey=io6g0ppgkkmz6rhv7eo7yjrx1&st=asxzb0h4&raw=1',
-  },
-  'Đỗ Nhật Minh  (Minh Pháp Sư)': {
-    url: 'https://www.facebook.com/donhatminh25/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/u545rmvh9fgrzbq4znnim/Nh-t-Minh-Minh-Ph-p-S.png?rlkey=r7p5jxwjk0xh9p48x8bs9ehi6&st=pegt0h3w&raw=1',
-  },
-  'Deep writier': {
-    url: 'https://www.facebook.com/profile.php?id=100072497381829&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/f2vmsrz86uuho1u4ktt7e/Deep-writier.png?rlkey=ha7knjvyccu3jmoa262nr5lmk&st=gw125341&raw=1',
+  'Chill Mỗi Ngày': {
+    url: 'https://www.facebook.com/chillmoingayy/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/364oshgch9kszqoy6p07i/Chill-M-i-Ng-y.jpg?rlkey=2g0wbsoakcfmj6worglsafxo7&st=eb1b3tjr&raw=1',
   },
   'Người Cao Tuổi Radio': {
     url: 'https://www.youtube.com/@NguoiCaoTuoiRadio/shorts/',
@@ -220,5 +72,4 @@ const folderLinks = {
     url: 'https://www.facebook.com/swan.black.370/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nepc0v62qg7tky4f9kp2v/Thanh-t-Skyland-Dolls.jpg?rlkey=zuez4panjga24x9hcyivbngpa&st=523grpzm&raw=1',
   },
-  // thêm các mục khác nếu cần
-};
+  // thêm các mục khác nếu cần};
