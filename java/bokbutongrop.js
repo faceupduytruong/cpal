@@ -63,6 +63,7 @@ function openEpubViewer() {
 let urls = [
     "https://www.facebook.com/tiemsachcuREBO/photos",
     "https://www.facebook.com/nhasachlifebooks/photos",
+    "https://www.facebook.com/BerryBooks.az/photos",
     "https://www.facebook.com/sachunibooks/photos"
 ];
 
