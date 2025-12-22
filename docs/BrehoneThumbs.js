@@ -25,6 +25,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tacathoicuocofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7sghcathlgbxuncfp36ce/TACA-TH-I-CU-C.jpg?rlkey=zu9utwmpyuc3skbrg6vzeysr8&st=mjq1akcs&raw=1',
   },
+  'Nguyễn Huỳnh Lộc': {
+    url: 'https://www.facebook.com/tran.tommy.7334/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/a8l3jocmm7qdbbchcbb61/Nguy-n-Hu-nh-L-c.jpg?rlkey=0n9qezhb6p58lbnluks4c62wa&st=41zpka40&raw=1',
+  },
   'Nguyễn Lê Vương  (Tám tận lương tâm)': {
     url: 'https://www.facebook.com/tran.mi.529840/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/khee895wxuuvmydzbmbem/Nguy-n-L-V-ng-T-m-t-n-l-ng-t-m.jpg?rlkey=0xeb292weetirt4f9s7yyyx1q&st=rqocswz8&raw=1',
