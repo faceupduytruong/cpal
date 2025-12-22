@@ -38,7 +38,7 @@ const folderLinks = {
   },
   'Ý Hay': {
     url: 'https://www.youtube.com/@%C3%9DHay-z6r/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/rf2rbvs1zya4ctkmsdb6g/L-m-p-th-t-th-ch.jpg?rlkey=obcxx6eh1n193dqcjhj83r67s&st=ezqmmb5q&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hyl30r8ew9qb09607an9y/Hay.jpg?rlkey=cagzjfczo33nzlka7sq7eijdb&st=opbqibrz&raw=1',
   },
   'Cogito Hoàng Lê': {
     url: 'https://www.youtube.com/@CogitoHoangLe/shorts/',
