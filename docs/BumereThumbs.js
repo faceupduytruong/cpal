@@ -177,10 +177,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/ThanhCongCungTony/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/w0p1yjas1i2k7zh2x5ovl/Th-nh-C-ng-C-ng-Tony.png?rlkey=o9yoi853l1jr8perarsibsqg5&st=waas5d7g&raw=1',
   },
-  'Dũng Phan': {
-    url: 'https://www.facebook.com/dung.phan.77/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/n25tawauugxzd9hy1skzb/D-ng-Phan.jpg?rlkey=yaqlqjiv2i0ikpxetgwhdja85&st=xjttz85t&raw=1',
-  },
   'Nguyễn Đức Thành': {
     url: 'https://www.facebook.com/nguyenthanh.1005/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/6alti459rh43fxw1brwya/Nguy-n-c-Th-nh.jpg?rlkey=3z18cufge07i71q6sl4iviisg&st=yderzsyr&raw=1',
