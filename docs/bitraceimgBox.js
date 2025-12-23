@@ -179,7 +179,7 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/AGDesign99/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/7krxa8rhq3v7gqw9gjv0h/AGDesign99.png?rlkey=yr5ayv4kj402mkznjz4m9c73r&st=467d4v95&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/tw8jolli4a6su80z3380f/AGDesign99.jpg?rlkey=ochr7tmnmc2eqctyfxc91iyep&st=aeusg1sn&raw=1">
 </div>
         <div class="caption">AGDesign99</div>
       </div>
