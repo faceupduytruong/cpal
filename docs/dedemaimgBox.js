@@ -41,6 +41,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/KHprotech/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/pzq6r9g9qfsoa3iegicu0/KH-Pro-Tech-Institute.jpg?rlkey=grgnu5p9n0ofa3v4i3a8jpiny&st=3tvk4cq4&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">KH Pro-Tech Institute</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://helpx.adobe.com/vn_vi/support.html' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://img.freepik.com/free-vector/graphic-design-workspace-background-with-desk-tools_23-2147788901.jpg?semt=ais_se_enriched&w=740&q=80" alt="Ảnh 1">
 </div>
