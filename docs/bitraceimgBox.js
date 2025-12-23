@@ -178,6 +178,13 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/AGDesign99/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/7krxa8rhq3v7gqw9gjv0h/AGDesign99.png?rlkey=yr5ayv4kj402mkznjz4m9c73r&st=467d4v95&raw=1">
+</div>
+        <div class="caption">AGDesign99</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/@kinhcan86/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/lgjw5uy1yp4at5feapgeg/K-nh-C-n.webp?rlkey=p9nqpf4lqjb02z9phnoxu58o5&st=qtiz5s7o&raw=1">
 </div>
