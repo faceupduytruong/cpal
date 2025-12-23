@@ -42,6 +42,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61557631294837&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/jn3a81xc2u1z4wmxc8v18/Tin-H-c-Official-Office.jpg?rlkey=7254zg8r0nhytc4gtklsdi8qn&st=iv5eqjqg&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tin Học Official (Office)</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/thuthuatexcelchonguoibanron/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/lufu6mprf5pxl9uw12tpq/Th-Thu-t-Excel-Cho-Ng-i-B-n-R-n.png?rlkey=3cd57p117o01omkesk6kccsrb&st=5fmqh7p7&raw=1" alt="Ảnh 1">
 </div>
@@ -54,7 +61,7 @@ container.innerHTML = `
 </div>
         <div class="caption">Gà Excel (Office)</div>
       </div>
-           
+          
 </div>
 
      <!-- Hàng thứ 2 -->
