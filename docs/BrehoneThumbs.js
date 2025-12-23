@@ -33,6 +33,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tran.mi.529840/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/khee895wxuuvmydzbmbem/Nguy-n-L-V-ng-T-m-t-n-l-ng-t-m.jpg?rlkey=0xeb292weetirt4f9s7yyyx1q&st=rqocswz8&raw=1',
   },
+  'Dũng Phan': {
+    url: 'https://www.facebook.com/dung.phan.77/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/n25tawauugxzd9hy1skzb/D-ng-Phan.jpg?rlkey=yaqlqjiv2i0ikpxetgwhdja85&st=xjttz85t&raw=1',
+  },
   'Gone Too Far': {
     url: 'https://www.facebook.com/GoneTooFarShow/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vlt091su9upsgvszm5i8p/Gone-Too-Far.png?rlkey=1ep4ehfecpkc12kpwdap6fgar&st=jyi9lucg&raw=1',
