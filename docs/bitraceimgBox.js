@@ -172,7 +172,7 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/@DanHa-u2q/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/qsu0ouy7osop849838s9a/Bin-Decor.webp?rlkey=ldar94jqxk11q3dmgixrfo457&st=abcwy32h&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/qsu0ouy7osop849838s9a/Bin-Decor.webp?rlkey=ldar94jqxk11q3dmgixrfo457&st=3mwm4oej&raw=1">
 </div>
         <div class="caption">Bin Decor</div>
       </div>
@@ -186,14 +186,14 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/smart.graphicss/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/s2kgwfqpx0ccgq46af2uj/Smart-Graphics-Photoshop-Tutorials.jpg?rlkey=49htbprfa3wg2hz6n9n1fewf4&st=g9ll47lf&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/j4zpij14c6686pbwtx971/Smart-Graphics-Photoshop-Tutorials.webp?rlkey=nxdbr2gxeqiy781rnin3ie4mj&st=xo0qx2jm&raw=1">
 </div>
         <div class="caption">Smart Graphics (Photoshop Tutorials)</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/@kinhcan86/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/lgjw5uy1yp4at5feapgeg/K-nh-C-n.webp?rlkey=p9nqpf4lqjb02z9phnoxu58o5&st=qtiz5s7o&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/p0ry85lkkiq4lcltx8ptn/K-nh-C-n.png?rlkey=tvpliqi5jazf19cekyu1k9es2&st=e2erwrb6&raw=1">
 </div>
         <div class="caption">Kính Cận</div>
       </div>
