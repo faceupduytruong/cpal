@@ -17,9 +17,21 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
+  'Trần Gia Thông - Huấn luyện viên tiếng Anh': {
+    url: 'https://www.facebook.com/TranGiaThong.Coach/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tqiyn285gn5ttxfc2a2t1/Tr-n-Gia-Th-ng-Hu-n-luy-n-vi-n-ti-ng-Anh.jpg?rlkey=av5qfizatk0ui1smqrj8s3ca2&st=z1gnno5l&raw=1'
+  },
   'Oxford English Academy - Vietnam': {
     url: 'https://www.facebook.com/OEA.ENGLISH/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/hrjmhpens9muqypn880iu/Oxford-English-Academy-Vietnam.jpg?rlkey=k2xis3d0iw2zwa9md551ivdci&st=8yz5o30l&raw=1'
+  },
+  'The English Gang': {
+    url: 'https://www.facebook.com/TheEnglishGang.edu/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tuadpmionqiwn25qotsbg/The-English-Gang.png?rlkey=se7owrojcancv9fostmk5konj&st=u665a2g5&raw=1'
+  },
+  'Lớp Tiếng Anh Online Với Giáo Viên Nước Ngoài': {
+    url: 'https://www.facebook.com/tienganhmatgochcm/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ohe8chqpv11mi38f6rvxp/L-p-Ti-ng-Anh-Online-V-i-Gi-o-Vi-n-N-c-Ngo-i.jpg?rlkey=n0n5fqt8jsfc87mxzfo7a0thl&st=64iwbknc&raw=1'
   },
   'Lenas Little Ones': {
     url: 'https://www.facebook.com/profile.php?id=100091609417796&sk=reels_tab',
