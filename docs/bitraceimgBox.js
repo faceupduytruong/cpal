@@ -200,6 +200,18 @@ container.innerHTML = `
     
 </div>
 
+    <!-- Hàng thứ 7 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Tải xuống tài liệu BIM</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://tailieukientruc.net/tailieu/home/index/sort/free/page/36.html' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/yam0stppwrk7gn430cna1/T-i-Li-u-Ki-n-Tr-c.png?rlkey=3ngi078t9ip8ke7y8n0l9en3p&st=mboh2tjg&raw=1">
+</div>
+        <div class="caption">Tài Liệu Kiến Trúc</div>
+      </div>
+          
+</div>
+
 `;
 
 // Thêm vào DOM
