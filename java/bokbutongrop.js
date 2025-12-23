@@ -61,6 +61,7 @@ function openEpubViewer() {
 }
 
 let urls = [
+    "https://shopee.vn/S%C3%A1ch-H%C6%B0%E1%BB%9Bng-Nghi%E1%BB%87p-Ph%C3%A1t-Tri%E1%BB%83n-B%E1%BA%A3n-Th%C3%A2n-cat.11036863.11108503.11108531",
     "https://www.facebook.com/tiemsachcuREBO/photos",
     "https://www.facebook.com/nhasachlifebooks/photos",
     "https://www.facebook.com/BerryBooks.az/photos",
@@ -140,7 +141,6 @@ function openLink(baseUrl) {
   } else if (baseUrl.includes("threads.com")) {
     finalUrl = `https://www.threads.com/search?q=${encodeURIComponent(query)}&serp_type=default`;
   }
-
   window.openRightHalfPopup(finalUrl, 'Popup', window.innerWidth * 2 + 40, 745);
 
 }
