@@ -50,5 +50,7 @@ export const woodSources = [
   "https://assets.mixkit.co/zqy9iff8ru0z7y1uf17th5psz3py",
   "https://assets.mixkit.co/9d5quoocqbij8phj55kmcm34npr0",
   "https://assets.mixkit.co/9vsff2sjfiqfr79lbbgp41j1j2um",
-  "http://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/media/end.d4a6b496.mp4"
+  "http://p3-scmimg.bytescm.com/obj/tos-cn-i-rn3s1tazwm/ies/musician_storm/static/media/end.d4a6b496.mp4",
+  "https://assets.mixkit.co/jfxbe7pglbdkls6esqy3p5her4uj",
+  "https://assets.mixkit.co/bz0o76kh1wqiptx7b1pv23qv8nse"
   ];
