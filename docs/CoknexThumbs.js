@@ -48,6 +48,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1lqc62ak5egssjxe8pyax/1-Ph-t-Khoa-H-c.jpg?rlkey=amr5lcq3ismu9j5otk5x4g4xz&st=cz8z4477&raw=1',
   },
+  'Soi sáng': {
+    url: 'https://www.youtube.com/c/SoiS%C3%A1ngBrightSideVietnamese/videos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/naiwaeddd3amkl727y7bi/Soi-S-ng.jpg?rlkey=31q5r9dlpxi0q0v1yj7ld76n9&st=d07e89ut&raw=1',
+  },
   'Bạn có biết': {
     url: 'https://www.youtube.com/@dat.biettuot/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/cs6ghypswaxqxlhihp4kg/B-n-C-Bi-t.jpg?rlkey=tsvrtir39fk7azpdd3lslpqoq&st=4oyuj7kd&raw=1',
