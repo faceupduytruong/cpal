@@ -18,8 +18,6 @@ container.innerHTML = `
         <div class="caption">Howtogeek (Windows)</div>
       </div>
         
-</div>
-
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://tinhte.vn/windows' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/bfi4ycjqqn144iqysoyu5/Tinh-t-Windows.jpg?rlkey=5h5xpapboyciv9vbt7ssaj86s&st=6obk7lt0&raw=1" alt="Ảnh 1">
