@@ -28,6 +28,34 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@NETVN82/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/96zlutfky9l0re8n5arhz/NETVN.png?rlkey=s78kcvh59rrmx5bx13fm77bfh&st=2nq405an&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">NETVN</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@thinkview/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/2cl4wzvgxqzawwvaa8wo7/ThinkView.png?rlkey=q5fymzp9gjykwjodnikkc2tjm&st=jwscelhd&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">ThinkView</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@duyluandethuong/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/xyt2x6zs170eql8lxuloh/Duy-Lu-n-D-Th-ng.png?rlkey=2cvgcol8vtyhi7oizmg8oc9ej&st=ljrpbj28&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Duy Luân Dễ Thương</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@MicrosoftWindows/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/odd3ajanm5n45vfhfdqxr/Windows.jpg?rlkey=2t59eiihobht0yhbaqbnpr31b&st=26mh4vyz&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Windows</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/795421863881485/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/vw89ashcmvcqvoq2r2owu/T-ng-h-p-c-c-ph-n-m-m-m-y-t-nh.png?rlkey=zwgfhogsj9mromn3qyqckl7q5&st=3z3p777i&raw=1" alt="Ảnh 1">
 </div>
