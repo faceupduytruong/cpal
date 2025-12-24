@@ -10,6 +10,7 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/ez9n4aqk8r3eyk02pnqbj/Qu-n-Tr-M-ng-Windows.png?rlkey=b8f4ljlkvdat2gyqtrxx8tdfk&st=7ihiim50&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quản Trị Mạng (Windows)</div>
+      </div>
 
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.howtogeek.com/category/windows/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
