@@ -49,10 +49,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/tuanxinchao98/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ihaqxjbjzggk8wagghclk/Tu-n-Xin-Ch-o.jpg?rlkey=h7squuu917q6c2b5q6aswoisr&st=dz542g6e&raw=1',
   },
-  'Dám Ước Mơ': {
-    url: 'https://www.facebook.com/info.damuocmo/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/3bffxiwfysp2134s1464k/D-m-c-M.png?rlkey=eqai0o3qiyzfi12hsn7hrkt8t&st=5e4iaaj6&raw=1',
-  },
   'CommCredit Long An -Tín Dụng Tiểu Thương -VPBank Bến Lức': {
     url: 'https://www.facebook.com/Hotline.0908979767/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lwzlxi5972w4otarjzcfj/CommCredit-Long-An-T-n-D-ng-Ti-u-Th-ng-VPBank-B-n-L-c.jpg?rlkey=flovnxtath7uahq231c3jizd2&st=t6df40zm&raw=1',
@@ -88,10 +84,6 @@ const folderLinks = {
   'Thêm Tổng': {
     url: 'https://www.facebook.com/themtong.88/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ruzywrxeghbvhi5ej6jaj/Th-m-T-ng.jpg?rlkey=mfsgl7iv90iu1mty5371oap9x&st=dwybnaz6&raw=1',
-  },
-  'Cao Công Thành': {
-    url: 'https://www.facebook.com/CaoCongThanhOfficial/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/41whnduk9dmm391z8o0br/Cao-C-ng-Th-nh.png?rlkey=uzrt4su0px7smp5a8juaqcdjy&st=e1sjecto&raw=1',
   },
   'Nguyễn Minh Chính  (Vạn Sự Tùy Duyên)': {
     url: 'https://www.facebook.com/chinh.nguyenminh.5074/photos',
