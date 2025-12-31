@@ -205,6 +205,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/854814243254036/media/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lomdjop61as7wb8zesil9/Ti-ng-Anh-Giao-Ti-p-Ti-n-B-T-ng-Ng-y.jpg?rlkey=4yu2elh1hghmdbidkyji7jw57&st=phhx5emv&raw=1',
   },
+  'Sinh Hoạt Tiếng Anh Giao Tiếp': {
+    url: 'https://www.facebook.com/sinhhoattienganh/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/uaslxbpuzoi457c4pc0li/Sinh-Ho-t-Ti-ng-Anh-Giao-Ti-p.png?rlkey=122qwkf1q852gbjt7kpqacgdx&st=ofxbnhe4&raw=1',
+  },
+  'Bella Mac  (Thạc Sĩ Giáo Dục)': {
+    url: 'https://www.facebook.com/studyw.bella/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/98f462x6kb1p44vyj7i9g/Bella-Mac-Th-c-S-Gi-o-D-c.jpg?rlkey=zej5fob35uzx2ns44xhwohd5k&st=ng2lrzjx&raw=1',
+  },
   'Cùng Con Học Tiếng Anh': {
     url: 'https://www.facebook.com/eflitaedu.com12/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/mupox76obnxgvz3g5joi4/C-ng-Con-H-c-Ti-ng-Anh.jpg?rlkey=mef0ihlnhtv9lxw7qlmvks4pk&st=zalyfcb8&raw=1',
