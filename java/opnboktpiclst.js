@@ -81,7 +81,7 @@
             ${suggestions.map(item => `<li>${item}</li>`).join('')}
           </ul>
 
-          <video id="bgVideo" autoplay muted loop playsinline src="https://res.cloudinary.com/dq7c3wdhf/video/upload/f_auto,q_auto/v1760023385/37-2888a17a978fd8825c521110876fbca5-1920x1080_us9e0z.mp4"></video>
+          <video id="bgVideo" autoplay muted loop playsinline src="https://dl.dropboxusercontent.com/scl/fi/o28xqes9a2727k4tn4i8p/37-6dea61fea205369c465532fe9de0b7ce-1920x1080.mp4?rlkey=6v5aqpcs55f3jv25vzd9wdiyt&st=mbqpbdmj&dl=0"></video>
         </body>
       </html>
     `;
