@@ -16,6 +16,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/go7hgrxhqjdlc8twaob54/Google.webp?rlkey=re0z5hmanpo8rp4xts7m24xck&st=riwgh2gl&raw=1'
   },
+  'Bài Học Sống': {
+    url: 'https://www.youtube.com/@baihocsong/videos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vbxphci8dkhdtk9tvml3a/B-i-H-c-S-ng.jpg?rlkey=xc7xv5pjbdb12d4ya67pkyfwk&st=ksl1zznt&raw=1',
+  },
   'Đại Vy Healthcare': {
     url: 'https://www.facebook.com/bsdaivy/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/em3fhuz9ybm5hg89k6xma/i-Vy-Healthcare.png?rlkey=31pqajfcu0eq2clzw7uf6g943&st=jbgcczrm&raw=1',
