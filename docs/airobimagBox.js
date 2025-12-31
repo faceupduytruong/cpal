@@ -894,6 +894,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/363657942789633/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/g3g41uz5svpldopw7mm3t/B-nh-D-n-H-c-AI.jpg?rlkey=kjaf2dgvhrsu1it2fwsno63q7&st=1p0a0vbo&raw=1">
+</div>
+        <div class="caption">Bình Dân Học AI</div>
+      </div>
+
+      <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/ANCAvn1/reels/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/mpt58iobe7k1xn6y1l6ei/n-Ng-C-ng-AI.jpg?rlkey=kwpk8cu72n27xq071ia13invy&st=3sofa82q&raw=1">
 </div>
