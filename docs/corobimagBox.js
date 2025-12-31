@@ -55,6 +55,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/TeamOS.xyz/photos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/f7x2tdakyloidhebsbzxg/Teamos.xyz.png?rlkey=rwwcq7wd54023hbk9qn5hp5st&st=b40ngmt9&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Teamos.xyz</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/795421863881485/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/vw89ashcmvcqvoq2r2owu/T-ng-h-p-c-c-ph-n-m-m-m-y-t-nh.png?rlkey=zwgfhogsj9mromn3qyqckl7q5&st=3z3p777i&raw=1" alt="Ảnh 1">
 </div>
