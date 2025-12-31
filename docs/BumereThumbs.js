@@ -81,14 +81,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/EmilyChungNguyen/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/069vci1z7kgburkva555z/Emily-Chung-Nguyen.png?rlkey=57i5hrkghx5g1huk4p43afywn&st=6aeisyvy&raw=1',
   },
-  'Bền Chí Thành Nhân': {
-    url: 'https://www.facebook.com/profile.php?id=61579175547025&sk=photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/myrz9k1fbsrunltxdnyd4/B-n-Ch-Th-nh-Nh-n.png?rlkey=xdyjz96zt13qaz242mk40gyk7&st=42gz0011&raw=1',
-  },
-  'ĐẠI TƯỚNG QUÂN': {
-    url: 'https://www.facebook.com/profile.php?id=61576922346529&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/bxiq0mn2ufhhcn00ppc6h/I-T-NG-QU-N.jpg?rlkey=ulmrbyq8zbrmzhlxzf2396vw7&st=fjbqlgv8&raw=1',
-  },
   'CO HOI KINH DOANH': {
     url: 'https://www.facebook.com/cafe.kinhdoanh.ek/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/orwuq8fjhyhjsxdxjnxmz/CO-HOI-KINH-DOANH.jpg?rlkey=t1rrpb4x1mcqertkq951p6y77&st=y12np3by&raw=1',
@@ -141,10 +133,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/tonydzung.com.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/pmdrlffld7jkxb8ku9psh/Tony-Dzung.jpg?rlkey=q6u1n2d3nj9un2l4swqlwdsch&st=1vh1sez4&raw=1',
   },
-  'Topmax Academy': {
-    url: 'https://www.facebook.com/TopmaxAcademy1/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/3vrmq0re33kqm1zoiqqm3/Topmax-Academy.jpg?rlkey=v3v3t1b9al89u06fuwhi2efp6&st=6rz9bvrx&raw=1',
-  },
   'KTS Nguyễn Hà Lam': {
     url: 'https://www.facebook.com/KTSNguyenHaLam/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9e3zpelmrsejhraghg3lx/KTS-Nguy-n-H-Lam.png?rlkey=mykhelpskrowbbavj9wvw5o8q&st=jscd7eoj&raw=1',
@@ -152,10 +140,6 @@ const folderLinks = {
   'Anh Fumi': {
     url: 'https://www.facebook.com/anhfumi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0mygky1z85tcvshu1844c/Anh-Fumi.jpg?rlkey=sbeej6k1hy82izx2v9bdazk0p&st=utlvfra7&raw=1',
-  },
-  'Trường doanh nhân HBR': {
-    url: 'https://www.facebook.com/hbr.edu.vn/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/fmd2etqlx7jxf4s7kffsk/Tr-ng-doanh-nh-n-HBR.jpg?rlkey=4ylg37vnru9tg745ulruih14l&st=q89i0xtz&raw=1',
   },
   'Ngô Bá Lục': {
     url: 'https://www.facebook.com/ngoba.luc.3/reels/',
