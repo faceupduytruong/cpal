@@ -25,6 +25,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tacathoicuocofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7sghcathlgbxuncfp36ce/TACA-TH-I-CU-C.jpg?rlkey=zu9utwmpyuc3skbrg6vzeysr8&st=mjq1akcs&raw=1',
   },
+  'Phân tích và Bình luận': {
+    url: 'https://www.youtube.com/@tinptbl/videos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2ibpih3d5huoqrmstoo3c/Ph-n-t-ch-v-B-nh-lu-n.jpg?rlkey=t9o4eay6it706vh81exbkcoln&st=iidl3uu8&raw=1',
+  },
   'Nguyễn Huỳnh Lộc': {
     url: 'https://www.facebook.com/tran.tommy.7334/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/a8l3jocmm7qdbbchcbb61/Nguy-n-Hu-nh-L-c.jpg?rlkey=0n9qezhb6p58lbnluks4c62wa&st=41zpka40&raw=1',
