@@ -17,6 +17,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
+  'Disney Vietsub': {
+    url: 'https://www.facebook.com/profile.php?id=100076216793607&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rqdh5ubphgnrvoia2ng80/Disney-Vietsub.jpg?rlkey=04hsq6g2rwq9xtf4ucw6wmf5n&st=d4b45ezk&raw=1'
+  },
   'Trần Gia Thông - Huấn luyện viên tiếng Anh': {
     url: 'https://www.facebook.com/TranGiaThong.Coach/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/tqiyn285gn5ttxfc2a2t1/Tr-n-Gia-Th-ng-Hu-n-luy-n-vi-n-ti-ng-Anh.jpg?rlkey=av5qfizatk0ui1smqrj8s3ca2&st=z1gnno5l&raw=1'
