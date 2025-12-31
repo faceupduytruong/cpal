@@ -37,6 +37,18 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/phattrienbanthanlientuc/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/ees17ngvzumv0et65mthw/Ph-t-tri-n-B-n-Th-n-Li-n-T-c.jpg?rlkey=pea6pdt5hhztlnljopdcox13r&st=h1gmdwbm&raw=1',
   },
+  'Trường doanh nhân HBR': {
+    url: 'https://www.facebook.com/hbr.edu.vn/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fmd2etqlx7jxf4s7kffsk/Tr-ng-doanh-nh-n-HBR.jpg?rlkey=4ylg37vnru9tg745ulruih14l&st=q89i0xtz&raw=1',
+  },
+  'Bền Chí Thành Nhân': {
+    url: 'https://www.facebook.com/profile.php?id=61579175547025&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/myrz9k1fbsrunltxdnyd4/B-n-Ch-Th-nh-Nh-n.png?rlkey=xdyjz96zt13qaz242mk40gyk7&st=42gz0011&raw=1',
+  },
+  'ĐẠI TƯỚNG QUÂN': {
+    url: 'https://www.facebook.com/profile.php?id=61576922346529&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/bxiq0mn2ufhhcn00ppc6h/I-T-NG-QU-N.jpg?rlkey=ulmrbyq8zbrmzhlxzf2396vw7&st=fjbqlgv8&raw=1',
+  },
   'Trạm học NÓI': {
     url: 'https://www.facebook.com/TramhocNOI/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nz1uy23n0lgvh0o6ttffx/Tr-m-h-c-N-I.png?rlkey=z61pu0doxsixrnls7t6o0pn0h&st=wn00gwlx&raw=1',
