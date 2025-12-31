@@ -33,6 +33,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/trochuyenvoituonglai/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/eap3o0v3b3o8ypxr3zr9e/Tr-chuy-n-v-i-T-ng-Lai.jpg?rlkey=j6i91048e6oevxm8wqv103zap&st=8bnuu7rp&raw=1',
   },
+  'Phát triển Bản Thân Liên Tục': {
+    url: 'https://www.facebook.com/groups/phattrienbanthanlientuc/media',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ees17ngvzumv0et65mthw/Ph-t-tri-n-B-n-Th-n-Li-n-T-c.jpg?rlkey=pea6pdt5hhztlnljopdcox13r&st=h1gmdwbm&raw=1',
+  },
   'Trạm học NÓI': {
     url: 'https://www.facebook.com/TramhocNOI/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nz1uy23n0lgvh0o6ttffx/Tr-m-h-c-N-I.png?rlkey=z61pu0doxsixrnls7t6o0pn0h&st=wn00gwlx&raw=1',
