@@ -81,10 +81,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/EmilyChungNguyen/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/069vci1z7kgburkva555z/Emily-Chung-Nguyen.png?rlkey=57i5hrkghx5g1huk4p43afywn&st=6aeisyvy&raw=1',
   },
-  'Phát triển Bản Thân Liên Tục': {
-    url: 'https://www.facebook.com/groups/phattrienbanthanlientuc/media',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ees17ngvzumv0et65mthw/Ph-t-tri-n-B-n-Th-n-Li-n-T-c.jpg?rlkey=pea6pdt5hhztlnljopdcox13r&st=h1gmdwbm&raw=1',
-  },
   'Bền Chí Thành Nhân': {
     url: 'https://www.facebook.com/profile.php?id=61579175547025&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/myrz9k1fbsrunltxdnyd4/B-n-Ch-Th-nh-Nh-n.png?rlkey=xdyjz96zt13qaz242mk40gyk7&st=42gz0011&raw=1',
