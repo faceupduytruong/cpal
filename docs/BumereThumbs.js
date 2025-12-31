@@ -17,10 +17,6 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
   },
-  'Phở Đặc Biệt': {
-    url: 'https://www.facebook.com/phodacbiet.tv/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/5igfepfbuqobhx7wvcee6/Ph-c-Bi-t.png?rlkey=31gtjsvisyqoe92bqfzbwqozl&st=mrjyroy8&raw=1',
-  },
   'Tu Thân Tự Cường': {
     url: 'https://www.facebook.com/profile.php?id=61584242907915&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/n8l9ll644hpy8olw6jbvu/Tu-Th-n-T-C-ng.jpg?rlkey=7vu15jp55ipbknjicg3nuw2xd&st=gxbap4p7&raw=1',
