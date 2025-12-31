@@ -49,6 +49,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61576922346529&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/bxiq0mn2ufhhcn00ppc6h/I-T-NG-QU-N.jpg?rlkey=ulmrbyq8zbrmzhlxzf2396vw7&st=fjbqlgv8&raw=1',
   },
+  'Dám Ước Mơ': {
+    url: 'https://www.facebook.com/info.damuocmo/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3bffxiwfysp2134s1464k/D-m-c-M.png?rlkey=eqai0o3qiyzfi12hsn7hrkt8t&st=5e4iaaj6&raw=1',
+  },
+  'Cao Công Thành': {
+    url: 'https://www.facebook.com/CaoCongThanhOfficial/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/41whnduk9dmm391z8o0br/Cao-C-ng-Th-nh.png?rlkey=uzrt4su0px7smp5a8juaqcdjy&st=e1sjecto&raw=1',
+  },
   'Trạm học NÓI': {
     url: 'https://www.facebook.com/TramhocNOI/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nz1uy23n0lgvh0o6ttffx/Tr-m-h-c-N-I.png?rlkey=z61pu0doxsixrnls7t6o0pn0h&st=wn00gwlx&raw=1',
