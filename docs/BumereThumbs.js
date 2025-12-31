@@ -25,6 +25,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tuyendungxaydungchatluongcao/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/67k7jzpzghohv5z63yc43/Tuy-n-d-ng-x-y-d-ng-ch-t-l-ng-cao.png?rlkey=s4mjfzk0dmalg45z3j2zucmmx&st=frpyoshm&raw=1',
   },
+  'Trò chuyện với Tương Lai': {
+    url: 'https://www.facebook.com/trochuyenvoituonglai/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/eap3o0v3b3o8ypxr3zr9e/Tr-chuy-n-v-i-T-ng-Lai.jpg?rlkey=j6i91048e6oevxm8wqv103zap&st=8bnuu7rp&raw=1',
+  },
   'Phở Đặc Biệt': {
     url: 'https://www.facebook.com/phodacbiet.tv/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5igfepfbuqobhx7wvcee6/Ph-c-Bi-t.png?rlkey=31gtjsvisyqoe92bqfzbwqozl&st=mrjyroy8&raw=1',
@@ -68,6 +72,10 @@ const folderLinks = {
   'CommCredit Long An -Tín Dụng Tiểu Thương -VPBank Bến Lức': {
     url: 'https://www.facebook.com/Hotline.0908979767/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lwzlxi5972w4otarjzcfj/CommCredit-Long-An-T-n-D-ng-Ti-u-Th-ng-VPBank-B-n-L-c.jpg?rlkey=flovnxtath7uahq231c3jizd2&st=t6df40zm&raw=1',
+  },
+  'Nguyễn Văn Huân': {
+    url: 'https://www.facebook.com/huanyoutube/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9fz9weve0j7nfaznvoxx5/Nguy-n-V-n-Hu-n.png?rlkey=h8m474wvj58p2dj53xm04yp3x&st=citl22ov&raw=1',
   },
   'Topmax Academy': {
     url: 'https://www.facebook.com/TopmaxAcademy1/photos/',
