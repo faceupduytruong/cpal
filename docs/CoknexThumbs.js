@@ -104,6 +104,18 @@ const folderLinks = {
     url: 'https://www.youtube.com/@thiennhienhoangda-vn/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xb5pg69cjv8e249jvpasm/Thi-n-nhi-n-hoang-d.avif?rlkey=dm0ykh6mfz8vmv9e0bt7ko2xz&st=jbnrwugg&raw=1',
   },
+  'Cáo Láo Nháo JEB': {
+    url: 'https://www.youtube.com/@CAOLAONHAOJEB/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/d4hkjmuoucgr3dojch42p/C-o-L-o-Nh-o-JEB.jpg?rlkey=1hdw6jz0yvwbwj27gmp4z01of&st=u5at9bo3&raw=1',
+  },
+  'Học hỏi thêm': {
+    url: 'https://www.youtube.com/@hochoithem/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/sds37pzk1u2nci70theit/H-c-h-i-th-m.jpg?rlkey=qflodeh6bq7arscoyqavniv2d&st=48o3gy7s&raw=1',
+  },
+  'LAQUALA TV': {
+    url: 'https://www.youtube.com/@laqualatv/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nstka2rgdw9thvy46zirm/LAQUALA-TV.avif?rlkey=5zde8dqlt5l0nps591jj7qwrs&st=39417lcv&raw=1',
+  },
   'Miền Hoa Sơn': {
     url: 'https://www.youtube.com/@MienHoaSon/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/f4iwo2jsp7aoi0693yyxe/Mi-n-Hoa-S-n.avif?rlkey=jsothpyq4cqqvbcrkekyqou0w&st=h7csf7eh&raw=1',
