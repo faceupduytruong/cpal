@@ -25,6 +25,22 @@ const folderLinks = {
     url: 'https://www.facebook.com/TranGiaThong.Coach/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/tqiyn285gn5ttxfc2a2t1/Tr-n-Gia-Th-ng-Hu-n-luy-n-vi-n-ti-ng-Anh.jpg?rlkey=av5qfizatk0ui1smqrj8s3ca2&st=z1gnno5l&raw=1'
   },
+  'A+ English': {
+    url: 'https://www.tiktok.com/@aplusenglish.edu.vn?fbclid=IwY2xjawPDFtVleHRuA2FlbQIxMABicmlkETFwWUhPUzZWZ0hZeUpnVDRLc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHnYNU3zmCSGJXlWqLFU7FQ6C5IBqbkSA2rWNKCPQZJcdqnEPW4-7TsbnKXVY_aem_iqQT0rPfs3CUKusxShcrdg',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9xvbb7soo5qhxzm9xnjru/A-English.png?rlkey=4erqj5kndu4fsk9dsz0ilbeaw&st=d6ci8b5a&raw=1'
+  },
+  'Dustin Duc Nguyen': {
+    url: 'https://www.facebook.com/dustinducng/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4upcxc99s5559nq3b6ukx/Dustin-Duc-Nguyen.jpg?rlkey=9f9wedz82qxpm98b0kz9x3eqk&st=6u03g5x7&raw=1'
+  },
+  'Tiếng Anh Siêu Dễ': {
+    url: 'https://www.facebook.com/vetco.edu.vn/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fggn32n0n14yctyzddxhk/Ti-ng-Anh-Si-u-D.jpg?rlkey=8x8ihuurqrnm8p2thoekihwm5&st=g3r6mk8i&raw=1'
+  },
+  'B English': {
+    url: 'https://www.facebook.com/Benglishofficial/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ykrzuww2t4odmjdtmfcx6/B-English.jpg?rlkey=py7phtk2jahw4bdw6amqaisco&st=rlns5pn4&raw=1'
+  },
   'Oxford English Academy - Vietnam': {
     url: 'https://www.facebook.com/OEA.ENGLISH/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/hrjmhpens9muqypn880iu/Oxford-English-Academy-Vietnam.jpg?rlkey=k2xis3d0iw2zwa9md551ivdci&st=8yz5o30l&raw=1'
@@ -212,6 +228,10 @@ const folderLinks = {
   'Sinh Hoạt Tiếng Anh Giao Tiếp': {
     url: 'https://www.facebook.com/sinhhoattienganh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uaslxbpuzoi457c4pc0li/Sinh-Ho-t-Ti-ng-Anh-Giao-Ti-p.png?rlkey=122qwkf1q852gbjt7kpqacgdx&st=ofxbnhe4&raw=1',
+  },
+  'Học Online Tiếng Anh  (Sang Nguyễn Online)': {
+    url: 'https://www.facebook.com/tasaonline/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/w58ufqhkp8kqfpmlcel2t/H-c-Online-Ti-ng-Anh-Sang-Nguy-n-Online.png?rlkey=dz3a1cos2fxsb3ovy4n10fk74&st=vquze7we&raw=1',
   },
   'Bella Mac  (Thạc Sĩ Giáo Dục)': {
     url: 'https://www.facebook.com/studyw.bella/reels/',
