@@ -26,16 +26,16 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/tqiyn285gn5ttxfc2a2t1/Tr-n-Gia-Th-ng-Hu-n-luy-n-vi-n-ti-ng-Anh.jpg?rlkey=av5qfizatk0ui1smqrj8s3ca2&st=z1gnno5l&raw=1'
   },
   'A+ English': {
-    url: 'https://www.tiktok.com/@aplusenglish.edu.vn?fbclid=IwY2xjawPDFtVleHRuA2FlbQIxMABicmlkETFwWUhPUzZWZ0hZeUpnVDRLc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHnYNU3zmCSGJXlWqLFU7FQ6C5IBqbkSA2rWNKCPQZJcdqnEPW4-7TsbnKXVY_aem_iqQT0rPfs3CUKusxShcrdg',
+    url: 'https://www.tiktok.com/@aplusenglish.edu.vn/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9xvbb7soo5qhxzm9xnjru/A-English.png?rlkey=4erqj5kndu4fsk9dsz0ilbeaw&st=d6ci8b5a&raw=1'
   },
   'Dustin Duc Nguyen': {
     url: 'https://www.facebook.com/dustinducng/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4upcxc99s5559nq3b6ukx/Dustin-Duc-Nguyen.jpg?rlkey=9f9wedz82qxpm98b0kz9x3eqk&st=6u03g5x7&raw=1'
   },
-  'Tiếng Anh Siêu Dễ': {
+  'English Siêu Dễ': {
     url: 'https://www.facebook.com/vetco.edu.vn/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/fggn32n0n14yctyzddxhk/Ti-ng-Anh-Si-u-D.jpg?rlkey=8x8ihuurqrnm8p2thoekihwm5&st=petmfclj&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/fggn32n0n14yctyzddxhk/Ti-ng-Anh-Si-u-D.jpg?rlkey=8x8ihuurqrnm8p2thoekihwm5&st=nj1ipxha&raw=1'
   },
   'B English': {
     url: 'https://www.facebook.com/Benglishofficial/reels/',
