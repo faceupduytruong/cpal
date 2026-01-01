@@ -418,7 +418,7 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/TechDecorOfficial/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61584600707805&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/rp7l5i9sziinkpzkdjptd/Kho-Gia-D-ng-Online.png?rlkey=ykmsk8e7giczius1zovx27p4t&st=y7j4tt9i&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Kho Gia Dụng Online</div>
