@@ -25,7 +25,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/TranGiaThong.Coach/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/tqiyn285gn5ttxfc2a2t1/Tr-n-Gia-Th-ng-Hu-n-luy-n-vi-n-ti-ng-Anh.jpg?rlkey=av5qfizatk0ui1smqrj8s3ca2&st=z1gnno5l&raw=1'
   },
-  'A+ English': {
+  'A+ English Tiktok': {
     url: 'https://www.tiktok.com/@aplusenglish.edu.vn/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9xvbb7soo5qhxzm9xnjru/A-English.png?rlkey=4erqj5kndu4fsk9dsz0ilbeaw&st=d6ci8b5a&raw=1'
   },
