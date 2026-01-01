@@ -400,6 +400,39 @@ container.innerHTML = `
       
 </div>
 
+     <!-- Hàng thứ 5 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Smart Tech Toys</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61581631336524&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/gsupges7sq2eao1bpdo58/C-ng-Ngh-Cu-c-S-ng.webp?rlkey=j10kyy693e7iwqlowh6rghnzc&st=r06wooyw&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Công Nghệ & Cuộc Sống</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/TechDecorOfficial/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/jvgult0093jw8de8h5hvf/Tech-Decor.png?rlkey=fzcldq6d38n6o2c7b7mx1bu5q&st=i7tksks3&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tech Decor</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/TechDecorOfficial/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/rp7l5i9sziinkpzkdjptd/Kho-Gia-D-ng-Online.png?rlkey=ykmsk8e7giczius1zovx27p4t&st=nd9a32l5&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Kho Gia Dụng Online</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61567477717881&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ucj088ega4fkzzm7cgyox/Decor-Nh-Xinh.png?rlkey=jg3deg7x61aw7wv11r3oqebjs&st=87ts3th9&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Decor Nhà Xinh</div>
+      </div>
+
+</div>
+
 `;
 
 // Thêm vào DOM
