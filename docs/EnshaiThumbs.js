@@ -35,7 +35,7 @@ const folderLinks = {
   },
   'Tiếng Anh Siêu Dễ': {
     url: 'https://www.facebook.com/vetco.edu.vn/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/fggn32n0n14yctyzddxhk/Ti-ng-Anh-Si-u-D.jpg?rlkey=8x8ihuurqrnm8p2thoekihwm5&st=g3r6mk8i&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/fggn32n0n14yctyzddxhk/Ti-ng-Anh-Si-u-D.jpg?rlkey=8x8ihuurqrnm8p2thoekihwm5&st=petmfclj&raw=1'
   },
   'B English': {
     url: 'https://www.facebook.com/Benglishofficial/reels/',
