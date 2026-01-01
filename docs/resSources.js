@@ -272,6 +272,13 @@ export const resSources = [
   "https://dl.dropboxusercontent.com/scl/fi/94t9ig5608kqhwr5lfukf/37-fd558be46c45d13bba18763b5231de41-1920x1080.mp4?rlkey=vrf7uf9obuna6e123vufzhp08&st=rx02p3rl&dl=0",
   "https://dl.dropboxusercontent.com/scl/fi/2p1k0r12rrfmmlpbblbg5/37-fe146feb9564c96cdbc3524fbe1dc5e9-1920x1080.mp4?rlkey=d7njaw1wlmd9s4njn6etb8s46&st=9wtr6lxa&dl=0",
   "https://dl.dropboxusercontent.com/scl/fi/ininnh4yv3pcfmf5zt9uv/37-ff7fe84b48e8dad145be4d96a6b1155b-1920x1080.mp4?rlkey=67ha6ebcktwynd637obpttg7s&st=bmxm6qxb&dl=0",
-  "https://dl.dropboxusercontent.com/scl/fi/7x819dkyv80qdtum5px4k/37-ff8563b09d17862499f424a5d41ac40e-1920x1080.mp4?rlkey=vwgpqbvdhtvj8xoyja1blorvd&st=g1b34436&dl=0"
+  "https://dl.dropboxusercontent.com/scl/fi/7x819dkyv80qdtum5px4k/37-ff8563b09d17862499f424a5d41ac40e-1920x1080.mp4?rlkey=vwgpqbvdhtvj8xoyja1blorvd&st=g1b34436&dl=0",
+
+  // Relax Aquatirum
+  "https://dl.dropboxusercontent.com/scl/fi/rv570mb6x16m74uvgt6iv/37-0bea56eb9f7b77bcc83b81f083cde2e9-1920x1080.mp4?rlkey=me50ylprtu40l6hvifxclh815&st=wyui3em4&dl=0",
+  "https://dl.dropboxusercontent.com/scl/fi/7cz9w9au872hvkq7henrl/37-0c40e4e920d9bb95ba48ba247864f147-1920x1080.mp4?rlkey=hndmpq8o2unv6fpknfs820mil&st=fradr2bj&dl=0",
+  "https://dl.dropboxusercontent.com/scl/fi/ql6lkx6929v52u5wgkhr3/37-0fc453aea4e0e8ec9e05d170ed4b105f-1920x1080.mp4?rlkey=a8eu8eu1uh1pfx2kwy3canr6c&st=3h5fp6by&dl=0",
+  "https://dl.dropboxusercontent.com/scl/fi/s5lrrccwatmcw4s0upwfr/37-3a8dd595b1f31076f3bbfe89ccd7b554-1920x1080.mp4?rlkey=jhkoonanj4zyl5cb4jfvoy9p0&st=gugbk5q0&dl=0",
+  "https://dl.dropboxusercontent.com/scl/fi/wmidsb9d7sy40c93oa0j9/37-3ad7ea42a4294a6a171f25dd79a9411e-1920x1080.mp4?rlkey=s14walsqbk4opafuydo9jod9s&st=ig29d88t&dl=0"
   
 ];
