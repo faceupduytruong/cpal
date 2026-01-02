@@ -466,6 +466,20 @@ container.innerHTML = `
         <div class="caption">Yeah2 Review</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/c.storeeee/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/t60tc2cd6iamnbu8w9g3h/C-Store.webp?rlkey=m50pcrkf9abanr3q9zblj3mb8&st=60hy1lpy&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">C-Store</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61582495706290&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/xucib27zschbdkqo9t53i/Anh-Giai-Tri-Th-c.png?rlkey=164pq9bdascg0rvlr6zm2g8t7&st=nfi7vpys&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Anh Giai Tri Thức</div>
+      </div>
+
 </div>
 
 `;
