@@ -431,6 +431,27 @@ container.innerHTML = `
         <div class="caption">Decor Nhà Xinh</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61580896103361&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/8kzi4vuszipfqfr7yjis3/S-n-Deal-Gi-S-c.webp?rlkey=rbs4nsmcbmk82owpiyiwvwxj2&st=59hwj53h&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Săn Deal Giá Sốc</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61555826375309&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/upc1hnl6gqwjhh5j99rts/T-ng-kho-Gia-d-ng-VN.png?rlkey=dgp0z7eo3tfv39c0zhzku5hth&st=tq87ihhy&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tổng kho Gia dụng VN</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/renhucholuon/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/h4a002r7jts4443ee9bak/R-Nh-Cho.png?rlkey=vafu8dh9p58vrp9bg0w4dn3ag&st=jikcccu2&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Rẻ Như Cho</div>
+      </div>
+
 </div>
 
 `;
