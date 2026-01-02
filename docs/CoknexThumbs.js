@@ -28,21 +28,21 @@ const folderLinks = {
     url: 'https://www.facebook.com/traicaybietnoi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jil4mkdvkiuvmq0wf9f3u/Tr-i-C-y-Bi-t-N-i.png?rlkey=nsctafamhxk03t3a5yw1fbyr4&st=xpfee7zy&raw=1',
   },
-  'Tớ Yêu Thiên Văn Học': {
-    url: 'https://www.facebook.com/toyeuthienvanhoc/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/oiiis9zy2k12fgxw7nghu/T-Y-u-Thi-n-V-n-H-c.png?rlkey=kweipxn0rzv9cf133y79z82pe&st=gcoi134j&raw=1',
+  'Trần My': {
+    url: 'https://www.facebook.com/coba.bentre.33/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yox4elgdrsyt91bilc3va/Tr-n-My.jpg?rlkey=mn9nz8sh4guidpr6zmsge3i51&st=98c2xff0&raw=1',
   },
   'Vũ Trụ Quanh Ta': {
     url: 'https://www.youtube.com/@scienceisaround/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/V-Tr-Quanh-Ta.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=akb28j8q&raw=1',
   },
-  'Trần My': {
-    url: 'https://www.facebook.com/coba.bentre.33/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/yox4elgdrsyt91bilc3va/Tr-n-My.jpg?rlkey=mn9nz8sh4guidpr6zmsge3i51&st=98c2xff0&raw=1',
-  },
   'Hồ Sơ Vô Cực': {
     url: 'https://www.youtube.com/@H%E1%BB%93S%C6%A1V%C3%B4C%E1%BB%B1c/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/H-S-V-C-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=3w2dvt63&raw=1',
+  },
+  'Tớ Yêu Thiên Văn Học': {
+    url: 'https://www.facebook.com/toyeuthienvanhoc/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yx2bywgilron2f70p32fu/T-Y-u-Thi-n-V-n-H-c.avif?rlkey=91sni64q4vswejjrgqeebpog4&st=wdri4v24&raw=1',
   },
   '1 Phút Khoa Học': {
     url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
@@ -67,6 +67,10 @@ const folderLinks = {
   'Dân Công Sở': {
     url: 'https://www.facebook.com/SPX.DanCongSo/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9c595tfsyrlj42hh7fg94/D-n-C-ng-S.jpg?rlkey=sqb4ttbbchox0r0kndfciamyn&st=yrwjava3&raw=1',
+  },
+  'Handy Zhong': {
+    url: 'https://www.facebook.com/HandyZhongOfficial/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3ebviagrcxold34uz5hrn/Handy-Zhong.jpg?rlkey=ibaozpaomel04wp6yqeuznhsy&st=2fhwi2s7&raw=1',
   },
   'Đình Đề ReView': {
     url: 'https://www.youtube.com/@dedomreview/shorts/',
