@@ -433,7 +433,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61580896103361&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/8kzi4vuszipfqfr7yjis3/S-n-Deal-Gi-S-c.webp?rlkey=rbs4nsmcbmk82owpiyiwvwxj2&st=59hwj53h&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/qr1x7smtuo29q9zfdkgab/S-n-Deal-Gi-S-c.png?rlkey=arw7bveje0vq9mh2g7ujedppr&st=om96qf9s&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Săn Deal Giá Sốc</div>
       </div>
