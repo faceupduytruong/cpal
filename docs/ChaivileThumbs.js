@@ -37,5 +37,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61563355705752&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/p57rkvpnpd8rwjiqtaghe/H-c-Ti-ng-Trung-M-i-Ng-y.jpg?rlkey=hlr73i8r08bf98md6a0qnkqgq&st=dp3ave3f&raw=1'
   },
+  'ChineseRd - Tiếng Trung Trực Tuyến Tại Nhà': {
+    url: 'https://www.facebook.com/TiengTrungGiaoTiepTrucTuyen/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8xqorca93zn4wclbys21b/ChineseRd-Ti-ng-Trung-Tr-c-Tuy-n-T-i-Nh.jpg?rlkey=uxwcyp5ycqnk2knwp6wctuv0l&st=dtd233la&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
