@@ -25,6 +25,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tacathoicuocofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7sghcathlgbxuncfp36ce/TACA-TH-I-CU-C.jpg?rlkey=zu9utwmpyuc3skbrg6vzeysr8&st=mjq1akcs&raw=1',
   },
+  'TACA - KỲ ÁN': {
+    url: 'https://www.facebook.com/tacakyan/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8q77h4uahrb47lq0jlf2b/TACA-K-N.jpg?rlkey=5sv8fbfqbdea37v0ilk7qcd0l&st=0pcmyu6v&raw=1',
+  },
   'TCT - KHÁM PHÁ': {
     url: 'https://www.facebook.com/profile.php?id=100076602063744&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/3d08tq66kops0vw0b0n9v/TCT-KH-M-PH.jpg?rlkey=dr9hpdg7omzq9t1z5z2vgdi6g&st=ovn2fjfx&raw=1',
