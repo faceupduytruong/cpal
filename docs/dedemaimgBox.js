@@ -7,37 +7,44 @@ container.innerHTML = `
     <h2 class="row-title">Photoshop</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://elements.envato.com/learn/c/design/add-ons/tutorials' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://img.freepik.com/free-vector/graphic-designer-desk-with-different-objects_23-2148520373.jpg?semt=ais_hybrid&w=740&q=80" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/xy2a93skf4crgulgf9ucg/Design-Tutorials.avif?rlkey=157uw2uarhzmfqhkhfskwd5kp&st=0wf4et8p&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Design Tutorials</div>
       </div>
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://fptshop.com.vn/tin-tuc/tags/photoshop' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://img.freepik.com/premium-vector/design-elements-set_23-2147532819.jpg" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/991vfivq7rt7seej6p5ks/Fptshop.jpg?rlkey=byppgmg44we0ftttwurfh1vlg&st=dxeouzrf&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Fptshop</div>
       </div>
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://forum.vietdesigner.net/forums/photoshop-tutorials/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://cdn-1.webcatalog.io/catalog/adobe-photoshop-express/adobe-photoshop-express-icon-filled-256.png?v=1761526525516" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/x5po6f4ry11aw70dywsf1/Vietdesigner.png?rlkey=qzxa6z07y49s7gm3ji8irrh2e&st=a4uq9vzx&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Vietdesigner</div>
       </div>
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.thegioididong.com/game-app/cach-khoi-phuc-cai-dat-goc-reset-photoshop-ve-mac-dinh-chi-1330343' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://img.freepik.com/free-vector/graphic-design-workspace-background-flat-style_23-2147799327.jpg?semt=ais_hybrid&w=740&q=80" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/nwc0i0gd9zamz01hwqlqu/Thegioididong.avif?rlkey=x2oq6100mhoj62oyxce8rb62z&st=y14f6xft&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Thegioididong</div>
       </div>
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/photoshop' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/04/84/2b/04842bc7-58b9-18a0-be30-44cf2a1e6f32/AppIcon-FreeIPAD-0-0-1x_U007emarketing-0-0-5-0-85-220.png/256x256bb.jpg" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/94ixfdutpntbb8e9l4be9/Quantrimang-Photoshop.jpg?rlkey=7q9v2vnsfpfndf7ak0x7zi1lt&st=2ewv0upf&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quantrimang (Photoshop)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61551730992154&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/lyhn5qfxtstz9tpapekao/TVK-MEDIA.png?rlkey=7b1ldsnjw76e54b061gwomat5&st=znqh145g&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">TVK MEDIA</div>
       </div>
 
       <div class="image-box">
@@ -49,7 +56,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://helpx.adobe.com/vn_vi/support.html' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://img.freepik.com/free-vector/graphic-design-workspace-background-with-desk-tools_23-2147788901.jpg?semt=ais_se_enriched&w=740&q=80" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/yuynl1ug5t4utg5f97qde/Adobe-Help.avif?rlkey=c6kjvmeidb5pkogs1sdop1kuy&st=xoaj36gm&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Adobe Help</div>
       </div>
@@ -62,14 +69,14 @@ container.innerHTML = `
     <h2 class="row-title">GIMP</h2>
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.gimp.org/tutorials/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://static.macupdate.com/products/14597/l/gimp-logo.png?v=1670261112">
+          <img src="https://www.dropbox.com/scl/fi/tkgobhqp2wry19oiyz55r/Gimp-Tutorials.png?rlkey=0bwua811rwss0yd0f74wli3ap&st=66cduxk4&raw=1">
 </div>
         <div class="caption">Gimp Tutorials</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.gimp.org/tutorials/legacy/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://files.softicons.com/download/system-icons/crystal-project-icons-by-everaldo-coelho/png/256x256/apps/gimp.png">
+          <img src="https://www.dropbox.com/scl/fi/oab7otzyf0r45j8t7v7qy/Gimp-Tutorials-Legacy.png?rlkey=zum87b9ahl6pgo44jzu2e1omf&st=zzurt8w5&raw=1">
 </div>
         <div class="caption">Gimp Tutorials Legacy</div>
       </div>
@@ -81,7 +88,7 @@ container.innerHTML = `
     <h2 class="row-title">Photo Editor Applications</h2>
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://pixlr.com/express/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://fahimai.com/wp-content/uploads/2025/06/Pixlr-CTA.png">
+          <img src="https://www.dropbox.com/scl/fi/b9o4cpmbzm2xieqr8nxwg/Pixlr.webp?rlkey=ltv5qnzeqtbwsbegaokm530w8&st=my202n8i&raw=1">
 </div>
         <div class="caption">Pixlr</div>
       </div>
