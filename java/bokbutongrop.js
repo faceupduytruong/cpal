@@ -69,7 +69,8 @@ let urls = [
     "https://www.facebook.com/sachunibooks/photos",
     "https://www.facebook.com/READbooks.vn/photos",
     "https://www.facebook.com/tusachsongkhac/photos",
-    "https://www.facebook.com/trepublishinghouse/photos",
+    "https://www.facebook.com/thaiha2206/photos",
+    "https://www.facebook.com/trepublishinghouse/photos"
 ];
 
 let currentIndex = 0; // bắt đầu từ phần tử đầu tiên
