@@ -411,6 +411,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61562074662333&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/hdzgwysz42hmy7nizoty5/G-c-Chill.webp?rlkey=7ba7crhw8rrit86ee46uqjnbx&st=5xry9nmo&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Góc Chill</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/TechDecorOfficial/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/jvgult0093jw8de8h5hvf/Tech-Decor.png?rlkey=fzcldq6d38n6o2c7b7mx1bu5q&st=ghekwhgi&raw=1" alt="Ảnh 1">
 </div>
@@ -450,6 +457,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/h4a002r7jts4443ee9bak/R-Nh-Cho.png?rlkey=vafu8dh9p58vrp9bg0w4dn3ag&st=jikcccu2&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Rẻ Như Cho</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61573113368136&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/cytbxwz32azwrp5st0ryg/Yeah2-Review.png?rlkey=52t69vmij63m6454cb1o5f6az&st=atgdyp0v&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Yeah2 Review</div>
       </div>
 
 </div>
