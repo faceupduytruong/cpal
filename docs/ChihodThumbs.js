@@ -65,6 +65,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/truyentranhtuoith0/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/zqetjdpvm4v878ki4ug7c/H-i-c-truy-n-tranh-199x.jpg?rlkey=x5fubmm5kodv2ob78jwxftofp&st=xa363yc6&raw=1'
   },
+ 'Kim Đồng Kids': {
+    url: 'https://www.facebook.com/kimdongforkids/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dkg6xpp1c3h6quo16ecwb/Kim-ng-Kids.jpg?rlkey=b0xiuy00uvizkgwavmncabggi&st=q8tudkqh&raw=1'
+  },
  'Future Me': {
     url: 'https://www.facebook.com/futuremeV/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/bv2eqs9zbuo49fx1giu6k/Future-Me.png?rlkey=xjyb7413oa4vbfj7wkp6t4qgt&st=1w20jca3&raw=1'
