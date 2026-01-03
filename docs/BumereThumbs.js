@@ -57,6 +57,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/huanyoutube/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9fz9weve0j7nfaznvoxx5/Nguy-n-V-n-Hu-n.png?rlkey=h8m474wvj58p2dj53xm04yp3x&st=citl22ov&raw=1',
   },
+  'List Sách Hay Nên Đọc': {
+    url: 'https://www.facebook.com/listsach/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1uge85hfcktahz82mcn6f/List-S-ch-Hay-N-n-c.jpg?rlkey=7ebjsmij7daz995viz81a85ij&st=wgspmgkb&raw=1',
+  },
   'Topmax Academy': {
     url: 'https://www.facebook.com/TopmaxAcademy1/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/3vrmq0re33kqm1zoiqqm3/Topmax-Academy.jpg?rlkey=v3v3t1b9al89u06fuwhi2efp6&st=9v36e88x&raw=1',
