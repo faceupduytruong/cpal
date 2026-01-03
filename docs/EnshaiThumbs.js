@@ -29,6 +29,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/phatamhay/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/myp5fsuhhczmbu3ly1811/Ph-t-m-Hay-American-Pronunciation.png?rlkey=rrfwzqbx1drtaq1lcf8lj69w5&st=6yvhv2lv&raw=1'
   },
+  'Phát Âm Hay - American Pronunciation': {
+    url: 'https://www.facebook.com/phatamhay/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/myp5fsuhhczmbu3ly1811/Ph-t-m-Hay-American-Pronunciation.png?rlkey=rrfwzqbx1drtaq1lcf8lj69w5&st=wy2s0xvs&raw=1'
+  },
   'A+ English Tiktok': {
     url: 'https://www.tiktok.com/@aplusenglish.edu.vn/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9xvbb7soo5qhxzm9xnjru/A-English.png?rlkey=4erqj5kndu4fsk9dsz0ilbeaw&st=d6ci8b5a&raw=1'
@@ -45,6 +49,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/Benglishofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ykrzuww2t4odmjdtmfcx6/B-English.jpg?rlkey=py7phtk2jahw4bdw6amqaisco&st=rlns5pn4&raw=1'
   },
+  'Telesa English': {
+    url: 'https://www.telesaenglish.com/blog?page=22',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dfd2fgaqyjswv23xea6bg/Telesa-English.jpg?rlkey=v50z7ok2hy698s367lgqawfin&st=l6iqouov&raw=1'
+  },
   'Oxford English Academy - Vietnam': {
     url: 'https://www.facebook.com/OEA.ENGLISH/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/hrjmhpens9muqypn880iu/Oxford-English-Academy-Vietnam.jpg?rlkey=k2xis3d0iw2zwa9md551ivdci&st=8yz5o30l&raw=1'
@@ -53,13 +61,17 @@ const folderLinks = {
     url: 'https://www.facebook.com/TheEnglishGang.edu/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/tuadpmionqiwn25qotsbg/The-English-Gang.png?rlkey=se7owrojcancv9fostmk5konj&st=u665a2g5&raw=1'
   },
+  'The Anh English': {
+    url: 'https://www.facebook.com/theanhenglish/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pj8vcp62nwvdr6je3udyd/The-Anh-English.jpg?rlkey=2m6lup81lwibtm3s9s79s6rk4&st=7jzz4a1q&raw=1'
+  },
   'Lớp Tiếng Anh Online Với Giáo Viên Nước Ngoài': {
     url: 'https://www.facebook.com/tienganhmatgochcm/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ohe8chqpv11mi38f6rvxp/L-p-Ti-ng-Anh-Online-V-i-Gi-o-Vi-n-N-c-Ngo-i.jpg?rlkey=n0n5fqt8jsfc87mxzfo7a0thl&st=64iwbknc&raw=1'
   },
-  'Lenas Little Ones': {
-    url: 'https://www.facebook.com/profile.php?id=100091609417796&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/4or8m07181fse15ib1crl/Lenas-Little-Ones.jpg?rlkey=6t7ox8yur08qv2i4c0ayfpwow&st=ixqe33gs&raw=1'
+  'Tiếng Anh Giao Tiếp Trong Salon Và Những Mẹo Áp Dụng Nail Design': {
+    url: 'https://www.facebook.com/groups/348217541137175/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/sx3fusq6e5jw8b1zyb5ks/Ti-ng-anh-giao-ti-p-trong-salon-v-nh-ng-m-o-p-d-ng-nail-design.jpg?rlkey=sqflaap8klfkte26ebr00svez&st=es0ljr7o&raw=1'
   },
   'Slow English Podcast': {
     url: 'https://www.facebook.com/SlowEnglishPodcastVN/videos/',
@@ -114,8 +126,12 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/aann4sowm8weqroeq39wy/H-c-Ti-ng-Anh-c-Thu-Oanh.png?rlkey=joliybexn7w4861aggmi367wv&st=jern2bvc&raw=1'
   },
   'Học Tiếng Anh Nghe Nói Với Giáo Viên Nước Ngoài': {
-    url: 'https://www.facebook.com/HocTiengAnhGiaoTiepVoiGiaoVienNuocNgoai/photos',
+    url: 'https://www.facebook.com/HocTiengAnhGiaoTiepVoiGiaoVienNuocNgoai/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ro3xnd60qrvtqydjapwdh/H-c-Ti-ng-Anh-Nghe-N-i-V-i-Gi-o-Vi-n-N-c-Ngo-i.jpg?rlkey=jcm1lhrx93ke07wfiqeldq5mz&st=n1nc4oic&raw=1'
+  },
+  'Hệ Thống Anh Ngữ Trực Tuyến Talkin English': {
+    url: 'https://www.facebook.com/anhngutalkinenglish/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0yyulolj7pehnsrwo17bw/H-Th-ng-Anh-Ng-Tr-c-Tuy-n-Talkin-English.png?rlkey=wbejl36mab5fx6p4uaamsveb5&st=l8jlm3gr&raw=1'
   },
   'Luyện thi Hồ Thành': {
     url: 'https://www.facebook.com/luyenthihothanh/photos',
@@ -134,20 +150,28 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/ux4nkjbsbpsozxtoquscl/Anh-Ng-Aten-C-n-Th.png?rlkey=gnl01rwcrwzhhrzi4ypku9132&st=dmlvdheb&raw=1'
   },
   'Anh Ngữ Aten Quận 5 - Tiếng Anh Giao Tiếp': {
-    url: 'https://www.facebook.com/tienganhgiaotiepquan5/photos',
+    url: 'https://www.facebook.com/tienganhgiaotiepquan5/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/pvndohikp1at1tii0oezz/Anh-Ng-Aten-Qu-n-5-Ti-ng-Anh-Giao-Ti-p.png?rlkey=yxk96hyibaj331q61ty87na7x&st=lvchfx67&raw=1'
   },
-  'Tiếng Anh nhanh gọn mỗi ngày ': {
-    url: 'https://www.facebook.com/tieng.anh.nhanh.gon.moi.ngay/photos',
+  'Tiếng Anh nhanh gọn mỗi ngày': {
+    url: 'https://www.facebook.com/tieng.anh.nhanh.gon.moi.ngay/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ofiavmv6cyaflq1cuafpk/Ti-ng-Anh-nhanh-g-n-m-i-ng-y.jpg?rlkey=hs5tu7q69kevtls28hc9ag9ue&st=5j8ye2bt&raw=1'
   },
-  'Phát Âm Hay - American Pronunciation': {
-    url: 'https://www.facebook.com/phatamhay/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/myp5fsuhhczmbu3ly1811/Ph-t-m-Hay-American-Pronunciation.png?rlkey=rrfwzqbx1drtaq1lcf8lj69w5&st=wy2s0xvs&raw=1'
+  'FREE ENGLISH - Teacher Mark': {
+    url: 'https://www.facebook.com/groups/484596390730348/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/l62g1x1u7465r5llnbj9z/FREE-ENGLISH-Teacher-Mark.jpg?rlkey=o1l9221w76kpqpoj7jhzgce0v&st=inlmxjn1&raw=1'
   },
   'iBetter Books': {
     url: 'https://www.facebook.com/iBetterBooks/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/0b0gmvh2ndlklbw1j3hpx/iBetter-Books.png?rlkey=7ykv7g7bjcggkf5yjzjspyl7p&st=woimpg2g&raw=1'
+  },
+  'Learn English With Us': {
+    url: 'https://www.facebook.com/groups/335486277069621/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2ily1l7cotz5ac6a6rfdy/Learn-English-With-Us.jpg?rlkey=yqeliklmin0vhnxwfquiptoi9&st=z1ruzkwb&raw=1'
+  },
+  'Lenas Little Ones': {
+    url: 'https://www.facebook.com/profile.php?id=100091609417796&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4or8m07181fse15ib1crl/Lenas-Little-Ones.jpg?rlkey=6t7ox8yur08qv2i4c0ayfpwow&st=ixqe33gs&raw=1'
   },
   'Improve English Skills': {
     url: 'https://www.facebook.com/ImproveEnglishSkills121/photos',
@@ -180,6 +204,10 @@ const folderLinks = {
   'Bella Mac  (Thạc Sĩ Giáo Dục)': {
     url: 'https://www.facebook.com/studyw.bella/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/98f462x6kb1p44vyj7i9g/Bella-Mac-Th-c-S-Gi-o-D-c.jpg?rlkey=zej5fob35uzx2ns44xhwohd5k&st=ng2lrzjx&raw=1',
+  },
+  'Tiếng Anh Nè': {
+    url: 'https://www.facebook.com/tienganhnez/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0g75vbh7j09yyizmksdpl/Ti-ng-Anh-N.jpg?rlkey=jl5mvdx6yy3a7b85m3ewwwpny&st=jvy5g3a9&raw=1',
   },
   'Learning Treasure': {
     url: 'https://www.facebook.com/learningtreasure5/photos',
@@ -244,6 +272,14 @@ const folderLinks = {
   'Education crush 2': {
     url: 'https://www.facebook.com/educationcrush2/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9mxu3shijm4hsfl47yceg/Education-crush-2.jpg?rlkey=w19mgmh0geolb3za9s31qedwm&st=wj4u3q5r&raw=1',
+  },
+  'Sophai Creator Share': {
+    url: 'https://www.facebook.com/SophaiCreatorShare/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zllbpe2ylxfbrnmxx8hjt/Sophai-Creator-Share.jpg?rlkey=drdals8217z766e6xvkf4q398&st=db4107mz&raw=1',
+  },
+  "LET'S LEARN ENGLISH ( APPRENONS L'ANGLAIS)": {
+    url: 'https://www.facebook.com/groups/415435771990553/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ovx62gspdi6giiiidgjcp/LET-S-LEARN-ENGLISH-APPRENONS-L-ANGLAIS.jpg?rlkey=yb9p61sdd1jzilk449zoemwf5&st=wte0flmq&raw=1',
   },
   'Chef Vicky Bisht': {
     url: 'https://www.facebook.com/chef.vicky.bisht1/photos/',
