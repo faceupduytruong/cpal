@@ -128,6 +128,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/ieltsthanhloansince2014/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/rson2xbwotsdvocd7wmst/IELTS-Thanh-Loan.png?rlkey=vtzhed62tu161jdma1bwaxc5i&st=ekhijah4&raw=1',
   },
+  'The Real IELTS - Tự tin xóa MẤT GỐC': {
+    url: 'https://www.facebook.com/theieltsvn/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/uzoco8dgg13uwu0o28gys/The-Real-IELTS-T-tin-x-a-M-T-G-C.png?rlkey=drnhwozadsxnnmfwvz94js93e&st=1fdqn5uf&raw=1',
+  },
   'IELTS FORECAST - Dự đoán đề IELTS': {
     url: 'https://www.facebook.com/groups/1683171705425125/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/1yyiylswbbep0fm7s2b04/IELTS-FORECAST-D-o-n-IELTS.jpg?rlkey=m4efd5wbmsw7a2pc316rt4s2j&st=pibbk9bh&raw=1',
@@ -147,6 +151,10 @@ const folderLinks = {
   'IELTS BẢO QUỐC_Tự học IELTS Listening-Reading 9.0': {
     url: 'https://www.facebook.com/groups/ieltsbaoquoc.ieltscanhanhoa.listeningreading.group/media/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jdb4g9ijes8ik8u2uxy54/IELTS-B-O-QU-C_T-h-c-IELTS-Listening-Reading-9.0.jpg?rlkey=zi4vr1j9p9h649c8pi55vq8zy&st=3fi4xf3x&raw=1',
+  },
+  'Học IELTS cùng Cựu giám khảo (Mc IELTS)': {
+    url: 'https://www.facebook.com/groups/643559425737713/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/a5kpizf88ddjztcnxfzr4/H-c-IELTS-c-ng-C-u-gi-m-kh-o-Mc-IELTS.jpg?rlkey=cibomm20y4dqne1gvh7zx0j05&st=m1k6d8ny&raw=1',
   },
   'Lê Việt Đức (Augustino)': {
     url: 'https://www.facebook.com/thayducielts/photos/',
