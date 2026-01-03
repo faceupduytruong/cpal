@@ -25,6 +25,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/TranGiaThong.Coach/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/tqiyn285gn5ttxfc2a2t1/Tr-n-Gia-Th-ng-Hu-n-luy-n-vi-n-ti-ng-Anh.jpg?rlkey=av5qfizatk0ui1smqrj8s3ca2&st=z1gnno5l&raw=1'
   },
+  'Phát Âm Hay - American Pronunciation': {
+    url: 'https://www.facebook.com/phatamhay/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/myp5fsuhhczmbu3ly1811/Ph-t-m-Hay-American-Pronunciation.png?rlkey=rrfwzqbx1drtaq1lcf8lj69w5&st=6yvhv2lv&raw=1'
+  },
   'A+ English Tiktok': {
     url: 'https://www.tiktok.com/@aplusenglish.edu.vn/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9xvbb7soo5qhxzm9xnjru/A-English.png?rlkey=4erqj5kndu4fsk9dsz0ilbeaw&st=d6ci8b5a&raw=1'
@@ -220,6 +224,14 @@ const folderLinks = {
   'Enjoy English': {
     url: 'https://www.facebook.com/groups/1487687748646438/media/',
     thumbnail: 'https://www.dropbox.com/scl/fi/s736owu1r606bd9hjradt/Enjoy-English.jpg?rlkey=qqf4765jm3dzsw9liut4lrgsg&st=3jjrjv1w&raw=1',
+  },
+  'Education crush 2': {
+    url: 'https://www.facebook.com/educationcrush2/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9mxu3shijm4hsfl47yceg/Education-crush-2.jpg?rlkey=w19mgmh0geolb3za9s31qedwm&st=wj4u3q5r&raw=1',
+  },
+  'Chef Vicky Bisht': {
+    url: 'https://www.facebook.com/chef.vicky.bisht1/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/et38h36qofsdb7hlhice8/Chef-Vicky-Bisht.jpg?rlkey=g6cfiteopukhr7bvdbs81ibz6&st=fs8p50ez&raw=1',
   },
   'Tiếng Anh Giao Tiếp - Tiến Bộ Từng Ngày': {
     url: 'https://www.facebook.com/groups/854814243254036/media/',
