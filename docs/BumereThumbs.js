@@ -9,8 +9,15 @@ const folders = {
   // thêm các mục khác nếu cần
 };
 
+const bookLinks = {
+  'Dharma': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Buddha/index.htm',
+    thumbnail: 'https://contenthub-static.grammarly.com/blog/wp-content/uploads/2021/04/english-language-irregularities.jpeg',
+  },
+};
+
 const folderLinks = {
-  'Cần sửa lại 2': {
+  'Cần sửa lại 3': {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Buddha/index.htm',
     thumbnail: 'https://524334.fs1.hubspotusercontent-na1.net/hubfs/524334/Blogs/Blog%20Featured/speaking_the_english_why_english_is_so_difficult_to_learn_featured.jpg'
   },
