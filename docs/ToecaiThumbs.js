@@ -1,7 +1,6 @@
 const customThumbnails = {
   'Creative English - Bao Đỗ TOEIC': 'https://manifestedharmony.com/wp-content/uploads/2014/04/creativity1.jpg',
   'Nguyễn Đức English': 'https://www.englishguru.com/blog/wp-content/uploads/2022/12/Is-It-Really-Possible-to-Learn-English-Online.jpg',
-  'Bổ sung links': 'https://i-test4u.vn/images/test-thumbnail/toeic.png',
   // thêm các mục khác nếu cần
 };
 
@@ -13,6 +12,10 @@ const folders = {
 };
 
 const folderLinks = {
+  'Cần sửa lại': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Buddha/index.htm',
+    thumbnail: 'https://524334.fs1.hubspotusercontent-na1.net/hubfs/524334/Blogs/Blog%20Featured/speaking_the_english_why_english_is_so_difficult_to_learn_featured.jpg'
+  },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.cnet.com/a/img/resize/bb3309731c72de8eed76bce93bb319a95a5c077f/hub/2023/02/08/2d11bc90-7f23-4347-a07a-1b3e251aea4c/gettyimages-1245835347.jpg?auto=webp&fit=crop&height=675&width=1200'
