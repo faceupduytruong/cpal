@@ -41,10 +41,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/dustinducng/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4upcxc99s5559nq3b6ukx/Dustin-Duc-Nguyen.jpg?rlkey=9f9wedz82qxpm98b0kz9x3eqk&st=6u03g5x7&raw=1'
   },
-  'English Siêu Dễ': {
-    url: 'https://www.facebook.com/vetco.edu.vn/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/fggn32n0n14yctyzddxhk/Ti-ng-Anh-Si-u-D.jpg?rlkey=8x8ihuurqrnm8p2thoekihwm5&st=nj1ipxha&raw=1'
-  },
   'B English': {
     url: 'https://www.facebook.com/Benglishofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ykrzuww2t4odmjdtmfcx6/B-English.jpg?rlkey=py7phtk2jahw4bdw6amqaisco&st=rlns5pn4&raw=1'
@@ -57,21 +53,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/OEA.ENGLISH/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/hrjmhpens9muqypn880iu/Oxford-English-Academy-Vietnam.jpg?rlkey=k2xis3d0iw2zwa9md551ivdci&st=8yz5o30l&raw=1'
   },
-  'The English Gang': {
-    url: 'https://www.facebook.com/TheEnglishGang.edu/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/tuadpmionqiwn25qotsbg/The-English-Gang.png?rlkey=se7owrojcancv9fostmk5konj&st=u665a2g5&raw=1'
-  },
-  'The Anh English': {
-    url: 'https://www.facebook.com/theanhenglish/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/pj8vcp62nwvdr6je3udyd/The-Anh-English.jpg?rlkey=2m6lup81lwibtm3s9s79s6rk4&st=7jzz4a1q&raw=1'
-  },
   'Lớp Tiếng Anh Online Với Giáo Viên Nước Ngoài': {
     url: 'https://www.facebook.com/tienganhmatgochcm/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ohe8chqpv11mi38f6rvxp/L-p-Ti-ng-Anh-Online-V-i-Gi-o-Vi-n-N-c-Ngo-i.jpg?rlkey=n0n5fqt8jsfc87mxzfo7a0thl&st=64iwbknc&raw=1'
-  },
-  'Tiếng Anh Giao Tiếp Trong Salon Và Những Mẹo Áp Dụng Nail Design': {
-    url: 'https://www.facebook.com/groups/348217541137175/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/sx3fusq6e5jw8b1zyb5ks/Ti-ng-anh-giao-ti-p-trong-salon-v-nh-ng-m-o-p-d-ng-nail-design.jpg?rlkey=sqflaap8klfkte26ebr00svez&st=es0ljr7o&raw=1'
   },
   'Slow English Podcast': {
     url: 'https://www.facebook.com/SlowEnglishPodcastVN/videos/',
@@ -96,30 +80,6 @@ const folderLinks = {
   'Trung tâm Anh ngữ Ms Đào': {
     url: 'https://www.facebook.com/englishcenter.msdao/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7zmt77hfe0fakwy37lmxn/Trung-t-m-Anh-ng-Ms-o.jpg?rlkey=vl9d348vco0lnsd15rj6p83my&st=xgqu66x8&raw=1'
-  },
-  'Tiếng Anh Siêu Dễ': {
-    url: 'https://www.facebook.com/vetco.edu.vn/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/zsdahyirv79w9z3ucqpj3/Ti-ng-Anh-Si-u-D.png?rlkey=rmb615q5r1pj05ozyvghx9lxg&st=v656k8i1&raw=1'
-  },
-  'Công Thức Viết Tiếng Anh Siêu Tốc': {
-    url: 'https://www.facebook.com/congthucviettienganh/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ie3m3ezllr0qdiqjucilo/C-ng-Th-c-Vi-t-Ti-ng-Anh-Si-u-T-c.png?rlkey=drytxqrz0xvavgwjqtlocsj5u&st=ec10fxnn&raw=1'
-  },
-  'Stellar - Ngữ pháp theo Quy luật': {
-    url: 'https://www.facebook.com/nguphapstellar/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/bepx1lyznex72g64rn0cp/Stellar-Ng-ph-p-theo-Quy-lu-t.png?rlkey=2rwekwbizo14gjv115fpg2wva&st=ms1e0rtb&raw=1'
-  },
-  'Tieng Anh Nghe - Noi': {
-    url: 'https://www.facebook.com/tienganhnghenoi/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/p5ob44rpua53kwl5m511q/Tieng-Anh-Nghe-Noi.jpg?rlkey=nxa6oea3yovftnxmn65ox5rw2&st=acvk1msa&raw=1',
-  },
-  'Eflita Edu - Tiếng Anh Gia Đình': {
-    url: 'https://www.facebook.com/eflitaedu/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/bjl7bjhcr4xf1vli8mqax/Eflita-Edu-Ti-ng-Anh-Gia-nh.png?rlkey=ie5nis7r7acdjei5nmzi8qcnd&st=4jw1o0n0&raw=1',
-  },
-  'Hitbooks.vn': {
-    url: 'https://www.facebook.com/hitbooksvn/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/bjl7bjhcr4xf1vli8mqax/Eflita-Edu-Ti-ng-Anh-Gia-nh.png?rlkey=ie5nis7r7acdjei5nmzi8qcnd&st=4jw1o0n0&raw=1',
   },
   'Học Tiếng Anh cô Thu Oanh': {
     url: 'https://www.facebook.com/HoctienganhcoThuOanh/photos',
@@ -153,25 +113,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/tienganhgiaotiepquan5/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/pvndohikp1at1tii0oezz/Anh-Ng-Aten-Qu-n-5-Ti-ng-Anh-Giao-Ti-p.png?rlkey=yxk96hyibaj331q61ty87na7x&st=lvchfx67&raw=1'
   },
-  'Tiếng Anh nhanh gọn mỗi ngày': {
-    url: 'https://www.facebook.com/tieng.anh.nhanh.gon.moi.ngay/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ofiavmv6cyaflq1cuafpk/Ti-ng-Anh-nhanh-g-n-m-i-ng-y.jpg?rlkey=hs5tu7q69kevtls28hc9ag9ue&st=5j8ye2bt&raw=1'
-  },
   'FREE ENGLISH - Teacher Mark': {
     url: 'https://www.facebook.com/groups/484596390730348/',
     thumbnail: 'https://www.dropbox.com/scl/fi/l62g1x1u7465r5llnbj9z/FREE-ENGLISH-Teacher-Mark.jpg?rlkey=o1l9221w76kpqpoj7jhzgce0v&st=inlmxjn1&raw=1'
   },
-  'iBetter Books': {
-    url: 'https://www.facebook.com/iBetterBooks/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/0b0gmvh2ndlklbw1j3hpx/iBetter-Books.png?rlkey=7ykv7g7bjcggkf5yjzjspyl7p&st=woimpg2g&raw=1'
-  },
   'Learn English With Us': {
     url: 'https://www.facebook.com/groups/335486277069621/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2ily1l7cotz5ac6a6rfdy/Learn-English-With-Us.jpg?rlkey=yqeliklmin0vhnxwfquiptoi9&st=z1ruzkwb&raw=1'
-  },
-  'Lenas Little Ones': {
-    url: 'https://www.facebook.com/profile.php?id=100091609417796&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/4or8m07181fse15ib1crl/Lenas-Little-Ones.jpg?rlkey=6t7ox8yur08qv2i4c0ayfpwow&st=ixqe33gs&raw=1'
   },
   'Improve English Skills': {
     url: 'https://www.facebook.com/ImproveEnglishSkills121/photos',
@@ -197,17 +145,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/sinhhoattienganh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uaslxbpuzoi457c4pc0li/Sinh-Ho-t-Ti-ng-Anh-Giao-Ti-p.png?rlkey=122qwkf1q852gbjt7kpqacgdx&st=ofxbnhe4&raw=1',
   },
-  'Học Online Tiếng Anh  (Sang Nguyễn Online)': {
+  'Học Online Tiếng Anh (Sang Nguyễn Online)': {
     url: 'https://www.facebook.com/tasaonline/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/w58ufqhkp8kqfpmlcel2t/H-c-Online-Ti-ng-Anh-Sang-Nguy-n-Online.png?rlkey=dz3a1cos2fxsb3ovy4n10fk74&st=vquze7we&raw=1',
-  },
-  'Bella Mac  (Thạc Sĩ Giáo Dục)': {
-    url: 'https://www.facebook.com/studyw.bella/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/98f462x6kb1p44vyj7i9g/Bella-Mac-Th-c-S-Gi-o-D-c.jpg?rlkey=zej5fob35uzx2ns44xhwohd5k&st=ng2lrzjx&raw=1',
-  },
-  'Tiếng Anh Nè': {
-    url: 'https://www.facebook.com/tienganhnez/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/0g75vbh7j09yyizmksdpl/Ti-ng-Anh-N.jpg?rlkey=jl5mvdx6yy3a7b85m3ewwwpny&st=jvy5g3a9&raw=1',
   },
   'Learning Treasure': {
     url: 'https://www.facebook.com/learningtreasure5/photos',
@@ -284,26 +224,6 @@ const folderLinks = {
   'Chef Vicky Bisht': {
     url: 'https://www.facebook.com/chef.vicky.bisht1/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/et38h36qofsdb7hlhice8/Chef-Vicky-Bisht.jpg?rlkey=g6cfiteopukhr7bvdbs81ibz6&st=fs8p50ez&raw=1',
-  },
-  'Cùng Con Học Tiếng Anh': {
-    url: 'https://www.facebook.com/eflitaedu.com12/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/mupox76obnxgvz3g5joi4/C-ng-Con-H-c-Ti-ng-Anh.jpg?rlkey=mef0ihlnhtv9lxw7qlmvks4pk&st=zalyfcb8&raw=1',
-  },
-  'HP Junior - Dạy con song ngữ': {
-    url: 'https://www.facebook.com/HPJuniorVN/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ecocnheaelwqxux3lm9la/HP-Junior-D-y-con-song-ng.jpg?rlkey=446nryhxp5uxs73tl19joh6cq&st=l3v5ftel&raw=1',
-  },
-  'HG Books - Tiệm sách song ngữ thiếu nhi': {
-    url: 'https://www.facebook.com/HGBooksShop/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/hx6d9v8gxapvsxrhwi5hh/HG-Books-Ti-m-s-ch-song-ng-thi-u-nhi.jpg?rlkey=kyzl6w306j1hwhyxskm2cp98s&st=o1i31j3i&raw=1',
-  },
-  'HG Books - Tiệm sách song ngữ thiếu nhi': {
-    url: 'https://www.facebook.com/HGBooksShop/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/hx6d9v8gxapvsxrhwi5hh/HG-Books-Ti-m-s-ch-song-ng-thi-u-nhi.jpg?rlkey=kyzl6w306j1hwhyxskm2cp98s&st=o1i31j3i&raw=1',
-  },
-  'Sun Smile English': {
-    url: 'https://www.facebook.com/Sunsmilegrapeseed/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/3x5ntf8hzhh43sbzomsao/Sun-Smile-English.png?rlkey=f30hyzbgf9srnkhzr3noid42j&st=1jx3k61y&raw=1',
   },
   // thêm các mục khác nếu cần
 };
