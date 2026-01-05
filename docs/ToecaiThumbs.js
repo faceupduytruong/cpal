@@ -12,8 +12,8 @@ const folders = {
 };
 
 const folderLinks = {
-  'Cần sửa lại': {
-    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Buddha/index.htm',
+  'Sách Tiếng Anh': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/English/index.htm',
     thumbnail: 'https://524334.fs1.hubspotusercontent-na1.net/hubfs/524334/Blogs/Blog%20Featured/speaking_the_english_why_english_is_so_difficult_to_learn_featured.jpg'
   },
   'Google': {
