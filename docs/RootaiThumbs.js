@@ -1,16 +1,16 @@
 const customThumbnails = {
-  '4English - Siêu ứng dụng học tiếng Anh': 'https://www.dropbox.com/scl/fi/fcfzzl4y0iz4hpg611fy7/4English-Si-u-ng-d-ng-h-c-ti-ng-Anh.png?rlkey=jmxwvmx1nec3ybfr3s9yoo45y&st=xblsyivq&dl=0',
-  '30 Phút Tiếng Anh Mỗi Ngày': 'https://www.dropbox.com/scl/fi/4uhopjzyyqsk23yahlywg/30-Ph-t-Ti-ng-Anh-M-i-Ng-y.jpg?rlkey=hujuv1f6tvxtjoxpg0r2my1tm&st=jq12p3h7&dl=0',
-  'Eflita Edu - Tiếng Anh Gia Đình': 'https://www.dropbox.com/scl/fi/lhdeacvk4r2bleq7kp9u3/Eflita-Edu-Ti-ng-Anh-Gia-nh.png?rlkey=ogkrjzvavg8fyds2bpupc6dvg&st=l0h6dk1s&dl=0',
-  'Enghance Vietnam': 'https://www.dropbox.com/scl/fi/oy2aetvce6jr2chq2ofxd/Enghance-Vietnam.png?rlkey=ijg2wf1c8gvmslwbfzftkk70t&st=2zfnmecz&dl=0',
-  'Học Ngoại Ngữ': 'https://www.dropbox.com/scl/fi/l6gnn0hoq25sp4zmme0wd/H-c-Ngo-i-Ng.jpg?rlkey=ny9ojljvdfki38bl9ampsjbs7&st=clp4ik1f&dl=0',
-  'I Breathe English': 'https://www.dropbox.com/scl/fi/zh6c85autzk1mqrycka64/I-Breathe-English.webp?rlkey=vcj9ox7d8rk61zztcr6439oa6&st=2xld8u7z&dl=0',
-  'The Anh English': 'https://www.dropbox.com/scl/fi/90bqh4qipsvvm3fvp9acz/The-Anh-English.webp?rlkey=p8offs65uzgs9jclssarklq2v&st=rjba3sxg&dl=0',
-  'The English Gang': 'https://www.dropbox.com/scl/fi/pktg87ea8me7btdp7naed/The-English-Gang.png?rlkey=fjftyzhudfqgwf4ndyiwony1q&st=vfe4vk93&dl=0',
-  'Tiếng anh giao tiếp trong salon': 'https://www.dropbox.com/scl/fi/a70cr7jyiygui7j0vdxvw/Ti-ng-anh-giao-ti-p-trong-salon.avif?rlkey=vsxgs6jmiz2say61jr6mauw6s&st=fjbicc0p&dl=0',
-  'Tiếng Anh Grabbike': 'https://www.dropbox.com/scl/fi/upb01cy7q21xo4wlhw3qy/Ti-ng-Anh-Grabbike.jpg?rlkey=lbz1lm73sr2q4qjshnylg79lv&st=b0637fjs&dl=0',
-  'Tiếng Anh Mất Gốc': 'https://www.dropbox.com/scl/fi/od5085ivy950wvuu2oof5/Ti-ng-Anh-M-t-G-c.png?rlkey=5wwhnnu3qjp1jqlzu4418c2fx&st=ehn1wthe&dl=0',
-  'Tiếng Anh Nè': 'https://www.dropbox.com/scl/fi/5h0q96wsj5j4dqpkrlt10/Ti-ng-Anh-N.jpg?rlkey=dp50hcnpn22ccxme1cjn2d78g&st=2s56o1w9&dl=0',
+  '4English - Siêu ứng dụng học tiếng Anh': 'https://www.dropbox.com/scl/fi/fcfzzl4y0iz4hpg611fy7/4English-Si-u-ng-d-ng-h-c-ti-ng-Anh.png?rlkey=jmxwvmx1nec3ybfr3s9yoo45y&st=xblsyivq&raw=1',
+  '30 Phút Tiếng Anh Mỗi Ngày': 'https://www.dropbox.com/scl/fi/4uhopjzyyqsk23yahlywg/30-Ph-t-Ti-ng-Anh-M-i-Ng-y.jpg?rlkey=hujuv1f6tvxtjoxpg0r2my1tm&st=jq12p3h7&raw=1',
+  'Eflita Edu - Tiếng Anh Gia Đình': 'https://www.dropbox.com/scl/fi/lhdeacvk4r2bleq7kp9u3/Eflita-Edu-Ti-ng-Anh-Gia-nh.png?rlkey=ogkrjzvavg8fyds2bpupc6dvg&st=l0h6dk1s&raw=1',
+  'Enghance Vietnam': 'https://www.dropbox.com/scl/fi/oy2aetvce6jr2chq2ofxd/Enghance-Vietnam.png?rlkey=ijg2wf1c8gvmslwbfzftkk70t&st=2zfnmecz&raw=1',
+  'Học Ngoại Ngữ': 'https://www.dropbox.com/scl/fi/l6gnn0hoq25sp4zmme0wd/H-c-Ngo-i-Ng.jpg?rlkey=ny9ojljvdfki38bl9ampsjbs7&st=clp4ik1f&raw=1',
+  'I Breathe English': 'https://www.dropbox.com/scl/fi/zh6c85autzk1mqrycka64/I-Breathe-English.webp?rlkey=vcj9ox7d8rk61zztcr6439oa6&st=2xld8u7z&raw=1',
+  'The Anh English': 'https://www.dropbox.com/scl/fi/90bqh4qipsvvm3fvp9acz/The-Anh-English.webp?rlkey=p8offs65uzgs9jclssarklq2v&st=rjba3sxg&raw=1',
+  'The English Gang': 'https://www.dropbox.com/scl/fi/pktg87ea8me7btdp7naed/The-English-Gang.png?rlkey=fjftyzhudfqgwf4ndyiwony1q&st=vfe4vk93&raw=1',
+  'Tiếng anh giao tiếp trong salon': 'https://www.dropbox.com/scl/fi/a70cr7jyiygui7j0vdxvw/Ti-ng-anh-giao-ti-p-trong-salon.avif?rlkey=vsxgs6jmiz2say61jr6mauw6s&st=fjbicc0p&raw=1',
+  'Tiếng Anh Grabbike': 'https://www.dropbox.com/scl/fi/upb01cy7q21xo4wlhw3qy/Ti-ng-Anh-Grabbike.jpg?rlkey=lbz1lm73sr2q4qjshnylg79lv&st=b0637fjs&raw=1',
+  'Tiếng Anh Mất Gốc': 'https://www.dropbox.com/scl/fi/od5085ivy950wvuu2oof5/Ti-ng-Anh-M-t-G-c.png?rlkey=5wwhnnu3qjp1jqlzu4418c2fx&st=ehn1wthe&raw=1',
+  'Tiếng Anh Nè': 'https://www.dropbox.com/scl/fi/5h0q96wsj5j4dqpkrlt10/Ti-ng-Anh-N.jpg?rlkey=dp50hcnpn22ccxme1cjn2d78g&st=2s56o1w9&raw=1',
   // thêm các mục khác nếu cần
 };
 
@@ -32,6 +32,10 @@ const folders = {
 };
 
 const folderLinks = {
+  'Sách Tiếng Anh': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/English/index.htm',
+    thumbnail: 'https://524334.fs1.hubspotusercontent-na1.net/hubfs/524334/Blogs/Blog%20Featured/speaking_the_english_why_english_is_so_difficult_to_learn_featured.jpg'
+  },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
