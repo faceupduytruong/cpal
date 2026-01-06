@@ -1,5 +1,5 @@
 const customThumbnails = {
-  'Letter': 'https://www.dropbox.com/scl/fi/o9yii9k5qbfcuvu7kg3ne/Chinese-Language.jpg?rlkey=77s9qqwz9m29d8yzbsdg0pnb1&st=uy6ilei0&raw=1',
+  '/': 'https://www.dropbox.com/scl/fi/o9yii9k5qbfcuvu7kg3ne/Chinese-Language.jpg?rlkey=77s9qqwz9m29d8yzbsdg0pnb1&st=uy6ilei0&raw=1',
   // thêm các mục khác nếu cần
 };
 
