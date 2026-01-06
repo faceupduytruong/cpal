@@ -38,14 +38,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/TranGiaThong.Coach/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/tqiyn285gn5ttxfc2a2t1/Tr-n-Gia-Th-ng-Hu-n-luy-n-vi-n-ti-ng-Anh.jpg?rlkey=av5qfizatk0ui1smqrj8s3ca2&st=z1gnno5l&raw=1'
   },
-  'Phát Âm Hay - American Pronunciation': {
-    url: 'https://www.facebook.com/phatamhay/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/myp5fsuhhczmbu3ly1811/Ph-t-m-Hay-American-Pronunciation.png?rlkey=rrfwzqbx1drtaq1lcf8lj69w5&st=6yvhv2lv&raw=1'
-  },
-  'Phát Âm Hay - American Pronunciation': {
-    url: 'https://www.facebook.com/phatamhay/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/myp5fsuhhczmbu3ly1811/Ph-t-m-Hay-American-Pronunciation.png?rlkey=rrfwzqbx1drtaq1lcf8lj69w5&st=wy2s0xvs&raw=1'
-  },
   'A+ English Tiktok': {
     url: 'https://www.tiktok.com/@aplusenglish.edu.vn/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9xvbb7soo5qhxzm9xnjru/A-English.png?rlkey=4erqj5kndu4fsk9dsz0ilbeaw&st=d6ci8b5a&raw=1'
@@ -102,10 +94,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/HoctienganhcoThuOanh/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/aann4sowm8weqroeq39wy/H-c-Ti-ng-Anh-c-Thu-Oanh.png?rlkey=joliybexn7w4861aggmi367wv&st=jern2bvc&raw=1'
   },
-  'Học Tiếng Anh Nghe Nói Với Giáo Viên Nước Ngoài': {
-    url: 'https://www.facebook.com/HocTiengAnhGiaoTiepVoiGiaoVienNuocNgoai/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ro3xnd60qrvtqydjapwdh/H-c-Ti-ng-Anh-Nghe-N-i-V-i-Gi-o-Vi-n-N-c-Ngo-i.jpg?rlkey=jcm1lhrx93ke07wfiqeldq5mz&st=n1nc4oic&raw=1'
-  },
   'Hệ Thống Anh Ngữ Trực Tuyến Talkin English': {
     url: 'https://www.facebook.com/anhngutalkinenglish/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0yyulolj7pehnsrwo17bw/H-Th-ng-Anh-Ng-Tr-c-Tuy-n-Talkin-English.png?rlkey=wbejl36mab5fx6p4uaamsveb5&st=l8jlm3gr&raw=1'
@@ -114,10 +102,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/luyenthihothanh/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/jatatty04pa9shsh07arq/Luy-n-thi-H-Th-nh.jpg?rlkey=u359ye05eldyxln170ounkvol&st=7vidhcjh&raw=1'
   },
-  'Tiếng Anh giao tiếp Langmaster': {
-    url: 'https://www.facebook.com/HoctiengAnhLangmaster/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jbblukjkllifotfrqqogv/Ti-ng-Anh-giao-ti-p-Langmaster.jpg?rlkey=nyfqactzlrih6mopjp6dilqrd&st=xdehm9u3&raw=1'
-  },
   'Trung Tâm Anh Ngữ Aten': {
     url: 'https://www.facebook.com/atendoanhnhan/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/o9obuqcfkvfb5rf5shv7j/Trung-T-m-Anh-Ng-Aten.png?rlkey=jcreotoq5p9j0wjyut9f3zppj&st=ji9pkleo&raw=1'
@@ -125,10 +109,6 @@ const folderLinks = {
   'Anh Ngữ Aten Cần Thơ': {
     url: 'https://www.facebook.com/atenenglishcantho/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ux4nkjbsbpsozxtoquscl/Anh-Ng-Aten-C-n-Th.png?rlkey=gnl01rwcrwzhhrzi4ypku9132&st=dmlvdheb&raw=1'
-  },
-  'Anh Ngữ Aten Quận 5 - Tiếng Anh Giao Tiếp': {
-    url: 'https://www.facebook.com/tienganhgiaotiepquan5/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/pvndohikp1at1tii0oezz/Anh-Ng-Aten-Qu-n-5-Ti-ng-Anh-Giao-Ti-p.png?rlkey=yxk96hyibaj331q61ty87na7x&st=lvchfx67&raw=1'
   },
   'FREE ENGLISH - Teacher Mark': {
     url: 'https://www.facebook.com/groups/484596390730348/',
@@ -142,10 +122,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/ImproveEnglishSkills121/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ayfy2f3om199luaubbh4o/Improve-English-Skills.png?rlkey=kmx6pfhrjphjha7mjbezz54hl&st=nav0sj6z&raw=1',
   },
-  'Spoken English and Vocabulary': {
-    url: 'https://www.facebook.com/profile.php?id=100083296070350&sk=photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/dh0zcvbm9p4p5q2a7sl85/Spoken-English-and-Vocabulary.jpg?rlkey=cci21a001m2z7oqass702e1lz&st=5vfkn3ux&raw=1'
-  },
   'A+ English': {
     url: 'https://www.facebook.com/aplusenglish.edu.vn/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/9xvbb7soo5qhxzm9xnjru/A-English.png?rlkey=4erqj5kndu4fsk9dsz0ilbeaw&st=b21rd5w2&raw=1'
@@ -153,14 +129,6 @@ const folderLinks = {
   'UCA Academy': {
     url: 'https://www.facebook.com/academy.uca/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/tjevdzjw17m3jtcm2yyun/UCA-Academy.png?rlkey=j1iotv8chg2mz0kw7sg8xbdhg&st=ymlrqw38&raw=1'
-  },
-  'Tiếng Anh Giao Tiếp - Tiến Bộ Từng Ngày': {
-    url: 'https://www.facebook.com/groups/854814243254036/media/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/lomdjop61as7wb8zesil9/Ti-ng-Anh-Giao-Ti-p-Ti-n-B-T-ng-Ng-y.jpg?rlkey=4yu2elh1hghmdbidkyji7jw57&st=phhx5emv&raw=1',
-  },
-  'Sinh Hoạt Tiếng Anh Giao Tiếp': {
-    url: 'https://www.facebook.com/sinhhoattienganh/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/uaslxbpuzoi457c4pc0li/Sinh-Ho-t-Ti-ng-Anh-Giao-Ti-p.png?rlkey=122qwkf1q852gbjt7kpqacgdx&st=ofxbnhe4&raw=1',
   },
   'Học Online Tiếng Anh (Sang Nguyễn Online)': {
     url: 'https://www.facebook.com/tasaonline/reels/',
@@ -209,10 +177,6 @@ const folderLinks = {
   'Learn English Effortlessly': {
     url: 'https://www.facebook.com/groups/245525535304118/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/zczi2iwnypgdjz4rzx0nf/Learn-English-Effortlessly.jpg?rlkey=bvjad16wowgbdl0e6xvpbym5n&st=fsb8xl6u&raw=1'
-  },
-  'English Speaking practice': {
-    url: 'https://www.facebook.com/groups/5688211251275040/media',
-    thumbnail: 'https://www.dropbox.com/scl/fi/i1eoqcn831eizxqa2s304/English-Speaking-practice.jpg?rlkey=ro51xu5ou06fi0y6xb782a4nx&st=w63rl9pq&raw=1'
   },
   'Practical English Grammar Idioms Group': {
     url: 'https://www.facebook.com/groups/450969245668882/media',
