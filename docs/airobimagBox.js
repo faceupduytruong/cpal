@@ -345,7 +345,7 @@ container.innerHTML = `
       
         <div class="image-box">
   <div onclick="openRightHalfPopup('https://chatgpt.com/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://chat-gpt-world.com/en/wp-content/uploads/sites/56/2025/01/CHATGPTNEWLOGO_800.webp">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ35Y0P3egPXfWbczI9ahc4yYzy7AnzELervA&s">
 </div>
         <div class="caption">ChatGPT</div>
       </div>
@@ -450,6 +450,18 @@ container.innerHTML = `
 
 <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
+    <h2 class="row-title">Create AI-generated videos</h2>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.creati.studio/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPkgwyOgCkOdKDU14j-M6aFFuzIdXpN204yA&s">
+</div>
+        <div class="caption">Creati Studio</div>
+      </div>
+</div>
+
+<!-- Hàng thứ 11 -->
+    <div class="image-row glass-bg">
     <h2 class="row-title">AI-assisted content creation</h2>
 
   <div class="image-box">
@@ -467,7 +479,7 @@ container.innerHTML = `
       </div>    
 </div>
 
-    <!-- Hàng thứ 11 -->
+    <!-- Hàng thứ 12 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Create a product advertisement article</h2>
 
@@ -479,7 +491,7 @@ container.innerHTML = `
       </div>
 </div>
 
-    <!-- Hàng thứ 12 -->
+    <!-- Hàng thứ 13 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Information Technology Knowledge</h2>
   <div class="image-box">
@@ -527,7 +539,7 @@ container.innerHTML = `
 </div>
 
 
-   <!-- Hàng thứ 13 -->
+   <!-- Hàng thứ 14 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Mind Map</h2>
       <div class="image-box">
@@ -574,7 +586,7 @@ container.innerHTML = `
 </div>
 
 
-    <!-- Hàng thứ 14 -->
+    <!-- Hàng thứ 15 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Excel</h2>
   <div class="image-box">
@@ -586,7 +598,7 @@ container.innerHTML = `
 </div>
 
 
-    <!-- Hàng thứ 15 -->
+    <!-- Hàng thứ 16 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">PowerPoint</h2>
   <div class="image-box">
@@ -653,7 +665,7 @@ container.innerHTML = `
       </div>
 </div>
 
-    <!-- Hàng thứ 16 -->
+    <!-- Hàng thứ 17 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Company Organizational</h2>
   <div class="image-box">
@@ -694,7 +706,7 @@ container.innerHTML = `
 
 </div>
 
-    <!-- Hàng thứ 17 -->
+    <!-- Hàng thứ 18 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Relationship Counseling</h2>
   <div class="image-box">
@@ -735,7 +747,7 @@ container.innerHTML = `
       </div>
 </div>
 
-    <!-- Hàng thứ 18 -->
+    <!-- Hàng thứ 19 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Encyclopedia of celebrities</h2>
   <div class="image-box">
@@ -753,7 +765,7 @@ container.innerHTML = `
       </div>
 </div>
 
-    <!-- Hàng thứ 19 -->
+    <!-- Hàng thứ 20 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Tour Guide</h2>
   <div class="image-box">
@@ -765,7 +777,7 @@ container.innerHTML = `
 </div>
 
 
-    <!-- Hàng thứ 20 -->
+    <!-- Hàng thứ 21 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">A discourse on poetry</h2>
   <div class="image-box">
@@ -785,7 +797,7 @@ container.innerHTML = `
 </div>
 
 
-    <!-- Hàng thứ 21 -->
+    <!-- Hàng thứ 22 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Logo design</h2>
   <div class="image-box">
@@ -796,7 +808,7 @@ container.innerHTML = `
       </div>
 </div>
 
-   <!-- Hàng thứ 22 -->
+   <!-- Hàng thứ 23 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Sound recorder to text</h2>
       <div class="image-box">
@@ -822,7 +834,7 @@ container.innerHTML = `
 
 </div>
 
-   <!-- Hàng thứ 23 -->
+   <!-- Hàng thứ 24 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Incredibly beautiful videos</h2>
       <div class="image-box">
@@ -854,7 +866,7 @@ container.innerHTML = `
       </div>
 </div>
 
-         <!-- Hàng thứ 24 -->
+         <!-- Hàng thứ 25 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Study skills for using AI</h2>
 
