@@ -1,6 +1,6 @@
 const customThumbnails = {
-  'Anh Ngữ Aten - Thành Thạo Tiếng Anh Giao Tiếp Trong 6 Tháng': 'https://contenthub-static.grammarly.com/blog/wp-content/uploads/2021/04/english-language-irregularities.jpeg',
-  'Tiếng Anh Giao Tiếp - Tiến Bộ Từng Ngày': 'https://media.dolenglish.vn/PUBLIC/MEDIA/d6c8bb75-d6c5-4093-a249-6900cd9bdbf1.jpg',
+  'Anh Ngữ Aten - Thành Thạo Tiếng Anh Giao Tiếp Trong 6 Tháng': 'https://www.dropbox.com/scl/fi/wch4z4xi72q8okk00t2l6/Ti-ng-Anh-Giao-Ti-p-Ti-n-B-T-ng-Ng-y.png?rlkey=1bfsuozlb6seeon68g2eovx0n&st=jb8978mg&raw=1',
+  'Tiếng Anh Giao Tiếp - Tiến Bộ Từng Ngày': 'https://www.dropbox.com/scl/fi/c2qza32ca26e6n2cxu5e0/Anh-Ng-Aten-Th-nh-Th-o-Ti-ng-Anh-Giao-Ti-p-Trong-6-Th-ng.jpg?rlkey=flog76l626af7ax24c2w0erwd&st=69eqk4wn&raw=1',
   // thêm các mục khác nếu cần
 };
 
@@ -19,6 +19,42 @@ const folderLinks = {
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
+  },
+  'Học Tiếng Anh Nghe Nói Với Giáo Viên Nước Ngoài': {
+    url: 'https://www.facebook.com/HocTiengAnhGiaoTiepVoiGiaoVienNuocNgoai/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ro3xnd60qrvtqydjapwdh/H-c-Ti-ng-Anh-Nghe-N-i-V-i-Gi-o-Vi-n-N-c-Ngo-i.jpg?rlkey=jcm1lhrx93ke07wfiqeldq5mz&st=n1nc4oic&raw=1'
+  },
+  'Anh Ngữ Aten Quận 5 - Tiếng Anh Giao Tiếp': {
+    url: 'https://www.facebook.com/tienganhgiaotiepquan5/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pvndohikp1at1tii0oezz/Anh-Ng-Aten-Qu-n-5-Ti-ng-Anh-Giao-Ti-p.png?rlkey=yxk96hyibaj331q61ty87na7x&st=lvchfx67&raw=1'
+  },
+  'Tiếng Anh Giao Tiếp - Tiến Bộ Từng Ngày': {
+    url: 'https://www.facebook.com/groups/854814243254036/media/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lomdjop61as7wb8zesil9/Ti-ng-Anh-Giao-Ti-p-Ti-n-B-T-ng-Ng-y.jpg?rlkey=4yu2elh1hghmdbidkyji7jw57&st=phhx5emv&raw=1',
+  },
+  'Sinh Hoạt Tiếng Anh Giao Tiếp': {
+    url: 'https://www.facebook.com/sinhhoattienganh/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/uaslxbpuzoi457c4pc0li/Sinh-Ho-t-Ti-ng-Anh-Giao-Ti-p.png?rlkey=122qwkf1q852gbjt7kpqacgdx&st=ofxbnhe4&raw=1',
+  },
+  'Phát Âm Hay - American Pronunciation': {
+    url: 'https://www.facebook.com/phatamhay/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/myp5fsuhhczmbu3ly1811/Ph-t-m-Hay-American-Pronunciation.png?rlkey=rrfwzqbx1drtaq1lcf8lj69w5&st=6yvhv2lv&raw=1'
+  },
+  'Phát Âm Hay - American Pronunciation': {
+    url: 'https://www.facebook.com/phatamhay/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/myp5fsuhhczmbu3ly1811/Ph-t-m-Hay-American-Pronunciation.png?rlkey=rrfwzqbx1drtaq1lcf8lj69w5&st=wy2s0xvs&raw=1'
+  },
+  'Tiếng Anh giao tiếp Langmaster': {
+    url: 'https://www.facebook.com/HoctiengAnhLangmaster/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jbblukjkllifotfrqqogv/Ti-ng-Anh-giao-ti-p-Langmaster.jpg?rlkey=nyfqactzlrih6mopjp6dilqrd&st=xdehm9u3&raw=1'
+  },
+  'English Speaking practice': {
+    url: 'https://www.facebook.com/groups/5688211251275040/media',
+    thumbnail: 'https://www.dropbox.com/scl/fi/i1eoqcn831eizxqa2s304/English-Speaking-practice.jpg?rlkey=ro51xu5ou06fi0y6xb782a4nx&st=w63rl9pq&raw=1'
+  },
+  'Spoken English and Vocabulary': {
+    url: 'https://www.facebook.com/profile.php?id=100083296070350&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dh0zcvbm9p4p5q2a7sl85/Spoken-English-and-Vocabulary.jpg?rlkey=cci21a001m2z7oqass702e1lz&st=5vfkn3ux&raw=1'
   },
   // thêm các mục khác nếu cần
 };
