@@ -1,6 +1,6 @@
 const customThumbnails = {
   'Code': 'https://www.dropbox.com/scl/fi/o9yii9k5qbfcuvu7kg3ne/Chinese-Language.jpg?rlkey=77s9qqwz9m29d8yzbsdg0pnb1&st=uy6ilei0&raw=1',
-  'Word': 'https://www.dropbox.com/scl/fi/o9yii9k5qbfcuvu7kg3ne/Chinese-Language.jpg?rlkey=77s9qqwz9m29d8yzbsdg0pnb1&st=uy6ilei0&raw=1',
+  'Word': 'https://www.dropbox.com/scl/fi/yoo7azv4awmqnv9amomnu/Chinese-Language-Word.webp?rlkey=az3yp1j6gjc3gc71xjmnnvi3l&st=ihpw0ddo&raw=1',
   // thêm các mục khác nếu cần
 };
 
