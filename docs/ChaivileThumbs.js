@@ -1,11 +1,13 @@
 const customThumbnails = {
-  '/': 'https://www.dropbox.com/scl/fi/o9yii9k5qbfcuvu7kg3ne/Chinese-Language.jpg?rlkey=77s9qqwz9m29d8yzbsdg0pnb1&st=uy6ilei0&raw=1',
+  'Code': 'https://www.dropbox.com/scl/fi/o9yii9k5qbfcuvu7kg3ne/Chinese-Language.jpg?rlkey=77s9qqwz9m29d8yzbsdg0pnb1&st=uy6ilei0&raw=1',
+  'Word': 'https://www.dropbox.com/scl/fi/o9yii9k5qbfcuvu7kg3ne/Chinese-Language.jpg?rlkey=77s9qqwz9m29d8yzbsdg0pnb1&st=uy6ilei0&raw=1',
   // thêm các mục khác nếu cần
 };
 
 // Danh sách thư mục và số lượng ảnh trong mỗi thư mục
 const folders = {
-  '/': ['talkin_image_1753443307198.jpg', 'talkin_image_1753443308595.jpg', 'talkin_image_1753443310857.jpg', 'talkin_image_1753443313432.jpg', 'talkin_image_1758770495797.jpg'],
+  'Code': ['talkin_image_1753443307198.jpg', 'talkin_image_1753443308595.jpg', 'talkin_image_1753443310857.jpg', 'talkin_image_1753443313432.jpg'],
+  'Word': ['talkin_image_1758770495797.jpg'],
   // thêm các mục khác nếu cần
 };
 
