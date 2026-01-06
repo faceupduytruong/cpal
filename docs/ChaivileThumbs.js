@@ -5,7 +5,7 @@ const customThumbnails = {
 
 // Danh sách thư mục và số lượng ảnh trong mỗi thư mục
 const folders = {
-  'Letter': ['talkin_image_1753443307198.jpg', 'talkin_image_1753443308595.jpg', 'talkin_image_1753443310857.jpg', 'talkin_image_1753443313432.jpg', 'talkin_image_1758770495797.jpg'],
+  '/': ['talkin_image_1753443307198.jpg', 'talkin_image_1753443308595.jpg', 'talkin_image_1753443310857.jpg', 'talkin_image_1753443313432.jpg', 'talkin_image_1758770495797.jpg'],
   // thêm các mục khác nếu cần
 };
 
