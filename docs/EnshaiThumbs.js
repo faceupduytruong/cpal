@@ -22,6 +22,10 @@ const folders = {
 };
 
 const folderLinks = {
+  'Sách Tiếng Anh': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/English/index.htm',
+    thumbnail: 'https://524334.fs1.hubspotusercontent-na1.net/hubfs/524334/Blogs/Blog%20Featured/speaking_the_english_why_english_is_so_difficult_to_learn_featured.jpg'
+  },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
