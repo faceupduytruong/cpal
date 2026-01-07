@@ -48,13 +48,6 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/KHprotech/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/pzq6r9g9qfsoa3iegicu0/KH-Pro-Tech-Institute.jpg?rlkey=grgnu5p9n0ofa3v4i3a8jpiny&st=3tvk4cq4&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">KH Pro-Tech Institute</div>
-      </div>
-
-      <div class="image-box">
        <div onclick="openRightHalfPopup('https://helpx.adobe.com/vn_vi/support.html' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/yuynl1ug5t4utg5f97qde/Adobe-Help.avif?rlkey=c6kjvmeidb5pkogs1sdop1kuy&st=xoaj36gm&raw=1" alt="Ảnh 1">
 </div>
@@ -63,8 +56,20 @@ container.innerHTML = `
       
  </div>
 
+     <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Adobe Illustrator</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/KHprotech/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/pzq6r9g9qfsoa3iegicu0/KH-Pro-Tech-Institute.jpg?rlkey=grgnu5p9n0ofa3v4i3a8jpiny&st=3tvk4cq4&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">KH Pro-Tech Institute</div>
+      </div>
+      
+</div>
 
-    <!-- Hàng thứ 2 -->
+
+    <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">GIMP</h2>
   <div class="image-box">
@@ -83,7 +88,19 @@ container.innerHTML = `
       
 </div>
 
-    <!-- Hàng thứ 3 -->
+     <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Canva</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61576949445888&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/fm3n3urm2n43kk8m33ynr/Antbook-Canva-cho-ng-i-i-l-m.png?rlkey=erga2i8mkstery69l0xvjn5jm&st=i333gt4k&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Antbook - Canva cho người đi làm</div>
+      </div>
+      
+</div>
+
+    <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Photo Editor Applications</h2>
   <div class="image-box">
@@ -94,6 +111,7 @@ container.innerHTML = `
       </div>
       
 </div>
+
 
 `;
 
