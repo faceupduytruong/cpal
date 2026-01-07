@@ -162,6 +162,25 @@ container.innerHTML = `
 
     <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
+    <h2 class="row-title">Building Home</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/xaynhalandau.vn/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/xq31kuf023f5ppylmc1x4/X-y-Nh-L-n-u.png?rlkey=r9pvbtbq3dlzm5a721aw38j3s&st=4o83c9qv&raw=1">
+</div>
+        <div class="caption">Xây Nhà Lần Đầu</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/weodesign.hcm/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/qphd1e0ska39roedtf2i3/Weo-Design.jpg?rlkey=3q048nl0ecox2ykhnz851w0xp&st=rrinhoho&raw=1">
+</div>
+        <div class="caption">Weo Design</div>
+      </div>
+      
+</div>
+
+    <!-- Hàng thứ 7 -->
+    <div class="image-row glass-bg">
     <h2 class="row-title">Decor</h2>
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/@G%C3%B3cDecorVn/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -221,7 +240,7 @@ container.innerHTML = `
     
 </div>
 
-    <!-- Hàng thứ 7 -->
+    <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Tải xuống tài liệu BIM</h2>
   <div class="image-box">
