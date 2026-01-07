@@ -119,6 +119,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Architecture</h2>
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/frankdesignacademii/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/svdnodcg502oaflwkguu1/Frank-Design-Academy.jpg?rlkey=y3faknkl7k1nb0du49cyjxzrs&st=9qal04b7&raw=1">
+</div>
+        <div class="caption">Frank Design Academy</div>
+      </div>
+    
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/@REVIT4U/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/1f39f017ggl9rqcnd0qwa/REVIT4U.webp?rlkey=1g50kjcbiwo89a2d3we9ypuox&st=2j6g60ra&raw=1">
 </div>
