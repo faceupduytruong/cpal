@@ -52,8 +52,7 @@ container.innerHTML = `
         <div class="caption">Trại AutoCAD</div>
       </div>
 
-    <h2 class="row-title">AutoCAD</h2>
-  <div class="image-box">
+   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/@ThanLe/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/kes90jycxdd9wt3yx9937/Th-n-L.png?rlkey=wt77tb8lmmn2dw7sd1848utt2&st=kz2tgx9w&raw=1">
 </div>
