@@ -89,10 +89,10 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Architecture Design</h2>
   <div class="image-box">
-  <div onclick="openRightHalfPopup('https://0u4f7c.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-02-24/ceca7b46-30d7-4ac9-a742-2882f3b20eca.JPEG">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/815479533482926/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/oj4v9ueps0z4r2x6w7d6u/AIAI-ng-d-ng-AI-trong-thi-t-k-Ki-n-Tr-c-N-i-th-t.webp?rlkey=zhf5ebv40n4obcvfhrsoxy1dd&st=pe60e3or&raw=1">
 </div>
-        <div class="caption">Trợ lý thiết kế kết cấu</div>
+        <div class="caption">AIAI - Ứng dụng AI trong thiết kế Kiến Trúc, Nội thất</div>
       </div>
 
   <div class="image-box">
@@ -101,6 +101,14 @@ container.innerHTML = `
 </div>
         <div class="caption">Kết xuất trang trí 3D</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://0u4f7c.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-02-24/ceca7b46-30d7-4ac9-a742-2882f3b20eca.JPEG">
+</div>
+        <div class="caption">Trợ lý thiết kế kết cấu</div>
+      </div>
+      
 </div>
 
 
