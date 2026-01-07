@@ -36,6 +36,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@tinhtaolen19/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/esc3906wover22o8s9iy1/T-nh-t-o-l-n.jpg?rlkey=snfl686wxd110yvn9ti9kqe24&st=vrjevd8r&raw=1',
   },
+  'Nguyễn Kim Tâm': {
+    url: 'https://www.facebook.com/Kimtamthuyhang/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/cdvxoz4cpm791pg18d4yo/Nguy-n-Kim-T-m.jpg?rlkey=tyyevunl0y6pzg37h8ko4bu5q&st=gsjtq5zk&raw=1',
+  },
   'Làm đẹp thật thích': {
     url: 'https://www.youtube.com/@Lamdepthatthich1/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/rf2rbvs1zya4ctkmsdb6g/L-m-p-th-t-th-ch.jpg?rlkey=obcxx6eh1n193dqcjhj83r67s&st=ezqmmb5q&raw=1',
