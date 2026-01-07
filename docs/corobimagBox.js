@@ -364,6 +364,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Android</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@mitchiase/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/9tjmrorxarnatybk0sx3c/M-t-Chia-S.webp?rlkey=ud96t3o4jj71ea26b9jsc3zck&st=ukth80hg&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Mít Chia Sẻ</div>
+      </div>
+      
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/android' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/c2o6llfqomkfqdmmn8tx1/Qu-n-Tr-M-ng-Android.png?rlkey=5tu7ezi1nwxpwjchhi8wvuaiy&st=rjpqwujo&raw=1" alt="Ảnh 1">
 </div>
