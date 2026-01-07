@@ -88,6 +88,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@vaimeohay.9/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9yyggcj6nzjqnd4vtso1e/V-i-M-o-Hay.jpg?rlkey=v3nw4roiqisbth1dm2mzyg1w9&st=v5nj9trj&raw=1',
   },
+  'Xe Ôm Vlog': {
+    url: 'https://www.facebook.com/hoangxeomvlog/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/x5n3dkgn1a09iyg3ge04r/Xe-m-Vlog.jpg?rlkey=f2w84s386dm86torhtc0bcmxe&st=c9gj5exm&raw=1',
+  },
   'Hờ Biển': {
     url: 'https://www.youtube.com/@hobienstory/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0w070f9qk5rs98lgzq8nv/H-Bi-n.jpg?rlkey=30f9tkt13rucwu8c1s4pea07b&st=nt8dce60&raw=1',
