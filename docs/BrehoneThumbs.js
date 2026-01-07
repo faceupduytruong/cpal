@@ -57,6 +57,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/GoneTooFarShow/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vlt091su9upsgvszm5i8p/Gone-Too-Far.png?rlkey=1ep4ehfecpkc12kpwdap6fgar&st=jyi9lucg&raw=1',
   },
+  'Duy Trương': {
+    url: 'https://www.facebook.com/hi.thanhduy/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/40j5d1f1mxh85d64l1h99/Duy-Tr-ng.jpg?rlkey=q19yw50ucms5bc9ylragncle9&st=cr9egvdt&raw=1',
+  },
   'Thomas Lee': {
     url: 'https://www.facebook.com/tuanshock121/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5n7c6r73j24pk8sd8pxq8/Thomas-Lee.jpg?rlkey=2jp11g1vw81yfmxbuk66wafr4&st=hb1txtao&raw=1',
