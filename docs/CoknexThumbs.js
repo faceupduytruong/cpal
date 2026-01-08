@@ -82,7 +82,7 @@ const folderLinks = {
   },
   'Hùng Không Ngu': {
     url: 'https://www.youtube.com/@HungKngu/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/hcw6bayduy4td75xwaesh/nh-ReView.jpg?rlkey=exl9qp7f6gqfevxatmwcgl1u7&st=42sawntw&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nlh83eivq5xrti0s72i4p/H-ng-Kh-ng-Ngu.jpg?rlkey=exah7id54pifbxiy0kffc4mtm&st=bww6oeyo&raw=1',
   },
   'TÒ MÒ': {
     url: 'https://www.youtube.com/@tomovakhampha/shorts/',
