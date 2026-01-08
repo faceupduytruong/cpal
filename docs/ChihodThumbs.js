@@ -45,6 +45,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100057411881264&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/11en93i0nu77334trf7m7/D-y-N-u-n.jpg?rlkey=y32npnjziosmk68xcs9yv1ist&st=b9c9igwp&raw=1',
   },
+  'Bếp bên sườn đồi': {
+    url: 'https://www.facebook.com/bepbensuondoiofficial/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/v2nzer0my62b68r3icu2m/B-p-b-n-s-n-i.jpg?rlkey=xq279boeefnedbnuov5azfz3o&st=f180vmg6&raw=1',
+  },
  'Doctor Housing': {
     url: 'https://www.facebook.com/doctorhousingofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/st587ga0viymhp769llon/Doctor-Housing.jpg?rlkey=hrnqxz8u5b5pgpi5en6u8aahx&st=n946g9gh&raw=1'
