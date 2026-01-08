@@ -145,5 +145,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/tramvan.thcs/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lfz20t38dke6k2auajohy/Tr-m-v-n.jpg?rlkey=h89xxykwa4a7kyp4o5htb68ox&st=07mo9i4f&raw=1'
   },
+ 'Artbook': {
+    url: 'https://www.facebook.com/Artbookvn/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/leem6eu0sxezlboytvnxz/Artbook.jpg?rlkey=ug9fj4vbdt215hjbova1dbuqo&st=63th0fs4&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
