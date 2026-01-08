@@ -237,6 +237,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Kiến trúc Akisa</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/niemvuicuaongchu/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/61u4jf00ew7l4dvj2kxlq/ng-Ch-Decor.png?rlkey=zqdhfycbyjqa1on61xol4ezus&st=q7udkr6o&raw=1">
+</div>
+        <div class="caption">Ông Chú Decor</div>
+      </div>
     
 </div>
 
