@@ -971,7 +971,7 @@ container.innerHTML = `
 
             <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61583850737971&sk=photos', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/gptdmrmzjdskgr7lb8rze/C-ng-ng-Al-Gemini-Canva.webp?rlkey=p8zy6o2d54jmmnptiq2z83gt8&st=0tb327kp&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/4xlxdunuzpfzt3h71r4g5/C-ng-ng-Al-Gemini-Canva.webp?rlkey=a8flb2qrtvyo5kyr0onp19f2u&st=96ojoscr&raw=1">
 </div>
         <div class="caption">Cộng Đồng Al Gemini - Canva</div>
       </div>
