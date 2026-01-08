@@ -95,6 +95,12 @@ container.innerHTML = `
         <div class="caption">AIAI - Ứng dụng AI trong thiết kế Kiến Trúc, Nội thất</div>
       </div>
 
+  <div onclick="openRightHalfPopup('https://www.facebook.com/tonyhoangaixaydung/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/2k3ij3jh9vwrpob08q3vb/Tony-Ho-ng-Chia-S-AI-cho-X-y-D-ng.png?rlkey=86xbxkaqmo4coxojvriopgy2p&st=pknfwh6z&raw=1">
+</div>
+        <div class="caption">Tony Hoàng Chia Sẻ AI cho Xây Dựng</div>
+      </div>
+
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://nwfycr.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-02-28/6752e50d-07f1-4309-9b16-73256df0da41.JPEG">
