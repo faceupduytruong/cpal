@@ -48,6 +48,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1lqc62ak5egssjxe8pyax/1-Ph-t-Khoa-H-c.jpg?rlkey=amr5lcq3ismu9j5otk5x4g4xz&st=cz8z4477&raw=1',
   },
+  'Khám Phá Mọi Thứ': {
+    url: 'https://www.youtube.com/@khamphamoithu88/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jf4u4ibtzlwz2lle0oke9/Kh-m-Ph-M-i-Th.webp?rlkey=04bh8bcsdk1iznnnazgl8z68l&st=q250f6lc&raw=1',
+  },
   'Soi sáng': {
     url: 'https://www.youtube.com/c/SoiS%C3%A1ngBrightSideVietnamese/videos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/naiwaeddd3amkl727y7bi/Soi-S-ng.jpg?rlkey=31q5r9dlpxi0q0v1yj7ld76n9&st=d07e89ut&raw=1',
@@ -74,6 +78,10 @@ const folderLinks = {
   },
   'Đình Đề ReView': {
     url: 'https://www.youtube.com/@dedomreview/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hcw6bayduy4td75xwaesh/nh-ReView.jpg?rlkey=exl9qp7f6gqfevxatmwcgl1u7&st=42sawntw&raw=1',
+  },
+  'Hùng Không Ngu': {
+    url: 'https://www.youtube.com/@HungKngu/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/hcw6bayduy4td75xwaesh/nh-ReView.jpg?rlkey=exl9qp7f6gqfevxatmwcgl1u7&st=42sawntw&raw=1',
   },
   'TÒ MÒ': {
@@ -115,6 +123,14 @@ const folderLinks = {
   'Cáo Láo Nháo JEB': {
     url: 'https://www.youtube.com/@CAOLAONHAOJEB/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/d4hkjmuoucgr3dojch42p/C-o-L-o-Nh-o-JEB.jpg?rlkey=1hdw6jz0yvwbwj27gmp4z01of&st=u5at9bo3&raw=1',
+  },
+  'Tàng Tự Viên': {
+    url: 'https://www.youtube.com/@T%C3%A0ngT%E1%BB%B1Vi%C3%AAn/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qqg4o472ndraix74v8v3w/T-ng-T-Vi-n.jpg?rlkey=rcwzqmym5y8kjwd0v6gd2nbik&st=zlkqxg61&raw=1',
+  },
+  'Emotional Tales': {
+    url: 'https://www.youtube.com/@EmotionalTales/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6eat2ugdafi2ucc472i4a/Emotional-Tales.jpg?rlkey=6sknp1rhlvdjt5qc053ein3s2&st=jgob3iqc&raw=1',
   },
   'Học hỏi thêm': {
     url: 'https://www.youtube.com/@hochoithem/shorts/',
