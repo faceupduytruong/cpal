@@ -94,7 +94,8 @@ container.innerHTML = `
 </div>
         <div class="caption">AIAI - Ứng dụng AI trong thiết kế Kiến Trúc, Nội thất</div>
       </div>
-
+      
+ <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/tonyhoangaixaydung/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/2k3ij3jh9vwrpob08q3vb/Tony-Ho-ng-Chia-S-AI-cho-X-y-D-ng.png?rlkey=86xbxkaqmo4coxojvriopgy2p&st=pknfwh6z&raw=1">
 </div>
