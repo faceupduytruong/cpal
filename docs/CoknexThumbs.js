@@ -50,7 +50,7 @@ const folderLinks = {
   },
   'Khám Phá Mọi Thứ': {
     url: 'https://www.youtube.com/@khamphamoithu88/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jf4u4ibtzlwz2lle0oke9/Kh-m-Ph-M-i-Th.webp?rlkey=04bh8bcsdk1iznnnazgl8z68l&st=q250f6lc&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gw989s4a77jo67j5eikz8/Kh-m-Ph-M-i-Th.avif?rlkey=2hx2u35tsuf85rvobdwwzptcl&st=gip1pyuv&raw=1',
   },
   'Soi sáng': {
     url: 'https://www.youtube.com/c/SoiS%C3%A1ngBrightSideVietnamese/videos/',
@@ -78,7 +78,7 @@ const folderLinks = {
   },
   'Đình Đề ReView': {
     url: 'https://www.youtube.com/@dedomreview/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/hcw6bayduy4td75xwaesh/nh-ReView.jpg?rlkey=exl9qp7f6gqfevxatmwcgl1u7&st=42sawntw&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hcw6bayduy4td75xwaesh/nh-ReView.jpg?rlkey=exl9qp7f6gqfevxatmwcgl1u7&st=qkhvjmq6&raw=1',
   },
   'Hùng Không Ngu': {
     url: 'https://www.youtube.com/@HungKngu/shorts/',
