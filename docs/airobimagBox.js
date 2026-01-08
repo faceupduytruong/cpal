@@ -970,6 +970,13 @@ container.innerHTML = `
       </div>
 
             <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61583850737971&sk=photos', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/gptdmrmzjdskgr7lb8rze/C-ng-ng-Al-Gemini-Canva.webp?rlkey=p8zy6o2d54jmmnptiq2z83gt8&st=0tb327kp&raw=1">
+</div>
+        <div class="caption">Cộng Đồng Al Gemini - Canva</div>
+      </div>
+
+            <div class="image-box">
   <div onclick="openRightHalfPopup('https://gist.github.com/coolaj86/6f4f7b30129b0251f61fa7baaa881516', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/g272yhx54o30t2n44dbp0/ChatGPT-Dan-Jailbreak.jpg?rlkey=skdduk6d93j6xq8op6k5wodjr&st=s2trzxr0&raw=1">
 </div>
