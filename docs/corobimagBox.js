@@ -70,7 +70,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/minhlakhoa.tinhoc/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/yu8krlzf1bb8b1kou9noz/M-nh-L-Khoa-Office.webp?rlkey=w9qmf9oj4why1qviytgqo4sa5&st=ajz6w4kc&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/suwsbtbeu731sub9r94a0/M-nh-L-Khoa-Office.ico?rlkey=s29z5wola30g12r8wxldxyxi1&st=kainkbns&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Mình Là Khoa (Office)</div>
       </div>
