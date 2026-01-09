@@ -152,6 +152,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/chuyenlacuatrang/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/oz4cndjj1fnk69n9wpvq4/Chuy-n-l-c-a-Trang.jpg?rlkey=a3c8vb72wtmh00mi6e64vrgke&st=kmegfwqj&raw=1',
   },
+  "Davo's Lingo": {
+    url: 'https://www.facebook.com/davoslingo/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mnud3wbitzic3lktv60i7/Davo-s-Lingo.jpg?rlkey=bewf69o557hrsbv8c115nfqes&st=kcojjatq&raw=1',
+  },
   'MC Quang Huy': {
     url: 'https://www.facebook.com/profile.php?id=61581484430903&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/tblc057on8le9tt4hu6ru/MC-Quang-Huy.jpg?rlkey=0zkq1d26yu1kc2dao9mqvrutx&st=u6ngatxp&raw=1',
