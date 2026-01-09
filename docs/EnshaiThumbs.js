@@ -28,7 +28,7 @@ const folderLinks = {
   },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
+    thumbnail: 'https://www.dropbox.com/scl/fi/lhjr9olvbwg0vy3q0hlna/Google-Translate.webp?rlkey=jypud322b4z68dladqetnxcok&st=2ynt7066&raw=1'
   },
   'Disney Vietsub': {
     url: 'https://www.facebook.com/profile.php?id=100076216793607&sk=reels_tab',
@@ -49,6 +49,10 @@ const folderLinks = {
   'Dustin Duc Nguyen': {
     url: 'https://www.facebook.com/dustinducng/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4upcxc99s5559nq3b6ukx/Dustin-Duc-Nguyen.jpg?rlkey=9f9wedz82qxpm98b0kz9x3eqk&st=6u03g5x7&raw=1'
+  },
+  'Huỳnh Vũ Thuỷ Tiên  (Cô Tiên Tinker)': {
+    url: 'https://www.facebook.com/cotien.tinker/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vtel1uc7pzfn22adq25p1/Hu-nh-V-Thu-Ti-n-C-Ti-n-Tinker.jpg?rlkey=qwwcflpumkdzwm6okpwsjzy7r&st=819jfc5r&raw=1'
   },
   'B English': {
     url: 'https://www.facebook.com/Benglishofficial/reels/',
