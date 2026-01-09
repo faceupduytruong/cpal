@@ -112,6 +112,18 @@ container.innerHTML = `
       
 </div>
 
+    <!-- Hàng thứ 5 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">DaVinci Resolve</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/tuthanhcolor/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/buxn68sb9eli2jp7xcti8/Davinci-Resolve.png?rlkey=hwkvjo2260by78rlho2kk55he&st=7dz08x9g&raw=1">
+</div>
+        <div class="caption">Thanh Color (Tú Thanh)</div>
+      </div>
+      
+</div>
+
 
 `;
 
