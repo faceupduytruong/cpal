@@ -148,3 +148,55 @@ function openLink(baseUrl) {
   window.openRightHalfPopup(finalUrl, 'Popup', window.innerWidth * 2 + 40, 745);
 
 }
+
+const grid = document.getElementById('folder-grid');
+const bookList = document.getElementById('bookList');
+const popup = document.getElementById('listPopup');
+
+// Render folder-grid với thumbnail
+Object.entries(bookLinks).forEach(([name, data]) => {
+  const folderItem = document.createElement('div');
+  folderItem.className = 'folder-item';
+
+  const img = document.createElement('img');
+  img.src = data.thumbnail;
+  img.alt = name;
+  folderItem.appendChild(img);
+
+  const folderName = document.createElement('div');
+  folderName.className = 'folder-name';
+  folderName.textContent = name;
+  folderItem.appendChild(folderName);
+
+  // Khi click vào folderItem -> mở popup danh sách li
+  folderItem.onclick = () => openListPopup();
+
+  grid.appendChild(folderItem);
+});
+
+// Hàm mở popup danh sách li
+function openListPopup() {
+  bookList.innerHTML = ''; // clear cũ
+
+  Object.entries(bookLinks).forEach(([name, data], index) => {
+    const li = document.createElement('li');
+    li.setAttribute('data-src', data.url);
+
+    li.innerHTML = `
+      <span class="rainbow-animate">${index + 1}.&nbsp;&nbsp;&nbsp;</span>
+      <span class="rainbow-text">${name}</span>
+    `;
+
+    // Khi click vào li -> mở link trong tab mới
+    li.onclick = () => window.open(data.url, '_blank');
+
+    bookList.appendChild(li);
+  });
+
+  popup.style.display = 'block';
+}
+
+// Hàm đóng popup
+function closeListPopup() {
+  popup.style.display = 'none';
+}
