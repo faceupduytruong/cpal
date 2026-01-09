@@ -33,30 +33,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/KenhPhuNuPhamNgoc/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uibt8yvfg1uav75omxo7v/Ph-m-Ng-c.jpg?rlkey=pinpbjl7clls25u8tz6ouv7jb&st=7y2ovna5&raw=1',
   },
-  'Phùng Thị Mùi': {
-    url: 'https://www.facebook.com/profile.php?id=100063678393688&sk=photos_by',
-    thumbnail: 'https://www.dropbox.com/scl/fi/hherjat3uwyrqjtc4madi/Ph-ng-Th-M-i.jpg?rlkey=sei7a9zt3tk1jxtefb4vi1za3&st=jnwkcz1z&raw=1',
-  },
-  'Tuyen saphia': {
-    url: 'https://www.facebook.com/tuyensaphia92/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/v893lruulpvf3v6hafg2i/Tuyen-saphia.jpg?rlkey=eop43yf7z9bguvbxg0f87qzg8&st=s1cpfkw4&raw=1',
-  },
-  'Tuyen saphia': {
-    url: 'https://www.facebook.com/tuyensaphia92/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/v893lruulpvf3v6hafg2i/Tuyen-saphia.jpg?rlkey=eop43yf7z9bguvbxg0f87qzg8&st=s1cpfkw4&raw=1',
-  },
-  'Út về vườn': {
-    url: 'https://www.facebook.com/utvevuon/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/epxg7mk6ww2dzappirfo3/t-v-v-n.jpg?rlkey=u02sro1w0powqgiejxwls7v13&st=0afm0kn6&raw=1',
-  },
-  'Bếp bên sườn đồi': {
-    url: 'https://www.facebook.com/bepbensuondoiofficial/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/v2nzer0my62b68r3icu2m/B-p-b-n-s-n-i.jpg?rlkey=xq279boeefnedbnuov5azfz3o&st=f180vmg6&raw=1',
-  },
-  'Dạy Nấu Ăn': {
-    url: 'https://www.facebook.com/profile.php?id=100057411881264&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/11en93i0nu77334trf7m7/D-y-N-u-n.jpg?rlkey=y32npnjziosmk68xcs9yv1ist&st=b9c9igwp&raw=1',
-  },
  'Doctor Housing': {
     url: 'https://www.facebook.com/doctorhousingofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/st587ga0viymhp769llon/Doctor-Housing.jpg?rlkey=hrnqxz8u5b5pgpi5en6u8aahx&st=n946g9gh&raw=1'
