@@ -77,7 +77,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61556563833906&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/86qd66g3na3tcbin3g1fh/H-o-Tin-H-c.jpg?rlkey=0lpkxri8c3skkkgc656lhyirz&st=znlvpxmf&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/z3fj399hnf4gie5bht66i/H-o-Tin-H-c.jpg?rlkey=v522uv9m32w3ix7y5wqfwutlx&st=gwg03ek1&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Hảo Tin Học</div>
       </div>
