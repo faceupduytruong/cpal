@@ -394,6 +394,13 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://gist.github.com/coolaj86/6f4f7b30129b0251f61fa7baaa881516', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/g272yhx54o30t2n44dbp0/ChatGPT-Dan-Jailbreak.jpg?rlkey=skdduk6d93j6xq8op6k5wodjr&st=s2trzxr0&raw=1">
+</div>
+        <div class="caption">ChatGPT-Dan-Jailbreak</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://d1f5p0.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2025-02-14/d1ae5a64-d7e5-4b85-8880-db61225102f9.jpg?x-bce-process=image/format,f_png/resize,m_fill,w_360,h_360">
 </div>
@@ -921,6 +928,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/Quoc.cajon/reels/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/uwop4zqo28g9lxkrnoj5s/Qu-c-Nguy-n.webp?rlkey=8q5pub6qabw1jd0ca23hjq1qm&st=wpph289q&raw=1">
+</div>
+        <div class="caption">Quốc Nguyễn</div>
+      </div>
+
+      <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/363657942789633/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/g3g41uz5svpldopw7mm3t/B-nh-D-n-H-c-AI.jpg?rlkey=kjaf2dgvhrsu1it2fwsno63q7&st=1p0a0vbo&raw=1">
 </div>
@@ -974,13 +988,6 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/4xlxdunuzpfzt3h71r4g5/C-ng-ng-Al-Gemini-Canva.webp?rlkey=a8flb2qrtvyo5kyr0onp19f2u&st=96ojoscr&raw=1">
 </div>
         <div class="caption">Cộng Đồng Al Gemini - Canva</div>
-      </div>
-
-            <div class="image-box">
-  <div onclick="openRightHalfPopup('https://gist.github.com/coolaj86/6f4f7b30129b0251f61fa7baaa881516', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/g272yhx54o30t2n44dbp0/ChatGPT-Dan-Jailbreak.jpg?rlkey=skdduk6d93j6xq8op6k5wodjr&st=s2trzxr0&raw=1">
-</div>
-        <div class="caption">ChatGPT-Dan-Jailbreak</div>
       </div>
       
 </div>
