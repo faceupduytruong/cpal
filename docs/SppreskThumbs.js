@@ -37,6 +37,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/phattrienbanthanlientuc/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/ees17ngvzumv0et65mthw/Ph-t-tri-n-B-n-Th-n-Li-n-T-c.jpg?rlkey=pea6pdt5hhztlnljopdcox13r&st=h1gmdwbm&raw=1',
   },
+  'Dòng Chảy Tri Thức': {
+    url: 'https://www.facebook.com/profile.php?id=61554500235289&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gf0nd3kdaknferi6lkt3m/D-ng-Ch-y-Tri-Th-c.jpg?rlkey=xec41vlj5ylkwc37qk40oarea&st=2rxzppb8&raw=1',
+  },
   'Trường doanh nhân HBR': {
     url: 'https://www.facebook.com/hbr.edu.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/fmd2etqlx7jxf4s7kffsk/Tr-ng-doanh-nh-n-HBR.jpg?rlkey=4ylg37vnru9tg745ulruih14l&st=q89i0xtz&raw=1',
