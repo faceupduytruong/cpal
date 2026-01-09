@@ -15,15 +15,11 @@ const folders = {
 const folderLinks = {
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/l5pqrerdpedcav42jfqvs/Google-Translate.jpg?rlkey=yde7f3gymfc8ins82d4a8wzrj&st=0iy87a0g&raw=1'
   },
   'Phùng Thị Mùi': {
     url: 'https://www.facebook.com/profile.php?id=100063678393688&sk=photos_by',
     thumbnail: 'https://www.dropbox.com/scl/fi/hherjat3uwyrqjtc4madi/Ph-ng-Th-M-i.jpg?rlkey=sei7a9zt3tk1jxtefb4vi1za3&st=jnwkcz1z&raw=1',
-  },
-  'Tuyen saphia': {
-    url: 'https://www.facebook.com/tuyensaphia92/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/v893lruulpvf3v6hafg2i/Tuyen-saphia.jpg?rlkey=eop43yf7z9bguvbxg0f87qzg8&st=s1cpfkw4&raw=1',
   },
   'Tuyen saphia': {
     url: 'https://www.facebook.com/tuyensaphia92/reels/',
