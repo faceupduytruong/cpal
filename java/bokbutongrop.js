@@ -70,25 +70,24 @@ let urls = [
     "https://www.facebook.com/READbooks.vn/photos",
     "https://www.facebook.com/tusachsongkhac/photos",
     "https://www.facebook.com/thaiha2206/photos",
-    "https://www.facebook.com/trepublishinghouse/photos"
+    "https://www.facebook.com/trepublishinghouse/photos",
+    "https://www.facebook.com/Rubikbooks/photos",
+    "https://www.facebook.com/profile.php?id=61580509469959&sk=photos"
 ];
 
-let currentIndex = 0; // bắt đầu từ phần tử đầu tiên
+let lastIndex = -1;
 
 function openBookList() {
   try {
-    // lấy đường dẫn hiện tại
-    const url = urls[currentIndex];
+    let randomIndex;
+    do {
+      randomIndex = Math.floor(Math.random() * urls.length);
+    } while (randomIndex === lastIndex);
 
-    // mở popup với đường dẫn đó
+    lastIndex = randomIndex;
+    const url = urls[randomIndex];
+
     window.openRightHalfPopup(url, 'Popup', window.innerWidth, 745);
-
-    // cập nhật index cho lần click tiếp theo
-    currentIndex++;
-    if (currentIndex >= urls.length) {
-      currentIndex = 0; // quay lại từ đầu nếu hết danh sách
-    }
-
   } catch (e) {
     alert("Không thể truy cập trang web. Hãy kiểm tra lại đường dẫn");
   }
