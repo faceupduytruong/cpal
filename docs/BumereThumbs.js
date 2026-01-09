@@ -23,7 +23,7 @@ const folderLinks = {
   },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
+    thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
   },
   'Tu Thân Tự Cường': {
     url: 'https://www.facebook.com/profile.php?id=61584242907915&sk=reels_tab',
@@ -44,6 +44,10 @@ const folderLinks = {
   'Cô Gái Có Râu': {
     url: 'https://www.facebook.com/cogaicorautiktok/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2kyziklt154zoslvdu0rl/C-G-i-C-R-u.jpg?rlkey=nytwa8x0yfemzagu5gh1wu9yj&st=ay2ueqam&raw=1',
+  },
+  'Ông Già Đầu Bạc': {
+    url: 'https://www.facebook.com/profile.php?id=100090803640643&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/r75q3ryrn4u9ind47yk57/ng-Gi-u-B-c.jpg?rlkey=wpr6d370z3adkentw01rzonz6&st=l0ovzkkm&raw=1',
   },
   'Mâu Thanh Thủy': {
     url: 'https://www.facebook.com/mentormauthuy/reels/',
