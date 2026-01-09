@@ -76,6 +76,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61556563833906&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/86qd66g3na3tcbin3g1fh/H-o-Tin-H-c.jpg?rlkey=0lpkxri8c3skkkgc656lhyirz&st=znlvpxmf&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hảo Tin Học</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61557631294837&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/3ypde45kc0hoie4h0izv1/Tin-H-c-Official-Office.png?rlkey=b3wtm2pv0py4nqm8xp8u7p3ji&st=qh4j6fxd&raw=1" alt="Ảnh 1">
 </div>
