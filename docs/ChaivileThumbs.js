@@ -14,7 +14,7 @@ const folders = {
 const folderLinks = {
   'Sách Lịch Sử': {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/History/index.htm',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ybgtg02gxchlop3d1rand/S-ch-L-ch-S.jpg?rlkey=4r9nh42kl2dlcbken1b01th5u&st=xj13kaxa&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ybgtg02gxchlop3d1rand/S-ch-L-ch-S.jpg?rlkey=4r9nh42kl2dlcbken1b01th5u&st=2ewx2xp4&raw=1'
   },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
