@@ -24,7 +24,7 @@ const folders = {
 const folderLinks = {
   'Sách Tiếng Anh': {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/English/index.htm',
-    thumbnail: 'https://524334.fs1.hubspotusercontent-na1.net/hubfs/524334/Blogs/Blog%20Featured/speaking_the_english_why_english_is_so_difficult_to_learn_featured.jpg'
+    thumbnail: 'https://www.dropbox.com/scl/fi/wpqrl5k1l64e5239sz01r/S-ch-Ti-ng-Anh.jpg?rlkey=9xuwl8m065d5km0dmdd31xe4d&st=pxshuwio&raw=1'
   },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
