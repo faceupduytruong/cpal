@@ -15,7 +15,7 @@ const folders = {
 const folderLinks = {
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
+    thumbnail: 'https://www.dropbox.com/scl/fi/35acdxhtejtdlm7me2v3q/Google-Translate.png?rlkey=h98f3i8mutkm97rvwvap1ej0o&st=g3bs8t3c&raw=1'
   },
   'Dương Dê': {
     url: 'https://www.youtube.com/@duongde_official/shorts/',
