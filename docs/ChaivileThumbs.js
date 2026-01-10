@@ -18,7 +18,7 @@ const folderLinks = {
   },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ghr6z9a8jq4v62ir7e9yo/Google-Translate.webp?rlkey=akonaabgl62h1tcovkfduh9ie&st=fd0zik9q&raw=1'
   },
   'Trung Tâm Hoa Ngữ Hoa Lạc': {
     url: 'https://www.facebook.com/hoalac.edu.vn/photos/',
