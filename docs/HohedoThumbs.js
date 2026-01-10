@@ -14,7 +14,7 @@ const folders = {
 const folderLinks = {
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://www.dropbox.com/scl/fi/go7hgrxhqjdlc8twaob54/Google.webp?rlkey=re0z5hmanpo8rp4xts7m24xck&st=riwgh2gl&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/sazm89zzk6sbkmx56wwxg/Google-Translate.webp?rlkey=x1mis47gchjuz3kfbpfbsrjux&st=o91oti8l&raw=1'
   },
   'Bài Học Sống': {
     url: 'https://www.youtube.com/@baihocsong/videos/',
