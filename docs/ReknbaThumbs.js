@@ -15,7 +15,7 @@ const folders = {
 const folderLinks = {
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
+    thumbnail: 'https://www.dropbox.com/scl/fi/eodlcula8nmnoiqgj2ast/Google-Translate.jpg?rlkey=mejml95frh87dk2o7zrofybxo&st=y3kj1hqv&raw=1'
   },
   'Revit Việt Nam': {
     url: 'https://www.facebook.com/revit.vn/reels/',
