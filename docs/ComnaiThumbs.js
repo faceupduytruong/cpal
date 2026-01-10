@@ -20,7 +20,7 @@ const folderLinks = {
   },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
+    thumbnail: 'https://www.dropbox.com/scl/fi/yzybwmr1evaef8uicfj6f/Google-Translate.jpg?rlkey=9llm5qj0yvyaxyksqzpuvs2f8&st=t4e090lj&raw=1'
   },
   'Học Tiếng Anh Nghe Nói Với Giáo Viên Nước Ngoài': {
     url: 'https://www.facebook.com/HocTiengAnhGiaoTiepVoiGiaoVienNuocNgoai/photos/',
