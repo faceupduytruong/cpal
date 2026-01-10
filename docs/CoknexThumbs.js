@@ -14,7 +14,7 @@ const folders = {
 const folderLinks = {
   'Sách Khám Phá Bí Ẩn': {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Traveling/index.htm',
-    thumbnail: 'https://www.dropbox.com/scl/fi/9q3kqi9jmgcpjf5ij3a6v/S-ch-Kh-m-Ph-B-n.png?rlkey=bo1e3gbuir7qpsy03zzdxya4u&st=37o58k5e&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ri7ard0iy4hyu9n987n7o/S-ch-Kh-m-Ph-B-n.jpg?rlkey=ln731vw27wb0m97w71wy9nf3z&st=q59bg052&raw=1'
   },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
