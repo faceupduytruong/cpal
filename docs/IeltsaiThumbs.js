@@ -26,7 +26,7 @@ const folderLinks = {
   },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://i.blogs.es/8f04a0/google/500_333.jpeg'
+    thumbnail: 'https://www.dropbox.com/scl/fi/buqauxhpri0953ogvexs1/Google-Translate.jpeg?rlkey=i3mfo5s50l7cjsl33jgcudy21&st=92wvxb20&raw=1'
   },
   'LY PHAM (Learnatlim)': {
     url: 'https://www.facebook.com/learnwithlypham/reels/',
