@@ -38,7 +38,7 @@ const folderLinks = {
   },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://imageio.forbes.com/specials-images/imageserve/67c1b830e28a08d5960ba904/Google-Translate-will-soon-become-much-more-powerful-/960x0.jpg?format=jpg&width=960'
+    thumbnail: 'https://www.dropbox.com/scl/fi/dn3dezvwi6f8h3zvueq0d/Google-Translate.webp?rlkey=e8gyjqt02aam4f50vfkbw4t8a&st=49w4pktu&raw=1'
   },
   'English Siêu Dễ': {
     url: 'https://www.facebook.com/vetco.edu.vn/reels/',
