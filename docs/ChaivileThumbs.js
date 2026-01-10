@@ -14,7 +14,7 @@ const folders = {
 const folderLinks = {
   'Sách Lịch Sử': {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/History/index.htm',
-    thumbnail: 'https://524334.fs1.hubspotusercontent-na1.net/hubfs/524334/Blogs/Blog%20Featured/speaking_the_english_why_english_is_so_difficult_to_learn_featured.jpg'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ybgtg02gxchlop3d1rand/S-ch-L-ch-S.jpg?rlkey=4r9nh42kl2dlcbken1b01th5u&st=xj13kaxa&raw=1'
   },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
