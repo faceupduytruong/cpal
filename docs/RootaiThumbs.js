@@ -34,7 +34,7 @@ const folders = {
 const folderLinks = {
   'Sách Tiếng Anh': {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/English/index.htm',
-    thumbnail: 'https://www.dropbox.com/scl/fi/7azb9g5km7duvdueyb6ib/S-ch-Ti-ng-Anh.webp?rlkey=xl7fub305xq35wrip3r5u58sd&st=3z7c3bar&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/6fvn2gb9hhho0phjkz55j/S-ch-Ti-ng-Anh.jpg?rlkey=zmp2xq8vlb19hflr5by13docx&st=7thjso0k&raw=1'
   },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
