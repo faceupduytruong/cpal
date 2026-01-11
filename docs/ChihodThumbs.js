@@ -17,6 +17,10 @@ const folderLinks = {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Story/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/mzn88e97lpg5o4wgqw3cx/S-ch-K-Chuy-n.webp?rlkey=71udzkkrr0jw2plf77s72ebxg&st=zbnf1h9g&raw=1',
   },
+  'Tuyển Tập Thơ': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Poetry/index.htm',
+    thumbnail: 'https://www.dropbox.com/scl/fi/imj2rexi2hzcfzi1a5j8b/Tuy-n-T-p-Th.jpg?rlkey=80d6ggvusvpfptlmx84o073r6&st=ogxgaazn&raw=1'
+  },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1'
