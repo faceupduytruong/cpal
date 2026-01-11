@@ -13,6 +13,10 @@ const folders = {
 };
 
 const folderLinks = {
+  'Sách Nâng Cao Tự Tin': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Confide/index.htm',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wdqp4dut1x953ar8tnaex/Confide.webp?rlkey=h7iq454zqjyy1tdjmi4uw5lao&st=8dseqlnv&raw=1'
+  },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/0vcqaf9dsdjeddunxb3my/Google-Translate.jpg?rlkey=w1xgsxebr8nymb4kz4qynj90m&st=rpxggygd&raw=1'
