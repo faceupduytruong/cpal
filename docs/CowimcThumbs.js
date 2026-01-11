@@ -13,6 +13,10 @@ const folders = {
 };
 
 const folderLinks = {
+  'Sách Nấu Ăn': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Cooking/index.htm',
+    thumbnail: 'https://www.dropbox.com/scl/fi/n1sar2c3mc3au0v54zp13/S-ch-N-u-n.jpg?rlkey=oay9iv7qec9zmoj4u6t798ir5&st=ax54pdsd&raw=1'
+  },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/l5pqrerdpedcav42jfqvs/Google-Translate.jpg?rlkey=yde7f3gymfc8ins82d4a8wzrj&st=0iy87a0g&raw=1'
