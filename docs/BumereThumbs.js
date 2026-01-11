@@ -9,17 +9,10 @@ const folders = {
   // thêm các mục khác nếu cần
 };
 
-const bookLinks = {
-  'Dharma': {
-    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Buddha/index.htm',
-    thumbnail: 'https://contenthub-static.grammarly.com/blog/wp-content/uploads/2021/04/english-language-irregularities.jpeg',
-  },
-};
-
 const folderLinks = {
-  'Cần sửa lại 3': {
+  'Sách Phật Học': {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Buddha/index.htm',
-    thumbnail: 'https://524334.fs1.hubspotusercontent-na1.net/hubfs/524334/Blogs/Blog%20Featured/speaking_the_english_why_english_is_so_difficult_to_learn_featured.jpg'
+    thumbnail: 'https://www.dropbox.com/scl/fi/xe7bp0crapjx9fkraj7d7/S-ch-Ph-t-H-c.jpg?rlkey=783nitmm7c85jlcv4qz3h2tyv&st=3xwp4gqn&raw=1'
   },
   'Google': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
