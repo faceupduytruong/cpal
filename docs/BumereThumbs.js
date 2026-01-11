@@ -10,6 +10,10 @@ const folders = {
 };
 
 const folderLinks = {
+  'Sách Về Tình Yêu': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Love/index.htm',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xgi6afqdslzzg9cf372o0/S-ch-V-T-nh-Y-u.jpg?rlkey=kneb7wblywuimmt7bwkdpzecq&st=p80up63c&raw=1'
+  },
   'Sách Phật Học': {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Buddha/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/xe7bp0crapjx9fkraj7d7/S-ch-Ph-t-H-c.jpg?rlkey=783nitmm7c85jlcv4qz3h2tyv&st=3xwp4gqn&raw=1'
