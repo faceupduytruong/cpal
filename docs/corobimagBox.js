@@ -69,6 +69,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Computer/index.htm' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/khpn6vxy4klce8csxcnhn/S-ch-H-c-Windows.png?rlkey=id233gog5hxvfhooy0dm36sxd&st=2k1a4zwl&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Sách Học Computer</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/minhlakhoa.tinhoc/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/suwsbtbeu731sub9r94a0/M-nh-L-Khoa-Office.ico?rlkey=s29z5wola30g12r8wxldxyxi1&st=kainkbns&raw=1" alt="Ảnh 1">
 </div>
