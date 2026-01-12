@@ -73,6 +73,7 @@ let urls = [
     "https://www.facebook.com/thaiha2206/photos",
     "https://www.facebook.com/trepublishinghouse/photos",
     "https://www.facebook.com/Rubikbooks/photos",
+    "https://www.facebook.com/OmegaPlusBooks/photos",
     "https://www.facebook.com/profile.php?id=61580509469959&sk=photos"
 ];
 
