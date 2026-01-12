@@ -109,6 +109,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Gà Excel (Office)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/UnicaBookstore/photos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/cwir1858l2sy4mxilt8h5/UnicaBookstore-Shortcut-Office.jpg?rlkey=jcoaxlf218ujhj9vdchhaj7h5&st=xw3cx6xf&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">UnicaBookstore (Shortcut Office)</div>
+      </div>
           
 </div>
 
