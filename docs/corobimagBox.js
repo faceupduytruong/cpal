@@ -65,7 +65,14 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/795421863881485/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/vw89ashcmvcqvoq2r2owu/T-ng-h-p-c-c-ph-n-m-m-m-y-t-nh.png?rlkey=zwgfhogsj9mromn3qyqckl7q5&st=3z3p777i&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Tổng hợp các phần mềm máy tính ✔</div>
+        <div class="caption">Tổng hợp các phần mềm máy tính</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/676295082491590/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/7r4hbj0vbnl577ruwyz58/VN-Zoom-Support-Team.webp?rlkey=xs5bwh5jg7qzc2lrcmnc20bac&st=2114so8y&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">VN-Zoom Support Team</div>
       </div>
 
       <div class="image-box">
@@ -74,49 +81,7 @@ container.innerHTML = `
 </div>
         <div class="caption">Sách Học Computer</div>
       </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/minhlakhoa.tinhoc/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/suwsbtbeu731sub9r94a0/M-nh-L-Khoa-Office.ico?rlkey=s29z5wola30g12r8wxldxyxi1&st=kainkbns&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Mình Là Khoa (Office)</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61556563833906&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/z3fj399hnf4gie5bht66i/H-o-Tin-H-c.jpg?rlkey=v522uv9m32w3ix7y5wqfwutlx&st=gwg03ek1&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Hảo Tin Học</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61557631294837&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/3ypde45kc0hoie4h0izv1/Tin-H-c-Official-Office.png?rlkey=b3wtm2pv0py4nqm8xp8u7p3ji&st=qh4j6fxd&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Tin Học Official (Office)</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/thuthuatexcelchonguoibanron/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/lufu6mprf5pxl9uw12tpq/Th-Thu-t-Excel-Cho-Ng-i-B-n-R-n.png?rlkey=3cd57p117o01omkesk6kccsrb&st=5fmqh7p7&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Thủ Thuật Excel Cho Người Bận Rộn (Office)</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.youtube.com/c/G%C3%A0Excel/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/8e4c9fq1oqi7dwbfidhkv/G-Excel.png?rlkey=0ok5mdbzb51hdkz51k9bw8cwi&st=sn9rdwqp&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Gà Excel (Office)</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/UnicaBookstore/photos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/cwir1858l2sy4mxilt8h5/UnicaBookstore-Shortcut-Office.jpg?rlkey=jcoaxlf218ujhj9vdchhaj7h5&st=xw3cx6xf&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">UnicaBookstore (Shortcut Office)</div>
-      </div>
-          
+         
 </div>
 
      <!-- Hàng thứ 2 -->
@@ -436,6 +401,53 @@ container.innerHTML = `
 </div>
 
      <!-- Hàng thứ 5 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Office</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/minhlakhoa.tinhoc/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/suwsbtbeu731sub9r94a0/M-nh-L-Khoa-Office.ico?rlkey=s29z5wola30g12r8wxldxyxi1&st=kainkbns&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Mình Là Khoa (Office)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61556563833906&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/z3fj399hnf4gie5bht66i/H-o-Tin-H-c.jpg?rlkey=v522uv9m32w3ix7y5wqfwutlx&st=gwg03ek1&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hảo Tin Học</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61557631294837&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/3ypde45kc0hoie4h0izv1/Tin-H-c-Official-Office.png?rlkey=b3wtm2pv0py4nqm8xp8u7p3ji&st=qh4j6fxd&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tin Học Official (Office)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/thuthuatexcelchonguoibanron/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/lufu6mprf5pxl9uw12tpq/Th-Thu-t-Excel-Cho-Ng-i-B-n-R-n.png?rlkey=3cd57p117o01omkesk6kccsrb&st=5fmqh7p7&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Thủ Thuật Excel Cho Người Bận Rộn (Office)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/c/G%C3%A0Excel/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/8e4c9fq1oqi7dwbfidhkv/G-Excel.png?rlkey=0ok5mdbzb51hdkz51k9bw8cwi&st=sn9rdwqp&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Gà Excel (Office)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/UnicaBookstore/photos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/cwir1858l2sy4mxilt8h5/UnicaBookstore-Shortcut-Office.jpg?rlkey=jcoaxlf218ujhj9vdchhaj7h5&st=xw3cx6xf&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">UnicaBookstore (Shortcut Office)</div>
+      </div>
+          
+</div>
+
+     <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Smart Tech Toys</h2>
       <div class="image-box">
