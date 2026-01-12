@@ -44,7 +44,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/TiengTrungGiaoTiepTrucTuyen/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8xqorca93zn4wclbys21b/ChineseRd-Ti-ng-Trung-Tr-c-Tuy-n-T-i-Nh.jpg?rlkey=uxwcyp5ycqnk2knwp6wctuv0l&st=dtd233la&raw=1'
   },
-  'Mcbooksvn': {
+  'Mcbooksvn (Học Tiếng Trung)': {
     url: 'https://www.facebook.com/mcbooksvn/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/uy5gswlcrq8gfpdwjwuzz/Mcbooksvn.jpg?rlkey=5094eeqsf5jaw4y3szlwz88wn&st=xfhlfajj&raw=1'
   },
