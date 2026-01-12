@@ -133,11 +133,15 @@ const folderLinks = {
     url: 'https://www.facebook.com/cungcondoclap/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4ze216b7mswgu1amn3mdj/Qu-nh-Ch-u-C-ng-Con-c-L-p.jpg?rlkey=nf2x484u4uqib1w5ivnr41f3t&st=mtcdwxfe&raw=1'
   },
+ 'TKBooks (Các Môn Học)': {
+    url: 'https://www.facebook.com/TKBooks.vn/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/leem6eu0sxezlboytvnxz/Artbook.jpg?rlkey=ug9fj4vbdt215hjbova1dbuqo&st=63th0fs4&raw=1'
+  },
  'Trạm văn': {
     url: 'https://www.facebook.com/tramvan.thcs/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lfz20t38dke6k2auajohy/Tr-m-v-n.jpg?rlkey=h89xxykwa4a7kyp4o5htb68ox&st=07mo9i4f&raw=1'
   },
- 'Artbook': {
+ 'Artbook (Sáng Tạo)': {
     url: 'https://www.facebook.com/Artbookvn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/leem6eu0sxezlboytvnxz/Artbook.jpg?rlkey=ug9fj4vbdt215hjbova1dbuqo&st=63th0fs4&raw=1'
   },
