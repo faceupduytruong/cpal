@@ -129,6 +129,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/cungcondoclap/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4ze216b7mswgu1amn3mdj/Qu-nh-Ch-u-C-ng-Con-c-L-p.jpg?rlkey=nf2x484u4uqib1w5ivnr41f3t&st=mtcdwxfe&raw=1'
   },
+ 'Tiệm sách Những vì sao': {
+    url: 'https://www.facebook.com/TiemSachNhungvisao/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pex9dx5g8pi8nu9ipsngi/Ti-m-s-ch-Nh-ng-v-sao.jpg?rlkey=gt7qv8j3yl31n36vcustk8qhw&st=f9efyqnw&raw=1'
+  },
  'Einstein Books - Sách hay cho gia đình': {
     url: 'https://www.facebook.com/einstein.sachhaychomevabe/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8rzuqdkfhtwlxu99ak3wk/Einstein-Books-S-ch-hay-cho-gia-nh.jpg?rlkey=dauy6rn27qcricg5ovbczlrlv&st=yuqix6u3&raw=1'
