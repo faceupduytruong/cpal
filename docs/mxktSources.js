@@ -126,5 +126,10 @@ export const bgVideos = [
   "https://assets.mixkit.co/videos/50896/50896-720.mp4",
   "https://assets.mixkit.co/videos/50901/50901-720.mp4",
   "https://assets.mixkit.co/videos/50902/50902-720.mp4",
-  "https://assets.mixkit.co/videos/50903/50903-720.mp4"
+  "https://assets.mixkit.co/videos/50903/50903-720.mp4",
+  "https://assets.mixkit.co/videos/49501/49501-720.mp4",
+  "https://assets.mixkit.co/videos/49486/49486-720.mp4",
+  "https://assets.mixkit.co/videos/49505/49505-720.mp4",
+  "https://assets.mixkit.co/videos/49535/49535-720.mp4",
+  "https://assets.mixkit.co/videos/49533/49533-720.mp4"
 ];
