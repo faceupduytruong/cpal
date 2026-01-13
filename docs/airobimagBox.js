@@ -468,6 +468,14 @@ container.innerHTML = `
 </div>
         <div class="caption">Lexica</div>
       </div>    
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/1342038416404962/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/rmapti6qdtxu0v4vgxra7/Ch-a-Bi-t-AI-Nh-ng-Th-ch-Kinh-Doanh-Online.webp?rlkey=969fmku6i94jkvklejwpr9j9h&st=lykqqzg0&raw=1">
+</div>
+        <div class="caption">Chưa Biết AI Nhưng Thích Kinh Doanh Online</div>
+      </div>  
+
 </div>
 
 <!-- Hàng thứ 10 -->
@@ -946,6 +954,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/mpt58iobe7k1xn6y1l6ei/n-Ng-C-ng-AI.jpg?rlkey=kwpk8cu72n27xq071ia13invy&st=3sofa82q&raw=1">
 </div>
         <div class="caption">Ăn Ngủ Cùng AI</div>
+      </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/1015021726107536/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/kar15usnqm1nuqi0ol3ht/S-ng-c-ng-AI.png?rlkey=dvdajp0v8nlzi59xqqo4l39i3&st=527fwcjx&raw=1">
+</div>
+        <div class="caption">Sống cùng AI</div>
       </div>
 
       <div class="image-box">
