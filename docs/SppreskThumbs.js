@@ -66,8 +66,12 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/3bffxiwfysp2134s1464k/D-m-c-M.png?rlkey=eqai0o3qiyzfi12hsn7hrkt8t&st=5e4iaaj6&raw=1',
   },
   'Cao Công Thành': {
-    url: 'https://www.facebook.com/CaoCongThanhOfficial/photos',
+    url: 'https://www.facebook.com/CaoCongThanhOfficial/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/41whnduk9dmm391z8o0br/Cao-C-ng-Th-nh.png?rlkey=uzrt4su0px7smp5a8juaqcdjy&st=e1sjecto&raw=1',
+  },
+  'Nguyễn Anh Tuấn  (Online Business Mentor)': {
+    url: 'https://www.facebook.com/nguyenanhtuan.mentor.official/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/409uhgkfvlra4r9u7lvl3/Nguy-n-Anh-Tu-n-Online-Business-Mentor.png?rlkey=6cxj0np4ch7q742tb6awz8beb&st=mgni2xic&raw=1',
   },
   'Trạm học NÓI': {
     url: 'https://www.facebook.com/TramhocNOI/reels/',
