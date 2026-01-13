@@ -35,7 +35,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61557186504215' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/9khjzf4b8y6l6u86y002u/K-t-C-u-X-y-D-ng-4.0.png?rlkey=zx53a8denehosjgdj4co50maf&st=95ahr5js&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/oxetsb1efqefl1cgcbofv/K-t-C-u-X-y-D-ng-4.0.png?rlkey=3fscp9xa9wr3qfmtzyqhhdbgu&st=pkz8hupk&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Kết Cấu Xây Dựng 4.0</div>
       </div>
