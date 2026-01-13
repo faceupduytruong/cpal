@@ -80,6 +80,18 @@ const folderLinks = {
     url: 'https://www.facebook.com/duocsithoa96/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/49ml75ndfm15135t75645/D-c-s-Thoa.png?rlkey=0f3nlzlg437jlkuaqo91js1wv&st=leg3jqbw&raw=1',
   },
+  'Quỳnh Chia Sẻ  (Cân Bằng Chuyển Hoá)': {
+    url: 'https://www.facebook.com/Quynh.Meothantai96/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/egqzjfxbib9r23onbqyi6/Qu-nh-Chia-S-C-n-B-ng-Chuy-n-Ho.png?rlkey=fcd7xq47rmeg4a8tckp866yoy&st=xogkyxgm&raw=1',
+  },
+  'Nguyen Thu Hang': {
+    url: 'https://www.facebook.com/nguyenthuhang.240890/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ftvk6po6powi2bcz0x6e3/Nguyen-Thu-Hang.jpg?rlkey=55zppmhjs56dr2h776k1mdvz6&st=wfs9vcws&raw=1',
+  },
+  'Hoàng Như Hoa': {
+    url: 'https://www.facebook.com/hoang.n.hoa.9/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pr14zlct6at2d57v1oex5/Ho-ng-Nh-Hoa.jpg?rlkey=r03qampblg8fir8wixnj2rg34&st=zofpfadk&raw=1',
+  },
   'Thơ Insulin': {
     url: 'https://www.facebook.com/profile.php?id=61584560322804&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/y8ycx9n35jg6gie08pwzn/Th-Insulin.jpg?rlkey=97jbwaqen40vz6swbbmgs1wbt&st=611s3f3d&raw=1',
