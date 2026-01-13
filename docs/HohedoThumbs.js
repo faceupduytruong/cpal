@@ -72,5 +72,21 @@ const folderLinks = {
     url: 'https://www.facebook.com/PageBacSi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4m07pik17swishxjzuamg/B-c-s-c-a-b-n.jpg?rlkey=had70vy3m7z7io6tvh90b6ij1&st=vwavsg7c&raw=1',
   },
+  'BÁC SĨ TRẦN MINH (Trần Nhựt Minh)': {
+    url: 'https://www.facebook.com/Drtrannhutminh/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9ka4u2byz57el5ci0dvcr/B-C-S-TR-N-MINH-Tr-n-Nh-t-Minh.png?rlkey=qvb7ltr7gpsxlqq7fo9iwl7bm&st=1ugrkja9&raw=1',
+  },
+  'Dược sĩ Thoa': {
+    url: 'https://www.facebook.com/duocsithoa96/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/49ml75ndfm15135t75645/D-c-s-Thoa.png?rlkey=0f3nlzlg437jlkuaqo91js1wv&st=leg3jqbw&raw=1',
+  },
+  'Thơ Insulin': {
+    url: 'https://www.facebook.com/profile.php?id=61584560322804&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/y8ycx9n35jg6gie08pwzn/Th-Insulin.jpg?rlkey=97jbwaqen40vz6swbbmgs1wbt&st=611s3f3d&raw=1',
+  },
+  'Newme Sức Khỏe - Thái Hà Books': {
+    url: 'https://www.facebook.com/suckhoe.songxanh/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zf119u9z4vzn8iwd04urz/Newme-S-c-Kh-e-Th-i-H-Books.png?rlkey=c7wx2luz4qahmcn9wtnv7e3z4&st=lfspp1l5&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
