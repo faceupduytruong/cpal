@@ -62,6 +62,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/864872477456083/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/98e6ev48lb4nwn62c4c7j/Windows-11-Vi-t-Nam.png?rlkey=dv93il5pxubznq0enravwezwn&st=mlzvukbz&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Windows 11 Việt Nam</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/TeamOS.xyz/photos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/f7x2tdakyloidhebsbzxg/Teamos.xyz.png?rlkey=rwwcq7wd54023hbk9qn5hp5st&st=b40ngmt9&raw=1" alt="Ảnh 1">
 </div>
