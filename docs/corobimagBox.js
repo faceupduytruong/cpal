@@ -34,6 +34,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/hinh.hoang.thien.tai/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/khpn6vxy4klce8csxcnhn/H-nh-Ho-ng-Thi-n-T-i.png?rlkey=id233gog5hxvfhooy0dm36sxd&st=qovoe25r&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hình Hoàng Thiên Tài</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.youtube.com/@thinkview/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/2cl4wzvgxqzawwvaa8wo7/ThinkView.png?rlkey=q5fymzp9gjykwjodnikkc2tjm&st=jwscelhd&raw=1" alt="Ảnh 1">
 </div>
@@ -77,7 +84,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Computer/index.htm' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/khpn6vxy4klce8csxcnhn/S-ch-H-c-Windows.png?rlkey=id233gog5hxvfhooy0dm36sxd&st=2k1a4zwl&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/ot28dfehwj6h3qu159k50/S-ch-H-c-Windows.png?rlkey=0nj1gkfl4dflolxjq63bkawjz&st=ue4j55of&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Sách Học Computer</div>
       </div>
