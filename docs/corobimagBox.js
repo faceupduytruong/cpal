@@ -128,6 +128,13 @@ container.innerHTML = `
 </div>
         <div class="caption">MacLife CaFe</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/166439550424117/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/4nfhrh0wh42jny2q01pl6/Nghi-n-macOS-H-i-ng-i-ch-i-m-y-Mac.png?rlkey=m72dpmyt3l6cclipewr5ijn6h&st=a2bktcsh&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Nghiện macOS - Hội người chơi máy Mac</div>
+      </div>
  
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://lzhoang2801.github.io/introduction' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -421,7 +428,7 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.facebook.com/minhlakhoa.tinhoc/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/suwsbtbeu731sub9r94a0/M-nh-L-Khoa-Office.ico?rlkey=s29z5wola30g12r8wxldxyxi1&st=kainkbns&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Mình Là Khoa (Office)</div>
+        <div class="caption">Mình Là Khoa</div>
       </div>
 
       <div class="image-box">
@@ -435,28 +442,49 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61557631294837&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/3ypde45kc0hoie4h0izv1/Tin-H-c-Official-Office.png?rlkey=b3wtm2pv0py4nqm8xp8u7p3ji&st=qh4j6fxd&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Tin Học Official (Office)</div>
+        <div class="caption">Tin Học Official</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/tothuhoanblog/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/z3ffvkfr9b99x1ffpuyjc/T-Thu-Ho-n.png?rlkey=i0kbjmuz2bod4o5sq4l9bhju0&st=mveestjw&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tô Thu Hoàn</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61574668685456&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/qqaxuj0v5jw3jb43kkk15/Phong-Excel.png?rlkey=uner2mpr1dwblou2egiyoass3&st=89ersl37&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Phong Excel</div>
       </div>
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/thuthuatexcelchonguoibanron/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/lufu6mprf5pxl9uw12tpq/Th-Thu-t-Excel-Cho-Ng-i-B-n-R-n.png?rlkey=3cd57p117o01omkesk6kccsrb&st=5fmqh7p7&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Thủ Thuật Excel Cho Người Bận Rộn (Office)</div>
+        <div class="caption">Thủ Thuật Excel Cho Người Bận Rộn</div>
       </div>
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.youtube.com/c/G%C3%A0Excel/shorts/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/8e4c9fq1oqi7dwbfidhkv/G-Excel.png?rlkey=0ok5mdbzb51hdkz51k9bw8cwi&st=sn9rdwqp&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Gà Excel (Office)</div>
+        <div class="caption">Gà Excel</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/9slide.edu/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/cmslfhvwrr37vmhnyhms7/9Slide-Kh-a-h-c-thi-t-k-Powerpoint-d-nh-cho-Thuy-t-tr-nh-v-Truy-n-th-ng.png?rlkey=fswnerjqypeiq2upbk9hi3uly&st=19nbyzun&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">9Slide - Khóa học thiết kế Powerpoint dành cho Thuyết trình và Truyền thông</div>
       </div>
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/UnicaBookstore/photos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/cwir1858l2sy4mxilt8h5/UnicaBookstore-Shortcut-Office.jpg?rlkey=jcoaxlf218ujhj9vdchhaj7h5&st=xw3cx6xf&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">UnicaBookstore (Shortcut Office)</div>
+        <div class="caption">UnicaBookstore (Shortcut)</div>
       </div>
           
 </div>
