@@ -41,6 +41,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/phattrienbanthanlientuc/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/ees17ngvzumv0et65mthw/Ph-t-tri-n-B-n-Th-n-Li-n-T-c.jpg?rlkey=pea6pdt5hhztlnljopdcox13r&st=h1gmdwbm&raw=1',
   },
+  'Sách Hay Chọn Đọc': {
+    url: 'https://www.facebook.com/sachhaychondoc/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/b39jkijbod2l1ig2s2biu/S-ch-Hay-Ch-n-c.png?rlkey=syz8wfg5yeuq578gt9jrnd1j4&st=vi15ljmg&raw=1',
+  },
   'Dòng Chảy Tri Thức': {
     url: 'https://www.facebook.com/profile.php?id=61554500235289&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/gf0nd3kdaknferi6lkt3m/D-ng-Ch-y-Tri-Th-c.jpg?rlkey=xec41vlj5ylkwc37qk40oarea&st=2rxzppb8&raw=1',
