@@ -34,6 +34,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/motngaymoitasetrolai/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/1tv5ommeeot83slxu9231/Anh-Nam-C-i-Win.png?rlkey=5vwfv9ji9eusizn8s2ywcwlfi&st=ci164qko&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Anh Nam Cài Win</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/hinh.hoang.thien.tai/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/khpn6vxy4klce8csxcnhn/H-nh-Ho-ng-Thi-n-T-i.png?rlkey=id233gog5hxvfhooy0dm36sxd&st=qovoe25r&raw=1" alt="Ảnh 1">
 </div>
@@ -258,6 +265,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/4nfhrh0wh42jny2q01pl6/Nghi-n-macOS-H-i-ng-i-ch-i-m-y-Mac.png?rlkey=m72dpmyt3l6cclipewr5ijn6h&st=a2bktcsh&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Nghiện macOS - Hội người chơi máy Mac</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/196963615828774/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/35pr2m9oalgkjza680vpl/H-i-Macbook-Vi-t.webp?rlkey=51i0sg8ity59hvfek3b9wba8w&st=c6arz179&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hội Macbook Việt</div>
       </div>
  
       <div class="image-box">
@@ -495,6 +509,32 @@ container.innerHTML = `
 </div>
 
      <!-- Hàng thứ 7 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Games</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61552389458905&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/928b4ygr0t42syzhclay6/Shop-Game-Gear.webp?rlkey=9pmt12o8887z0wxg12slkil9u&st=r8xyadi7&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Shop Game Gear</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/inui.hcm/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/gszf1csb6y3todjtts8tl/M-y-Game-inui-HCM.jpg?rlkey=o6x2mj8n0hxz9luq088up0tj9&st=ysw9z23q&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Máy Game inui - HCM</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/maychoigamecamtayiuni/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/13ayj7cvzgy8duj3cva6r/M-y-ch-i-game-inui.png?rlkey=4genbd9y9e6x5b55ozkpcsqmd&st=4h0nrrtx&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Máy chơi game - inui</div>
+      </div>
+
+</div>
+
+     <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Smart Tech Toys</h2>
       <div class="image-box">
