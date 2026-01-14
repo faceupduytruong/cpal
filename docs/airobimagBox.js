@@ -476,18 +476,39 @@ container.innerHTML = `
         <div class="caption">Chưa Biết AI Nhưng Thích Kinh Doanh Online</div>
       </div>  
 
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/phocapaivn/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/tzmsmifi8x4jcmjym3cmu/PH-C-P-AI-ChatGPT-VEO-3-Gemini-make-Kling-Hailuo...-AI-Automation.png?rlkey=7jvcqgkfwkgagxtl5tydbfguw&st=d58k9ngy&raw=1">
+</div>
+        <div class="caption">PHỔ CẬP AI 🚀✨ ChatGPT, VEO 3, Gemini, make, Kling, Hailuo... AI Automation</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/109717852235362/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/452r8mxmhtcxi37likgid/Nghi-n-Prompt.png?rlkey=ozceyqq6u7wj8cijz1dkqwdxk&st=wxwtxv0m&raw=1">
+</div>
+        <div class="caption">Nghiện Prompt</div>
+      </div>
+
 </div>
 
 <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Create AI-generated videos</h2>
-
-  <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.creati.studio/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+    <div class="image-box">
+    <div onclick="openRightHalfPopup('https://www.creati.studio/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPkgwyOgCkOdKDU14j-M6aFFuzIdXpN204yA&s">
 </div>
         <div class="caption">Creati Studio</div>
       </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61580845559993&sk=reels_tab', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/6xg81m4z101le4i82vm86/30-Ng-y-H-c-L-m-N-i-Dung-Viral.webp?rlkey=g26syryecomhyjdqp93ahav70&st=bnsvzfyc&raw=1">
+</div>
+        <div class="caption">30 Ngày Học Làm Nội Dung Viral</div>
+      </div>
+
 </div>
 
 <!-- Hàng thứ 11 -->
@@ -922,13 +943,6 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61580845559993&sk=reels_tab', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/6xg81m4z101le4i82vm86/30-Ng-y-H-c-L-m-N-i-Dung-Viral.webp?rlkey=g26syryecomhyjdqp93ahav70&st=bnsvzfyc&raw=1">
-</div>
-        <div class="caption">30 Ngày Học Làm Nội Dung Viral</div>
-      </div>
-
-      <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/thuychibint/reels/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/bvsv0cpqxv8fo0vyuujzk/Thu-Nguy-n.jpg?rlkey=cd6bwgdkggfgrxnm1a992g02l&st=lzqzcgxr&raw=1">
 </div>
@@ -996,6 +1010,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/gog08btqlvdt4wt8uvb06/C-m-AI-lo.png?rlkey=su6sxkskswgl8go8jybnc6hvo&st=dgsaszoa&raw=1">
 </div>
         <div class="caption">Cơm AI lo</div>
+      </div>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100086287731832&sk=photos', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/y9q61h13tezmmub1n4879/Chuy-n-v-AI.png?rlkey=q981smdrud3bwfnuiw09pfpca&st=cl8r0k00&raw=1">
+</div>
+        <div class="caption">Chuyện về AI</div>
       </div>
 
             <div class="image-box">
