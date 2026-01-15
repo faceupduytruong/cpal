@@ -22,10 +22,6 @@ const folderLinks = {
     url: 'https://www.youtube.com/@mrcoby79/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/otolpyow4x66e5o6y2o91/Mr.-CoBy.jpg?rlkey=jv4mdxuc7lhhjo7wl160sothh&st=ow2qa99q&raw=1',
   },
-  'Cô Gái Có Râu': {
-    url: 'https://www.facebook.com/cogaicorautiktok/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/2kyziklt154zoslvdu0rl/C-G-i-C-R-u.jpg?rlkey=nytwa8x0yfemzagu5gh1wu9yj&st=ay2ueqam&raw=1',
-  },
   'Ông Già Đầu Bạc': {
     url: 'https://www.facebook.com/profile.php?id=100090803640643&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/r75q3ryrn4u9ind47yk57/ng-Gi-u-B-c.jpg?rlkey=wpr6d370z3adkentw01rzonz6&st=l0ovzkkm&raw=1',
