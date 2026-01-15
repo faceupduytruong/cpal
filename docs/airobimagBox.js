@@ -459,7 +459,7 @@ container.innerHTML = `
   <div onclick="openRightHalfPopup('https://deepai.org/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/7c4t6sds6z7oi7b9v4ozw/Deep.AI.png?rlkey=ydhprtzdq7tk72g4t4xpmnpwj&st=jlj5w7qc&raw=1">
 </div>
-        <div class="caption">Deep.Ai</div>
+        <div class="caption">Deep.AI</div>
       </div>    
 
   <div class="image-box">
