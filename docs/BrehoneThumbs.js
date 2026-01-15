@@ -21,6 +21,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@duongde_official/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/190ucmiipxhpb47jd0w9y/D-ng-D.webp?rlkey=xwsyfxb81njrtr5kj76qlg4x5&st=eni6y0gm&raw=1',
   },
+  'Tri Thức Mới': {
+    url: 'https://www.youtube.com/@trithucmoi24h/videos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mf8ybgrzwghdaklry6f7u/Tri-Th-c-M-i.jpg?rlkey=pr4vfnz1wh214xwr943tw19et&st=vrx9u47n&raw=1',
+  },
   'TACA - THỜI CUỘC': {
     url: 'https://www.facebook.com/tacathoicuocofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7sghcathlgbxuncfp36ce/TACA-TH-I-CU-C.jpg?rlkey=zu9utwmpyuc3skbrg6vzeysr8&st=mjq1akcs&raw=1',
@@ -36,6 +40,10 @@ const folderLinks = {
   'Phân tích và Bình luận': {
     url: 'https://www.youtube.com/@tinptbl/videos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2ibpih3d5huoqrmstoo3c/Ph-n-t-ch-v-B-nh-lu-n.jpg?rlkey=t9o4eay6it706vh81exbkcoln&st=iidl3uu8&raw=1',
+  },
+  'Dinh Lam': {
+    url: 'https://www.youtube.com/@nguyendinhlam91/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lenxu66pz54tm3qvlv6zk/inh-L-m-Cu-c-S-ng-Qu.jpg?rlkey=3t5hwk75kd3v9dzng0pnjaoyw&st=zy4565wr&raw=1',
   },
   'Nguyễn Huỳnh Lộc': {
     url: 'https://www.facebook.com/tran.tommy.7334/reels/',
