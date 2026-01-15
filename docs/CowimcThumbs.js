@@ -41,5 +41,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100057411881264&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/11en93i0nu77334trf7m7/D-y-N-u-n.jpg?rlkey=y32npnjziosmk68xcs9yv1ist&st=b9c9igwp&raw=1',
   },
+  'Primitive Art': {
+    url: 'https://www.facebook.com/primitiveart01/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h951uoc70qq525tkjrq2s/Primitive-Art.jpg?rlkey=ricnqq35fuu9d4aso38xb2iuq&st=89r4x8xv&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
