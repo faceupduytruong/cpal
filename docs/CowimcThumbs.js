@@ -23,7 +23,7 @@ const folderLinks = {
   },
   'Phùng Thị Mùi': {
     url: 'https://www.facebook.com/profile.php?id=100063678393688&sk=photos_by',
-    thumbnail: 'https://www.dropbox.com/scl/fi/hherjat3uwyrqjtc4madi/Ph-ng-Th-M-i.jpg?rlkey=sei7a9zt3tk1jxtefb4vi1za3&st=jnwkcz1z&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dk97vmt7v2ccrdc17pk3s/Ph-ng-Th-M-i.avif?rlkey=qbvgjm05fs98pf92xxikhk6ee&st=gfbc4wkh&raw=1',
   },
   'Tuyen saphia': {
     url: 'https://www.facebook.com/tuyensaphia92/reels/',
