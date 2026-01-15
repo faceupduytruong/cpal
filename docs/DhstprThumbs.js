@@ -18,5 +18,29 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
   },
+  'Huỳnh Vũ - Phong Thủy': {
+    url: 'https://www.youtube.com/@VuHuynh-nlpt/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ebgt3yw3p2x83873nnbhp/Hu-nh-V-Phong-Th-y.jpg?rlkey=hkij57z3wxpkhe6lhwe0bquaf&st=ry2cqh5x&raw=1',
+  },
+  'Tu Thân Tự Cường': {
+    url: 'https://www.facebook.com/profile.php?id=61584242907915&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/n8l9ll644hpy8olw6jbvu/Tu-Th-n-T-C-ng.jpg?rlkey=7vu15jp55ipbknjicg3nuw2xd&st=gxbap4p7&raw=1',
+  },
+  'Bản Ngã Tỉnh Thức': {
+    url: 'https://www.youtube.com/@BanNgaTinhThuc/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/liihoeluq31dz0vqp51i0/B-n-Ng-T-nh-Th-c.jpg?rlkey=5yrpsm6f2zi524jihp6cjcqwc&st=bdcrlv2l&raw=1',
+  },
+  'Bông Hoa Nhỏ': {
+    url: 'https://www.facebook.com/ChurnChurnCafe/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ccqbx908i918ml43xjnph/B-ng-Hoa-Nh.jpg?rlkey=wdvnv53wk5rv8k1iq7wtsdjwn&st=fydaaeo5&raw=1',
+  },
+  'Nguyễn Minh Chính  (Vạn Sự Tùy Duyên)': {
+    url: 'https://www.facebook.com/chinh.nguyenminh.5074/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1mzzmuso1v2lynxpl5hhl/Nguy-n-Minh-Ch-nh-V-n-S-T-y-Duy-n.jpg?rlkey=r2t6ahmba3n0ltcmefuxrfuhm&st=a6w002hv&raw=1',
+  },
+  '1 phút chữa lành': {
+    url: 'https://www.facebook.com/1phutchualanh/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/23ui112j0uoo31le34zi6/1-ph-t-ch-a-l-nh.jpg?rlkey=y9b6ltr6zbeg6y2oknq6r94l2&st=fpl24fmt&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
