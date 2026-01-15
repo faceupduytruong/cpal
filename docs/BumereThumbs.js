@@ -110,6 +110,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/cqm10x/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/41r33ahnzo5h5ltroe3ep/Chu-Quang-Minh.png?rlkey=xr48942q1zn7q8t692boyt7yy&st=4srrtql2&raw=1',
   },
+  'Phan Vinh Quang (Quang Run)': {
+    url: 'https://www.facebook.com/vinhquang.phan.50/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qzycvy359s6py8a7nzeq1/Phan-Vinh-Quang-Quang-Run.jpg?rlkey=uhzh0b1by87k5d70dne27t43h&st=r9jxpv4b&raw=1',
+  },
   'Trần Toản': {
     url: 'https://www.facebook.com/trantoan886868/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lq8c6arhkukj5rtu3kxy7/Tr-n-To-n.png?rlkey=uyhvegrw2wjywxod5tf90w5rn&st=8s2s86ic&raw=1',
