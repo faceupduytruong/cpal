@@ -131,5 +131,19 @@ export const bgVideos = [
   "https://assets.mixkit.co/videos/49486/49486-720.mp4",
   "https://assets.mixkit.co/videos/49505/49505-720.mp4",
   "https://assets.mixkit.co/videos/49535/49535-720.mp4",
-  "https://assets.mixkit.co/videos/49533/49533-720.mp4"
+  "https://assets.mixkit.co/videos/49533/49533-720.mp4",
+  "https://assets.mixkit.co/videos/51851/51851-720.mp4",
+  "https://assets.mixkit.co/videos/51850/51850-720.mp4",
+  "https://assets.mixkit.co/videos/51766/51766-720.mp4",
+  "https://assets.mixkit.co/videos/51756/51756-720.mp4",
+  "https://assets.mixkit.co/videos/51754/51754-720.mp4",
+  "https://assets.mixkit.co/videos/51320/51320-720.mp4",
+  "https://assets.mixkit.co/videos/51318/51318-720.mp4",
+  "https://assets.mixkit.co/videos/51316/51316-720.mp4",
+  "https://assets.mixkit.co/videos/51314/51314-720.mp4",
+  "https://assets.mixkit.co/videos/51310/51310-720.mp4",
+  "https://assets.mixkit.co/videos/51304/51304-720.mp4",
+  "https://assets.mixkit.co/videos/51295/51295-720.mp4",
+  "https://assets.mixkit.co/videos/51296/51296-720.mp4",
+  "https://assets.mixkit.co/videos/51297/51297-720.mp4"
 ];
