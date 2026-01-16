@@ -428,6 +428,13 @@ container.innerHTML = `
         <div class="caption">Alex - Nam trợ lý toàn diện</div>
       </div>
 
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/thoikydoda/photos/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/bomq5cq51k9l4772zxbd7/Th-i-k.webp?rlkey=jvjmxpveg9xdbl2ake5c37mnp&st=c02kp4bf&raw=1">
+</div>
+        <div class="caption">Thời kỳ đồ đá</div>
+      </div>
+
 </div>
 
 <!-- Hàng thứ 9 -->
