@@ -104,6 +104,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/294155504718055/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/o8v91tpyvo0657ulk0ssf/VOZ.VN-C-ng-ngh-K-thu-t.png?rlkey=cksdhcqwkflh9v7y6pl7vbsdm&st=ge7l02h4&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">VOZ.VN - Công nghệ & Kỹ thuật</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Computer/index.htm' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/ot28dfehwj6h3qu159k50/S-ch-H-c-Windows.png?rlkey=0nj1gkfl4dflolxjq63bkawjz&st=ue4j55of&raw=1" alt="Ảnh 1">
 </div>
