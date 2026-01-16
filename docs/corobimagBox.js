@@ -248,13 +248,6 @@ container.innerHTML = `
         <div class="caption">Torrentmac</div>
       </div>
 
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/MouseGic/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/whbliqe02hpeelj68a78l/MouseGic.webp?rlkey=7ho4tailxobygf70ye2cgoemm&st=qpb9k9k9&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">MouseGic</div>
-      </div>
-
 </div>
 
      <!-- Hàng thứ 3 -->
@@ -328,6 +321,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/hdigselpfdciaqgfep76j/MacintoshVietNam.png?rlkey=m5fth2dh8cxj7x0v9tq0wv42h&st=u33yoqp3&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Macintosh VietNam</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/MouseGic/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/whbliqe02hpeelj68a78l/MouseGic.webp?rlkey=7ho4tailxobygf70ye2cgoemm&st=qpb9k9k9&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">MouseGic</div>
       </div>
 
 </div>
