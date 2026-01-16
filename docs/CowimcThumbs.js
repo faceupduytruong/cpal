@@ -25,6 +25,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100063678393688&sk=photos_by',
     thumbnail: 'https://www.dropbox.com/scl/fi/dk97vmt7v2ccrdc17pk3s/Ph-ng-Th-M-i.avif?rlkey=qbvgjm05fs98pf92xxikhk6ee&st=gfbc4wkh&raw=1',
   },
+  'Ma Thị Ngoãn': {
+    url: 'https://www.facebook.com/profile.php?id=61581462201077&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gh5qxedzjxcdygdpoxajp/Ma-Th-Ngo-n.webp?rlkey=71b48n3kc4f7mz8kh0ud59kql&st=llw0sb1d&raw=1',
+  },
   'Tuyen saphia': {
     url: 'https://www.facebook.com/tuyensaphia92/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/v893lruulpvf3v6hafg2i/Tuyen-saphia.jpg?rlkey=eop43yf7z9bguvbxg0f87qzg8&st=s1cpfkw4&raw=1',
