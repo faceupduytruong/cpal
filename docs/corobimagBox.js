@@ -397,6 +397,13 @@ container.innerHTML = `
         <div class="caption">Ribalinux</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/itsfoss/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/vpnkvx8l5dfpud5v1ngbg/It-s-FOSS.png?rlkey=wl66dqc26w7z12wkx6msf8cmg&st=fj6y9r90&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">It's FOSS</div>
+      </div>
+
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.addictivetips.com/ubuntu-linux-tips/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/4mzl8p7skjf8os486c05c/Addictivetips-Ubuntu.png?rlkey=qc5szovplkj92exgcobqzllq8&st=86zr24hh&raw=1" alt="Ảnh 1">
@@ -430,6 +437,14 @@ container.innerHTML = `
      <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Distro Linux</h2>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/367825396651087/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/mo3whmycghwruwc9k3zcw/KDE.png?rlkey=9n5yznbbohgmdd3ff7t0379lu&st=8ozdbl4l&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">KDE</div>
+      </div>
+      
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/740670060221238/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/0eh2yd1k4by5kfvia50tt/Linux-Mint.png?rlkey=nc9rujh5og0cb3sbkzx5b4uf3&st=18n11nmg&raw=1" alt="Ảnh 1">
