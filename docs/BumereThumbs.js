@@ -164,7 +164,7 @@ const folderLinks = {
   },
   'Shinebooks - Sống thật': {
     url: 'https://www.facebook.com/shinebookssongthat/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/toee9nyronvcsitrapr1p/Mintbooks.png?rlkey=k5mo8130vw5op006n2myki6pg&st=a1tcpj3r&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xqyg6vzw8s5qkcrjhn6bx/Shinebooks-S-ng-th-t.png?rlkey=4iqhq88obdcjzbh6aisou8qwe&st=zil3f4o5&raw=1',
   },
   // thêm các mục khác nếu cần
 };
