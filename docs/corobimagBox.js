@@ -81,6 +81,13 @@ container.innerHTML = `
 </div>
         <div class="caption">3S-TEAM</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/techrum/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ikulzorv4xur9iuv5sd2h/Techrum.vn.png?rlkey=7dmdlsp00iq0j1o38th5u6gnr&st=3hep472s&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Techrum.vn</div>
+      </div>
       
 </div>
 
