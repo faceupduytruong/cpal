@@ -29,5 +29,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/revitvietnamtuhocrevit/posts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/qorng9j40ln31en9qkfmj/Revit-Vietnam-T-h-c-Revit.jpg?rlkey=s7kt69ip8e2pqujwm47amclzx&st=7lofzjo9&raw=1',
   },
+  'Sơn Long Revit Ctu': {
+    url: 'https://www.facebook.com/profile.php?id=100023083592363&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0wrbqac46lcyu1wtj8jzu/S-n-Long-Revit-Ctu.jpg?rlkey=tm7i2tbn0dmapk4ve4oivvaz3&st=z8qppg1s&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
