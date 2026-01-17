@@ -18,6 +18,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
   },
+  'Nguyen Brandon (BS Nguyễn Khoa Bình)': {
+    url: 'https://www.facebook.com/nguyen.brandon.921/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/leuu06e14eg0rkbhwtdem/Nguyen-Brandon-BS-Nguy-n-Khoa-B-nh.jpg?rlkey=0pneodydjbjfidzxvgfitybtt&st=z54kipbw&raw=1',
+  },
   'Mr. CoBy': {
     url: 'https://www.youtube.com/@mrcoby79/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/otolpyow4x66e5o6y2o91/Mr.-CoBy.jpg?rlkey=jv4mdxuc7lhhjo7wl160sothh&st=ow2qa99q&raw=1',
