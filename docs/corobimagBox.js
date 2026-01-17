@@ -398,14 +398,14 @@ container.innerHTML = `
         <div class="caption">Techmaster VN (Linux)</div>
       </div>
 
-            <div class="image-box">
+     <div class="image-box">
        <div onclick="openRightHalfPopup('https://tutonics.com/articles/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/6vebttqx716xn0q1cplma/Tutonics.png?rlkey=4wtv6u05y4roscsiur8igj7m7&st=dnft2vf2&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tutonics</div>
       </div> 
 
-            <div class="image-box">
+     <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.phoronix.com/reviews/Operating+Systems/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/utygbdqnjhzky7kvllkt3/Phoronix.png?rlkey=gefu9rhct3n3dzmt15fa380py&st=l0gm5z9x&raw=1" alt="Ảnh 1">
 </div>
@@ -415,6 +415,18 @@ container.innerHTML = `
 </div>
 
      <!-- Hàng thứ 5 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Distro Linux</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/740670060221238/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/0eh2yd1k4by5kfvia50tt/Linux-Mint.png?rlkey=nc9rujh5og0cb3sbkzx5b4uf3&st=18n11nmg&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Linux Mint Desktop</div>
+      </div>
+
+</div>
+
+     <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Android</h2>    
       <div class="image-box">
@@ -475,7 +487,7 @@ container.innerHTML = `
       
 </div>
 
-     <!-- Hàng thứ 6 -->
+     <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Office</h2>
       <div class="image-box">
@@ -557,7 +569,7 @@ container.innerHTML = `
           
 </div>
 
-     <!-- Hàng thứ 7 -->
+     <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Games</h2>
       <div class="image-box">
@@ -597,7 +609,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 8 -->
+     <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Smart Tech Toys</h2>
       <div class="image-box">
