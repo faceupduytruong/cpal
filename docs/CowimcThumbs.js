@@ -49,5 +49,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/primitiveart01/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4z5s73mcp90cv1fhe9w2q/Primitive-Art.jpg?rlkey=htd2io3xuwae0njmx71pxvv6p&st=noxw88af&raw=1',
   },
+  'Khéo Tay Hay Làm': {
+    url: 'https://www.facebook.com/kheotayhaylam2411/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/112ogmjra3qy8i09jguks/Kh-o-Tay-Hay-L-m.jpg?rlkey=5c03i1abketnvcq15hm8vv6xf&st=v1j81v8l&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
