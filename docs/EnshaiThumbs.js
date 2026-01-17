@@ -90,6 +90,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/trungtammsthao/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/d1ng65nsropdimvw3p5yi/Ms-Thao-English.jpg?rlkey=9pkudx17ugtnlxybz5k4e3qm5&st=2c68szuy&raw=1'
   },
+  'Cô Sang dạy Tiếng Anh': {
+    url: 'https://www.facebook.com/coSangdaytiengAnh/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zsrn30axitsgi3ji8e6ru/C-Sang-d-y-Ti-ng-Anh.jpg?rlkey=jsl9lxhq61aw7ixjhsozjsrhk&st=ydeohm83&raw=1'
+  },
   'Trung tâm Anh ngữ Ms Đào': {
     url: 'https://www.facebook.com/englishcenter.msdao/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7zmt77hfe0fakwy37lmxn/Trung-t-m-Anh-ng-Ms-o.jpg?rlkey=vl9d348vco0lnsd15rj6p83my&st=xgqu66x8&raw=1'
