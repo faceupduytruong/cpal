@@ -141,6 +141,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/TKBooks.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2xfs6mszfzta4v277h2ci/TKBooks-C-c-M-n-H-c.jpg?rlkey=yf9cv58ink6uj46ht41puzrtm&st=9owsvd48&raw=1'
   },
+ 'Zenbooks': {
+    url: 'https://www.facebook.com/zenbooks.vn/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9a8m9c5nfto8mk64ndo29/Zenbooks.jpg?rlkey=erwd3q6b08zjei324j4nnpini&st=4udsqiyx&raw=1'
+  },
  'Trạm văn': {
     url: 'https://www.facebook.com/tramvan.thcs/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lfz20t38dke6k2auajohy/Tr-m-v-n.jpg?rlkey=h89xxykwa4a7kyp4o5htb68ox&st=07mo9i4f&raw=1'
