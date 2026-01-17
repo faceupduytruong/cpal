@@ -142,6 +142,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/nguyenthanh.1005/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/6alti459rh43fxw1brwya/Nguy-n-c-Th-nh.jpg?rlkey=3z18cufge07i71q6sl4iviisg&st=yderzsyr&raw=1',
   },
+  'Truyền động lực': {
+    url: 'https://www.facebook.com/groups/2426705184317871/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/cgk31noistcg9bgaequ0o/Truy-n-ng-l-c.jpg?rlkey=evd6gbl806xtnx9r6hp3ucrir&st=n56k29ej&raw=1',
+  },
+  'TƯ DUY NGƯỜI THÀNH CÔNG': {
+    url: 'https://www.facebook.com/groups/1134653551104543/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/23e3r5uygjrkpq97r3bao/T-DUY-NG-I-TH-NH-C-NG.jpg?rlkey=w2qpymqe9mr92qk388w0uyv5o&st=6crc2nmn&raw=1',
+  },
   'Thanh Đạt (Skyland Dolls)': {
     url: 'https://www.facebook.com/swan.black.370/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nepc0v62qg7tky4f9kp2v/Thanh-t-Skyland-Dolls.jpg?rlkey=zuez4panjga24x9hcyivbngpa&st=523grpzm&raw=1',
@@ -152,6 +160,10 @@ const folderLinks = {
   },
   'Mintbooks': {
     url: 'https://www.facebook.com/mintbooks.vn/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/toee9nyronvcsitrapr1p/Mintbooks.png?rlkey=k5mo8130vw5op006n2myki6pg&st=a1tcpj3r&raw=1',
+  },
+  'Shinebooks - Sống thật': {
+    url: 'https://www.facebook.com/shinebookssongthat/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/toee9nyronvcsitrapr1p/Mintbooks.png?rlkey=k5mo8130vw5op006n2myki6pg&st=a1tcpj3r&raw=1',
   },
   // thêm các mục khác nếu cần
