@@ -41,27 +41,6 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/hinh.hoang.thien.tai/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/khpn6vxy4klce8csxcnhn/H-nh-Ho-ng-Thi-n-T-i.png?rlkey=id233gog5hxvfhooy0dm36sxd&st=qovoe25r&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Hình Hoàng Thiên Tài</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.youtube.com/@thinkview/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/2cl4wzvgxqzawwvaa8wo7/ThinkView.png?rlkey=q5fymzp9gjykwjodnikkc2tjm&st=jwscelhd&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">ThinkView</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.youtube.com/@duyluandethuong/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/xyt2x6zs170eql8lxuloh/Duy-Lu-n-D-Th-ng.png?rlkey=2cvgcol8vtyhi7oizmg8oc9ej&st=ljrpbj28&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Duy Luân Dễ Thương</div>
-      </div>
-
-      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.youtube.com/@MicrosoftWindows/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/odd3ajanm5n45vfhfdqxr/Windows.jpg?rlkey=2t59eiihobht0yhbaqbnpr31b&st=26mh4vyz&raw=1" alt="Ảnh 1">
 </div>
@@ -102,7 +81,34 @@ container.innerHTML = `
 </div>
         <div class="caption">3S-TEAM</div>
       </div>
+      
+</div>
 
+     <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Hardware</h2>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@thinkview/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/2cl4wzvgxqzawwvaa8wo7/ThinkView.png?rlkey=q5fymzp9gjykwjodnikkc2tjm&st=jwscelhd&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">ThinkView</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@duyluandethuong/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/xyt2x6zs170eql8lxuloh/Duy-Lu-n-D-Th-ng.png?rlkey=2cvgcol8vtyhi7oizmg8oc9ej&st=ljrpbj28&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Duy Luân Dễ Thương</div>
+      </div>
+      
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/hinh.hoang.thien.tai/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/khpn6vxy4klce8csxcnhn/H-nh-Ho-ng-Thi-n-T-i.png?rlkey=id233gog5hxvfhooy0dm36sxd&st=qovoe25r&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hình Hoàng Thiên Tài</div>
+      </div>
+      
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/294155504718055/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/o8v91tpyvo0657ulk0ssf/VOZ.VN-C-ng-ngh-K-thu-t.png?rlkey=cksdhcqwkflh9v7y6pl7vbsdm&st=ge7l02h4&raw=1" alt="Ảnh 1">
@@ -116,10 +122,10 @@ container.innerHTML = `
 </div>
         <div class="caption">Sách Học Computer</div>
       </div>
-         
+
 </div>
 
-     <!-- Hàng thứ 2 -->
+     <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Hackintosh</h2>
       <div class="image-box">
@@ -250,7 +256,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 3 -->
+     <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Mac OSX</h2>
       <div class="image-box">
@@ -332,7 +338,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 4 -->
+     <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Linux</h2>
       <div class="image-box">
@@ -414,7 +420,7 @@ container.innerHTML = `
       
 </div>
 
-     <!-- Hàng thứ 5 -->
+     <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Distro Linux</h2>
       <div class="image-box">
@@ -426,7 +432,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 6 -->
+     <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Android</h2>    
       <div class="image-box">
@@ -487,7 +493,7 @@ container.innerHTML = `
       
 </div>
 
-     <!-- Hàng thứ 7 -->
+     <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Office</h2>
       <div class="image-box">
@@ -569,7 +575,7 @@ container.innerHTML = `
           
 </div>
 
-     <!-- Hàng thứ 8 -->
+     <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Games</h2>
       <div class="image-box">
@@ -609,7 +615,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 9 -->
+     <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Smart Tech Toys</h2>
       <div class="image-box">
