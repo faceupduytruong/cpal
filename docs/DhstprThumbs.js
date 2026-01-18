@@ -36,7 +36,7 @@ const folderLinks = {
   },
   'Bông Hoa Nhỏ': {
     url: 'https://www.facebook.com/ChurnChurnCafe/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ccqbx908i918ml43xjnph/B-ng-Hoa-Nh.jpg?rlkey=wdvnv53wk5rv8k1iq7wtsdjwn&st=fydaaeo5&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/06qs32os6ing5xnzd2o9z/B-ng-Hoa-Nh.webp?rlkey=hkwgk8cs2ybcg0ddieyoaaw4x&st=xlz8lirl&raw=1',
   },
   'Hoàng Cẩm Tú': {
     url: 'https://www.facebook.com/profile.php?id=61584242907915&sk=reels_tab',
@@ -44,11 +44,11 @@ const folderLinks = {
   },
   'Nguyễn Minh Chính  (Vạn Sự Tùy Duyên)': {
     url: 'https://www.facebook.com/chinh.nguyenminh.5074/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/1mzzmuso1v2lynxpl5hhl/Nguy-n-Minh-Ch-nh-V-n-S-T-y-Duy-n.jpg?rlkey=r2t6ahmba3n0ltcmefuxrfuhm&st=a6w002hv&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/oozx6uo3jp9vomzuuowqd/Nguy-n-Minh-Ch-nh-V-n-S-T-y-Duy-n.jpg?rlkey=kr7vl6d38tml6nc68swb49zo4&st=f8sihl4b&raw=1',
   },
   '1 phút chữa lành': {
     url: 'https://www.facebook.com/1phutchualanh/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/23ui112j0uoo31le34zi6/1-ph-t-ch-a-l-nh.jpg?rlkey=y9b6ltr6zbeg6y2oknq6r94l2&st=fpl24fmt&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5j0gik6bk7xhgfs1gi06d/1-Ph-t-Ch-a-L-nh.jpg?rlkey=06w7u4b3d679veqc6x6n3zdyk&st=w8hu3eel&raw=1',
   },
   // thêm các mục khác nếu cần
 };
