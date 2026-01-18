@@ -491,6 +491,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/gemsongnghe/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/m85lmussj2tyrfzlbse7e/Gem-S-ng-Ngh.webp?rlkey=165vtvmzgc3zqfnfjldrru0w5&st=xltybadq&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Gem Sống Nghệ</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/498287336961883/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/x4hds5j6z6ydld6p7cwkl/Group-Tinh-t.webp?rlkey=n3sasjfrsfk2rfhb9wguuzj6e&st=9osvr5nw&raw=1" alt="Ảnh 1">
 </div>
