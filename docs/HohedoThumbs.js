@@ -20,6 +20,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@baihocsong/videos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vbxphci8dkhdtk9tvml3a/B-i-H-c-S-ng.jpg?rlkey=xc7xv5pjbdb12d4ya67pkyfwk&st=ksl1zznt&raw=1',
   },
+  'Y Dễ Hiểu': {
+    url: 'https://www.facebook.com/Ydehieu/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/re7u9shiih7yhigd3k9yx/Y-D-Hi-u.jpg?rlkey=ji9s1dadd4xc7ndjlge2oy44f&st=6v8c8wa2&raw=1',
+  },
   'Đại Vy Healthcare': {
     url: 'https://www.facebook.com/bsdaivy/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/em3fhuz9ybm5hg89k6xma/i-Vy-Healthcare.png?rlkey=31pqajfcu0eq2clzw7uf6g943&st=jbgcczrm&raw=1',
