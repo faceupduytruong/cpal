@@ -493,6 +493,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/VnReview/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/a37vso7geimwogue5op0l/VnReview.vn.webp?rlkey=dtdxw77itqs6y3c1o6kgbewa8&st=jt6rczy8&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">VnReview.vn</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.techsignin.com/tag/android/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/dzflr0d07w9olhk3wfc14/Techsignin.png?rlkey=uauwsb24aaktaxdqpccb5g1dc&st=r1vueheh&raw=1" alt="Ảnh 1">
 </div>
@@ -519,7 +526,7 @@ container.innerHTML = `
 </div>
         <div class="caption">Kobe Media</div>
       </div>
-      
+     
 </div>
 
      <!-- Hàng thứ 8 -->
