@@ -218,6 +218,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Hackintosh Vietnam - Opencore</div>
       </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/5788317445/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/0fmijdhn1a4lkf5821r1v/Hackintosh.png?rlkey=pye41j6sykosibiskms9lrp4v&st=k9webkdt&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hackintosh</div>
+      </div>
      
 </div>
 
@@ -462,6 +469,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/0eh2yd1k4by5kfvia50tt/Linux-Mint.png?rlkey=nc9rujh5og0cb3sbkzx5b4uf3&st=18n11nmg&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Linux Mint Desktop</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/665300826967101/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/p2nljpwic2l09qn1n04i0/MX_Linux.webp?rlkey=trjodabm0quueo07f55l3hr98&st=chsynjzw&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">MX_Linux</div>
       </div>
 
 </div>
