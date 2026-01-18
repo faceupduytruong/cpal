@@ -38,6 +38,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/ChurnChurnCafe/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ccqbx908i918ml43xjnph/B-ng-Hoa-Nh.jpg?rlkey=wdvnv53wk5rv8k1iq7wtsdjwn&st=fydaaeo5&raw=1',
   },
+  'Hoàng Cẩm Tú': {
+    url: 'https://www.facebook.com/profile.php?id=61584242907915&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/u5r5m2g8btb0yz8sio9nv/Ho-ng-C-m-T.jpg?rlkey=q2qpkewoibk9f0dfjzkcp837h&st=dapyyeap&raw=1',
+  },
   'Nguyễn Minh Chính  (Vạn Sự Tùy Duyên)': {
     url: 'https://www.facebook.com/chinh.nguyenminh.5074/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/1mzzmuso1v2lynxpl5hhl/Nguy-n-Minh-Ch-nh-V-n-S-T-y-Duy-n.jpg?rlkey=r2t6ahmba3n0ltcmefuxrfuhm&st=a6w002hv&raw=1',
