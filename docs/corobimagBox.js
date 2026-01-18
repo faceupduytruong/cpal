@@ -444,6 +444,13 @@ container.innerHTML = `
 </div>
         <div class="caption">KDE</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/1274804293784660/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/65w8mor88vvqtxaj0ft5t/CachyOS-Blazingly-Fast-Linux.png?rlkey=9wbq99oh2nnt5wx5m95z4f29c&st=eixeeic9&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">CachyOS Blazingly Fast Linux</div>
+      </div>
       
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/740670060221238/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
