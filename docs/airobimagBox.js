@@ -964,6 +964,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/thayQuanAI/reels/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/dwk3tt1kda3fvf45snfc3/Nguy-n-nh-Qu-n-Chuy-n-gia-AI.jpg?rlkey=piizfw0gkfofyc22xshcb20tg&st=kn4d8sej&raw=1">
+</div>
+        <div class="caption">Nguyễn Đình Quân (Chuyên gia AI)</div>
+      </div>
+
+      <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/363657942789633/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/g3g41uz5svpldopw7mm3t/B-nh-D-n-H-c-AI.jpg?rlkey=kjaf2dgvhrsu1it2fwsno63q7&st=1p0a0vbo&raw=1">
 </div>
