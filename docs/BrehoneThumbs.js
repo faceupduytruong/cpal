@@ -73,6 +73,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tuanshock121/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5n7c6r73j24pk8sd8pxq8/Thomas-Lee.jpg?rlkey=2jp11g1vw81yfmxbuk66wafr4&st=hb1txtao&raw=1',
   },
+  'Nguyễn Trọng Hải': {
+    url: 'https://www.facebook.com/hai.trong.169/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/38y4q35egqj6lamjjjqw4/Nguy-n-Tr-ng-H-i.jpg?rlkey=ou0adghuz5t07ngv0m5p3ueio&st=nabhbre1&raw=1',
+  },
   'Thoại Nhân Official': {
     url: 'https://www.facebook.com/thoainhanofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/39j63qxuvj4kfplnng7eo/Tho-i-Nh-n-Official.jpg?rlkey=zbv7bpxsajlgcqu0ljva7n2r9&st=zlnv6qzy&raw=1',
