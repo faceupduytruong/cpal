@@ -218,49 +218,7 @@ container.innerHTML = `
 </div>
         <div class="caption">Hackintosh Vietnam - Opencore</div>
       </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('http://s.sudre.free.fr/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/3krsoxwhr88kxu2k1t9qp/Sudre.png?rlkey=cygh1vy5xpc22q6xhhsdplbzj&st=k1a2d63l&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Sudre</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://brettterpstra.com/topic/macos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/c93zzc2sziyxjrj08o9sv/Brettterpstra.png?rlkey=ws0aq1pz2fxb762tx60qmjr59&st=shb8fxxa&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Brettterpstra</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.macbed.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/d8gnak6jnmx65estx2t6i/Macbed.png?rlkey=yoqciaut41axy3z0ejdskpa8p&st=u4rmdo7w&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Macbed</div>
-      </div>
-      
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://sharefreeall.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/h0tjxvjhft22i4ofhdlzw/Sharefreeall.webp?rlkey=rikjcyipu9io4dt3ugvp6wu7y&st=lh4zxarj&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Sharefreeall</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://nmac.to/now/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/5l81c4xxx3q7c34zc1yld/nmac.to.png?rlkey=w7umht628vbkmno4lmplk4s02&st=2yec2sw6&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Nmac.to</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.torrentmac.net/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/46q86iubdva1uou88zt85/Torrentmac.webp?rlkey=lqcmoio8zi58x8iu0q8hi4nud&st=rfzewkla&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Torrentmac</div>
-      </div>
-
+     
 </div>
 
      <!-- Hàng thứ 4 -->
@@ -346,6 +304,53 @@ container.innerHTML = `
 </div>
 
      <!-- Hàng thứ 5 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Mac Apps</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://sharefreeall.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/h0tjxvjhft22i4ofhdlzw/Sharefreeall.webp?rlkey=rikjcyipu9io4dt3ugvp6wu7y&st=lh4zxarj&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Sharefreeall</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://nmac.to/now/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/5l81c4xxx3q7c34zc1yld/nmac.to.png?rlkey=w7umht628vbkmno4lmplk4s02&st=2yec2sw6&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Nmac.to</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.torrentmac.net/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/46q86iubdva1uou88zt85/Torrentmac.webp?rlkey=lqcmoio8zi58x8iu0q8hi4nud&st=rfzewkla&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Torrentmac</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('http://s.sudre.free.fr/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/3krsoxwhr88kxu2k1t9qp/Sudre.png?rlkey=cygh1vy5xpc22q6xhhsdplbzj&st=k1a2d63l&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Sudre</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://brettterpstra.com/topic/macos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/c93zzc2sziyxjrj08o9sv/Brettterpstra.png?rlkey=ws0aq1pz2fxb762tx60qmjr59&st=shb8fxxa&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Brettterpstra</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.macbed.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/d8gnak6jnmx65estx2t6i/Macbed.png?rlkey=yoqciaut41axy3z0ejdskpa8p&st=u4rmdo7w&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Macbed</div>
+      </div>
+
+</div>
+
+     <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Linux</h2>
       <div class="image-box">
@@ -434,7 +439,7 @@ container.innerHTML = `
       
 </div>
 
-     <!-- Hàng thứ 6 -->
+     <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Distro Linux</h2>
 
@@ -461,7 +466,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 7 -->
+     <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Android</h2>    
       <div class="image-box">
@@ -529,7 +534,7 @@ container.innerHTML = `
      
 </div>
 
-     <!-- Hàng thứ 8 -->
+     <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Office</h2>
       <div class="image-box">
@@ -611,7 +616,7 @@ container.innerHTML = `
           
 </div>
 
-     <!-- Hàng thứ 9 -->
+     <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Games</h2>
       <div class="image-box">
@@ -651,7 +656,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 10 -->
+     <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Smart Tech Toys</h2>
       <div class="image-box">
