@@ -153,5 +153,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/Artbookvn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/leem6eu0sxezlboytvnxz/Artbook.jpg?rlkey=ug9fj4vbdt215hjbova1dbuqo&st=63th0fs4&raw=1'
   },
+ 'Lanvu Gallery': {
+    url: 'https://www.facebook.com/lanvugallery123/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pdshpcz6gny2b95kncw87/Lanvu-Gallery.jpg?rlkey=alqwyrujv1tjkng5sxt1ypldq&st=5zizv9al&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
