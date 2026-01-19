@@ -958,7 +958,7 @@ container.innerHTML = `
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/Quoc.cajon/reels/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/uwop4zqo28g9lxkrnoj5s/Qu-c-Nguy-n.webp?rlkey=8q5pub6qabw1jd0ca23hjq1qm&st=wpph289q&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/h9s1459hkkmcrz0k5zri7/Qu-c-Nguy-n.jpg?rlkey=et7gaciuq5excli54bj647qao&st=ouqnch6p&raw=1">
 </div>
         <div class="caption">Quốc Nguyễn</div>
       </div>
@@ -1038,6 +1038,16 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/4xlxdunuzpfzt3h71r4g5/C-ng-ng-Al-Gemini-Canva.webp?rlkey=a8flb2qrtvyo5kyr0onp19f2u&st=96ojoscr&raw=1">
 </div>
         <div class="caption">Cộng Đồng Al Gemini - Canva</div>
+      </div>
+
+         <!-- Hàng thứ 26 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">AI Architect</h2>
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/109717852235362/user/1843794205/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/88g8nafnlqo3lwu88aeyn/AI-Architect.jpg?rlkey=oa8hya03kykf79bv340xpogx2&st=wjwszm02&raw=1">
+</div>
+        <div class="caption">Kts Cotin</div>
       </div>
       
 </div>
