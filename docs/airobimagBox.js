@@ -1040,6 +1040,8 @@ container.innerHTML = `
         <div class="caption">Cộng Đồng Al Gemini - Canva</div>
       </div>
 
+</div>
+
          <!-- Hàng thứ 26 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">AI Architect</h2>
