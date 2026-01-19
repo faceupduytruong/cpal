@@ -121,6 +121,8 @@ container.innerHTML = `
 </div>
         <div class="caption">Phú Films Master</div>
       </div>
+      
+</div>
 
     <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
