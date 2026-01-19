@@ -96,6 +96,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/hoang.n.hoa.9/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/pr14zlct6at2d57v1oex5/Ho-ng-Nh-Hoa.jpg?rlkey=r03qampblg8fir8wixnj2rg34&st=zofpfadk&raw=1',
   },
+  'Trạng Đao': {
+    url: 'https://www.facebook.com/trang.down.2025/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ubrwjyz83xxzj2z5q70ua/Tr-ng-ao.jpg?rlkey=ivud84iko07t1m2oh46gdhxda&st=jncwbufl&raw=1',
+  },
   'Thơ Insulin': {
     url: 'https://www.facebook.com/profile.php?id=61584560322804&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/y8ycx9n35jg6gie08pwzn/Th-Insulin.jpg?rlkey=97jbwaqen40vz6swbbmgs1wbt&st=611s3f3d&raw=1',
