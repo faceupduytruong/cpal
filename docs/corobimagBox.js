@@ -463,6 +463,13 @@ container.innerHTML = `
 </div>
         <div class="caption">CachyOS Blazingly Fast Linux</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/7064460843613310/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/z74k9as8mqolrhq1kzhaz/Kali-Linux-Offensive-Security.png?rlkey=4ov78p31k6r0qxfjtefcekyt0&st=wkbhhpks&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Kali Linux | Offensive Security</div>
+      </div>
       
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/740670060221238/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
