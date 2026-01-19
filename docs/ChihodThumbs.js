@@ -153,6 +153,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/Artbookvn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/leem6eu0sxezlboytvnxz/Artbook.jpg?rlkey=ug9fj4vbdt215hjbova1dbuqo&st=63th0fs4&raw=1'
   },
+ 'Picassia': {
+    url: 'https://www.facebook.com/picassia.vn/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/p30tgobtk5f7a80tkdt00/Picassia.jpg?rlkey=d6tvogdw9gzkrdvei7g025626&st=5zfr4jyd&raw=1'
+  },
  'Lanvu Gallery': {
     url: 'https://www.facebook.com/lanvugallery123/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/pdshpcz6gny2b95kncw87/Lanvu-Gallery.jpg?rlkey=alqwyrujv1tjkng5sxt1ypldq&st=5zizv9al&raw=1'
