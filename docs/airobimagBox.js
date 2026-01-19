@@ -516,6 +516,13 @@ container.innerHTML = `
         <div class="caption">30 Ngày Học Làm Nội Dung Viral</div>
       </div>
 
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/thayQuanAI/reels/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/s92d7aug78f0somsjdrl9/Nguy-n-nh-Qu-n-Chuy-n-gia-AI.png?rlkey=rvyi5t03fthhy2vbi35fff80d&st=yhd3uo23&raw=1">
+</div>
+        <div class="caption">Nguyễn Đình Quân (Chuyên gia AI)</div>
+      </div>
+
 </div>
 
 <!-- Hàng thứ 11 -->
@@ -721,6 +728,14 @@ container.innerHTML = `
 </div>
         <div class="caption">AIppt</div>
       </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/Quoc.cajon/reels/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/h9s1459hkkmcrz0k5zri7/Qu-c-Nguy-n.jpg?rlkey=et7gaciuq5excli54bj647qao&st=ouqnch6p&raw=1">
+</div>
+        <div class="caption">Quốc Nguyễn</div>
+      </div>
+
 </div>
 
     <!-- Hàng thứ 17 -->
@@ -954,20 +969,6 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/bvsv0cpqxv8fo0vyuujzk/Thu-Nguy-n.jpg?rlkey=cd6bwgdkggfgrxnm1a992g02l&st=lzqzcgxr&raw=1">
 </div>
         <div class="caption">Thuý Nguyễn</div>
-      </div>
-
-      <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/Quoc.cajon/reels/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/h9s1459hkkmcrz0k5zri7/Qu-c-Nguy-n.jpg?rlkey=et7gaciuq5excli54bj647qao&st=ouqnch6p&raw=1">
-</div>
-        <div class="caption">Quốc Nguyễn</div>
-      </div>
-
-      <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/thayQuanAI/reels/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/s92d7aug78f0somsjdrl9/Nguy-n-nh-Qu-n-Chuy-n-gia-AI.png?rlkey=rvyi5t03fthhy2vbi35fff80d&st=yhd3uo23&raw=1">
-</div>
-        <div class="caption">Nguyễn Đình Quân (Chuyên gia AI)</div>
       </div>
 
       <div class="image-box">
