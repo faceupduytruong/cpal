@@ -114,6 +114,16 @@ container.innerHTML = `
 
     <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
+    <h2 class="row-title">CapCut</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61584592955324&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/8hdn2is4h0ueeeg4ytm88/Ph-Films-Master.avif?rlkey=rjiu3gqzszg7su1t32cweepra&st=ybiomo2m&raw=1">
+</div>
+        <div class="caption">Phú Films Master</div>
+      </div>
+
+    <!-- Hàng thứ 6 -->
+    <div class="image-row glass-bg">
     <h2 class="row-title">DaVinci Resolve</h2>
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/tuthanhcolor/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
