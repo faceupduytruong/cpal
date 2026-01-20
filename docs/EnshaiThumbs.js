@@ -50,6 +50,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/dustinducng/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4upcxc99s5559nq3b6ukx/Dustin-Duc-Nguyen.jpg?rlkey=9f9wedz82qxpm98b0kz9x3eqk&st=6u03g5x7&raw=1'
   },
+  'Nguyễn Trung Đức (Dustin Duc Nguyen)': {
+    url: 'https://www.facebook.com/dustin.talkin.english/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/awubtdaee4om4g8ypy82n/Nguy-n-Trung-c-Dustin-Duc-Nguyen.jpg?rlkey=as3rhm2d8dp5zrtjs4dadreo5&st=6147e9dv&raw=1'
+  },
   'Huỳnh Vũ Thuỷ Tiên  (Cô Tiên Tinker)': {
     url: 'https://www.facebook.com/cotien.tinker/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vtel1uc7pzfn22adq25p1/Hu-nh-V-Thu-Ti-n-C-Ti-n-Tinker.jpg?rlkey=qwwcflpumkdzwm6okpwsjzy7r&st=819jfc5r&raw=1'
@@ -61,6 +65,10 @@ const folderLinks = {
   'Telesa English': {
     url: 'https://www.telesaenglish.com/blog?page=22',
     thumbnail: 'https://www.dropbox.com/scl/fi/dfd2fgaqyjswv23xea6bg/Telesa-English.jpg?rlkey=v50z7ok2hy698s367lgqawfin&st=l6iqouov&raw=1'
+  },
+  'Tommy English': {
+    url: 'https://www.facebook.com/tommy.englishh/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/i0bo2ecwxd8199o3cj4fv/Tommy-English.jpg?rlkey=kswp35jpw1frapaallcfyxsgg&st=2u2i6hy4&raw=1'
   },
   'Oxford English Academy - Vietnam': {
     url: 'https://www.facebook.com/OEA.ENGLISH/reels/',
@@ -182,9 +190,17 @@ const folderLinks = {
     url: 'https://www.facebook.com/EnglishLearningGS/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/3o0hr54yxj67yd0vb6izf/English-Learning.jpg?rlkey=jbw8rnsk2xf9pummd58197hnd&st=tsx1html&raw=1'
   },
+  'English With Abdul': {
+    url: 'https://www.facebook.com/profile.php?id=100089478880864&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hqxjr3s4rpiw8lts1puq2/English-With-Abdul.jpg?rlkey=tuurpcgxijbwu5b8juav7apwt&st=kyqfdy96&raw=1'
+  },
   'Learn English Effortlessly': {
     url: 'https://www.facebook.com/groups/245525535304118/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/zczi2iwnypgdjz4rzx0nf/Learn-English-Effortlessly.jpg?rlkey=bvjad16wowgbdl0e6xvpbym5n&st=fsb8xl6u&raw=1'
+  },
+  'Learn English with Teacher Aubrey': {
+    url: 'https://www.facebook.com/bermudezaubrey/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hkjddywszjtqomngykna1/Learn-English-with-Teacher-Aubrey.jpg?rlkey=q2nhtxf36um25k09my6lni3of&st=8ah7eg2f&raw=1'
   },
   'Practical English Grammar Idioms Group': {
     url: 'https://www.facebook.com/groups/450969245668882/media',
@@ -205,6 +221,10 @@ const folderLinks = {
   'Sophai Creator Share': {
     url: 'https://www.facebook.com/SophaiCreatorShare/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/zllbpe2ylxfbrnmxx8hjt/Sophai-Creator-Share.jpg?rlkey=drdals8217z766e6xvkf4q398&st=db4107mz&raw=1',
+  },
+  'FREE ENGLISH COURSES': {
+    url: 'https://www.facebook.com/groups/1190947588828922/media/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gaw18sei2hyk8hilbjz1u/FREE-ENGLISH-COURSES.jpg?rlkey=72ff87v01524v6sp7aw7vzrdl&st=1zn1mn1g&raw=1',
   },
   "LET'S LEARN ENGLISH ( APPRENONS L'ANGLAIS)": {
     url: 'https://www.facebook.com/groups/415435771990553/',
