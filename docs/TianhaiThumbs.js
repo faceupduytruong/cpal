@@ -54,7 +54,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/dustin.talkin.english/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/awubtdaee4om4g8ypy82n/Nguy-n-Trung-c-Dustin-Duc-Nguyen.jpg?rlkey=as3rhm2d8dp5zrtjs4dadreo5&st=6147e9dv&raw=1'
   },
-  'Huỳnh Vũ Thuỷ Tiên  (Cô Tiên Tinker)': {
+  'Huỳnh Vũ Thuỷ Tiên (Cô Tiên Tinker)': {
     url: 'https://www.facebook.com/cotien.tinker/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vtel1uc7pzfn22adq25p1/Hu-nh-V-Thu-Ti-n-C-Ti-n-Tinker.jpg?rlkey=qwwcflpumkdzwm6okpwsjzy7r&st=819jfc5r&raw=1'
   },
@@ -73,10 +73,6 @@ const folderLinks = {
   'Oxford English Academy - Vietnam': {
     url: 'https://www.facebook.com/OEA.ENGLISH/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/hrjmhpens9muqypn880iu/Oxford-English-Academy-Vietnam.jpg?rlkey=k2xis3d0iw2zwa9md551ivdci&st=8yz5o30l&raw=1'
-  },
-  'Lớp Tiếng Anh Online Với Giáo Viên Nước Ngoài': {
-    url: 'https://www.facebook.com/tienganhmatgochcm/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ohe8chqpv11mi38f6rvxp/L-p-Ti-ng-Anh-Online-V-i-Gi-o-Vi-n-N-c-Ngo-i.jpg?rlkey=n0n5fqt8jsfc87mxzfo7a0thl&st=64iwbknc&raw=1'
   },
   'Slow English Podcast': {
     url: 'https://www.facebook.com/SlowEnglishPodcastVN/videos/',
@@ -141,6 +137,10 @@ const folderLinks = {
   'Học Online Tiếng Anh (Sang Nguyễn Online)': {
     url: 'https://www.facebook.com/tasaonline/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/w58ufqhkp8kqfpmlcel2t/H-c-Online-Ti-ng-Anh-Sang-Nguy-n-Online.png?rlkey=dz3a1cos2fxsb3ovy4n10fk74&st=vquze7we&raw=1',
+  },
+  'The Catalyst for English': {
+    url: 'https://www.facebook.com/thecatalystforenglishvietnam/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tjnqvvbgccvlaga7bcq0r/The-Catalyst-for-English.jpg?rlkey=zcmkt2c5gkau7g4n9vh5m10kb&st=haezph9p&raw=1'
   },
   // thêm các mục khác nếu cần
 };
