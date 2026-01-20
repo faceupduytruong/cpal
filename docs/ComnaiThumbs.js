@@ -50,6 +50,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/HoctiengAnhLangmaster/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/jbblukjkllifotfrqqogv/Ti-ng-Anh-giao-ti-p-Langmaster.jpg?rlkey=nyfqactzlrih6mopjp6dilqrd&st=xdehm9u3&raw=1'
   },
+  'Lớp Tiếng Anh Online Với Giáo Viên Nước Ngoài': {
+    url: 'https://www.facebook.com/tienganhmatgochcm/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ohe8chqpv11mi38f6rvxp/L-p-Ti-ng-Anh-Online-V-i-Gi-o-Vi-n-N-c-Ngo-i.jpg?rlkey=n0n5fqt8jsfc87mxzfo7a0thl&st=64iwbknc&raw=1'
+  },
+  'Tiếng Anh Nghe Nói - 100% Giáo Viên Nước Ngoài': {
+    url: 'https://www.facebook.com/tienganhnghenoihcm/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/caqp3rk8poqh0qi7ucrk4/Ti-ng-Anh-Nghe-N-i-100-Gi-o-Vi-n-N-c-Ngo-i.jpg?rlkey=luy80l7aifeg93bt1vgvyshzi&st=zz9oljvg&raw=1'
+  },
   'English Speaking practice': {
     url: 'https://www.facebook.com/groups/5688211251275040/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/i1eoqcn831eizxqa2s304/English-Speaking-practice.jpg?rlkey=ro51xu5ou06fi0y6xb782a4nx&st=w63rl9pq&raw=1'
