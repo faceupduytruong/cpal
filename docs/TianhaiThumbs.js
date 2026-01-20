@@ -90,6 +90,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/KissEnglishCenter/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/oytydtejldtzpmuhhm7hg/KISS-English.png?rlkey=jv258fr0p5ar7vzwb77c2o2sr&st=b4zm93nr&raw=1'
   },
+  'Học Ngoại Ngữ': {
+    url: 'https://www.facebook.com/StudywithMia/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3nodb2tdtyxdahjtcyzgl/H-c-Ngo-i-Ng.jpg?rlkey=4mq2jmcl3vyjg1iavvne8payj&st=usblvwef&raw=1'
+  },
+  'Ngoại ngữ DEC': {
+    url: 'https://www.facebook.com/ngoaingudec/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/htlzgps2gepj8apgokxo7/Ngo-i-Ng-DEC.jpg?rlkey=nkhkkq0d1bnakzkle6m3gm7de&st=4nggrvob&raw=1'
+  },
   'Ms Thao English': {
     url: 'https://www.facebook.com/trungtammsthao/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/d1ng65nsropdimvw3p5yi/Ms-Thao-English.jpg?rlkey=9pkudx17ugtnlxybz5k4e3qm5&st=2c68szuy&raw=1'
