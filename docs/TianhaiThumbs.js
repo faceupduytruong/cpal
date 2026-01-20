@@ -30,6 +30,14 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/lhjr9olvbwg0vy3q0hlna/Google-Translate.webp?rlkey=jypud322b4z68dladqetnxcok&st=2ynt7066&raw=1'
   },
+  'Learn English With Us': {
+    url: 'https://www.facebook.com/groups/335486277069621/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2ily1l7cotz5ac6a6rfdy/Learn-English-With-Us.jpg?rlkey=yqeliklmin0vhnxwfquiptoi9&st=z1ruzkwb&raw=1'
+  },
+  'Improve English Skills': {
+    url: 'https://www.facebook.com/ImproveEnglishSkills121/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ayfy2f3om199luaubbh4o/Improve-English-Skills.png?rlkey=kmx6pfhrjphjha7mjbezz54hl&st=nav0sj6z&raw=1',
+  },
   'Learning Treasure': {
     url: 'https://www.facebook.com/learningtreasure5/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/qqqmzguucjnxd03v6mmdk/Learning-Treasure.jpg?rlkey=kijt48ioj9hzsm2s8m51nobqi&st=hmuptsf6&raw=1'
