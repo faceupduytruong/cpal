@@ -130,14 +130,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/484596390730348/',
     thumbnail: 'https://www.dropbox.com/scl/fi/l62g1x1u7465r5llnbj9z/FREE-ENGLISH-Teacher-Mark.jpg?rlkey=o1l9221w76kpqpoj7jhzgce0v&st=inlmxjn1&raw=1'
   },
-  'Learn English With Us': {
-    url: 'https://www.facebook.com/groups/335486277069621/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/2ily1l7cotz5ac6a6rfdy/Learn-English-With-Us.jpg?rlkey=yqeliklmin0vhnxwfquiptoi9&st=z1ruzkwb&raw=1'
-  },
-  'Improve English Skills': {
-    url: 'https://www.facebook.com/ImproveEnglishSkills121/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ayfy2f3om199luaubbh4o/Improve-English-Skills.png?rlkey=kmx6pfhrjphjha7mjbezz54hl&st=nav0sj6z&raw=1',
-  },
   'A+ English': {
     url: 'https://www.facebook.com/aplusenglish.edu.vn/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/9xvbb7soo5qhxzm9xnjru/A-English.png?rlkey=4erqj5kndu4fsk9dsz0ilbeaw&st=b21rd5w2&raw=1'
