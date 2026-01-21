@@ -145,6 +145,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/zenbooks.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9a8m9c5nfto8mk64ndo29/Zenbooks.jpg?rlkey=erwd3q6b08zjei324j4nnpini&st=4udsqiyx&raw=1'
   },
+ 'Fims.org.pk': {
+    url: 'https://p44.fims.org.pk/archives/category/kids-books/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/repdulntc6hq04e69wrrh/Fims.org.tk.webp?rlkey=07spepfyzmx3d08uj7ekd5a3m&st=g20zicr0&raw=1'
+  },
  'Trạm văn': {
     url: 'https://www.facebook.com/tramvan.thcs/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lfz20t38dke6k2auajohy/Tr-m-v-n.jpg?rlkey=h89xxykwa4a7kyp4o5htb68ox&st=07mo9i4f&raw=1'
