@@ -196,33 +196,5 @@ const folderLinks = {
     url: 'https://www.facebook.com/IQFact/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/98293ku6o8zl45d0x9dmf/IFact.png?rlkey=r2jv3dmk9yspsldn1cnf1iqvk&st=otpd43zx&raw=1',
   },
-  'Ổ Phim +': {
-    url: 'https://www.facebook.com/onghienphimx/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/tndv4g6jjsidaa6moqcuu/Phim.jpg?rlkey=tooe5gu1pdawo52b8rir6i0hl&st=tk75t8ra&raw=1',
-  },
-  'Cậu Bé Xem Phim': {
-    url: 'https://www.facebook.com/CauBeXemPhimOfficial/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jnq2fjwk5oa5nvioei3fo/C-u-B-Xem-Phim.png?rlkey=ng5ok4kys1sktus5yvj3exi2f&st=1dfn8cbs&raw=1',
-  },
-  'Tứ Đại Tài Tử': {
-    url: 'https://www.facebook.com/tudaitaitu8386/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jxu18oemyrtl1x1rrur9a/T-i-T-i-T.png?rlkey=0u89s1ea44b1qwym78af2pxfn&st=6mayzvj8&raw=1',
-  },
-  'VFC Best Movies': {
-    url: 'https://www.facebook.com/wonderfulnature79/videos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/m74aad4flgym0isn5qw9k/VFC-Best-Movies.jpg?rlkey=rzhtpdlyrdxwn46y34a60jspt&st=o4tv6bwd&raw=1',
-  },
-  'Hữu DuHa': {
-    url: 'https://www.facebook.com/profile.php?id=61583131784963&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/6yoinm1oceibjns37qjuh/H-u-DuHa.jpg?rlkey=io6g0ppgkkmz6rhv7eo7yjrx1&st=asxzb0h4&raw=1',
-  },
-  'Đỗ Nhật Minh  (Minh Pháp Sư)': {
-    url: 'https://www.facebook.com/donhatminh25/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/u545rmvh9fgrzbq4znnim/Nh-t-Minh-Minh-Ph-p-S.png?rlkey=r7p5jxwjk0xh9p48x8bs9ehi6&st=pegt0h3w&raw=1',
-  },
-  'Deep writier': {
-    url: 'https://www.facebook.com/profile.php?id=100072497381829&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/f2vmsrz86uuho1u4ktt7e/Deep-writier.png?rlkey=ha7knjvyccu3jmoa262nr5lmk&st=gw125341&raw=1',
-  },
   // thêm các mục khác nếu cần
 };
