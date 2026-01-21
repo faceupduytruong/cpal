@@ -168,10 +168,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61581484430903&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/tblc057on8le9tt4hu6ru/MC-Quang-Huy.jpg?rlkey=0zkq1d26yu1kc2dao9mqvrutx&st=u6ngatxp&raw=1',
   },
-  'ỚT In4': {
-    url: 'https://www.facebook.com/profile.php?id=61580057953318&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/8s9hhypzs8lk2atnt4xg7/T-In4.jpg?rlkey=7z1biwqpp91d262y9jxpycd19&st=rcmkv0z0&raw=1',
-  },
   'Bí Ẩn Thế Giới': {
     url: 'https://www.youtube.com/@bianthegioi19/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/s0mhl93n258ud79olo6m6/B-n-Th-Gi-i.jpg?rlkey=omqinbtj8zyejdfw1jycd8vqd&st=lejnzoq7&raw=1',
