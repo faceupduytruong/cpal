@@ -145,6 +145,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Revit Tutorials</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/2597301900547361/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/w90mg9e8veo3ssl7e4kc3/NGHI-N-REVIT.webp?rlkey=4sg42ejkf6ncyvbyd0xze5pnh&st=d1km9c53&raw=1">
+</div>
+        <div class="caption">NGHIỆN REVIT</div>
+      </div>
     
 </div>
 
