@@ -36,10 +36,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/wonderfulnature79/videos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/m74aad4flgym0isn5qw9k/VFC-Best-Movies.jpg?rlkey=rzhtpdlyrdxwn46y34a60jspt&st=o4tv6bwd&raw=1',
   },
-  'Hữu DuHa': {
-    url: 'https://www.facebook.com/profile.php?id=61583131784963&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/6yoinm1oceibjns37qjuh/H-u-DuHa.jpg?rlkey=io6g0ppgkkmz6rhv7eo7yjrx1&st=asxzb0h4&raw=1',
-  },
   'Đỗ Nhật Minh  (Minh Pháp Sư)': {
     url: 'https://www.facebook.com/donhatminh25/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/u545rmvh9fgrzbq4znnim/Nh-t-Minh-Minh-Ph-p-S.png?rlkey=r7p5jxwjk0xh9p48x8bs9ehi6&st=pegt0h3w&raw=1',
