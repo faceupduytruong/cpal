@@ -703,7 +703,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61556004993778&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/osk6wmcf2ya4943qn0gq6/Ti-m-p-M-Ly.png?rlkey=1mawls6yh23r02aixpe4cvrr3&st=13ask62b&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/cytbxwz32azwrp5st0ryg/Ti-m-p-M-Ly.png?rlkey=52t69vmij63m6454cb1o5f6az&st=w4m76rnl&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tiệm Đồ Đẹp Mê Ly</div>
       </div>
@@ -766,7 +766,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61573113368136&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/cytbxwz32azwrp5st0ryg/Yeah2-Review.png?rlkey=52t69vmij63m6454cb1o5f6az&st=atgdyp0v&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/osk6wmcf2ya4943qn0gq6/Yeah2-Review.png?rlkey=1mawls6yh23r02aixpe4cvrr3&st=n58tsdwx&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Yeah2 Review</div>
       </div>
