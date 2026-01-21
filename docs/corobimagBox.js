@@ -220,6 +220,13 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/156279264117187/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/urlouebf8j9o10mego99g/HeaVietNam-Hackintosh.png?rlkey=9blvyl5dmc7wcckmwlvk0uhxb&st=6xhgesb9&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">HeaVietNam Hackintosh</div>
+      </div>
+
+     <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/5788317445/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/0fmijdhn1a4lkf5821r1v/Hackintosh.png?rlkey=pye41j6sykosibiskms9lrp4v&st=k9webkdt&raw=1" alt="Ảnh 1">
 </div>
