@@ -36,5 +36,5 @@ window.addEventListener("DOMContentLoaded", () => {
   setInterval(() => {
     currentIndex = getRandomIndex(currentIndex);
     loadBackgroundVideo(currentIndex);
-  }, 30000);
+  }, 40000);
 });
