@@ -470,6 +470,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Kali Linux | Offensive Security</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/11454680248/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/9ksvoic4qijixyfzp16rq/Fedora-Linux.ico?rlkey=mkh5nkus6h9vxbhajd0czn0j9&st=qncflocq&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Fedora - Linux</div>
+      </div>
       
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/740670060221238/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
