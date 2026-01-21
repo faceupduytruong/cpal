@@ -550,6 +550,14 @@ container.innerHTML = `
 </div>
         <div class="caption">Quillbot</div>
       </div>    
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/caovuong/photos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/su0ptg55hk74dd4gaw2f7/Cao-Vuong.png?rlkey=z62kz3a5gie7e2j22xymuld80&st=6roftjf9&raw=1">
+</div>
+        <div class="caption">Cao Vuong</div>
+      </div>   
+
 </div>
 
     <!-- Hàng thứ 12 -->
