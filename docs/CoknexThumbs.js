@@ -184,6 +184,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61555482115414&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/1rmkxo598f9rldagg7jn6/B-n-T-m-Linh.webp?rlkey=q0lkb22gxgp9six4j4v173pts&st=lequknzx&raw=1',
   },
+  'Tâm Linh Huyền Bí': {
+    url: 'https://www.facebook.com/tamlinhplusvnc/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qpxw6dp30bkn33tdu727r/T-m-Linh-Huy-n-B.jpg?rlkey=u16f7n6p6m9t2xajvr7ckhykh&st=fk6fjvd6&raw=1',
+  },
   'Độc lạ Bình Dương': {
     url: 'https://www.facebook.com/doclabinhduong.np/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ud76kenywtos4bvchbb9s/c-L-B-nh-D-ng.png?rlkey=ts92qk29wh4x8xeb7z5xj74u4&st=x32kcdiq&raw=1',
