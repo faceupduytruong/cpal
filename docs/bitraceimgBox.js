@@ -46,6 +46,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Góc Xây Dựng</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/ovanhiep.110620/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/os3a4tvixt55o6c18bb51/V-n-Hi-p.webp?rlkey=3wb9ifgyxu072g1lc92bs68ui&st=oq4e1tav&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Đỗ Văn Hiệp</div>
+      </div>
     
 </div>
 
@@ -71,6 +78,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/9krv1yeytwrndvubqcqm9/X-y-D-ng-Th-c-H-nh.webp?rlkey=cipu45k58von0nk0ag6po4qko&st=ex5bvotx&raw=1">
 </div>
         <div class="caption">Xây Dựng Thực Hành</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.lisp.vn/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/2x65pmt2olc3afbco6l72/AutoLISP-Reviewer.webp?rlkey=wg3gzk2se44kw31osojsl5ryv&st=08glixl5&raw=1">
+</div>
+        <div class="caption">AutoLISP Reviewer</div>
       </div>
      
 </div>
