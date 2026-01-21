@@ -306,6 +306,14 @@ container.innerHTML = `
 </div>
         <div class="caption">Tư vấn sức khỏe</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61583057789110' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/eugpvh9siseuoqv2gf8j6/AI-For-Medical-Education.webp?rlkey=txr1hhii1rsfqy8bulb3e70ul&st=ymz03zqd&raw=1">
+</div>
+        <div class="caption">AI For Medical Education</div>
+      </div>
+
 </div>
 
 
