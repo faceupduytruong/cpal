@@ -466,7 +466,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/477017103296405/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/uts90sox47e0ai4xyqrfc/Deepin-Linux-OS-Official.webp?rlkey=4golp5hpoo0jz9tp79nayz819&st=4874a4y0&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/z9xi2of5f6vgnn6m77ifq/Deepin-Linux-OS-Official.png?rlkey=mg4qsyw53j8sxn3y2jp5668em&st=9831saiq&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Deepin Linux OS Official</div>
       </div>
