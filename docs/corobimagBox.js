@@ -710,7 +710,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61555607258581&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/cm538j9f93sl9ir4kis5s/Ti-m-Cute-X-u.png?rlkey=lmaesmm9fhro50ebb073wtype&st=n40za4vb&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/t60tc2cd6iamnbu8w9g3h/Ti-m-Cute-X-u.webp?rlkey=m50pcrkf9abanr3q9zblj3mb8&st=vgcci575&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tiệm Đồ Cute Xỉu</div>
       </div>
@@ -773,7 +773,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/c.storeeee/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/t60tc2cd6iamnbu8w9g3h/C-Store.webp?rlkey=m50pcrkf9abanr3q9zblj3mb8&st=60hy1lpy&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/cm538j9f93sl9ir4kis5s/C-Store.png?rlkey=lmaesmm9fhro50ebb073wtype&st=k8y9yfwn&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">C-Store</div>
       </div>
