@@ -53,7 +53,7 @@ loadBackgroundVideo(currentIndex);
 setInterval(() => {
   currentIndex = getRandomIndex(currentIndex);
   loadBackgroundVideo(currentIndex);
-}, 30000);
+}, 40000);
 
 document.getElementById("toggleEffectBtn")?.addEventListener("click", () => {
   currentIndex = getRandomIndex(currentIndex);
