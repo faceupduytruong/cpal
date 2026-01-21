@@ -89,6 +89,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/thoainhanofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/39j63qxuvj4kfplnng7eo/Tho-i-Nh-n-Official.jpg?rlkey=zbv7bpxsajlgcqu0ljva7n2r9&st=zlnv6qzy&raw=1',
   },
+  'Thầy Dương 9x': {
+    url: 'https://www.facebook.com/thayduong9x/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0bncrueubln1bvxg2osg6/Th-y-D-ng-9x.png?rlkey=3u6tt1d5ob2vo5hbr7az9h0zc&st=y3u9unv0&raw=1',
+  },
   'Thầy Đạo Bolero Tiếng Anh': {
     url: 'https://www.facebook.com/bolerotienganh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/exp4mhrs9vipr4ruwtlf9/Th-y-o-Bolero-Ti-ng-Anh.jpg?rlkey=sm5p3if5y8a7jax6etpjojx6f&st=dvyjmdzv&raw=1',
