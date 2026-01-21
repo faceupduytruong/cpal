@@ -465,6 +465,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/477017103296405/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/uts90sox47e0ai4xyqrfc/Deepin-Linux-OS-Official.webp?rlkey=4golp5hpoo0jz9tp79nayz819&st=4874a4y0&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Deepin Linux OS Official</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/7064460843613310/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/z74k9as8mqolrhq1kzhaz/Kali-Linux-Offensive-Security.png?rlkey=4ov78p31k6r0qxfjtefcekyt0&st=wkbhhpks&raw=1" alt="Ảnh 1">
 </div>
