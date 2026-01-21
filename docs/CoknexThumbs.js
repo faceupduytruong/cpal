@@ -72,6 +72,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/bancobietaz/photos_by',
     thumbnail: 'https://www.dropbox.com/scl/fi/i713a91g6oecnfwxpa0iw/t-Bi-t-Tu-t.png?rlkey=wo35v8t4jkfdgibg15svprr38&st=7c900uou&raw=1',
   },
+  'Khám phá thế giới 410': {
+    url: 'https://www.youtube.com/@khamphathegioi410/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/uywrn9x520t8pq86bt944/Kh-m-ph-th-gi-i-410.jpg?rlkey=6nc70yru54q71g03rt5fezyp1&st=2i62rn6z&raw=1',
+  },
   'Dân Công Sở': {
     url: 'https://www.facebook.com/SPX.DanCongSo/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9c595tfsyrlj42hh7fg94/D-n-C-ng-S.jpg?rlkey=sqb4ttbbchox0r0kndfciamyn&st=yrwjava3&raw=1',
