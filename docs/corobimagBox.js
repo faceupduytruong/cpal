@@ -84,7 +84,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/techrum/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/ikulzorv4xur9iuv5sd2h/Techrum.vn.png?rlkey=7dmdlsp00iq0j1o38th5u6gnr&st=3hep472s&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/gc1z2343zugjq8i3io2vh/Techrum.vn.png?rlkey=qmz3vsnwhl8cubjzf00hrniav&st=n256qn97&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Techrum.vn</div>
       </div>
@@ -114,6 +114,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/khpn6vxy4klce8csxcnhn/H-nh-Ho-ng-Thi-n-T-i.png?rlkey=id233gog5hxvfhooy0dm36sxd&st=qovoe25r&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Hình Hoàng Thiên Tài</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/thinkpro.DBCN/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/dmqu933u1qqsy8lyx4csx/ThinkPro-H-th-ng-M-y-t-nh-v-Ph-ki-n.png?rlkey=cqdld5skolz4tok909ays44us&st=8fu9pt32&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">ThinkPro - Hệ thống Máy tính và Phụ kiện</div>
       </div>
       
       <div class="image-box">
@@ -667,6 +674,18 @@ container.innerHTML = `
 
      <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
+    <h2 class="row-title">Laptop Buying Suggestions</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61581631336524&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ikulzorv4xur9iuv5sd2h/TK-Computer.png?rlkey=7dmdlsp00iq0j1o38th5u6gnr&st=r8a5jaq7&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">TK Computer</div>
+      </div>
+
+</div>
+
+     <!-- Hàng thứ 11 -->
+    <div class="image-row glass-bg">
     <h2 class="row-title">Games</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61552389458905&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -705,7 +724,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 11 -->
+     <!-- Hàng thứ 12 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Smart Tech Toys</h2>
       <div class="image-box">
