@@ -32,6 +32,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tudaitaitu8386/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jxu18oemyrtl1x1rrur9a/T-i-T-i-T.png?rlkey=0u89s1ea44b1qwym78af2pxfn&st=6mayzvj8&raw=1',
   },
+  'Video 3': {
+    url: 'https://www.facebook.com/profile.php?id=100069789950575&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ptavzr1jsfbrxkmip9j9w/Video-3.jpg?rlkey=802u50z76vt7cwty56k8cr51a&st=jhy00bwl&raw=1',
+  },
   'VFC Best Movies': {
     url: 'https://www.facebook.com/wonderfulnature79/videos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/m74aad4flgym0isn5qw9k/VFC-Best-Movies.jpg?rlkey=rzhtpdlyrdxwn46y34a60jspt&st=o4tv6bwd&raw=1',
