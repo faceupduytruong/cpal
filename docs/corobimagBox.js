@@ -696,30 +696,35 @@ container.innerHTML = `
         <div class="caption">ThinkLap24H USA</div>
       </div>
 
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61565033018313&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/2kk1kiyqtqukwuieez5tz/Anh-B-n-Lap.png?rlkey=nf7anqr5qrc31u1j51wj0x5f4&st=vaikvlqr&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Anh Bán Lap</div>
       </div>
 
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100086365434019' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/2kk1kiyqtqukwuieez5tz/Anh-B-n-Lap.png?rlkey=nf7anqr5qrc31u1j51wj0x5f4&st=vaikvlqr&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">LapTop Nhập Khẩu Nhật Mỹ</div>
       </div>
 
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100091644361441' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/2kk1kiyqtqukwuieez5tz/Anh-B-n-Lap.png?rlkey=nf7anqr5qrc31u1j51wj0x5f4&st=vaikvlqr&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Laptop Việt Mỹ</div>
       </div>
 
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61573725841995/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/2kk1kiyqtqukwuieez5tz/Anh-B-n-Lap.png?rlkey=nf7anqr5qrc31u1j51wj0x5f4&st=vaikvlqr&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Laptop Huyền Anh</div>
       </div>
 
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/ohayolaptop/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/2kk1kiyqtqukwuieez5tz/Anh-B-n-Lap.png?rlkey=nf7anqr5qrc31u1j51wj0x5f4&st=vaikvlqr&raw=1" alt="Ảnh 1">
 </div>
