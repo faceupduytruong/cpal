@@ -61,6 +61,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/truyentranhtuoith0/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/zqetjdpvm4v878ki4ug7c/H-i-c-truy-n-tranh-199x.jpg?rlkey=x5fubmm5kodv2ob78jwxftofp&st=xa363yc6&raw=1'
   },
+ 'Thư Viện Ebook': {
+    url: 'https://www.facebook.com/profile.php?id=61556239504023&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2pu8yk1nbtivka7hmlgww/Th-vi-n-ebook.webp?rlkey=cqj6gdka37w0jesbk5m0vyeul&st=0t4crhr2&raw=1'
+  },
  'Winter Wonder Shop - Mua, Bán truyện tranh đủ bộ': {
     url: 'https://www.facebook.com/winterwondershop/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/i9a5qc6meo8aud512im1g/Winter-Wonder-Shop-Mua-B-n-truy-n-tranh-b.jpg?rlkey=1zcpgs5j09gp9nmuxwvkeiakm&st=pdt8qwjo&raw=1'
