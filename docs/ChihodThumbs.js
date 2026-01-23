@@ -177,5 +177,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61583464679809',
     thumbnail: 'https://www.dropbox.com/scl/fi/j5nkiy6o1sogpi19zt9xf/Kids-Story.png?rlkey=nhupswcggk5tz96qani55bp0m&st=29880fh9&raw=1'
   },
+ 'Winny - Máy Tính Bảng Thông Minh': {
+    url: 'https://www.facebook.com/profile.php?id=61563897182619&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xv2qtjegvmlpv0cb7wleh/Winny-M-y-T-nh-B-ng-Th-ng-Minh.jpg?rlkey=2lqft2ibyoq7fif6sgmnwo41v&st=t6iz3wxm&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
