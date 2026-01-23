@@ -50,5 +50,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/1phutchualanh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5j0gik6bk7xhgfs1gi06d/1-Ph-t-Ch-a-L-nh.jpg?rlkey=06w7u4b3d679veqc6x6n3zdyk&st=w8hu3eel&raw=1',
   },
+  'Chia Sẻ Phật Pháp': {
+    url: 'https://www.facebook.com/chia.se.phat.phap.952865/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2hcwyg1hltjj99ml0fhap/Chia-S-Ph-t-Ph-p.jpg?rlkey=i5bypfvpmn73xedffluk82o5y&st=arvzs7wm&raw=1',
+  },
+  'Lạc Thích Quen': {
+    url: 'https://www.facebook.com/profile.php?id=61585481250950&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zr4j0rs1pitvmf585aqut/L-c-Th-ch-Quen.jpg?rlkey=qkrnwu9tyclwwouxh25alr894&st=c1pd7k58&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
