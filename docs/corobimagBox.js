@@ -841,7 +841,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61555607258581&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/t60tc2cd6iamnbu8w9g3h/Ti-m-Cute-X-u.webp?rlkey=m50pcrkf9abanr3q9zblj3mb8&st=vgcci575&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/udmen7s205zjn0pwm234j/Ti-m-Cute-X-u.png?rlkey=plp6agu8u1noj3sqd8hones3r&st=79cw3h0f&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tiệm Đồ Cute Xỉu</div>
       </div>
