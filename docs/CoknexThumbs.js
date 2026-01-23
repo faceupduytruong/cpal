@@ -164,6 +164,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/davoslingo/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/mnud3wbitzic3lktv60i7/Davo-s-Lingo.jpg?rlkey=bewf69o557hrsbv8c115nfqes&st=kcojjatq&raw=1',
   },
+  "Lại Ngứa Chân": {
+    url: 'https://www.facebook.com/Lainguachanofficial/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/kp7z954qys1jd5c9re9cp/L-i-Ng-a-Ch-n.jpg?rlkey=01vfb4yieb9idfijn3rd8wlb4&st=5yv9z6hi&raw=1',
+  },
   'MC Quang Huy': {
     url: 'https://www.facebook.com/profile.php?id=61581484430903&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/tblc057on8le9tt4hu6ru/MC-Quang-Huy.jpg?rlkey=0zkq1d26yu1kc2dao9mqvrutx&st=u6ngatxp&raw=1',
