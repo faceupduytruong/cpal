@@ -56,7 +56,7 @@ const folderLinks = {
   },
   'Lạc Thích Quen': {
     url: 'https://www.facebook.com/profile.php?id=61585481250950&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/zr4j0rs1pitvmf585aqut/L-c-Th-ch-Quen.jpg?rlkey=qkrnwu9tyclwwouxh25alr894&st=c1pd7k58&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h0rjc8a0xahtvd0xt0hlg/L-c-Th-ch-Quen.jpg?rlkey=sicn8gi4lepq292jamaba2sjh&st=j1f0dy3i&raw=1',
   },
   // thêm các mục khác nếu cần
 };
