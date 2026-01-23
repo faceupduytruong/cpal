@@ -622,6 +622,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/dattinhocquocte/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/15s6fsuneo51dz8d4350g/t-Tin-H-c-L-V-n-t.png?rlkey=3kiacka6ydh4ku3q4z3iy6ro3&st=9m0tpp5p&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Đạt Tin Học (Lê Văn Đạt)</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61557631294837&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/3ypde45kc0hoie4h0izv1/Tin-H-c-Official-Office.png?rlkey=b3wtm2pv0py4nqm8xp8u7p3ji&st=qh4j6fxd&raw=1" alt="Ảnh 1">
 </div>
