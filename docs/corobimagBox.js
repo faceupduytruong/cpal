@@ -754,7 +754,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/mt.laptop1/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/85imh91j7uzflh6p56y5x/MT-Laptop.avif?rlkey=sp8ert38v04zanj6kz2chie0i&st=dogjyr61&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/tbdx9xfv6has9ei53b342/MT-Laptop.png?rlkey=pa7um3357wo6jsz6xfwx6u9fz&st=utqs2y86&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">MT-Laptop</div>
       </div>
