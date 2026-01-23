@@ -53,6 +53,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Adobe Help</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/hpphoto.official/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/fggt0v25lyg8rqbq6dl4c/Ho-ng-Ph-c-Photo.png?rlkey=mk9i0n17tx0thhf7jm17kavci&st=87690ao6&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hoàng Phúc Photo</div>
+      </div>
       
  </div>
 
