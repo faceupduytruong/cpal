@@ -20,6 +20,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/ETABSAPI/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/dwrl2vqqxgoush2jk92oj/ETABS-API.webp?rlkey=krgdbs9k5qd8qz3y4fmj3xrz1&st=1an5i2ra&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">ETABS API</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/user/100024795782340/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/54v9qmja9ymfmhopaot4n/T-o-Th-o.png?rlkey=lrpzv8w8hp2d5byi5n6eabd92&st=pn6pksdw&raw=1" alt="Ảnh 1">
 </div>
