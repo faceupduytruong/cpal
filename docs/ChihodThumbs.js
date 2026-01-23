@@ -183,7 +183,7 @@ const folderLinks = {
   },
  'Winny - Thế Giới Mẹ Và Bé': {
     url: 'https://www.facebook.com/profile.php?id=61564147461946&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/z439ro71tcqgwco4xcfmm/Winny-Th-Gi-i-M-V-B.webp?rlkey=9mctregelz0oliklmqu3kitfs&st=hwyode13&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/xcrjxnrbfpvonzvbu0685/Winny-Th-Gi-i-M-V-B.png?rlkey=sswsa3uqamgk2c3tlma16si7v&st=h62i8pba&raw=1'
   },
   // thêm các mục khác nếu cần
 };
