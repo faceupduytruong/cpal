@@ -861,6 +861,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/gocdammeforever/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/sgv28q9dj36yxhwa5hoyr/G-c-am-m.png?rlkey=a93g8lvktfdbi3pt8mkd3hf4w&st=leel8td0&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Góc đam mê</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61584600707805&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/rp7l5i9sziinkpzkdjptd/Kho-Gia-D-ng-Online.png?rlkey=ykmsk8e7giczius1zovx27p4t&st=y7j4tt9i&raw=1" alt="Ảnh 1">
 </div>
