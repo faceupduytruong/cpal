@@ -683,6 +683,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100093387315708' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/j3ilrrtvmd0z59dir67ea/Laptop3mien.vn-Chuy-n-Laptop-H-a.webp?rlkey=zki51tveyk8snqpmczcqixh4z&st=pqz890pc&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Laptop3mien.vn Chuyên Laptop Đồ Họa</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/Mac24h/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/cubeh1so3id6gz17ylckn/Mac24h.webp?rlkey=nkad6muxgsdalr2bv2a128brt&st=rr437va0&raw=1" alt="Ảnh 1">
 </div>
@@ -704,10 +711,10 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100086365434019' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/5xaws86gpb5gfesdysl4y/LapTop-Nh-p-Kh-u-Nh-t-M.webp?rlkey=8sl019bf4i3nav6bv8qhdaci5&st=oyed11lw&raw=1" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/laptopxachtaymygiarehungphatus/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/irie8rj0fsfpa0oc8nq5t/Laptop-x-ch-tay-m-gi-r-H-ng-Ph-t-US.webp?rlkey=8nods7uzju633qkh8lxdr1yg8&st=qpwqrd21&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">LapTop Nhập Khẩu Nhật Mỹ</div>
+        <div class="caption">Laptop xách tay mỹ giá rẻ Hưng Phát US</div>
       </div>
 
       <div class="image-box">
@@ -715,6 +722,20 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/450whj4lhnwv56tb18ije/Laptop-Vi-t-M.webp?rlkey=hey2x1hnlgahxcaz97ydop9gl&st=6wommytq&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Laptop Việt Mỹ</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100086365434019' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/5xaws86gpb5gfesdysl4y/LapTop-Nh-p-Kh-u-Nh-t-M.webp?rlkey=8sl019bf4i3nav6bv8qhdaci5&st=oyed11lw&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">LapTop Nhập Khẩu Nhật Mỹ</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100085465730526&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/sukmoka52hmm0dylgow6t/LapTop-Nh-t-Vi-t.webp?rlkey=2rjsoizb78885ejice1nue3g2&st=v8wod4jy&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">LapTop Nhật Việt</div>
       </div>
 
       <div class="image-box">
@@ -729,6 +750,27 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/vmf8fru9tuu3qfi0ahvxr/OHAYO-Mobile-laptop-Shinkoiwa.webp?rlkey=b4wwcxfubmgay0t6qs9l59upf&st=7vbwzdgz&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">OHAYO Mobile－laptop Shinkoiwa</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/mt.laptop1/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/85imh91j7uzflh6p56y5x/MT-Laptop.avif?rlkey=sp8ert38v04zanj6kz2chie0i&st=dogjyr61&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">MT-Laptop</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61558933330123&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/gjs0qduu0ap8em3jzuzsd/Laptop-Nh-t-B-o-Duy.png?rlkey=x163d7h94c3xarirhoz6sgpko&st=ay4uyhcl&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Laptop Nhật Bảo Duy</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100091551471128&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/h56ea9utbwo2zrgqw76qe/LapTop-Gi-S.webp?rlkey=hmor822ylpqv8tw0baigjhzml&st=s4fncmh7&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">LapTop Giá Sỉ</div>
       </div>
       
 </div>
