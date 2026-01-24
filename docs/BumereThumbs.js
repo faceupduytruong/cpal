@@ -142,6 +142,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/nguyenthanh.1005/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/6alti459rh43fxw1brwya/Nguy-n-c-Th-nh.jpg?rlkey=3z18cufge07i71q6sl4iviisg&st=yderzsyr&raw=1',
   },
+  'Nguyễn Trí Hạo': {
+    url: 'https://www.facebook.com/profile.php?id=100083069565503&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/t1u9yvk8q2mav1htak5zw/Nguy-n-Tr-H-o.jpg?rlkey=9zzqd2mqvcnf1x7s5t1mwgf8h&st=qoznm9h7&raw=1',
+  },
   'Truyền động lực': {
     url: 'https://www.facebook.com/groups/2426705184317871/',
     thumbnail: 'https://www.dropbox.com/scl/fi/cgk31noistcg9bgaequ0o/Truy-n-ng-l-c.jpg?rlkey=evd6gbl806xtnx9r6hp3ucrir&st=n56k29ej&raw=1',
@@ -149,6 +153,10 @@ const folderLinks = {
   'TƯ DUY NGƯỜI THÀNH CÔNG': {
     url: 'https://www.facebook.com/groups/1134653551104543/',
     thumbnail: 'https://www.dropbox.com/scl/fi/23e3r5uygjrkpq97r3bao/T-DUY-NG-I-TH-NH-C-NG.jpg?rlkey=w2qpymqe9mr92qk388w0uyv5o&st=6crc2nmn&raw=1',
+  },
+  'Sống Tích Cực Mỗi Ngày': {
+    url: 'https://www.facebook.com/songtichcucmoingay.vn/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4qr6q4376jyl076qx960e/S-ng-T-ch-C-c-M-i-Ng-y.jpg?rlkey=sjwinoafn92zhm0hjo5zm21r3&st=w89i8hip&raw=1',
   },
   'Thanh Đạt (Skyland Dolls)': {
     url: 'https://www.facebook.com/swan.black.370/reels/',
