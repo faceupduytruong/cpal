@@ -118,6 +118,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/415435771990553/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ovx62gspdi6giiiidgjcp/LET-S-LEARN-ENGLISH-APPRENONS-L-ANGLAIS.jpg?rlkey=yb9p61sdd1jzilk449zoemwf5&st=wte0flmq&raw=1',
   },
+  'Daily English Challenge': {
+    url: 'https://www.facebook.com/groups/5688211251275040/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/otvamncsz6ejfeu8v7ieq/Daily-English-Challenge.webp?rlkey=oi2x7cfk2762lphqdg6y09o9x&st=8xg7t6dz&raw=1',
+  },
   'Chef Vicky Bisht': {
     url: 'https://www.facebook.com/chef.vicky.bisht1/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/et38h36qofsdb7hlhice8/Chef-Vicky-Bisht.jpg?rlkey=g6cfiteopukhr7bvdbs81ibz6&st=fs8p50ez&raw=1',
