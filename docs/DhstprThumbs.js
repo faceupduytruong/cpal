@@ -58,5 +58,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61585481250950&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/h0rjc8a0xahtvd0xt0hlg/L-c-Th-ch-Quen.jpg?rlkey=sicn8gi4lepq292jamaba2sjh&st=j1f0dy3i&raw=1',
   },
+  'ĐẸP và HAY': {
+    url: 'https://www.facebook.com/groups/150329723634212/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ixx3i0mc5209ld5eudd3r/P-v-HAY.jpg?rlkey=jrl21g8ubcyql11ka9fq4u0lw&st=scxkxva9&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
