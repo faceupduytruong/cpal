@@ -55,7 +55,7 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/photoshop' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/chinh-sua-anh' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/94ixfdutpntbb8e9l4be9/Quantrimang-Photoshop.jpg?rlkey=7q9v2vnsfpfndf7ak0x7zi1lt&st=2ewv0upf&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quantrimang (Photoshop)</div>
