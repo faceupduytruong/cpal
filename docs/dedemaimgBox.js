@@ -28,7 +28,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/hpphoto.official/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/fggt0v25lyg8rqbq6dl4c/Ho-ng-Ph-c-Photo.png?rlkey=mk9i0n17tx0thhf7jm17kavci&st=87690ao6&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/116otlx80kqoht565sipm/Ho-ng-Ph-c-Photo.png?rlkey=tzs17jh29ingxatnp9eta5qeb&st=nu5874mr&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Hoàng Phúc Photo</div>
       </div>
