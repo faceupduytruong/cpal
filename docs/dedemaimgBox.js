@@ -27,6 +27,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/hpphoto.official/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/fggt0v25lyg8rqbq6dl4c/Ho-ng-Ph-c-Photo.png?rlkey=mk9i0n17tx0thhf7jm17kavci&st=87690ao6&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hoàng Phúc Photo</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fptshop.com.vn/tin-tuc/tags/photoshop' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/991vfivq7rt7seej6p5ks/Fptshop.jpg?rlkey=byppgmg44we0ftttwurfh1vlg&st=dxeouzrf&raw=1" alt="Ảnh 1">
 </div>
@@ -55,6 +62,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://thuthuatphanmem.vn/thu-thuat/photoshop/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/w4fhk83je07z87p4n8qz4/Th-Thu-t-Ph-n-M-m.png?rlkey=789bv7tjpslo1fi6n1vbfcx0o&st=tfaihzsu&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Thủ Thuật Phần Mềm</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61551730992154&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/lyhn5qfxtstz9tpapekao/TVK-MEDIA.png?rlkey=7b1ldsnjw76e54b061gwomat5&st=znqh145g&raw=1" alt="Ảnh 1">
 </div>
@@ -66,13 +80,6 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/yuynl1ug5t4utg5f97qde/Adobe-Help.avif?rlkey=c6kjvmeidb5pkogs1sdop1kuy&st=xoaj36gm&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Adobe Help</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/hpphoto.official/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/fggt0v25lyg8rqbq6dl4c/Ho-ng-Ph-c-Photo.png?rlkey=mk9i0n17tx0thhf7jm17kavci&st=87690ao6&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Hoàng Phúc Photo</div>
       </div>
       
  </div>
