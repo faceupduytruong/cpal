@@ -12,6 +12,20 @@ container.innerHTML = `
         <div class="caption">Design Tutorials</div>
       </div>
 
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/reel/1490825078668290/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/tw8jolli4a6su80z3380f/AGDesign99.jpg?rlkey=ochr7tmnmc2eqctyfxc91iyep&st=aeusg1sn&raw=1">
+</div>
+        <div class="caption">AGDesign99</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/reel/3314317968729962/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/j4zpij14c6686pbwtx971/Smart-Graphics-Photoshop-Tutorials.webp?rlkey=nxdbr2gxeqiy781rnin3ie4mj&st=xo0qx2jm&raw=1">
+</div>
+        <div class="caption">Smart Graphics (Photoshop Tutorials)</div>
+      </div>
+
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://fptshop.com.vn/tin-tuc/tags/photoshop' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/991vfivq7rt7seej6p5ks/Fptshop.jpg?rlkey=byppgmg44we0ftttwurfh1vlg&st=dxeouzrf&raw=1" alt="Ảnh 1">
