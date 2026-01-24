@@ -600,7 +600,7 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Office</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://quantrimang.com/hoc/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/tin-hoc-van-phong' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/suwsbtbeu731sub9r94a0/Qu-n-Tr-M-ng-Office.ico?rlkey=s29z5wola30g12r8wxldxyxi1&st=dtfnzkkf&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quản Trị Mạng (Office)</div>
