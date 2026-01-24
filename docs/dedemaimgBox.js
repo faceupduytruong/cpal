@@ -14,14 +14,14 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/reel/1490825078668290/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/tw8jolli4a6su80z3380f/AGDesign99.jpg?rlkey=ochr7tmnmc2eqctyfxc91iyep&st=aeusg1sn&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/fggt0v25lyg8rqbq6dl4c/AGDesign99.png?rlkey=mk9i0n17tx0thhf7jm17kavci&st=mx8jkwk3&raw=1">
 </div>
         <div class="caption">AGDesign99</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/reel/3314317968729962/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/j4zpij14c6686pbwtx971/Smart-Graphics-Photoshop-Tutorials.webp?rlkey=nxdbr2gxeqiy781rnin3ie4mj&st=xo0qx2jm&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/w4fhk83je07z87p4n8qz4/Smart-Graphics-Photoshop-Tutorials.png?rlkey=789bv7tjpslo1fi6n1vbfcx0o&st=alxfvl6f&raw=1">
 </div>
         <div class="caption">Smart Graphics (Photoshop Tutorials)</div>
       </div>
