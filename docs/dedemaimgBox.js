@@ -63,7 +63,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://thuthuatphanmem.vn/thu-thuat/photoshop/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/w4fhk83je07z87p4n8qz4/Th-Thu-t-Ph-n-M-m.png?rlkey=789bv7tjpslo1fi6n1vbfcx0o&st=tfaihzsu&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/58jqbpjfsgy7h8klmagxz/Th-Thu-t-Ph-n-M-m.png?rlkey=vqdet6d0wn1sswtfugdwo3rih&st=wpt82f6e&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Thủ Thuật Phần Mềm</div>
       </div>
