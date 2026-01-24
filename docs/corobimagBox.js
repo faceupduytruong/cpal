@@ -95,7 +95,7 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Hardware</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/phan-cung/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/phan-cung' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/aq2esxrys9spwr7y9rcbp/Qu-n-Tr-M-ng-Ph-n-C-ng.png?rlkey=r1oszria80safbin6mhewr9aw&st=kcmv680h&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quản Trị Mạng (Phần Cứng)</div>
