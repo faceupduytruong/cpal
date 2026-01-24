@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100076216793607&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/rqdh5ubphgnrvoia2ng80/Disney-Vietsub.jpg?rlkey=04hsq6g2rwq9xtf4ucw6wmf5n&st=d4b45ezk&raw=1'
   },
+  'TASS English': {
+    url: 'https://www.facebook.com/tassenglish/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/56w0jhri3z7gr4efaiflz/TASS-English.png?rlkey=ga3io78tw168mhbiya1hf32ek&st=s6czye17&raw=1'
+  },
   'Trần Gia Thông - Huấn luyện viên tiếng Anh': {
     url: 'https://www.facebook.com/TranGiaThong.Coach/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/tqiyn285gn5ttxfc2a2t1/Tr-n-Gia-Th-ng-Hu-n-luy-n-vi-n-ti-ng-Anh.jpg?rlkey=av5qfizatk0ui1smqrj8s3ca2&st=z1gnno5l&raw=1'
@@ -149,6 +153,18 @@ const folderLinks = {
   'The Catalyst for English': {
     url: 'https://www.facebook.com/thecatalystforenglishvietnam/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/tjnqvvbgccvlaga7bcq0r/The-Catalyst-for-English.jpg?rlkey=zcmkt2c5gkau7g4n9vh5m10kb&st=haezph9p&raw=1'
+  },
+  'Namluu292': {
+    url: 'https://www.facebook.com/namluu292/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tfvfatj6e4nrnk1zhmk1z/Namluu292.webp?rlkey=x26gar2q2t0g6p4kvfjkhjz7f&st=qea0ygqh&raw=1'
+  },
+  'Ha Tran': {
+    url: 'https://www.facebook.com/Khiembill/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8ypiu2aibpq7irbent3a2/Ha-Tran.avif?rlkey=ktaf1aenm7e26letedu4lmz0q&st=gbm89n7i&raw=1'
+  },
+  'The Anh English': {
+    url: 'https://www.facebook.com/theanhenglish/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/z3y30njj6z5zbhufjl5rv/The-Anh-English.png?rlkey=atxr202fyknv4386b936074c1&st=h7hx71uq&raw=1'
   },
   // thêm các mục khác nếu cần
 };
