@@ -332,6 +332,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Comprehensive Assistant</h2>
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://quantrimang.com/ai/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/w8bl7qimmmm2f2nbbc596/Qu-n-Tr-M-ng-AI.png?rlkey=es7ccelurk6avhmmx4mingd08&st=uc3lhjfg&raw=1">
+</div>
+        <div class="caption">Quản Trị Mạng (AI)</div>
+      </div>
+      
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://copilot.microsoft.com/chats/9QSK7k2MZHo9v7yYHhCeg', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://studiostaticassetsprod.azureedge.net/bundle-cmc/favicon.svg">
 </div>
