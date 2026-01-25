@@ -991,4 +991,4 @@ glassElements.forEach(el => {
 });
 
 // Gọi lại sau khi DOM đã có .glass-bg
-applyColor(colorIndex); 
+applyColor(colorIndex);
