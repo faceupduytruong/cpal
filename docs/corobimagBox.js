@@ -41,6 +41,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://quantrimang.com/video/video-huong-dan' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/vhpnb5ug93s2mzu13vfwg/Qu-n-Tr-M-ng-H-ng-D-n.png?rlkey=vtl23kucf5bl8de55vduau91h&st=ubud85jh&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Quản Trị Mạng (Hướng Dẫn)</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/motngaymoitasetrolai/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/8kw8jmudpyisf4vzapux1/Anh-Nam-C-i-Win.png?rlkey=hezjgfuikt9gkvktdp659tis5&st=j3fzw265&raw=1" alt="Ảnh 1">
 </div>
