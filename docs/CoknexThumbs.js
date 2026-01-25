@@ -108,6 +108,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@vaimeohay.9/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9yyggcj6nzjqnd4vtso1e/V-i-M-o-Hay.jpg?rlkey=v3nw4roiqisbth1dm2mzyg1w9&st=v5nj9trj&raw=1',
   },
+  'Quản Trị Mạng (Mẹo Vặt)': {
+    url: 'https://quantrimang.com/cuoc-song/meo-vat',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nuqlob3w0u61ll9lq6d9k/Qu-n-Tr-M-ng-M-o-V-t.jpg?rlkey=j50x1bbk0v6pg7n390vddcle1&st=8t7va661&raw=1',
+  },
   'Xe Ôm Vlog': {
     url: 'https://www.facebook.com/hoangxeomvlog/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/x5n3dkgn1a09iyg3ge04r/Xe-m-Vlog.jpg?rlkey=f2w84s386dm86torhtc0bcmxe&st=c9gj5exm&raw=1',
