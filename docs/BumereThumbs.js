@@ -162,6 +162,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/swan.black.370/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nepc0v62qg7tky4f9kp2v/Thanh-t-Skyland-Dolls.jpg?rlkey=zuez4panjga24x9hcyivbngpa&st=523grpzm&raw=1',
   },
+  'Đàm Tài Cap': {
+    url: 'https://www.damtaicap.net/search/label/Personal%20Growth',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mqub714yd1tb91agd8os1/m-T-i-Cap.webp?rlkey=7qs5a9a6gfdk7lekw7bpxk95d&st=obnnqpfn&raw=1',
+  },
   'Glow Books - Hành Trình Tỏa Sáng': {
     url: 'https://www.facebook.com/GlowBooksVietnam/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/mfor4nlw7cquhxupxeodb/Glow-Books-H-nh-Tr-nh-T-a-S-ng.jpg?rlkey=yp293nxbm7b92g6ebv0x2iur0&st=rd5j895t&raw=1',
