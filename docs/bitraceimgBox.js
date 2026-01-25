@@ -287,7 +287,7 @@ container.innerHTML = `
     <h2 class="row-title">Quản lý dự án</h2>
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.damtaicap.net/search/label/Qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/f8hm2ppaeoda8gq67irzg/m-T-i-Cap-QLDA.webp?rlkey=3wt7mgr9ggo9s12rtdffspp0g&st=n4basb1u&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/bbst54pc10g2f7llopeom/m-T-i-Cap-QLDA.png?rlkey=kpc4lvi0ul6efy8817lpj18pg&st=fkj50l2h&raw=1">
 </div>
         <div class="caption">Đàm Tài Cap (QLDA)</div>
       </div>
