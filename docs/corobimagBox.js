@@ -691,6 +691,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.damtaicap.net/search/label/Microsoft%20Project' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/7eibootqhb0snxhsvehtk/m-T-i-Cap-Microsoft-Project.jpg?rlkey=ffll5mnvg01bcqog8a52jcfdt&st=ksml921g&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Đàm Tài Cap (Microsoft Project)</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/UnicaBookstore/photos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/cwir1858l2sy4mxilt8h5/UnicaBookstore-Shortcut-Office.jpg?rlkey=jcoaxlf218ujhj9vdchhaj7h5&st=xw3cx6xf&raw=1" alt="Ảnh 1">
 </div>
