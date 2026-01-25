@@ -166,6 +166,10 @@ const folderLinks = {
     url: 'https://www.damtaicap.net/search/label/Personal%20Growth',
     thumbnail: 'https://www.dropbox.com/scl/fi/mqub714yd1tb91agd8os1/m-T-i-Cap.webp?rlkey=7qs5a9a6gfdk7lekw7bpxk95d&st=obnnqpfn&raw=1',
   },
+  'Quản Trị Mạng (Kỹ Năng Sống)': {
+    url: 'https://quantrimang.com/cuoc-song/ky-nang-song',
+    thumbnail: 'https://www.dropbox.com/scl/fi/cu4oh3gep6djdg53zkix4/Qu-n-Tr-M-ng-K-N-ng-S-ng.jpg?rlkey=dfaz1wh07irye54faclrjydrz&st=ydnupyjj&raw=1',
+  },
   'Glow Books - Hành Trình Tỏa Sáng': {
     url: 'https://www.facebook.com/GlowBooksVietnam/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/mfor4nlw7cquhxupxeodb/Glow-Books-H-nh-Tr-nh-T-a-S-ng.jpg?rlkey=yp293nxbm7b92g6ebv0x2iur0&st=rd5j895t&raw=1',
