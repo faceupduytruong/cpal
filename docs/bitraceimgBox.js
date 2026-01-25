@@ -284,6 +284,18 @@ container.innerHTML = `
 
     <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
+    <h2 class="row-title">Quản lý dự án</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.damtaicap.net/search/label/Qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/f8hm2ppaeoda8gq67irzg/m-T-i-Cap-QLDA.webp?rlkey=3wt7mgr9ggo9s12rtdffspp0g&st=n4basb1u&raw=1">
+</div>
+        <div class="caption">Đàm Tài Cap (QLDA)</div>
+      </div>
+          
+</div>
+
+    <!-- Hàng thứ 9 -->
+    <div class="image-row glass-bg">
     <h2 class="row-title">Kiến thức BIM</h2>
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.damtaicap.net/search/label/BIM?max-results=20' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -294,7 +306,7 @@ container.innerHTML = `
           
 </div>
 
-    <!-- Hàng thứ 9 -->
+    <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Tải xuống tài liệu BIM</h2>
   <div class="image-box">
