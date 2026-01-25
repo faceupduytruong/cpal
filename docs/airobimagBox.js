@@ -563,6 +563,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/su0ptg55hk74dd4gaw2f7/Cao-Vuong.png?rlkey=z62kz3a5gie7e2j22xymuld80&st=6roftjf9&raw=1">
 </div>
         <div class="caption">Cao Vuong</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.damtaicap.net/search/label/N%E1%BB%81n%20t%E1%BA%A3ng%20AI' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/jcjspdruf7g2bsvahblcx/m-T-i-Cap-AI.png?rlkey=a8qw0r76z6jvt2n76tuoprjn6&st=94dr1hbw&raw=1">
+</div>
+        <div class="caption">Đàm Tài Cap (AI)</div>
       </div>   
 
 </div>
