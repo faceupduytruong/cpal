@@ -89,7 +89,7 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.lisp.vn/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/2x65pmt2olc3afbco6l72/AutoLISP-Reviewer.webp?rlkey=wg3gzk2se44kw31osojsl5ryv&st=08glixl5&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/mimbofh4md60yx73dgvx4/AutoLISP-Reviewer.png?rlkey=dcr80grcou0074dpggfr8o8xz&st=i1fbscv9&raw=1">
 </div>
         <div class="caption">AutoLISP Reviewer</div>
       </div>
