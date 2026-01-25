@@ -42,11 +42,15 @@ const folderLinks = {
   },
   'Vũ Trụ Quanh Ta': {
     url: 'https://www.youtube.com/@scienceisaround/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/V-Tr-Quanh-Ta.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=akb28j8q&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0dm8qj4cfv71giz1v1xkt/V-Tr-Quanh-Ta.webp?rlkey=xmoxn09vcu7bao3bn5tsd9vzy&st=ozxnlmy7&raw=1',
   },
   'Hồ Sơ Vô Cực': {
     url: 'https://www.youtube.com/@H%E1%BB%93S%C6%A1V%C3%B4C%E1%BB%B1c/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/H-S-V-C-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=3w2dvt63&raw=1',
+  },
+  'Quản Trị Mạng (Vũ Trụ)': {
+    url: 'https://quantrimang.com/khoa-hoc/khoa-hoc-vu-tru',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/Qu-n-Tr-M-ng-V-Tr.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=rvxcg180&raw=1',
   },
   '1 Phút Khoa Học': {
     url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
