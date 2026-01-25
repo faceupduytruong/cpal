@@ -12,6 +12,13 @@ container.innerHTML = `
         <div class="caption">Quản Trị Mạng (Windows)</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/kien-thuc-co-ban' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/tmluub3u4xz1ralkxgbto/Qu-n-Tr-M-ng-Ki-n-Th-c-C-B-n.png?rlkey=9vjut7uwrruxk3hfctzr63tfd&st=66f6vbko&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Quản Trị Mạng (Kiến Thức Cơ Bản)</div>
+      </div>
+
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.howtogeek.com/category/windows/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/eifxolenw4inm0zfdfxvv/Howtogeek-Windows.ico?rlkey=62kctyvglyplc0jhcvge55u8p&st=v1b2jxj4&raw=1" alt="Ảnh 1">
