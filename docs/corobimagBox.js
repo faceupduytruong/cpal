@@ -677,6 +677,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.damtaicap.net/search/label/Microsft%20Excel' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/w2tixq4kchb7zxydvs3sy/m-T-i-Cap-Excel.webp?rlkey=12pqdr8b9jw6pekyborcoyc1n&st=918gin9u&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Đàm Tài Cap (Excel)</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/9slide.edu/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/cmslfhvwrr37vmhnyhms7/9Slide-Kh-a-h-c-thi-t-k-Powerpoint-d-nh-cho-Thuy-t-tr-nh-v-Truy-n-th-ng.png?rlkey=fswnerjqypeiq2upbk9hi3uly&st=19nbyzun&raw=1" alt="Ảnh 1">
 </div>
