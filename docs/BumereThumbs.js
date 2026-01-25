@@ -162,7 +162,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/swan.black.370/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nepc0v62qg7tky4f9kp2v/Thanh-t-Skyland-Dolls.jpg?rlkey=zuez4panjga24x9hcyivbngpa&st=523grpzm&raw=1',
   },
-  'Đàm Tài Cap': {
+  'Đàm Tài Cap (Personal Growth)': {
     url: 'https://www.damtaicap.net/search/label/Personal%20Growth',
     thumbnail: 'https://www.dropbox.com/scl/fi/mqub714yd1tb91agd8os1/m-T-i-Cap.webp?rlkey=7qs5a9a6gfdk7lekw7bpxk95d&st=obnnqpfn&raw=1',
   },
