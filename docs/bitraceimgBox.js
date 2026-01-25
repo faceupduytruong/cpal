@@ -284,6 +284,18 @@ container.innerHTML = `
 
     <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
+    <h2 class="row-title">Kiến thức BIM</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.damtaicap.net/search/label/BIM?max-results=20' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/yt155l5t0ux8vbox4u0vw/m-T-i-Cap-BIM.png?rlkey=s2vxdccajx517xjkapu8udx3m&st=oakigur1&raw=1">
+</div>
+        <div class="caption">Đàm Tài Cap (BIM)</div>
+      </div>
+          
+</div>
+
+    <!-- Hàng thứ 9 -->
+    <div class="image-row glass-bg">
     <h2 class="row-title">Tải xuống tài liệu BIM</h2>
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://tailieukientruc.net/tailieu/home/index/sort/free/page/36.html' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
