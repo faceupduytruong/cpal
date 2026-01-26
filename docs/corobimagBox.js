@@ -49,7 +49,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/ung-dung' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/rkwjguxx8onzl05n3w1gw/Qu-n-Tr-M-ng-ng-D-ng.png?rlkey=vjah0plp28yjctay7c2ay3hhv&st=kzw1ebno&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/2d0rl3zfi53mqsy83qwja/Qu-n-Tr-M-ng-ng-D-ng.png?rlkey=9yd1s7xr1tjw6xuln11125hni&st=tbc420if&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quản Trị Mạng (Ứng Dụng)</div>
       </div>
