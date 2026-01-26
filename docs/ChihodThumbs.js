@@ -145,6 +145,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/einstein.sachhaychomevabe/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8rzuqdkfhtwlxu99ak3wk/Einstein-Books-S-ch-hay-cho-gia-nh.jpg?rlkey=dauy6rn27qcricg5ovbczlrlv&st=yuqix6u3&raw=1'
   },
+ 'Quản Trị Mạng (Học nhanh nhớ lâu)': {
+    url: 'https://quantrimang.com/cuoc-song/giao-duc-hoc-tap',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xxsmae1ulapbv267o48ze/H-c-nhanh-nh-l-u.jpg?rlkey=gnelwypsu35316dt94orn40v5&st=lhfgjcv9&raw=1'
+  },
  'TKBooks (Các Môn Học)': {
     url: 'https://www.facebook.com/TKBooks.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2xfs6mszfzta4v277h2ci/TKBooks-C-c-M-n-H-c.jpg?rlkey=yf9cv58ink6uj46ht41puzrtm&st=9owsvd48&raw=1'
