@@ -45,6 +45,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/media/set/?vanity=trainer.damtaicap&set=a.1873184089455350',
     thumbnail: 'https://www.dropbox.com/scl/fi/xwwvfqlk09jsrn5f464lp/m-T-i-Cap-Chia-s-hay.jpg?rlkey=mgecvd23iy9ma1emxs5tkbnmt&st=p2hlwei5&raw=1',
   },
+  'Quản Trị Mạng (Kỹ năng mềm)': {
+    url: 'https://quantrimang.com/cuoc-song/ky-nang-cong-viec',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ejxx8o1ozge6ggpdcbu8e/Qu-n-Tr-M-ng-K-n-ng-m-m.png?rlkey=f2lrip1w1vyxjraw672z3opid&st=m5fjcl9r&raw=1',
+  },
   'Trần Toản': {
     url: 'https://www.facebook.com/trantoan886868/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/fa5i2xlwq2y4cqk3hh9qp/Tr-n-To-n.jpg?rlkey=9sset688gq70k3b6trcn80ebm&st=gaxn5lpe&raw=1',
