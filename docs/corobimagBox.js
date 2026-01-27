@@ -6,6 +6,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Windows<br>System</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://blogs.windows.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/iit2x7tqvbmaqwcd1hkus/Windows-Blogs.png?rlkey=v79gnqstcs9ney4llzm28hy9g&st=runjc256&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Windows Blogs</div>
+      </div>
+    
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/he-thong' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/ez9n4aqk8r3eyk02pnqbj/Qu-n-Tr-M-ng-Windows.png?rlkey=b8f4ljlkvdat2gyqtrxx8tdfk&st=7ihiim50&raw=1" alt="Ảnh 1">
 </div>
