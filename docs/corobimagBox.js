@@ -7,7 +7,7 @@ container.innerHTML = `
     <h2 class="row-title">Windows<br>System</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://blogs.windows.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/iit2x7tqvbmaqwcd1hkus/Windows-Blogs.png?rlkey=v79gnqstcs9ney4llzm28hy9g&st=runjc256&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/vzlfd961vjghhdjy342o4/Windows-Blogs.png?rlkey=q5sa1l6n8oyqxdfwtuljon33m&st=qlj9qe59&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Windows Blogs</div>
       </div>
