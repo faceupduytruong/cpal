@@ -561,7 +561,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/android' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/c2o6llfqomkfqdmmn8tx1/Qu-n-Tr-M-ng-Android.png?rlkey=5tu7ezi1nwxpwjchhi8wvuaiy&st=rjpqwujo&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/q8lx7e88bih6phv8688b7/Qu-n-Tr-M-ng-C-ng-Ngh.png?rlkey=710vh1txnimyswdfw66it8kq9&st=lazqio7s&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quản Trị Mạng (Công Nghệ)</div>
       </div>
