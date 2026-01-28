@@ -559,6 +559,13 @@ container.innerHTML = `
         <div class="caption">Quản Trị Mạng (Android)</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/android' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/c2o6llfqomkfqdmmn8tx1/Qu-n-Tr-M-ng-Android.png?rlkey=5tu7ezi1nwxpwjchhi8wvuaiy&st=rjpqwujo&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Quản Trị Mạng (Công Nghệ)</div>
+      </div>
+
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.howtogeek.com/category/android/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/uluu0ghrr53juz4f1re2e/Howtogeek-Android.gif?rlkey=6da1z7a3k9dz1ypr5yiwi67rt&st=sv55l1iz&raw=1" alt="Ảnh 1">
