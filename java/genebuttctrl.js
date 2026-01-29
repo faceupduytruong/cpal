@@ -170,5 +170,3 @@ async function translateClipboardPopup() {
     console.error(err);
   }
 }
-
-
