@@ -218,37 +218,37 @@ const appsContainer = document.getElementById("appsContainer");
 const appButtonsHTML = `
 
     <div class="app-button" onclick="openWeibo()">
-      <img src="https://pp.myapp.com/ma_icon/0/icon_54191069_1679288303/256" alt="Weibo">
+      <img src="https://www.dropbox.com/scl/fi/6297x4wp8ibhc302d8ljp/Weibo.webp?rlkey=i7nls8cz0hi72nk04zkb23pe7&st=6mua1ev1&raw=1" alt="Weibo">
       <p>Weibo</p>
     </div>
 
     <div class="app-button" onclick="openDouyin()">
-      <img src="https://pp.myapp.com/ma_icon/0/icon_54498206_1756707949/256" alt="Douyin">
+      <img src="https://www.dropbox.com/scl/fi/cg9wc9e5n0e16p6irayu4/Douyin.webp?rlkey=lcxxvf2oj28vo5l9pnalb820d&st=6ed1fw1c&raw=1" alt="Douyin">
       <p>Douyin</p>
     </div>
 
     <div class="app-button" onclick="openBilibili()">
-      <img src="https://img.qqe2.com/uploadfile/gather/2023/0130/202301300457394167.jpg" alt="Bilibili">
+      <img src="https://www.dropbox.com/scl/fi/zd3m3rzxakc2gfzgely8o/Bilibili.jpg?rlkey=icpucu5tzsy82lyowc3qdt8bo&st=bzn8ldrg&raw=1" alt="Bilibili">
       <p>Bilibili</p>
     </div>
 
     <div class="app-button" onclick="openYouku()">
-      <img src="https://play-lh.googleusercontent.com/Ywld-qKkLSGxw7bdnZtOi5IRzSKHzX8VAx3NsMdL3Y5_zJeOhq7Q5AuRU947VUtddg=s256-rw" alt="Youku">
+      <img src="https://www.dropbox.com/scl/fi/j4j4kez957fzqyuevsylr/Youku.webp?rlkey=hdxzo65qsxqf17zjn9wxwwv9a&st=gnhpl8vl&raw=1" alt="Youku">
       <p>Youku</p>
     </div>
 
     <div class="app-button" onclick="openIQiYi()">
-      <img src="https://pp.myapp.com/ma_icon/0/icon_7720_1754895658/256" alt="IQiYi">
+      <img src="https://www.dropbox.com/scl/fi/trykdy2c373uko2jlkgfh/iQiYi.webp?rlkey=27g82n5je0rms2k5bqx4fqxw8&st=445bd7fd&raw=1" alt="IQiYi">
       <p>IQiYi</p>
     </div>
 
     <div class="app-button" onclick="openTencentVideo()">
-      <img src="https://img.mydown.com/uploadImages/app/2024/183/18/2G3CQ9YWUC26.png" alt="TencentVideo">
+      <img src="https://www.dropbox.com/scl/fi/jh7yxugmf6vagnfrctcyx/Tencent-Video.png?rlkey=v5r1ubh2z34ypwcsk6yverh6f&st=uz1czzc1&raw=1" alt="TencentVideo">
       <p>TencentVideo</p>
     </div>
 
     <div class="app-button" onclick="openSohuVideo()">
-      <img src="https://pp.myapp.com/ma_icon/0/icon_6429_1745400293/256" alt="Sohu">
+      <img src="https://www.dropbox.com/scl/fi/eegop4rbbpcyy7yo7rj6z/Sohu.webp?rlkey=1ntx0oas8a1xqshvw0xpro3ig&st=9gj6ti1g&raw=1" alt="Sohu">
       <p>Sohu</p>
     </div>
 
@@ -258,58 +258,58 @@ const appButtonsHTML = `
     </div>
 
 <div class="app-button" onclick="openKuaishou()">
-  <img src="https://pp.myapp.com/ma_icon/0/icon_12201150_1740551782/256" alt="Kuaishou">
+  <img src="https://www.dropbox.com/scl/fi/x8xqxt4ughv3b7ygo6ojt/Kuaishou.webp?rlkey=eco68evlype3z1n65m904yg5e&st=vw7wq5xk&raw=1" alt="Kuaishou">
   <p>Kuaishou</p>
 </div>
 
 <div class="app-button" onclick="openZhihu()">
-  <img src="https://lh5.googleusercontent.com/proxy/8yF3jYS3DovqtKXlG6gzQZVrOd6uR4MXodcKxq6GVtcDThtDjdnvI6ioL4RHnkwiJm871yFkRXF9JbYZwKoUzWxYf70MeajVcrjxHGPd9Q" alt="Zhihu">
+  <img src="https://www.dropbox.com/scl/fi/951il0t88s9bimug7slxr/Zhihu.png?rlkey=rcqz2n8f0e6nhjkv4l7rjm7pn&st=d27tuqb3&raw=1" alt="Zhihu">
   <p>Zhihu</p>
 </div>
 
 <div class="app-button" onclick="openDouban()">
-  <img src="https://img1.doubanio.com/f/frodo/144e6fb7d96701944e7dbb1a9bad51bdb1debe29/pics/app/logo.png" alt="Douban">
+  <img src="https://www.dropbox.com/scl/fi/ttjkemtt2q7ghb9bj3dw9/Douban.webp?rlkey=c2cb4sh4xuhhigo6n1lg065m3&st=1opfs9zm&raw=1" alt="Douban">
   <p>Douban</p>
 </div>
 
    <div class="app-button" onclick="openTalkin()">
-      <img src="https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxhIwgldVDmfUFNmGwzMh32ehpz2p4FMa.p9gO9.YMsK3o3p2viJq3hE3QfqCN_XQElt1IejeDht1YkbKac7P808-&format=webp" alt="Talkin">
+      <img src="https://www.dropbox.com/scl/fi/a6lh3un87j912difxmuve/Talkin.webp?rlkey=fj4a4sk3msnv6g786fegruy9o&st=fd5evmyr&raw=1" alt="Talkin">
       <p>Talkin</p>
     </div>
 
 <div class="app-button" onclick="openTalkinapp()">
-  <img src="https://play-lh.googleusercontent.com/5Yu9hrHeOxSpud_PKuMyE_dprMPUiXYu15C4XtR2T2U1szlO2MKJdP1QL94i0AfcFg=w240-h480-rw" alt="Talkin">
+  <img src="https://www.dropbox.com/scl/fi/an2p6uqwmm5kcljufvv0w/Talkin-App.webp?rlkey=7szl915njsqfb3j88ldcajow8&st=1cqfwgtp&raw=1" alt="Talkin">
   <p>Talkin app</p>
 </div>
 
 
     <div class="app-button" onclick="openIzuiyou()">
-      <img src="https://pp.myapp.com/ma_icon/0/icon_54467262_1743559608/256" alt="Izuiyou">
+      <img src="https://www.dropbox.com/scl/fi/rcpibljmwj40l4wazfq7o/Izhuyou.webp?rlkey=8e76f5b2hdtei97d8qqdfag1n&st=tdvuckz9&raw=1" alt="Izuiyou">
       <p>Izuiyou</p>
     </div>
 
     <div class="app-button" onclick="openTencentQQ()">
-      <img src="https://img.xinhuaedu.cn/xinhuaedu/imgfile/20240905/05094144un8o.png" alt="TencentQQ">
+      <img src="https://www.dropbox.com/scl/fi/0yembm6m5qwm1pmrzbq85/TenCentQQ.png?rlkey=ocj2mpv6gdsh0wnm367etm7id&st=jdamazq4&raw=1" alt="TencentQQ">
       <p>TencentQQ</p>
     </div>
 
     <div class="app-button" onclick="openInstagram()">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+      <img src="https://www.dropbox.com/scl/fi/zxjm08zw81gq0fm1nkibx/Instagram.png?rlkey=haig1dvasuvmn1thut9yxx31r&st=8s0q0pok&raw=1" alt="Instagram">
       <p>Instagram</p>
     </div>
 
     <div class="app-button" onclick="openThreads()">
-      <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/threads-app-icon.png" alt="Threads">
+      <img src="https://www.dropbox.com/scl/fi/xmvobzp8ifuhz68rmrowf/Threads.webp?rlkey=8g00d1mhcaebpc753vnahbpq1&st=5tvegvh6&raw=1" alt="Threads">
       <p>Threads</p>
     </div>
 
     <div class="app-button" onclick="openTwitterX()">
-      <img src="https://typefully.com/images/minimal-twitter/icon-base.png" alt="openTwitterX">
+      <img src="https://www.dropbox.com/scl/fi/hed2cor42a3hp1quantz4/TwitterX.png?rlkey=yqwwg3wcq6n8xb9w495ry5twe&st=zdkmw1xh&raw=1" alt="openTwitterX">
       <p>TwitterX</p>
     </div>
 
     <div class="app-button" onclick="openFacebook()">
-      <img src="https://cdn0.iconfinder.com/data/icons/web-social-and-folder-icons/512/Facebook.png" alt="openFacebook">
+      <img src="https://www.dropbox.com/scl/fi/a7l59ciiob78jltou2hlw/Facebook.png?rlkey=jy8nmcog1p501thighhnw4yt5&st=5bys6wm3&raw=1" alt="openFacebook">
       <p>Facebook</p>
     </div>
 
@@ -319,22 +319,22 @@ const appButtonsHTML = `
     </div>
 
     <div class="app-button" onclick="openSpotify()">
-      <img src="https://cdn.jim-nielsen.com/ios/512/spotify-2012-06-25.png?rf=512" alt="openSpotify">
+      <img src="https://www.dropbox.com/scl/fi/bv3jp2l3pkgs4umipbogy/openSpotify.png?rlkey=0y7iw38rb9e5hb6n7ojq2jvuw&st=e8a56unp&raw=1" alt="openSpotify">
       <p>Spotify</p>
     </div>
 
     <div class="app-button" onclick="openSoundCloud()">
-      <img src="https://icons.iconarchive.com/icons/uiconstock/noir-social-media/512/soundcloud-icon.png" alt="openSoundCloud">
+      <img src="https://www.dropbox.com/scl/fi/964zwolp59uah680kc4ra/openSoundCloud.png?rlkey=csc30ul16bcw65ocy9ap3tpg1&st=z741t92c&raw=1" alt="openSoundCloud">
       <p>SoundCloud</p>
     </div>
 
     <div class="app-button" onclick="openApplePodcast()">
-      <img src="https://colorinmypiano.com/wp-content/uploads/2015/09/Podcasts-iOS-7.png" alt="openApplePodcast">
+      <img src="https://www.dropbox.com/scl/fi/kdmyqxj5zvj1df7vcu7c7/Apple-Podcast.png?rlkey=um6ci5ne0g709gcdyrfxx3i9e&st=zjghufoe&raw=1" alt="openApplePodcast">
       <p>ApplePodcast</p>
     </div>
 
     <div class="app-button" onclick="openCenterManager()">
-      <img src="https://img.appledb.dev/images@256/tvOS/0.png" alt="openCenterManager">
+      <img src="https://www.dropbox.com/scl/fi/d5yi0dtzkm6jhb12x2jvn/Center-Manager.png?rlkey=a42xtck18uu1oayzlkqput6pd&st=g190c0mc&raw=1" alt="openCenterManager">
       <p>CenterManager</p>
     </div>
 
@@ -390,5 +390,3 @@ appsContainer.innerHTML = appButtonsHTML;
     openRightHalfPopup(currentUrl,"Talkin", window.innerWidth, 745);
     talkinClickCount++;
   }
-
-
