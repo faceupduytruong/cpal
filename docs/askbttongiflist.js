@@ -1,13 +1,13 @@
 // Danh sách ảnh GIF
 window.gifList = [
-    "https://cdn.dribbble.com/userupload/42316282/file/original-b27d6c2fb95015bd3468560159af00a6.gif",
-    "https://cdn.dribbble.com/userupload/31926138/file/original-e1c94c0fc82199aab49fa407bb74257b.gif",
-    "https://i.pinimg.com/originals/b2/a3/e8/b2a3e872dfb354f73ee039a879d853f9.gif",
-    "https://cdn.dribbble.com/userupload/21897811/file/original-28ad4207577eef7e70d245b9a2cb9b56.gif",
-    "https://cdn.dribbble.com/userupload/22081279/file/original-55732f1cbe5258b25566b001c5267a33.gif",
-    "https://i.pinimg.com/originals/af/22/e2/af22e248b58627c543742432c4bde2a8.gif",
-    "https://mir-s3-cdn-cf.behance.net/project_modules/hd/f4020f114494633.603cbcc781296.gif",
-    "https://i.pinimg.com/originals/eb/1c/d6/eb1cd6dc77d7c9ce7a10b8503f065bea.gif",
+    "https://www.dropbox.com/scl/fi/iqe8knnt1m5rd96izbqkw/original-b27d6c2fb95015bd3468560159af00a6.gif?rlkey=xdncratyvnexy66vljpssnuig&st=0ujpl9bz&raw=1",
+    "https://www.dropbox.com/scl/fi/64oh1bjstq158zdyw0kjw/original-e1c94c0fc82199aab49fa407bb74257b.gif?rlkey=izkmzlzqu132eisfspgu6vy47&st=abkbf2cb&raw=1",
+    "https://www.dropbox.com/scl/fi/jxbnzgc2i437dkosd4wyl/b2a3e872dfb354f73ee039a879d853f9.gif?rlkey=etykwpn8mwyf0j7szopk7bk6g&st=z1zpzr0r&raw=1",
+    "https://www.dropbox.com/scl/fi/6y1opfzhzzawpqu955a8m/original-28ad4207577eef7e70d245b9a2cb9b56.gif?rlkey=0pufqz711nmur2tjpwyn2pf1p&st=4px9rof9&raw=1",
+    "https://www.dropbox.com/scl/fi/7ulvja6yj90ruhtmk03x5/original-55732f1cbe5258b25566b001c5267a33.gif?rlkey=7kf993ijmqf6lp1ulkgsnk434&st=878m6ii3&raw=1",
+    "https://www.dropbox.com/scl/fi/w5ef2kiczrq9npvxudnu4/af22e248b58627c543742432c4bde2a8.gif?rlkey=zn84eh07nfosma8nlri0q6tea&st=s5jfef2a&raw=1",
+    "https://www.dropbox.com/scl/fi/rk8udb2wl7ca6w3go52bv/f4020f114494633.603cbcc781296.gif?rlkey=r3mqhuijra3h2a6kck9jitcxs&st=diuhkuxy&raw=1",
+    "https://www.dropbox.com/scl/fi/47yutrw6rken3uazjj7o0/eb1cd6dc77d7c9ce7a10b8503f065bea.gif?rlkey=vn034nwju46x3c4puo8gkhug0&st=1mfqq749&raw=1",
     "https://i.pinimg.com/originals/9c/da/64/9cda6405c91f0a6060592638e58932c4.gif",
     "https://i.pinimg.com/originals/c1/14/12/c114123eb48fc0712b2482264414d9d7.gif",
     "https://i.pinimg.com/originals/af/7b/6e/af7b6ee82ae6de2df640d6d40c8fe8a4.gif",
@@ -34,6 +34,3 @@ window.gifList = [
     "https://cdnb.artstation.com/p/assets/images/images/018/467/105/original/ivan-boyko-energy-orb-art.gif?1559502600",
     "https://images.squarespace-cdn.com/content/v1/54bdcba5e4b08f92b173441f/f34f7c2a-4226-4145-aea9-a6890d9c7990/Apple-Event-iphone16.gif"
   ];
-
-
-
