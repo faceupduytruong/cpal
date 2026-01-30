@@ -57,6 +57,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/wikichamethb/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8rzuqdkfhtwlxu99ak3wk/Einstein-Books-S-ch-hay-cho-gia-nh.jpg?rlkey=dauy6rn27qcricg5ovbczlrlv&st=vyk1n2fh&raw=1'
   },
+ 'MenmaGameX': {
+    url: 'https://www.youtube.com/@MenmaGameX/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/p2vdhtcx5kk0aezn27ruq/MenmaGameX.jpg?rlkey=ffrdaycyr8t96sik9w53bhmq0&st=cxqzv57a&raw=1'
+  },
+ 'Susi mod': {
+    url: 'https://www.youtube.com/@Susimod-g5c/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/idu80k8db7el9jtl8dlsi/Susi-mod.jpg?rlkey=g88jlwl3ywhtu8r7afhn1onyd&st=k4tpqlrb&raw=1'
+  },
  'Hồi ức truyện tranh 199x': {
     url: 'https://www.facebook.com/truyentranhtuoith0/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/zqetjdpvm4v878ki4ug7c/H-i-c-truy-n-tranh-199x.jpg?rlkey=x5fubmm5kodv2ob78jwxftofp&st=xa363yc6&raw=1'
