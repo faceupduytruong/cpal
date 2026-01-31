@@ -75,11 +75,11 @@ const folderLinks = {
   },
   'Trạm Đọc Mộng Mơ': {
     url: 'https://www.facebook.com/Tramdocmongmo/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/i4qttyb6z5waesgtbaynw/Tr-m-c-M-ng-M.jpg?rlkey=xzqqpypo9nvuw1kr96rfk8vyo&st=xtlja9z6&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6a02wuwxo1luk3gngbclv/Tr-m-c-M-ng-M.webp?rlkey=6wheuz1ddotvvovunf41m5o3f&st=5uu0rv7i&raw=1',
   },
  'Tiệm sách Những vì sao': {
     url: 'https://www.facebook.com/TiemSachNhungvisao/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/pex9dx5g8pi8nu9ipsngi/Ti-m-s-ch-Nh-ng-v-sao.jpg?rlkey=gt7qv8j3yl31n36vcustk8qhw&st=f9efyqnw&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/4fiq8sk8f3dex5y7ju66t/Ti-m-S-ch-Nh-ng-V-Sao.jpg?rlkey=6rx2xvqtam04c6rbpoi9k47p1&st=k053ls29&raw=1'
   },
   'Đinh Tị Books': {
     url: 'https://www.facebook.com/dinhtibooks.vn/photos',
