@@ -67,7 +67,7 @@ const folderLinks = {
   },
  'Hồi ức truyện tranh 199x': {
     url: 'https://www.facebook.com/truyentranhtuoith0/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/zqetjdpvm4v878ki4ug7c/H-i-c-truy-n-tranh-199x.jpg?rlkey=x5fubmm5kodv2ob78jwxftofp&st=xa363yc6&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/psn9qsnbmue6le1ljs67x/H-i-c-truy-n-tranh-199x.jpg?rlkey=tyxgaohwn4r8vo0n9ew4rd5fu&st=nwzfm690&raw=1'
   },
  'Thư Viện Ebook': {
     url: 'https://www.facebook.com/profile.php?id=61556239504023&sk=photos',
@@ -75,7 +75,7 @@ const folderLinks = {
   },
  'Winter Wonder Shop - Mua, Bán truyện tranh đủ bộ': {
     url: 'https://www.facebook.com/winterwondershop/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/i9a5qc6meo8aud512im1g/Winter-Wonder-Shop-Mua-B-n-truy-n-tranh-b.jpg?rlkey=1zcpgs5j09gp9nmuxwvkeiakm&st=pdt8qwjo&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/4obkuo6hlqsn7guajyxiz/Winter-Wonder-Shop-Mua-B-n-truy-n-tranh-b.jpg?rlkey=yw17fvaa5gcf3ttnabdurnnim&st=1q2b37oh&raw=1'
   },
  'Kim Đồng Kids': {
     url: 'https://www.facebook.com/kimdongforkids/photos/',
