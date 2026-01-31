@@ -59,11 +59,11 @@ const folderLinks = {
   },
  'MenmaGameX': {
     url: 'https://www.youtube.com/@MenmaGameX/shorts',
-    thumbnail: 'https://www.dropbox.com/scl/fi/p2vdhtcx5kk0aezn27ruq/MenmaGameX.jpg?rlkey=ffrdaycyr8t96sik9w53bhmq0&st=cxqzv57a&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ya666tdhahqkushky4aer/MenmaGameX.avif?rlkey=t69hjfqzy417i8n0wqab4dtj1&st=n2ahrx7j&raw=1'
   },
  'Susi mod': {
     url: 'https://www.youtube.com/@Susimod-g5c/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/idu80k8db7el9jtl8dlsi/Susi-mod.jpg?rlkey=g88jlwl3ywhtu8r7afhn1onyd&st=k4tpqlrb&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/gf8wyeutedb5ob20ed75b/Susi-mod.jpg?rlkey=gpxe52keeklyu7onf62jze10r&st=agu094j3&raw=1'
   },
  'Hồi ức truyện tranh 199x': {
     url: 'https://www.facebook.com/truyentranhtuoith0/photos/',
