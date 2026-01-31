@@ -57,13 +57,17 @@ const folderLinks = {
     url: 'https://www.facebook.com/wikichamethb/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8rzuqdkfhtwlxu99ak3wk/Einstein-Books-S-ch-hay-cho-gia-nh.jpg?rlkey=dauy6rn27qcricg5ovbczlrlv&st=vyk1n2fh&raw=1'
   },
- 'MenmaGameX': {
+ 'MenmaGameX (Naruto Characters)': {
     url: 'https://www.youtube.com/@MenmaGameX/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/ya666tdhahqkushky4aer/MenmaGameX.avif?rlkey=t69hjfqzy417i8n0wqab4dtj1&st=n2ahrx7j&raw=1'
   },
- 'Susi mod': {
+ 'Susi mod (Pokémon Geography)': {
     url: 'https://www.youtube.com/@Susimod-g5c/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/gf8wyeutedb5ob20ed75b/Susi-mod.jpg?rlkey=gpxe52keeklyu7onf62jze10r&st=agu094j3&raw=1'
+  },
+ 'Pokémon Wildlife Documentary (Pokémon Geography)': {
+    url: 'https://www.youtube.com/@Pok%C3%A9monWildlifeDocumentary',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rl79k1prt7xhge16p69re/Pok-mon-Wildlife-Documentary.jpg?rlkey=7dqbyjli5kzvzh0otfy580tlc&st=bmrc8wuj&raw=1'
   },
  'Hồi ức truyện tranh 199x': {
     url: 'https://www.facebook.com/truyentranhtuoith0/photos/',
