@@ -116,7 +116,7 @@ const folderLinks = {
   },
   'Tú Tony (Chế tú hành tỏi)': {
     url: 'https://www.facebook.com/lam.ngocthe.3/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/0qc1g7fuu99qscdfo2mvb/T-Tony-Ch-t-h-nh-t-i.jpg?rlkey=c6fi5005ik8nqvo34iecipppd&st=t5due4bg&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nwwh6r93ufjjjibm2lwom/T-Tony-Ch-t-h-nh-t-i.jpg?rlkey=8ypta0vejbwphojwsrkeb7g8v&st=hp6wkivl&raw=1',
   },
   'Tony Dzung': {
     url: 'https://www.facebook.com/tonydzung.com.vn/photos/',
