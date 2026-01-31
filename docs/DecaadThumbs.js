@@ -21,5 +21,29 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1'
   },
+ 'MenmaGameX (Naruto Characters)': {
+    url: 'https://www.youtube.com/@MenmaGameX/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ya666tdhahqkushky4aer/MenmaGameX.avif?rlkey=t69hjfqzy417i8n0wqab4dtj1&st=n2ahrx7j&raw=1'
+  },
+ 'Susi mod (Pokémon Geography)': {
+    url: 'https://www.youtube.com/@Susimod-g5c/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gf8wyeutedb5ob20ed75b/Susi-mod.jpg?rlkey=gpxe52keeklyu7onf62jze10r&st=agu094j3&raw=1'
+  },
+ 'Pokémon Wildlife Documentary (Pokémon Geography)': {
+    url: 'https://www.youtube.com/@Pok%C3%A9monWildlifeDocumentary',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rl79k1prt7xhge16p69re/Pok-mon-Wildlife-Documentary.jpg?rlkey=7dqbyjli5kzvzh0otfy580tlc&st=bmrc8wuj&raw=1'
+  },
+ 'Hồi ức truyện tranh 199x': {
+    url: 'https://www.facebook.com/truyentranhtuoith0/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/psn9qsnbmue6le1ljs67x/H-i-c-truy-n-tranh-199x.jpg?rlkey=tyxgaohwn4r8vo0n9ew4rd5fu&st=nwzfm690&raw=1'
+  },
+ 'Thư Viện Ebook': {
+    url: 'https://www.facebook.com/profile.php?id=61556239504023&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2pu8yk1nbtivka7hmlgww/Th-vi-n-ebook.webp?rlkey=cqj6gdka37w0jesbk5m0vyeul&st=0t4crhr2&raw=1'
+  },
+ 'Winter Wonder Shop - Mua, Bán truyện tranh đủ bộ': {
+    url: 'https://www.facebook.com/winterwondershop/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4obkuo6hlqsn7guajyxiz/Winter-Wonder-Shop-Mua-B-n-truy-n-tranh-b.jpg?rlkey=yw17fvaa5gcf3ttnabdurnnim&st=1q2b37oh&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
