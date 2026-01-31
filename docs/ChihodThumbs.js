@@ -37,6 +37,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/KenhPhuNuPhamNgoc/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uibt8yvfg1uav75omxo7v/Ph-m-Ng-c.jpg?rlkey=pinpbjl7clls25u8tz6ouv7jb&st=7y2ovna5&raw=1',
   },
+  'Mẹ Bơ - Giáo dục não phải': {
+    url: 'https://www.facebook.com/giaoducnaophai/photos/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/j8toyzb0km4gjf7dkho4o/M-B-Gi-o-d-c-n-o-ph-i.png?rlkey=57ngtkd48llliec3zlymz6zmx&st=hp803psa&raw=1',
+  },
  'Doctor Housing': {
     url: 'https://www.facebook.com/doctorhousingofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/st587ga0viymhp769llon/Doctor-Housing.jpg?rlkey=hrnqxz8u5b5pgpi5en6u8aahx&st=n946g9gh&raw=1'
@@ -88,14 +92,6 @@ const folderLinks = {
   'HG Books - Tiệm sách song ngữ thiếu nhi': {
     url: 'https://www.facebook.com/HGBooksShop/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vajv8eh3cnj6c3svt67wa/HG-Books-Ti-m-s-ch-song-ng-thi-u-nhi.png?rlkey=loh4qwuqfoxo8vdxk1yedgy1y&st=0q2i0l2e&raw=1',
-  },
-  'Mẹ Bơ - Giáo dục não phải': {
-    url: 'https://www.facebook.com/giaoducnaophai/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/j8toyzb0km4gjf7dkho4o/M-B-Gi-o-d-c-n-o-ph-i.png?rlkey=57ngtkd48llliec3zlymz6zmx&st=hp803psa&raw=1',
-  },
-  'Book Hunter': {
-    url: 'https://www.facebook.com/HuntersBookstore/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xklw7mqa00o9i2q1uwgyc/Book-Hunter.png?rlkey=8mubahnc9u8ecwk5yjqqfrfmh&st=tpi7z903&raw=1'
   },
   'Sách Cha Mẹ - Thái Hà Books': {
     url: 'https://www.facebook.com/wikichamethb/photos/',
