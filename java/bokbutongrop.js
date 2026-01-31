@@ -71,6 +71,7 @@ let urls = [
     "https://www.facebook.com/SaigonOxfordBookstore/photos",
     "https://www.facebook.com/READbooks.vn/photos",
     "https://www.facebook.com/tusachsongkhac/photos",
+    "https://www.facebook.com/HuntersBookstore/photos",
     "https://www.facebook.com/thaiha2206/photos",
     "https://www.facebook.com/trepublishinghouse/photos",
     "https://www.facebook.com/Rubikbooks/photos",
