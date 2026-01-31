@@ -61,10 +61,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/futuremeV/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/bv2eqs9zbuo49fx1giu6k/Future-Me.png?rlkey=xjyb7413oa4vbfj7wkp6t4qgt&st=1w20jca3&raw=1'
   },
-  'Trí Đức Education': {
-    url: 'https://www.facebook.com/profile.php?id=61570498768064&sk=photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/40e3hp0u7j5dldkqjy1tw/Tr-c-Education.jpg?rlkey=onmmqahhhyst4sckkp9b8ql4f&st=uk01btzd&raw=1'
-  },
   'Trạm Đọc Mộng Mơ': {
     url: 'https://www.facebook.com/Tramdocmongmo/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/i4qttyb6z5waesgtbaynw/Tr-m-c-M-ng-M.jpg?rlkey=xzqqpypo9nvuw1kr96rfk8vyo&st=xtlja9z6&raw=1',
@@ -136,6 +132,10 @@ const folderLinks = {
  'TKBooks (Các Môn Học)': {
     url: 'https://www.facebook.com/TKBooks.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2xfs6mszfzta4v277h2ci/TKBooks-C-c-M-n-H-c.jpg?rlkey=yf9cv58ink6uj46ht41puzrtm&st=9owsvd48&raw=1'
+  },
+  'Trí Đức Education': {
+    url: 'https://www.facebook.com/profile.php?id=61570498768064&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/40e3hp0u7j5dldkqjy1tw/Tr-c-Education.jpg?rlkey=onmmqahhhyst4sckkp9b8ql4f&st=uk01btzd&raw=1'
   },
  'Zenbooks': {
     url: 'https://www.facebook.com/zenbooks.vn/photos/',
