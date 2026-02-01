@@ -23,7 +23,7 @@ const folderLinks = {
   },
  'ĐMC10n': {
     url: 'https://www.youtube.com/@LeNguyen-wk10',
-    thumbnail: 'https://www.dropbox.com/scl/fi/mlgf0h4tejf7lzw73eokz/MC10n.jpg?rlkey=zpgxrutgysorvdd15gygsrsq4&st=4n127ll7&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/lodi9p042pucpsyksa7e4/MC10n.jpg?rlkey=p2xv81bxzhjlgvotev6hmokj1&st=09d2045&raw=1'
   },
  'POPS Anime': {
     url: 'https://www.youtube.com/@POPSAnime/playlists',
