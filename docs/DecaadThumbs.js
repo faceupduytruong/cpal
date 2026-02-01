@@ -27,7 +27,7 @@ const folderLinks = {
   },
  'POPS Kids': {
     url: 'https://www.youtube.com/@popskids/playlists',
-    thumbnail: 'https://www.dropbox.com/scl/fi/0g3ltac3wok8ga2d9276z/POPS-Kids.avif?rlkey=37mcdnmuev85znoaw77l0g3fd&st=025ugvg7&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ghxl5sy2lgvstqunl7ux7/POPS-Kids.webp?rlkey=safxbmvuc26qpex3cvbjuhvca&st=vzs2qf7z&raw=1'
   },
  'MenmaGameX (Naruto Characters)': {
     url: 'https://www.youtube.com/@MenmaGameX/shorts',
