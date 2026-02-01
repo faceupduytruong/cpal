@@ -29,6 +29,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@popskids/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/k5vwt19rtxzipnf577ufi/POPS-Kids.webp?rlkey=876s6wubtglp6gsfqyl52usmi&st=ov8rzgf3&raw=1'
   },
+ 'Xưởng Phim Hoạt Hình': {
+    url: 'https://www.youtube.com/@Nhantaidaiviet/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5zj14nx9c3bx3kk1s0qyg/X-ng-Phim-Ho-t-H-nh.jpg?rlkey=ra3psbi22zq1hxmjjn833plia&st=k835wft6&raw=1'
+  },
  'MenmaGameX (Naruto Characters)': {
     url: 'https://www.youtube.com/@MenmaGameX/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/lx800wx4q6dxiknodhgfg/MenmaGameX-Naruto-Characters.webp?rlkey=7h86q7415fkzc4ipc7kvuc08b&st=mlh3xtzy&raw=1'
