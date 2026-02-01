@@ -20,6 +20,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/go7hgrxhqjdlc8twaob54/Google.webp?rlkey=re0z5hmanpo8rp4xts7m24xck&st=riwgh2gl&raw=1'
   },
+  'Cô Gái Xấu Xí Review Phim': {
+    url: 'https://www.youtube.com/@cogaixauxireviewphim3390/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3n64h80nvg4qefb16h3wv/C-G-i-X-u-X-Review-Phim.webp?rlkey=gmpd0wodrssdbmxss5r525crg&st=uu7kyqdz&raw=1',
+  },
   'Ổ Phim +': {
     url: 'https://www.facebook.com/onghienphimx/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/tndv4g6jjsidaa6moqcuu/Phim.jpg?rlkey=tooe5gu1pdawo52b8rir6i0hl&st=tk75t8ra&raw=1',
@@ -40,7 +44,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/wonderfulnature79/videos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/m74aad4flgym0isn5qw9k/VFC-Best-Movies.jpg?rlkey=rzhtpdlyrdxwn46y34a60jspt&st=o4tv6bwd&raw=1',
   },
-  'Đỗ Nhật Minh  (Minh Pháp Sư)': {
+  'Đỗ Nhật Minh (Minh Pháp Sư)': {
     url: 'https://www.facebook.com/donhatminh25/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/u545rmvh9fgrzbq4znnim/Nh-t-Minh-Minh-Ph-p-S.png?rlkey=r7p5jxwjk0xh9p48x8bs9ehi6&st=pegt0h3w&raw=1',
   },
