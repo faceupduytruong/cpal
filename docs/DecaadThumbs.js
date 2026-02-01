@@ -21,6 +21,14 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1'
   },
+ 'POPS Anime': {
+    url: 'https://www.youtube.com/@POPSAnime/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ev38c0olxwsxvtuxzoco8/POPSAnime.jpg?rlkey=6c39xzbndsmwrm5vqk2vobzuc&st=9ourv21b&raw=1'
+  },
+ 'POPS Kids': {
+    url: 'https://www.youtube.com/@popskids/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0g3ltac3wok8ga2d9276z/POPS-Kids.avif?rlkey=37mcdnmuev85znoaw77l0g3fd&st=025ugvg7&raw=1'
+  },
  'MenmaGameX (Naruto Characters)': {
     url: 'https://www.youtube.com/@MenmaGameX/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/lx800wx4q6dxiknodhgfg/MenmaGameX-Naruto-Characters.webp?rlkey=7h86q7415fkzc4ipc7kvuc08b&st=mlh3xtzy&raw=1'
