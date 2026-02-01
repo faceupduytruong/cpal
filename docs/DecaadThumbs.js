@@ -29,6 +29,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@popskids/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/k5vwt19rtxzipnf577ufi/POPS-Kids.webp?rlkey=876s6wubtglp6gsfqyl52usmi&st=ov8rzgf3&raw=1'
   },
+ 'Bang Chủ Hùng Bá THH': {
+    url: 'https://www.youtube.com/@bangchuhungbathh/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/njrjndfx9ltwej8rjox4l/Bang-Ch-H-ng-B-THH.jpg?rlkey=1zz6ev365hke0di10t1cud3fp&st=tlmhxecs&raw=1'
+  },
  'Xưởng Phim Hoạt Hình': {
     url: 'https://www.youtube.com/@Nhantaidaiviet/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/5zj14nx9c3bx3kk1s0qyg/X-ng-Phim-Ho-t-H-nh.jpg?rlkey=ra3psbi22zq1hxmjjn833plia&st=k835wft6&raw=1'
