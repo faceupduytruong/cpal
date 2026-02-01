@@ -23,7 +23,7 @@ const folderLinks = {
   },
  'MenmaGameX (Naruto Characters)': {
     url: 'https://www.youtube.com/@MenmaGameX/shorts',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ya666tdhahqkushky4aer/MenmaGameX.avif?rlkey=t69hjfqzy417i8n0wqab4dtj1&st=n2ahrx7j&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/lx800wx4q6dxiknodhgfg/MenmaGameX-Naruto-Characters.webp?rlkey=7h86q7415fkzc4ipc7kvuc08b&st=mlh3xtzy&raw=1'
   },
  'Susi mod (Pokémon Geography)': {
     url: 'https://www.youtube.com/@Susimod-g5c/videos',
@@ -32,6 +32,22 @@ const folderLinks = {
  'Pokémon Wildlife Documentary': {
     url: 'https://www.youtube.com/@Pok%C3%A9monWildlifeDocumentary',
     thumbnail: 'https://www.dropbox.com/scl/fi/8tmwdknlyci5g3max9p89/Pok-mon-Wildlife-Documentary.avif?rlkey=3cc4lfqc37esiul9em36tuqag&st=4d0fxipw&raw=1'
+  },
+ 'NatGeo Pocket': {
+    url: 'https://www.youtube.com/@NatGeoPocket/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6zxapgo9l4z2qyygexa5b/NatGeo-Pocket.webp?rlkey=f6eocrv32qbqtai1oa979xo1w&st=d86mvf7x&raw=1'
+  },
+ 'MonBiology': {
+    url: 'https://www.youtube.com/@MonBiology',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yg0fuuk113w7nnmyad7ip/MonBiology.jpg?rlkey=mcqhp9aar0bzpbcna52e81dax&st=nbw8xyl9&raw=1'
+  },
+ 'UndergroundAI Creative': {
+    url: 'https://www.youtube.com/@UndergroundAI_Creative/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8ycfnn0aprflp3i9clgsp/UndergroundAI-Creative.jpg?rlkey=kzb4cpnsjhokm9vmusyg88xil&st=o9bex342&raw=1'
+  },
+ 'GeoMon Atlas': {
+    url: 'https://www.youtube.com/@Geomon92',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jyyq7mz4a3rjukq4fuw6l/GeoMon-Atlas.jpg?rlkey=ib62ah854air0utvq5xqo8832&st=zb0mp342&raw=1'
   },
  'Hồi ức truyện tranh 199x': {
     url: 'https://www.facebook.com/truyentranhtuoith0/photos/',
