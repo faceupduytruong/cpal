@@ -34,7 +34,7 @@ const folderLinks = {
   },
   'Tứ Đại Tài Tử': {
     url: 'https://www.facebook.com/tudaitaitu8386/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jxu18oemyrtl1x1rrur9a/T-i-T-i-T.png?rlkey=0u89s1ea44b1qwym78af2pxfn&st=6mayzvj8&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0y594kaudtu65velq6qbx/T-i-T-i-T.jpg?rlkey=o8wzce0ngb4djbfvp5o3u8el6&st=gmrllrzv&raw=1',
   },
   'Video 3': {
     url: 'https://www.facebook.com/profile.php?id=100069789950575&sk=reels_tab',
