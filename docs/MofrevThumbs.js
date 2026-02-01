@@ -42,7 +42,7 @@ const folderLinks = {
   },
   'VFC Best Movies': {
     url: 'https://www.facebook.com/wonderfulnature79/videos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/t4875hl8xkb5x48ctdrev/VFC-Best-Movies.jpg?rlkey=bjjjbi8t4chzcchg3au7xgnhd&st=nu2kghca&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/w1jwuoyjl1hs5p6zx68qx/VFC-Best-Movies.jpg?rlkey=mtqq1kmwac3pueupyeilulrwl&st=l6n906da&raw=1',
   },
   'Đỗ Nhật Minh (Minh Pháp Sư)': {
     url: 'https://www.facebook.com/donhatminh25/reels/',
