@@ -26,7 +26,7 @@ const folderLinks = {
   },
   'Ổ Phim +': {
     url: 'https://www.facebook.com/onghienphimx/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/tndv4g6jjsidaa6moqcuu/Phim.jpg?rlkey=tooe5gu1pdawo52b8rir6i0hl&st=tk75t8ra&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/e7y4ns3qzemvxlpkn1oof/Phim.jpg?rlkey=f1odxbbumkwebg5qp1tdmkfrk&st=gxg6chrh&raw=1',
   },
   'Cậu Bé Xem Phim': {
     url: 'https://www.facebook.com/CauBeXemPhimOfficial/reels/',
