@@ -35,7 +35,7 @@ const folderLinks = {
   },
  'NatGeo Pocket': {
     url: 'https://www.youtube.com/@NatGeoPocket/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/6zxapgo9l4z2qyygexa5b/NatGeo-Pocket.webp?rlkey=f6eocrv32qbqtai1oa979xo1w&st=d86mvf7x&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ywoj2tijf80ucsctm2ohk/NatGeo-Pocket.jpg?rlkey=1ce05n5u414yyo6p7q9qbupxp&st=vpu4zvie&raw=1'
   },
  'MonBiology': {
     url: 'https://www.youtube.com/@MonBiology',
@@ -43,7 +43,7 @@ const folderLinks = {
   },
  'UndergroundAI Creative': {
     url: 'https://www.youtube.com/@UndergroundAI_Creative/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/8ycfnn0aprflp3i9clgsp/UndergroundAI-Creative.jpg?rlkey=kzb4cpnsjhokm9vmusyg88xil&st=o9bex342&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/73nufrnj3nltn2g23rnz6/UndergroundAI-Creative.jpg?rlkey=xjkf5qpm9vbv79iw39eibwyzy&st=br9kgz5t&raw=1'
   },
  'GeoMon Atlas': {
     url: 'https://www.youtube.com/@Geomon92',
