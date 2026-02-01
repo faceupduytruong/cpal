@@ -33,9 +33,17 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Pok%C3%A9monWildlifeDocumentary',
     thumbnail: 'https://www.dropbox.com/scl/fi/8tmwdknlyci5g3max9p89/Pok-mon-Wildlife-Documentary.avif?rlkey=3cc4lfqc37esiul9em36tuqag&st=4d0fxipw&raw=1'
   },
+ 'Pokemon Geographic Planet': {
+    url: 'https://www.youtube.com/@PokemonGeographicPlanet',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vsu6aowrcstc1rchmah11/Pokemon-Geographic-Planet.jpg?rlkey=88cg2u1xo121k1o7a8z4y31e2&st=0edvq9co&raw=1'
+  },
  'NatGeo Pocket': {
     url: 'https://www.youtube.com/@NatGeoPocket/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ywoj2tijf80ucsctm2ohk/NatGeo-Pocket.jpg?rlkey=1ce05n5u414yyo6p7q9qbupxp&st=vpu4zvie&raw=1'
+  },
+ 'Pokémon-NatGeo': {
+    url: 'https://www.youtube.com/@Pok%C3%A9mon-NatGeo/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vwqtpmwwjb15np6xn0k99/Pok-mon-NatGeo.webp?rlkey=817p8dpb22nnp8qzk9j0vabbb&st=q8xptv4p&raw=1'
   },
  'MonBiology': {
     url: 'https://www.youtube.com/@MonBiology',
