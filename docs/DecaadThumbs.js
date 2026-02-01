@@ -29,6 +29,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@popskids/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/k5vwt19rtxzipnf577ufi/POPS-Kids.webp?rlkey=876s6wubtglp6gsfqyl52usmi&st=ov8rzgf3&raw=1'
   },
+ 'Anime Rewind': {
+    url: 'https://www.youtube.com/@AnimeRewind.Official/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6f6gxe4foro1r2gl6y4ki/Anime-Rewind.jpg?rlkey=y0idj0wo19h1icghjzoizjkfr&st=12jbktrj&raw=1'
+  },
  'Bang Chủ Hùng Bá THH': {
     url: 'https://www.youtube.com/@bangchuhungbathh/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/njrjndfx9ltwej8rjox4l/Bang-Ch-H-ng-B-THH.jpg?rlkey=1zz6ev365hke0di10t1cud3fp&st=tlmhxecs&raw=1'
