@@ -30,7 +30,7 @@ const folderLinks = {
   },
   'Cậu Bé Xem Phim': {
     url: 'https://www.facebook.com/CauBeXemPhimOfficial/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jnq2fjwk5oa5nvioei3fo/C-u-B-Xem-Phim.png?rlkey=ng5ok4kys1sktus5yvj3exi2f&st=1dfn8cbs&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yckuv023e0s78pxrhdscr/C-u-B-Xem-Phim.avif?rlkey=8cxjqy8ttuhohr7xqumhvwwzc&st=5ebbu4w6&raw=1',
   },
   'Tứ Đại Tài Tử': {
     url: 'https://www.facebook.com/tudaitaitu8386/reels/',
