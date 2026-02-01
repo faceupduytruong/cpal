@@ -27,11 +27,11 @@ const folderLinks = {
   },
  'Susi mod (Pokémon Geography)': {
     url: 'https://www.youtube.com/@Susimod-g5c/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/s5g3alc6yuy3dewz1v4cy/Susi-mod-Pok-mon-Geography.jpg?rlkey=53ypos4dje2beyo21zx82tt0a&st=sv77qvvl&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/s5g3alc6yuy3dewz1v4cy/Susi-mod-Pok-mon-Geography.jpg?rlkey=53ypos4dje2beyo21zx82tt0a&st=5dkhpza7&raw=1'
   },
  'Pokémon Wildlife Documentary': {
     url: 'https://www.youtube.com/@Pok%C3%A9monWildlifeDocumentary',
-    thumbnail: 'https://www.dropbox.com/scl/fi/1fghei0q42g48qcku5s9a/Pok-mon-Wildlife-Documentary.webp?rlkey=aqwgpm72gyepha9exr13nebc1&st=hz24sma0&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/8tmwdknlyci5g3max9p89/Pok-mon-Wildlife-Documentary.avif?rlkey=3cc4lfqc37esiul9em36tuqag&st=4d0fxipw&raw=1'
   },
  'Hồi ức truyện tranh 199x': {
     url: 'https://www.facebook.com/truyentranhtuoith0/photos/',
