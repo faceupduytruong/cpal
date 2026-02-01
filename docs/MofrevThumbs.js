@@ -26,7 +26,7 @@ const folderLinks = {
   },
   'Ổ Phim +': {
     url: 'https://www.facebook.com/onghienphimx/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/e7y4ns3qzemvxlpkn1oof/Phim.jpg?rlkey=f1odxbbumkwebg5qp1tdmkfrk&st=gxg6chrh&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ef6icc9vr0t9830f5ohkg/Phim.jpg?rlkey=voff3kwu1asp085xtebv8vcw9&st=1u5xlnab&raw=1',
   },
   'Cậu Bé Xem Phim': {
     url: 'https://www.facebook.com/CauBeXemPhimOfficial/reels/',
@@ -42,7 +42,7 @@ const folderLinks = {
   },
   'VFC Best Movies': {
     url: 'https://www.facebook.com/wonderfulnature79/videos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/m74aad4flgym0isn5qw9k/VFC-Best-Movies.jpg?rlkey=rzhtpdlyrdxwn46y34a60jspt&st=o4tv6bwd&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/t4875hl8xkb5x48ctdrev/VFC-Best-Movies.jpg?rlkey=bjjjbi8t4chzcchg3au7xgnhd&st=nu2kghca&raw=1',
   },
   'Đỗ Nhật Minh (Minh Pháp Sư)': {
     url: 'https://www.facebook.com/donhatminh25/reels/',
