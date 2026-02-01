@@ -35,23 +35,23 @@ const folderLinks = {
   },
  'Pokemon Geographic Planet': {
     url: 'https://www.youtube.com/@PokemonGeographicPlanet',
-    thumbnail: 'https://www.dropbox.com/scl/fi/vsu6aowrcstc1rchmah11/Pokemon-Geographic-Planet.jpg?rlkey=88cg2u1xo121k1o7a8z4y31e2&st=0edvq9co&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/vsu6aowrcstc1rchmah11/NatGeo-Pocket.jpg?rlkey=88cg2u1xo121k1o7a8z4y31e2&st=cqtk0mpv&raw=1'
   },
  'NatGeo Pocket': {
     url: 'https://www.youtube.com/@NatGeoPocket/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ywoj2tijf80ucsctm2ohk/NatGeo-Pocket.jpg?rlkey=1ce05n5u414yyo6p7q9qbupxp&st=vpu4zvie&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ywoj2tijf80ucsctm2ohk/Pokemon-Geographic-Planet.jpg?rlkey=1ce05n5u414yyo6p7q9qbupxp&st=c0wyaxej&raw=1'
   },
  'Pokémon-NatGeo': {
     url: 'https://www.youtube.com/@Pok%C3%A9mon-NatGeo/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/vwqtpmwwjb15np6xn0k99/Pok-mon-NatGeo.webp?rlkey=817p8dpb22nnp8qzk9j0vabbb&st=q8xptv4p&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/xndopjcbgdk6aoh7p4lrw/Pok-mon-NatGeo.jpg?rlkey=61xj7yh2tqlj7pt7qvddh9f3k&st=83qzywwe&raw=1'
   },
  'MonBiology': {
     url: 'https://www.youtube.com/@MonBiology',
-    thumbnail: 'https://www.dropbox.com/scl/fi/yg0fuuk113w7nnmyad7ip/MonBiology.jpg?rlkey=mcqhp9aar0bzpbcna52e81dax&st=nbw8xyl9&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/73nufrnj3nltn2g23rnz6/MonBiology.jpg?rlkey=xjkf5qpm9vbv79iw39eibwyzy&st=33igvsg3&raw=1'
   },
  'UndergroundAI Creative': {
     url: 'https://www.youtube.com/@UndergroundAI_Creative/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/73nufrnj3nltn2g23rnz6/UndergroundAI-Creative.jpg?rlkey=xjkf5qpm9vbv79iw39eibwyzy&st=br9kgz5t&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/yg0fuuk113w7nnmyad7ip/UndergroundAI-Creative.jpg?rlkey=mcqhp9aar0bzpbcna52e81dax&st=nptdfhoi&raw=1'
   },
  'GeoMon Atlas': {
     url: 'https://www.youtube.com/@Geomon92',
