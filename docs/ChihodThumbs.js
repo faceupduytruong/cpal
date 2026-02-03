@@ -53,6 +53,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/VietHita/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/smsq7va4ee4gcnfrqxget/Tr-nh-Vi-t-Trinh.jpg?rlkey=5lsqdyqtxfir65hol8xzrljdv&st=pxetvhrg&raw=1',
   },
+ 'Dược Sĩ Đại Minh': {
+    url: 'https://www.youtube.com/@dsdaiminh88/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3c3aernqf52nodyr43pha/D-c-S-i-Minh.jpg?rlkey=e7uzc9zneaqe62aw203b7tjcr&st=g1ptmh80&raw=1'
+  },
  'Doctor Housing': {
     url: 'https://www.facebook.com/doctorhousingofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/st587ga0viymhp769llon/Doctor-Housing.jpg?rlkey=hrnqxz8u5b5pgpi5en6u8aahx&st=n946g9gh&raw=1'
