@@ -26,6 +26,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@mrcoby79/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/otolpyow4x66e5o6y2o91/Mr.-CoBy.jpg?rlkey=jv4mdxuc7lhhjo7wl160sothh&st=ow2qa99q&raw=1',
   },
+  'Tâm Trí Sáng': {
+    url: 'https://www.youtube.com/@TiaS%C3%A1ng-M%E1%BB%97iNg%C3%A0y/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/23im75nynqernv1gqtr75/T-m-Tr-S-ng.jpg?rlkey=jf22yrhb1hbcw0py12keb3sv7&st=1818iq4w&raw=1',
+  },
   'Ông Già Đầu Bạc': {
     url: 'https://www.facebook.com/profile.php?id=100090803640643&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/r75q3ryrn4u9ind47yk57/ng-Gi-u-B-c.jpg?rlkey=wpr6d370z3adkentw01rzonz6&st=l0ovzkkm&raw=1',
