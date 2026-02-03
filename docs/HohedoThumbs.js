@@ -74,7 +74,7 @@ const folderLinks = {
   },
   'Bác sĩ của bạn': {
     url: 'https://www.facebook.com/PageBacSi/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/4m07pik17swishxjzuamg/B-c-s-c-a-b-n.jpg?rlkey=had70vy3m7z7io6tvh90b6ij1&st=vwavsg7c&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/cll3rr8yvchpltfke8pk2/B-c-S-C-a-B-n.jpg?rlkey=tn7zz8nnobe7zkaybakgwls47&st=tb91iz81&raw=1',
   },
   'BÁC SĨ TRẦN MINH (Trần Nhựt Minh)': {
     url: 'https://www.facebook.com/Drtrannhutminh/reels/',
