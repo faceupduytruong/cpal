@@ -64,6 +64,14 @@ const folderLinks = {
     url: 'https://www.youtube.com/c/SoiS%C3%A1ngBrightSideVietnamese/videos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/naiwaeddd3amkl727y7bi/Soi-S-ng.jpg?rlkey=31q5r9dlpxi0q0v1yj7ld76n9&st=d07e89ut&raw=1',
   },
+  'Taca WHY': {
+    url: 'https://www.youtube.com/@TacaWHY/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1r4ldg5gebjanqmfkji9n/Taca-WHY.jpg?rlkey=cz7buyn5in7cqa9ytpb63duiz&st=09u2udiw&raw=1',
+  },
+  'TACA CHANNEL NEW': {
+    url: 'https://www.youtube.com/@taca/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4rxug0z0qlyw5q2mhi9oj/TACA-CHANNEL-NEW.jpg?rlkey=tujrqta6f2s899rz7k6h1qsbq&st=a7ctcc7s&raw=1',
+  },
   'Bạn có biết': {
     url: 'https://www.youtube.com/@dat.biettuot/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/cs6ghypswaxqxlhihp4kg/B-n-C-Bi-t.jpg?rlkey=tsvrtir39fk7azpdd3lslpqoq&st=4oyuj7kd&raw=1',
@@ -211,6 +219,10 @@ const folderLinks = {
   'IFact': {
     url: 'https://www.facebook.com/IQFact/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/98293ku6o8zl45d0x9dmf/IFact.png?rlkey=r2jv3dmk9yspsldn1cnf1iqvk&st=otpd43zx&raw=1',
+  },
+  'NH88 TIN TỨC CHÍNH TRỊ': {
+    url: 'https://www.youtube.com/@nh88tintucchinhtri/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8fzubu9unw2dd0i1p22j1/NH88-TIN-T-C-CH-NH-TR.jpg?rlkey=kbi78vdct2v1g3aqbw4id1klj&st=qdcptb16&raw=1',
   },
   // thêm các mục khác nếu cần
 };
