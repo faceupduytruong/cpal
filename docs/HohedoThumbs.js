@@ -70,7 +70,7 @@ const folderLinks = {
   },
   'AloBacsi': {
     url: 'https://www.facebook.com/alobacsihoibacsitraloi/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/1fqibb18rryqyzl507n1p/AloBacsi.jpg?rlkey=8fygi3l6cvtdmo1bnt7nqkhbd&st=z4s0fhyc&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ruhypz1y8rx21zwsnsdw6/Alo-B-c-S.webp?rlkey=b21k3562poilct1u7ilh4djfb&st=qc1b4gfp&raw=1',
   },
   'Bác sĩ của bạn': {
     url: 'https://www.facebook.com/PageBacSi/reels/',
