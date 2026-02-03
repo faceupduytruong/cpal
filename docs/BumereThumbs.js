@@ -32,7 +32,7 @@ const folderLinks = {
   },
   'Ông Già Đầu Bạc': {
     url: 'https://www.facebook.com/profile.php?id=100090803640643&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/r75q3ryrn4u9ind47yk57/ng-Gi-u-B-c.jpg?rlkey=wpr6d370z3adkentw01rzonz6&st=l0ovzkkm&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/16z2ohzzahl5vi8vevhd2/ng-Gi-u-B-c.jpeg?rlkey=mzgaqjjol5qkbjalicay7i416&st=jgj94jdh&raw=1',
   },
   'Mâu Thanh Thủy': {
     url: 'https://www.facebook.com/mentormauthuy/reels/',
