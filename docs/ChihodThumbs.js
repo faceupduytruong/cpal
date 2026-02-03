@@ -57,10 +57,6 @@ const folderLinks = {
     url: 'https://www.youtube.com/@dsdaiminh88/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/3c3aernqf52nodyr43pha/D-c-S-i-Minh.jpg?rlkey=e7uzc9zneaqe62aw203b7tjcr&st=g1ptmh80&raw=1'
   },
- 'Doctor Housing': {
-    url: 'https://www.facebook.com/doctorhousingofficial/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/st587ga0viymhp769llon/Doctor-Housing.jpg?rlkey=hrnqxz8u5b5pgpi5en6u8aahx&st=n946g9gh&raw=1'
-  },
  'Vinmec Integrated Mental Health Center - Sức khỏe Tinh thần Tích hợp Vinmec': {
     url: 'https://www.facebook.com/ttsuckhoetinhthantichhopvinmec/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/v38c70lqn85ov9pdtx4w0/Vinmec-Integrated-Mental-Health-Center-S-c-kh-e-Tinh-th-n-T-ch-h-p-Vinmec.jpg?rlkey=g9us95xdamnv8gc4bv8b6wamh&st=5915v0w2&raw=1'
@@ -155,7 +151,7 @@ const folderLinks = {
   },
  'Picassia': {
     url: 'https://www.facebook.com/picassia.vn/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/p30tgobtk5f7a80tkdt00/Picassia.jpg?rlkey=d6tvogdw9gzkrdvei7g025626&st=5zfr4jyd&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/p30tgobtk5f7a80tkdt00/Picassia.jpg?rlkey=d6tvogdw9gzkrdvei7g025626&st=qlmzvhrf&raw=1'
   },
  'Lanvu Gallery': {
     url: 'https://www.facebook.com/lanvugallery123/reels/',
