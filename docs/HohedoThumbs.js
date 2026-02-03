@@ -88,6 +88,18 @@ const folderLinks = {
     url: 'https://www.facebook.com/duocsithoa96/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/49ml75ndfm15135t75645/D-c-s-Thoa.png?rlkey=0f3nlzlg437jlkuaqo91js1wv&st=leg3jqbw&raw=1',
   },
+  'Lê Hữu Ân | Sống Khoẻ Sống Thọ': {
+    url: 'https://www.youtube.com/@LeHuuAnSongKhoeSongTho/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2hnxxdpa12otblo7392ja/L-H-u-n-S-ng-Kho-S-ng-Th.jpg?rlkey=gtiaqg3t0ip8byu4fr7r64cmq&st=o9hfpz3c&raw=1',
+  },
+  'Sống Trẻ Sống Thọ 100': {
+    url: 'https://www.youtube.com/@SongtreSongtho100/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/goic6v2z9mvmm9a5fwbpg/S-ng-Tr-S-ng-Th-100.webp?rlkey=3icubtfq6ttjlyoywlzir5gh2&st=kcl1lhht&raw=1',
+  },
+  'Sức Khỏe Cho Bạn': {
+    url: 'https://www.youtube.com/@S%E1%BB%A9cKh%E1%BB%8FeChoB%E1%BA%A1n-g9v/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dyrhcd299ngpenqwxkg1s/S-c-Kh-e-Cho-B-n.webp?rlkey=gnf561966r2voop6ku4nehnd4&st=mpi0ga0j&raw=1',
+  },
   'Quỳnh Chia Sẻ  (Cân Bằng Chuyển Hoá)': {
     url: 'https://www.facebook.com/Quynh.Meothantai96/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/egqzjfxbib9r23onbqyi6/Qu-nh-Chia-S-C-n-B-ng-Chuy-n-Ho.png?rlkey=fcd7xq47rmeg4a8tckp866yoy&st=xogkyxgm&raw=1',
