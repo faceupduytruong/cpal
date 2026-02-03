@@ -36,7 +36,7 @@ const folderLinks = {
   },
   'Mâu Thanh Thủy': {
     url: 'https://www.facebook.com/mentormauthuy/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/flhk9zf99avpok24pu9ro/M-u-Thanh-Th-y.jpg?rlkey=lmbvszhfyr8rx5yiqeb0jh0ya&st=m5zpyocz&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/x6qct16mnpk5v0is5wkw7/M-u-Thanh-Th-y.webp?rlkey=ugxf08fnz750nh3kcupmewo2p&st=yytzpw0f&raw=1',
   },
   'Nguyễn Viết Thắng': {
     url: 'https://www.facebook.com/thang.nguyenviet.50309/reels/',
