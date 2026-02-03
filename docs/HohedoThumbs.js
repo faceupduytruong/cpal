@@ -80,6 +80,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/Drtrannhutminh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9ka4u2byz57el5ci0dvcr/B-C-S-TR-N-MINH-Tr-n-Nh-t-Minh.png?rlkey=qvb7ltr7gpsxlqq7fo9iwl7bm&st=1ugrkja9&raw=1',
   },
+  'Dược Sĩ Nguyễn Thị Thùy Trang': {
+    url: 'https://www.youtube.com/@duocsitrangnguyen/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mm5yywn0rk7iod8oj8eba/D-c-S-Nguy-n-Th-Th-y-Trang.jpg?rlkey=5uphm4kxa9l81mri8wozldsbe&st=i0msisbt&raw=1',
+  },
   'Dược sĩ Thoa': {
     url: 'https://www.facebook.com/duocsithoa96/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/49ml75ndfm15135t75645/D-c-s-Thoa.png?rlkey=0f3nlzlg437jlkuaqo91js1wv&st=leg3jqbw&raw=1',
