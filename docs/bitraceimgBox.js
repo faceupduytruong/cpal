@@ -60,6 +60,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Đỗ Văn Hiệp</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@gizento/playlists' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/vdouip05vif21lrakgf2k/GIZENTO.svg?rlkey=dqbabuldp83f587hd359k2jnf&st=rz5okkhi&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">GIZENTO</div>
+      </div>
     
 </div>
 
