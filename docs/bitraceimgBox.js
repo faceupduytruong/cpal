@@ -65,7 +65,7 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.youtube.com/@gizento/playlists' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/vdouip05vif21lrakgf2k/GIZENTO.svg?rlkey=dqbabuldp83f587hd359k2jnf&st=rz5okkhi&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">GIZENTO</div>
+        <div class="caption">Gizento</div>
       </div>
     
 </div>
@@ -135,6 +135,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/RdSic' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/liawiosh3l8ih15b6kwvg/RDSIC-Vi-n-Tin-H-c-X-y-D-ng.png?rlkey=tfjr9uw6q888bxzjdqe0w8n52&st=39s5f40z&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">RDSIC - Viện Tin Học Xây Dựng</div>
+      </div>    
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.youtube.com/@SmarterArchitect/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/q27dc9234ktdmqkiblk7q/Smarter-Architect.png?rlkey=x0cejqra6ak22sk4ww14a84ym&st=8vcjg85q&raw=1" alt="Ảnh 1">
 </div>
@@ -146,7 +153,7 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/g6yogf9vv7pvp3cs8oyq9/Tri-Huynh-Huu.png?rlkey=i7sminontz1qwsj1njyubcxq8&st=3mvvzsif&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tri Huynh Huu</div>
-      </div>
+      </div> 
    
 </div>
 
