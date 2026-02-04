@@ -450,6 +450,13 @@ container.innerHTML = `
         <div class="caption">Thời kỳ đồ đá</div>
       </div>
 
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/thoikydoda/photos/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/owjkhffzuvv97mrdqgf4g/Google-Gemini.webp?rlkey=a7yl72mcjd81xckqwpwei4yjd&st=5xksiquv&raw=1">
+</div>
+        <div class="caption">Google Gemini</div>
+      </div>
+
 </div>
 
 <!-- Hàng thứ 9 -->
