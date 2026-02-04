@@ -50,7 +50,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/tuanxinchao98/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ihaqxjbjzggk8wagghclk/Tu-n-Xin-Ch-o.jpg?rlkey=h7squuu917q6c2b5q6aswoisr&st=dz542g6e&raw=1',
   },
-  'CommCredit Long An -Tín Dụng Tiểu Thương -VPBank Bến Lức': {
+  'VPBank Bến Lức Long An': {
     url: 'https://www.facebook.com/Hotline.0908979767/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/tm2yf756p8hqanat91vkf/CommCredit-Long-An-T-n-D-ng-Ti-u-Th-ng-VPBank-B-n-L-c.webp?rlkey=wakihcitqjn1ibq4ow9t0jjmb&st=epumxqu3&raw=1',
   },
