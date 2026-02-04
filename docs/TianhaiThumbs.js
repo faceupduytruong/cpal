@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100076216793607&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/rqdh5ubphgnrvoia2ng80/Disney-Vietsub.jpg?rlkey=04hsq6g2rwq9xtf4ucw6wmf5n&st=d4b45ezk&raw=1'
   },
+  'Video học Tiếng Anh trẻ em': {
+    url: 'https://www.facebook.com/dvdhoctienganhtreem/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/z2g6lp4uk0yvtgwfmbkh6/Video-h-c-Ti-ng-Anh-tr-em.jpg?rlkey=m3tm080f8uqz2sfwllwc4d5bn&st=vj9ggbkp&raw=1'
+  },
   'TASS English': {
     url: 'https://www.facebook.com/tassenglish/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/56w0jhri3z7gr4efaiflz/TASS-English.png?rlkey=ga3io78tw168mhbiya1hf32ek&st=s6czye17&raw=1'
