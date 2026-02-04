@@ -83,6 +83,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/21ak22' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/qqtrkxdz2djowyc4ytn5i/21AK22.COM.png?rlkey=oe10nb96n3rlu004g068rxusv&st=lgxgup2j&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">21AK22.COM</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/TeamOS.xyz/photos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/xyt2x6zs170eql8lxuloh/Teamos.xyz.png?rlkey=2cvgcol8vtyhi7oizmg8oc9ej&st=gk5sujfb&raw=1" alt="Ảnh 1">
 </div>
@@ -532,6 +539,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Fedora - Linux</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/373250289362368/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/1uf88m0zl20zyvz9whclo/Gentoo-Linux-User.png?rlkey=xb5nm88m4os4j1t6dxku9x44h&st=ots73qfv&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Gentoo Linux User</div>
+      </div>
       
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/740670060221238/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -756,6 +770,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/ikulzorv4xur9iuv5sd2h/TK-Computer.png?rlkey=7dmdlsp00iq0j1o38th5u6gnr&st=r8a5jaq7&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">TK Computer</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/anphatcomputer/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ewowgqp2zheq91cyduxfx/An-Ph-t-Computer.png?rlkey=drvbt6rzjc9s3kr9esy4ne4jk&st=8y23j1gc&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">An Phát Computer</div>
       </div>
 
       <div class="image-box">
