@@ -1075,7 +1075,7 @@ container.innerHTML = `
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/967840744069261/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/f3ma4e01mr6t1d3es9t3j/AI-TH-T-D-C-NG-NG-AI-VI-T-NAM.png?rlkey=ed8qvm7ry8e1r7170x57qrfzd&st=9txcmayo&raw=1">
 </div>
-        <div class="caption">AI THẬT DỄ - CỘNG ĐỒNG AI VIỆT NAM</div>
+        <div class="caption">AI thật dễ - Cộng đồng AI Việt Nam</div>
       </div>
 
             <div class="image-box">
