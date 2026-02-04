@@ -36,7 +36,7 @@ const folderLinks = {
   },
   'Câu Chuyện Hại Điện': {
     url: 'https://www.facebook.com/cchaidien/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/6h5ku5akuud23ec0wzuso/C-u-Chuy-n-H-i-i-n.jpg?rlkey=d4uovkk7re9c20suh7b8yne67&st=g38923h9&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xd926ckzn1mzygsfjshbk/C-u-Chuy-n-H-i-i-n.jpg?rlkey=hnruq1ra0ivbatyg5zgwr45is&st=vswqy1ay&raw=1',
   },
   'Ông Già Đầu Bạc': {
     url: 'https://www.facebook.com/profile.php?id=100090803640643&sk=reels_tab',
