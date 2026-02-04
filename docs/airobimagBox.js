@@ -982,7 +982,7 @@ container.innerHTML = `
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://techmaster.vn/posts?keyword=&category=bl1pt0451cof5brfjrh0&author=', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/2xugnvdcwqxiekvfr9h3n/Techmaster-AI.png?rlkey=pvby0v5jls8uni68v6c8db2f9&st=belucds6&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/qe2wy8thssbyd2oth38hc/Techmaster-AI.webp?rlkey=wwua8wf6uzlsmq19dn0tlxwvl&st=742zo7js&raw=1">
 </div>
         <div class="caption">Techmaster (AI)</div>
       </div>
@@ -999,6 +999,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/bvsv0cpqxv8fo0vyuujzk/Thu-Nguy-n.jpg?rlkey=cd6bwgdkggfgrxnm1a992g02l&st=lzqzcgxr&raw=1">
 </div>
         <div class="caption">Thuý Nguyễn</div>
+      </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/2402371183273100/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/2u0jvh0gtiv9mcue0oz4h/SDVN-C-ng-ng-AI-Art.png?rlkey=vuggysg4t5qaxownxm72o0yt0&st=esnnpuah&raw=1">
+</div>
+        <div class="caption">SDVN - Cộng đồng AI Art</div>
       </div>
 
       <div class="image-box">
@@ -1062,6 +1069,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/y9q61h13tezmmub1n4879/Chuy-n-v-AI.png?rlkey=q981smdrud3bwfnuiw09pfpca&st=cl8r0k00&raw=1">
 </div>
         <div class="caption">Chuyện về AI</div>
+      </div>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/967840744069261/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/f3ma4e01mr6t1d3es9t3j/AI-TH-T-D-C-NG-NG-AI-VI-T-NAM.png?rlkey=ed8qvm7ry8e1r7170x57qrfzd&st=9txcmayo&raw=1">
+</div>
+        <div class="caption">AI THẬT DỄ - CỘNG ĐỒNG AI VIỆT NAM</div>
       </div>
 
             <div class="image-box">
