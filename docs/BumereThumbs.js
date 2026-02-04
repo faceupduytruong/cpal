@@ -52,7 +52,7 @@ const folderLinks = {
   },
   'CommCredit Long An -Tín Dụng Tiểu Thương -VPBank Bến Lức': {
     url: 'https://www.facebook.com/Hotline.0908979767/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/lwzlxi5972w4otarjzcfj/CommCredit-Long-An-T-n-D-ng-Ti-u-Th-ng-VPBank-B-n-L-c.jpg?rlkey=flovnxtath7uahq231c3jizd2&st=t6df40zm&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tm2yf756p8hqanat91vkf/CommCredit-Long-An-T-n-D-ng-Ti-u-Th-ng-VPBank-B-n-L-c.webp?rlkey=wakihcitqjn1ibq4ow9t0jjmb&st=epumxqu3&raw=1',
   },
   'Nguyễn Văn Huân': {
     url: 'https://www.facebook.com/huanyoutube/reels/',
