@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@TiaS%C3%A1ng-M%E1%BB%97iNg%C3%A0y/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/23im75nynqernv1gqtr75/T-m-Tr-S-ng.jpg?rlkey=jf22yrhb1hbcw0py12keb3sv7&st=1818iq4w&raw=1',
   },
+  'Giàu Tỉnh Thức': {
+    url: 'https://www.youtube.com/@giautinhthuc.biquyetthanhcong/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9uj9uvvt3b6d3fqen4hvw/Gi-u-T-nh-Th-c.jpg?rlkey=unh84z2rje0w6egywg64k87nx&st=e9hpovvh&raw=1',
+  },
   'Ông Già Đầu Bạc': {
     url: 'https://www.facebook.com/profile.php?id=100090803640643&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/16z2ohzzahl5vi8vevhd2/ng-Gi-u-B-c.jpeg?rlkey=mzgaqjjol5qkbjalicay7i416&st=jgj94jdh&raw=1',
