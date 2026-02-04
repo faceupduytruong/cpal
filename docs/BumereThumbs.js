@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@giautinhthuc.biquyetthanhcong/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/9uj9uvvt3b6d3fqen4hvw/Gi-u-T-nh-Th-c.jpg?rlkey=unh84z2rje0w6egywg64k87nx&st=e9hpovvh&raw=1',
   },
+  'Câu Chuyện Hại Điện': {
+    url: 'https://www.facebook.com/cchaidien/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6h5ku5akuud23ec0wzuso/C-u-Chuy-n-H-i-i-n.jpg?rlkey=d4uovkk7re9c20suh7b8yne67&st=g38923h9&raw=1',
+  },
   'Ông Già Đầu Bạc': {
     url: 'https://www.facebook.com/profile.php?id=100090803640643&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/16z2ohzzahl5vi8vevhd2/ng-Gi-u-B-c.jpeg?rlkey=mzgaqjjol5qkbjalicay7i416&st=jgj94jdh&raw=1',
