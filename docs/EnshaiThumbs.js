@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/335486277069621/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2ily1l7cotz5ac6a6rfdy/Learn-English-With-Us.jpg?rlkey=yqeliklmin0vhnxwfquiptoi9&st=z1ruzkwb&raw=1'
   },
+  'Video học Tiếng Anh trẻ em': {
+    url: 'https://www.facebook.com/dvdhoctienganhtreem/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/z2g6lp4uk0yvtgwfmbkh6/Video-h-c-Ti-ng-Anh-tr-em.jpg?rlkey=m3tm080f8uqz2sfwllwc4d5bn&st=vj9ggbkp&raw=1'
+  },
   'Improve English Skills': {
     url: 'https://www.facebook.com/ImproveEnglishSkills121/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ayfy2f3om199luaubbh4o/Improve-English-Skills.png?rlkey=kmx6pfhrjphjha7mjbezz54hl&st=nav0sj6z&raw=1',
