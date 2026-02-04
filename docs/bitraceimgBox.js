@@ -63,7 +63,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.youtube.com/@gizento/playlists' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/vdouip05vif21lrakgf2k/GIZENTO.svg?rlkey=dqbabuldp83f587hd359k2jnf&st=rz5okkhi&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/liawiosh3l8ih15b6kwvg/Gizento.png?rlkey=tfjr9uw6q888bxzjdqe0w8n52&st=m26flmw3&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Gizento</div>
       </div>
@@ -136,7 +136,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/RdSic' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/liawiosh3l8ih15b6kwvg/RDSIC-Vi-n-Tin-H-c-X-y-D-ng.png?rlkey=tfjr9uw6q888bxzjdqe0w8n52&st=39s5f40z&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/vdouip05vif21lrakgf2k/RDSIC-Vi-n-Tin-H-c-X-y-D-ng.svg?rlkey=dqbabuldp83f587hd359k2jnf&st=5vhapy6n&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">RDSIC - Viện Tin Học Xây Dựng</div>
       </div>    
