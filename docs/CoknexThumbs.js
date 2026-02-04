@@ -208,6 +208,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/tamlinhplusvnc/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/qpxw6dp30bkn33tdu727r/T-m-Linh-Huy-n-B.jpg?rlkey=u16f7n6p6m9t2xajvr7ckhykh&st=fk6fjvd6&raw=1',
   },
+  'NEW88 Truyện Ma Canh Tý': {
+    url: 'https://www.facebook.com/new88truyenmacanhty/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/a4hturk0c04wi5kb4o6zk/NEW88-Truy-n-Ma-Canh-T.jpg?rlkey=8aashzsm3w2zads7ew9lqq0py&st=duf40vn4&raw=1',
+  },
+  'Bắp TV': {
+    url: 'https://www.facebook.com/baptv5642/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0zql6b385pmdek2m4ln0e/B-p-TV.jpg?rlkey=egergzdyz6b32uzhg0sti2s9d&st=sdaqywxa&raw=1',
+  },
   'Độc lạ Bình Dương': {
     url: 'https://www.facebook.com/doclabinhduong.np/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ud76kenywtos4bvchbb9s/c-L-B-nh-D-ng.png?rlkey=ts92qk29wh4x8xeb7z5xj74u4&st=x32kcdiq&raw=1',
