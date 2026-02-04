@@ -57,6 +57,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61580057953318&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/8s9hhypzs8lk2atnt4xg7/T-In4.jpg?rlkey=7z1biwqpp91d262y9jxpycd19&st=rcmkv0z0&raw=1',
   },
+  'BIZbooks - Sách dành cho doanh nhân': {
+    url: 'https://www.facebook.com/sachbizbooks/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dolgwkiqf0h79xq2012ep/BIZbooks-S-ch-d-nh-cho-doanh-nh-n.png?rlkey=rfe9qegq64hnuzppldyt8npa8&st=mli7kgpe&raw=1',
+  },
   'Hữu DuHa': {
     url: 'https://www.facebook.com/profile.php?id=61583131784963&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/6yoinm1oceibjns37qjuh/H-u-DuHa.jpg?rlkey=io6g0ppgkkmz6rhv7eo7yjrx1&st=asxzb0h4&raw=1',
