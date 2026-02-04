@@ -44,7 +44,7 @@ const folderLinks = {
   },
   'Nguyễn Viết Thắng': {
     url: 'https://www.facebook.com/thang.nguyenviet.50309/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/pjoyh81xe0umsxx1mejdk/Nguy-n-Vi-t-Th-ng.jpg?rlkey=0f9uz72g0bwm1950fv0rmw99n&st=uxvrn57x&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jxbq499dpdh5xajtxjfgz/Nguy-n-Vi-t-Th-ng.jpg?rlkey=7317yuycdw8p47vpmbvfiiq19&st=2x1qkp6e&raw=1',
   },
   'Tuân Xin Chào': {
     url: 'https://www.facebook.com/tuanxinchao98/reels/',
