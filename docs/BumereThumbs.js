@@ -20,7 +20,7 @@ const folderLinks = {
   },
   'Nguyen Brandon (BS Nguyễn Khoa Bình)': {
     url: 'https://www.facebook.com/nguyen.brandon.921/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/leuu06e14eg0rkbhwtdem/Nguyen-Brandon-BS-Nguy-n-Khoa-B-nh.jpg?rlkey=0pneodydjbjfidzxvgfitybtt&st=z54kipbw&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5ltjc9a2uy1vld6p3t5nd/Nguyen-Brandon-BS-Nguy-n-Khoa-B-nh.jpg?rlkey=1a8t62jiwgzhuur1or25ney34&st=yvjfvuub&raw=1',
   },
   'Mr. CoBy': {
     url: 'https://www.youtube.com/@mrcoby79/shorts/',
