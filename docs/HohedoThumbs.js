@@ -100,6 +100,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@S%E1%BB%A9cKh%E1%BB%8FeChoB%E1%BA%A1n-g9v/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/dyrhcd299ngpenqwxkg1s/S-c-Kh-e-Cho-B-n.webp?rlkey=gnf561966r2voop6ku4nehnd4&st=mpi0ga0j&raw=1',
   },
+  'Ánh Sáng Tuổi Vàng': {
+    url: 'https://www.youtube.com/@anhsangtuoivang/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7s9mq1qoad68v11bixsor/nh-S-ng-Tu-i-V-ng.jpg?rlkey=i2o9saj3v3a57xmwpmbb2yr0z&st=fiakgwup&raw=1',
+  },
   'Quỳnh Chia Sẻ  (Cân Bằng Chuyển Hoá)': {
     url: 'https://www.facebook.com/Quynh.Meothantai96/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/egqzjfxbib9r23onbqyi6/Qu-nh-Chia-S-C-n-B-ng-Chuy-n-Ho.png?rlkey=fcd7xq47rmeg4a8tckp866yoy&st=xogkyxgm&raw=1',
