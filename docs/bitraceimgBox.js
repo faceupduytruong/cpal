@@ -62,8 +62,15 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/xaynhamientay' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ihsgig3pwgug1d7mha7hd/K-S-Gi-X-y-Nh-Mi-n-T-y.webp?rlkey=7fhpuj8zvk7b9fh9k6n7uuxea&st=47dyjvb8&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Kỹ Sư Gió - Xây Nhà Miền Tây</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.youtube.com/@gizento/playlists' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/liawiosh3l8ih15b6kwvg/Gizento.png?rlkey=tfjr9uw6q888bxzjdqe0w8n52&st=m26flmw3&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/f3mvnyrhbl98irbf6mpv5/Gizento.png?rlkey=7wro62y7rjst4sswzs282z74w&st=ni02g6dr&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Gizento</div>
       </div>
