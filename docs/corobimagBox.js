@@ -745,6 +745,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Laptop Buying Suggestions</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/asus.vn/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ibu6n7p50s4ppztgz9o9t/ASUS.png?rlkey=nwlalxzya5nn5fq4etgixx34a&st=kkww2aly&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">ASUS</div>
+      </div>
+    
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61581631336524&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/ikulzorv4xur9iuv5sd2h/TK-Computer.png?rlkey=7dmdlsp00iq0j1o38th5u6gnr&st=r8a5jaq7&raw=1" alt="Ảnh 1">
 </div>
