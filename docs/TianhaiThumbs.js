@@ -38,6 +38,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/dvdhoctienganhtreem/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/z2g6lp4uk0yvtgwfmbkh6/Video-h-c-Ti-ng-Anh-tr-em.jpg?rlkey=m3tm080f8uqz2sfwllwc4d5bn&st=vj9ggbkp&raw=1'
   },
+  'Hiếu Ngô': {
+    url: 'https://www.facebook.com/hieungo.uspeak/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ibpjaytldosyqo25um3fl/Hi-u-Ng.png?rlkey=gq1qqgoa1hqmn000i3sw8f4mq&st=6e520sx&raw=1'
+  },
   'TASS English': {
     url: 'https://www.facebook.com/tassenglish/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/56w0jhri3z7gr4efaiflz/TASS-English.png?rlkey=ga3io78tw168mhbiya1hf32ek&st=s6czye17&raw=1'
@@ -169,6 +173,10 @@ const folderLinks = {
   'The Anh English': {
     url: 'https://www.facebook.com/theanhenglish/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/z3y30njj6z5zbhufjl5rv/The-Anh-English.png?rlkey=atxr202fyknv4386b936074c1&st=h7hx71uq&raw=1'
+  },
+  'Learn My Words': {
+    url: 'https://www.facebook.com/profile.php?id=61585454649657&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o4r4g4hmn4v4768agng6v/Learn-My-Words.png?rlkey=5pluji7i2o8rktewu2a9lxcuo&st=8ei2i4cz&raw=1'
   },
   // thêm các mục khác nếu cần
 };
