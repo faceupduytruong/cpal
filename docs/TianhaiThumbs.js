@@ -172,7 +172,7 @@ const folderLinks = {
   },
   'The Anh English': {
     url: 'https://www.facebook.com/theanhenglish/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/z3y30njj6z5zbhufjl5rv/The-Anh-English.png?rlkey=atxr202fyknv4386b936074c1&st=h7hx71uq&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/db81az5u27smzl09jcqsg/The-Anh-English.webp?rlkey=n47y30o1mpv1iizvz52bqyfi6&st=7c3ca4yr&raw=1'
   },
   'Learn My Words': {
     url: 'https://www.facebook.com/profile.php?id=61585454649657&sk=reels_tab',
