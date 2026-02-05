@@ -45,6 +45,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100057411881264&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/11en93i0nu77334trf7m7/D-y-N-u-n.jpg?rlkey=y32npnjziosmk68xcs9yv1ist&st=b9c9igwp&raw=1',
   },
+  'Sammy': {
+    url: 'https://www.facebook.com/Sammycooking/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ah74wc2oc19rr9x9oipnz/Sammy.webp?rlkey=xz7qxbnwuucwuq93dcvl5w8ch&st=vshdo9mz&raw=1',
+  },
   'YÊU BẾP (Esheep Kitchen family)': {
     url: 'https://www.facebook.com/groups/557295677987925/',
     thumbnail: 'https://www.dropbox.com/scl/fi/l4bafpvu1jeh3e2yhi5xk/Y-U-B-P-Esheep-Kitchen-family.jpg?rlkey=2uei1mj67gggqvai08zija3lz&st=21qyiwo2&raw=1',
