@@ -69,6 +69,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@phucaiwinonline/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/xyhead1l0185eg62wbvk0/PH-C-i-Win-Online.png?rlkey=euqwd2meloys74e0z14itrm7k&st=kah3949t&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">PHÚ Cài Win Online</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.youtube.com/@MicrosoftWindows/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/odd3ajanm5n45vfhfdqxr/Windows.jpg?rlkey=2t59eiihobht0yhbaqbnpr31b&st=26mh4vyz&raw=1" alt="Ảnh 1">
 </div>
@@ -158,6 +165,34 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@taixaitech/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ub3if5rclt4hql1zi61wt/T-i-X-i-Tech.png?rlkey=d0s7wcpwa32hrlq17dwkhtznf&st=vv5mpqnc&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tài Xài Tech</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@H%C6%B0ngKh%C3%BAc/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/3b73jzo1u32dbfnra3wxo/H-ng-Kh-c.png?rlkey=3vr3pcgj8dr5l4zgoosf776mm&st=0fxqkcxv&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hưng Khúc</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@RealTechVN/playlists' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/k83klzrhigbbz2saljqbp/Real-Tech.webp?rlkey=tpebjfd1810jzycdkg4zhbl0a&st=q8n17e93&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Real Tech</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@PCM.channel/playlists' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ldg6jxtjtd80p8mhyo43i/PCM-Channel.png?rlkey=ixljyb2lddrfwilp11wrfczxk&st=1ohx88tv&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">PCM Channel</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/thinkpro.DBCN/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/vw89ashcmvcqvoq2r2owu/ThinkPro-H-th-ng-M-y-t-nh-v-Ph-ki-n.png?rlkey=zwgfhogsj9mromn3qyqckl7q5&st=nf45qrbw&raw=1" alt="Ảnh 1">
 </div>
@@ -180,7 +215,18 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 3 -->
+     <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Programmer</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@Ph%E1%BA%A1mHuyHo%C3%A0ng-w1e/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/gxl9nzy8t9h3x94hbp536/Ph-m-Huy-Ho-ng.png?rlkey=dx0sd277zonee3xzkjokrdh4j&st=mp6bpxsu&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Phạm Huy Hoàng</div>
+      </div>
+</div>
+
+     <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Hackintosh</h2>
       <div class="image-box">
@@ -283,7 +329,7 @@ container.innerHTML = `
      
 </div>
 
-     <!-- Hàng thứ 4 -->
+     <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Mac OSX</h2>
       <div class="image-box">
@@ -351,7 +397,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 5 -->
+     <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Mac Apps</h2>
       <div class="image-box">
@@ -412,7 +458,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 6 -->
+     <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Linux</h2>
       <div class="image-box">
@@ -501,7 +547,7 @@ container.innerHTML = `
       
 </div>
 
-     <!-- Hàng thứ 7 -->
+     <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Distro Linux</h2>
 
@@ -563,7 +609,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 8 -->
+     <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Android</h2>    
       <div class="image-box">
@@ -645,7 +691,7 @@ container.innerHTML = `
      
 </div>
 
-     <!-- Hàng thứ 9 -->
+     <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Office</h2>
       <div class="image-box">
@@ -755,7 +801,7 @@ container.innerHTML = `
           
 </div>
 
-     <!-- Hàng thứ 10 -->
+     <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Laptop Buying Suggestions</h2>
       <div class="image-box">
@@ -872,7 +918,7 @@ container.innerHTML = `
       
 </div>
 
-     <!-- Hàng thứ 11 -->
+     <!-- Hàng thứ 12 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Games</h2>
       <div class="image-box">
@@ -912,7 +958,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 12 -->
+     <!-- Hàng thứ 13 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Smart Tech Toys</h2>
       <div class="image-box">
