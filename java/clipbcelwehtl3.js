@@ -14,7 +14,7 @@ async function showCelebrityInfo() {
           background-color: rgba(0, 0, 0, 0.9);
           color: white;
           font-family: Arial, sans-serif;
-          background-image: url('https://getwallpapers.com/wallpaper/full/e/b/1/1398962-top-red-fire-wallpaper-1920x1080-tablet.jpg'); /* Đường dẫn đến hình ảnh */
+          background-image: url('https://www.lifewire.com/thmb/T7a6QlzUPEpua3OKx7V_pCvBY14=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/forest-wallpaper-af78609605b14f7c9b999d8b2f49c0d9.jpg'); /* Đường dẫn đến hình ảnh */
           background-size: cover;        /* Phủ kín toàn bộ màn hình */
           background-repeat: no-repeat;  /* Không lặp lại hình ảnh */
           background-position: center center; /* Căn giữa cả chiều ngang và dọc */
@@ -83,5 +83,3 @@ body::-webkit-scrollbar-thumb {
   const url = URL.createObjectURL(blob);
   openRightHalfPopup(url, "CelebrityInfo", window.innerWidth, 745);
 }
-
-
