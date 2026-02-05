@@ -85,6 +85,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/nguyenanhtuan.mentor.official/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/409uhgkfvlra4r9u7lvl3/Nguy-n-Anh-Tu-n-Online-Business-Mentor.png?rlkey=6cxj0np4ch7q742tb6awz8beb&st=mgni2xic&raw=1',
   },
+  'Trần Quốc Nhẫn  (Trần Quốc Nhẫn)': {
+    url: 'https://www.facebook.com/RichdadTran/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3jrjcg8l9kp05fzlc4rmm/Tr-n-Qu-c-Nh-n-Tr-n-Qu-c-Nh-n.jpg?rlkey=lywgxsgpl8pzi4q1tn9oy441t&st=xage1tmq&raw=1',
+  },
   'Trạm học NÓI': {
     url: 'https://www.facebook.com/TramhocNOI/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nz1uy23n0lgvh0o6ttffx/Tr-m-h-c-N-I.png?rlkey=z61pu0doxsixrnls7t6o0pn0h&st=wn00gwlx&raw=1',
