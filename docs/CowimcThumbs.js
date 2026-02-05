@@ -31,7 +31,7 @@ const folderLinks = {
   },
   'Tuyen saphia': {
     url: 'https://www.facebook.com/tuyensaphia92/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/v893lruulpvf3v6hafg2i/Tuyen-saphia.jpg?rlkey=eop43yf7z9bguvbxg0f87qzg8&st=s1cpfkw4&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dn6a9uh4amouq0av05abz/Tuyen-saphia.jpg?rlkey=7nhtqnh6f6go28ffy1mxxjhf9&st=ifii00ox&raw=1',
   },
   'Út về vườn': {
     url: 'https://www.facebook.com/utvevuon/reels/',
@@ -43,7 +43,7 @@ const folderLinks = {
   },
   'Dạy Nấu Ăn': {
     url: 'https://www.facebook.com/profile.php?id=100057411881264&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/11en93i0nu77334trf7m7/D-y-N-u-n.jpg?rlkey=y32npnjziosmk68xcs9yv1ist&st=b9c9igwp&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xm4la0f7fczsmq4536ea1/D-y-N-u-n.webp?rlkey=rn4b8h59ur87dni690z8p5r33&st=7dt0h79b&raw=1',
   },
   'Sammy': {
     url: 'https://www.facebook.com/Sammycooking/reels/',
@@ -59,7 +59,7 @@ const folderLinks = {
   },
   'Quản Trị Mạng (Món Ngon Mỗi Ngày)': {
     url: 'https://quantrimang.com/cuoc-song/am-thuc',
-    thumbnail: 'https://www.dropbox.com/scl/fi/um16ws9e5eixei898yq1j/Qu-n-Tr-M-ng-M-n-Ngon-M-i-Ng-y.webp?rlkey=7o29b9pcspp0efxdzjtl9wazu&st=thx9h305&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/f7jmgccn3sdj33liorspl/Qu-n-Tr-M-ng-M-n-Ngon-M-i-Ng-y.png?rlkey=b0slipel12h23xkw8vwvdppfa&st=2bpr3sl6&raw=1',
   },
   'Khéo Tay Hay Làm': {
     url: 'https://www.facebook.com/kheotayhaylam2411/reels/',
