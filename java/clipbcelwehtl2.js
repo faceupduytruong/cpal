@@ -14,7 +14,7 @@ async function showCelebrityInfo() {
           background-color: rgba(0, 0, 0, 0.9);
           color: white;
           font-family: Arial, sans-serif;
-          background-image: url('https://getwallpapers.com/wallpaper/full/b/3/6/1255549-most-popular-black-wallpaper-1920x1080-images.jpg'); /* Đường dẫn đến hình ảnh */
+          background-image: url('https://wallpapercave.com/wp/wp7843199.jpg'); /* Đường dẫn đến hình ảnh */
           background-size: cover;        /* Phủ kín toàn bộ màn hình */
           background-repeat: no-repeat;  /* Không lặp lại hình ảnh */
           background-position: center center; /* Căn giữa cả chiều ngang và dọc */
