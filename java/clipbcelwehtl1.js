@@ -83,7 +83,7 @@ body::-webkit-scrollbar-thumb {
   muted
   loop
   playsinline
-src="https://res.cloudinary.com/dgcwfapes/video/upload/v1763769783/37-7307c3e44951d1b045c7861b0c96ef72-1920x1080_bcfxs5.mp4">
+src="https://dl.dropboxusercontent.com/scl/fi/ro55pib7cpqnbs80kq1k6/37-9023778efed40ba9509860bea32bea3f-1920x1080.mp4?rlkey=g6u0t64zvddya5h7f8vejmz5d&st=6nc5gn6x&dl=0">
 </video>
 
   </body>
@@ -105,7 +105,3 @@ src="https://res.cloudinary.com/dgcwfapes/video/upload/v1763769783/37-7307c3e449
   );
 
 }
-
-
-
-
