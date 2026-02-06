@@ -319,6 +319,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Đàm Tài Cap (QLDA)</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/coach.nhphuc/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/12f1z5ygay2grj7gm622k/Coach-Ho-ng-Ph-c.png?rlkey=hc7w5ftvx955c8uk4bfqk6ek8&st=qah6a3g4&raw=1">
+</div>
+        <div class="caption">Coach-Hoàng Phúc</div>
+      </div>
           
 </div>
 
