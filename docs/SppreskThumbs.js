@@ -29,6 +29,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tuyendungxaydungchatluongcao/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/67k7jzpzghohv5z63yc43/Tuy-n-d-ng-x-y-d-ng-ch-t-l-ng-cao.png?rlkey=s4mjfzk0dmalg45z3j2zucmmx&st=frpyoshm&raw=1',
   },
+  'Hanoi Coaching Group': {
+    url: 'https://www.facebook.com/hanoicoachinggroup/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tml7pgrqud5y8vbhr5joh/Hanoi-Coaching-Group.jpg?rlkey=e3fly12286ss7ndiqshiaw7wa&st=nah908fn&raw=1',
+  },
   'Phở Đặc Biệt': {
     url: 'https://www.facebook.com/phodacbiet.tv/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5igfepfbuqobhx7wvcee6/Ph-c-Bi-t.png?rlkey=31gtjsvisyqoe92bqfzbwqozl&st=mrjyroy8&raw=1',
