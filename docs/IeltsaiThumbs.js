@@ -168,5 +168,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/thelanguage.town/photos_by/',
     thumbnail: 'https://www.dropbox.com/scl/fi/pteb6o7khpa31688v8fer/The-Language-Town.jpg?rlkey=3t8w5z5xaf5bc4ot79x22ryd2&st=m886fhhb&raw=1'
   },
+  'IELTS AI Test': {
+    url: 'https://www.facebook.com/IELTSAITest/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4talpzq51xepl13402q9b/IELTS-AI-Test.jpg?rlkey=96iazkw3osbvt821uk1bwf0l9&st=p3qyf96i&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
