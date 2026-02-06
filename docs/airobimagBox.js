@@ -539,6 +539,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61580450902746&sk=reels_tab', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/qhbpyhipsju1lvoo3s3q7/Nguy-n-c-Vi-t.jpg?rlkey=6aww8lpwdc6v60rjrdgpni9pr&st=evmi8rmz&raw=1">
+</div>
+        <div class="caption">Nguyễn Đức Việt</div>
+      </div>
+
+      <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/thayQuanAI/reels/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/s92d7aug78f0somsjdrl9/Nguy-n-nh-Qu-n-Chuy-n-gia-AI.png?rlkey=rvyi5t03fthhy2vbi35fff80d&st=yhd3uo23&raw=1">
 </div>
