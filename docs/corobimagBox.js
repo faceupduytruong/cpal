@@ -812,7 +812,7 @@ container.innerHTML = `
       </div>
     
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61581631336524&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/tkcomputer114/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/ikulzorv4xur9iuv5sd2h/TK-Computer.png?rlkey=7dmdlsp00iq0j1o38th5u6gnr&st=r8a5jaq7&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">TK Computer</div>
@@ -892,7 +892,7 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.facebook.com/ohayolaptop/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/vmf8fru9tuu3qfi0ahvxr/OHAYO-Mobile-laptop-Shinkoiwa.webp?rlkey=b4wwcxfubmgay0t6qs9l59upf&st=7vbwzdgz&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">OHAYO Mobile－laptop Shinkoiwa</div>
+        <div class="caption">OHAYO Mobile - Laptop Shinkoiwa</div>
       </div>
 
       <div class="image-box">
@@ -919,6 +919,25 @@ container.innerHTML = `
 </div>
 
      <!-- Hàng thứ 12 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Accessory Buying Suggestions</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/klvcomputer/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/876xl09eqcj8dnqkrw141/KLV-Computer.png?rlkey=23vbl8wfjqgbiflco78t47l7e&st=cbb5jfbq&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">KLV Computer</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/TranGiaComputerOfficial/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/y87zla4hcg93nap2blitn/Tr-n-Gia-Computer.png?rlkey=6nu1j58aij2mm5o0gunwk1ogr&st=8z0tk9mz&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Trần Gia Computer</div>
+      </div>
+
+</div>
+
+     <!-- Hàng thứ 13 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Games</h2>
       <div class="image-box">
