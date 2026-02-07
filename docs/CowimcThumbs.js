@@ -29,7 +29,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61581462201077&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/gh5qxedzjxcdygdpoxajp/Ma-Th-Ngo-n.webp?rlkey=71b48n3kc4f7mz8kh0ud59kql&st=llw0sb1d&raw=1',
   },
-  'KHO TÀNG KIẾN THỨC  (Ngọc Hương Y Quán)': {
+  'Kho Tàng Kiến Thức': {
     url: 'https://www.facebook.com/profile.php?id=61551132006208&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/t89hqnysnydykfpfenh4i/KHO-T-NG-KI-N-TH-C-Ng-c-H-ng-Y-Qu-n.jpg?rlkey=xsuh9u4h36q50ti06e9oeq87v&st=wlo4httr&raw=1',
   },
