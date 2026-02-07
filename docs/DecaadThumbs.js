@@ -27,7 +27,7 @@ const folderLinks = {
   },
  'Nika Anime': {
     url: 'https://www.youtube.com/@NikaAnimez/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/vb80m1al4ktwyx0d5p9sw/Nika-Anime.jpg?rlkey=w1frlfr54rzahsbdhxigho79o&st=dd43prn1&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/vb80m1al4ktwyx0d5p9sw/Nika-Anime.jpg?rlkey=w1frlfr54rzahsbdhxigho79o&st=4dfwiuiz&raw=1'
   },
  'POPS Anime': {
     url: 'https://www.youtube.com/@POPSAnime/playlists',
