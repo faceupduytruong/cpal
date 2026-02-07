@@ -25,6 +25,14 @@ const folderLinks = {
     url: 'https://www.youtube.com/@LeNguyen-wk10',
     thumbnail: 'https://www.dropbox.com/scl/fi/lodi9p042pucpsyksa7e4/MC10n.jpg?rlkey=p2xv81bxzhjlgvotev6hmokj1&st=09d2045&raw=1'
   },
+ 'Nika Anime': {
+    url: 'https://www.youtube.com/@NikaAnimez/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vb80m1al4ktwyx0d5p9sw/Nika-Anime.jpg?rlkey=w1frlfr54rzahsbdhxigho79o&st=dd43prn1&raw=1'
+  },
+ 'Ego Tuna': {
+    url: 'https://www.youtube.com/@egotuna/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/kxfo3tbrglt2cxxn19wt8/Ego-Tuna.jpg?rlkey=oq5eoc8sv028aug2w3vyx93dp&st=x676xrci&raw=1'
+  },
  'POPS Anime': {
     url: 'https://www.youtube.com/@POPSAnime/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/ev38c0olxwsxvtuxzoco8/POPSAnime.jpg?rlkey=6c39xzbndsmwrm5vqk2vobzuc&st=9ourv21b&raw=1'
