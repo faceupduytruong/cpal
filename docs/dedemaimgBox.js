@@ -116,7 +116,7 @@ container.innerHTML = `
       
 </div>
 
-     <!-- Hàng thứ 2 -->
+     <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Canva</h2>
       <div class="image-box">
@@ -128,7 +128,7 @@ container.innerHTML = `
       
 </div>
 
-    <!-- Hàng thứ 4 -->
+    <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Photo Editor Applications</h2>
   <div class="image-box">
@@ -140,7 +140,7 @@ container.innerHTML = `
       
 </div>
 
-    <!-- Hàng thứ 5 -->
+    <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">CapCut</h2>
   <div class="image-box">
@@ -152,7 +152,26 @@ container.innerHTML = `
       
 </div>
 
-    <!-- Hàng thứ 6 -->
+     <!-- Hàng thứ 7 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Blender</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/TrungnguyenDesigner/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/xf7u31ofjgp58htfdls02/Trung-Nguyen-Designer.ico?rlkey=gh1n0eer48qwenx1yiaoxumbp&st=zn1yftoh&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Trung Nguyen Designer</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/kurniawan3D/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/t9qbohxlo0otzrmzx2v2f/Kang-Iwenk-Kurniawan-IwenkTridi.png?rlkey=lf4b5u2lhf11c8bf8d93k7pm0&st=alv0rdnu&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Kang Iwenk Kurniawan (IwenkTridi)</div>
+      </div>
+      
+</div>
+
+    <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">DaVinci Resolve</h2>
   <div class="image-box">
