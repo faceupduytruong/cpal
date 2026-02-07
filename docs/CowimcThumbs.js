@@ -61,6 +61,10 @@ const folderLinks = {
     url: 'https://quantrimang.com/cuoc-song/am-thuc',
     thumbnail: 'https://www.dropbox.com/scl/fi/f7jmgccn3sdj33liorspl/Qu-n-Tr-M-ng-M-n-Ngon-M-i-Ng-y.png?rlkey=b0slipel12h23xkw8vwvdppfa&st=2bpr3sl6&raw=1',
   },
+  'Tú Nguyễn': {
+    url: 'https://www.facebook.com/tu.nguyen.290494/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lv9cjjm8vq39h0unmgyt1/T-Nguy-n.webp?rlkey=7blp239a1x846km6lprualkl4&st=8sp29q81&raw=1',
+  },
   'Khéo Tay Hay Làm': {
     url: 'https://www.facebook.com/kheotayhaylam2411/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/112ogmjra3qy8i09jguks/Kh-o-Tay-Hay-L-m.jpg?rlkey=5c03i1abketnvcq15hm8vv6xf&st=v1j81v8l&raw=1',
