@@ -395,6 +395,13 @@ container.innerHTML = `
         <div class="caption">Macintosh VietNam</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/MacRumors/photos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/nsnrmb6glgztv1vsovqts/MacRumors.png?rlkey=aaarx022qgk3bvlgfhyi4ez9h&st=c5jtgouj&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">MacRumors</div>
+      </div>
+
 </div>
 
      <!-- Hàng thứ 6 -->
