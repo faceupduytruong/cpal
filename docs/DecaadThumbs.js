@@ -29,10 +29,6 @@ const folderLinks = {
     url: 'https://www.youtube.com/@NikaAnimez/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vb80m1al4ktwyx0d5p9sw/Nika-Anime.jpg?rlkey=w1frlfr54rzahsbdhxigho79o&st=dd43prn1&raw=1'
   },
- 'Ego Tuna': {
-    url: 'https://www.youtube.com/@egotuna/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/kxfo3tbrglt2cxxn19wt8/Ego-Tuna.jpg?rlkey=oq5eoc8sv028aug2w3vyx93dp&st=x676xrci&raw=1'
-  },
  'POPS Anime': {
     url: 'https://www.youtube.com/@POPSAnime/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/ev38c0olxwsxvtuxzoco8/POPSAnime.jpg?rlkey=6c39xzbndsmwrm5vqk2vobzuc&st=9ourv21b&raw=1'
@@ -52,6 +48,14 @@ const folderLinks = {
  'Xưởng Phim Hoạt Hình': {
     url: 'https://www.youtube.com/@Nhantaidaiviet/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/5zj14nx9c3bx3kk1s0qyg/X-ng-Phim-Ho-t-H-nh.jpg?rlkey=ra3psbi22zq1hxmjjn833plia&st=k835wft6&raw=1'
+  },
+ 'Ego Tuna': {
+    url: 'https://www.youtube.com/@egotuna/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qum7kaf4b5yaxzdk1tvfy/Ego-Tuna.jpg?rlkey=91cidwjp0wfotaxm3rsyjidhu&st=d339dx2y&raw=1'
+  },
+ 'NMT Sensei': {
+    url: 'https://www.youtube.com/@NMTSensei/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yrelvy5bmpa6bblvcwcvk/NMT-Sensei.webp?rlkey=a3q65x8kb00d4285nbdpafa9m&st=0753kf2c&raw=1'
   },
  'MenmaGameX (Naruto Characters)': {
     url: 'https://www.youtube.com/@MenmaGameX/shorts',
