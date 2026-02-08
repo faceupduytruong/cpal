@@ -20,5 +20,50 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/go7hgrxhqjdlc8twaob54/Google.webp?rlkey=re0z5hmanpo8rp4xts7m24xck&st=riwgh2gl&raw=1'
   },
+
+  'Bắp cải non': {
+    url: 'https://www.youtube.com/@bapcainonxanh/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5kwl6mkhiws4zwhla1zin/B-p-C-i-Non.jpg?rlkey=dn4cq6o61wty5fjb64v9lufbd&st=dphyekyp&raw=1',
+  },
+  'Thế giới động vật': {
+    url: 'https://www.youtube.com/@Phim-hay-3/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2gkp4s80gh6l3rhmrib6k/Th-gi-i-ng-v-t.jpg?rlkey=w3jyu3eyj7kyzpm03ig7ea2pm&st=d07d3rb2&raw=1',
+  },
+  'CatsDogFunny': {
+    url: 'https://www.youtube.com/@CatsDogFunnny',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5v52zrb8p6bkuglc7m84w/CatsDogFunny.jpg?rlkey=zkzugvir8dch000wvfwxb8xc4&st=zezipwpn&raw=1',
+  },
+  'Thiên nhiên hoang dã': {
+    url: 'https://www.youtube.com/@thiennhienhoangda-vn/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xb5pg69cjv8e249jvpasm/Thi-n-nhi-n-hoang-d.avif?rlkey=dm0ykh6mfz8vmv9e0bt7ko2xz&st=jbnrwugg&raw=1',
+  },
+  'Mộc Sylvara': {
+    url: 'https://www.youtube.com/@MocSylvara/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wu1ih2rg3x5tz8d2102yt/M-c-Sylvara.jpg?rlkey=gdyrsbknw795g2jyschb9mqf7&st=4f69s6ay&raw=1',
+  },
+  'Cáo Láo Nháo JEB': {
+    url: 'https://www.youtube.com/@CAOLAONHAOJEB/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/d4hkjmuoucgr3dojch42p/C-o-L-o-Nh-o-JEB.jpg?rlkey=1hdw6jz0yvwbwj27gmp4z01of&st=u5at9bo3&raw=1',
+  },
+  'Tàng Tự Viên': {
+    url: 'https://www.youtube.com/@T%C3%A0ngT%E1%BB%B1Vi%C3%AAn/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qqg4o472ndraix74v8v3w/T-ng-T-Vi-n.jpg?rlkey=rcwzqmym5y8kjwd0v6gd2nbik&st=zlkqxg61&raw=1',
+  },
+  'Emotional Tales': {
+    url: 'https://www.youtube.com/@EmotionalTales/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6eat2ugdafi2ucc472i4a/Emotional-Tales.jpg?rlkey=6sknp1rhlvdjt5qc053ein3s2&st=jgob3iqc&raw=1',
+  },
+  'Học hỏi thêm': {
+    url: 'https://www.youtube.com/@hochoithem/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/sds37pzk1u2nci70theit/H-c-h-i-th-m.jpg?rlkey=qflodeh6bq7arscoyqavniv2d&st=48o3gy7s&raw=1',
+  },
+  'LAQUALA TV': {
+    url: 'https://www.youtube.com/@laqualatv/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nstka2rgdw9thvy46zirm/LAQUALA-TV.avif?rlkey=5zde8dqlt5l0nps591jj7qwrs&st=39417lcv&raw=1',
+  },
+  'Miền Hoa Sơn': {
+    url: 'https://www.youtube.com/@MienHoaSon/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/f4iwo2jsp7aoi0693yyxe/Mi-n-Hoa-S-n.avif?rlkey=jsothpyq4cqqvbcrkekyqou0w&st=h7csf7eh&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
