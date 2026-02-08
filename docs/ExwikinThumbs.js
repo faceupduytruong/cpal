@@ -20,14 +20,13 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/go7hgrxhqjdlc8twaob54/Google.webp?rlkey=re0z5hmanpo8rp4xts7m24xck&st=riwgh2gl&raw=1'
   },
-
   'Bắp cải non': {
     url: 'https://www.youtube.com/@bapcainonxanh/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/5kwl6mkhiws4zwhla1zin/B-p-C-i-Non.jpg?rlkey=dn4cq6o61wty5fjb64v9lufbd&st=dphyekyp&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nlh83eivq5xrti0s72i4p/B-p-C-i-Non.jpg?rlkey=exah7id54pifbxiy0kffc4mtm&st=z61unlv0&raw=1',
   },
   'Thế giới động vật': {
     url: 'https://www.youtube.com/@Phim-hay-3/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/2gkp4s80gh6l3rhmrib6k/Th-gi-i-ng-v-t.jpg?rlkey=w3jyu3eyj7kyzpm03ig7ea2pm&st=d07d3rb2&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1hc9c8zvftmxeyt58dg2c/Th-gi-i-ng-v-t.jpg?rlkey=c9zvx955v72iig34gbgjz4c95&st=gbqn93f3&raw=1',
   },
   'CatsDogFunny': {
     url: 'https://www.youtube.com/@CatsDogFunnny',
@@ -64,6 +63,10 @@ const folderLinks = {
   'Miền Hoa Sơn': {
     url: 'https://www.youtube.com/@MienHoaSon/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/f4iwo2jsp7aoi0693yyxe/Mi-n-Hoa-S-n.avif?rlkey=jsothpyq4cqqvbcrkekyqou0w&st=h7csf7eh&raw=1',
+  },
+  'Trái Đất Tiền Sử': {
+    url: 'https://www.youtube.com/@Traidattiensu/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6lxzfv49y844j175cja4b/Tr-i-t-Ti-n-S.jpg?rlkey=nekrsjfo4q837r0twmb3z5k7m&st=ijl1w4bb&raw=1',
   },
   // thêm các mục khác nếu cần
 };
