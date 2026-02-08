@@ -110,7 +110,7 @@ const folderLinks = {
   },
   'Hùng Không Ngu': {
     url: 'https://www.youtube.com/@HungKngu/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/nlh83eivq5xrti0s72i4p/H-ng-Kh-ng-Ngu.jpg?rlkey=exah7id54pifbxiy0kffc4mtm&st=bww6oeyo&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/uswga63uh6z1aq803ruyq/H-ng-Kh-ng-Ngu.png?rlkey=i61xr4tz9lz68dbwl7bpdakt1&st=tr7f7gae&raw=1',
   },
   'TÒ MÒ': {
     url: 'https://www.youtube.com/@tomovakhampha/shorts/',
@@ -130,7 +130,7 @@ const folderLinks = {
   },
   'Xe Ôm Vlog': {
     url: 'https://www.facebook.com/hoangxeomvlog/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/x5n3dkgn1a09iyg3ge04r/Xe-m-Vlog.jpg?rlkey=f2w84s386dm86torhtc0bcmxe&st=c9gj5exm&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yi6of5z952l66beok40n7/Xe-m-Vlog.png?rlkey=8rs5uiqrqqsoyvf59y5ysw6mo&st=1oid25nc&raw=1',
   },
   'Hờ Biển': {
     url: 'https://www.youtube.com/@hobienstory/shorts/',
