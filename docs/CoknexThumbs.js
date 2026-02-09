@@ -100,6 +100,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/SPX.DanCongSo/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9c595tfsyrlj42hh7fg94/D-n-C-ng-S.jpg?rlkey=sqb4ttbbchox0r0kndfciamyn&st=yrwjava3&raw=1',
   },
+  'VFacts': {
+    url: 'https://www.youtube.com/@VFacts/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wkikx4rt3iv5shviizuju/VFacts.jpg?rlkey=597t79rtlqji17zogrghhxler&st=n46jq9fw&raw=1',
+  },
   'Handy Zhong': {
     url: 'https://www.facebook.com/HandyZhongOfficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/3ebviagrcxold34uz5hrn/Handy-Zhong.jpg?rlkey=ibaozpaomel04wp6yqeuznhsy&st=2fhwi2s7&raw=1',
