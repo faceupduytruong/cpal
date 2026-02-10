@@ -61,6 +61,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@MenmaGameX/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/lx800wx4q6dxiknodhgfg/MenmaGameX-Naruto-Characters.webp?rlkey=7h86q7415fkzc4ipc7kvuc08b&st=mlh3xtzy&raw=1'
   },
+ 'WIBU Club': {
+    url: 'https://www.youtube.com/@wibuclub1812/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fpryf402q8w0fyc4n394y/WIBU-Club.jpg?rlkey=v5k2vb8lkbafblrem7fid83f2&st=q1nqtumb&raw=1'
+  },
  'Susi mod (Pokémon Geography)': {
     url: 'https://www.youtube.com/@Susimod-g5c/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/s5g3alc6yuy3dewz1v4cy/Susi-mod-Pok-mon-Geography.jpg?rlkey=53ypos4dje2beyo21zx82tt0a&st=5dkhpza7&raw=1'
