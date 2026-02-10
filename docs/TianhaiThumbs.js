@@ -174,6 +174,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/theanhenglish/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/db81az5u27smzl09jcqsg/The-Anh-English.webp?rlkey=n47y30o1mpv1iizvz52bqyfi6&st=7c3ca4yr&raw=1'
   },
+  'Mrs Chung English': {
+    url: 'https://www.facebook.com/profile.php?id=61573838121601&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/cghu8uw0x9qj4kx1bvsuk/Mrs-Chung-English.jpg?rlkey=hmx3cjp7wcedhqnnlj995f6l6&st=o0tbwc4l&raw=1'
+  },
   'Learn My Words': {
     url: 'https://www.facebook.com/profile.php?id=61585454649657&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/o4r4g4hmn4v4768agng6v/Learn-My-Words.png?rlkey=5pluji7i2o8rktewu2a9lxcuo&st=8ei2i4cz&raw=1'
