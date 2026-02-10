@@ -618,7 +618,7 @@ container.innerHTML = `
 
      <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">Android</h2>    
+    <h2 class="row-title">Android</h2> 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/android' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/c2o6llfqomkfqdmmn8tx1/Qu-n-Tr-M-ng-Android.png?rlkey=5tu7ezi1nwxpwjchhi8wvuaiy&st=rjpqwujo&raw=1" alt="Ảnh 1">
@@ -680,6 +680,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/nyo81xdaa5qqqxfdpzg56/Techmaster-VN-Android.webp?rlkey=yuy4cconel3yqcj42nyzhk04g&st=co3a3q2v&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Techmaster VN (Android)</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@duongde_official/playlists' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/w90ondpld13hk96xr92kj/D-ng-D.png?rlkey=yhihiw2r09r5ueidl5kb632ob&st=jbm39a11&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Dương Dê</div>
       </div>
 
       <div class="image-box">
