@@ -114,7 +114,7 @@ const folderLinks = {
   },
   'Nguyen Thu Hang': {
     url: 'https://www.facebook.com/nguyenthuhang.240890/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ftvk6po6powi2bcz0x6e3/Nguyen-Thu-Hang.jpg?rlkey=55zppmhjs56dr2h776k1mdvz6&st=wfs9vcws&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/541hxtsed0gnlt0we2rgu/Nguy-n-Thu-H-ng.webp?rlkey=5ru256c674jech0k64pnvzaxk&st=57fgluj2&raw=1',
   },
   'Hoàng Như Hoa': {
     url: 'https://www.facebook.com/hoang.n.hoa.9/reels/',
