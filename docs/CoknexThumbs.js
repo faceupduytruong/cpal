@@ -20,7 +20,7 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/go7hgrxhqjdlc8twaob54/Google.webp?rlkey=re0z5hmanpo8rp4xts7m24xck&st=riwgh2gl&raw=1'
   },
-  'LI KHÁM PHÁ': {
+  'LI Khám Phá': {
     url: 'https://www.youtube.com/@LIKHAMPHA/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/aadmv5vaye952hyrg437s/LI-KH-M-PH.webp?rlkey=85v2d0wjb9tu7ar4bz9eze10q&st=r8nmzxg8&raw=1',
   },
@@ -43,6 +43,10 @@ const folderLinks = {
   'Vũ Trụ Quanh Ta': {
     url: 'https://www.youtube.com/@scienceisaround/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0dm8qj4cfv71giz1v1xkt/V-Tr-Quanh-Ta.webp?rlkey=xmoxn09vcu7bao3bn5tsd9vzy&st=ozxnlmy7&raw=1',
+  },
+  'Khoa Học Trái Đất Và Vũ Trụ': {
+    url: 'https://www.youtube.com/@KHOAHOCTRAIDATVAVUTRU/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ocznrf4odcopr09nmsliw/KHOA-H-C-TR-I-T-V-V-TR.jpg?rlkey=iddod3ikfgtqxtefvyb8t6xby&st=12le6kcn&raw=1',
   },
   'Hồ Sơ Vô Cực': {
     url: 'https://www.youtube.com/@H%E1%BB%93S%C6%A1V%C3%B4C%E1%BB%B1c/shorts/',
@@ -88,11 +92,11 @@ const folderLinks = {
     url: 'https://www.youtube.com/@huyenbiettuot/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/mknfihqgjukatwbvmxeh7/Huy-n-Bi-t-Tu-t.webp?rlkey=byuhedv3o420qavgswkog1xxs&st=xoa8it3u&raw=1',
   },
-  'Khám phá thế giới 410': {
+  'Khám Phá Thế Giới 410': {
     url: 'https://www.youtube.com/@khamphathegioi410/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uywrn9x520t8pq86bt944/Kh-m-ph-th-gi-i-410.jpg?rlkey=6nc70yru54q71g03rt5fezyp1&st=2i62rn6z&raw=1',
   },
-  'KIẾN THỨC THÚ VỊ Official': {
+  'Kiến Thức Thú Vị Official': {
     url: 'https://www.youtube.com/@KI%E1%BA%BENTH%E1%BB%A8CTH%C3%9AV%E1%BB%8AOfficial-i8e/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/4nuy4lz9wjtg1p4x761no/KI-N-TH-C-TH-V-Official.png?rlkey=54spxlb8qakpvxy3qpmf3l6rt&st=oq8kys5c&raw=1',
   },
@@ -196,7 +200,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/IQFact/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/98293ku6o8zl45d0x9dmf/IFact.png?rlkey=r2jv3dmk9yspsldn1cnf1iqvk&st=otpd43zx&raw=1',
   },
-  'NH88 TIN TỨC CHÍNH TRỊ': {
+  'NH88 Tin tức Chính Trị': {
     url: 'https://www.youtube.com/@nh88tintucchinhtri/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/8fzubu9unw2dd0i1p22j1/NH88-TIN-T-C-CH-NH-TR.jpg?rlkey=kbi78vdct2v1g3aqbw4id1klj&st=qdcptb16&raw=1',
   },
