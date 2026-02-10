@@ -46,6 +46,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/sinhhoattienganh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uaslxbpuzoi457c4pc0li/Sinh-Ho-t-Ti-ng-Anh-Giao-Ti-p.png?rlkey=122qwkf1q852gbjt7kpqacgdx&st=ofxbnhe4&raw=1',
   },
+  'Accent Coach David': {
+    url: 'https://www.facebook.com/accentcoachdavid/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5378r7bvjzr05tde1n22d/Accent-Coach-David.png?rlkey=ruyvk4fdq0xs8vbjbqz8v1yns&st=885o3b08&raw=1'
+  },
   'Phát Âm Hay - American Pronunciation': {
     url: 'https://www.facebook.com/phatamhay/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/myp5fsuhhczmbu3ly1811/Ph-t-m-Hay-American-Pronunciation.png?rlkey=rrfwzqbx1drtaq1lcf8lj69w5&st=6yvhv2lv&raw=1'
