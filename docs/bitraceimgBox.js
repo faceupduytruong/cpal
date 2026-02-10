@@ -34,6 +34,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61586017385815' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/1u70d6zcz3oepgqvskruc/H-i-Th-ch-H-c-Ketcausoft.png?rlkey=8oekf1z6ju3q4c5o31mu4p5kz&st=vgqjuktm&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hội Thích Học Ketcausoft</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090272299011' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/fi8or52a154dbgge46pr7/Kho-H-c-X-y-D-ng-K-t-C-u-D-To-n.ico?rlkey=8vxsipwvzzzk71texsau0z0tf&st=022bv3he&raw=1" alt="Ảnh 1">
 </div>
