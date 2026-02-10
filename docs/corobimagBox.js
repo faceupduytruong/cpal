@@ -955,6 +955,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Games</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61552381838944&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/7co75l7ky1i6oop60bqxk/Ch-i-C-ng-Ngh-4.0.jpg?rlkey=qyno4dcqz39xkeizd0xdivg4d&st=cpwk8btb&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Đồ Chơi Công Nghệ 4.0</div>
+      </div>
+      
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61552389458905&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/928b4ygr0t42syzhclay6/Shop-Game-Gear.webp?rlkey=9pmt12o8887z0wxg12slkil9u&st=r8xyadi7&raw=1" alt="Ảnh 1">
 </div>
