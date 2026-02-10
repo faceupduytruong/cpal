@@ -37,6 +37,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/phodacbiet.tv/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5igfepfbuqobhx7wvcee6/Ph-c-Bi-t.png?rlkey=31gtjsvisyqoe92bqfzbwqozl&st=mrjyroy8&raw=1',
   },
+  'Tuệ Nga': {
+    url: 'https://www.facebook.com/tuenga1911/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3grkt916b3ljyy8di980f/Tu-Nga.jpg?rlkey=306hcafnwh7yltirbkus8grp6&st=731b17g2&raw=1',
+  },
   'Trò chuyện với Tương Lai': {
     url: 'https://www.facebook.com/trochuyenvoituonglai/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/eap3o0v3b3o8ypxr3zr9e/Tr-chuy-n-v-i-T-ng-Lai.jpg?rlkey=j6i91048e6oevxm8wqv103zap&st=8bnuu7rp&raw=1',
