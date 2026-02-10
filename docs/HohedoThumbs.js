@@ -104,6 +104,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@anhsangtuoivang/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7s9mq1qoad68v11bixsor/nh-S-ng-Tu-i-V-ng.jpg?rlkey=i2o9saj3v3a57xmwpmbb2yr0z&st=fiakgwup&raw=1',
   },
+  'Khoẻ Mà Đẹp': {
+    url: 'https://www.youtube.com/@KhoeMaDep',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1979e0xej9lx3915iyq1k/Kho-M-p.jpg?rlkey=s52rs945mfovu2kv1ukeqv1yr&st=ezlpkxsk&raw=1',
+  },
   'Quỳnh Chia Sẻ  (Cân Bằng Chuyển Hoá)': {
     url: 'https://www.facebook.com/Quynh.Meothantai96/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/egqzjfxbib9r23onbqyi6/Qu-nh-Chia-S-C-n-B-ng-Chuy-n-Ho.png?rlkey=fcd7xq47rmeg4a8tckp866yoy&st=xogkyxgm&raw=1',
