@@ -861,13 +861,6 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61565033018313&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/2kk1kiyqtqukwuieez5tz/Anh-B-n-Lap.png?rlkey=nf7anqr5qrc31u1j51wj0x5f4&st=vaikvlqr&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Anh Bán Lap</div>
-      </div>
-
-      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/laptopxachtaymygiarehungphatus/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/irie8rj0fsfpa0oc8nq5t/Laptop-x-ch-tay-m-gi-r-H-ng-Ph-t-US.webp?rlkey=8nods7uzju633qkh8lxdr1yg8&st=qpwqrd21&raw=1" alt="Ảnh 1">
 </div>
@@ -875,28 +868,7 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100091644361441' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/450whj4lhnwv56tb18ije/Laptop-Vi-t-M.webp?rlkey=hey2x1hnlgahxcaz97ydop9gl&st=6wommytq&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Laptop Việt Mỹ</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100086365434019' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/5xaws86gpb5gfesdysl4y/LapTop-Nh-p-Kh-u-Nh-t-M.webp?rlkey=8sl019bf4i3nav6bv8qhdaci5&st=oyed11lw&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">LapTop Nhập Khẩu Nhật Mỹ</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100085465730526&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/sukmoka52hmm0dylgow6t/LapTop-Nh-t-Vi-t.webp?rlkey=2rjsoizb78885ejice1nue3g2&st=v8wod4jy&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">LapTop Nhật Việt</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61573725841995/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61573725841995' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/r3l9oqqzixygn0sztb3sd/Laptop-Huy-n-Anh.webp?rlkey=6txwo440vznem5dbvn1kr2vv2&st=5axx18c9&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Laptop Huyền Anh</div>
@@ -908,7 +880,12 @@ container.innerHTML = `
 </div>
         <div class="caption">OHAYO Mobile - Laptop Shinkoiwa</div>
       </div>
+     
+</div>
 
+     <!-- Hàng thứ 12 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Affordable Wholesale Laptops</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/mt.laptop1/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/tbdx9xfv6has9ei53b342/MT-Laptop.png?rlkey=pa7um3357wo6jsz6xfwx6u9fz&st=utqs2y86&raw=1" alt="Ảnh 1">
@@ -917,12 +894,40 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61565033018313&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/2kk1kiyqtqukwuieez5tz/Anh-B-n-Lap.png?rlkey=nf7anqr5qrc31u1j51wj0x5f4&st=vaikvlqr&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Anh Bán Lap</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100085465730526&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/sukmoka52hmm0dylgow6t/LapTop-Nh-t-Vi-t.webp?rlkey=2rjsoizb78885ejice1nue3g2&st=v8wod4jy&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">LapTop Nhật Việt</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100086365434019' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/5xaws86gpb5gfesdysl4y/LapTop-Nh-p-Kh-u-Nh-t-M.webp?rlkey=8sl019bf4i3nav6bv8qhdaci5&st=oyed11lw&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">LapTop Nhập Khẩu Nhật Mỹ</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100091644361441' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/450whj4lhnwv56tb18ije/Laptop-Vi-t-M.webp?rlkey=hey2x1hnlgahxcaz97ydop9gl&st=6wommytq&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Laptop Việt Mỹ</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61558933330123&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/gjs0qduu0ap8em3jzuzsd/Laptop-Nh-t-B-o-Duy.png?rlkey=x163d7h94c3xarirhoz6sgpko&st=ay4uyhcl&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Laptop Nhật Bảo Duy</div>
       </div>
-
+      
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100091551471128&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/h56ea9utbwo2zrgqw76qe/LapTop-Gi-S.webp?rlkey=hmor822ylpqv8tw0baigjhzml&st=s4fncmh7&raw=1" alt="Ảnh 1">
@@ -932,7 +937,7 @@ container.innerHTML = `
       
 </div>
 
-     <!-- Hàng thứ 12 -->
+     <!-- Hàng thứ 13 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Accessory Buying Suggestions</h2>
       <div class="image-box">
@@ -951,7 +956,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 13 -->
+     <!-- Hàng thứ 14 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Games</h2>
       <div class="image-box">
@@ -998,7 +1003,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 13 -->
+     <!-- Hàng thứ 15 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Smart Tech Toys</h2>
       <div class="image-box">
