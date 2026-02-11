@@ -61,6 +61,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@MenmaGameX/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/lx800wx4q6dxiknodhgfg/MenmaGameX-Naruto-Characters.webp?rlkey=7h86q7415fkzc4ipc7kvuc08b&st=mlh3xtzy&raw=1'
   },
+ 'Shounen Action Official': {
+    url: 'https://www.youtube.com/@shounenactionofficial5320/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h3ykw8vspbcwwi8zxgxwx/Shounen-Action-Official.jpg?rlkey=j57dpdqjdexiiohoabto4b1om&st=ctwew9xo&raw=1'
+  },
  'WIBU Club': {
     url: 'https://www.youtube.com/@wibuclub1812/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/fpryf402q8w0fyc4n394y/WIBU-Club.jpg?rlkey=v5k2vb8lkbafblrem7fid83f2&st=q1nqtumb&raw=1'
