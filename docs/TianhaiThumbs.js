@@ -34,7 +34,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100076216793607&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/rqdh5ubphgnrvoia2ng80/Disney-Vietsub.jpg?rlkey=04hsq6g2rwq9xtf4ucw6wmf5n&st=d4b45ezk&raw=1'
   },
-  'Video học Tiếng Anh trẻ em': {
+  'Video Học Tiếng Anh Trẻ Em': {
     url: 'https://www.facebook.com/dvdhoctienganhtreem/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/z2g6lp4uk0yvtgwfmbkh6/Video-h-c-Ti-ng-Anh-tr-em.jpg?rlkey=m3tm080f8uqz2sfwllwc4d5bn&st=vj9ggbkp&raw=1'
   },
@@ -180,6 +180,14 @@ const folderLinks = {
   },
   'Learn My Words': {
     url: 'https://www.facebook.com/profile.php?id=61585454649657&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o4r4g4hmn4v4768agng6v/Learn-My-Words.png?rlkey=5pluji7i2o8rktewu2a9lxcuo&st=8ei2i4cz&raw=1'
+  },
+  '51Talk Việt Nam': {
+    url: 'https://www.facebook.com/51TalkVietnam/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/y514ajxaxnfrwsavr6ou8/51Talk-Vi-t-Nam.png?rlkey=zd97llig89b92acx087m6sf04&st=hp5ygng2&raw=1'
+  },
+  'Anki Support Vietnam': {
+    url: 'https://www.facebook.com/AnkiSupportVietnam',
     thumbnail: 'https://www.dropbox.com/scl/fi/o4r4g4hmn4v4768agng6v/Learn-My-Words.png?rlkey=5pluji7i2o8rktewu2a9lxcuo&st=8ei2i4cz&raw=1'
   },
   // thêm các mục khác nếu cần
