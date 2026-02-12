@@ -162,11 +162,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100083069565503&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/t1u9yvk8q2mav1htak5zw/Nguy-n-Tr-H-o.jpg?rlkey=9zzqd2mqvcnf1x7s5t1mwgf8h&st=qoznm9h7&raw=1',
   },
-  'Truyền động lực': {
+  'Truyền Động Lực': {
     url: 'https://www.facebook.com/groups/2426705184317871/',
     thumbnail: 'https://www.dropbox.com/scl/fi/cgk31noistcg9bgaequ0o/Truy-n-ng-l-c.jpg?rlkey=evd6gbl806xtnx9r6hp3ucrir&st=n56k29ej&raw=1',
   },
-  'TƯ DUY NGƯỜI THÀNH CÔNG': {
+  'Tư Duy Người Thành Công': {
     url: 'https://www.facebook.com/groups/1134653551104543/',
     thumbnail: 'https://www.dropbox.com/scl/fi/23e3r5uygjrkpq97r3bao/T-DUY-NG-I-TH-NH-C-NG.jpg?rlkey=w2qpymqe9mr92qk388w0uyv5o&st=6crc2nmn&raw=1',
   },
