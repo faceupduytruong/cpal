@@ -60,7 +60,7 @@ const folderLinks = {
   },
   'Dustin Duc Nguyen': {
     url: 'https://www.facebook.com/dustinducng/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/4upcxc99s5559nq3b6ukx/Dustin-Duc-Nguyen.jpg?rlkey=9f9wedz82qxpm98b0kz9x3eqk&st=6u03g5x7&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/e5ioymb1zy88wxhxkohfo/Dustin-Talkin-English.jpg?rlkey=dt6jm4slfd4410w03q7omvucm&st=qvi5tros&raw=1'
   },
   'Nguyễn Trung Đức (Dustin Duc Nguyen)': {
     url: 'https://www.facebook.com/dustin.talkin.english/reels/',
@@ -188,7 +188,7 @@ const folderLinks = {
   },
   'Anki Support Vietnam': {
     url: 'https://www.facebook.com/AnkiSupportVietnam',
-    thumbnail: 'https://www.dropbox.com/scl/fi/o4r4g4hmn4v4768agng6v/Learn-My-Words.png?rlkey=5pluji7i2o8rktewu2a9lxcuo&st=8ei2i4cz&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/yssc5t5x7c8agcpsb4bwg/Anki-Support-Vietnam.avif?rlkey=v2ukkbqo18l15n4tzew8ptpyp&st=8c9xs7cj&raw=1'
   },
   // thêm các mục khác nếu cần
 };
