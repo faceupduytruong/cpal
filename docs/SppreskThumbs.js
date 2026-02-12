@@ -25,7 +25,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/VietnamWorksFanpage/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vl7kgg4e7zluxlkrejt3j/VietnamWorks.com.png?rlkey=3n1431lm6lg5x7f50vo43nj5b&st=v4m0dw5d&raw=1',
   },
-  'Tuyển dụng xây dựng chất lượng cao': {
+  'Tuyển Dụng Xây Dựng Chất Lượng Cao': {
     url: 'https://www.facebook.com/tuyendungxaydungchatluongcao/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/67k7jzpzghohv5z63yc43/Tuy-n-d-ng-x-y-d-ng-ch-t-l-ng-cao.png?rlkey=s4mjfzk0dmalg45z3j2zucmmx&st=frpyoshm&raw=1',
   },
@@ -41,11 +41,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/tuenga1911/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/3grkt916b3ljyy8di980f/Tu-Nga.jpg?rlkey=306hcafnwh7yltirbkus8grp6&st=731b17g2&raw=1',
   },
-  'Trò chuyện với Tương Lai': {
+  'Trò Chuyện Với Tương Lai': {
     url: 'https://www.facebook.com/trochuyenvoituonglai/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/eap3o0v3b3o8ypxr3zr9e/Tr-chuy-n-v-i-T-ng-Lai.jpg?rlkey=j6i91048e6oevxm8wqv103zap&st=8bnuu7rp&raw=1',
   },
-  'Phát triển Bản Thân Liên Tục': {
+  'Phát Triển Bản Thân Liên Tục': {
     url: 'https://www.facebook.com/groups/phattrienbanthanlientuc/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/ees17ngvzumv0et65mthw/Ph-t-tri-n-B-n-Th-n-Li-n-T-c.jpg?rlkey=pea6pdt5hhztlnljopdcox13r&st=h1gmdwbm&raw=1',
   },
@@ -77,7 +77,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61579175547025&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/myrz9k1fbsrunltxdnyd4/B-n-Ch-Th-nh-Nh-n.png?rlkey=xdyjz96zt13qaz242mk40gyk7&st=42gz0011&raw=1',
   },
-  'ĐẠI TƯỚNG QUÂN': {
+  'Đại Tướng Quân': {
     url: 'https://www.facebook.com/profile.php?id=61576922346529&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/bxiq0mn2ufhhcn00ppc6h/I-T-NG-QU-N.jpg?rlkey=ulmrbyq8zbrmzhlxzf2396vw7&st=fjbqlgv8&raw=1',
   },
@@ -97,7 +97,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/RichdadTran/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/3jrjcg8l9kp05fzlc4rmm/Tr-n-Qu-c-Nh-n-Tr-n-Qu-c-Nh-n.jpg?rlkey=lywgxsgpl8pzi4q1tn9oy441t&st=xage1tmq&raw=1',
   },
-  'Trạm học NÓI': {
+  'Đặng Thái Cường': {
+    url: 'https://www.facebook.com/coachleocuong/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6cd0ilr64butflt0rj9sy/ng-Th-i-C-ng.webp?rlkey=kob0y06l5hryt0mlnrrhmtbrj&st=fpevh9jx&raw=1',
+  },
+  'Trạm Học Nói': {
     url: 'https://www.facebook.com/TramhocNOI/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nz1uy23n0lgvh0o6ttffx/Tr-m-h-c-N-I.png?rlkey=z61pu0doxsixrnls7t6o0pn0h&st=wn00gwlx&raw=1',
   },
