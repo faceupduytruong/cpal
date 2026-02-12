@@ -1,7 +1,7 @@
 const customThumbnails = {
   'AM Education': 'https://www.dropbox.com/scl/fi/tkj78p03juumkdmtuqd5t/AM-EDUCATION.jpg?rlkey=7tjesnz80v42vp4sniabfau5w&st=wtd60iml&raw=1',
   'Awabe Studio': 'https://www.dropbox.com/scl/fi/m0x0brjoxsshtgteaht3d/Awabe-Studio.jpg?rlkey=l3xj9ts0b58rxpsia6i5ycog2&st=yf1u3onk&raw=1',
-  'Dustin Talkin English': 'https://www.dropbox.com/scl/fi/ug98loyrmpxzg084ymulj/Dustin-Talkin-English.jpg?rlkey=qbphh73ecyt77op4se19put8p&st=pnhef31f&raw=1',
+  'Dustin Talkin English': 'https://www.dropbox.com/scl/fi/e5ioymb1zy88wxhxkohfo/Dustin-Talkin-English.jpg?rlkey=dt6jm4slfd4410w03q7omvucm&st=qvi5tros&raw=1',
   'Hoàng Hải English': 'https://www.dropbox.com/scl/fi/lc4jf79bpvfwhhtu8ikzt/Ho-ng-H-i-English.jpg?rlkey=wgsgygiglj2erghiaakgewqsf&st=ewon6nar&raw=1',
   'Jaxtina English Center': 'https://www.dropbox.com/scl/fi/ydi2l52xsbav3j26dm99b/Jaxtina-English-Center.jpg?rlkey=h85gpuos7rg9oujtk3af7zwkh&st=6jrtq0oy&raw=1',
   'Trung tâm Anh Ngữ Aten': 'https://www.dropbox.com/scl/fi/o9obuqcfkvfb5rf5shv7j/Trung-T-m-Anh-Ng-Aten.png?rlkey=jcreotoq5p9j0wjyut9f3zppj&st=jsguilkb&raw=1',
