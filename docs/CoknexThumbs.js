@@ -152,8 +152,12 @@ const folderLinks = {
     url: 'https://www.facebook.com/vuoncuabacoi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/g52yhqbhc7qqgtf3bmcox/V-n-c-a-Ba.jpg?rlkey=kb4djh2igu4q32nigbqyt73w5&st=ia3ef09z&raw=1',
   },
-  'Chuyện lạ của Trang': {
+  'Chuyện Lạ Của Trang': {
     url: 'https://www.facebook.com/chuyenlacuatrang/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/oz4cndjj1fnk69n9wpvq4/Chuy-n-l-c-a-Trang.jpg?rlkey=a3c8vb72wtmh00mi6e64vrgke&st=kmegfwqj&raw=1',
+  },
+  'Chuyện Lạ Của Trang': {
+    url: 'https://www.youtube.com/@ChuyenLaCuaTrangg',
     thumbnail: 'https://www.dropbox.com/scl/fi/oz4cndjj1fnk69n9wpvq4/Chuy-n-l-c-a-Trang.jpg?rlkey=a3c8vb72wtmh00mi6e64vrgke&st=kmegfwqj&raw=1',
   },
   "Davo's Lingo": {
