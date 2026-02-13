@@ -48,6 +48,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@KHOAHOCTRAIDATVAVUTRU/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/ocznrf4odcopr09nmsliw/KHOA-H-C-TR-I-T-V-V-TR.jpg?rlkey=iddod3ikfgtqxtefvyb8t6xby&st=12le6kcn&raw=1',
   },
+  '夫妻物语 (Fūqī Wùyǔ)': {
+    url: 'https://www.youtube.com/@%E5%A4%AB%E5%A6%BB%E7%89%A9%E8%AF%AD/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2rj30r3dpupqj4y8u71z8/F-q-W-y.jpg?rlkey=5x61knnkbdb21094y9izlvspp&st=qkopbsk2&raw=1',
+  },
   'Hồ Sơ Vô Cực': {
     url: 'https://www.youtube.com/@H%E1%BB%93S%C6%A1V%C3%B4C%E1%BB%B1c/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/H-S-V-C-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=3w2dvt63&raw=1',
