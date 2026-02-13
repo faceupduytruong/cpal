@@ -79,7 +79,7 @@ const folderLinks = {
   },
   'Doctor Housing': {
     url: 'https://www.facebook.com/doctorhousingofficial/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/st587ga0viymhp769llon/Doctor-Housing.jpg?rlkey=hrnqxz8u5b5pgpi5en6u8aahx&st=n946g9gh&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/6l6laooywcoa9iv76rr8i/Doctor-Housing.png?rlkey=5kxql2kv0l9tqi4bkjdroj08i&st=vaczhfhx&raw=1'
   },
   'Gone Too Far': {
     url: 'https://www.facebook.com/GoneTooFarShow/reels/',
