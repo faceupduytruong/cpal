@@ -344,7 +344,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/gaustoreeeee/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/w8xtw704z7o7yb2ijc9kh/G-u-Store.jpg?rlkey=z1g3yqiuwjuqtqioqqhjmaygf&st=60zmy4ht&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/klze9s8ol51y2wfokrc28/G-u-Storepng?rlkey=9yzo35lsi251pefgjt489i7vu&st=ckuzxw4z&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Gấu Store</div>
       </div>
@@ -386,7 +386,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61573113368136&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/osk6wmcf2ya4943qn0gq6/Yeah2-Review.png?rlkey=1mawls6yh23r02aixpe4cvrr3&st=n58tsdwx&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/xucib27zschbdkqo9t53i/Yeah2-Review.png?rlkey=164pq9bdascg0rvlr6zm2g8t7&st=0azwzez2&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Yeah2 Review</div>
       </div>
@@ -400,14 +400,14 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61582495706290&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/xucib27zschbdkqo9t53i/Anh-Giai-Tri-Th-c.png?rlkey=164pq9bdascg0rvlr6zm2g8t7&st=nfi7vpys&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/osk6wmcf2ya4943qn0gq6/Anh-Giai-Tri-Th-c.png?rlkey=1mawls6yh23r02aixpe4cvrr3&st=olxuesn0&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Anh Giai Tri Thức</div>
       </div>
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/review.daihoi' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/klze9s8ol51y2wfokrc28/i-H-i-Review.png?rlkey=9yzo35lsi251pefgjt489i7vu&st=q65757dr&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/w8xtw704z7o7yb2ijc9kh/i-H-i-Reviewjpg?rlkey=z1g3yqiuwjuqtqioqqhjmaygf&st=32wob89g&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Đại Hội Review</div>
       </div>
