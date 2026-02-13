@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@TiaS%C3%A1ng-M%E1%BB%97iNg%C3%A0y/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/23im75nynqernv1gqtr75/T-m-Tr-S-ng.jpg?rlkey=jf22yrhb1hbcw0py12keb3sv7&st=1818iq4w&raw=1',
   },
+  'Tâm Lý Học Đám Đông': {
+    url: 'https://www.facebook.com/tamlihocdamdong',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xhuh9vrglkuoe4ipmejio/T-m-l-h-c-m-ng.jpg?rlkey=nzimvg9fh8bla2886kzpbag94&st=lvzyfpa1&raw=1',
+  },
   'Giàu Tỉnh Thức': {
     url: 'https://www.youtube.com/@giautinhthuc.biquyetthanhcong/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/9uj9uvvt3b6d3fqen4hvw/Gi-u-T-nh-Th-c.jpg?rlkey=unh84z2rje0w6egywg64k87nx&st=e9hpovvh&raw=1',
