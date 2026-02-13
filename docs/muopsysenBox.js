@@ -72,7 +72,7 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.youtube.com/@phucaiwinonline/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/xyhead1l0185eg62wbvk0/PH-C-i-Win-Online.png?rlkey=euqwd2meloys74e0z14itrm7k&st=kah3949t&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">PHÚ Cài Win Online</div>
+        <div class="caption">Phú Cài Win Online</div>
       </div>
 
       <div class="image-box">
@@ -134,6 +134,18 @@ container.innerHTML = `
 </div>
 
      <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Windows Apps</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('http://www.softwareok.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/g4j0r9542npp2rjuphldu/SoftwareOK.png?rlkey=r94elkxlzm6iar7nfxamr6dum&st=32qbq9q8&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">SoftwareOK</div>
+      </div>
+
+</div>
+
+     <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Hackintosh</h2>
       <div class="image-box">
@@ -236,7 +248,7 @@ container.innerHTML = `
      
 </div>
 
-     <!-- Hàng thứ 3 -->
+     <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Mac OSX</h2>
       <div class="image-box">
@@ -311,7 +323,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 4 -->
+     <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Mac Apps</h2>
       <div class="image-box">
@@ -372,7 +384,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 5 -->
+     <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Linux</h2>
       <div class="image-box">
@@ -461,7 +473,7 @@ container.innerHTML = `
       
 </div>
 
-     <!-- Hàng thứ 6 -->
+     <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Distro Linux</h2>
 
@@ -523,7 +535,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 7 -->
+     <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Android</h2> 
       <div class="image-box">
@@ -612,7 +624,7 @@ container.innerHTML = `
      
 </div>
 
-     <!-- Hàng thứ 8 -->
+     <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Office</h2>
       <div class="image-box">
