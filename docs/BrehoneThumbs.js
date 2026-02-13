@@ -71,7 +71,7 @@ const folderLinks = {
   },
   'Dondon Lee': {
     url: 'https://www.facebook.com/onelifetolive69/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/q3m2il42i3bgxk7tj7xn1/Dondon-Lee.jpg?rlkey=my0l4ozuta4razb1mzwoipjly&st=koaaacre&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qjl3xjcdaonbzkpt933wa/DonDon-Lee.png?rlkey=s88qddakxttieecdt8rnhme9v&st=f72ru45e&raw=1',
   },
   'Dũng Phan': {
     url: 'https://www.facebook.com/dung.phan.77/photos',
@@ -83,11 +83,11 @@ const folderLinks = {
   },
   'Gone Too Far': {
     url: 'https://www.facebook.com/GoneTooFarShow/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/vlt091su9upsgvszm5i8p/Gone-Too-Far.png?rlkey=1ep4ehfecpkc12kpwdap6fgar&st=jyi9lucg&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vlt091su9upsgvszm5i8p/Gone-Too-Far.png?rlkey=1ep4ehfecpkc12kpwdap6fgar&st=in712xnt&raw=1',
   },
   'Duy Trương': {
     url: 'https://www.facebook.com/hi.thanhduy/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/40j5d1f1mxh85d64l1h99/Duy-Tr-ng.jpg?rlkey=q19yw50ucms5bc9ylragncle9&st=cr9egvdt&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ynq7mfoz6n5r7y1z8yhl4/Duy-Tr-ng.png?rlkey=09m99ilz8kjmd7nq0xe9l9wu5&st=4ynhc07t&raw=1',
   },
   'Thomas Lee': {
     url: 'https://www.facebook.com/tuanshock121/reels/',
