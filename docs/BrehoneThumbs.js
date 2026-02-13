@@ -41,6 +41,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@tinptbl/videos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2ibpih3d5huoqrmstoo3c/Ph-n-t-ch-v-B-nh-lu-n.jpg?rlkey=t9o4eay6it706vh81exbkcoln&st=iidl3uu8&raw=1',
   },
+  'Bình Quân Sự': {
+    url: 'https://www.youtube.com/@BinhQuanSuTV/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h6eeljne5w152u23cyddv/B-nh-Qu-n-S.jpg?rlkey=hyvs3286cvoz6eone3gkjkcb7&st=ny6neq5i&raw=1',
+  },
   'Dinh Lam': {
     url: 'https://www.youtube.com/@nguyendinhlam91/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lenxu66pz54tm3qvlv6zk/inh-L-m-Cu-c-S-ng-Qu.jpg?rlkey=3t5hwk75kd3v9dzng0pnjaoyw&st=zy4565wr&raw=1',
