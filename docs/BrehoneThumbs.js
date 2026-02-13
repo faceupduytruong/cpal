@@ -45,13 +45,13 @@ const folderLinks = {
     url: 'https://www.youtube.com/@BinhQuanSuTV/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/h6eeljne5w152u23cyddv/B-nh-Qu-n-S.jpg?rlkey=hyvs3286cvoz6eone3gkjkcb7&st=ny6neq5i&raw=1',
   },
-  'Dinh Lam': {
+  'Đình Lãm Cuộc Sống Quê': {
     url: 'https://www.youtube.com/@nguyendinhlam91/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lenxu66pz54tm3qvlv6zk/inh-L-m-Cu-c-S-ng-Qu.jpg?rlkey=3t5hwk75kd3v9dzng0pnjaoyw&st=zy4565wr&raw=1',
   },
   'Nguyễn Huỳnh Lộc': {
     url: 'https://www.facebook.com/tran.tommy.7334/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/a8l3jocmm7qdbbchcbb61/Nguy-n-Hu-nh-L-c.jpg?rlkey=0n9qezhb6p58lbnluks4c62wa&st=41zpka40&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gy6xey079unn1a9vr1c6u/Nguy-n-Hu-nh-L-c.webp?rlkey=ezkwd9416u2zr6gu8bpulp5cx&st=qekpo4jq&raw=1',
   },
   'Nguyễn Lê Vương  (Tám tận lương tâm)': {
     url: 'https://www.facebook.com/tran.mi.529840/reels/',
@@ -59,7 +59,7 @@ const folderLinks = {
   },
   'ỚT In4': {
     url: 'https://www.facebook.com/profile.php?id=61580057953318&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/8s9hhypzs8lk2atnt4xg7/T-In4.jpg?rlkey=7z1biwqpp91d262y9jxpycd19&st=rcmkv0z0&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dmgge9n5jmwg6wc24z1we/T-In4.jpg?rlkey=ydvcb10p4ko21bp3e8w43rfij&st=9w8g68f8&raw=1',
   },
   'BIZbooks - Sách dành cho doanh nhân': {
     url: 'https://www.facebook.com/sachbizbooks/photos',
