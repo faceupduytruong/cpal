@@ -75,7 +75,7 @@ const folderLinks = {
   },
   'Dũng Phan': {
     url: 'https://www.facebook.com/dung.phan.77/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/su7h04soxmio4rvvry8pb/D-ng-Phan.webp?rlkey=ewt474r1p49pelji5i4jkgeaq&st=pgkc5r0z&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ad7353cbexl2tupfwwj43/D-ng-Phan.webp?rlkey=5lee9a1krasfj160tp581mp3p&st=2bf2i69o&raw=1',
   },
   'Doctor Housing': {
     url: 'https://www.facebook.com/doctorhousingofficial/reels/',
