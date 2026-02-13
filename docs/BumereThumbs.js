@@ -32,7 +32,7 @@ const folderLinks = {
   },
   'Tâm Lý Học Đám Đông': {
     url: 'https://www.facebook.com/tamlihocdamdong',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xhuh9vrglkuoe4ipmejio/T-m-l-h-c-m-ng.jpg?rlkey=nzimvg9fh8bla2886kzpbag94&st=lvzyfpa1&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/i1p1bk9w210ke1iyydo40/T-m-l-h-c-m-ng.jpg?rlkey=dwfa2ntgdi1c3z27jeog85wg8&st=g024u8u2&raw=1',
   },
   'Giàu Tỉnh Thức': {
     url: 'https://www.youtube.com/@giautinhthuc.biquyetthanhcong/videos',
