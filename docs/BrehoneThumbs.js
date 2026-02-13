@@ -75,7 +75,7 @@ const folderLinks = {
   },
   'Dũng Phan': {
     url: 'https://www.facebook.com/dung.phan.77/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/n25tawauugxzd9hy1skzb/D-ng-Phan.jpg?rlkey=yaqlqjiv2i0ikpxetgwhdja85&st=xjttz85t&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/su7h04soxmio4rvvry8pb/D-ng-Phan.webp?rlkey=ewt474r1p49pelji5i4jkgeaq&st=pgkc5r0z&raw=1',
   },
   'Doctor Housing': {
     url: 'https://www.facebook.com/doctorhousingofficial/reels/',
@@ -87,7 +87,7 @@ const folderLinks = {
   },
   'Duy Trương': {
     url: 'https://www.facebook.com/hi.thanhduy/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ynq7mfoz6n5r7y1z8yhl4/Duy-Tr-ng.png?rlkey=09m99ilz8kjmd7nq0xe9l9wu5&st=4ynhc07t&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0l38hvo6xd60kb4qa1gjc/Duy-Tr-ng.jpg?rlkey=567zdckes23t9fqq3obyd8fjz&st=hjwivc7e&raw=1',
   },
   'Thomas Lee': {
     url: 'https://www.facebook.com/tuanshock121/reels/',
