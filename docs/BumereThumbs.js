@@ -62,6 +62,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tuanxinchao98/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ihaqxjbjzggk8wagghclk/Tu-n-Xin-Ch-o.jpg?rlkey=h7squuu917q6c2b5q6aswoisr&st=dz542g6e&raw=1',
   },
+  'Hannah Thai - Trao Giá Trị': {
+    url: 'https://www.facebook.com/hannahthaitraogiatri',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2iv2i6i0wt1c84ux5t9gn/Hannah-Thai-Trao-Gi-Tr.jpg?rlkey=b0j85yfn2rq529dssrwyj90hs&st=hee00jgc&raw=1',
+  },
   'VPBank Bến Lức Long An': {
     url: 'https://www.facebook.com/Hotline.0908979767/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/tm2yf756p8hqanat91vkf/CommCredit-Long-An-T-n-D-ng-Ti-u-Th-ng-VPBank-B-n-L-c.webp?rlkey=wakihcitqjn1ibq4ow9t0jjmb&st=epumxqu3&raw=1',
@@ -94,7 +98,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/EmilyChungNguyen/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/069vci1z7kgburkva555z/Emily-Chung-Nguyen.png?rlkey=57i5hrkghx5g1huk4p43afywn&st=6aeisyvy&raw=1',
   },
-  'CO HOI KINH DOANH': {
+  'Cơ Hội Kinh Doanh': {
     url: 'https://www.facebook.com/cafe.kinhdoanh.ek/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/orwuq8fjhyhjsxdxjnxmz/CO-HOI-KINH-DOANH.jpg?rlkey=t1rrpb4x1mcqertkq951p6y77&st=y12np3by&raw=1',
   },
