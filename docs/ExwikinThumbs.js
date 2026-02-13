@@ -36,6 +36,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@thiennhienhoangda-vn/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xb5pg69cjv8e249jvpasm/Thi-n-nhi-n-hoang-d.avif?rlkey=dm0ykh6mfz8vmv9e0bt7ko2xz&st=jbnrwugg&raw=1',
   },
+  'Nhật Ký Hoang Dã': {
+    url: 'https://www.youtube.com/@nhatkyhoangda/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3weqpfrq0p5ggw876paha/Nh-t-K-Hoang-D.jpg?rlkey=0nanqaepgxg2t8ivcam6j19sk&st=s8lwnj3s&raw=1',
+  },
   'Mộc Sylvara': {
     url: 'https://www.youtube.com/@MocSylvara/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/wu1ih2rg3x5tz8d2102yt/M-c-Sylvara.jpg?rlkey=gdyrsbknw795g2jyschb9mqf7&st=4f69s6ay&raw=1',
