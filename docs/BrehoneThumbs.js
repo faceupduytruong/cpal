@@ -51,7 +51,7 @@ const folderLinks = {
   },
   'Củ Đậu Story': {
     url: 'https://www.youtube.com/@C%E1%BB%A7%C4%90%E1%BA%ADuStory/shorts',
-    thumbnail: 'https://www.dropbox.com/scl/fi/46wrhmhn9phiec9uittqd/C-u-Story.jpg?rlkey=x777phxyuzgyf5vnm1p23a46r&st=y77l4lk9&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zv2eaazno17ejq94ggjxm/C-u-Story.jpg?rlkey=c2121j20ozk9regz46sbxaktz&st=ed79sukz&raw=1',
   },
   'Nguyễn Huỳnh Lộc': {
     url: 'https://www.facebook.com/tran.tommy.7334/reels/',
