@@ -14,7 +14,7 @@ const folderLinks = {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Buddha/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/xe7bp0crapjx9fkraj7d7/S-ch-Ph-t-H-c.jpg?rlkey=783nitmm7c85jlcv4qz3h2tyv&st=3xwp4gqn&raw=1'
   },
-  'Google': {
+  'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
   },
@@ -33,6 +33,10 @@ const folderLinks = {
   'Bản Ngã Tỉnh Thức': {
     url: 'https://www.youtube.com/@BanNgaTinhThuc/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/liihoeluq31dz0vqp51i0/B-n-Ng-T-nh-Th-c.jpg?rlkey=5yrpsm6f2zi524jihp6cjcqwc&st=bdcrlv2l&raw=1',
+  },
+  'Quyền Lực Người Được Chọn': {
+    url: 'https://www.youtube.com/@quyenlucnguoiduocchon/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/p18ykgfyaz4bdhdmq4bqy/Quy-n-L-c-Ng-i-c-Ch-n.jpg?rlkey=au3p6tobde9h2jnbdfzb1nsbx&st=59jw9ca4&raw=1',
   },
   'Bông Hoa Nhỏ': {
     url: 'https://www.facebook.com/ChurnChurnCafe/reels/',
