@@ -557,7 +557,6 @@ container.innerHTML = `
 <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">AI-assisted content creation</h2>
-
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://app.grammarly.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/26/a3/4726a357-c057-be36-d871-3bf9986f08bb/AppIcon-0-0-1x_U007epad-0-0-85-220.png/256x256bb.jpg">
@@ -584,7 +583,14 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/jcjspdruf7g2bsvahblcx/m-T-i-Cap-AI.png?rlkey=a8qw0r76z6jvt2n76tuoprjn6&st=94dr1hbw&raw=1">
 </div>
         <div class="caption">Đàm Tài Cap (AI)</div>
-      </div>   
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://wtmr0u.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-08-20/dcdacb86-9731-4bf3-ba04-857a1f616536.png?x-bce-process=image/resize,m_fill,w_360,h_360&x-bce-process=image/format,f_webp">
+</div>
+        <div class="caption">Trợ Lý Ban Phước Lành Của Baidu Wenku</div>
+      </div>
 
 </div>
 
@@ -875,11 +881,26 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://wa6rs9.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-07-02/af776f64-3fb8-4264-89bf-ea556fad68ee.png?x-bce-process=image/format,f_webp">
+</div>
+        <div class="caption">Bách khoa toàn thư về người nổi tiếng</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://okj7pf.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2025-01-17/86873533-e05e-4c93-925a-1e85156ff85a.png?x-bce-process=image/resize,m_fill,w_360,h_360&x-bce-process=image/format,f_webp">
+</div>
+        <div class="caption">Bách khoa toàn thư về người nổi tiếng</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://qntkxw.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-12-22/42285ae5-f392-4475-a5bc-3681d8f5a1b7.JPEG?x-bce-process=image/format,f_webp">
 </div>
         <div class="caption">Bách khoa toàn thư diễn viên</div>
       </div>
+
 </div>
 
     <!-- Hàng thứ 20 -->
@@ -895,6 +916,18 @@ container.innerHTML = `
 
 
     <!-- Hàng thứ 21 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">English Language Tutor</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://km2ty4.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-12-06/7289c3c9-584e-4a2b-9127-80007fb3344a.JPEG">
+</div>
+        <div class="caption">Phổ biến IELTS/div>
+      </div>
+</div>
+
+
+    <!-- Hàng thứ 22 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">A discourse on poetry</h2>
   <div class="image-box">
@@ -914,7 +947,7 @@ container.innerHTML = `
 </div>
 
 
-    <!-- Hàng thứ 22 -->
+    <!-- Hàng thứ 23 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Logo design</h2>
   <div class="image-box">
@@ -925,7 +958,7 @@ container.innerHTML = `
       </div>
 </div>
 
-   <!-- Hàng thứ 23 -->
+   <!-- Hàng thứ 24 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Sound recorder to text</h2>
       <div class="image-box">
@@ -951,7 +984,7 @@ container.innerHTML = `
 
 </div>
 
-   <!-- Hàng thứ 24 -->
+   <!-- Hàng thứ 25 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Incredibly beautiful videos</h2>
       <div class="image-box">
@@ -983,7 +1016,7 @@ container.innerHTML = `
       </div>
 </div>
 
-         <!-- Hàng thứ 25 -->
+         <!-- Hàng thứ 26 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Study skills for using AI</h2>
       <div class="image-box">
@@ -1032,14 +1065,14 @@ container.innerHTML = `
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/363657942789633/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/g3g41uz5svpldopw7mm3t/B-nh-D-n-H-c-AI.jpg?rlkey=kjaf2dgvhrsu1it2fwsno63q7&st=1p0a0vbo&raw=1">
 </div>
-        <div class="caption">Bình Dân Học AI</div>
+        <div class="caption">Bình dân học AI</div>
       </div>
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/ANCAvn1/reels/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/mpt58iobe7k1xn6y1l6ei/n-Ng-C-ng-AI.jpg?rlkey=kwpk8cu72n27xq071ia13invy&st=3sofa82q&raw=1">
 </div>
-        <div class="caption">Ăn Ngủ Cùng AI</div>
+        <div class="caption">Ăn ngủ cùng AI</div>
       </div>
 
       <div class="image-box">
@@ -1053,7 +1086,7 @@ container.innerHTML = `
   <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090197215120&sk=reels_tab', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/y9bk0x4xzo790cf7d82gc/M-o-L-m-Ch-K-N-ng-AI.png?rlkey=knsjswisr04suvbcw7rq4mhs4&st=cbqa6jl7&raw=1">
 </div>
-        <div class="caption">Mẹo Làm Chủ Kỹ Năng AI</div>
+        <div class="caption">Mẹo làm chủ kỹ năng AI</div>
       </div>
     
       <div class="image-box">
@@ -1102,19 +1135,19 @@ container.innerHTML = `
   <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61583850737971&sk=photos', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/4xlxdunuzpfzt3h71r4g5/C-ng-ng-Al-Gemini-Canva.webp?rlkey=a8flb2qrtvyo5kyr0onp19f2u&st=96ojoscr&raw=1">
 </div>
-        <div class="caption">Cộng Đồng Al Gemini - Canva</div>
+        <div class="caption">Cộng đồng Al Gemini - Canva</div>
       </div>
 
 </div>
 
-         <!-- Hàng thứ 26 -->
+         <!-- Hàng thứ 27 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">AI Architect</h2>
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/109717852235362/user/1843794205/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/88g8nafnlqo3lwu88aeyn/AI-Architect.jpg?rlkey=oa8hya03kykf79bv340xpogx2&st=wjwszm02&raw=1">
 </div>
-        <div class="caption">Kts Cotin</div>
+        <div class="caption">KTS Cotin</div>
       </div>
       
 </div>
