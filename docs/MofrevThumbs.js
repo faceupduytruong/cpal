@@ -28,6 +28,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@CoGaiXauXi/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/1kz0zyfdqhcgv2kwpncns/C-G-i-X-u-X.jpg?rlkey=ngycy1sff4yv2w7m3yelvm6ds&st=6qx5w9h6&raw=1',
   },
+  'Rạp Chiếu Review Phim': {
+    url: 'https://www.youtube.com/@rapphimofficial/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fh20y9w1q8bv36l97eult/R-p-Chi-u-Review-Phim.jpg?rlkey=imelonqmo1pvoloht3pzjsb28&st=k9i34cpg&raw=1',
+  },
   'Ổ Phim +': {
     url: 'https://www.facebook.com/onghienphimx/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ef6icc9vr0t9830f5ohkg/Phim.jpg?rlkey=voff3kwu1asp085xtebv8vcw9&st=1u5xlnab&raw=1',
