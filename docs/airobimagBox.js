@@ -986,7 +986,6 @@ container.innerHTML = `
          <!-- Hàng thứ 25 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Study skills for using AI</h2>
-
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://quantrimang.com/ai', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/w8bl7qimmmm2f2nbbc596/Qu-n-tr-m-ng-AI.png?rlkey=es7ccelurk6avhmmx4mingd08&st=rrzm4d2j&raw=1">
@@ -1006,6 +1005,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/xckr78pekysy56zki2ca8/Lifehacker-AI.png?rlkey=fzoj2m6stq7t61poi7moz5nrn&st=8rwqfrrx&raw=1">
 </div>
         <div class="caption">Lifehacker (AI)</div>
+      </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@phandonggiang/videos', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/on0tvyof3ovw3z02xuxgi/Phan-ng-Giang-H-c-AI.png?rlkey=3smlpvfs1e0wly75jfsd6u3wt&st=y4rf2wd0&raw=1">
+</div>
+        <div class="caption">Phan Đông Giang - Học AI</div>
       </div>
 
       <div class="image-box">
