@@ -63,11 +63,11 @@ const folderLinks = {
   },
  'NuzanMax': {
     url: 'https://www.youtube.com/@nuzanmax/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/2ylhbhx8papgfl2naen8s/NuzanMax.webp?rlkey=qg7bu7pqrr9j0wene0mglitng&st=rzy2ypet&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/h3ykw8vspbcwwi8zxgxwx/NuzanMax.jpg?rlkey=j57dpdqjdexiiohoabto4b1om&st=ghb96li9&raw=1'
   },
  'Shounen Action Official': {
     url: 'https://www.youtube.com/@shounenactionofficial5320/shorts',
-    thumbnail: 'https://www.dropbox.com/scl/fi/h3ykw8vspbcwwi8zxgxwx/Shounen-Action-Official.jpg?rlkey=j57dpdqjdexiiohoabto4b1om&st=ctwew9xo&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/2ylhbhx8papgfl2naen8s/Shounen-Action-Official.webp?rlkey=qg7bu7pqrr9j0wene0mglitng&st=1yq4jw6d&raw=1'
   },
  'WIBU Club': {
     url: 'https://www.youtube.com/@wibuclub1812/shorts',
