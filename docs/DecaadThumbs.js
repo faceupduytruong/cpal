@@ -63,7 +63,7 @@ const folderLinks = {
   },
  'NuzanMax': {
     url: 'https://www.youtube.com/@nuzanmax/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/vzud1wg7aco1q3d2lc372/NuzanMax.webp?rlkey=ar8uqvgx36qt8i6yeis7ku5st&st=44ti83oi&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/2ylhbhx8papgfl2naen8s/NuzanMax.webp?rlkey=qg7bu7pqrr9j0wene0mglitng&st=rzy2ypet&raw=1'
   },
  'Shounen Action Official': {
     url: 'https://www.youtube.com/@shounenactionofficial5320/shorts',
