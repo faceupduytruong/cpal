@@ -62,7 +62,11 @@ const folderLinks = {
   },
   'Hồ Sơ Vô Cực': {
     url: 'https://www.youtube.com/@H%E1%BB%93S%C6%A1V%C3%B4C%E1%BB%B1c/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/H-S-V-C-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=3w2dvt63&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s170i9ovpm56orbv086au/H-S-V-C-c.webp?rlkey=89bkifi14z2x6c9m4dorpuash&st=jrt88axj&raw=1',
+  },
+  'Đột Phá Tri Thức': {
+    url: 'https://www.youtube.com/@dotphatrithuc/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/t-Ph-Tri-Th-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=x9ui7pat&raw=1',
   },
   'Quản Trị Mạng (Vũ Trụ)': {
     url: 'https://quantrimang.com/khoa-hoc/khoa-hoc-vu-tru',
