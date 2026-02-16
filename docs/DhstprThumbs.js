@@ -44,7 +44,7 @@ const folderLinks = {
   },
   'Hoàng Cẩm Tú': {
     url: 'https://www.facebook.com/profile.php?id=61584242907915&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/u5r5m2g8btb0yz8sio9nv/Ho-ng-C-m-T.jpg?rlkey=q2qpkewoibk9f0dfjzkcp837h&st=dapyyeap&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mj68eeedu3d3exkx2b7sr/Ho-ng-C-m-T.webp?rlkey=7ljqdf8wpjsoh6kmgv5794yz0&st=kcm9y6bp&raw=1',
   },
   'Nguyễn Minh Chính  (Vạn Sự Tùy Duyên)': {
     url: 'https://www.facebook.com/chinh.nguyenminh.5074/photos',
