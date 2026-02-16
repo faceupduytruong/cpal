@@ -24,6 +24,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@cogaixauxireviewphim3390/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/3n64h80nvg4qefb16h3wv/C-G-i-X-u-X-Review-Phim.webp?rlkey=gmpd0wodrssdbmxss5r525crg&st=uu7kyqdz&raw=1',
   },
+  'Cô Gái Xấu Xí': {
+    url: 'https://www.youtube.com/@CoGaiXauXi/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1kz0zyfdqhcgv2kwpncns/C-G-i-X-u-X.jpg?rlkey=ngycy1sff4yv2w7m3yelvm6ds&st=6qx5w9h6&raw=1',
+  },
   'Ổ Phim +': {
     url: 'https://www.facebook.com/onghienphimx/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ef6icc9vr0t9830f5ohkg/Phim.jpg?rlkey=voff3kwu1asp085xtebv8vcw9&st=1u5xlnab&raw=1',
