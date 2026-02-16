@@ -61,6 +61,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@MenmaGameX/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/lx800wx4q6dxiknodhgfg/MenmaGameX-Naruto-Characters.webp?rlkey=7h86q7415fkzc4ipc7kvuc08b&st=mlh3xtzy&raw=1'
   },
+ 'NuzanMax': {
+    url: 'https://www.youtube.com/@nuzanmax/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vzud1wg7aco1q3d2lc372/NuzanMax.webp?rlkey=ar8uqvgx36qt8i6yeis7ku5st&st=44ti83oi&raw=1'
+  },
  'Shounen Action Official': {
     url: 'https://www.youtube.com/@shounenactionofficial5320/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/h3ykw8vspbcwwi8zxgxwx/Shounen-Action-Official.jpg?rlkey=j57dpdqjdexiiohoabto4b1om&st=ctwew9xo&raw=1'
