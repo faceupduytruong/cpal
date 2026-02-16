@@ -49,6 +49,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@nguyendinhlam91/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lenxu66pz54tm3qvlv6zk/inh-L-m-Cu-c-S-ng-Qu.jpg?rlkey=3t5hwk75kd3v9dzng0pnjaoyw&st=zy4565wr&raw=1',
   },
+  'Củ Đậu Story': {
+    url: 'https://www.youtube.com/@C%E1%BB%A7%C4%90%E1%BA%ADuStory/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/46wrhmhn9phiec9uittqd/C-u-Story.jpg?rlkey=x777phxyuzgyf5vnm1p23a46r&st=y77l4lk9&raw=1',
+  },
   'Nguyễn Huỳnh Lộc': {
     url: 'https://www.facebook.com/tran.tommy.7334/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/gy6xey079unn1a9vr1c6u/Nguy-n-Hu-nh-L-c.webp?rlkey=ezkwd9416u2zr6gu8bpulp5cx&st=qekpo4jq&raw=1',
