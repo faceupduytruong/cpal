@@ -798,7 +798,6 @@ container.innerHTML = `
         <div class="caption">Biểu đồ cấu trúc tổ chức sản xuất trực tuyến</div>
       </div>
 
-
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://ovfym7.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-07-12/0bb0f626-960e-4b20-9563-56d69ac4a339.JPEG">
@@ -839,14 +838,12 @@ container.innerHTML = `
         <div class="caption">Trợ lý hành chính giáo dục đạo đức của trường tiểu học</div>
       </div>
 
-
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://j4y925.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-02-19/1eea4983-8902-4442-9d4d-699982efcf50.png?x-bce-process=image/format,f_webp">
 </div>
         <div class="caption">Giáo viên tư vấn tình cảm Xiaoyou</div>
       </div>
-
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://xv1mf1.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -922,7 +919,7 @@ container.innerHTML = `
   <div onclick="openRightHalfPopup('https://km2ty4.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-12-06/7289c3c9-584e-4a2b-9127-80007fb3344a.JPEG">
 </div>
-        <div class="caption">Phổ biến IELTS/div>
+        <div class="caption">Phổ biến IELTS</div>
       </div>
 </div>
 
@@ -956,6 +953,7 @@ container.innerHTML = `
 </div>
         <div class="caption">Trợ lý tạo logo</div>
       </div>
+      
 </div>
 
    <!-- Hàng thứ 24 -->
@@ -1014,6 +1012,7 @@ container.innerHTML = `
 </div>
         <div class="caption">Dreamscene Youtube</div>
       </div>
+      
 </div>
 
          <!-- Hàng thứ 26 -->
