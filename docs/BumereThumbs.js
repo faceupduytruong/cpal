@@ -54,6 +54,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/mentormauthuy/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/x6qct16mnpk5v0is5wkw7/M-u-Thanh-Th-y.webp?rlkey=ugxf08fnz750nh3kcupmewo2p&st=yytzpw0f&raw=1',
   },
+  'Hoa Quỳnh Nở 00.00': {
+    url: 'https://www.facebook.com/hoaquynh000/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9nd3odqdgbmcom0uujl8m/Hoa-Qu-nh-N-00.00.jpg?rlkey=751211t1clnhbv5qg2aifgl64&st=9toq6h5r&raw=1',
+  },
   'Nguyễn Viết Thắng': {
     url: 'https://www.facebook.com/thang.nguyenviet.50309/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jxbq499dpdh5xajtxjfgz/Nguy-n-Vi-t-Th-ng.jpg?rlkey=7317yuycdw8p47vpmbvfiiq19&st=2x1qkp6e&raw=1',
@@ -181,6 +185,10 @@ const folderLinks = {
   'Sống Tích Cực Mỗi Ngày': {
     url: 'https://www.facebook.com/songtichcucmoingay.vn/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4qr6q4376jyl076qx960e/S-ng-T-ch-C-c-M-i-Ng-y.jpg?rlkey=sjwinoafn92zhm0hjo5zm21r3&st=w89i8hip&raw=1',
+  },
+  'Thanh Thao Tran': {
+    url: 'https://www.facebook.com/thanhthao.tran.98284566',
+    thumbnail: 'https://www.dropbox.com/scl/fi/14qz9ay0siouuimliscra/Thanh-Thao-Tran.jpg?rlkey=hy9bjvrza3g649ziye30j9hck&st=b2y3q7gm&raw=1',
   },
   'Thanh Đạt (Skyland Dolls)': {
     url: 'https://www.facebook.com/swan.black.370/reels/',
