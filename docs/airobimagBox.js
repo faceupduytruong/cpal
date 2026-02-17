@@ -1160,7 +1160,7 @@ container.innerHTML = `
 
          <!-- Hàng thứ 28 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">Animation Master</h2>
+    <h2 class="row-title">Speech Suggestion</h2>
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://03qh9b.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-08-20/19c98b0a-80ba-48c6-9caf-0904bc6c8dd8.png?x-bce-process=image/resize,m_fill,w_360,h_360">
