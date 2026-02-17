@@ -17,7 +17,7 @@ const folderLinks = {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Poetry/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/imj2rexi2hzcfzi1a5j8b/Tuy-n-T-p-Th.jpg?rlkey=80d6ggvusvpfptlmx84o073r6&st=ogxgaazn&raw=1'
   },
-  'Google': {
+  'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1'
   },
@@ -132,6 +132,10 @@ const folderLinks = {
   'Trí Đức Education': {
     url: 'https://www.facebook.com/profile.php?id=61570498768064&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/40e3hp0u7j5dldkqjy1tw/Tr-c-Education.jpg?rlkey=onmmqahhhyst4sckkp9b8ql4f&st=uk01btzd&raw=1'
+  },
+  'Hoàng Trọng Kỳ Anh (Thầy Hoàng Oppa)': {
+    url: 'https://www.facebook.com/hoangtrongkyanhoppaday/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/cqn520wb0z99erhwsztc3/Ho-ng-Tr-ng-K-Anh-Th-y-Ho-ng-Oppa.jpg?rlkey=i099iepysl7s3qb1tvecoe6xy&st=f3ikg4sb&raw=1'
   },
  'Zenbooks': {
     url: 'https://www.facebook.com/zenbooks.vn/photos/',
