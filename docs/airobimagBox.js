@@ -88,14 +88,21 @@ container.innerHTML = `
     <!-- Hàng thứ 2 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Architecture Design</h2>
-  <div class="image-box">
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/109717852235362/user/1843794205/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/88g8nafnlqo3lwu88aeyn/AI-Architect.jpg?rlkey=oa8hya03kykf79bv340xpogx2&st=wjwszm02&raw=1">
+</div>
+        <div class="caption">KTS Cotin</div>
+      </div>
+      
+      <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/815479533482926/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/oj4v9ueps0z4r2x6w7d6u/AIAI-ng-d-ng-AI-trong-thi-t-k-Ki-n-Tr-c-N-i-th-t.webp?rlkey=zhf5ebv40n4obcvfhrsoxy1dd&st=pe60e3or&raw=1">
 </div>
         <div class="caption">AIAI - Ứng dụng AI trong thiết kế Kiến Trúc, Nội thất</div>
       </div>
       
- <div class="image-box">
+      <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/tonyhoangaixaydung/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/2k3ij3jh9vwrpob08q3vb/Tony-Ho-ng-Chia-S-AI-cho-X-y-D-ng.png?rlkey=86xbxkaqmo4coxojvriopgy2p&st=pknfwh6z&raw=1">
 </div>
@@ -1141,12 +1148,24 @@ container.innerHTML = `
 
          <!-- Hàng thứ 27 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">AI Architect</h2>
+    <h2 class="row-title">Animation Master</h2>
       <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/109717852235362/user/1843794205/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/88g8nafnlqo3lwu88aeyn/AI-Architect.jpg?rlkey=oa8hya03kykf79bv340xpogx2&st=wjwszm02&raw=1">
+  <div onclick="openRightHalfPopup('https://xq5531.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/lingjing-online/agent_logo/2025-02-13/71ee81f4-66f7-479d-b712-2646007896e6.jpg?x-bce-process=image/format,f_webp">
 </div>
-        <div class="caption">KTS Cotin</div>
+        <div class="caption">Bậc thầy hoạt hình</div>
+      </div>
+      
+</div>
+
+         <!-- Hàng thứ 28 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Animation Master</h2>
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://03qh9b.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-08-20/19c98b0a-80ba-48c6-9caf-0904bc6c8dd8.png?x-bce-process=image/resize,m_fill,w_360,h_360">
+</div>
+        <div class="caption">Gợi ý phát biểu</div>
       </div>
       
 </div>
