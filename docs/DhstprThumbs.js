@@ -50,7 +50,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/chinh.nguyenminh.5074/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/oozx6uo3jp9vomzuuowqd/Nguy-n-Minh-Ch-nh-V-n-S-T-y-Duy-n.jpg?rlkey=kr7vl6d38tml6nc68swb49zo4&st=f8sihl4b&raw=1',
   },
-  '1 phút chữa lành': {
+  '1 Phút Chữa Lành': {
     url: 'https://www.facebook.com/1phutchualanh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5j0gik6bk7xhgfs1gi06d/1-Ph-t-Ch-a-L-nh.jpg?rlkey=06w7u4b3d679veqc6x6n3zdyk&st=w8hu3eel&raw=1',
   },
@@ -66,7 +66,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61585481250950&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/h0rjc8a0xahtvd0xt0hlg/L-c-Th-ch-Quen.jpg?rlkey=sicn8gi4lepq292jamaba2sjh&st=j1f0dy3i&raw=1',
   },
-  'ĐẸP và HAY': {
+  'Đẹp và Hay': {
     url: 'https://www.facebook.com/groups/150329723634212/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ixx3i0mc5209ld5eudd3r/P-v-HAY.jpg?rlkey=jrl21g8ubcyql11ka9fq4u0lw&st=scxkxva9&raw=1',
   },
