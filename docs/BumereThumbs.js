@@ -128,11 +128,11 @@ const folderLinks = {
   },
   'Vũ Kim Khánh': {
     url: 'https://www.facebook.com/vukimkhanhofficial/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/qu313wfvoqej1r6fqvdxv/V-Kim-Kh-nh.jpg?rlkey=awbgocrdpddxhymvffn2ntr93&st=fkdsh6ij&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mwfc92un2r047a0ga1xmm/V-Kim-Kh-nh.jpg?rlkey=3b6tkeruzafphwgqk6p4zuh7h&st=5c6f497o&raw=1',
   },
   'Dat Phi Nguyen (Phan Li)': {
     url: 'https://www.facebook.com/datphi.nguyen/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/5wmqh1kt9k197q2u4l84z/Dat-Phi-Nguyen-Phan-Li.jpg?rlkey=5xfan3uelg1x7yz052th27jug&st=tvkziy7x&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ozv5kox22dpl2ovm8q1ra/Dat-Phi-Nguyen-Phan-Li.webp?rlkey=a30y36ei6utesajjo72pjki8d&st=ctupeac7&raw=1',
   },
   'Master NLP Ngat Pro': {
     url: 'https://www.facebook.com/Master.NLP.Ngat.Pro/reels/',
