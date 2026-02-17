@@ -76,6 +76,10 @@ const folderLinks = {
     url: 'https://quantrimang.com/khoa-hoc/khoa-hoc-vu-tru',
     thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/Qu-n-Tr-M-ng-V-Tr.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=rvxcg180&raw=1',
   },
+  'The Dream Weaver': {
+    url: 'https://www.youtube.com/@TheDreamWeaver-m6o/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/j13ghhk924gane1i550sj/The-Dream-Weaver.jpg?rlkey=g9338w00x9y7y4udieeo5p40l&st=m15ciz32&raw=1',
+  },
   '1 Phút Khoa Học': {
     url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1lqc62ak5egssjxe8pyax/1-Ph-t-Khoa-H-c.jpg?rlkey=amr5lcq3ismu9j5otk5x4g4xz&st=cz8z4477&raw=1',
