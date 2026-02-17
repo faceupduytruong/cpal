@@ -481,7 +481,14 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/367825396651087/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/mo3whmycghwruwc9k3zcw/KDE.png?rlkey=9n5yznbbohgmdd3ff7t0379lu&st=8ozdbl4l&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">KDE</div>
+        <div class="caption">KDE (forum)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/kde' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/hugcjia808ath0e38ep0h/KDE-private.png?rlkey=bqhl04u0yqru1c8pznduka6ek&st=hv9keewx&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">KDE (private)</div>
       </div>
 
       <div class="image-box">
