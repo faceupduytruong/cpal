@@ -178,6 +178,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61573838121601&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/cghu8uw0x9qj4kx1bvsuk/Mrs-Chung-English.jpg?rlkey=hmx3cjp7wcedhqnnlj995f6l6&st=o0tbwc4l&raw=1'
   },
+  'Học Tiếng Anh Chữa Lành': {
+    url: 'https://www.facebook.com/sudungtienganh/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/edbb2vexyhm7n2uiyf96h/H-c-Ti-ng-Anh-Ch-a-L-nh.jpg?rlkey=x9zd2x9o3g3ospxz67jfsxqd8&st=y2uxrcc5&raw=1'
+  },
   'Learn My Words': {
     url: 'https://www.facebook.com/profile.php?id=61585454649657&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/o4r4g4hmn4v4768agng6v/Learn-My-Words.png?rlkey=5pluji7i2o8rktewu2a9lxcuo&st=8ei2i4cz&raw=1'
