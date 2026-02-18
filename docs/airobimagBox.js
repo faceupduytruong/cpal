@@ -256,12 +256,12 @@ container.innerHTML = `
 
   <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">3D Model</h2>
+    <h2 class="row-title">Project Management</h2>
   <div class="image-box">
-  <div onclick="openRightHalfPopup('https://nk5f76.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/plugin_logo/2024-01-08/75e46b87-cb8a-4228-bfe2-619d5d478eac.png?x-bce-process=image/resize,m_fill,w_512,h_512">
+  <div onclick="openRightHalfPopup('https://1dpozb.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-12-17/3c28840b-d506-4ad2-abc9-8559f4d50574.png?x-bce-process=image/format,f_webp">
 </div>
-        <div class="caption">Người lập mô hình 3D (HTML)</div>
+        <div class="caption">Kỹ sư phòng cháy chữa cháy</div>
       </div>
       
 </div>
@@ -270,12 +270,12 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">3D Model</h2>
   <div class="image-box">
-  <div onclick="openRightHalfPopup('https://1dpozb.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-12-17/3c28840b-d506-4ad2-abc9-8559f4d50574.png?x-bce-process=image/format,f_webp">
+  <div onclick="openRightHalfPopup('https://nk5f76.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/plugin_logo/2024-01-08/75e46b87-cb8a-4228-bfe2-619d5d478eac.png?x-bce-process=image/resize,m_fill,w_512,h_512">
 </div>
-        <div class="caption">Kỹ sư phòng cháy chữa cháy</div>
+        <div class="caption">Người lập mô hình 3D (HTML)</div>
       </div>
-
+      
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://zn2isk.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-07-19/9e509f5d-b77b-4218-80db-67d4f3418a1c.png">
