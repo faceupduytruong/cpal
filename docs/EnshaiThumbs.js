@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/lhjr9olvbwg0vy3q0hlna/Google-Translate.webp?rlkey=jypud322b4z68dladqetnxcok&st=2ynt7066&raw=1'
   },
+  'Miss Honey': {
+    url: 'https://www.facebook.com/profile.php?id=61582506250295&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ce811p4nbj89epaozwzbb/Miss-Honey.jpg?rlkey=hk79xvbl0d9gvf0gvlkblm43n&st=3bg95xy3&raw=1'
+  },
   'Learn English With Us': {
     url: 'https://www.facebook.com/groups/335486277069621/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2ily1l7cotz5ac6a6rfdy/Learn-English-With-Us.jpg?rlkey=yqeliklmin0vhnxwfquiptoi9&st=z1ruzkwb&raw=1'
@@ -114,7 +118,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/1190947588828922/media/',
     thumbnail: 'https://www.dropbox.com/scl/fi/gaw18sei2hyk8hilbjz1u/FREE-ENGLISH-COURSES.jpg?rlkey=72ff87v01524v6sp7aw7vzrdl&st=1zn1mn1g&raw=1',
   },
-  "LET'S LEARN ENGLISH ( APPRENONS L'ANGLAIS)": {
+  "LET'S LEARN ENGLISH (APPRENONS L'ANGLAIS)": {
     url: 'https://www.facebook.com/groups/415435771990553/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ovx62gspdi6giiiidgjcp/LET-S-LEARN-ENGLISH-APPRENONS-L-ANGLAIS.jpg?rlkey=yb9p61sdd1jzilk449zoemwf5&st=wte0flmq&raw=1',
   },
