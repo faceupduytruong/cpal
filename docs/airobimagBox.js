@@ -451,28 +451,28 @@ container.innerHTML = `
   <div onclick="openRightHalfPopup('https://d1f5p0.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2025-02-14/d1ae5a64-d7e5-4b85-8880-db61225102f9.jpg?x-bce-process=image/format,f_png/resize,m_fill,w_360,h_360">
 </div>
-        <div class="caption">Trợ lý bách khoa toàn thư</div>
+        <div class="caption">Trợ Lý Bách Khoa Toàn Thư</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://aistudy.baidu.com/site/wjzsorv8/8cd47d9a-7797-42f3-9306-b902ded71161?showpageinpc=1&timestamp=1755347759210&wid=5504a756eca84c448bdecaadc5ee55e4_0_0&queryPathKey=/aibot&eduRoleInfo=1_5165_7', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://jianzhan-fe.cdn.bcebos.com/edu/role_xiaozhi_welcome_msg.png@f_png,q_80,d_progressive">
 </div>
-        <div class="caption">Kochi - Nữ trợ lý toàn diện</div>
+        <div class="caption">Kochi - Nữ Trợ Lý Toàn Diện</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://aistudy.baidu.com/site/wjzsorv8/8cd47d9a-7797-42f3-9306-b902ded71161?showpageinpc=1&timestamp=1755347616662&wid=5504a756eca84c448bdecaadc5ee55e4_0_0&queryPathKey=%2Faibot&eduRoleInfo=2_4133_7', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://jianzhan-fe.cdn.bcebos.com/edu/role_xueer_welcome_msg.png@f_png,q_80,d_progressive">
 </div>
-        <div class="caption">Xueer - Nữ trợ lý toàn diện</div>
+        <div class="caption">Xueer - Nữ Trợ Lý Toàn Diện</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://aistudy.baidu.com/site/wjzsorv8/8cd47d9a-7797-42f3-9306-b902ded71161?showpageinpc=1&timestamp=1755347759210&wid=5504a756eca84c448bdecaadc5ee55e4_0_0&queryPathKey=/aibot&eduRoleInfo=3_5131_7', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://jianzhan-fe.cdn.bcebos.com/edu/role_alex_welcome_msg.png@f_png,q_80,d_progressive">
 </div>
-        <div class="caption">Alex - Nam trợ lý toàn diện</div>
+        <div class="caption">Alex - Nam Trợ Lý Toàn Diện</div>
       </div>
 
   <div class="image-box">
@@ -486,7 +486,7 @@ container.innerHTML = `
   <div onclick="openRightHalfPopup('https://www.facebook.com/thoikydoda/photos/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/bomq5cq51k9l4772zxbd7/Th-i-k.webp?rlkey=jvjmxpveg9xdbl2ake5c37mnp&st=c02kp4bf&raw=1">
 </div>
-        <div class="caption">Thời kỳ đồ đá</div>
+        <div class="caption">Thời Kỳ Đồ Đá</div>
       </div>
 
   <div class="image-box">
@@ -1042,6 +1042,13 @@ container.innerHTML = `
     <!-- Hàng thứ 24 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">China Encyclopedia</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://agents.baidu.com/center' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/deuatfp13v1azozrcqpxq/Baidu-Agents.webp?rlkey=s6epo7xunyp0zi92pcjrnl1f2&st=y6kxi1x2&raw=1">
+</div>
+        <div class="caption">Baidu Agents</div>
+      </div>
+
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://vhsagj.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/czumciwp48mjc64hn5nqq/B-ch-Khoa-To-n-Th-Baidu.webp?rlkey=vpo02k6akp74s5jmsi3jgvpbp&st=fqg69a2h&raw=1">
