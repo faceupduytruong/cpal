@@ -1160,7 +1160,7 @@ container.innerHTML = `
   <div onclick="openRightHalfPopup('https://xq5531.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/lingjing-online/agent_logo/2025-02-13/71ee81f4-66f7-479d-b712-2646007896e6.jpg?x-bce-process=image/format,f_webp">
 </div>
-        <div class="caption">Bậc thầy hoạt hình</div>
+        <div class="caption">Bậc Thầy Hoạt Hình</div>
       </div>
 
       <div class="image-box">
