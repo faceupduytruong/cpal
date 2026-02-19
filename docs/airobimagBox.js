@@ -9,77 +9,77 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://g2w4om.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-04-23/6f953a42-1ccf-47af-8303-c5af5f2e42af.JPEG" alt="Ảnh 1">
 </div>
-        <div class="caption">Kỹ sư kết cấu đã đăng ký Trại ưu tú</div>
+        <div class="caption">Kỹ Sư Kết Cấu Đã Đăng Ký Trại Ưu Tú</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://je97f8.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-01-23/cdbe8ded-7544-4568-a3cd-5b1d809107d4.jpg?x-bce-process=image/format,f_png/resize,m_fill,w_360,h_360">
 </div>
-        <div class="caption">Chuyên gia về kiến thức cấu trúc xây dựng</div>
+        <div class="caption">Chuyên Gia Về Kiến Thức Cấu Trúc Xây Dựng</div>
       </div>
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://726ptk.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-02-07/90449a53-1859-4227-aca8-dc7d442534dd.JPEG" alt="Ảnh 2">
 </div>
-        <div class="caption">Thiết kế cấu trúc xây dựng</div>
+        <div class="caption">Thiết Kế Cấu Trúc Xây Dựng</div>
       </div>
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://1qorig.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-02-25/c0a0f05a-6c85-452d-8d48-1ea05f9e1c0e.JPEG" alt="Ảnh 1">
 </div>
-        <div class="caption">Đánh giá an toàn thành phần cấu trúc</div>
+        <div class="caption">Đánh Giá An Toàn Thành Phần Cấu Trúc</div>
       </div>
  
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://m1b4ag.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-04-18/d3b9864b-4d31-4888-bdfd-a4a27d5d341b.JPEG" alt="Ảnh 1">
 </div>
-        <div class="caption">Nhà phân tích hiệu ứng cấu trúc xây dựng</div>
+        <div class="caption">Nhà Phân Tích Hiệu Ứng Cấu Trúc Xây Dựng</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://czsn9t.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-11-12/d38b1fcf-9788-48a6-a732-c02fca432860.png" alt="Ảnh 2">
 </div>
-        <div class="caption">Củng cố cấu trúc</div>
+        <div class="caption">Củng Cố Cấu Trúc</div>
       </div>
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://f3sfyc.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-07-24/7f14646c-acee-40f9-b6b8-e87c6af13b11.png" alt="Ảnh 2">
 </div>
-        <div class="caption">Chuyên gia công nghệ củng cố an toàn cấu trúc</div>
+        <div class="caption">Chuyên Gia Công Nghệ Củng Cố An Toàn Cấu Trúc</div>
       </div>
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://9zuf75.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2025-01-20/31c076f3-fc28-4b03-858b-a3550df4f551.jpg?x-bce-process=image/format,f_png/resize,m_fill,w_360,h_360" alt="Ảnh 2">
 </div>
-        <div class="caption">Nhà cấu trúc thép</div>
+        <div class="caption">Nhà Cấu Trúc Thép</div>
       </div>
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://8bkqoq.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-11-27/71882c73-2988-40e0-8c4a-da81868ab60a.JPEG" alt="Ảnh 2">
 </div>
-        <div class="caption">Nhà sản xuất cấu trúc thép</div>
+        <div class="caption">Nhà Sản Xuất Cấu Trúc Thép</div>
       </div>
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://0x352o.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-07-16/5ea0d8c6-48fa-488c-98e7-76d65e2fcb8a.png" alt="Ảnh 2">
 </div>
-        <div class="caption">Thiết kế cấu trúc cơ học</div>
+        <div class="caption">Thiết Kế Cấu Trúc Cơ Học</div>
       </div>
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://lhlf32.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-04-11/8d3897c6-c3c8-46bc-9fb1-cc01a37278a6.JPEG?x-bce-process=image/format,f_webp" alt="Ảnh 2">
 </div>
-        <div class="caption">Giảng dạy cơ học cấu trúc</div>
+        <div class="caption">Giảng Dạy Cơ Học Cấu Trúc</div>
       </div>
 
  </div>
@@ -740,6 +740,20 @@ container.innerHTML = `
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-02-19/eccfa52c-00d7-4485-9467-d19d7baf08ae.png?x-bce-process=image/format,f_webp">
 </div>
         <div class="caption">Trợ Lý CNTT</div>
+      </div>
+
+ <div class="image-box">
+  <div onclick="openRightHalfPopup('https://2r7sn4.smartapps.baidu.com' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-07-05/14dd9a9c-4a4b-4e56-b691-992c893ef504.JPEG">
+</div>
+        <div class="caption">Trợ Lý Chuyên Gia Windows</div>
+      </div>
+
+ <div class="image-box">
+  <div onclick="openRightHalfPopup('https://80cc4n.smartapps.baidu.com' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-11-05/d7dcfa3e-6758-4be6-bd91-d27a7b25f4b0.JPEG?x-bce-process=image/format,f_webp">
+</div>
+        <div class="caption">Trợ Lý Máy Tính Apple</div>
       </div>
 
  <div class="image-box">
