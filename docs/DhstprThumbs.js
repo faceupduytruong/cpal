@@ -46,7 +46,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61584242907915&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/mj68eeedu3d3exkx2b7sr/Ho-ng-C-m-T.webp?rlkey=7ljqdf8wpjsoh6kmgv5794yz0&st=kcm9y6bp&raw=1',
   },
-  'Nguyễn Minh Chính  (Vạn Sự Tùy Duyên)': {
+  'Nguyễn Minh Chính (Vạn Sự Tùy Duyên)': {
     url: 'https://www.facebook.com/chinh.nguyenminh.5074/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/oozx6uo3jp9vomzuuowqd/Nguy-n-Minh-Ch-nh-V-n-S-T-y-Duy-n.jpg?rlkey=kr7vl6d38tml6nc68swb49zo4&st=f8sihl4b&raw=1',
   },
@@ -56,7 +56,7 @@ const folderLinks = {
   },
   'Nhà Mình': {
     url: 'https://www.facebook.com/nhaminhoday/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/o5680mw7cpvqwd4cpsc74/Nh-M-nh.jpg?rlkey=qpw0vb5rx1o4zbn3lijgmay3i&st=ik6xwdco&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lz11nrvxdqlttevyvvnuj/Nh-M-nh.jpg?rlkey=h84lblwh26rraoe9bz83rke78&st=6gux36zu&raw=1',
   },
   'Pháp Âm Cổ Tự': {
     url: 'https://www.youtube.com/@Phapamcotu/videos',
