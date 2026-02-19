@@ -102,6 +102,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/EmilyChungNguyen/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/069vci1z7kgburkva555z/Emily-Chung-Nguyen.png?rlkey=57i5hrkghx5g1huk4p43afywn&st=6aeisyvy&raw=1',
   },
+  'Lê Thùy Dương': {
+    url: 'https://www.facebook.com/thuyduong231/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/e9pkmev4aikqniobzyyft/L-Th-y-D-ng.webp?rlkey=rtit1r4iddu61z2dfzxmq38y0&st=06wzsw3y&raw=1',
+  },
   'Cơ Hội Kinh Doanh': {
     url: 'https://www.facebook.com/cafe.kinhdoanh.ek/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/orwuq8fjhyhjsxdxjnxmz/CO-HOI-KINH-DOANH.jpg?rlkey=t1rrpb4x1mcqertkq951p6y77&st=y12np3by&raw=1',
@@ -176,7 +180,7 @@ const folderLinks = {
   },
   'Lê Viết Hợp': {
     url: 'https://www.facebook.com/buno.viethop/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/t1u9yvk8q2mav1htak5zw/Nguy-n-Tr-H-o.jpg?rlkey=9zzqd2mqvcnf1x7s5t1mwgf8h&st=qoznm9h7&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fwqz63n51tyizmunpk4k2/L-Vi-t-H-p.webp?rlkey=zjt30ca1yab21jtyasf6icw7n&st=hwwqc685&raw=1',
   },
   'Truyền Động Lực': {
     url: 'https://www.facebook.com/groups/2426705184317871/',
