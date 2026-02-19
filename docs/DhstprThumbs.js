@@ -54,6 +54,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/1phutchualanh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5j0gik6bk7xhgfs1gi06d/1-Ph-t-Ch-a-L-nh.jpg?rlkey=06w7u4b3d679veqc6x6n3zdyk&st=w8hu3eel&raw=1',
   },
+  'Nhà Mình': {
+    url: 'https://www.facebook.com/nhaminhoday/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o5680mw7cpvqwd4cpsc74/Nh-M-nh.jpg?rlkey=qpw0vb5rx1o4zbn3lijgmay3i&st=ik6xwdco&raw=1',
+  },
   'Pháp Âm Cổ Tự': {
     url: 'https://www.youtube.com/@Phapamcotu/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/bdp6l8dwc6vri30unw2v6/Ph-p-m-C-T.jpg?rlkey=imch2h1npfbuqx3zpx4v2i80p&st=xcxj1io8&raw=1',
