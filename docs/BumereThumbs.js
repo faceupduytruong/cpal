@@ -68,7 +68,7 @@ const folderLinks = {
   },
   'Hannah Thai - Trao Giá Trị': {
     url: 'https://www.facebook.com/hannahthaitraogiatri',
-    thumbnail: 'https://www.dropbox.com/scl/fi/2iv2i6i0wt1c84ux5t9gn/Hannah-Thai-Trao-Gi-Tr.jpg?rlkey=b0j85yfn2rq529dssrwyj90hs&st=hee00jgc&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/b8aennpospllwku3c7qg2/Hannah-Thai-Trao-Gi-Tr.jpg?rlkey=m487i102fog1hda9hitrfzcoi&st=sr6a29g5&raw=1',
   },
   'VPBank Bến Lức Long An': {
     url: 'https://www.facebook.com/Hotline.0908979767/reels/',
@@ -166,12 +166,16 @@ const folderLinks = {
     url: 'https://www.facebook.com/ThanhCongCungTony/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/w0p1yjas1i2k7zh2x5ovl/Th-nh-C-ng-C-ng-Tony.png?rlkey=o9yoi853l1jr8perarsibsqg5&st=waas5d7g&raw=1',
   },
+  'Nguyễn Trí Hạo': {
+    url: 'https://www.facebook.com/profile.php?id=100083069565503&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/t1u9yvk8q2mav1htak5zw/Nguy-n-Tr-H-o.jpg?rlkey=9zzqd2mqvcnf1x7s5t1mwgf8h&st=qoznm9h7&raw=1',
+  },
   'Nguyễn Đức Thành': {
     url: 'https://www.facebook.com/nguyenthanh.1005/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/6alti459rh43fxw1brwya/Nguy-n-c-Th-nh.jpg?rlkey=3z18cufge07i71q6sl4iviisg&st=yderzsyr&raw=1',
   },
-  'Nguyễn Trí Hạo': {
-    url: 'https://www.facebook.com/profile.php?id=100083069565503&sk=reels_tab',
+  'Lê Viết Hợp': {
+    url: 'https://www.facebook.com/buno.viethop/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/t1u9yvk8q2mav1htak5zw/Nguy-n-Tr-H-o.jpg?rlkey=9zzqd2mqvcnf1x7s5t1mwgf8h&st=qoznm9h7&raw=1',
   },
   'Truyền Động Lực': {
@@ -185,6 +189,10 @@ const folderLinks = {
   'Sống Tích Cực Mỗi Ngày': {
     url: 'https://www.facebook.com/songtichcucmoingay.vn/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4qr6q4376jyl076qx960e/S-ng-T-ch-C-c-M-i-Ng-y.jpg?rlkey=sjwinoafn92zhm0hjo5zm21r3&st=w89i8hip&raw=1',
+  },
+  'Hành Trình Nỗ Lực': {
+    url: 'https://www.facebook.com/profile.php?id=61584734873015&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/51z4gr4ti8pwykk226fbh/H-nh-tr-nh-n-l-c.jpg?rlkey=5d0v3247r40bakgce130zex02&st=d4xrkw9m&raw=1',
   },
   'Thanh Thao Tran': {
     url: 'https://www.facebook.com/thanhthao.tran.98284566',
