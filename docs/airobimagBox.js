@@ -142,13 +142,6 @@ container.innerHTML = `
         <div class="caption">Chuyên gia Revit</div>
       </div>
 
-      <div class="image-box">
-  <div onclick="openRightHalfPopup('https://sidz9y.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-06-24/71b9c5a0-743a-42fb-a4d3-0d4e89a1645e.jpg?x-bce-process=image/format,f_webp/resize,m_fill,w_360,h_360">
-</div>
-        <div class="caption">Kỹ thuật viên BIM xây dựng</div>
-      </div>
-
 </div>
 
     <!-- Hàng thứ 4 -->
@@ -257,6 +250,13 @@ container.innerHTML = `
         <div class="caption">Chuyên gia mô hình dự án BIM</div>
       </div>
 
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://sidz9y.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-06-24/71b9c5a0-743a-42fb-a4d3-0d4e89a1645e.jpg?x-bce-process=image/format,f_webp/resize,m_fill,w_360,h_360">
+</div>
+        <div class="caption">Kỹ thuật viên BIM xây dựng</div>
+      </div>
+
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://o5ygsq.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-07-01/77320b29-e8d8-4e68-8ae2-11bad14a5025.png?x-bce-process=image/resize,m_fill,w_360,h_360">
@@ -270,6 +270,14 @@ container.innerHTML = `
 </div>
         <div class="caption">Mười trợ lý BIM cộng</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://n70cww.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2025-02-13/e98ed218-98d8-43f6-af68-aa4547dbd74e.png?x-bce-process=image/resize,m_fill,w_360,h_360">
+</div>
+        <div class="caption">Giảng viên làm mô hình kiến trúc</div>
+      </div>
+      
 </div>
 
   <!-- Hàng thứ 6 -->
@@ -306,6 +314,20 @@ container.innerHTML = `
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-06-19/000fe587-3ef1-4cb9-ada0-c6b4112eba23.png">
 </div>
         <div class="caption">Trợ lý mô hình 3D</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://4xn37a.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-09-17/3356fa2b-36d0-4fc6-9c73-96e08f091904.JPEG?x-bce-process=image/format,f_webp">
+</div>
+        <div class="caption">Trợ lý mô hình kiến trúc SketchUp</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://ia9apo.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-07-25/20c190d1-5cc0-4a89-9850-dfebf2751849.JPEG?x-bce-process=image/format,f_webp">
+</div>
+        <div class="caption">Trợ lý mô hình kiến trúc 3dMax</div>
       </div>
 
   <div class="image-box">
