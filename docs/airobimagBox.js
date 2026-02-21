@@ -230,8 +230,22 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://xmo9zb.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-08-02/90d262f9-7057-416c-94e2-a67f8bfb560d.JPEG">
+</div>
+        <div class="caption">Người đam mê khám phá BIM</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://pcw7nx.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-08-20/600c6299-95a4-427e-b6a9-64e844db7338.JPEG?x-bce-process=image/format,f_webp">
+</div>
+        <div class="caption">Trợ lý BIM</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://2di236.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-01-21/cb3987c5-7ea5-4b54-afdd-682bd022673d.png?x-bce-process=image/resize,m_fill,w_360,h_360">
 </div>
         <div class="caption">Trợ lý BIM</div>
       </div>
@@ -276,6 +290,13 @@ container.innerHTML = `
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2025-02-13/e98ed218-98d8-43f6-af68-aa4547dbd74e.png?x-bce-process=image/resize,m_fill,w_360,h_360">
 </div>
         <div class="caption">Giảng viên làm mô hình kiến trúc</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://ej712m.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2026-01-03/ab8f6a0d-c768-43f0-8db0-01c24abac519.JPEG?x-bce-process=image/format,f_webp">
+</div>
+        <div class="caption">Trợ lý mô hình hóa cầu và đường</div>
       </div>
       
 </div>
