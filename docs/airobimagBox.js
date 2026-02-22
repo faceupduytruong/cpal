@@ -51,7 +51,7 @@ container.innerHTML = `
   <div onclick="openRightHalfPopup('https://f3sfyc.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-07-24/7f14646c-acee-40f9-b6b8-e87c6af13b11.png" alt="Ảnh 2">
 </div>
-        <div class="caption">Chuyên gia công nghệ củng Cố An Toàn Cấu Trúc</div>
+        <div class="caption">Chuyên gia công nghệ củng cố an toàn cấu trúc</div>
       </div>
 
       <div class="image-box">
@@ -99,7 +99,7 @@ container.innerHTML = `
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/815479533482926/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/oj4v9ueps0z4r2x6w7d6u/AIAI-ng-d-ng-AI-trong-thi-t-k-Ki-n-Tr-c-N-i-th-t.webp?rlkey=zhf5ebv40n4obcvfhrsoxy1dd&st=pe60e3or&raw=1">
 </div>
-        <div class="caption">AIAI - Ứng dụng AI trong thiết kế Kiến Trúc, Nội thất</div>
+        <div class="caption">AIAI - Ứng dụng AI trong thiết kế kiến trúc, nội thất</div>
       </div>
       
       <div class="image-box">
