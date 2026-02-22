@@ -230,6 +230,20 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://gbuysl.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-07-10/fd90d82c-3f90-4d79-9457-3365d1a8d0be.JPEG">
+</div>
+        <div class="caption">Trung tâm học tập BIM</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://h717j4.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-06-06/c28fae0a-a32b-4e05-9a58-4a9e0614f15d.JPEG">
+</div>
+        <div class="caption">Trợ lý kiến ​​trúc BIM</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://xmo9zb.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-08-02/90d262f9-7057-416c-94e2-a67f8bfb560d.JPEG">
 </div>
@@ -251,17 +265,17 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
-  <div onclick="openRightHalfPopup('https://gbuysl.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-07-10/fd90d82c-3f90-4d79-9457-3365d1a8d0be.JPEG">
-</div>
-        <div class="caption">Trung tâm học tập BIM</div>
-      </div>
-
-  <div class="image-box">
   <div onclick="openRightHalfPopup('https://uns1jk.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2025-08-08/727c3077-60c1-47f6-b7da-0dc3e3834b22.jpg?x-bce-process=image/format,f_webp/resize,m_fill,w_360,h_360">
 </div>
         <div class="caption">Chuyên gia mô hình dự án BIM</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://tmczck.smartapps.baidu.com' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2025-02-24/28c0f7f9-a0ea-4d34-903c-c7eebd313b81.png?x-bce-process=image/resize,m_fill,w_360,h_360">
+</div>
+        <div class="caption">Trợ lý dự án BIM</div>
       </div>
 
       <div class="image-box">
