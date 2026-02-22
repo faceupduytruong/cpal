@@ -340,6 +340,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Project Management</h2>
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://aidtoz.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-12-12/d015e091-b2b0-45da-994f-882a3debba49.JPEG?x-bce-process=image/format,f_webp">
+</div>
+        <div class="caption">Trợ lý giám sát kết cấu công trình</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://1dpozb.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-12-17/3c28840b-d506-4ad2-abc9-8559f4d50574.png?x-bce-process=image/format,f_webp">
 </div>
