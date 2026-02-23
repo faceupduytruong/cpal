@@ -16,6 +16,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/dj0svsar3s2uob8bu6dbp/Google-Translate.avif?rlkey=z8zm0i2bc74s8fdeuebthk2ne&st=ggpsod4e&raw=1'
   },
+  'Nguyen Brandon (BS Nguyễn Khoa Bình)': {
+    url: 'https://www.facebook.com/nguyen.brandon.921/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5ltjc9a2uy1vld6p3t5nd/Nguyen-Brandon-BS-Nguy-n-Khoa-B-nh.jpg?rlkey=1a8t62jiwgzhuur1or25ney34&st=yvjfvuub&raw=1',
+  },
   'Bài Học Sống': {
     url: 'https://www.youtube.com/@baihocsong/videos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vbxphci8dkhdtk9tvml3a/B-i-H-c-S-ng.jpg?rlkey=xc7xv5pjbdb12d4ya67pkyfwk&st=ksl1zznt&raw=1',
