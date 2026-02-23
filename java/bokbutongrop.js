@@ -77,7 +77,8 @@ let urls = [
     "https://www.facebook.com/Rubikbooks/photos",
     "https://www.facebook.com/OmegaPlusBooks/photos",
     "https://www.facebook.com/profile.php?id=61580509469959&sk=photos",
-    "https://www.facebook.com/dongabook/photos"
+    "https://www.facebook.com/dongabook/photos",
+    "https://www.facebook.com/Peachbooks.vn/photos"
 ];
 
 let lastIndex = -1;
