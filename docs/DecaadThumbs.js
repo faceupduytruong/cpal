@@ -91,7 +91,7 @@ const folderLinks = {
   },
  'Turbo Animew': {
     url: 'https://www.youtube.com/@TurboAnimew-sn/shorts',
-    thumbnail: 'https://www.dropbox.com/scl/fi/5a89luknt1i6j688gdfes/Turbo-Animew.jpg?rlkey=3pyiymfohe70tlkazjwvnilhb&st=0pnicmgp&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/9n5zmzubjni8ua6aqfb7s/Turbo-Animew.gif?rlkey=ul2v507f5vpp11fzo0d4k4ysp&st=bd6be80c&raw=1'
   },
  'WIBU Club': {
     url: 'https://www.youtube.com/@wibuclub1812/shorts',
