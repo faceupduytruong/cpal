@@ -12,11 +12,11 @@ const folders = {
 const folderLinks = {
   'Sách Về Tình Yêu': {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Love/index.htm',
-    thumbnail: 'https://www.dropbox.com/scl/fi/0ts2ield0jhgkbw1pu3o2/S-ch-V-T-nh-Y-u.jpg?rlkey=uygmrrpefk0fcymbvn8qlxkpy&st=fh5v5pq2&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0ts2ield0jhgkbw1pu3o2/S-ch-V-T-nh-Y-u.jpg?rlkey=uygmrrpefk0fcymbvn8qlxkpy&st=fh5v5pq2&raw=1'
   },
   'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
   },
   'Doanh Nhân Kiến Quốc Group': {
     url: 'https://www.facebook.com/doanhnhankienquocgroup/reels/',
