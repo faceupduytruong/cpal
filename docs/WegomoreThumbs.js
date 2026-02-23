@@ -26,6 +26,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/doanhnhankienquocgroup/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/conngacapywu3vy2joe0c/Doanh-Nh-n-Ki-n-Qu-c-Group.jpg?rlkey=4i38xfmnaksdpyjvx5cbhjw4f&st=w1z99cpr&raw=1',
   },
+  'Nguyễn Thanh Hải': {
+    url: 'https://www.facebook.com/thanhhaiathenco/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1tahv7m0z42somh8lqiza/Nguy-n-Thanh-H-i.png?rlkey=z6jbulsle0h2kcl0tskqnsghk&st=x1jm791u&raw=1',
+  },
   'Chu Quang Minh': {
     url: 'https://www.facebook.com/cqm10x/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/41r33ahnzo5h5ltroe3ep/Chu-Quang-Minh.png?rlkey=xr48942q1zn7q8t692boyt7yy&st=4srrtql2&raw=1',
