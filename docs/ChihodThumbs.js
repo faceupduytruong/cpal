@@ -55,7 +55,7 @@ const folderLinks = {
   },
  'Dược Sĩ Đại Minh': {
     url: 'https://www.youtube.com/@dsdaiminh88/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/3c3aernqf52nodyr43pha/D-c-S-i-Minh.jpg?rlkey=e7uzc9zneaqe62aw203b7tjcr&st=g1ptmh80&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/gn0edpxb5zk7pl10rkqrw/D-c-S-i-Minh.jpg?rlkey=0hyzegspdwupvccy0sfw9bmxq&st=eo91n1z5&raw=1'
   },
  'Vinmec Integrated Mental Health Center - Sức khỏe Tinh thần Tích hợp Vinmec': {
     url: 'https://www.facebook.com/ttsuckhoetinhthantichhopvinmec/photos',
