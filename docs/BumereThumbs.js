@@ -78,6 +78,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/huanyoutube/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9fz9weve0j7nfaznvoxx5/Nguy-n-V-n-Hu-n.png?rlkey=h8m474wvj58p2dj53xm04yp3x&st=citl22ov&raw=1',
   },
+  'Thành Công Cùng Tony': {
+    url: 'https://www.facebook.com/ThanhCongCungTony/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/w0p1yjas1i2k7zh2x5ovl/Th-nh-C-ng-C-ng-Tony.png?rlkey=o9yoi853l1jr8perarsibsqg5&st=waas5d7g&raw=1',
+  },
   'List Sách Hay Nên Đọc': {
     url: 'https://www.facebook.com/listsach/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1uge85hfcktahz82mcn6f/List-S-ch-Hay-N-n-c.jpg?rlkey=7ebjsmij7daz995viz81a85ij&st=wgspmgkb&raw=1',
@@ -85,10 +89,6 @@ const folderLinks = {
   'Topmax Academy': {
     url: 'https://www.facebook.com/TopmaxAcademy1/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/3vrmq0re33kqm1zoiqqm3/Topmax-Academy.jpg?rlkey=v3v3t1b9al89u06fuwhi2efp6&st=9v36e88x&raw=1',
-  },
-  'Doanh Nhân Kiến Quốc Group': {
-    url: 'https://www.facebook.com/doanhnhankienquocgroup/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/conngacapywu3vy2joe0c/Doanh-Nh-n-Ki-n-Qu-c-Group.jpg?rlkey=4i38xfmnaksdpyjvx5cbhjw4f&st=w1z99cpr&raw=1',
   },
   'Nguyễn Ngọc Sơn': {
     url: 'https://www.facebook.com/NguyenNgocSonCEO.102/reels/',
@@ -114,21 +114,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/themtong.88/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ruzywrxeghbvhi5ej6jaj/Th-m-T-ng.jpg?rlkey=mfsgl7iv90iu1mty5371oap9x&st=dwybnaz6&raw=1',
   },
-  'Master Anh Đức (Nguyễn Anh Đức)': {
-    url: 'https://www.facebook.com/MasterAnhDucOfficial/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/srczs0lzb5y1sgp9n49j0/Master-Anh-c-Nguy-n-Anh-c.jpg?rlkey=btd9bg6nidwkwnw2syyoabjfk&st=0a6iyze0&raw=1',
-  },
-  'Chu Quang Minh': {
-    url: 'https://www.facebook.com/cqm10x/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/41r33ahnzo5h5ltroe3ep/Chu-Quang-Minh.png?rlkey=xr48942q1zn7q8t692boyt7yy&st=4srrtql2&raw=1',
-  },
   'Phan Vinh Quang (Quang Run)': {
     url: 'https://www.facebook.com/vinhquang.phan.50/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/qzycvy359s6py8a7nzeq1/Phan-Vinh-Quang-Quang-Run.jpg?rlkey=uhzh0b1by87k5d70dne27t43h&st=r9jxpv4b&raw=1',
-  },
-  'Trần Toản': {
-    url: 'https://www.facebook.com/trantoan886868/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/lq8c6arhkukj5rtu3kxy7/Tr-n-To-n.png?rlkey=uyhvegrw2wjywxod5tf90w5rn&st=8s2s86ic&raw=1',
   },
   'Vũ Kim Khánh': {
     url: 'https://www.facebook.com/vukimkhanhofficial/photos/',
@@ -150,10 +138,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/lam.ngocthe.3/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nwwh6r93ufjjjibm2lwom/T-Tony-Ch-t-h-nh-t-i.jpg?rlkey=8ypta0vejbwphojwsrkeb7g8v&st=hp6wkivl&raw=1',
   },
-  'Tony Dzung': {
-    url: 'https://www.facebook.com/tonydzung.com.vn/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/pmdrlffld7jkxb8ku9psh/Tony-Dzung.jpg?rlkey=q6u1n2d3nj9un2l4swqlwdsch&st=1vh1sez4&raw=1',
-  },
   'KTS Nguyễn Hà Lam': {
     url: 'https://www.facebook.com/KTSNguyenHaLam/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9e3zpelmrsejhraghg3lx/KTS-Nguy-n-H-Lam.png?rlkey=mykhelpskrowbbavj9wvw5o8q&st=jscd7eoj&raw=1',
@@ -165,14 +149,6 @@ const folderLinks = {
   'Ngô Bá Lục': {
     url: 'https://www.facebook.com/ngoba.luc.3/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1d0hi4m92qyzmiol99kzh/Ng-B-L-c.png?rlkey=gknnwrdkbewg7fxi1zl65j7dl&st=abmgkir7&raw=1',
-  },
-  'Thành Công Cùng Tony': {
-    url: 'https://www.facebook.com/ThanhCongCungTony/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/w0p1yjas1i2k7zh2x5ovl/Th-nh-C-ng-C-ng-Tony.png?rlkey=o9yoi853l1jr8perarsibsqg5&st=waas5d7g&raw=1',
-  },
-  'Nguyễn Trí Hạo': {
-    url: 'https://www.facebook.com/profile.php?id=100083069565503&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/t1u9yvk8q2mav1htak5zw/Nguy-n-Tr-H-o.jpg?rlkey=9zzqd2mqvcnf1x7s5t1mwgf8h&st=qoznm9h7&raw=1',
   },
   'Nguyễn Đức Thành': {
     url: 'https://www.facebook.com/nguyenthanh.1005/photos',
@@ -189,10 +165,6 @@ const folderLinks = {
   'Tư Duy Người Thành Công': {
     url: 'https://www.facebook.com/groups/1134653551104543/',
     thumbnail: 'https://www.dropbox.com/scl/fi/23e3r5uygjrkpq97r3bao/T-DUY-NG-I-TH-NH-C-NG.jpg?rlkey=w2qpymqe9mr92qk388w0uyv5o&st=6crc2nmn&raw=1',
-  },
-  'Sống Tích Cực Mỗi Ngày': {
-    url: 'https://www.facebook.com/songtichcucmoingay.vn/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/4qr6q4376jyl076qx960e/S-ng-T-ch-C-c-M-i-Ng-y.jpg?rlkey=sjwinoafn92zhm0hjo5zm21r3&st=w89i8hip&raw=1',
   },
   'Hành Trình Nỗ Lực': {
     url: 'https://www.facebook.com/profile.php?id=61584734873015&sk=reels_tab',
