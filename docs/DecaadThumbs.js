@@ -69,6 +69,30 @@ const folderLinks = {
     url: 'https://www.youtube.com/@shounenactionofficial5320/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/2ylhbhx8papgfl2naen8s/Shounen-Action-Official.webp?rlkey=qg7bu7pqrr9j0wene0mglitng&st=1yq4jw6d&raw=1'
   },
+ 'Làng Lá': {
+    url: 'https://www.youtube.com/@langlavn-2925/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mhvjzuqvh25chxh5o7xkr/L-ng-L.jpg?rlkey=6rh1rfryj22rsmoni2q81v5kt&st=u39i6k03&raw=1'
+  },
+ 'Xem Anime': {
+    url: 'https://www.youtube.com/@XemAnimeHD/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ijtzggyatt2sddjpnx5lv/Xem-Anime.gif?rlkey=1f4iznakypc4ff9j3vi1s31f6&st=y8y7kole&raw=1'
+  },
+ 'Wow Anime': {
+    url: 'https://www.youtube.com/@WowAnime79/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/z2mmclc628eguteaozfbu/Wow-Anime.gif?rlkey=oa08jw4qqsfte5znw9t5mxkis&st=bwaadkag&raw=1'
+  },
+ 'S8 6 Viên Ngọc Rồng': {
+    url: 'https://www.youtube.com/@S86vienngocrong/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dixda0l85zh6szzovcmig/S8-6-Vi-n-Ng-c-R-ng.gif?rlkey=vamd7hsn3ynue1huzway680mq&st=z78zdwd9&raw=1'
+  },
+ 'Người theo dõi': {
+    url: 'https://www.youtube.com/@Nguoitheodoi4/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ya2ykxbvc84jevrqppp6i/Ng-i-Theo-D-i.gif?rlkey=3v1jed82xik258os0zk8p2ppj&st=01hwzu18&raw=1'
+  },
+ 'Turbo Animew': {
+    url: 'https://www.youtube.com/@TurboAnimew-sn/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5a89luknt1i6j688gdfes/Turbo-Animew.jpg?rlkey=3pyiymfohe70tlkazjwvnilhb&st=0pnicmgp&raw=1'
+  },
  'WIBU Club': {
     url: 'https://www.youtube.com/@wibuclub1812/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/fpryf402q8w0fyc4n394y/WIBU-Club.jpg?rlkey=v5k2vb8lkbafblrem7fid83f2&st=q1nqtumb&raw=1'
