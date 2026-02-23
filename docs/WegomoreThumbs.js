@@ -18,6 +18,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
   },
+  'HuyK - Mê kim hoàn': {
+    url: 'https://www.facebook.com/huy.mekimhoan/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/kye5h2hvybw9rar9194gz/HuyK-M-kim-ho-n.png?rlkey=i0ibxu9i4d8v3oaz1o0c6wbel&st=tpi4w7x9&raw=1',
+  },
   'Doanh Nhân Kiến Quốc Group': {
     url: 'https://www.facebook.com/doanhnhankienquocgroup/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/conngacapywu3vy2joe0c/Doanh-Nh-n-Ki-n-Qu-c-Group.jpg?rlkey=4i38xfmnaksdpyjvx5cbhjw4f&st=w1z99cpr&raw=1',
