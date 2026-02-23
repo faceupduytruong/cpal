@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@TiaS%C3%A1ng-M%E1%BB%97iNg%C3%A0y/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/23im75nynqernv1gqtr75/T-m-Tr-S-ng.jpg?rlkey=jf22yrhb1hbcw0py12keb3sv7&st=1818iq4w&raw=1',
   },
+  'Bài học ý nghĩa cuộc sống': {
+    url: 'https://www.facebook.com/profile.php?id=61551444937998&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hbjmy4idl8zklbnjbtdai/B-i-h-c-ngh-a-cu-c-s-ng.png?rlkey=uwgy9w7fg0b3f8r17h6fqm8er&st=j0xd98b5&raw=1',
+  },
   'Tâm Lý Học Đám Đông': {
     url: 'https://www.facebook.com/tamlihocdamdong',
     thumbnail: 'https://www.dropbox.com/scl/fi/i1p1bk9w210ke1iyydo40/T-m-l-h-c-m-ng.jpg?rlkey=dwfa2ntgdi1c3z27jeog85wg8&st=g024u8u2&raw=1',
@@ -81,6 +85,14 @@ const folderLinks = {
   'Thành Công Cùng Tony': {
     url: 'https://www.facebook.com/ThanhCongCungTony/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/w0p1yjas1i2k7zh2x5ovl/Th-nh-C-ng-C-ng-Tony.png?rlkey=o9yoi853l1jr8perarsibsqg5&st=waas5d7g&raw=1',
+  },
+  'Nơi thời gian ngừng trôi': {
+    url: 'https://www.facebook.com/noithoigianngungtroi11',
+    thumbnail: 'https://www.dropbox.com/scl/fi/oxirtbayy0hwtc41v52qv/N-i-th-i-gian-ng-ng-tr-i.jpg?rlkey=o0x73tnal0lq1a6a10anyt5vj&st=p63sbgbd&raw=1',
+  },
+  'Nguyễn Đan My': {
+    url: 'https://www.facebook.com/nguyendanmy.minoi',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ggwwkx7vrfmk8xlsu20uf/Nguy-n-an-My.jpg?rlkey=61cwxdv9er3dil08d9aj3vd11&st=2my75fsw&raw=1',
   },
   'List Sách Hay Nên Đọc': {
     url: 'https://www.facebook.com/listsach/reels/',
@@ -157,6 +169,10 @@ const folderLinks = {
   'Lê Viết Hợp': {
     url: 'https://www.facebook.com/buno.viethop/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/fwqz63n51tyizmunpk4k2/L-Vi-t-H-p.webp?rlkey=zjt30ca1yab21jtyasf6icw7n&st=hwwqc685&raw=1',
+  },
+  'Khevin - Sống Tử Tế': {
+    url: 'https://www.facebook.com/profile.php?id=61584331948562&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/eul89jt1zq1ujyqxr409l/Khevin-S-ng-T-T.jpg?rlkey=pseb2657qfgygeqrif4fmg037&st=88a5t1k3&raw=1',
   },
   'Truyền Động Lực': {
     url: 'https://www.facebook.com/groups/2426705184317871/',
