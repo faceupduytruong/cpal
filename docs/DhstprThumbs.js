@@ -76,7 +76,7 @@ const folderLinks = {
   },
   'Tiên Phong Books - Sách Tham Khảo': {
     url: 'https://www.facebook.com/tienphongbookssachthamkhao/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/pcby9i1ss7z2mct2ssldk/Ti-n-Phong-Books-S-ch-Tham-Kh-o.jpg?rlkey=uzsi2ayvu81qs0a9f5aq2jumi&st=4swucicn&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/291dr2so6z6sbb23tx9h5/Ti-n-Phong-Books-S-ch-Tham-Kh-o.webp?rlkey=g2s5aez6xgu2xqiklhjv8okps&st=epxczx49&raw=1',
   },
   // thêm các mục khác nếu cần
 };
