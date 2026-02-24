@@ -118,6 +118,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/thuyduong231/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/e9pkmev4aikqniobzyyft/L-Th-y-D-ng.webp?rlkey=rtit1r4iddu61z2dfzxmq38y0&st=06wzsw3y&raw=1',
   },
+  'Trầm Mặc Huơng Lai': {
+    url: 'https://www.facebook.com/trammachuonglai/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mhv2arih1xnjeprzw7i4b/Tr-m-M-c-Hu-ng-Lai.png?rlkey=nzyuwe5ce4kt8ki0nzy0ias6p&st=lczs6pqs&raw=1',
+  },
+  'Lụa Nguyễn (Lụa ở China)': {
+    url: 'https://www.facebook.com/nguyenlua.luadat/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/we6fxmjen4g9we0y5s611/L-a-Nguy-n-L-a-China.webp?rlkey=va4iieywc67sgxo4i9mzrkxoo&st=ljsuccgr&raw=1',
+  },
   'Cơ Hội Kinh Doanh': {
     url: 'https://www.facebook.com/cafe.kinhdoanh.ek/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/orwuq8fjhyhjsxdxjnxmz/CO-HOI-KINH-DOANH.jpg?rlkey=t1rrpb4x1mcqertkq951p6y77&st=y12np3by&raw=1',
