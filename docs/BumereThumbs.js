@@ -18,6 +18,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
   },
+  'Yến Nhi': {
+    url: 'https://www.facebook.com/yennhi.vaphantamhoc/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qmiofqnn1gu49va78tmoq/Y-n-Nhi.png?rlkey=kqnfvtbdd9w6fh0l0eryewkwa&st=d3id9p20&raw=1',
+  },
   'Mr. CoBy': {
     url: 'https://www.youtube.com/@mrcoby79/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/otolpyow4x66e5o6y2o91/Mr.-CoBy.jpg?rlkey=jv4mdxuc7lhhjo7wl160sothh&st=ow2qa99q&raw=1',
