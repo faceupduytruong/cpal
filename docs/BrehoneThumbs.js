@@ -85,6 +85,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/doctorhousingofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/6l6laooywcoa9iv76rr8i/Doctor-Housing.png?rlkey=5kxql2kv0l9tqi4bkjdroj08i&st=vaczhfhx&raw=1'
   },
+  'Song24h.online': {
+    url: 'https://www.facebook.com/song24h.online/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/eiwpyrb5sj49hunbgah4t/Song24h.online.jpg?rlkey=d86gghtwkxnko8s9wgowz1wwf&st=jo6pt054&raw=1',
+  },
   'Sống Tích Cực Mỗi Ngày': {
     url: 'https://www.facebook.com/songtichcucmoingay.vn/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4qr6q4376jyl076qx960e/S-ng-T-ch-C-c-M-i-Ng-y.jpg?rlkey=sjwinoafn92zhm0hjo5zm21r3&st=w89i8hip&raw=1',
