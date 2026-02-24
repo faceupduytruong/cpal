@@ -148,7 +148,7 @@ const folderLinks = {
   },
   'Tú Tony (Chế tú hành tỏi)': {
     url: 'https://www.facebook.com/lam.ngocthe.3/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/nwwh6r93ufjjjibm2lwom/T-Tony-Ch-t-h-nh-t-i.jpg?rlkey=8ypta0vejbwphojwsrkeb7g8v&st=hp6wkivl&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/w0b35b80x8s5rfeq08zq9/T-Tony-Ch-t-h-nh-t-i.jpg?rlkey=d7z5hdfnew0kjblyixi5zj2m1&st=1bpn7w2v&raw=1',
   },
   'KTS Nguyễn Hà Lam': {
     url: 'https://www.facebook.com/KTSNguyenHaLam/reels/',
@@ -196,7 +196,7 @@ const folderLinks = {
   },
   'Đàm Tài Cap (Personal Growth)': {
     url: 'https://www.damtaicap.net/search/label/Personal%20Growth',
-    thumbnail: 'https://www.dropbox.com/scl/fi/mqub714yd1tb91agd8os1/m-T-i-Cap.webp?rlkey=7qs5a9a6gfdk7lekw7bpxk95d&st=obnnqpfn&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/t3a6js7akcyx3mr0b84jh/m-T-i-Cap-Personal-Growth.jpg?rlkey=r7aug8qv9dkj4mjy9pp6qzzej&st=godwgvha&raw=1',
   },
   'Quản Trị Mạng (Kỹ Năng Sống)': {
     url: 'https://quantrimang.com/cuoc-song/ky-nang-song',
