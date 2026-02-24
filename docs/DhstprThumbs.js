@@ -74,5 +74,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/150329723634212/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ixx3i0mc5209ld5eudd3r/P-v-HAY.jpg?rlkey=jrl21g8ubcyql11ka9fq4u0lw&st=scxkxva9&raw=1',
   },
+  'Tiên Phong Books - Sách Tham Khảo': {
+    url: 'https://www.facebook.com/tienphongbookssachthamkhao/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pcby9i1ss7z2mct2ssldk/Ti-n-Phong-Books-S-ch-Tham-Kh-o.jpg?rlkey=uzsi2ayvu81qs0a9f5aq2jumi&st=4swucicn&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
