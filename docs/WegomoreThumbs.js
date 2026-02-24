@@ -26,6 +26,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/doanhnhankienquocgroup/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/conngacapywu3vy2joe0c/Doanh-Nh-n-Ki-n-Qu-c-Group.jpg?rlkey=4i38xfmnaksdpyjvx5cbhjw4f&st=w1z99cpr&raw=1',
   },
+  'Nguyễn Ngọc Sơn': {
+    url: 'https://www.facebook.com/NguyenNgocSonCEO.102/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/378e6vwztho6snym5o76g/Nguy-n-Ng-c-S-n.png?rlkey=m0gx6o4v519h190zs49d4kf8t&st=4vxq6h3q&raw=1',
+  },
   'Nguyễn Thanh Hải': {
     url: 'https://www.facebook.com/thanhhaiathenco/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1tahv7m0z42somh8lqiza/Nguy-n-Thanh-H-i.png?rlkey=z6jbulsle0h2kcl0tskqnsghk&st=x1jm791u&raw=1',
