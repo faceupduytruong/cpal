@@ -80,6 +80,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/PageBacSi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/cll3rr8yvchpltfke8pk2/B-c-S-C-a-B-n.jpg?rlkey=tn7zz8nnobe7zkaybakgwls47&st=tb91iz81&raw=1',
   },
+  'Bác Sĩ Đinh Hải': {
+    url: 'https://www.facebook.com/profile.php?id=61581433843264&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ri9ml97i4mlef97zfxisl/B-c-S-inh-H-i.jpeg?rlkey=5lisdslhx0ubf442il9w4f4fl&st=p51zcjpe&raw=1',
+  },
   'BÁC SĨ TRẦN MINH (Trần Nhựt Minh)': {
     url: 'https://www.facebook.com/Drtrannhutminh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9ka4u2byz57el5ci0dvcr/B-C-S-TR-N-MINH-Tr-n-Nh-t-Minh.png?rlkey=qvb7ltr7gpsxlqq7fo9iwl7bm&st=1ugrkja9&raw=1',
@@ -91,6 +95,10 @@ const folderLinks = {
   'Dược sĩ Thoa': {
     url: 'https://www.facebook.com/duocsithoa96/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/49ml75ndfm15135t75645/D-c-s-Thoa.png?rlkey=0f3nlzlg437jlkuaqo91js1wv&st=leg3jqbw&raw=1',
+  },
+  'Dược Sĩ Trà': {
+    url: 'https://www.facebook.com/Duocsitra68/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rd2lwp8cx41z37lcuzzzt/D-c-S-Tr.jpg?rlkey=gyuv42sb6lz1ehtq9yeh0svtx&st=ak5bqyvc&raw=1',
   },
   'Lê Hữu Ân | Sống Khoẻ Sống Thọ': {
     url: 'https://www.youtube.com/@LeHuuAnSongKhoeSongTho/playlists',
