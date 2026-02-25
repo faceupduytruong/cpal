@@ -1481,6 +1481,13 @@ container.innerHTML = `
       </div>
 
             <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/nhatduong.vn/reels/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/qsd50mi09454brlpfyw1h/Nh-t-D-ng-Xo-m-AI.webp?rlkey=hdl25nmcfu7oetpd4xto4orgw&st=g9rfjcup&raw=1">
+</div>
+        <div class="caption">Nhật Dương (Xoá mù AI)</div>
+      </div>
+
+            <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61583850737971&sk=photos', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/4xlxdunuzpfzt3h71r4g5/C-ng-ng-Al-Gemini-Canva.webp?rlkey=a8flb2qrtvyo5kyr0onp19f2u&st=96ojoscr&raw=1">
 </div>
