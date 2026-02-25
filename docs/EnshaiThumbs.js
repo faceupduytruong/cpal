@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/lhjr9olvbwg0vy3q0hlna/Google-Translate.webp?rlkey=jypud322b4z68dladqetnxcok&st=2ynt7066&raw=1'
   },
+  'Daily Glowwords': {
+    url: 'https://www.facebook.com/profile.php?id=61585035023693&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/sm8c8r80115ya6q45b9b5/Daily-Glowwords.jpg?rlkey=13by2fjadl9afp2iacee2d5xs&st=uevj2ajl&raw=1'
+  },
   'Miss Honey': {
     url: 'https://www.facebook.com/profile.php?id=61582506250295&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/ce811p4nbj89epaozwzbb/Miss-Honey.jpg?rlkey=hk79xvbl0d9gvf0gvlkblm43n&st=3bg95xy3&raw=1'
