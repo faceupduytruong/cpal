@@ -42,10 +42,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/tamlyhocthanhcong.alpha',
     thumbnail: 'https://www.dropbox.com/scl/fi/xbyrg9xvlbjo30kldplxw/T-m-L-H-c-Th-nh-C-ng.png?rlkey=w862i3vd0l73qum6xkftud84b&st=jwyucs2g&raw=1',
   },
-  'Giàu Tỉnh Thức': {
-    url: 'https://www.youtube.com/@giautinhthuc.biquyetthanhcong/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/9uj9uvvt3b6d3fqen4hvw/Gi-u-T-nh-Th-c.jpg?rlkey=unh84z2rje0w6egywg64k87nx&st=e9hpovvh&raw=1',
-  },
   'Câu Chuyện Hại Điện': {
     url: 'https://www.facebook.com/cchaidien/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xd926ckzn1mzygsfjshbk/C-u-Chuy-n-H-i-i-n.jpg?rlkey=hnruq1ra0ivbatyg5zgwr45is&st=vswqy1ay&raw=1',
