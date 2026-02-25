@@ -65,6 +65,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@nuzanmax/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/h3ykw8vspbcwwi8zxgxwx/NuzanMax.jpg?rlkey=j57dpdqjdexiiohoabto4b1om&st=ghb96li9&raw=1'
   },
+ 'CROWS Anime Stories': {
+    url: 'https://www.youtube.com/@CROWSAnimeStories/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/f71a0q12xsuh01ul8vn3x/CROWS-Anime-Stories.png?rlkey=io93gz9s0nb7tr8dmxysh33h0&st=m6d60ush&raw=1'
+  },
  'Shounen Action Official': {
     url: 'https://www.youtube.com/@shounenactionofficial5320/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/2ylhbhx8papgfl2naen8s/Shounen-Action-Official.webp?rlkey=qg7bu7pqrr9j0wene0mglitng&st=1yq4jw6d&raw=1'
