@@ -32,7 +32,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/tiengtrungkimoanh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/z06vhy7zatgk6v7jj6x7p/Ti-ng-Trung-Kim-Oanh.jpg?rlkey=vttyh0snfyo27njjsvof0rxin&st=gw12v474&raw=1'
   },
-  'Tiếng Trung Molii FM - Tiếng Trung Giao Tiếp': {
+  'Tiếng Trung Giao Tiếp - Molii FM': {
     url: 'https://www.facebook.com/HocTiengTrungCungCoMolii/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9e4e60d16bt85uhsyr1q5/Ti-ng-Trung-Molii-FM-Ti-ng-Trung-Giao-Ti-p.png?rlkey=zajond9b9fqld1tkfp610ojb8&st=7emafd73&raw=1'
   },
@@ -40,9 +40,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61563355705752&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/p57rkvpnpd8rwjiqtaghe/H-c-Ti-ng-Trung-M-i-Ng-y.jpg?rlkey=hlr73i8r08bf98md6a0qnkqgq&st=dp3ave3f&raw=1'
   },
-  'ChineseRd - Tiếng Trung Trực Tuyến Tại Nhà': {
+  'Tiếng Trung Trực Tuyến Tại Nhà': {
     url: 'https://www.facebook.com/TiengTrungGiaoTiepTrucTuyen/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8xqorca93zn4wclbys21b/ChineseRd-Ti-ng-Trung-Tr-c-Tuy-n-T-i-Nh.jpg?rlkey=uxwcyp5ycqnk2knwp6wctuv0l&st=dtd233la&raw=1'
+  },
+  'Tiếng Trung CTI HSK TP.HCM': {
+    url: 'https://www.facebook.com/ctihsktphcm/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2py7xoz1e6z6sgprv769o/Ti-ng-Trung-CTI-HSK-TP.HCM.png?rlkey=dp7pj8radutbflg8yyfmxzdfb&st=1jin7y7q&raw=1'
   },
   'Mcbooksvn (Học Tiếng Trung)': {
     url: 'https://www.facebook.com/mcbooksvn/photos',
