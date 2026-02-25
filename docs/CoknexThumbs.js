@@ -56,6 +56,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@KHOAHOCTRAIDATVAVUTRU/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/ocznrf4odcopr09nmsliw/KHOA-H-C-TR-I-T-V-V-TR.jpg?rlkey=iddod3ikfgtqxtefvyb8t6xby&st=12le6kcn&raw=1',
   },
+  'Hành Trình Giả Thuyết': {
+    url: 'https://www.youtube.com/@HanhTrinhGiaThuyet/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6gbyhr77vyiau2jwim441/H-nh-Tr-nh-Gi-Thuy-t.jpg?rlkey=7cyu1gnp3qfrynh6tiuaqkrro&st=24783r4n&raw=1',
+  },
   '夫妻物语 (Fūqī Wùyǔ)': {
     url: 'https://www.youtube.com/@%E5%A4%AB%E5%A6%BB%E7%89%A9%E8%AF%AD/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/2rj30r3dpupqj4y8u71z8/F-q-W-y.jpg?rlkey=5x61knnkbdb21094y9izlvspp&st=qkopbsk2&raw=1',
@@ -67,6 +71,10 @@ const folderLinks = {
   'Zoom Out Thế Giới': {
     url: 'https://www.youtube.com/@ZoomOutTheGioi/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/q44h0lb4kid2hdydct9x1/Zoom-Out-Th-Gi-i.jpg?rlkey=al8rco7olky104zhe8s6rbjmt&st=2w297skc&raw=1',
+  },
+  'Tắc Kè Facts': {
+    url: 'https://www.youtube.com/@T%E1%BA%AFcK%C3%A8Facts/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/f2fnfuvx9mq57hcr6jd3a/T-c-K-Facts.jpg?rlkey=znag47ujaeoecp5en29id5ge7&st=jnozl6yb&raw=1',
   },
   'Đột Phá Tri Thức': {
     url: 'https://www.youtube.com/@dotphatrithuc/videos',
