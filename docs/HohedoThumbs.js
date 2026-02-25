@@ -132,6 +132,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/hoang.n.hoa.9/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/pr14zlct6at2d57v1oex5/Ho-ng-Nh-Hoa.jpg?rlkey=r03qampblg8fir8wixnj2rg34&st=zofpfadk&raw=1',
   },
+  'Trinh Huỳnh': {
+    url: 'https://www.facebook.com/trinhhuynhdangxinh101/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2viv9ww5jai4c85ajpoi7/Trinh-Hu-nh.webp?rlkey=he0glnnjx51ssoavm0vmx4qwq&st=80rbvos3&raw=1',
+  },
   'Trạng Đao': {
     url: 'https://www.facebook.com/trang.down.2025/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ubrwjyz83xxzj2z5q70ua/Tr-ng-ao.jpg?rlkey=ivud84iko07t1m2oh46gdhxda&st=jncwbufl&raw=1',
