@@ -236,6 +236,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/IQFact/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/98293ku6o8zl45d0x9dmf/IFact.png?rlkey=r2jv3dmk9yspsldn1cnf1iqvk&st=otpd43zx&raw=1',
   },
+  'Bee Khám Phá': {
+    url: 'https://www.youtube.com/@BeeKhamPha/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wedkmeo4apfad83l7th3g/Bee-Kh-m-Ph.webp?rlkey=itc0lt8mqvvvruedobxv1igv4&st=ypwbh3na&raw=1',
+  },
   'NH88 Tin tức Chính Trị': {
     url: 'https://www.youtube.com/@nh88tintucchinhtri/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/8fzubu9unw2dd0i1p22j1/NH88-TIN-T-C-CH-NH-TR.jpg?rlkey=kbi78vdct2v1g3aqbw4id1klj&st=qdcptb16&raw=1',
