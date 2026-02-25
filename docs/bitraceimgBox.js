@@ -6,94 +6,101 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Triển khai kết cấu</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/DbimConstructionSoftware/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/DbimConstructionSoftware/reels/', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/yc4tpmm5tzeaey39zbo40/DBim-Ph-n-m-m-h-tr-t-nh-to-n-tri-n-khai-K-t-C-u.png?rlkey=bxydub84rwreroomascep5t75&st=juqwtuhb&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">DBim - Phần mềm hỗ trợ tính toán triển khai Kết Cấu</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/RevitSoft/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/RevitSoft/', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/8hjs2n2wky9erszs12pm3/HT-Structural.jpg?rlkey=7gcebkxo59ngizo9u4k4rh9e2&st=i3u89jrd&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">HT-Structural</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/ETABSAPI/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/ETABSAPI/', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/dwrl2vqqxgoush2jk92oj/ETABS-API.webp?rlkey=krgdbs9k5qd8qz3y4fmj3xrz1&st=1an5i2ra&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">ETABS API</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/user/100024795782340/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/user/100024795782340/', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/54v9qmja9ymfmhopaot4n/T-o-Th-o.png?rlkey=lrpzv8w8hp2d5byi5n6eabd92&st=pn6pksdw&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tào Tháo</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61586017385815' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61586017385815', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/1u70d6zcz3oepgqvskruc/H-i-Th-ch-H-c-Ketcausoft.png?rlkey=8oekf1z6ju3q4c5o31mu4p5kz&st=vgqjuktm&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Hội Thích Học Ketcausoft</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090272299011' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090272299011', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/fi8or52a154dbgge46pr7/Kho-H-c-X-y-D-ng-K-t-C-u-D-To-n.ico?rlkey=8vxsipwvzzzk71texsau0z0tf&st=022bv3he&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Khoá Học Xây Dựng Kết Cấu - Dự Toán</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/tailieunganhxaydung' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/tailieunganhxaydung', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/llo4z1oheeorbp62d03ff/T-i-Li-u-Ng-nh-X-y-D-ng.png?rlkey=5kwodwlh38ga2giy9c047tdoo&st=3tykgtbk&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tài Liệu Ngành Xây Dựng</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/z1e6t97lky6n9yxbkqcwo/X-y-D-ng-DD-CN.png?rlkey=fl4gd2bvrpeoq2vry63r5aem0&st=u1nd32yx&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Xây Dựng DD & CN</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61557186504215' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61557186504215', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/oxetsb1efqefl1cgcbofv/K-t-C-u-X-y-D-ng-4.0.png?rlkey=3fscp9xa9wr3qfmtzyqhhdbgu&st=pkz8hupk&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Kết Cấu Xây Dựng 4.0</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/user/61571169615280/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/user/61571169615280/', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/lmjptdgeezt7d7p0vapth/G-c-X-y-D-ng.jpg?rlkey=3ju33h4c6d01hl08f2p17g0r2&st=trkm4wxl&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Góc Xây Dựng</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/ovanhiep.110620/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/ovanhiep.110620/', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/os3a4tvixt55o6c18bb51/V-n-Hi-p.webp?rlkey=3wb9ifgyxu072g1lc92bs68ui&st=oq4e1tav&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Đỗ Văn Hiệp</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/xaynhamientay' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/xaynhamientay', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/ihsgig3pwgug1d7mha7hd/K-S-Gi-X-y-Nh-Mi-n-T-y.webp?rlkey=7fhpuj8zvk7b9fh9k6n7uuxea&st=47dyjvb8&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Kỹ Sư Gió - Xây Nhà Miền Tây</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.youtube.com/@gizento/playlists' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@gizento/playlists', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/f3mvnyrhbl98irbf6mpv5/Gizento.png?rlkey=7wro62y7rjst4sswzs282z74w&st=ni02g6dr&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Gizento</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/vietnamconstructionforum/photos', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/b00wbwqkfuherlbak6zdy/Vietnam-Construction-Forum.webp?rlkey=f7b6h524n1qguy2my4zvzr9q6&st=qnoyg9vj&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Vietnam Construction Forum</div>
       </div>
     
 </div>
