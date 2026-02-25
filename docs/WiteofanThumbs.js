@@ -18,9 +18,17 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
   },
+  'Tâm thái điềm tĩnh': {
+    url: 'https://www.facebook.com/tamthaidiemtinh/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tgi88b6ch3yb1o3n2rett/T-m-th-i-i-m-t-nh.jpg?rlkey=vogilqzn3ow8cmpb9bef24jc9&st=zvpedlma&raw=1',
+  },
   'Thanh Thao Tran': {
     url: 'https://www.facebook.com/thanhthao.tran.98284566',
     thumbnail: 'https://www.dropbox.com/scl/fi/14qz9ay0siouuimliscra/Thanh-Thao-Tran.jpg?rlkey=hy9bjvrza3g649ziye30j9hck&st=b2y3q7gm&raw=1',
+  },
+  'Giàu Tỉnh Thức': {
+    url: 'https://www.youtube.com/@giautinhthuc.biquyetthanhcong/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9uj9uvvt3b6d3fqen4hvw/Gi-u-T-nh-Th-c.jpg?rlkey=unh84z2rje0w6egywg64k87nx&st=e9hpovvh&raw=1',
   },
   'Chân Trời Tri Thức': {
     url: 'https://www.youtube.com/@Hello.ChanTroiTriThuc/shorts',
