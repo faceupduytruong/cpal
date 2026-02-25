@@ -30,10 +30,6 @@ const folderLinks = {
     url: 'https://www.youtube.com/@mrcoby79/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/otolpyow4x66e5o6y2o91/Mr.-CoBy.jpg?rlkey=jv4mdxuc7lhhjo7wl160sothh&st=ow2qa99q&raw=1',
   },
-  'Tâm Trí Sáng': {
-    url: 'https://www.youtube.com/@TiaS%C3%A1ng-M%E1%BB%97iNg%C3%A0y/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/23im75nynqernv1gqtr75/T-m-Tr-S-ng.jpg?rlkey=jf22yrhb1hbcw0py12keb3sv7&st=1818iq4w&raw=1',
-  },
   'Bài học ý nghĩa cuộc sống': {
     url: 'https://www.facebook.com/profile.php?id=61551444937998&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/hbjmy4idl8zklbnjbtdai/B-i-h-c-ngh-a-cu-c-s-ng.png?rlkey=uwgy9w7fg0b3f8r17h6fqm8er&st=j0xd98b5&raw=1',
@@ -205,10 +201,6 @@ const folderLinks = {
   'Hành Trình Nỗ Lực': {
     url: 'https://www.facebook.com/profile.php?id=61584734873015&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/51z4gr4ti8pwykk226fbh/H-nh-tr-nh-n-l-c.jpg?rlkey=5d0v3247r40bakgce130zex02&st=d4xrkw9m&raw=1',
-  },
-  'Thanh Thao Tran': {
-    url: 'https://www.facebook.com/thanhthao.tran.98284566',
-    thumbnail: 'https://www.dropbox.com/scl/fi/14qz9ay0siouuimliscra/Thanh-Thao-Tran.jpg?rlkey=hy9bjvrza3g649ziye30j9hck&st=b2y3q7gm&raw=1',
   },
   'Thanh Đạt (Skyland Dolls)': {
     url: 'https://www.facebook.com/swan.black.370/reels/',
