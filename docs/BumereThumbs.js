@@ -74,6 +74,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/thang.nguyenviet.50309/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jxbq499dpdh5xajtxjfgz/Nguy-n-Vi-t-Th-ng.jpg?rlkey=7317yuycdw8p47vpmbvfiiq19&st=2x1qkp6e&raw=1',
   },
+  'Bích Diễm': {
+    url: 'https://www.facebook.com/bich.diem.997156/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s9df8dyzuj13p986sq83p/B-ch-Di-m.jpg?rlkey=jolmwm8yn0na09mf52cry3y5x&st=4imksw0y&raw=1',
+  },
   'Tuân Xin Chào': {
     url: 'https://www.facebook.com/tuanxinchao98/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ihaqxjbjzggk8wagghclk/Tu-n-Xin-Ch-o.jpg?rlkey=h7squuu917q6c2b5q6aswoisr&st=dz542g6e&raw=1',
