@@ -117,7 +117,7 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/7s9mq1qoad68v11bixsor/nh-S-ng-Tu-i-V-ng.jpg?rlkey=i2o9saj3v3a57xmwpmbb2yr0z&st=fiakgwup&raw=1',
   },
   'Tâm Tịnh Trí Sáng': {
-    url: 'https://www.youtube.com/@tamtinhtrisang',
+    url: 'https://www.youtube.com/@tamtinhtrisang/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/dif6fcogzzpugdmqnia4n/T-m-T-nh-Tr-S-ng.jpg?rlkey=aeoi9yxj5v5d8mdce78e26n89&st=fxv4dzsc&raw=1',
   },
   'Khoẻ Mà Đẹp': {
