@@ -22,6 +22,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/yennhi.vaphantamhoc/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/qmiofqnn1gu49va78tmoq/Y-n-Nhi.png?rlkey=kqnfvtbdd9w6fh0l0eryewkwa&st=d3id9p20&raw=1',
   },
+  'Đinh Ngọc Hiếu': {
+    url: 'https://www.facebook.com/Dinhngochieu888/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ep2u3u9k4f15i9rbrb6uu/inh-Ng-c-Hi-u.jpg?rlkey=rakueu9fz4qrf37u5qqyizqzm&st=6mxpx6ow&raw=1',
+  },
   'Mr. CoBy': {
     url: 'https://www.youtube.com/@mrcoby79/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/otolpyow4x66e5o6y2o91/Mr.-CoBy.jpg?rlkey=jv4mdxuc7lhhjo7wl160sothh&st=ow2qa99q&raw=1',
@@ -37,6 +41,10 @@ const folderLinks = {
   'Tâm Lý Học Đám Đông': {
     url: 'https://www.facebook.com/tamlihocdamdong',
     thumbnail: 'https://www.dropbox.com/scl/fi/i1p1bk9w210ke1iyydo40/T-m-l-h-c-m-ng.jpg?rlkey=dwfa2ntgdi1c3z27jeog85wg8&st=g024u8u2&raw=1',
+  },
+  'Tâm Lý Học Thành Công': {
+    url: 'https://www.facebook.com/tamlyhocthanhcong.alpha',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xbyrg9xvlbjo30kldplxw/T-m-L-H-c-Th-nh-C-ng.png?rlkey=w862i3vd0l73qum6xkftud84b&st=jwyucs2g&raw=1',
   },
   'Giàu Tỉnh Thức': {
     url: 'https://www.youtube.com/@giautinhthuc.biquyetthanhcong/videos',
