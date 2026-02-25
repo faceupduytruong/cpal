@@ -18,5 +18,13 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
   },
+  'Thanh Thao Tran': {
+    url: 'https://www.facebook.com/thanhthao.tran.98284566',
+    thumbnail: 'https://www.dropbox.com/scl/fi/14qz9ay0siouuimliscra/Thanh-Thao-Tran.jpg?rlkey=hy9bjvrza3g649ziye30j9hck&st=b2y3q7gm&raw=1',
+  },
+  'Chân Trời Tri Thức': {
+    url: 'https://www.youtube.com/@Hello.ChanTroiTriThuc/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/23im75nynqernv1gqtr75/Ch-n-Tr-i-Tri-Th-c.jpg?rlkey=jf22yrhb1hbcw0py12keb3sv7&st=1vkoieuh&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
