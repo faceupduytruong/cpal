@@ -34,5 +34,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Hello.ChanTroiTriThuc/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/23im75nynqernv1gqtr75/Ch-n-Tr-i-Tri-Th-c.jpg?rlkey=jf22yrhb1hbcw0py12keb3sv7&st=1vkoieuh&raw=1',
   },
+  'Người Được Chọn Official': {
+    url: 'https://www.youtube.com/@Ng%C6%B0%E1%BB%9Di%C4%90%C6%B0%E1%BB%A3cCh%E1%BB%8DnOfficial/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jaho3jsl0ix6eix4qo8uz/Ng-i-c-Ch-n-Official.webp?rlkey=aabissb0vcyn5lkwg74b0nfr3&st=zze8cpr3&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
