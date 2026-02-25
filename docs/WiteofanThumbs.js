@@ -36,7 +36,7 @@ const folderLinks = {
   },
   'Người Được Chọn Official': {
     url: 'https://www.youtube.com/@Ng%C6%B0%E1%BB%9Di%C4%90%C6%B0%E1%BB%A3cCh%E1%BB%8DnOfficial/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jaho3jsl0ix6eix4qo8uz/Ng-i-c-Ch-n-Official.webp?rlkey=aabissb0vcyn5lkwg74b0nfr3&st=zze8cpr3&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pvpqm9zu3ith7um2erjfw/Ng-i-c-Ch-n-Official.webp?rlkey=q0mbanlrqyyfw2wcjlfmvy5zj&st=hq6fm86s&raw=1',
   },
   // thêm các mục khác nếu cần
 };
