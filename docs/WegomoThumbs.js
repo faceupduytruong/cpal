@@ -54,5 +54,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100083069565503&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/t1u9yvk8q2mav1htak5zw/Nguy-n-Tr-H-o.jpg?rlkey=9zzqd2mqvcnf1x7s5t1mwgf8h&st=qoznm9h7&raw=1',
   },
+  'Đỗ Tâm': {
+    url: 'https://www.facebook.com/DIENGIA.DOTAM/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7qr1px9jjuhsd1g7xcc55/T-m.jpg?rlkey=ejnyrur500jw4r4qjs4f8vs4e&st=g7b2cmyh&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
