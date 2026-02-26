@@ -42,6 +42,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tamlyhocthanhcong.alpha',
     thumbnail: 'https://www.dropbox.com/scl/fi/xbyrg9xvlbjo30kldplxw/T-m-L-H-c-Th-nh-C-ng.png?rlkey=w862i3vd0l73qum6xkftud84b&st=jwyucs2g&raw=1',
   },
+  'Góc Khuất Tâm Lý': {
+    url: 'https://www.facebook.com/gockhuattamly/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/k3wfs8n0fdcffd2rv3130/G-c-Khu-t-T-m-L.jpg?rlkey=xuxcnr1dk1kiko81nbohd7jea&st=bcyu2yge&raw=1',
+  },
   'Câu Chuyện Hại Điện': {
     url: 'https://www.facebook.com/cchaidien/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xd926ckzn1mzygsfjshbk/C-u-Chuy-n-H-i-i-n.jpg?rlkey=hnruq1ra0ivbatyg5zgwr45is&st=vswqy1ay&raw=1',
