@@ -67,12 +67,19 @@ container.innerHTML = `
 </div>
         <div class="caption">ThinkPro - Hệ thống Máy tính và Phụ kiện</div>
       </div>
-      
+
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/294155504718055/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/o8v91tpyvo0657ulk0ssf/VOZ.VN-C-ng-ngh-K-thu-t.png?rlkey=cksdhcqwkflh9v7y6pl7vbsdm&st=ge7l02h4&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">VOZ.VN - Công nghệ & Kỹ thuật</div>
+      </div>
+      
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/gemsongnghe/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/wenconqllf6mf49o5ex4w/Gem-S-ng-Ngh.png?rlkey=f7x1eg3t8ulqpl2z338dqtef8&st=juno82rl&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Gem Sống Nghệ</div>
       </div>
 
       <div class="image-box">
