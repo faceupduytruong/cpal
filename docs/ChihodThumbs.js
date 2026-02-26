@@ -156,7 +156,7 @@ const folderLinks = {
   },
  'Lanvu Gallery': {
     url: 'https://www.facebook.com/lanvugallery123/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/pdshpcz6gny2b95kncw87/Lanvu-Gallery.jpg?rlkey=alqwyrujv1tjkng5sxt1ypldq&st=5zizv9al&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/pdshpcz6gny2b95kncw87/Lanvu-Gallery.jpg?rlkey=alqwyrujv1tjkng5sxt1ypldq&st=dr4k97eh&raw=1'
   },
  'Kids Story (Đồ Chơi)': {
     url: 'https://www.facebook.com/profile.php?id=61583464679809',
