@@ -84,9 +84,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61581433843264&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/ri9ml97i4mlef97zfxisl/B-c-S-inh-H-i.jpeg?rlkey=5lisdslhx0ubf442il9w4f4fl&st=p51zcjpe&raw=1',
   },
-  'BÁC SĨ TRẦN MINH (Trần Nhựt Minh)': {
+  'Bác sĩ Trần Minh (Trần Nhựt Minh)': {
     url: 'https://www.facebook.com/Drtrannhutminh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9ka4u2byz57el5ci0dvcr/B-C-S-TR-N-MINH-Tr-n-Nh-t-Minh.png?rlkey=qvb7ltr7gpsxlqq7fo9iwl7bm&st=1ugrkja9&raw=1',
+  },
+  'Bác sĩ Nguyễn Thị Nhuần': {
+    url: 'https://www.facebook.com/bacsinguyenthinhuantdt/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nmm6jypbwyjbcn7c7acj3/B-c-s-Nguy-n-Th-Nhu-n.jpg?rlkey=sf38v6ejp45xk48uja9cvszfv&st=5olyunhj&raw=1',
   },
   'Dược Sĩ Nguyễn Thị Thùy Trang': {
     url: 'https://www.youtube.com/@duocsitrangnguyen/videos',
