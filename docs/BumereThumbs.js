@@ -130,6 +130,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/nguyenlua.luadat/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/we6fxmjen4g9we0y5s611/L-a-Nguy-n-L-a-China.webp?rlkey=va4iieywc67sgxo4i9mzrkxoo&st=ljsuccgr&raw=1',
   },
+  'Lụa Talks Shop': {
+    url: 'https://www.facebook.com/luatalks.shop/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gqjwunjkqwxeqov3y3o8k/L-a-Talks-Shop.png?rlkey=pij70wroyuv6ntuvwhta0erpf&st=o6ct8rdp&raw=1',
+  },
   'Cơ Hội Kinh Doanh': {
     url: 'https://www.facebook.com/cafe.kinhdoanh.ek/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/orwuq8fjhyhjsxdxjnxmz/CO-HOI-KINH-DOANH.jpg?rlkey=t1rrpb4x1mcqertkq951p6y77&st=y12np3by&raw=1',
