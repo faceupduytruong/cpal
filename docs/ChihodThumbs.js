@@ -173,5 +173,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61564147461946&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/xcrjxnrbfpvonzvbu0685/Winny-Th-Gi-i-M-V-B.png?rlkey=sswsa3uqamgk2c3tlma16si7v&st=h62i8pba&raw=1'
   },
+ 'Bàn học thông minh BSUC Hải Phòng': {
+    url: 'https://www.facebook.com/BSUCDOSON/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zv8jdhz16byll3c882i3v/B-n-h-c-th-ng-minh-BSUC-H-i-Ph-ng.gif?rlkey=kuiqsw88unx1lxx711hwvetv8&st=fkbqj4nq&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
