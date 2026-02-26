@@ -89,6 +89,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/song24h.online/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/eiwpyrb5sj49hunbgah4t/Song24h.online.jpg?rlkey=d86gghtwkxnko8s9wgowz1wwf&st=jo6pt054&raw=1',
   },
+  'Cafe Kinh Doanh': {
+    url: 'https://www.facebook.com/cafekinhdoanhpage/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h5thkkwhrsxizhjb6e4q7/Cafe-Kinh-Doanh.gif?rlkey=1phkequrkmgpji8omzcflj8ts&st=fah1awcx&raw=1',
+  },
   'Sống Tích Cực Mỗi Ngày': {
     url: 'https://www.facebook.com/songtichcucmoingay.vn/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4qr6q4376jyl076qx960e/S-ng-T-ch-C-c-M-i-Ng-y.jpg?rlkey=sjwinoafn92zhm0hjo5zm21r3&st=w89i8hip&raw=1',
