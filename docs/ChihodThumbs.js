@@ -23,7 +23,7 @@ const folderLinks = {
   },
   'Nam Khánh': {
     url: 'https://www.facebook.com/namkhanh1003asd/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/yg64sjn08x7acv68m0w2h/Nam-Kh-nh.png?rlkey=21u80bm09plcq1ikj72wvl5hy&st=115jh9zf&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/4bx4scdl908i34ghbxzbc/Nam-Kh-nh.gif?rlkey=x1gypfs00jg8ngotnu49gj1ah&st=f64u4fbt&raw=1'
   },
  'Nguyệt Moon': {
     url: 'https://www.facebook.com/MoonlyNguyet/reels/',
