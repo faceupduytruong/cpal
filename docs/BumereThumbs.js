@@ -20,7 +20,7 @@ const folderLinks = {
   },
   'Yến Nhi': {
     url: 'https://www.facebook.com/yennhi.vaphantamhoc/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/qmiofqnn1gu49va78tmoq/Y-n-Nhi.png?rlkey=kqnfvtbdd9w6fh0l0eryewkwa&st=d3id9p20&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/iuqoynd2iebokvkn5een2/Y-n-Nhi.gif?rlkey=kc4wo01eucr9qy1vu9jwbq41g&st=qkt9x99x&raw=1',
   },
   'Đinh Ngọc Hiếu': {
     url: 'https://www.facebook.com/Dinhngochieu888/reels/',
