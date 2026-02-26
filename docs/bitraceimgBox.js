@@ -260,7 +260,14 @@ container.innerHTML = `
 </div>
         <div class="caption">Weo Design</div>
       </div>
-      
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/SHouseDesign.official/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/a87bacedkasoqa3ixlpw0/S-House-Design.png?rlkey=mrac799jpr2rwr1g49qowvw65&st=fr6bc2xk&raw=1">
+</div>
+        <div class="caption">S-House Design</div>
+      </div>
+            
 </div>
 
     <!-- Hàng thứ 7 -->
