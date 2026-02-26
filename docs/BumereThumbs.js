@@ -20,7 +20,7 @@ const folderLinks = {
   },
   'Yến Nhi': {
     url: 'https://www.facebook.com/yennhi.vaphantamhoc/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xnjkdjywb27je1yk5apm1/Y-n-Nhi.gif?rlkey=6gkmaelfeumrbb9zpgujmuv3a&st=xd9vhtu7&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/oxirtbayy0hwtc41v52qv/Y-n-Nhi.jpg?rlkey=o0x73tnal0lq1a6a10anyt5vj&st=kxnqixdp&raw=1',
   },
   'Đinh Ngọc Hiếu': {
     url: 'https://www.facebook.com/Dinhngochieu888/reels/',
@@ -96,7 +96,7 @@ const folderLinks = {
   },
   'Nơi thời gian ngừng trôi': {
     url: 'https://www.facebook.com/noithoigianngungtroi11',
-    thumbnail: 'https://www.dropbox.com/scl/fi/oxirtbayy0hwtc41v52qv/N-i-th-i-gian-ng-ng-tr-i.jpg?rlkey=o0x73tnal0lq1a6a10anyt5vj&st=p63sbgbd&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xnjkdjywb27je1yk5apm1/N-i-th-i-gian-ng-ng-tr-i.gif?rlkey=6gkmaelfeumrbb9zpgujmuv3a&st=oenw3djw&raw=1',
   },
   'Nguyễn Đan My': {
     url: 'https://www.facebook.com/nguyendanmy.minoi',
