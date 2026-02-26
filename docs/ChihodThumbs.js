@@ -46,8 +46,8 @@ const folderLinks = {
     url: 'https://www.facebook.com/wikichamethb/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9mdjkiulyevtxy8924opb/S-ch-Cha-M-Th-i-H-Books.png?rlkey=k3z1xhw2bt3z83npf16ttj3vb&st=ku7w4pi7&raw=1'
   },
-  'Trịnh Việt Trinh': {
-    url: 'https://www.facebook.com/VietHita/photos',
+  'Trịnh Việt Trinh (Lâm Bình Yên)': {
+    url: 'https://www.facebook.com/trinh.viet.trinh.265984/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/smsq7va4ee4gcnfrqxget/Tr-nh-Vi-t-Trinh.jpg?rlkey=5lsqdyqtxfir65hol8xzrljdv&st=pxetvhrg&raw=1',
   },
  'Dược Sĩ Đại Minh': {
