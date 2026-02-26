@@ -26,7 +26,7 @@ const folderLinks = {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/English/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/wpqrl5k1l64e5239sz01r/S-ch-Ti-ng-Anh.jpg?rlkey=9xuwl8m065d5km0dmdd31xe4d&st=pxshuwio&raw=1'
   },
-  'Google': {
+  'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/lhjr9olvbwg0vy3q0hlna/Google-Translate.webp?rlkey=jypud322b4z68dladqetnxcok&st=2ynt7066&raw=1'
   },
@@ -37,6 +37,10 @@ const folderLinks = {
   'Video Học Tiếng Anh Trẻ Em': {
     url: 'https://www.facebook.com/dvdhoctienganhtreem/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/z2g6lp4uk0yvtgwfmbkh6/Video-h-c-Ti-ng-Anh-tr-em.jpg?rlkey=m3tm080f8uqz2sfwllwc4d5bn&st=vj9ggbkp&raw=1'
+  },
+  'Ms Trang Tích Cực': {
+    url: 'https://www.facebook.com/mstrangtichcuc/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/sxlnkszwealvz3l2inqo0/Ms-Trang-T-ch-C-c.jpg?rlkey=42vv976c8q68s8bsqsh94fhwy&st=t3d5o8d8&raw=1'
   },
   'Hiếu Ngô': {
     url: 'https://www.facebook.com/hieungo.uspeak/reels/',
