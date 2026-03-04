@@ -48,6 +48,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/ctihsktphcm/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/2py7xoz1e6z6sgprv769o/Ti-ng-Trung-CTI-HSK-TP.HCM.png?rlkey=dp7pj8radutbflg8yyfmxzdfb&st=1jin7y7q&raw=1'
   },
+  'Learn Chinese': {
+    url: 'https://www.facebook.com/crilearnchinese/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/q6k9vrbj14hj6jhaa3ndy/Learn-Chinese.jpg?rlkey=2yx24sgs4d1clw72ecbmfdb9y&st=hf0p0f4u&raw=1'
+  },
   'Mcbooksvn (Học Tiếng Trung)': {
     url: 'https://www.facebook.com/mcbooksvn/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/uy5gswlcrq8gfpdwjwuzz/Mcbooksvn.jpg?rlkey=5094eeqsf5jaw4y3szlwz88wn&st=xfhlfajj&raw=1'
