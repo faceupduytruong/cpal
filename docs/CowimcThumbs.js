@@ -38,6 +38,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/utvevuon/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/epxg7mk6ww2dzappirfo3/t-v-v-n.jpg?rlkey=u02sro1w0powqgiejxwls7v13&st=0afm0kn6&raw=1',
   },
+  'Lộc Nông Thôn': {
+    url: 'https://www.facebook.com/locnongthon/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nbtqrfa7aepty0zrgvp0a/L-c-N-ng-Th-n.png?rlkey=t936nto0muepnq38pty5y2ko8&st=saivtb6k&raw=1',
+  },
   'Bếp bên sườn đồi': {
     url: 'https://www.facebook.com/bepbensuondoiofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/v2nzer0my62b68r3icu2m/B-p-b-n-s-n-i.jpg?rlkey=xq279boeefnedbnuov5azfz3o&st=f180vmg6&raw=1',
@@ -49,6 +53,10 @@ const folderLinks = {
   'Sammy': {
     url: 'https://www.facebook.com/Sammycooking/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ah74wc2oc19rr9x9oipnz/Sammy.webp?rlkey=xz7qxbnwuucwuq93dcvl5w8ch&st=vshdo9mz&raw=1',
+  },
+  'Bếp Nhà Giang': {
+    url: 'https://www.facebook.com/bepnhagiang.official/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/v5hl5nf5wqpnrg7zlr60g/B-p-Nh-Giang.jpg?rlkey=bzv0oj72lf5bg1jmte2ei97u9&st=a4549xgl&raw=1',
   },
   'YÊU BẾP (Esheep Kitchen family)': {
     url: 'https://www.facebook.com/groups/557295677987925/',
