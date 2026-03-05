@@ -993,6 +993,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Trò chuyện ChatPPT</div>
       </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://1s3ubx.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-12-01/1088d3d1-6b9f-4205-9488-7022eafe9f6d.png?x-bce-process=image/resize,m_fill,w_360,h_360" alt="Ảnh 2">
+</div>
+        <div class="caption">Trợ lý PPT</div>
+      </div>
       
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://u0ryyi.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
