@@ -28,7 +28,7 @@ const folderLinks = {
   },
   'Cổ Nhân Chỉ Lộ': {
     url: 'https://www.youtube.com/@conhan-cncl/shorts',
-    thumbnail: 'https://www.dropbox.com/scl/fi/rogoq2rbbd0m5z4js10ri/C-Nh-n-Ch-L.jpg?rlkey=ugchloyiai6uhkdna11ly01t0&st=9rdzpx0p&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rogoq2rbbd0m5z4js10ri/C-Nh-n-Ch-L.jpg?rlkey=ugchloyiai6uhkdna11ly01t0&st=c8cxi827&raw=1',
   },
   'Giàu Tỉnh Thức': {
     url: 'https://www.youtube.com/@giautinhthuc.biquyetthanhcong/videos',
