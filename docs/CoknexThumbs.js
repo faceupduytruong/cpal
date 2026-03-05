@@ -40,6 +40,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@vutru1phut/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/ydcw3kznd9iqut69ty1y5/V-Tr-1-Ph-t-Official.jpg?rlkey=skucxjxwmf89jgo4wn5iygw7l&st=qixtrba6&raw=1',
   },
+  'Vũ Trụ Tĩnh Lặng': {
+    url: 'https://www.youtube.com/@VuTruTinhLang/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rb6wev2gw7ab81sud6wae/V-Tr-T-nh-L-ng.jpg?rlkey=ulo5sfhi247nu7ctn42532f71&st=o0hagypg&raw=1',
+  },
   'Trần My': {
     url: 'https://www.facebook.com/coba.bentre.33/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/yox4elgdrsyt91bilc3va/Tr-n-My.jpg?rlkey=mn9nz8sh4guidpr6zmsge3i51&st=98c2xff0&raw=1',
