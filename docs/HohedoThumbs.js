@@ -42,6 +42,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@tinhtaolen19/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/esc3906wover22o8s9iy1/T-nh-t-o-l-n.jpg?rlkey=snfl686wxd110yvn9ti9kqe24&st=vrjevd8r&raw=1',
   },
+  'Cơ Thể Cần Gì': {
+    url: 'https://www.youtube.com/@C%C6%A1Th%E1%BB%83C%E1%BA%A7nG%C3%AC/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/aa6i2wn4th8gte2m5zmak/C-Th-C-n-G.jpg?rlkey=77h1twd5524ovvz77vo5tv9z6&st=z8t9dqe1&raw=1',
+  },
   'Nguyễn Kim Tâm': {
     url: 'https://www.facebook.com/Kimtamthuyhang/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/cdvxoz4cpm791pg18d4yo/Nguy-n-Kim-T-m.jpg?rlkey=tyyevunl0y6pzg37h8ko4bu5q&st=gsjtq5zk&raw=1',
