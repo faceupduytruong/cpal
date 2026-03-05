@@ -12,7 +12,7 @@ const folders = {
 const folderLinks = {
   'Tuyển Tập Thơ': {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Poetry/index.htm',
-    thumbnail: 'https://www.dropbox.com/scl/fi/imj2rexi2hzcfzi1a5j8b/Tuy-n-T-p-Th.jpg?rlkey=80d6ggvusvpfptlmx84o073r6&st=ogxgaazn&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/19dd6mnknl2swyaq0xqki/Tuy-n-T-p-Th.jpg?rlkey=xqbxtib9bcfuzrm28xirq3ldv&st=ajddhvc1&raw=1'
   },
   'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
@@ -25,6 +25,10 @@ const folderLinks = {
   'Thanh Thao Tran': {
     url: 'https://www.facebook.com/thanhthao.tran.98284566',
     thumbnail: 'https://www.dropbox.com/scl/fi/14qz9ay0siouuimliscra/Thanh-Thao-Tran.jpg?rlkey=hy9bjvrza3g649ziye30j9hck&st=b2y3q7gm&raw=1',
+  },
+  'Cổ Nhân Chỉ Lộ': {
+    url: 'https://www.youtube.com/@conhan-cncl/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rogoq2rbbd0m5z4js10ri/C-Nh-n-Ch-L.jpg?rlkey=ugchloyiai6uhkdna11ly01t0&st=9rdzpx0p&raw=1',
   },
   'Giàu Tỉnh Thức': {
     url: 'https://www.youtube.com/@giautinhthuc.biquyetthanhcong/videos',
