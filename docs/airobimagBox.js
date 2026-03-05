@@ -980,13 +980,20 @@ container.innerHTML = `
     <!-- Hàng thứ 22 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">PowerPoint</h2>
-  <div class="image-box">
-  <div onclick="openRightHalfPopup('https://jcg6q1.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-06-19/dced4270-4e5b-47be-8fcf-bfbfdc42af05.png?x-bce-process=image/resize,m_fill,w_360,h_360">
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://xzoh3h.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-07-15/c1dd515e-e94e-4ed1-8ab3-9a187886a768.png?x-bce-processu003dimage/resize,m_fill,w_360,h_360" alt="Ảnh 2">
 </div>
-        <div class="caption">Khóa học PPT</div>
+        <div class="caption">Bản trình chiếu PowerPoint</div>
       </div>
 
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://voms39.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2025-07-11/7f1d85d1-3527-4c69-87fb-186aacf3a08e.png?x-bce-process=image/resize,m_fill,w_360,h_360&x-bce-process=image/format,f_webp" alt="Ảnh 2">
+</div>
+        <div class="caption">Trò chuyện ChatPPT</div>
+      </div>
+      
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://u0ryyi.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-05-26/39126dcb-e251-4a59-8df7-0347ec7afe43.png?x-bce-process=image/resize,m_fill,w_360,h_360" alt="Ảnh 2">
@@ -999,6 +1006,13 @@ container.innerHTML = `
        <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-08-18/d2fefea6-7860-48e7-9ca3-b18ac17d3948.png?x-bce-process=image/resize,m_fill,w_360,h_360" alt="Ảnh 1">
 </div>
         <div class="caption">Sản xuất các khóa học PPT khác nhau</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://jcg6q1.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/appavatar/2024-06-19/dced4270-4e5b-47be-8fcf-bfbfdc42af05.png?x-bce-process=image/resize,m_fill,w_360,h_360">
+</div>
+        <div class="caption">Khóa học PPT</div>
       </div>
 
       <div class="image-box">
