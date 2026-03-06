@@ -13,13 +13,6 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/58/1167/index.html?gameName=%E5%B0%8F%E8%9B%87%E7%88%B1%E8%8B%B9%E6%9E%9C&gameId=1167&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1551243&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://s3m9.mdvdns.com/yiti/270e66c559ffb8f3214e4f452ce32c61.png_.webp" alt="Ảnh 1">
-</div>
-        <div class="caption">Chú rắn nhỏ thích táo</div>
-      </div>
-
-      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/56/411/index.html?gameName=%E5%90%88%E6%88%90%E6%A4%8D%E7%89%A9%E6%89%93%E5%83%B5%E5%B0%B8&gameId=411&category=%E7%AD%96%E7%95%A5&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1551191&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/3091709c79a2a5fc644af3a3f2f2671e.png" alt="Ảnh 1">
 </div>
@@ -28,7 +21,19 @@ container.innerHTML = `
 
  </div>
 
-    <!-- Hàng thứ 2 -->
+      <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Intellectual Games</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/58/1167/index.html?gameName=%E5%B0%8F%E8%9B%87%E7%88%B1%E8%8B%B9%E6%9E%9C&gameId=1167&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1551243&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/270e66c559ffb8f3214e4f452ce32c61.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Chú rắn nhỏ thích táo</div>
+      </div>
+
+ </div>
+
+    <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Architecture Design</h2>
       <div class="image-box">
