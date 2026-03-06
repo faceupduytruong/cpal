@@ -13,6 +13,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/294/3392/index.html?gameName=%E6%A4%8D%E7%89%A9%E5%A4%A7%E4%B9%B1%E6%96%97&gameId=3392&category=%E7%AD%96%E7%95%A5&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1648178&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/6163d20dccc69c3e780dae56ee46ebe2.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Cây cối đấu với thây ma</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/87/1705/index.html?gameName=%E9%BB%84%E9%87%91%E7%9F%BF%E5%B7%A5&gameId=1705&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1567222&ad_source=iaa&djsource=F8ljcx&srcid=youyusi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/5b972755d1d2dc0500f94a3b646380aa.png_.webp" alt="Ảnh 1">
 </div>
