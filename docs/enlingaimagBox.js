@@ -28,8 +28,19 @@ container.innerHTML = `
 
  </div>
 
+       <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Arcade Racer</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/55/1090/index.html?gameName=%E6%A8%B1%E8%8A%B1%E6%A0%A1%E5%9B%AD%E6%A8%A1%E6%8B%9F%E5%99%A8&gameId=1090&category=%E6%A8%A1%E6%8B%9F&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550256&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/acc3fa6cd27a61e8aace685b64727556.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Trình mô phỏng trường Sakura</div>
+      </div>
+
+ </div>
  
-      <!-- Hàng thứ 2 -->
+      <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
       <div class="image-box">
@@ -41,7 +52,7 @@ container.innerHTML = `
 
  </div>
 
-      <!-- Hàng thứ 3 -->
+      <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
       <div class="image-box">
@@ -60,11 +71,11 @@ container.innerHTML = `
 
  </div>
 
-    <!-- Hàng thứ 4 -->
+    <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">Architecture Design</h2>
+    <h2 class="row-title">Gaming Station</h2>
       <div class="image-box">
-  <div onclick="openRightHalfPopup('https://g.360.cn/index.html', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+  <div onclick="openRightHalfPopup('https://fun.360.cn/category/14', 'SmartApp Popup', window.innerWidth*2+45, 745)">
           <img src="https://www.dropbox.com/scl/fi/ggoqi0ltuol6dr3wcv28l/Tr-m-Game-1.png?rlkey=pkw8j9r8xf5phrbwxu8hz5c6o&st=c5roloqt&raw=1">
 </div>
         <div class="caption">Trạm game 1</div>
