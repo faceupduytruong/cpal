@@ -70,12 +70,24 @@ container.innerHTML = `
       </div>
 
  </div>
+ 
+      <!-- Hàng thứ 5 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Two-player Game</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/87/1338/index.html?gameName=%E6%A3%AE%E6%9E%97%E5%86%B0%E7%81%AB%E4%BA%BA-%E7%A5%9E%E5%99%A8%E4%B9%8B%E6%88%98&gameId=1338&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1567222&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/7aeeeeac091ddaecf284510bc798c294.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Cháy rừng và băng giá - Cuộc chiến cổ vật</div>
+      </div>
 
-    <!-- Hàng thứ 5 -->
+ </div>
+
+    <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Gaming Station</h2>
       <div class="image-box">
-  <div onclick="openRightHalfPopup('https://fun.360.cn/category/14', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+  <div onclick="openRightHalfPopup('https://fun.360.cn/?ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi', 'SmartApp Popup', window.innerWidth*2+45, 745)">
           <img src="https://www.dropbox.com/scl/fi/ggoqi0ltuol6dr3wcv28l/Tr-m-Game-1.png?rlkey=pkw8j9r8xf5phrbwxu8hz5c6o&st=c5roloqt&raw=1">
 </div>
         <div class="caption">Trạm game 1</div>
