@@ -49,12 +49,19 @@ container.innerHTML = `
  
       <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">Intellectual Games</h2>
+    <h2 class="row-title">Battle Game</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/55/1090/index.html?gameName=%E6%A8%B1%E8%8A%B1%E6%A0%A1%E5%9B%AD%E6%A8%A1%E6%8B%9F%E5%99%A8&gameId=1090&category=%E6%A8%A1%E6%8B%9F&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550256&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/acc3fa6cd27a61e8aace685b64727556.png_.webp" alt="Ảnh 1">
 </div>
         <div class="caption">Trình mô phỏng trường Sakura</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/56/1257/index.html?gameName=%E8%8D%A3%E8%80%80%E8%8B%B1%E9%9B%84&gameId=1257&category=%E7%AB%9E%E6%8A%80&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1551191&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/03c4dcb3ef98efd46494a61fdaa468f2.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Vinh quang anh hùng</div>
       </div>
 
  </div>
