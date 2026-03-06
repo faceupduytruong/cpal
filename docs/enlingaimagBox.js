@@ -25,10 +25,17 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Architecture Design</h2>
       <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/109717852235362/user/1843794205/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/88g8nafnlqo3lwu88aeyn/AI-Architect.jpg?rlkey=oa8hya03kykf79bv340xpogx2&st=wjwszm02&raw=1">
+  <div onclick="openRightHalfPopup('https://g.360.cn/index.html', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+          <img src="https://www.dropbox.com/scl/fi/p4kxyqtovkjmb7egt541t/Tr-m-Game-1.png?rlkey=yak75kivhufaglm4mgckapjyq&st=l4gpdqzb&raw=1">
 </div>
-        <div class="caption">KTS Cotin</div>
+        <div class="caption">Trạm game 1</div>
+      </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://g.360.cn/zt/summer2017.html', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+          <img src="https://www.dropbox.com/scl/fi/enl69sscfuizkg8xpynyf/Tr-m-Game-2.png?rlkey=seqnl4ajx2noji0c8qkccsd0s&st=3febvw59&raw=1">
+</div>
+        <div class="caption">Trạm game 2</div>
       </div>
       
 </div>
