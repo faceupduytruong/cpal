@@ -26,7 +26,7 @@ container.innerHTML = `
     <h2 class="row-title">Architecture Design</h2>
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://g.360.cn/index.html', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-          <img src="https://www.dropbox.com/scl/fi/p4kxyqtovkjmb7egt541t/Tr-m-Game-1.png?rlkey=yak75kivhufaglm4mgckapjyq&st=l4gpdqzb&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/ggoqi0ltuol6dr3wcv28l/Tr-m-Game-1.png?rlkey=pkw8j9r8xf5phrbwxu8hz5c6o&st=ksq0u4cp&raw=1">
 </div>
         <div class="caption">Trạm game 1</div>
       </div>
