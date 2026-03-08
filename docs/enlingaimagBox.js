@@ -166,6 +166,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/294/3390/index.html?gameName=%E7%81%AB%E6%9F%B4%E4%BA%BA%E7%9F%A5%E9%9A%BE%E8%80%8C%E4%B8%8A&gameId=3390&category=%E7%9B%8A%E6%99%BA&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1648178&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10271_10242_10217_10266_10273_10269_10202&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/d48efb6c3dd67048e9c34d34adbd20a7.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Người que sẵn sàng đối mặt với thử thách</div>
+      </div>
+      
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/58/1167/index.html?gameName=%E5%B0%8F%E8%9B%87%E7%88%B1%E8%8B%B9%E6%9E%9C&gameId=1167&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1551243&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/270e66c559ffb8f3214e4f452ce32c61.png_.webp" alt="Ảnh 1">
 </div>
