@@ -6,20 +6,6 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Easy-to-play Game</h2>    
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/2586/index.html?gameName=%E6%A4%8D%E7%89%A9%E6%89%93%E8%B4%A5%E5%83%B5%E5%B0%B8&gameId=2586&category=%E7%AD%96%E7%95%A5&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://s3m9.mdvdns.com/yiti/84cf099b2e831ee1f0fecfc4c1f081c3.png" alt="Ảnh 1">
-</div>
-        <div class="caption">Cây trồng đánh bại thây ma</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/294/3392/index.html?gameName=%E6%A4%8D%E7%89%A9%E5%A4%A7%E4%B9%B1%E6%96%97&gameId=3392&category=%E7%AD%96%E7%95%A5&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1648178&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://s3m9.mdvdns.com/yiti/6163d20dccc69c3e780dae56ee46ebe2.png_.webp" alt="Ảnh 1">
-</div>
-        <div class="caption">Cây cối đấu với thây ma</div>
-      </div>
-
-      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/87/1705/index.html?gameName=%E9%BB%84%E9%87%91%E7%9F%BF%E5%B7%A5&gameId=1705&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1567222&ad_source=iaa&djsource=F8ljcx&srcid=youyusi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/5b972755d1d2dc0500f94a3b646380aa.png_.webp" alt="Ảnh 1">
 </div>
@@ -40,6 +26,25 @@ container.innerHTML = `
         <div class="caption">Chọn 3 con vật</div>
       </div>
 
+ </div>
+
+        <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Plants & Zoombie</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/2586/index.html?gameName=%E6%A4%8D%E7%89%A9%E6%89%93%E8%B4%A5%E5%83%B5%E5%B0%B8&gameId=2586&category=%E7%AD%96%E7%95%A5&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/84cf099b2e831ee1f0fecfc4c1f081c3.png" alt="Ảnh 1">
+</div>
+        <div class="caption">Cây trồng đánh bại thây ma</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/294/3392/index.html?gameName=%E6%A4%8D%E7%89%A9%E5%A4%A7%E4%B9%B1%E6%96%97&gameId=3392&category=%E7%AD%96%E7%95%A5&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1648178&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/6163d20dccc69c3e780dae56ee46ebe2.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Cây cối đấu với thây ma</div>
+      </div>
+
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/344/index.html?gameName=%E6%A4%8D%E7%89%A9%E6%9A%B4%E6%8F%8D%E5%83%B5%E5%B0%B8&gameId=344&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10261_10272_10241_10216_10266_10273_10270_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/8f9fe70a052db5dda3e33ca72cd405c1.png_.webp" alt="Ảnh 1">
@@ -56,7 +61,7 @@ container.innerHTML = `
 
  </div>
 
-       <!-- Hàng thứ 2 -->
+       <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Arcade Racer</h2>
       <div class="image-box">
@@ -68,7 +73,7 @@ container.innerHTML = `
 
  </div>
  
-      <!-- Hàng thứ 3 -->
+      <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Battle Game</h2>
       <div class="image-box">
@@ -122,7 +127,7 @@ container.innerHTML = `
 
  </div>
 
-      <!-- Hàng thứ 4 -->
+      <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
       <div class="image-box">
@@ -141,7 +146,7 @@ container.innerHTML = `
 
  </div>
  
-      <!-- Hàng thứ 5 -->
+      <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Two-player Game</h2>
       <div class="image-box">
@@ -153,7 +158,7 @@ container.innerHTML = `
 
  </div>
 
-    <!-- Hàng thứ 6 -->
+    <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Gaming Station</h2>
       <div class="image-box">
