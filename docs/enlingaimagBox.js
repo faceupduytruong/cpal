@@ -34,6 +34,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/344/index.html?gameName=%E6%A4%8D%E7%89%A9%E6%9A%B4%E6%8F%8D%E5%83%B5%E5%B0%B8&gameId=344&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10261_10272_10241_10216_10266_10273_10270_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/8f9fe70a052db5dda3e33ca72cd405c1.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Cây cối đánh bại thây ma</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/56/411/index.html?gameName=%E5%90%88%E6%88%90%E6%A4%8D%E7%89%A9%E6%89%93%E5%83%B5%E5%B0%B8&gameId=411&category=%E7%AD%96%E7%95%A5&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1551191&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/3091709c79a2a5fc644af3a3f2f2671e.png" alt="Ảnh 1">
 </div>
