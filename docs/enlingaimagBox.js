@@ -92,6 +92,13 @@ container.innerHTML = `
         <div class="caption">Vinh quang anh hùng</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/131/1623/index.html?gameName=%E5%8F%98%E5%BD%A2%E6%9C%BA%E7%94%B2%E9%BE%99&gameId=1623&category=%E7%AD%96%E7%95%A5&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1586225&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10261_10272_10241_10216_10266_10273_10270_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/7c137e948b58c125416ecd91b2e20fda.png" alt="Ảnh 1">
+</div>
+        <div class="caption">Rồng máy biến hình</div>
+      </div>
+
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/55/1090/index.html?gameName=%E6%A8%B1%E8%8A%B1%E6%A0%A1%E5%9B%AD%E6%A8%A1%E6%8B%9F%E5%99%A8&gameId=1090&category=%E6%A8%A1%E6%8B%9F&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550256&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/acc3fa6cd27a61e8aace685b64727556.png_.webp" alt="Ảnh 1">
