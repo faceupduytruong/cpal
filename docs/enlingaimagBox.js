@@ -46,6 +46,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Plants & Zoombie</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/1955/index.html?gameName=%E5%83%B5%E5%B0%B8%E5%A1%94%E9%98%B2%E6%A4%8D%E7%89%A9&gameId=1955&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10262_10271_10241_10217_10268_10273_10269_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/4f6b8b4479dcb7a212d8136e42703a09.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Cây trong trò chơi phòng thủ tháp zombie</div>
+      </div>
+    
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/2586/index.html?gameName=%E6%A4%8D%E7%89%A9%E6%89%93%E8%B4%A5%E5%83%B5%E5%B0%B8&gameId=2586&category=%E7%AD%96%E7%95%A5&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/84cf099b2e831ee1f0fecfc4c1f081c3.png" alt="Ảnh 1">
 </div>
