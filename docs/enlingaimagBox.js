@@ -53,6 +53,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/3077/index.html?gameName=%E6%A4%8D%E7%89%A9%E5%83%B5%E5%B0%B8%E5%A4%A7%E4%B9%B1%E6%96%97&gameId=3077&category=%E7%AD%96%E7%95%A5&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10262_10271_10242_10217_10267_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/c4448bf9cbaa584f702d0898809a397d.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Cây cối và thây ma</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/294/3392/index.html?gameName=%E6%A4%8D%E7%89%A9%E5%A4%A7%E4%B9%B1%E6%96%97&gameId=3392&category=%E7%AD%96%E7%95%A5&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1648178&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/6163d20dccc69c3e780dae56ee46ebe2.png_.webp" alt="Ảnh 1">
 </div>
@@ -120,7 +127,28 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/294/3428/index.html?gameName=%E7%81%AB%E6%9F%B4%E4%BA%BA%E7%8E%8B%E8%80%85%E5%BD%92%E6%9D%A5&gameId=3428&category=%E5%8A%A8%E4%BD%9C&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1648178&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10271_10242_10217_10266_10273_10269_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/f237a2260b41192a9672393ebe52e13a.png_.webp" alt="Ảnh 1">
 </div>
-        <div class="caption">Vua Người Que Trở Lại</div>
+        <div class="caption">Vua người que trở lại</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/63/index.html?gameName=%E7%81%AB%E6%9F%B4%E4%BA%BA%E5%90%91%E5%89%8D%E5%86%B2&gameId=63&category=%E8%A7%92%E8%89%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10262_10271_10242_10217_10267_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/9b68dbf3eb1bc75ca727f64a029b0ae0.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Người que lao về phía trước</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/104/965/index.html?gameName=%E7%89%B9%E5%B7%A5%E5%A4%A7%E4%B9%B1%E6%96%97&gameId=965&category=%E5%8A%A8%E4%BD%9C&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1573033&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10262_10271_10242_10217_10267_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/8f000c8bc99399433d107a5a15ad8bc1.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Đặc vụ Mayhem</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/56/1464/index.html?gameName=%E6%9C%BA%E6%A2%B0%E6%88%98%E8%AD%A6%E2%85%A1&gameId=1464&category=%E5%86%92%E9%99%A9&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1551191&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10262_10271_10242_10217_10267_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/fac805f7bca804c437c3176b2f4b9297.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">RoboCop II</div>
       </div>
 
       <div class="image-box">
