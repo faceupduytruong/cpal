@@ -6,6 +6,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Structural<br>System</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://chienai.vn/usecases' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/fql7jwghtmisey9hrm6gx/Chi-n-AI.jpg?rlkey=4vu2o5wtdynekd3nc1hijslbe&st=b5fa8ilo&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Chiến AI</div>
+      </div>
+    
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://g2w4om.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2024-04-23/6f953a42-1ccf-47af-8303-c5af5f2e42af.JPEG" alt="Ảnh 1">
 </div>
