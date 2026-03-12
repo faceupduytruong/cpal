@@ -1432,6 +1432,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/baphuuthong/reels/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/du55zmd2mgt29oei3etp5/Ng-H-u-Th-ng.png?rlkey=4daw6vl6s1funmy3zikmzamqt&st=lf91l63j&raw=1">
+</div>
+        <div class="caption">Ngô Hữu Thống</div>
+      </div>      
+
+      <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/2402371183273100/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/2u0jvh0gtiv9mcue0oz4h/SDVN-C-ng-ng-AI-Art.png?rlkey=vuggysg4t5qaxownxm72o0yt0&st=esnnpuah&raw=1">
 </div>
