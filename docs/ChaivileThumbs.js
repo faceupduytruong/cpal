@@ -30,7 +30,7 @@ const folderLinks = {
   },
   'Tiếng Trung Kim Oanh': {
     url: 'https://www.facebook.com/tiengtrungkimoanh/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/z06vhy7zatgk6v7jj6x7p/Ti-ng-Trung-Kim-Oanh.jpg?rlkey=vttyh0snfyo27njjsvof0rxin&st=gw12v474&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/zyxl2rof4933uvk5w1ae1/Ti-ng-Trung-Kim-Oanh.png?rlkey=pu8n4eo6wb6tsm31b1fl5t5mm&st=chuvhw2u&raw=1'
   },
   'Tiếng Trung Giao Tiếp - Molii FM': {
     url: 'https://www.facebook.com/HocTiengTrungCungCoMolii/photos/',
