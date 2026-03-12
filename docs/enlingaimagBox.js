@@ -26,6 +26,13 @@ container.innerHTML = `
         <div class="caption">Zuma 1.0</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/496/index.html?gameName=%E7%8E%A9%E5%85%B7%E9%A3%9E%E6%9C%BA%E4%B9%B1%E6%96%97&gameId=496&category=%E5%86%92%E9%99%A9&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10271_10242_10217_10266_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/2790b61dd372dd089d4e5be02a0db929.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Cuộc ẩu đả máy bay đồ chơi</div>
+      </div>
+
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/1701/index.html?gameName=%E6%B6%88%E6%B6%88%E4%B9%90%E5%A4%A7%E6%8B%9B%E7%89%88&gameId=1701&category=%E7%9B%8A%E6%99%BA&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10261_10272_10241_10216_10266_10273_10270_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/d62106b9bba2a3bb7075172f5743e655.png_.webp" alt="Ảnh 1">
@@ -38,6 +45,13 @@ container.innerHTML = `
        <img src="https://s3m9.mdvdns.com/yiti/ad537f5b3674af79338883b6fb4be077.png_.webp" alt="Ảnh 1">
 </div>
         <div class="caption">Một trận đấu loại trực tiếp</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/85/759/index.html?gameName=%E7%AE%AD%E5%A4%B4%E6%B6%88%E6%B6%88%E6%B6%88&gameId=759&category=%E7%9B%8A%E6%99%BA&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1566586&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10271_10242_10217_10266_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/9c0af89ac1632532b2eb57e667771e02.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Loại bỏ mũi tên</div>
       </div>
 
      <div class="image-box">
