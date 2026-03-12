@@ -1395,7 +1395,7 @@ container.innerHTML = `
 
          <!-- Hàng thứ 34 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">Study Skills For Using AI</h2>
+    <h2 class="row-title">Study Skills For Using AI (Web)</h2>
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://quantrimang.com/ai', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/w8bl7qimmmm2f2nbbc596/Qu-n-tr-m-ng-AI.png?rlkey=es7ccelurk6avhmmx4mingd08&st=rrzm4d2j&raw=1">
@@ -1418,6 +1418,32 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090197215120&sk=reels_tab', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/y9bk0x4xzo790cf7d82gc/M-o-L-m-Ch-K-N-ng-AI.png?rlkey=knsjswisr04suvbcw7rq4mhs4&st=cbqa6jl7&raw=1">
+</div>
+        <div class="caption">Mẹo làm chủ kỹ năng AI</div>
+      </div>
+    
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100086287731832&sk=photos', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/y9q61h13tezmmub1n4879/Chuy-n-v-AI.png?rlkey=q981smdrud3bwfnuiw09pfpca&st=cl8r0k00&raw=1">
+</div>
+        <div class="caption">Chuyện về AI</div>
+      </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/ANCAvn1/reels/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/mpt58iobe7k1xn6y1l6ei/n-Ng-C-ng-AI.jpg?rlkey=kwpk8cu72n27xq071ia13invy&st=3sofa82q&raw=1">
+</div>
+        <div class="caption">Ăn ngủ cùng AI</div>
+      </div>
+
+</div>
+
+         <!-- Hàng thứ 35 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Study Skills For Using AI (Personal)</h2>    
+      <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/@phandonggiang/videos', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/on0tvyof3ovw3z02xuxgi/Phan-ng-Giang-H-c-AI.png?rlkey=3smlpvfs1e0wly75jfsd6u3wt&st=y4rf2wd0&raw=1">
 </div>
@@ -1436,43 +1462,8 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/du55zmd2mgt29oei3etp5/Ng-H-u-Th-ng.png?rlkey=4daw6vl6s1funmy3zikmzamqt&st=lf91l63j&raw=1">
 </div>
         <div class="caption">Ngô Hữu Thống</div>
-      </div>      
-
-      <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/2402371183273100/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/2u0jvh0gtiv9mcue0oz4h/SDVN-C-ng-ng-AI-Art.png?rlkey=vuggysg4t5qaxownxm72o0yt0&st=esnnpuah&raw=1">
-</div>
-        <div class="caption">SDVN - Cộng đồng AI Art</div>
-      </div>
-
-      <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/363657942789633/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/g3g41uz5svpldopw7mm3t/B-nh-D-n-H-c-AI.jpg?rlkey=kjaf2dgvhrsu1it2fwsno63q7&st=1p0a0vbo&raw=1">
-</div>
-        <div class="caption">Bình dân học AI</div>
-      </div>
-
-      <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/ANCAvn1/reels/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/mpt58iobe7k1xn6y1l6ei/n-Ng-C-ng-AI.jpg?rlkey=kwpk8cu72n27xq071ia13invy&st=3sofa82q&raw=1">
-</div>
-        <div class="caption">Ăn ngủ cùng AI</div>
-      </div>
-
-      <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/1015021726107536/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/kar15usnqm1nuqi0ol3ht/S-ng-c-ng-AI.png?rlkey=dvdajp0v8nlzi59xqqo4l39i3&st=527fwcjx&raw=1">
-</div>
-        <div class="caption">Sống cùng AI</div>
-      </div>
-
-      <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090197215120&sk=reels_tab', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/y9bk0x4xzo790cf7d82gc/M-o-L-m-Ch-K-N-ng-AI.png?rlkey=knsjswisr04suvbcw7rq4mhs4&st=cbqa6jl7&raw=1">
-</div>
-        <div class="caption">Mẹo làm chủ kỹ năng AI</div>
-      </div>
-    
+      </div>  
+      
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/cuonghoaai/photos/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/wawbuuqtvifnu36mjoaco/C-ng-H-a-AI.png?rlkey=nvzww8vjc53qa1hlyoogimobm&st=lmjqyo0e&raw=1">
@@ -1487,35 +1478,7 @@ container.innerHTML = `
         <div class="caption">Nguyễn Tất Kiểm - AI Coaching</div>
       </div>
 
-            <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/openaiopen', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/tlntms5tc816ru687ls76/AI-Vi-t-Nam.jpg?rlkey=j1e6a0tngoz8lu31d3n1khzhn&st=3b91s8ks&raw=1">
-</div>
-        <div class="caption">AI Việt Nam</div>
-      </div>
-
-            <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/591054007361950/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/gog08btqlvdt4wt8uvb06/C-m-AI-lo.png?rlkey=su6sxkskswgl8go8jybnc6hvo&st=dgsaszoa&raw=1">
-</div>
-        <div class="caption">Cơm AI lo</div>
-      </div>
-
-            <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100086287731832&sk=photos', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/y9q61h13tezmmub1n4879/Chuy-n-v-AI.png?rlkey=q981smdrud3bwfnuiw09pfpca&st=cl8r0k00&raw=1">
-</div>
-        <div class="caption">Chuyện về AI</div>
-      </div>
-
-            <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/967840744069261/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/f3ma4e01mr6t1d3es9t3j/AI-TH-T-D-C-NG-NG-AI-VI-T-NAM.png?rlkey=ed8qvm7ry8e1r7170x57qrfzd&st=9txcmayo&raw=1">
-</div>
-        <div class="caption">AI thật dễ - Cộng đồng AI Việt Nam</div>
-      </div>
-
-            <div class="image-box">
+          <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/nhatduong.vn/reels/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/qsd50mi09454brlpfyw1h/Nh-t-D-ng-Xo-m-AI.webp?rlkey=hdl25nmcfu7oetpd4xto4orgw&st=g9rfjcup&raw=1">
 </div>
@@ -1529,11 +1492,58 @@ container.innerHTML = `
         <div class="caption">Ngọc Nam (Nam Hệ Thống)</div>
       </div>
 
+</div>
+
+         <!-- Hàng thứ 36 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Study Skills For Using AI (Forum)</h2>
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/967840744069261/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/f3ma4e01mr6t1d3es9t3j/AI-TH-T-D-C-NG-NG-AI-VI-T-NAM.png?rlkey=ed8qvm7ry8e1r7170x57qrfzd&st=9txcmayo&raw=1">
+</div>
+        <div class="caption">AI thật dễ - Cộng đồng AI Việt Nam</div>
+      </div>
+      
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/1015021726107536/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/kar15usnqm1nuqi0ol3ht/S-ng-c-ng-AI.png?rlkey=dvdajp0v8nlzi59xqqo4l39i3&st=527fwcjx&raw=1">
+</div>
+        <div class="caption">Sống cùng AI</div>
+      </div>
+      
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/2402371183273100/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/2u0jvh0gtiv9mcue0oz4h/SDVN-C-ng-ng-AI-Art.png?rlkey=vuggysg4t5qaxownxm72o0yt0&st=esnnpuah&raw=1">
+</div>
+        <div class="caption">SDVN - Cộng đồng AI Art</div>
+      </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/363657942789633/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/g3g41uz5svpldopw7mm3t/B-nh-D-n-H-c-AI.jpg?rlkey=kjaf2dgvhrsu1it2fwsno63q7&st=1p0a0vbo&raw=1">
+</div>
+        <div class="caption">Bình dân học AI</div>
+      </div>
+
             <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61583850737971&sk=photos', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/4xlxdunuzpfzt3h71r4g5/C-ng-ng-Al-Gemini-Canva.webp?rlkey=a8flb2qrtvyo5kyr0onp19f2u&st=96ojoscr&raw=1">
 </div>
         <div class="caption">Cộng đồng Al Gemini - Canva</div>
+      </div>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/openaiopen', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/tlntms5tc816ru687ls76/AI-Vi-t-Nam.jpg?rlkey=j1e6a0tngoz8lu31d3n1khzhn&st=3b91s8ks&raw=1">
+</div>
+        <div class="caption">AI Việt Nam</div>
+      </div>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/591054007361950/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/gog08btqlvdt4wt8uvb06/C-m-AI-lo.png?rlkey=su6sxkskswgl8go8jybnc6hvo&st=dgsaszoa&raw=1">
+</div>
+        <div class="caption">Cơm AI lo</div>
       </div>
 
 </div>
