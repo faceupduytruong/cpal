@@ -1523,6 +1523,13 @@ container.innerHTML = `
       </div>
 
             <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/Namhethong', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/yflndnmxhx1v88jfibxe9/Ng-c-Nam-Nam-H-Th-ng.webp?rlkey=f0b9jkg1ncmxez5yogj1lak95&st=v4ohd2tm&raw=1">
+</div>
+        <div class="caption">Ngọc Nam (Nam Hệ Thống)</div>
+      </div>
+
+            <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61583850737971&sk=photos', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/4xlxdunuzpfzt3h71r4g5/C-ng-ng-Al-Gemini-Canva.webp?rlkey=a8flb2qrtvyo5kyr0onp19f2u&st=96ojoscr&raw=1">
 </div>
