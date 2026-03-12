@@ -50,6 +50,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/trinh.viet.trinh.265984/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/smsq7va4ee4gcnfrqxget/Tr-nh-Vi-t-Trinh.jpg?rlkey=5lsqdyqtxfir65hol8xzrljdv&st=pxetvhrg&raw=1',
   },
+ 'Sức khỏe học đường': {
+    url: 'https://www.facebook.com/suckhoehocduong/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2sfnmarujjctojj4ktp4t/S-c-kh-e-h-c-ng.jpg?rlkey=fq6trymkn1eyxib4l1k6aw62j&st=f7ygmgca&raw=1'
+  },
  'Dược Sĩ Đại Minh': {
     url: 'https://www.youtube.com/@dsdaiminh88/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/gn0edpxb5zk7pl10rkqrw/D-c-S-i-Minh.jpg?rlkey=0hyzegspdwupvccy0sfw9bmxq&st=eo91n1z5&raw=1'
