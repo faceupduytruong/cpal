@@ -132,6 +132,20 @@ container.innerHTML = `
         <div class="caption">Bậc thầy bắn súng chiến trường</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/55/1087/index.html?gameName=%E4%BA%8C%E6%88%98%E5%B0%84%E5%87%BB%E6%A8%A1%E6%8B%9F&gameId=1087&category=%E5%8A%A8%E4%BD%9C&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550256&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10271_10242_10217_10266_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/29990ba37752db0180838b1d4730f1b5.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Mô phỏng bắn súng Thế chiến II</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/1264/index.html?gameName=%E7%8B%99%E5%87%BB%E7%8E%8B%E8%80%85&gameId=1264&category=%E6%A8%A1%E6%8B%9F&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10271_10242_10217_10266_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/dbb9df538ac29a13ba5ed9954362c8a9.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Vua bắn tỉa</div>
+      </div>
+
  </div>
  
       <!-- Hàng thứ 5 -->
