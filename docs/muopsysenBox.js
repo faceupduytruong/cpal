@@ -684,6 +684,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/doclatinhoc/photos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/tj2jllpw8tor9rwukmc2p/Tin-h-c-c-l.png?rlkey=frhre0lp85kvvms5z4oe39i84&st=pql65g9f&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tin học độc lạ</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/tothuhoanblog/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/0zo04yw1a5hn98f94af23/T-Thu-Ho-n.png?rlkey=3sihwar62b002t7wt91bo0mvr&st=uteo4pb8&raw=1" alt="Ảnh 1">
 </div>
@@ -702,6 +709,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/lufu6mprf5pxl9uw12tpq/Th-Thu-t-Excel-Cho-Ng-i-B-n-R-n.png?rlkey=3cd57p117o01omkesk6kccsrb&st=5fmqh7p7&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Thủ Thuật Excel Cho Người Bận Rộn</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100093314204817&sk=photos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/5cy2ibaw1ceqwimecqc6f/Gi-i-Excel.png?rlkey=2dm9492svhpuix9rj987n8owl&st=ieo168l9&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Giỏi Excel</div>
       </div>
 
       <div class="image-box">
