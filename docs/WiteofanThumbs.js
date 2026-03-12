@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@conhan-cncl/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/rogoq2rbbd0m5z4js10ri/C-Nh-n-Ch-L.jpg?rlkey=ugchloyiai6uhkdna11ly01t0&st=c8cxi827&raw=1',
   },
+  'Thuyết Dương Mưu': {
+    url: 'https://www.facebook.com/thuyetduongmuu/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rk71ggyd613sgovcwfqjk/Thuy-t-D-ng-M-u.png?rlkey=ra8susjzipcb8kx9iaitj5l58&st=1rnysyh7&raw=1',
+  },
   'Giàu Tỉnh Thức': {
     url: 'https://www.youtube.com/@giautinhthuc.biquyetthanhcong/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/9uj9uvvt3b6d3fqen4hvw/Gi-u-T-nh-Th-c.jpg?rlkey=unh84z2rje0w6egywg64k87nx&st=e9hpovvh&raw=1',
