@@ -62,6 +62,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/bepnhagiang.official/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/v5hl5nf5wqpnrg7zlr60g/B-p-Nh-Giang.jpg?rlkey=bzv0oj72lf5bg1jmte2ei97u9&st=a4549xgl&raw=1',
   },
+  'Kênh Của Mỹ': {
+    url: 'https://www.facebook.com/kenhcuamy/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/g1gpo8zitmkwaz0s3kyuw/K-nh-C-a-M.jpg?rlkey=v9kqb6bzuko1ruy07win1hv3b&st=vv0z62z9&raw=1',
+  },
   'YÊU BẾP (Esheep Kitchen family)': {
     url: 'https://www.facebook.com/groups/557295677987925/',
     thumbnail: 'https://www.dropbox.com/scl/fi/l4bafpvu1jeh3e2yhi5xk/Y-U-B-P-Esheep-Kitchen-family.jpg?rlkey=2uei1mj67gggqvai08zija3lz&st=21qyiwo2&raw=1',
