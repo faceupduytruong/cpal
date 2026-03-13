@@ -100,6 +100,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1lqc62ak5egssjxe8pyax/1-Ph-t-Khoa-H-c.jpg?rlkey=amr5lcq3ismu9j5otk5x4g4xz&st=cz8z4477&raw=1',
   },
+  'Đi Khám Phá - M97': {
+    url: 'https://www.facebook.com/dikhampham97/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/aoary35htyjdoer7rcl09/i-Kh-m-Ph-M97.png?rlkey=qz5luqj42dkh8yjwotcwucytx&st=6t5qy7fw&raw=1',
+  },
   'Khám Phá Mọi Thứ': {
     url: 'https://www.youtube.com/@khamphamoithu88/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/gw989s4a77jo67j5eikz8/Kh-m-Ph-M-i-Th.avif?rlkey=2hx2u35tsuf85rvobdwwzptcl&st=gip1pyuv&raw=1',
