@@ -48,13 +48,6 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/tailieunganhxaydung', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/llo4z1oheeorbp62d03ff/T-i-Li-u-Ng-nh-X-y-D-ng.png?rlkey=5kwodwlh38ga2giy9c047tdoo&st=3tykgtbk&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Tài Liệu Ngành Xây Dựng</div>
-      </div>
-
-      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/z1e6t97lky6n9yxbkqcwo/X-y-D-ng-DD-CN.png?rlkey=fl4gd2bvrpeoq2vry63r5aem0&st=u1nd32yx&raw=1" alt="Ảnh 1">
 </div>
@@ -101,6 +94,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/b00wbwqkfuherlbak6zdy/Vietnam-Construction-Forum.webp?rlkey=f7b6h524n1qguy2my4zvzr9q6&st=qnoyg9vj&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Vietnam Construction Forum</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/ketcau.khoahoc', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/vhwdcl15l40tj1ca6638m/Kh-a-H-c-K-t-C-u-L-H-ng-KC.png?rlkey=d51j61c3vb7feeil29sn6auuy&st=cvahfl48&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Khóa Học Kết Cấu (Lê Hùng KC)</div>
       </div>
     
 </div>
@@ -372,6 +372,13 @@ container.innerHTML = `
     <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Tải xuống tài liệu BIM</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/tailieunganhxaydung', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/llo4z1oheeorbp62d03ff/T-i-Li-u-Ng-nh-X-y-D-ng.png?rlkey=5kwodwlh38ga2giy9c047tdoo&st=3tykgtbk&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tài Liệu Ngành Xây Dựng</div>
+      </div>
+      
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://tailieukientruc.net/tailieu/home/index/sort/free/page/36.html' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/yam0stppwrk7gn430cna1/T-i-Li-u-Ki-n-Tr-c.png?rlkey=3ngi078t9ip8ke7y8n0l9en3p&st=mboh2tjg&raw=1">
