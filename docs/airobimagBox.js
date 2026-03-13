@@ -1492,6 +1492,20 @@ container.innerHTML = `
         <div class="caption">Ngọc Nam (Nam Hệ Thống)</div>
       </div>
 
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/caovuong', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/myc5jq5wa2ghcth6ub2nj/Cao-Vuong.jpg?rlkey=g534qn62ammxojbnn1k01mha6&st=kk55kf57&raw=1">
+</div>
+        <div class="caption">Cao Vuong</div>
+      </div>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/nguyenthanhrainmaker', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/tnlpiiemtn47uxea6x4f1/Nguy-n-Th-nh-Rainmaker.png?rlkey=yz9cwzuv8xx6gkwf31zoim8nq&st=zjpr0xqr&raw=1">
+</div>
+        <div class="caption">Nguyễn Thành Rainmaker</div>
+      </div>
+
 </div>
 
          <!-- Hàng thứ 36 -->
