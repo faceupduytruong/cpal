@@ -54,6 +54,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/1phutchualanh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5j0gik6bk7xhgfs1gi06d/1-Ph-t-Ch-a-L-nh.jpg?rlkey=06w7u4b3d679veqc6x6n3zdyk&st=w8hu3eel&raw=1',
   },
+  'Hàn Khánh Hòa  (Mr Chữa lành)': {
+    url: 'https://www.facebook.com/hankhanhhoa/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/brxokbrntlwym5a1ff9z9/H-n-Kh-nh-H-a-Mr-Ch-a-l-nh.jpg?rlkey=dnrlk0q1v0mzxo7v2vgcmv1zy&st=7oygjomr&raw=1',
+  },
   'Nhà Mình': {
     url: 'https://www.facebook.com/nhaminhoday/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lz11nrvxdqlttevyvvnuj/Nh-M-nh.jpg?rlkey=h84lblwh26rraoe9bz83rke78&st=6gux36zu&raw=1',
