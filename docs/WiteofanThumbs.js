@@ -22,7 +22,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/tamthaidiemtinh/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/tgi88b6ch3yb1o3n2rett/T-m-th-i-i-m-t-nh.jpg?rlkey=vogilqzn3ow8cmpb9bef24jc9&st=zvpedlma&raw=1',
   },
-  'Thanh Thao Tran': {
+  'Trần Thanh Thảo': {
     url: 'https://www.facebook.com/thanhthao.tran.98284566',
     thumbnail: 'https://www.dropbox.com/scl/fi/14qz9ay0siouuimliscra/Thanh-Thao-Tran.jpg?rlkey=hy9bjvrza3g649ziye30j9hck&st=b2y3q7gm&raw=1',
   },
