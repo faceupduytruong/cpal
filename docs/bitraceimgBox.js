@@ -272,6 +272,13 @@ container.innerHTML = `
 </div>
         <div class="caption">S-House Design</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/KTS.PhamThanhTruyen.CMG' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/pp72fv9b6dbgrvw2qn3i2/Ph-m-Thanh-Truy-n-KTS-N-ng-D-n.webp?rlkey=xh5jc3kpf936a19r5yii0ogh5&st=sh4xoj42&raw=1">
+</div>
+        <div class="caption">Phạm Thanh Truyền (KTS Nông Dân)</div>
+      </div>
             
 </div>
 
