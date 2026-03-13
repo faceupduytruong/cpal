@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@conhan-cncl/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/rogoq2rbbd0m5z4js10ri/C-Nh-n-Ch-L.jpg?rlkey=ugchloyiai6uhkdna11ly01t0&st=c8cxi827&raw=1',
   },
+  'Lối Nhỏ': {
+    url: 'https://www.facebook.com/loinho6868/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o1ha9yt1wfzdgnj895si0/L-i-Nh.jpg?rlkey=e9il82pyzenreuehle7krgfgw&st=js5iaiow&raw=1',
+  },
   'Thuyết Dương Mưu': {
     url: 'https://www.facebook.com/thuyetduongmuu/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/rk71ggyd613sgovcwfqjk/Thuy-t-D-ng-M-u.png?rlkey=ra8susjzipcb8kx9iaitj5l58&st=1rnysyh7&raw=1',
@@ -41,6 +45,14 @@ const folderLinks = {
   'Giàu Tỉnh Thức': {
     url: 'https://www.youtube.com/@giautinhthuc.biquyetthanhcong/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/9uj9uvvt3b6d3fqen4hvw/Gi-u-T-nh-Th-c.jpg?rlkey=unh84z2rje0w6egywg64k87nx&st=e9hpovvh&raw=1',
+  },
+  'Người Trí Thức': {
+    url: 'https://www.facebook.com/nguoitrithuc.sbooks/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h1bkcz9l65j023svp0xjg/Ng-i-Tr-Th-c.png?rlkey=lqu7v7erydrrkm24dzm1fwwru&st=1prp8cry&raw=1',
+  },
+  'Nguyễn Hiến Lê': {
+    url: 'https://www.facebook.com/nguyenhienlelocdinh/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/n0ll2x9924rfvjl7tk5rx/Nguy-n-Hi-n-L.jpg?rlkey=7efkte3nkdbvmhg6k16o3xsqe&st=8d7qpjzf&raw=1',
   },
   'Chân Trời Tri Thức': {
     url: 'https://www.youtube.com/@Hello.ChanTroiTriThuc/shorts',
