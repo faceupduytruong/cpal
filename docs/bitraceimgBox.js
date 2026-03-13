@@ -27,34 +27,6 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/user/100024795782340/', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/54v9qmja9ymfmhopaot4n/T-o-Th-o.png?rlkey=lrpzv8w8hp2d5byi5n6eabd92&st=pn6pksdw&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Tào Tháo</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61586017385815', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/1u70d6zcz3oepgqvskruc/H-i-Th-ch-H-c-Ketcausoft.png?rlkey=8oekf1z6ju3q4c5o31mu4p5kz&st=vgqjuktm&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Hội Thích Học Ketcausoft</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090272299011', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/fi8or52a154dbgge46pr7/Kho-H-c-X-y-D-ng-K-t-C-u-D-To-n.ico?rlkey=8vxsipwvzzzk71texsau0z0tf&st=022bv3he&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Khoá Học Xây Dựng Kết Cấu - Dự Toán</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/z1e6t97lky6n9yxbkqcwo/X-y-D-ng-DD-CN.png?rlkey=fl4gd2bvrpeoq2vry63r5aem0&st=u1nd32yx&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Xây Dựng DD & CN</div>
-      </div>
-
-      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61557186504215', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/oxetsb1efqefl1cgcbofv/K-t-C-u-X-y-D-ng-4.0.png?rlkey=3fscp9xa9wr3qfmtzyqhhdbgu&st=pkz8hupk&raw=1" alt="Ảnh 1">
 </div>
@@ -96,6 +68,39 @@ container.innerHTML = `
         <div class="caption">Vietnam Construction Forum</div>
       </div>
 
+</div>
+
+      <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Khóa học kết cấu</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61586017385815', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/1u70d6zcz3oepgqvskruc/H-i-Th-ch-H-c-Ketcausoft.png?rlkey=8oekf1z6ju3q4c5o31mu4p5kz&st=vgqjuktm&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hội Thích Học Ketcausoft</div>
+      </div>
+      
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/z1e6t97lky6n9yxbkqcwo/X-y-D-ng-DD-CN.png?rlkey=fl4gd2bvrpeoq2vry63r5aem0&st=u1nd32yx&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Xây Dựng DD & CN</div>
+      </div>
+      
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/366243995481949/user/100024795782340/', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/54v9qmja9ymfmhopaot4n/T-o-Th-o.png?rlkey=lrpzv8w8hp2d5byi5n6eabd92&st=pn6pksdw&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tào Tháo</div>
+      </div>
+      
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090272299011', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/fi8or52a154dbgge46pr7/Kho-H-c-X-y-D-ng-K-t-C-u-D-To-n.ico?rlkey=8vxsipwvzzzk71texsau0z0tf&st=022bv3he&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Khoá Học Xây Dựng Kết Cấu - Dự Toán</div>
+      </div>
+      
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/ketcau.khoahoc', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/vhwdcl15l40tj1ca6638m/Kh-a-H-c-K-t-C-u-L-H-ng-KC.png?rlkey=d51j61c3vb7feeil29sn6auuy&st=cvahfl48&raw=1" alt="Ảnh 1">
@@ -105,7 +110,7 @@ container.innerHTML = `
     
 </div>
 
-      <!-- Hàng thứ 2 -->
+      <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">AutoCAD</h2>
   <div class="image-box">
@@ -138,7 +143,7 @@ container.innerHTML = `
      
 </div>
 
-     <!-- Hàng thứ 3 -->
+     <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Structure</h2>
       <div class="image-box">
@@ -192,7 +197,7 @@ container.innerHTML = `
    
 </div>
 
-    <!-- Hàng thứ 4 -->
+    <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Architecture</h2>
   <div class="image-box">
@@ -225,7 +230,7 @@ container.innerHTML = `
     
 </div>
 
-    <!-- Hàng thứ 5 -->
+    <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Models</h2>
   <div class="image-box">
@@ -244,7 +249,7 @@ container.innerHTML = `
       
 </div>
 
-    <!-- Hàng thứ 6 -->
+    <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Building Home</h2>
   <div class="image-box">
@@ -270,7 +275,7 @@ container.innerHTML = `
             
 </div>
 
-    <!-- Hàng thứ 7 -->
+    <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Decor</h2>
   <div class="image-box">
@@ -338,7 +343,7 @@ container.innerHTML = `
     
 </div>
 
-    <!-- Hàng thứ 8 -->
+    <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Quản lý dự án</h2>
   <div class="image-box">
@@ -357,7 +362,7 @@ container.innerHTML = `
           
 </div>
 
-    <!-- Hàng thứ 9 -->
+    <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Kiến thức BIM</h2>
   <div class="image-box">
@@ -369,7 +374,7 @@ container.innerHTML = `
           
 </div>
 
-    <!-- Hàng thứ 10 -->
+    <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Tải xuống tài liệu BIM</h2>
       <div class="image-box">
