@@ -70,6 +70,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/envocabulary/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/bsf107i7uvgx7jp54ybct/English-Vocabulary.jpg?rlkey=kfejpbdy5yftcrh6fjqmh80u3&st=bh4ue2u0&raw=1',
   },
+  'English Canbe': {
+    url: 'https://www.facebook.com/englishcanbe/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/juh5csgpl6wh5npsef75x/English-Canbe.jpg?rlkey=eze9gw6b90xco2yyzxxaiqe8u&st=4b2tuurn&raw=1'
+  },
   'English Planet': {
     url: 'https://www.facebook.com/groups/3234236886616750/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/zczi2iwnypgdjz4rzx0nf/Learn-English-Effortlessly.jpg?rlkey=bvjad16wowgbdl0e6xvpbym5n&st=56av0ya8&raw=1'
