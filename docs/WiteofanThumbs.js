@@ -18,7 +18,7 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
   },
-  'Tâm thái điềm tĩnh': {
+  'Tâm Thái Điềm Tĩnh': {
     url: 'https://www.facebook.com/tamthaidiemtinh/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/tgi88b6ch3yb1o3n2rett/T-m-th-i-i-m-t-nh.jpg?rlkey=vogilqzn3ow8cmpb9bef24jc9&st=zvpedlma&raw=1',
   },
@@ -34,7 +34,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/thuyetduongmuu/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/rk71ggyd613sgovcwfqjk/Thuy-t-D-ng-M-u.png?rlkey=ra8susjzipcb8kx9iaitj5l58&st=1rnysyh7&raw=1',
   },
-  'Minh triết phương Đông': {
+  'Minh Triết Phương Đông': {
     url: 'https://www.facebook.com/TusachMinhtrietphuongDongSbooks/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/q0xl6suz9v624mkg1vr8p/Minh-tri-t-ph-ng-ng.png?rlkey=j2xbnh869fh9zhxy5bat5haq4&st=7jx9ftpy&raw=1',
   },
