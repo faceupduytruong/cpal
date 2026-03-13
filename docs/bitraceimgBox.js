@@ -366,6 +366,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Coach Hoàng Phúc</div>
       </div>
+      
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/khoe.nguyen.503' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/dw4v0qt5aymsiy9t4fzzz/KS-Kh-e.png?rlkey=9nt8flz2t81r4z5813s9wjfjq&st=5pvi9gkn&raw=1">
+</div>
+        <div class="caption">KS Khỏe</div>
+      </div>
           
 </div>
 
