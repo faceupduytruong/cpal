@@ -393,6 +393,18 @@ container.innerHTML = `
           
 </div>
 
+    <!-- Hàng thứ 12 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Hạ tầng kỹ thuật</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/bim.edu.vn', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ildjfj9x0dinayb56gyc4/BIM-H-N-i-Autodesk-Civil-3D.png?rlkey=5s7lssc3dq4cmduox5k59yxrr&st=4plf2g3k&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">BIM Hà Nội (Autodesk Civil 3D)</div>
+      </div>
+          
+</div>
+
 `;
 
 // Thêm vào DOM
