@@ -737,13 +737,6 @@ container.innerHTML = `
       </div>    
 
   <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/caovuong/photos/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/su0ptg55hk74dd4gaw2f7/Cao-Vuong.png?rlkey=z62kz3a5gie7e2j22xymuld80&st=6roftjf9&raw=1">
-</div>
-        <div class="caption">Cao Vương</div>
-      </div>
-
-  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.damtaicap.net/search/label/N%E1%BB%81n%20t%E1%BA%A3ng%20AI' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/jcjspdruf7g2bsvahblcx/m-T-i-Cap-AI.png?rlkey=a8qw0r76z6jvt2n76tuoprjn6&st=94dr1hbw&raw=1">
 </div>
@@ -1492,11 +1485,11 @@ container.innerHTML = `
         <div class="caption">Ngọc Nam (Nam Hệ Thống)</div>
       </div>
 
-            <div class="image-box">
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/caovuong', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/tbxfw6p00cqryplvamonl/Cao-Vuong.webp?rlkey=645e623b7wn5ksanlx9mbaizh&st=mqwnl0sw&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/su0ptg55hk74dd4gaw2f7/Cao-Vuong.png?rlkey=z62kz3a5gie7e2j22xymuld80&st=6roftjf9&raw=1">
 </div>
-        <div class="caption">Cao Vuong</div>
+        <div class="caption">Cao Vương</div>
       </div>
 
             <div class="image-box">
