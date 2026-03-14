@@ -84,6 +84,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@PhiH%C3%A0nhGiaRuNg%E1%BB%A72025/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/pcfce1ylzb08nnchmhew5/Phi-H-nh-Gia-Ru-Ng.webp?rlkey=fsth3qrsbbtja08oo18zqsfzj&st=hci5ztgd&raw=1',
   },
+  'Thanh Niên Ký - Tổng Hợp': {
+    url: 'https://www.facebook.com/84thanhnienky/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/do90pw7zqnkc6fz06i8ri/Thanh-Ni-n-K-T-ng-H-p.jpg?rlkey=sng8xqde1h2b9781k6w78i8x2&st=ihuj59vx&raw=1',
+  },
   'Đột Phá Tri Thức': {
     url: 'https://www.youtube.com/@dotphatrithuc/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/t-Ph-Tri-Th-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=x9ui7pat&raw=1',
