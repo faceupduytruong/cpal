@@ -62,5 +62,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/DIENGIA.DOTAM/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7qr1px9jjuhsd1g7xcc55/T-m.jpg?rlkey=ejnyrur500jw4r4qjs4f8vs4e&st=g7b2cmyh&raw=1',
   },
+  'Bài học ý nghĩa cuộc sống': {
+    url: 'https://www.facebook.com/profile.php?id=61551444937998&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hbjmy4idl8zklbnjbtdai/B-i-h-c-ngh-a-cu-c-s-ng.png?rlkey=uwgy9w7fg0b3f8r17h6fqm8er&st=j0xd98b5&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
