@@ -26,13 +26,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/Dinhngochieu888/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ep2u3u9k4f15i9rbrb6uu/inh-Ng-c-Hi-u.jpg?rlkey=rakueu9fz4qrf37u5qqyizqzm&st=6mxpx6ow&raw=1',
   },
+  'Vũ Minh Thúy': {
+    url: 'https://www.facebook.com/MinhThuyVuOfficial/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s6vs8pbn2rhzumqhwkihp/V-Minh-Th-y.jpg?rlkey=tqdpvi9qz35loc54g2d9xgivm&st=ssdi44ic&raw=1',
+  },
   'Mr. CoBy': {
     url: 'https://www.youtube.com/@mrcoby79/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/otolpyow4x66e5o6y2o91/Mr.-CoBy.jpg?rlkey=jv4mdxuc7lhhjo7wl160sothh&st=ow2qa99q&raw=1',
-  },
-  'Bài học ý nghĩa cuộc sống': {
-    url: 'https://www.facebook.com/profile.php?id=61551444937998&sk=photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/hbjmy4idl8zklbnjbtdai/B-i-h-c-ngh-a-cu-c-s-ng.png?rlkey=uwgy9w7fg0b3f8r17h6fqm8er&st=j0xd98b5&raw=1',
   },
   'Tâm Lý Học Đám Đông': {
     url: 'https://www.facebook.com/tamlihocdamdong',
