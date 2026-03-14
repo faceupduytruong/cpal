@@ -54,6 +54,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/trangduonghyvong/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/rjo39drvm8xtfg7zaryh5/ng-Hy-V-ng.jpg?rlkey=4e789wcnitcg9sup4yeudkqxq&st=y74gn9yc&raw=1',
   },
+  'Hoa Quỳnh Nở 00.00': {
+    url: 'https://www.facebook.com/hoaquynh000/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9nd3odqdgbmcom0uujl8m/Hoa-Qu-nh-N-00.00.jpg?rlkey=751211t1clnhbv5qg2aifgl64&st=9toq6h5r&raw=1',
+  },
   'Ông Già Đầu Bạc': {
     url: 'https://www.facebook.com/profile.php?id=100090803640643&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/16z2ohzzahl5vi8vevhd2/ng-Gi-u-B-c.jpeg?rlkey=mzgaqjjol5qkbjalicay7i416&st=jgj94jdh&raw=1',
@@ -62,13 +66,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/mentormauthuy/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/x6qct16mnpk5v0is5wkw7/M-u-Thanh-Th-y.webp?rlkey=ugxf08fnz750nh3kcupmewo2p&st=yytzpw0f&raw=1',
   },
-  'Hoa Quỳnh Nở 00.00': {
-    url: 'https://www.facebook.com/hoaquynh000/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/9nd3odqdgbmcom0uujl8m/Hoa-Qu-nh-N-00.00.jpg?rlkey=751211t1clnhbv5qg2aifgl64&st=9toq6h5r&raw=1',
-  },
   'Nguyễn Viết Thắng': {
     url: 'https://www.facebook.com/thang.nguyenviet.50309/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jxbq499dpdh5xajtxjfgz/Nguy-n-Vi-t-Th-ng.jpg?rlkey=7317yuycdw8p47vpmbvfiiq19&st=2x1qkp6e&raw=1',
+  },
+  'Nguyễn Quốc Huy': {
+    url: 'https://www.facebook.com/profile.php?id=100057123893426&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vy5y5g5u0g74wiqrdqdd7/Nguy-n-Qu-c-Huy.jpg?rlkey=689l5wdr807syethhqqi857wg&st=jb9xhc6g&raw=1',
   },
   'Bích Diễm': {
     url: 'https://www.facebook.com/bich.diem.997156/reels/',
@@ -189,6 +193,10 @@ const folderLinks = {
   'Lê Viết Hợp': {
     url: 'https://www.facebook.com/buno.viethop/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/fwqz63n51tyizmunpk4k2/L-Vi-t-H-p.webp?rlkey=zjt30ca1yab21jtyasf6icw7n&st=hwwqc685&raw=1',
+  },
+  'Nguyễn Xuân Thu': {
+    url: 'https://www.facebook.com/Hoanganhtuantk',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gck3ebhbb18r3bufsbnw2/Nguy-n-Xu-n-Thu.png?rlkey=oxazjmk9gsg3b66ejz6il39nr&st=f4xrh86a&raw=1',
   },
   'Khevin - Sống Tử Tế': {
     url: 'https://www.facebook.com/profile.php?id=61584331948562&sk=photos',
