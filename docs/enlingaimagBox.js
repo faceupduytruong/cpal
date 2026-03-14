@@ -54,6 +54,13 @@ container.innerHTML = `
         <div class="caption">Loại bỏ mũi tên</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/58/692/index.html?gameName=%E6%98%9F%E6%98%9F%E6%B6%88%E6%B6%88%E4%B9%90&gameId=692&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1551243&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10272_10217_10265_10273_10270_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/9e3c17d398afadb5ce605d2edfb453aa.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Loại trừ ngôi sao</div>
+      </div>
+
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/1024/index.html?gameName=%E6%89%93%E5%B7%A5%E4%BA%BA%E7%94%9F%E6%B4%BB%E6%A8%A1%E6%8B%9F&gameId=1024&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10261_10272_10241_10216_10266_10273_10270_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/daed1b78c5010f50f89ec115bbbc2776.png_.webp" alt="Ảnh 1">
@@ -132,6 +139,13 @@ container.innerHTML = `
        <img src="https://s3m9.mdvdns.com/yiti/7c397f89f2ee24f8402c2b4488061a0d.png_.webp" alt="Ảnh 1">
 </div>
         <div class="caption">Xe máy hoang dã</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/2085/index.html?gameName=%E8%B6%8A%E9%87%8E%E7%8B%82%E9%A3%99&gameId=2085&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10272_10243_10217_10265_10273_10270_10200&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/1d43271736a6c86b236deec7dbdc0217.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Đua xe địa hình</div>
       </div>
 
  </div>
