@@ -30,10 +30,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/trieu.may99/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/nphsksbt97irbv9ucnecg/Tri-u-Th-M-y-T-nh-T-m.png?rlkey=r9dy1ag8cct0s60aqccp0dsku&st=vuj7c2cr&raw=1',
   },
-  'Kho Tàng Kiến Thức': {
-    url: 'https://www.facebook.com/profile.php?id=61551132006208&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/t89hqnysnydykfpfenh4i/KHO-T-NG-KI-N-TH-C-Ng-c-H-ng-Y-Qu-n.jpg?rlkey=xsuh9u4h36q50ti06e9oeq87v&st=wlo4httr&raw=1',
-  },
   'Tuyen saphia': {
     url: 'https://www.facebook.com/tuyensaphia92/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/dn6a9uh4amouq0av05abz/Tuyen-saphia.jpg?rlkey=7nhtqnh6f6go28ffy1mxxjhf9&st=ifii00ox&raw=1',
