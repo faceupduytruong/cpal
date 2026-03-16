@@ -94,7 +94,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/Quynh.Meothantai96/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/egqzjfxbib9r23onbqyi6/Qu-nh-Chia-S-C-n-B-ng-Chuy-n-Ho.png?rlkey=fcd7xq47rmeg4a8tckp866yoy&st=xogkyxgm&raw=1',
   },
-  'Nguyen Thu Hằng': {
+  'Nguyễn Thu Hằng': {
     url: 'https://www.facebook.com/nguyenthuhang.240890/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/541hxtsed0gnlt0we2rgu/Nguy-n-Thu-H-ng.webp?rlkey=5ru256c674jech0k64pnvzaxk&st=57fgluj2&raw=1',
   },
