@@ -74,6 +74,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/trang.down.2025/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ubrwjyz83xxzj2z5q70ua/Tr-ng-ao.jpg?rlkey=ivud84iko07t1m2oh46gdhxda&st=jncwbufl&raw=1',
   },
+  'Kho Tàng Kiến Thức': {
+    url: 'https://www.facebook.com/profile.php?id=61551132006208&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/t89hqnysnydykfpfenh4i/KHO-T-NG-KI-N-TH-C-Ng-c-H-ng-Y-Qu-n.jpg?rlkey=xsuh9u4h36q50ti06e9oeq87v&st=wlo4httr&raw=1',
+  },
   'BS Nguyễn Khoa Bình (Sức Khỏe Nam Giới)': {
     url: 'https://www.facebook.com/nguyen.brandon.921/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5ltjc9a2uy1vld6p3t5nd/Nguyen-Brandon-BS-Nguy-n-Khoa-B-nh.jpg?rlkey=1a8t62jiwgzhuur1or25ney34&st=yvjfvuub&raw=1',
@@ -101,6 +105,10 @@ const folderLinks = {
   'Trinh Huỳnh': {
     url: 'https://www.facebook.com/trinhhuynhdangxinh101/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2viv9ww5jai4c85ajpoi7/Trinh-Hu-nh.webp?rlkey=he0glnnjx51ssoavm0vmx4qwq&st=80rbvos3&raw=1',
+  },
+  'Khỏe Đẹp Cùng Thanh Nga': {
+    url: 'https://www.facebook.com/khoedepthanhnga/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/srl4h972aq065epoeayek/Kh-e-p-C-ng-Thanh-Nga.avif?rlkey=4woqkk7bee9h0bx83sza6ghw8&st=yy1i050f&raw=1',
   },
   'Bác Sĩ Đinh Hải': {
     url: 'https://www.facebook.com/profile.php?id=61581433843264&sk=reels_tab',
