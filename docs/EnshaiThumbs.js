@@ -126,7 +126,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/1190947588828922/media/',
     thumbnail: 'https://www.dropbox.com/scl/fi/gaw18sei2hyk8hilbjz1u/FREE-ENGLISH-COURSES.jpg?rlkey=72ff87v01524v6sp7aw7vzrdl&st=1zn1mn1g&raw=1',
   },
-  "LET'S LEARN ENGLISH (APPRENONS L'ANGLAIS)": {
+  "LET'S LEARN ENGLISH": {
     url: 'https://www.facebook.com/groups/415435771990553/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ovx62gspdi6giiiidgjcp/LET-S-LEARN-ENGLISH-APPRENONS-L-ANGLAIS.jpg?rlkey=yb9p61sdd1jzilk449zoemwf5&st=wte0flmq&raw=1',
   },
@@ -142,7 +142,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/503186386034982/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8h4b2v8zwnkv18hg9pw2t/English-worksheet.jpg?rlkey=89hx0h53q3agqzut2vyo9o566&st=7sh71d0d&raw=1',
   },
-  'Kids Education - Alphabet, Numbers & More': {
+  'Kids Edu - Alphabet, Numbers & More': {
     url: 'https://www.facebook.com/profile.php?id=100094537200262&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vtfhtqx897sd8if9ggc8j/Kids-Education-Alphabet-Numbers-More.png?rlkey=r24n87hjp7nti14oqtq5mwnln&st=lw4ql4wf&raw=1',
   },
