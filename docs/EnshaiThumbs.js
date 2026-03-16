@@ -142,5 +142,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/503186386034982/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8h4b2v8zwnkv18hg9pw2t/English-worksheet.jpg?rlkey=89hx0h53q3agqzut2vyo9o566&st=7sh71d0d&raw=1',
   },
+  'Kids Education - Alphabet, Numbers & More': {
+    url: 'https://www.facebook.com/profile.php?id=100094537200262&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vtfhtqx897sd8if9ggc8j/Kids-Education-Alphabet-Numbers-More.png?rlkey=r24n87hjp7nti14oqtq5mwnln&st=lw4ql4wf&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
