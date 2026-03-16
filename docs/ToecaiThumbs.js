@@ -24,6 +24,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/toeicmax/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/85o0zkoz0lfyo0bzhwlzk/TOEIC-Max.png?rlkey=8h69bqibwzjg06sqmltjudnb8&st=mththyob&raw=1',
   },
+ 'TOEIC Leon': {
+    url: 'https://www.facebook.com/Leontoeic/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/85o0zkoz0lfyo0bzhwlzk/TOEIC-Max.png?rlkey=8h69bqibwzjg06sqmltjudnb8&st=mththyob&raw=1',
+  },
  'ZIM Academy': {
     url: 'https://www.facebook.com/zim.school/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/zuavbvfm8hlgr55v6uz9q/ZIM-Academy.jpg?rlkey=lwieekm822mb25i53o6z9dyht&st=w8dap899&raw=1',
@@ -38,7 +42,7 @@ const folderLinks = {
   },
  'Cộng đồng tự học TOEIC trên STUDY4': {
     url: 'https://www.facebook.com/groups/517057750992723/media',
-    thumbnail: 'https://smartcom.vn/wp-content/uploads/2024/05/toeic-smartcom-english_optimized.jpg',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ddxynilb840p80jr6gr6z/C-ng-ng-t-h-c-TOEIC-tr-n-STUDY4.webp?rlkey=q7k4gycc34tfksg6g3vv06g4c&st=pet1zw9i&raw=1',
   },
  'TOEIC Ứng Dụng - Toeicungdung.vn': {
     url: 'https://www.facebook.com/toeicungdung/photos',
