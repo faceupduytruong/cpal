@@ -26,7 +26,7 @@ const folderLinks = {
   },
  'TOEIC Leon': {
     url: 'https://www.facebook.com/Leontoeic/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/85o0zkoz0lfyo0bzhwlzk/TOEIC-Max.png?rlkey=8h69bqibwzjg06sqmltjudnb8&st=mththyob&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/g41j64wb3zkvj7e97jkhp/TOEIC-Leon.webp?rlkey=npiiryl3mdmxyyl4tx18v1ont&st=fmdi83e9&raw=1',
   },
  'ZIM Academy': {
     url: 'https://www.facebook.com/zim.school/photos',
