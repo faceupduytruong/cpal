@@ -26,7 +26,7 @@ const folderLinks = {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/English/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/wpqrl5k1l64e5239sz01r/S-ch-Ti-ng-Anh.jpg?rlkey=9xuwl8m065d5km0dmdd31xe4d&st=pxshuwio&raw=1'
   },
-  'Google': {
+  'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/lhjr9olvbwg0vy3q0hlna/Google-Translate.webp?rlkey=jypud322b4z68dladqetnxcok&st=2ynt7066&raw=1'
   },
@@ -50,7 +50,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/learningtreasure5/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/qqqmzguucjnxd03v6mmdk/Learning-Treasure.jpg?rlkey=kijt48ioj9hzsm2s8m51nobqi&st=hmuptsf6&raw=1'
   },
-  'Effortless English Center (FREE Posts)': {
+  'Effortless English Center (Free Posts)': {
     url: 'https://www.facebook.com/groups/effortlessenglishcenter/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/ohezz7nu2v4zarzq51q38/Effortless-English-Center-FREE-Posts.jpg?rlkey=bkset48a2d68n2lajex8nvrli&st=8jeqkskg&raw=1'
   },
