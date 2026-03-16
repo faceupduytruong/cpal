@@ -1,6 +1,6 @@
 const customThumbnails = {
   'Creative English - Bao Đỗ TOEIC': 'https://manifestedharmony.com/wp-content/uploads/2014/04/creativity1.jpg',
-  'Nguyễn Đức English': 'https://www.englishguru.com/blog/wp-content/uploads/2022/12/Is-It-Really-Possible-to-Learn-English-Online.jpg',
+  'Nguyễn Đức English': 'https://www.dropbox.com/scl/fi/lh778t4byjih51tndd4k2/Nguy-n-c-English.webp?rlkey=vj6v6lec4w3am0wmvf4kr8xdv&st=f6pqumkz&raw=1',
   // thêm các mục khác nếu cần
 };
 
