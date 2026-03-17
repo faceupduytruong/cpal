@@ -202,6 +202,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/51TalkVietnam/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/y514ajxaxnfrwsavr6ou8/51Talk-Vi-t-Nam.png?rlkey=zd97llig89b92acx087m6sf04&st=hp5ygng2&raw=1'
   },
+  'Kỹ Năng Dạy Tiếng Anh Cho Trẻ': {
+    url: 'https://www.facebook.com/profile.php?id=61578164143682',
+    thumbnail: 'https://www.dropbox.com/scl/fi/co2ha8oh21ezhpobk31b7/K-n-ng-d-y-ti-ng-Anh-cho-tr.jpg?rlkey=fc6f8hghmuel9vdc6q4w0oruu&st=awhmg92z&raw=1'
+  },
   'Anki Support Vietnam': {
     url: 'https://www.facebook.com/AnkiSupportVietnam',
     thumbnail: 'https://www.dropbox.com/scl/fi/yssc5t5x7c8agcpsb4bwg/Anki-Support-Vietnam.avif?rlkey=v2ukkbqo18l15n4tzew8ptpyp&st=8c9xs7cj&raw=1'
