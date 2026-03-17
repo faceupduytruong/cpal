@@ -70,6 +70,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/chia.se.phat.phap.952865/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2hcwyg1hltjj99ml0fhap/Chia-S-Ph-t-Ph-p.jpg?rlkey=i5bypfvpmn73xedffluk82o5y&st=arvzs7wm&raw=1',
   },
+  'Đạo Phật trong trái tim tôi': {
+    url: 'https://www.facebook.com/DaoPhatTrongTraiTimToi/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lzve20yg0jokv3g9fs9cg/o-Ph-t-trong-tr-i-tim-t-i.jpg?rlkey=dlsk2bsvn2ukypnujqaeb0kuv&st=2o5n28of&raw=1',
+  },
   'Lạc Thích Quen': {
     url: 'https://www.facebook.com/profile.php?id=61585481250950&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/h0rjc8a0xahtvd0xt0hlg/L-c-Th-ch-Quen.jpg?rlkey=sicn8gi4lepq292jamaba2sjh&st=j1f0dy3i&raw=1',
