@@ -70,7 +70,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/chia.se.phat.phap.952865/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2hcwyg1hltjj99ml0fhap/Chia-S-Ph-t-Ph-p.jpg?rlkey=i5bypfvpmn73xedffluk82o5y&st=arvzs7wm&raw=1',
   },
-  'Đạo Phật trong trái tim tôi': {
+  'Đạo Phật Trong Trái Tim Tôi': {
     url: 'https://www.facebook.com/DaoPhatTrongTraiTimToi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lzve20yg0jokv3g9fs9cg/o-Ph-t-trong-tr-i-tim-t-i.jpg?rlkey=dlsk2bsvn2ukypnujqaeb0kuv&st=2o5n28of&raw=1',
   },
