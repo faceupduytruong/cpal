@@ -107,6 +107,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Khóa Học Kết Cấu (Lê Hùng KC)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61585012349738', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/4gldja7qucx1ihu2uczv1/Kh-a-H-c-Online-Cho-Ng-i-i-L-m.ico?rlkey=nsdzwm436dxvf53twlv0blynk&st=i1qce4oj&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Khóa Học Online Cho Người Đi Làm</div>
+      </div>
     
 </div>
 
