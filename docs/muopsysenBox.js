@@ -240,12 +240,19 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/1571398116433030/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/jazjk2nnms2u5x5coyja6/Hackintosh-The-OS-X-on-PC-World.png?rlkey=u3wgrxx1vgg2kpw283f6h0wpa&st=8sefl8fs&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hackintosh - The OS X on PC World</div>
+      </div>
+
+     <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/5788317445/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/0fmijdhn1a4lkf5821r1v/Hackintosh.png?rlkey=pye41j6sykosibiskms9lrp4v&st=k9webkdt&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Hackintosh</div>
       </div>
-     
+    
 </div>
 
      <!-- Hàng thứ 4 -->
