@@ -712,6 +712,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/TuyetDinhExcel/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/e4unppe8ma8vou2orrye9/Tuy-t-nh-Excel.webp?rlkey=j6xqi36srqxjmggvp77p3lo6b&st=9hj377i7&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tuyệt Đỉnh Excel</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100093314204817&sk=photos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/5cy2ibaw1ceqwimecqc6f/Gi-i-Excel.png?rlkey=2dm9492svhpuix9rj987n8owl&st=ieo168l9&raw=1" alt="Ảnh 1">
 </div>
