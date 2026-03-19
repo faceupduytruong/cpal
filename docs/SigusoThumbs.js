@@ -54,6 +54,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/trammachuonglai/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/mhv2arih1xnjeprzw7i4b/Tr-m-M-c-Hu-ng-Lai.png?rlkey=nzyuwe5ce4kt8ki0nzy0ias6p&st=lczs6pqs&raw=1',
   },
+  'Anh Chi -Tâm Thức Việt': {
+    url: 'https://www.facebook.com/anhchitamthucviet/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/y1osqt8dbhzyo9lh1jnez/Anh-Chi-T-m-Th-c-Vi-t.jpg?rlkey=p41bd7fc8cao5lelvnlihy5w5&st=cevjp671&raw=1',
+  },
   'Anh Fumi': {
     url: 'https://www.facebook.com/anhfumi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0mygky1z85tcvshu1844c/Anh-Fumi.jpg?rlkey=sbeej6k1hy82izx2v9bdazk0p&st=utlvfra7&raw=1',
