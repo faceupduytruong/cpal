@@ -82,5 +82,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/ngoba.luc.3/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1d0hi4m92qyzmiol99kzh/Ng-B-L-c.png?rlkey=gknnwrdkbewg7fxi1zl65j7dl&st=abmgkir7&raw=1',
   },
+  'Thanh Đạt (Skyland Dolls)': {
+    url: 'https://www.facebook.com/swan.black.370/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xbp4s0qne2a9usdjskz1v/Thanh-t-Skyland-Dolls.jpg?rlkey=b644cvyrvbo0m4ad2k3hpzk6u&st=be80n080&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
