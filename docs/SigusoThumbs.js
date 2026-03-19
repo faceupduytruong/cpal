@@ -18,5 +18,57 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
   },
+  'Hoa Quỳnh Nở 00.00': {
+    url: 'https://www.facebook.com/hoaquynh000/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9nd3odqdgbmcom0uujl8m/Hoa-Qu-nh-N-00.00.jpg?rlkey=751211t1clnhbv5qg2aifgl64&st=9toq6h5r&raw=1',
+  },
+  'Ông Già Đầu Bạc': {
+    url: 'https://www.facebook.com/profile.php?id=100090803640643&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/16z2ohzzahl5vi8vevhd2/ng-Gi-u-B-c.jpeg?rlkey=mzgaqjjol5qkbjalicay7i416&st=jgj94jdh&raw=1',
+  },
+  'Mâu Thanh Thủy': {
+    url: 'https://www.facebook.com/mentormauthuy/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/x6qct16mnpk5v0is5wkw7/M-u-Thanh-Th-y.webp?rlkey=ugxf08fnz750nh3kcupmewo2p&st=yytzpw0f&raw=1',
+  },
+  'Nguyễn Viết Thắng': {
+    url: 'https://www.facebook.com/thang.nguyenviet.50309/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jxbq499dpdh5xajtxjfgz/Nguy-n-Vi-t-Th-ng.jpg?rlkey=7317yuycdw8p47vpmbvfiiq19&st=2x1qkp6e&raw=1',
+  },
+  'Lê Thùy Dương': {
+    url: 'https://www.facebook.com/thuyduong231/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/e9pkmev4aikqniobzyyft/L-Th-y-D-ng.webp?rlkey=rtit1r4iddu61z2dfzxmq38y0&st=06wzsw3y&raw=1',
+  },
+  'Tuân Xin Chào': {
+    url: 'https://www.facebook.com/tuanxinchao98/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ihaqxjbjzggk8wagghclk/Tu-n-Xin-Ch-o.jpg?rlkey=h7squuu917q6c2b5q6aswoisr&st=dz542g6e&raw=1',
+  },
+  'Bích Diễm': {
+    url: 'https://www.facebook.com/bich.diem.997156/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s9df8dyzuj13p986sq83p/B-ch-Di-m.jpg?rlkey=jolmwm8yn0na09mf52cry3y5x&st=4imksw0y&raw=1',
+  },
+  'Nguyễn Quốc Huy': {
+    url: 'https://www.facebook.com/profile.php?id=100057123893426&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vy5y5g5u0g74wiqrdqdd7/Nguy-n-Qu-c-Huy.jpg?rlkey=689l5wdr807syethhqqi857wg&st=jb9xhc6g&raw=1',
+  },
+  'Trầm Mặc Huơng Lai': {
+    url: 'https://www.facebook.com/trammachuonglai/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mhv2arih1xnjeprzw7i4b/Tr-m-M-c-Hu-ng-Lai.png?rlkey=nzyuwe5ce4kt8ki0nzy0ias6p&st=lczs6pqs&raw=1',
+  },
+  'Anh Fumi': {
+    url: 'https://www.facebook.com/anhfumi/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0mygky1z85tcvshu1844c/Anh-Fumi.jpg?rlkey=sbeej6k1hy82izx2v9bdazk0p&st=utlvfra7&raw=1',
+  },
+  'Lê Viết Hợp': {
+    url: 'https://www.facebook.com/buno.viethop/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fwqz63n51tyizmunpk4k2/L-Vi-t-H-p.webp?rlkey=zjt30ca1yab21jtyasf6icw7n&st=hwwqc685&raw=1',
+  },
+  'Lụa Nguyễn (Lụa ở China)': {
+    url: 'https://www.facebook.com/nguyenlua.luadat/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/we6fxmjen4g9we0y5s611/L-a-Nguy-n-L-a-China.webp?rlkey=va4iieywc67sgxo4i9mzrkxoo&st=ljsuccgr&raw=1',
+  },
+  'Lụa Talks Shop': {
+    url: 'https://www.facebook.com/luatalks.shop/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gqjwunjkqwxeqov3y3o8k/L-a-Talks-Shop.png?rlkey=pij70wroyuv6ntuvwhta0erpf&st=o6ct8rdp&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
