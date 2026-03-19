@@ -86,10 +86,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/TopmaxAcademy1/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/3vrmq0re33kqm1zoiqqm3/Topmax-Academy.jpg?rlkey=v3v3t1b9al89u06fuwhi2efp6&st=9v36e88x&raw=1',
   },
-  'Nguyễn Ngọc Sơn': {
-    url: 'https://www.facebook.com/NguyenNgocSonCEO.102/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/o95ieobuz59de8ivawlsz/Nguy-n-Ng-c-S-n.png?rlkey=tqqdwp8ry7ky0htntqw0yl3ns&st=k109mupr&raw=1',
-  },
   'Emily Chung Nguyen': {
     url: 'https://www.facebook.com/EmilyChungNguyen/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/069vci1z7kgburkva555z/Emily-Chung-Nguyen.png?rlkey=57i5hrkghx5g1huk4p43afywn&st=6aeisyvy&raw=1',
@@ -129,10 +125,6 @@ const folderLinks = {
   'KTS Nguyễn Hà Lam': {
     url: 'https://www.facebook.com/KTSNguyenHaLam/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9e3zpelmrsejhraghg3lx/KTS-Nguy-n-H-Lam.png?rlkey=mykhelpskrowbbavj9wvw5o8q&st=jscd7eoj&raw=1',
-  },
-  'Ngô Bá Lục': {
-    url: 'https://www.facebook.com/ngoba.luc.3/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/1d0hi4m92qyzmiol99kzh/Ng-B-L-c.png?rlkey=gknnwrdkbewg7fxi1zl65j7dl&st=abmgkir7&raw=1',
   },
   'Nguyễn Đức Thành': {
     url: 'https://www.facebook.com/nguyenthanh.1005/photos',
