@@ -50,10 +50,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/MasterAnhDucOfficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/srczs0lzb5y1sgp9n49j0/Master-Anh-c-Nguy-n-Anh-c.jpg?rlkey=btd9bg6nidwkwnw2syyoabjfk&st=0a6iyze0&raw=1',
   },
-  'Trần Toản': {
-    url: 'https://www.facebook.com/trantoan886868/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/lq8c6arhkukj5rtu3kxy7/Tr-n-To-n.png?rlkey=uyhvegrw2wjywxod5tf90w5rn&st=8s2s86ic&raw=1',
-  },
   'Nguyễn Trí Hạo': {
     url: 'https://www.facebook.com/profile.php?id=100083069565503&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/t1u9yvk8q2mav1htak5zw/Nguy-n-Tr-H-o.jpg?rlkey=9zzqd2mqvcnf1x7s5t1mwgf8h&st=qoznm9h7&raw=1',
