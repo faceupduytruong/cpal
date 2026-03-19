@@ -150,10 +150,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61584734873015&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/51z4gr4ti8pwykk226fbh/H-nh-tr-nh-n-l-c.jpg?rlkey=5d0v3247r40bakgce130zex02&st=d4xrkw9m&raw=1',
   },
-  'Thanh Đạt (Skyland Dolls)': {
-    url: 'https://www.facebook.com/swan.black.370/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xbp4s0qne2a9usdjskz1v/Thanh-t-Skyland-Dolls.jpg?rlkey=b644cvyrvbo0m4ad2k3hpzk6u&st=be80n080&raw=1',
-  },
   'Đàm Tài Cap (Personal Growth)': {
     url: 'https://www.damtaicap.net/search/label/Personal%20Growth',
     thumbnail: 'https://www.dropbox.com/scl/fi/t3a6js7akcyx3mr0b84jh/m-T-i-Cap-Personal-Growth.jpg?rlkey=r7aug8qv9dkj4mjy9pp6qzzej&st=godwgvha&raw=1',
