@@ -38,6 +38,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/thuyduong231/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/e9pkmev4aikqniobzyyft/L-Th-y-D-ng.webp?rlkey=rtit1r4iddu61z2dfzxmq38y0&st=06wzsw3y&raw=1',
   },
+  'Nguyễn Ngọc Sơn': {
+    url: 'https://www.facebook.com/NguyenNgocSonCEO.102/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o95ieobuz59de8ivawlsz/Nguy-n-Ng-c-S-n.png?rlkey=tqqdwp8ry7ky0htntqw0yl3ns&st=k109mupr&raw=1',
+  },
   'Tuân Xin Chào': {
     url: 'https://www.facebook.com/tuanxinchao98/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ihaqxjbjzggk8wagghclk/Tu-n-Xin-Ch-o.jpg?rlkey=h7squuu917q6c2b5q6aswoisr&st=dz542g6e&raw=1',
@@ -73,6 +77,10 @@ const folderLinks = {
   'Lụa Talks Shop': {
     url: 'https://www.facebook.com/luatalks.shop/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/gqjwunjkqwxeqov3y3o8k/L-a-Talks-Shop.png?rlkey=pij70wroyuv6ntuvwhta0erpf&st=o6ct8rdp&raw=1',
+  },
+  'Ngô Bá Lục': {
+    url: 'https://www.facebook.com/ngoba.luc.3/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1d0hi4m92qyzmiol99kzh/Ng-B-L-c.png?rlkey=gknnwrdkbewg7fxi1zl65j7dl&st=abmgkir7&raw=1',
   },
   // thêm các mục khác nếu cần
 };
