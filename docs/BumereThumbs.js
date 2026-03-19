@@ -90,10 +90,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/NguyenNgocSonCEO.102/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/o95ieobuz59de8ivawlsz/Nguy-n-Ng-c-S-n.png?rlkey=tqqdwp8ry7ky0htntqw0yl3ns&st=k109mupr&raw=1',
   },
-  'Anh Chi -Tâm Thức Việt': {
-    url: 'https://www.facebook.com/anhchitamthucviet/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/y1osqt8dbhzyo9lh1jnez/Anh-Chi-T-m-Th-c-Vi-t.jpg?rlkey=p41bd7fc8cao5lelvnlihy5w5&st=cevjp671&raw=1',
-  },
   'Emily Chung Nguyen': {
     url: 'https://www.facebook.com/EmilyChungNguyen/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/069vci1z7kgburkva555z/Emily-Chung-Nguyen.png?rlkey=57i5hrkghx5g1huk4p43afywn&st=6aeisyvy&raw=1',
