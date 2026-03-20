@@ -24,7 +24,7 @@ const folderLinks = {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/English/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/tlxicnusk956rvy5p9zdt/S-ch-Ti-ng-Anh.avif?rlkey=qbftedc31vy4o8vcucezej1if&st=xxokiw03&raw=1'
   },
-  'Google': {
+  'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/buqauxhpri0953ogvexs1/Google-Translate.jpeg?rlkey=i3mfo5s50l7cjsl33jgcudy21&st=92wvxb20&raw=1'
   },
