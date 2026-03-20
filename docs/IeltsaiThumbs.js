@@ -62,7 +62,7 @@ const folderLinks = {
   },
   'Edmicro - Học IELTS cùng AI': {
     url: 'https://www.facebook.com/edmicroielts/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/lglk37pehopulkjop2dks/Edmicro-H-c-IELTS-c-ng-AI.jpg?rlkey=n38cg8xq3xi3de61vcxsml36a&st=kfymv70u&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/bfqa7o13k44dpmkm2mc93/Edmicro-H-c-IELTS-c-ng-AI.png?rlkey=uqwyk7owq8j3lh3hbpgt8ossp&st=cikeu2zl&raw=1'
   },
   'Trần Anh Khang IELTS': {
     url: 'https://www.facebook.com/khangielts/reels/',
