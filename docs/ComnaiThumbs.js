@@ -18,7 +18,7 @@ const folderLinks = {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/English/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/dsaudqtdrd0nkvopruu59/S-ch-Ti-ng-Anh.jpg?rlkey=h4ke0td174ej0xw57sa6pv3w7&st=bh8nv52n&raw=1'
   },
-  'Google': {
+  'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/yzybwmr1evaef8uicfj6f/Google-Translate.jpg?rlkey=9llm5qj0yvyaxyksqzpuvs2f8&st=t4e090lj&raw=1'
   },
@@ -58,7 +58,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/phatamhay/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/myp5fsuhhczmbu3ly1811/Ph-t-m-Hay-American-Pronunciation.png?rlkey=rrfwzqbx1drtaq1lcf8lj69w5&st=wy2s0xvs&raw=1'
   },
-  'Tiếng Anh giao tiếp Langmaster': {
+  'Tiếng Anh Giao Tiếp Langmaster': {
     url: 'https://www.facebook.com/HoctiengAnhLangmaster/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/jbblukjkllifotfrqqogv/Ti-ng-Anh-giao-ti-p-Langmaster.jpg?rlkey=nyfqactzlrih6mopjp6dilqrd&st=xdehm9u3&raw=1'
   },
@@ -66,11 +66,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/ngoctrinh1314/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/llhl7vd467jee9n804ka8/Ng-c-Trinh.png?rlkey=8xv5tjsie08sntu60450y0ohu&st=jdv7ccjf&raw=1'
   },
-  'English Speaking practice': {
+  'English Speaking Practice': {
     url: 'https://www.facebook.com/groups/5688211251275040/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/i1eoqcn831eizxqa2s304/English-Speaking-practice.jpg?rlkey=ro51xu5ou06fi0y6xb782a4nx&st=w63rl9pq&raw=1'
   },
-  'Spoken English and Vocabulary': {
+  'Spoken English And Vocabulary': {
     url: 'https://www.facebook.com/profile.php?id=100083296070350&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/dh0zcvbm9p4p5q2a7sl85/Spoken-English-and-Vocabulary.jpg?rlkey=cci21a001m2z7oqass702e1lz&st=5vfkn3ux&raw=1'
   },
