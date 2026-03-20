@@ -54,6 +54,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/trangduonghyvong/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/rjo39drvm8xtfg7zaryh5/ng-Hy-V-ng.jpg?rlkey=4e789wcnitcg9sup4yeudkqxq&st=y74gn9yc&raw=1',
   },
+  'Người Bản Lĩnh': {
+    url: 'https://www.facebook.com/nguoibl',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qrcyi8gz0twabbffi9wth/Ng-i-B-n-L-nh.png?rlkey=awl8oj9mqnopc8my9xhqfjxae&st=ayhxb7wy&raw=1',
+  },
   'Hannah Thai - Trao Giá Trị': {
     url: 'https://www.facebook.com/hannahthaitraogiatri',
     thumbnail: 'https://www.dropbox.com/scl/fi/b8aennpospllwku3c7qg2/Hannah-Thai-Trao-Gi-Tr.jpg?rlkey=m487i102fog1hda9hitrfzcoi&st=sr6a29g5&raw=1',
