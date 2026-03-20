@@ -62,6 +62,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/HoctiengAnhLangmaster/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/jbblukjkllifotfrqqogv/Ti-ng-Anh-giao-ti-p-Langmaster.jpg?rlkey=nyfqactzlrih6mopjp6dilqrd&st=xdehm9u3&raw=1'
   },
+  'Ngọc Trinh': {
+    url: 'https://www.facebook.com/ngoctrinh1314/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/llhl7vd467jee9n804ka8/Ng-c-Trinh.png?rlkey=8xv5tjsie08sntu60450y0ohu&st=jdv7ccjf&raw=1'
+  },
   'English Speaking practice': {
     url: 'https://www.facebook.com/groups/5688211251275040/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/i1eoqcn831eizxqa2s304/English-Speaking-practice.jpg?rlkey=ro51xu5ou06fi0y6xb782a4nx&st=w63rl9pq&raw=1'
