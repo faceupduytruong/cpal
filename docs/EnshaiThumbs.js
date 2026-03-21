@@ -142,9 +142,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/chef.vicky.bisht1/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/et38h36qofsdb7hlhice8/Chef-Vicky-Bisht.jpg?rlkey=g6cfiteopukhr7bvdbs81ibz6&st=fs8p50ez&raw=1',
   },
-  'English worksheet': {
+  'English Worksheet': {
     url: 'https://www.facebook.com/groups/503186386034982/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/8h4b2v8zwnkv18hg9pw2t/English-worksheet.jpg?rlkey=89hx0h53q3agqzut2vyo9o566&st=7sh71d0d&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/uecd9uzbnvjxz0ninljs7/English-Worksheet.gif?rlkey=m2rjrp5n6lxtx09sy9v7bav6t&st=lypjmhp0&raw=1',
   },
   'Kids Edu - Alphabet, Numbers & More': {
     url: 'https://www.facebook.com/profile.php?id=100094537200262&sk=photos',
