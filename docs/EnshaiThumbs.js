@@ -48,7 +48,7 @@ const folderLinks = {
   },
   'Learning Treasure': {
     url: 'https://www.facebook.com/learningtreasure5/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/qqqmzguucjnxd03v6mmdk/Learning-Treasure.jpg?rlkey=kijt48ioj9hzsm2s8m51nobqi&st=hmuptsf6&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/yc8bp8rr4aw9qhc73zqqo/Learning-Treasure.gif?rlkey=etap6i4mv3t3g0ra78crqlli7&st=tkhwphv2&raw=1'
   },
   'Effortless English Center (Free Posts)': {
     url: 'https://www.facebook.com/groups/effortlessenglishcenter/media',
@@ -68,7 +68,7 @@ const folderLinks = {
   },
   'English Vocabulary': {
     url: 'https://www.facebook.com/groups/envocabulary/media',
-    thumbnail: 'https://www.dropbox.com/scl/fi/bsf107i7uvgx7jp54ybct/English-Vocabulary.jpg?rlkey=kfejpbdy5yftcrh6fjqmh80u3&st=bh4ue2u0&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ik1job248s8wj0bmvc3k2/English-Vocabulary.gif?rlkey=s40fwss97f5izpb91qcoiu1rm&st=0op5lfea&raw=1',
   },
   'English Canbe': {
     url: 'https://www.facebook.com/englishcanbe/reels/',
@@ -80,7 +80,7 @@ const folderLinks = {
   },
   'English Classes': {
     url: 'https://www.facebook.com/profile.php?id=61555347784246&sk=photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ly6gudo4mntalba75wq9r/English-Classes.jpg?rlkey=pz067r9sh4812m8b4de2zlvha&st=knx6xx11&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/7pei0hwigqbmr6xp1x2ou/English-Classes.gif?rlkey=su0r4wt9ogz73rbvhpbz8f2bg&st=75cgahcq&raw=1'
   },
   'English Grammar': {
     url: 'https://www.facebook.com/groups/1167156720775359/media',
@@ -112,7 +112,7 @@ const folderLinks = {
   },
   'Improve English Skills': {
     url: 'https://www.facebook.com/ImproveEnglishSkills121/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ayfy2f3om199luaubbh4o/Improve-English-Skills.png?rlkey=kmx6pfhrjphjha7mjbezz54hl&st=ewy4fjo5&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/v1ehfd1pel3nfpz4pnvel/Improve-English-Skills.jpg?rlkey=o5guumrl4aeyfid6vgfd9irot&st=s3fip75l&raw=1',
   },
   'Enjoy English': {
     url: 'https://www.facebook.com/groups/1487687748646438/media/',
