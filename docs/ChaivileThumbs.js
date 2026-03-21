@@ -20,6 +20,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/ghr6z9a8jq4v62ir7e9yo/Google-Translate.webp?rlkey=akonaabgl62h1tcovkfduh9ie&st=fd0zik9q&raw=1'
   },
+  'Tự học tiếng Trung': {
+    url: 'https://www.facebook.com/tuhoctiengtrungcaptoc/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4czup6mjv5zcg9sv8mm6q/T-h-c-ti-ng-Trung.jpg?rlkey=5f1ungkhqcmyf72ajf21ftf70&st=prvo1nr1&raw=1'
+  },
   'Trung Tâm Hoa Ngữ Hoa Lạc': {
     url: 'https://www.facebook.com/hoalac.edu.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ppna05jcpmsc99jk0qsqi/Trung-T-m-Hoa-Ng-Hoa-L-c.jpg?rlkey=xpzflurizq6c3lusgniw19tyw&st=icy3tk46&raw=1'
