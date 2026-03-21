@@ -58,11 +58,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/285910352529079/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/rtsmvl5mpg6xx1khz8x5p/English-Learning-together.jpg?rlkey=i1j18cnr2xmq61wqj2b1tmimm&st=2zipd8gg&raw=1'
   },
- 'Advanced English Learners': {
+  'Advanced English Learners': {
     url: 'https://www.facebook.com/groups/3487114231364090/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/1ntnnrlq340tb8loiiy2s/Advanced-English-Learners.jpg?rlkey=k87z4f0ia3574rfbodw0sqc3x&st=wj7ivhxl&raw=1'
   },
- 'English with JayTen': {
+  'English with JayTen': {
     url: 'https://www.facebook.com/EnglishWithJayten/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/wq9kumgq0nby1qxq3d925/English-with-JayTen.jpg?rlkey=amku2di5vnu08hyvn9bv9agoj&st=llhsi51f&raw=1'
   },
@@ -102,6 +102,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/bermudezaubrey/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/hkjddywszjtqomngykna1/Learn-English-with-Teacher-Aubrey.jpg?rlkey=q2nhtxf36um25k09my6lni3of&st=8ah7eg2f&raw=1'
   },
+  'Fluently - AI English Tutor': {
+    url: 'https://www.facebook.com/profile.php?id=61572409659045&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/k3birx7577e1lurzbp48c/Fluently-AI-English-Tutor.jpg?rlkey=mg9bs09exqhj6m097zmi7vkwv&st=i7e20gjf&raw=1'
+  },
   'Practical English Grammar Idioms Group': {
     url: 'https://www.facebook.com/groups/450969245668882/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/2ntfanvt013wdso5udc33/Practical-English-Grammar-Idioms-Group.jpg?rlkey=6o6srvgiy7cnojtd3zlc085qa&st=irudmd48&raw=1'
@@ -122,11 +126,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/SophaiCreatorShare/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/zllbpe2ylxfbrnmxx8hjt/Sophai-Creator-Share.jpg?rlkey=drdals8217z766e6xvkf4q398&st=db4107mz&raw=1',
   },
-  'FREE ENGLISH COURSES': {
+  'Free English Coures': {
     url: 'https://www.facebook.com/groups/1190947588828922/media/',
     thumbnail: 'https://www.dropbox.com/scl/fi/gaw18sei2hyk8hilbjz1u/FREE-ENGLISH-COURSES.jpg?rlkey=72ff87v01524v6sp7aw7vzrdl&st=1zn1mn1g&raw=1',
   },
-  "LET'S LEARN ENGLISH": {
+  "Let's Learn English": {
     url: 'https://www.facebook.com/groups/415435771990553/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ovx62gspdi6giiiidgjcp/LET-S-LEARN-ENGLISH-APPRENONS-L-ANGLAIS.jpg?rlkey=yb9p61sdd1jzilk449zoemwf5&st=wte0flmq&raw=1',
   },
