@@ -328,24 +328,31 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Gaming Station</h2>
       <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.msn.com/en-us/play?cgfrom=cg_dsb_seeMore&cgdsbut=a&ocid=winpsearchboxexpcta2&cvid=29f698d2763f47bcaedbe41fe3eac233&nclid=C454E3BDEBC302605749250B25E31342&ts=1774102755469&nclidts=1774102755&tsms=469&PC=WSBDSB', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+          <img src="https://www.dropbox.com/scl/fi/4w2xxfqr20e1t6mu2i69c/Tr-m-Game-1.png?rlkey=vkxdu1wca3ljpvxirm0put79u&st=1dr9rxvk&raw=1">
+</div>
+        <div class="caption">Trạm game 1</div>
+      </div>
+      
+      <div class="image-box">
   <div onclick="openRightHalfPopup('https://fun.360.cn/?ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi', 'SmartApp Popup', window.innerWidth*2+45, 745)">
           <img src="https://www.dropbox.com/scl/fi/ggoqi0ltuol6dr3wcv28l/Tr-m-Game-1.png?rlkey=pkw8j9r8xf5phrbwxu8hz5c6o&st=c5roloqt&raw=1">
 </div>
-        <div class="caption">Trạm game 1</div>
+        <div class="caption">Trạm game 2</div>
       </div>
     
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://g.360.cn/index.html', 'SmartApp Popup', window.innerWidth*2+45, 745)">
           <img src="https://www.dropbox.com/scl/fi/enl69sscfuizkg8xpynyf/Tr-m-Game-2.png?rlkey=seqnl4ajx2noji0c8qkccsd0s&st=5izrwiqw&raw=1">
 </div>
-        <div class="caption">Trạm game 2</div>
+        <div class="caption">Trạm game 3</div>
       </div>
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://g.360.cn/zt/summer2017.html', 'SmartApp Popup', window.innerWidth*2+45, 745)">
           <img src="https://www.dropbox.com/scl/fi/b68j4quo75gc73nvjj0xt/Tr-m-Game-3.webp?rlkey=m4btmrh44uc7hygaq4ce9zzpu&st=vpj7ogua&raw=1">
 </div>
-        <div class="caption">Trạm game 3</div>
+        <div class="caption">Trạm game 4</div>
       </div>
       
 </div>
