@@ -40,6 +40,13 @@ container.innerHTML = `
         <div class="caption">Chọn 3 con vật</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/2004/index.html?gameName=%E8%A3%85%E4%BF%AE%E6%88%BF%E5%AD%90%E6%A8%A1%E6%8B%9F%E5%99%A8&gameId=2004&category=%E6%A8%A1%E6%8B%9F&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10272_10242_10217_10265_10273_10269_10202&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/009541b24e3bc3b3122549899dfd1c01.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Mô phỏng cải tạo nhà</div>
+      </div>
+
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/1626/index.html?gameName=%E5%85%A8%E6%96%B0%E6%B6%88%E9%99%A4%E5%A4%A7%E4%BD%9C%E6%88%98&gameId=1626&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10271_10242_10217_10266_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/ad537f5b3674af79338883b6fb4be077.png_.webp" alt="Ảnh 1">
@@ -120,6 +127,13 @@ container.innerHTML = `
        <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Arcade Racer</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/67/index.html?gameName=%E5%85%A8%E6%B0%91%E7%96%AF%E7%8B%82%E9%A3%99%E8%BD%A63D&gameId=67&category=%E7%AB%9E%E6%8A%80&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10272_10242_10217_10265_10273_10269_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/f2b9ac8c1ca4defdd62bc7f271dfa952.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Đua xe điên cuồng 3D</div>
+      </div>
+      
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/1686/index.html?gameName=%E6%9C%80%E5%BC%BA%E8%B5%9B%E8%BD%A6&gameId=1686&category=%E7%AB%9E%E6%8A%80&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10261_10272_10241_10216_10266_10273_10270_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/6099af98d59b6a271a1ec20ba87d2e3c.png_.webp" alt="Ảnh 1">
@@ -279,7 +293,19 @@ container.innerHTML = `
 
  </div>
 
-      <!-- Hàng thứ 6 -->
+       <!-- Hàng thứ 6 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Role-playing Games</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/294/3508/index.html?gameName=%E8%8D%92%E5%B2%9B%E5%86%92%E9%99%A9%E6%B1%82%E7%94%9F%E8%AE%B0&gameId=3508&category=%E6%A8%A1%E6%8B%9F&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1648178&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10272_10242_10217_10265_10273_10269_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/269f77e13c9fdb49ede6b39aac7814d5.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Câu chuyện sinh tồn trên đảo hoang</div>
+      </div>
+
+ </div>
+
+      <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
       <div class="image-box">
@@ -312,7 +338,7 @@ container.innerHTML = `
 
  </div>
  
-      <!-- Hàng thứ 7 -->
+      <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Two-player Game</h2>
       <div class="image-box">
@@ -324,7 +350,7 @@ container.innerHTML = `
 
  </div>
 
-    <!-- Hàng thứ 8 -->
+    <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Gaming Station</h2>
       <div class="image-box">
