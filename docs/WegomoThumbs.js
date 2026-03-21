@@ -32,7 +32,15 @@ const folderLinks = {
   },
   'Nguyễn Ngọc Sơn': {
     url: 'https://www.facebook.com/NguyenNgocSonCEO.102/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/378e6vwztho6snym5o76g/Nguy-n-Ng-c-S-n.png?rlkey=m0gx6o4v519h190zs49d4kf8t&st=4vxq6h3q&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/378e6vwztho6snym5o76g/Nguy-n-Ng-c-S-n.png?rlkey=m0gx6o4v519h190zs49d4kf8t&st=6c854jar&raw=1',
+  },
+  'Nguyễn Quốc Huy': {
+    url: 'https://www.facebook.com/profile.php?id=100057123893426&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vy5y5g5u0g74wiqrdqdd7/Nguy-n-Qu-c-Huy.jpg?rlkey=689l5wdr807syethhqqi857wg&st=jb9xhc6g&raw=1',
+  },
+  'Nguyễn Quốc Huy - Lãnh Đạo Trẻ (Người Tự Lập)': {
+    url: 'https://www.facebook.com/profile.php?id=100066520522185&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/72656bytd4xjmtkh2yo98/Nguy-n-Qu-c-Huy-L-nh-o-Tr-Ng-i-T-L-p.jpg?rlkey=nfwp3zrhv66pspdvqcpmrz49e&st=9egld7en&raw=1',
   },
   'Nguyễn Thanh Hải': {
     url: 'https://www.facebook.com/thanhhaiathenco/reels/',
