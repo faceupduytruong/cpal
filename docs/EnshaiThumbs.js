@@ -28,7 +28,7 @@ const folderLinks = {
   },
   'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://www.dropbox.com/scl/fi/lhjr9olvbwg0vy3q0hlna/Google-Translate.webp?rlkey=jypud322b4z68dladqetnxcok&st=2ynt7066&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/vsdtfowuya104x8nojqnw/Google-Translate.gif?rlkey=l97fdx41s83ld0v8ul6383u8n&st=7rgce54l&raw=1'
   },
   'Daily Glowwords': {
     url: 'https://www.facebook.com/profile.php?id=61585035023693&sk=reels_tab',
@@ -60,7 +60,7 @@ const folderLinks = {
   },
   'Advanced English Learners': {
     url: 'https://www.facebook.com/groups/3487114231364090/media',
-    thumbnail: 'https://www.dropbox.com/scl/fi/1ntnnrlq340tb8loiiy2s/Advanced-English-Learners.jpg?rlkey=k87z4f0ia3574rfbodw0sqc3x&st=wj7ivhxl&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/1q5aq1sk7hunlpnwanwl7/Advanced-English-Learners.webp?rlkey=yae2rw6067m336irlcwueqxld&st=p0di1rhj&raw=1'
   },
   'English with JayTen': {
     url: 'https://www.facebook.com/EnglishWithJayten/photos',
@@ -104,7 +104,7 @@ const folderLinks = {
   },
   'Fluently - AI English Tutor': {
     url: 'https://www.facebook.com/profile.php?id=61572409659045&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/k3birx7577e1lurzbp48c/Fluently-AI-English-Tutor.jpg?rlkey=mg9bs09exqhj6m097zmi7vkwv&st=i7e20gjf&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/rz3w3t1anm032pzgmyxzd/Fluently-AI-English-Tutor.jpg?rlkey=s854tp8d2fbywqvdwbzp49ufw&st=smfjo9r8&raw=1'
   },
   'Practical English Grammar Idioms Group': {
     url: 'https://www.facebook.com/groups/450969245668882/media',
