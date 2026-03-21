@@ -16,9 +16,13 @@ const folderLinks = {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/English/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/3wkd2se5u9bggimujplbi/S-ch-Ti-ng-Anh.webp?rlkey=xyaqpvak1nn7spo7a9qv6qzga&st=f03nymgo&raw=1',
   },
-  'Google': {
+  'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.cnet.com/a/img/resize/bb3309731c72de8eed76bce93bb319a95a5c077f/hub/2023/02/08/2d11bc90-7f23-4347-a07a-1b3e251aea4c/gettyimages-1245835347.jpg?auto=webp&fit=crop&height=675&width=1200',
+  },
+ 'Lazy TOEIC': {
+    url: 'https://www.facebook.com/profile.php?id=61585961584773&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3qxb9e7dfca1io9dv462s/Lazy-TOEIC.png?rlkey=xjjtb2bdqj99zrozk4v7nsvar&st=32kxjwlw&raw=1',
   },
  'TOEIC Max': {
     url: 'https://www.facebook.com/toeicmax/reels/',
@@ -36,7 +40,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/TOEICMasterKit.byEdmicro/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2581snxed7hzp92ho5x35/Edmicro-TOEIC.jpg?rlkey=46c04xs7ygit0s1tjwcj12ybk&st=525ynfqe&raw=1',
   },
-  'Chia sẻ kinh nghiệm tự học TOEIC 4 Kỹ Năng': {
+  'Kinh nghiệm tự học TOEIC 4 Kỹ Năng': {
     url: 'https://www.facebook.com/groups/phadaotoeic990/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/q0e1z7xsimu0fe10u754g/Chia-s-kinh-nghi-m-t-h-c-TOEIC-4-K-N-ng.jpg?rlkey=qilxaw7nr6ft947gxmq5d21ee&st=4k8cf2dk&raw=1',
   },
@@ -48,11 +52,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/toeicungdung/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/q5is8ank2q6gj2pq24hqq/TOEIC-ng-D-ng-Toeicungdung.vn.png?rlkey=6eerfpdi07xt126rimh5uu6fz&st=khu9lwhu&raw=1',
   },
- 'GIẢI ĐỀ TOEIC CHO NGƯỜI MẤT GỐC': {
+ 'Giải đề TOEIC dho người mất gốc': {
     url: 'https://www.facebook.com/groups/306159104453989/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/6b67t1czj1058jloqh0ou/GI-I-TOEIC-CHO-NG-I-M-T-G-C.jpg?rlkey=btjhtjtlorxp5g8fn0lx5ak66&st=1hv6fjcj&raw=1',
   },
- 'VŨ TRỤ TÀI LIỆU TOEIC': {
+ 'Vũ trụ tài liệu TOEIC': {
     url: 'https://www.facebook.com/groups/vutrutailieutoeic/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/2potc3k57bqdn29bp1n2j/V-TR-T-I-LI-U-TOEIC.jpg?rlkey=9dm0oeowqvoeivotal02aryjp&st=969g3y1s&raw=1',
   },
