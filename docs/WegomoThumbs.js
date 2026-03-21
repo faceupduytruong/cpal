@@ -38,7 +38,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100057123893426&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/vy5y5g5u0g74wiqrdqdd7/Nguy-n-Qu-c-Huy.jpg?rlkey=689l5wdr807syethhqqi857wg&st=jb9xhc6g&raw=1',
   },
-  'Nguyễn Quốc Huy - Lãnh Đạo Trẻ (Người Tự Lập)': {
+  'Nguyễn Quốc Huy - Lãnh Đạo Trẻ': {
     url: 'https://www.facebook.com/profile.php?id=100066520522185&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/72656bytd4xjmtkh2yo98/Nguy-n-Qu-c-Huy-L-nh-o-Tr-Ng-i-T-L-p.jpg?rlkey=nfwp3zrhv66pspdvqcpmrz49e&st=9egld7en&raw=1',
   },
