@@ -38,10 +38,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/thuyduong231/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/e9pkmev4aikqniobzyyft/L-Th-y-D-ng.webp?rlkey=rtit1r4iddu61z2dfzxmq38y0&st=06wzsw3y&raw=1',
   },
-  'Nguyễn Ngọc Sơn': {
-    url: 'https://www.facebook.com/NguyenNgocSonCEO.102/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/o95ieobuz59de8ivawlsz/Nguy-n-Ng-c-S-n.png?rlkey=tqqdwp8ry7ky0htntqw0yl3ns&st=k109mupr&raw=1',
-  },
   'Tuân Xin Chào': {
     url: 'https://www.facebook.com/tuanxinchao98/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ihaqxjbjzggk8wagghclk/Tu-n-Xin-Ch-o.jpg?rlkey=h7squuu917q6c2b5q6aswoisr&st=dz542g6e&raw=1',
@@ -49,10 +45,6 @@ const folderLinks = {
   'Bích Diễm': {
     url: 'https://www.facebook.com/bich.diem.997156/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/s9df8dyzuj13p986sq83p/B-ch-Di-m.jpg?rlkey=jolmwm8yn0na09mf52cry3y5x&st=4imksw0y&raw=1',
-  },
-  'Nguyễn Quốc Huy': {
-    url: 'https://www.facebook.com/profile.php?id=100057123893426&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/vy5y5g5u0g74wiqrdqdd7/Nguy-n-Qu-c-Huy.jpg?rlkey=689l5wdr807syethhqqi857wg&st=jb9xhc6g&raw=1',
   },
   'Trầm Mặc Huơng Lai': {
     url: 'https://www.facebook.com/trammachuonglai/reels/',
