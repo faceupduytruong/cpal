@@ -76,7 +76,7 @@ const folderLinks = {
   },
   'English Planet': {
     url: 'https://www.facebook.com/groups/3234236886616750/media',
-    thumbnail: 'https://www.dropbox.com/scl/fi/zczi2iwnypgdjz4rzx0nf/Learn-English-Effortlessly.jpg?rlkey=bvjad16wowgbdl0e6xvpbym5n&st=56av0ya8&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/xncqxk9spwta49zkfirqp/English-Planet.jpg?rlkey=hyufrtf69oyp992aawvzg415t&st=ylo0wsh7&raw=1'
   },
   'English Classes': {
     url: 'https://www.facebook.com/profile.php?id=61555347784246&sk=photos',
@@ -92,7 +92,7 @@ const folderLinks = {
   },
   'English With Abdul': {
     url: 'https://www.facebook.com/profile.php?id=100089478880864&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/hqxjr3s4rpiw8lts1puq2/English-With-Abdul.jpg?rlkey=tuurpcgxijbwu5b8juav7apwt&st=kyqfdy96&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/dx5g8wm2qqfcdv1l7z0ps/English-With-Abdul.png?rlkey=4cqxw0hyuw5gren5zsocly13o&st=6t6pt9rm&raw=1'
   },
   'Learn English Effortlessly': {
     url: 'https://www.facebook.com/groups/245525535304118/media',
