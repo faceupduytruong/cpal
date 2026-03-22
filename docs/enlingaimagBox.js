@@ -33,6 +33,13 @@ container.innerHTML = `
         <div class="caption">Cuộc ẩu đả máy bay đồ chơi</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/104/3567/index.html?gameName=%E9%A3%9E%E6%96%A7%E5%B8%AE&gameId=3567&category=%E8%A7%92%E8%89%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1573033&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10272_10242_10217_10266_10273_10269_10201&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/c09e3b704834e9a6d08d9fdc1441b1bf.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Băng đảng rìu bay</div>
+      </div>
+
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/1701/index.html?gameName=%E6%B6%88%E6%B6%88%E4%B9%90%E5%A4%A7%E6%8B%9B%E7%89%88&gameId=1701&category=%E7%9B%8A%E6%99%BA&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10261_10272_10241_10216_10266_10273_10270_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/d62106b9bba2a3bb7075172f5743e655.png_.webp" alt="Ảnh 1">
