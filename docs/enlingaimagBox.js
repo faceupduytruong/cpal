@@ -382,7 +382,7 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.msn.com/en-us/play?cgfrom=cg_dsb_seeMore&cgdsbut=a&ocid=winpsearchboxexpcta2&cvid=29f698d2763f47bcaedbe41fe3eac233&nclid=C454E3BDEBC302605749250B25E31342&ts=1774102755469&nclidts=1774102755&tsms=469&PC=WSBDSB', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+  <div onclick="openRightHalfPopup('https://www.y8.com/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
           <img src="https://www.dropbox.com/scl/fi/qsveqacu4m198midpc3kd/Tr-m-Game-2-Y8-Games.webp?rlkey=509ohvqszj8h57i5o431ssouy&st=q1ocavi2&raw=1">
 </div>
         <div class="caption">Trạm game 2 (Y8 Games)</div>
