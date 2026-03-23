@@ -28,7 +28,7 @@ const folderLinks = {
   },
   'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://www.dropbox.com/scl/fi/lhjr9olvbwg0vy3q0hlna/Google-Translate.webp?rlkey=jypud322b4z68dladqetnxcok&st=2ynt7066&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/kqarpm1i747hascfai04b/Google-Translate.gif?rlkey=3u0ltssyd1lvji9irzhxjnf57&st=6kilxk0&raw=1'
   },
   'Disney Vietsub': {
     url: 'https://www.facebook.com/profile.php?id=100076216793607&sk=reels_tab',
@@ -46,6 +46,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/mstrangtichcuc/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/sxlnkszwealvz3l2inqo0/Ms-Trang-T-ch-C-c.jpg?rlkey=42vv976c8q68s8bsqsh94fhwy&st=t3d5o8d8&raw=1'
   },
+  'Lê Công Minh': {
+    url: 'https://www.facebook.com/lecongminhofficial/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8u9r1dw13b62i50p4zhm0/L-C-ng-Minh.jpg?rlkey=2wskridclqv8ropnpswnhlv2r&st=exbh37bj&raw=1'
+  },
   'Matt Tò Mò': {
     url: 'https://www.facebook.com/mattpianoman/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/kpi5byexrejp6lwzue4o1/Matt-T-M.jpg?rlkey=z688bf8gg8ge3abrqirm0rtna&st=8p6ihy9u&raw=1'
@@ -53,6 +57,10 @@ const folderLinks = {
   'Hiếu Ngô': {
     url: 'https://www.facebook.com/hieungo.uspeak/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ibpjaytldosyqo25um3fl/Hi-u-Ng.png?rlkey=gq1qqgoa1hqmn000i3sw8f4mq&st=6e520sx&raw=1'
+  },
+  'Tiến Đoàn (Tommy)': {
+    url: 'https://www.facebook.com/tommytiendoan/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mmhw40g7pn6vwfamclfgr/Ti-n-o-n-Tommy.jpg?rlkey=z28yc49klzqmehm916nov0y0e&st=377w3own&raw=1'
   },
   'TASS English': {
     url: 'https://www.facebook.com/tassenglish/reels/',
