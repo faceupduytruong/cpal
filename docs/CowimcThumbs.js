@@ -26,11 +26,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61581462201077&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/gh5qxedzjxcdygdpoxajp/Ma-Th-Ngo-n.webp?rlkey=71b48n3kc4f7mz8kh0ud59kql&st=llw0sb1d&raw=1',
   },
-  'Triệu Thị Mây (Tĩnh Tâm)': {
+  'Triệu Thị Mây (Tĩnh tâm)': {
     url: 'https://www.facebook.com/trieu.may99/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/nphsksbt97irbv9ucnecg/Tri-u-Th-M-y-T-nh-T-m.png?rlkey=r9dy1ag8cct0s60aqccp0dsku&st=vuj7c2cr&raw=1',
   },
-  'Tuyen saphia': {
+  'Tuyen Saphia': {
     url: 'https://www.facebook.com/tuyensaphia92/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/dn6a9uh4amouq0av05abz/Tuyen-saphia.jpg?rlkey=7nhtqnh6f6go28ffy1mxxjhf9&st=ifii00ox&raw=1',
   },
@@ -42,7 +42,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/msutamy/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/y2irup87d5f3y1sy54d0p/t-Ph-m-Th-Chay-D-ng-An.webp?rlkey=kytelbf2po79bv4vsjvg1lunt&st=mg3qema0&raw=1',
   },
-  'Lộc Nông Thôn': {
+  'Lộc nông thôn': {
     url: 'https://www.facebook.com/locnongthon/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nbtqrfa7aepty0zrgvp0a/L-c-N-ng-Th-n.png?rlkey=t936nto0muepnq38pty5y2ko8&st=saivtb6k&raw=1',
   },
@@ -50,7 +50,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/bepbensuondoiofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/v2nzer0my62b68r3icu2m/B-p-b-n-s-n-i.jpg?rlkey=xq279boeefnedbnuov5azfz3o&st=f180vmg6&raw=1',
   },
-  'Dạy Nấu Ăn': {
+  'Dạy nấu ăn': {
     url: 'https://www.facebook.com/profile.php?id=100057411881264&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/xm4la0f7fczsmq4536ea1/D-y-N-u-n.webp?rlkey=rn4b8h59ur87dni690z8p5r33&st=7dt0h79b&raw=1',
   },
@@ -58,15 +58,23 @@ const folderLinks = {
     url: 'https://www.facebook.com/Sammycooking/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ah74wc2oc19rr9x9oipnz/Sammy.webp?rlkey=xz7qxbnwuucwuq93dcvl5w8ch&st=vshdo9mz&raw=1',
   },
-  'Bếp Nhà Giang': {
+  'Bếp nhà Giang': {
     url: 'https://www.facebook.com/bepnhagiang.official/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/v5hl5nf5wqpnrg7zlr60g/B-p-Nh-Giang.jpg?rlkey=bzv0oj72lf5bg1jmte2ei97u9&st=a4549xgl&raw=1',
   },
-  'Kênh Của Mỹ': {
+  'Kênh của Mỹ': {
     url: 'https://www.facebook.com/kenhcuamy/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/g1gpo8zitmkwaz0s3kyuw/K-nh-C-a-M.jpg?rlkey=v9kqb6bzuko1ruy07win1hv3b&st=vv0z62z9&raw=1',
   },
-  'YÊU BẾP (Esheep Kitchen family)': {
+  'Thảo Nguyên Farmer': {
+    url: 'https://www.facebook.com/tn.farmer1/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/44pyf5cla70ckgk133ock/Th-o-Nguy-n-Farmer.jpg?rlkey=ppsdkbixi6xc2wikx87ycrn9g&st=hot1i2ng&raw=1',
+  },
+  'Hạnh vui vẻ': {
+    url: 'https://www.facebook.com/ngoc.hanh.768422/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/doqg77p7gkca9wdr5gajs/H-nh-Vui-V.webp?rlkey=url2j9t0qji3x53mfj0la3hp7&st=va7qjp15&raw=1',
+  },
+  'Yêu Bếp (Esheep Kitchen family)': {
     url: 'https://www.facebook.com/groups/557295677987925/',
     thumbnail: 'https://www.dropbox.com/scl/fi/l4bafpvu1jeh3e2yhi5xk/Y-U-B-P-Esheep-Kitchen-family.jpg?rlkey=2uei1mj67gggqvai08zija3lz&st=21qyiwo2&raw=1',
   },
@@ -74,7 +82,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/primitiveart01/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4z5s73mcp90cv1fhe9w2q/Primitive-Art.jpg?rlkey=htd2io3xuwae0njmx71pxvv6p&st=noxw88af&raw=1',
   },
-  'Quản Trị Mạng (Món Ngon Mỗi Ngày)': {
+  'Quản trị mạng (Món ngon mỗi ngày)': {
     url: 'https://quantrimang.com/cuoc-song/am-thuc',
     thumbnail: 'https://www.dropbox.com/scl/fi/f7jmgccn3sdj33liorspl/Qu-n-Tr-M-ng-M-n-Ngon-M-i-Ng-y.png?rlkey=b0slipel12h23xkw8vwvdppfa&st=2bpr3sl6&raw=1',
   },
@@ -82,7 +90,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/tu.nguyen.290494/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lv9cjjm8vq39h0unmgyt1/T-Nguy-n.webp?rlkey=7blp239a1x846km6lprualkl4&st=8sp29q81&raw=1',
   },
-  'Khéo Tay Hay Làm': {
+  'Khéo tay hay làm': {
     url: 'https://www.facebook.com/kheotayhaylam2411/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/112ogmjra3qy8i09jguks/Kh-o-Tay-Hay-L-m.jpg?rlkey=5c03i1abketnvcq15hm8vv6xf&st=v1j81v8l&raw=1',
   },
