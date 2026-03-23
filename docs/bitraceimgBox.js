@@ -382,19 +382,19 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/Phanmemnghiemthuxaydung360' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/pyfl6s91hjlrozusarws5/Nghi-m-Thu-X-y-D-ng-360.webp?rlkey=7o0nkjntudez8ivqs0978igrg&st=5bregecx&raw=1">
-</div>
-        <div class="caption">Nghiệm Thu Xây Dựng 360</div>
-      </div>
-
-  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/kenhxaydung/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/phrmbb47mk1bwkplnnp10/K-nh-X-y-D-ng.webp?rlkey=3pldfhjlkxjnp7vn7s3mld943&st=94gobvu1&raw=1">
 </div>
         <div class="caption">Kênh Xây Dựng</div>
       </div>
-          
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/Phanmemnghiemthuxaydung360' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/pyfl6s91hjlrozusarws5/Nghi-m-Thu-X-y-D-ng-360.webp?rlkey=7o0nkjntudez8ivqs0978igrg&st=5bregecx&raw=1">
+</div>
+        <div class="caption">Nghiệm Thu Xây Dựng 360</div>
+      </div>
+         
 </div>
 
     <!-- Hàng thứ 10 -->
