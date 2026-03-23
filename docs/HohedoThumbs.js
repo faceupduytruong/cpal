@@ -14,19 +14,19 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/dj0svsar3s2uob8bu6dbp/Google-Translate.avif?rlkey=z8zm0i2bc74s8fdeuebthk2ne&st=ggpsod4e&raw=1'
   },
-  'Tỉnh Táo Lên (Sức Khỏe Tổng Thể)': {
+  'Tỉnh táo lên (Sức khỏe tổng thể)': {
     url: 'https://www.youtube.com/@tinhtaolen19/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/esc3906wover22o8s9iy1/T-nh-t-o-l-n.jpg?rlkey=snfl686wxd110yvn9ti9kqe24&st=vrjevd8r&raw=1',
   },
-  'Cơ Thể Cần Gì': {
+  'Cơ thể cần gì': {
     url: 'https://www.youtube.com/@C%C6%A1Th%E1%BB%83C%E1%BA%A7nG%C3%AC/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/aa6i2wn4th8gte2m5zmak/C-Th-C-n-G.jpg?rlkey=77h1twd5524ovvz77vo5tv9z6&st=z8t9dqe1&raw=1',
   },
-  'Bài Học Sống': {
+  'Bài học sống': {
     url: 'https://www.youtube.com/@baihocsong/videos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vbxphci8dkhdtk9tvml3a/B-i-H-c-S-ng.jpg?rlkey=xc7xv5pjbdb12d4ya67pkyfwk&st=ksl1zznt&raw=1',
   },
-  'Y Dễ Hiểu': {
+  'Y dễ hiểu': {
     url: 'https://www.facebook.com/Ydehieu/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/re7u9shiih7yhigd3k9yx/Y-D-Hi-u.jpg?rlkey=ji9s1dadd4xc7ndjlge2oy44f&st=6v8c8wa2&raw=1',
   },
@@ -34,7 +34,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/Kimtamthuyhang/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/cdvxoz4cpm791pg18d4yo/Nguy-n-Kim-T-m.jpg?rlkey=tyyevunl0y6pzg37h8ko4bu5q&st=gsjtq5zk&raw=1',
   },
-  'Ve Chai': {
+  'Ve chai': {
     url: 'https://www.facebook.com/AiBanVeChaiHon/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ht8hgry146epbmxii0z3s/Ve-Chai.jpg?rlkey=1t21hqtrh7kzba0aqpyswqxs0&st=c86tkpgz&raw=1',
   },
@@ -46,11 +46,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/bsdaivy/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/em3fhuz9ybm5hg89k6xma/i-Vy-Healthcare.png?rlkey=31pqajfcu0eq2clzw7uf6g943&st=jbgcczrm&raw=1',
   },
-  'Ý Hay': {
+  'Ý hay': {
     url: 'https://www.youtube.com/@%C3%9DHay-z6r/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/hyl30r8ew9qb09607an9y/Hay.jpg?rlkey=cagzjfczo33nzlka7sq7eijdb&st=opbqibrz&raw=1',
   },
-  'Nhịp Sống Xanh': {
+  'Nhịp sống xanh': {
     url: 'https://www.youtube.com/@songkhoemoingaynha/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/sjq6cho39e59zj0ov5839/Nh-p-s-ng-xanh.jpg?rlkey=3vf8n2psjczs5lossyhlv180s&st=j601pkus&raw=1',
   },
@@ -58,15 +58,19 @@ const folderLinks = {
     url: 'https://www.facebook.com/alobacsihoibacsitraloi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ruhypz1y8rx21zwsnsdw6/Alo-B-c-S.webp?rlkey=b21k3562poilct1u7ilh4djfb&st=qc1b4gfp&raw=1',
   },
-  'Khoẻ Mà Đẹp': {
+  'Khoẻ mà đẹp': {
     url: 'https://www.youtube.com/@KhoeMaDep',
     thumbnail: 'https://www.dropbox.com/scl/fi/ri9ml97i4mlef97zfxisl/Kho-M-p.jpeg?rlkey=5lisdslhx0ubf442il9w4f4fl&st=jaz93jyi&raw=1',
   },
-  'Sức Khỏe Cho Bạn': {
+  'Sức khỏe cho bạn': {
     url: 'https://www.youtube.com/@S%E1%BB%A9cKh%E1%BB%8FeChoB%E1%BA%A1n-g9v/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/dyrhcd299ngpenqwxkg1s/S-c-Kh-e-Cho-B-n.webp?rlkey=gnf561966r2voop6ku4nehnd4&st=mpi0ga0j&raw=1',
   },
-  'Dược Sĩ Nguyễn Thị Thùy Trang': {
+  'Sống dễ mỗi ngày': {
+    url: 'https://www.facebook.com/profile.php?id=100072497381829&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wfwbx32lg5r436hrchffq/S-ng-d-m-i-ng-y.jpg?rlkey=349rb1l9dfa4z18f4v6mznulv&st=duowkkbq&raw=1',
+  },
+  'Dược sĩ Nguyễn Thị Thùy Trang': {
     url: 'https://www.youtube.com/@duocsitrangnguyen/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/mm5yywn0rk7iod8oj8eba/D-c-S-Nguy-n-Th-Th-y-Trang.jpg?rlkey=5uphm4kxa9l81mri8wozldsbe&st=i0msisbt&raw=1',
   },
@@ -74,11 +78,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/trang.down.2025/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ubrwjyz83xxzj2z5q70ua/Tr-ng-ao.jpg?rlkey=ivud84iko07t1m2oh46gdhxda&st=jncwbufl&raw=1',
   },
-  'Kho Tàng Kiến Thức': {
+  'Kho tàng kiến thức': {
     url: 'https://www.facebook.com/profile.php?id=61551132006208&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/t89hqnysnydykfpfenh4i/KHO-T-NG-KI-N-TH-C-Ng-c-H-ng-Y-Qu-n.jpg?rlkey=xsuh9u4h36q50ti06e9oeq87v&st=wlo4httr&raw=1',
   },
-  'BS Nguyễn Khoa Bình (Sức Khỏe Nam Giới)': {
+  'BS Nguyễn Khoa Bình (Sức khỏe nam giới)': {
     url: 'https://www.facebook.com/nguyen.brandon.921/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5ltjc9a2uy1vld6p3t5nd/Nguyen-Brandon-BS-Nguy-n-Khoa-B-nh.jpg?rlkey=1a8t62jiwgzhuur1or25ney34&st=yvjfvuub&raw=1',
   },
@@ -86,11 +90,11 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Lamdepthatthich1/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/rf2rbvs1zya4ctkmsdb6g/L-m-p-th-t-th-ch.jpg?rlkey=obcxx6eh1n193dqcjhj83r67s&st=ezqmmb5q&raw=1',
   },
-  'Chill Mỗi Ngày (Sức Khỏe Nữ Giới)': {
+  'Chill mỗi ngày (Sức khỏe nữ giới)': {
     url: 'https://www.facebook.com/chillmoingayy/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/364oshgch9kszqoy6p07i/Chill-M-i-Ng-y.jpg?rlkey=2g0wbsoakcfmj6worglsafxo7&st=eb1b3tjr&raw=1',
   },
-  'Quỳnh Chia Sẻ Cân Bằng Chuyển Hoá': {
+  'Quỳnh chia sẻ cân bằng chuyển hoá': {
     url: 'https://www.facebook.com/Quynh.Meothantai96/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/egqzjfxbib9r23onbqyi6/Qu-nh-Chia-S-C-n-B-ng-Chuy-n-Ho.png?rlkey=fcd7xq47rmeg4a8tckp866yoy&st=xogkyxgm&raw=1',
   },
@@ -104,17 +108,17 @@ const folderLinks = {
   },
   'Trinh Huỳnh': {
     url: 'https://www.facebook.com/trinhhuynhdangxinh101/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/2viv9ww5jai4c85ajpoi7/Trinh-Hu-nh.webp?rlkey=he0glnnjx51ssoavm0vmx4qwq&st=80rbvos3&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/al9g7qxmf9e9fsg94hc0e/Trinh-Hu-nh.jpg?rlkey=2uf61qv9l4epjex54x65si91d&st=svfbwya7&raw=1',
   },
-  'Khỏe Đẹp Cùng Thanh Nga': {
+  'Khỏe đẹp cùng Thanh Nga': {
     url: 'https://www.facebook.com/khoedepthanhnga/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/srl4h972aq065epoeayek/Kh-e-p-C-ng-Thanh-Nga.avif?rlkey=4woqkk7bee9h0bx83sza6ghw8&st=yy1i050f&raw=1',
   },
-  'Bác Sĩ Đinh Hải': {
+  'Bác sĩ Đinh Hải': {
     url: 'https://www.facebook.com/profile.php?id=61581433843264&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/1979e0xej9lx3915iyq1k/B-c-S-inh-H-i.jpg?rlkey=s52rs945mfovu2kv1ukeqv1yr&st=3dpwq1j7&raw=1',
   },
-  'Dược Sĩ Trà': {
+  'Dược sĩ Trà': {
     url: 'https://www.facebook.com/Duocsitra68/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/rd2lwp8cx41z37lcuzzzt/D-c-S-Tr.jpg?rlkey=gyuv42sb6lz1ehtq9yeh0svtx&st=ak5bqyvc&raw=1',
   },
@@ -122,11 +126,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61584560322804&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/y8ycx9n35jg6gie08pwzn/Th-Insulin.jpg?rlkey=97jbwaqen40vz6swbbmgs1wbt&st=611s3f3d&raw=1',
   },
-  'Người Cao Tuổi Radio (Sức Khỏe Cao Tuổi)': {
+  'Người cao tuổi Radio (Sức khỏe cao tuổi)': {
     url: 'https://www.youtube.com/@NguoiCaoTuoiRadio/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/brnx1uncgegl93fwz0yyp/Ng-i-Cao-Tu-i-Radio.jpg?rlkey=qlbiz492yhpv9rv6n0of2yrcq&st=shpjw79b&raw=1',
   },
-  'Bác sĩ Ngọc - Sức Khoẻ Trường Thọ': {
+  'Bác sĩ Ngọc - Sức khoẻ Trường Thọ': {
     url: 'https://www.youtube.com/@BacsiNgocSTTK/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7btt8uba3qnaqkg5mi6al/B-c-s-Ng-c-S-c-Kho-Tr-ng-Th.png?rlkey=1datdlcmn0wrn8ki7854ihzps&st=smshid17&raw=1',
   },
@@ -146,23 +150,23 @@ const folderLinks = {
     url: 'https://www.facebook.com/duocsithoa96/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/49ml75ndfm15135t75645/D-c-s-Thoa.png?rlkey=0f3nlzlg437jlkuaqo91js1wv&st=leg3jqbw&raw=1',
   },
-  'Lê Hữu Ân | Sống Khoẻ Sống Thọ': {
+  'Lê Hữu Ân | Sống khoẻ sống thọ': {
     url: 'https://www.youtube.com/@LeHuuAnSongKhoeSongTho/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/2hnxxdpa12otblo7392ja/L-H-u-n-S-ng-Kho-S-ng-Th.jpg?rlkey=gtiaqg3t0ip8byu4fr7r64cmq&st=o9hfpz3c&raw=1',
   },
-  'Sống Trẻ Sống Thọ 100': {
+  'Sống trẻ sống thọ 100': {
     url: 'https://www.youtube.com/@SongtreSongtho100/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/goic6v2z9mvmm9a5fwbpg/S-ng-Tr-S-ng-Th-100.webp?rlkey=3icubtfq6ttjlyoywlzir5gh2&st=kcl1lhht&raw=1',
   },
-  'Ánh Sáng Tuổi Vàng': {
+  'Ánh sáng tuổi vàng': {
     url: 'https://www.youtube.com/@anhsangtuoivang/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7s9mq1qoad68v11bixsor/nh-S-ng-Tu-i-V-ng.jpg?rlkey=i2o9saj3v3a57xmwpmbb2yr0z&st=fiakgwup&raw=1',
   },
-  'Tâm Tịnh Trí Sáng': {
+  'Tâm tịnh trí sáng': {
     url: 'https://www.youtube.com/@tamtinhtrisang/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/dif6fcogzzpugdmqnia4n/T-m-T-nh-Tr-S-ng.jpg?rlkey=aeoi9yxj5v5d8mdce78e26n89&st=fxv4dzsc&raw=1',
   },
-  'Newme Sức Khỏe - Thái Hà Books': {
+  'Newme Sức khỏe - Thái Hà Books': {
     url: 'https://www.facebook.com/suckhoe.songxanh',
     thumbnail: 'https://www.dropbox.com/scl/fi/zf119u9z4vzn8iwd04urz/Newme-S-c-Kh-e-Th-i-H-Books.png?rlkey=c7wx2luz4qahmcn9wtnv7e3z4&st=lfspp1l5&raw=1',
   },
