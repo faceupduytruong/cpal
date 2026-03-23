@@ -210,17 +210,17 @@ container.innerHTML = `
       </div>
 
  </div>
- 
-      <!-- Hàng thứ 5 -->
+
+       <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">Battle Game</h2>
+    <h2 class="row-title">Stickman Revival</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/851/index.html?gameName=%E6%97%A0%E6%95%8C%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB&gameId=851&category=%E5%86%92%E9%99%A9&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10262_10271_10242_10217_10267_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://s3m9.mdvdns.com/yiti/ee635d390be9cdae9399c074a5e1bba6.png_.webp" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/420/index.html?gameName=%E6%9C%A8%E6%A3%8D%E4%BA%BA%E5%A4%A7%E4%B9%B1%E6%96%97&gameId=420&category=%E5%86%92%E9%99%A9&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10272_10241_10217_10265_10273_10269_10202&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/3f4e35092ea88479cef0dfea37aa412b.png_.webp" alt="Ảnh 1">
 </div>
-        <div class="caption">Chiến binh máy móc bất khả chiến bại</div>
+        <div class="caption">Cuộc ẩu đả của người que gỗ</div>
       </div>
-      
+
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/294/3428/index.html?gameName=%E7%81%AB%E6%9F%B4%E4%BA%BA%E7%8E%8B%E8%80%85%E5%BD%92%E6%9D%A5&gameId=3428&category=%E5%8A%A8%E4%BD%9C&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1648178&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10271_10242_10217_10266_10273_10269_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/f237a2260b41192a9672393ebe52e13a.png_.webp" alt="Ảnh 1">
@@ -235,6 +235,18 @@ container.innerHTML = `
         <div class="caption">Người que lao về phía trước</div>
       </div>
 
+</div>
+ 
+      <!-- Hàng thứ 6 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Battle Game</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/851/index.html?gameName=%E6%97%A0%E6%95%8C%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB&gameId=851&category=%E5%86%92%E9%99%A9&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10262_10271_10242_10217_10267_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/ee635d390be9cdae9399c074a5e1bba6.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Chiến binh máy móc bất khả chiến bại</div>
+      </div>
+      
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/104/965/index.html?gameName=%E7%89%B9%E5%B7%A5%E5%A4%A7%E4%B9%B1%E6%96%97&gameId=965&category=%E5%8A%A8%E4%BD%9C&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1573033&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10262_10271_10242_10217_10267_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/8f000c8bc99399433d107a5a15ad8bc1.png_.webp" alt="Ảnh 1">
@@ -300,7 +312,7 @@ container.innerHTML = `
 
  </div>
 
-       <!-- Hàng thứ 6 -->
+       <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Role-playing Games</h2>
       <div class="image-box">
@@ -333,7 +345,7 @@ container.innerHTML = `
 
  </div>
 
-      <!-- Hàng thứ 7 -->
+      <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
       <div class="image-box">
@@ -366,7 +378,7 @@ container.innerHTML = `
 
  </div>
  
-      <!-- Hàng thứ 8 -->
+      <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Two-player Game</h2>
       <div class="image-box">
@@ -378,7 +390,7 @@ container.innerHTML = `
 
  </div>
 
-    <!-- Hàng thứ 9 -->
+    <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Gaming Station</h2>
       <div class="image-box">
