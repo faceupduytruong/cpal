@@ -20,27 +20,27 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/go7hgrxhqjdlc8twaob54/Google.webp?rlkey=re0z5hmanpo8rp4xts7m24xck&st=riwgh2gl&raw=1'
   },
-  'Cô Gái Xấu Xí Review Phim': {
+  'Cô gái xấu xí review phim': {
     url: 'https://www.youtube.com/@cogaixauxireviewphim3390/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/3n64h80nvg4qefb16h3wv/C-G-i-X-u-X-Review-Phim.webp?rlkey=gmpd0wodrssdbmxss5r525crg&st=uu7kyqdz&raw=1',
   },
-  'Cô Gái Xấu Xí': {
+  'Cô gái xấu xí': {
     url: 'https://www.youtube.com/@CoGaiXauXi/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/1kz0zyfdqhcgv2kwpncns/C-G-i-X-u-X.jpg?rlkey=ngycy1sff4yv2w7m3yelvm6ds&st=6qx5w9h6&raw=1',
   },
-  'Rạp Chiếu Review Phim': {
+  'Rạp chiếu review phim': {
     url: 'https://www.youtube.com/@rapphimofficial/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/fh20y9w1q8bv36l97eult/R-p-Chi-u-Review-Phim.jpg?rlkey=imelonqmo1pvoloht3pzjsb28&st=k9i34cpg&raw=1',
   },
-  'Ổ Phim +': {
+  'Ổ phim +': {
     url: 'https://www.facebook.com/onghienphimx/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ef6icc9vr0t9830f5ohkg/Phim.jpg?rlkey=voff3kwu1asp085xtebv8vcw9&st=1u5xlnab&raw=1',
   },
-  'Cậu Bé Xem Phim': {
+  'Cậu bé xem phim': {
     url: 'https://www.facebook.com/CauBeXemPhimOfficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/yckuv023e0s78pxrhdscr/C-u-B-Xem-Phim.avif?rlkey=8cxjqy8ttuhohr7xqumhvwwzc&st=5ebbu4w6&raw=1',
   },
-  'Tứ Đại Tài Tử': {
+  'Tứ đại tài tử': {
     url: 'https://www.facebook.com/tudaitaitu8386/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0y594kaudtu65velq6qbx/T-i-T-i-T.jpg?rlkey=o8wzce0ngb4djbfvp5o3u8el6&st=gmrllrzv&raw=1',
   },
@@ -52,7 +52,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/wonderfulnature79/videos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xdxj0rj5mgkpxsr0ta02f/VFC-Best-Movies.png?rlkey=lmsk8v274zrlwhyfk5yzqg9yi&st=j86b3x2d&raw=1',
   },
-  'Thích xem Review - Review hay': {
+  'Thích xem review - Review hay': {
     url: 'https://www.facebook.com/groups/1068161579900981/',
     thumbnail: 'https://www.dropbox.com/scl/fi/f2vmsrz86uuho1u4ktt7e/Th-ch-xem-Review-Review-hay.png?rlkey=ha7knjvyccu3jmoa262nr5lmk&st=bbxiyz9e&raw=1',
   },
@@ -60,7 +60,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/sanphimhot.mcv/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nxdrel3h8ue5x37soc29m/S-n-phim-hot.png?rlkey=7hnrqo04rkfgfaugho7qvdpuc&st=pv9agyoy&raw=1',
   },
-  'Đỗ Nhật Minh (Minh Pháp Sư)': {
+  'Đỗ Nhật Minh (Minh pháp sư)': {
     url: 'https://www.facebook.com/donhatminh25/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/u545rmvh9fgrzbq4znnim/Nh-t-Minh-Minh-Ph-p-S.png?rlkey=r7p5jxwjk0xh9p48x8bs9ehi6&st=pegt0h3w&raw=1',
   },
