@@ -16,7 +16,7 @@ const folderLinks = {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Story/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/j21wzyqw0hwr85277vq3c/S-ch-K-Chuy-n.jpg?rlkey=wmvuqc2plyff5dw8jxjoe0dm9&st=irzrzjyg&raw=1',
   },
-  'Google': {
+  'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/go7hgrxhqjdlc8twaob54/Google.webp?rlkey=re0z5hmanpo8rp4xts7m24xck&st=riwgh2gl&raw=1'
   },
