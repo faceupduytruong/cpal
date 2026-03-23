@@ -22,6 +22,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/yzybwmr1evaef8uicfj6f/Google-Translate.jpg?rlkey=9llm5qj0yvyaxyksqzpuvs2f8&st=t4e090lj&raw=1'
   },
+  'BVM English': {
+    url: 'https://www.facebook.com/bvminhenglish/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gzp069sv716yvjcw5kold/BVM-English.png?rlkey=yjbykmj4vdzx3pfn9vsqy8xmc&st=8tfykeep&raw=1'
+  },
   'G’rilla Books - Học tiếng Anh theo quy luật': {
     url: 'https://www.facebook.com/grillabooks/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/v5rep3xiqgt36iq1uul3h/G-rilla-Books-H-c-ti-ng-Anh-theo-quy-lu-t.png?rlkey=een657p8tftce64oqsmecz7pi&st=8sdlsw68&raw=1'
