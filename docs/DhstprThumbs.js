@@ -74,6 +74,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/DaoPhatTrongTraiTimToi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lzve20yg0jokv3g9fs9cg/o-Ph-t-trong-tr-i-tim-t-i.jpg?rlkey=dlsk2bsvn2ukypnujqaeb0kuv&st=2o5n28of&raw=1',
   },
+  'Nguyễn Ngọc (Vô Thường)': {
+    url: 'https://www.facebook.com/tubaochau112/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6yp7t6aaihmy8qpk0wc12/Nguy-n-Ng-c-V-Th-ng.jpeg?rlkey=6cynbh4us9j57j9jfssf7ffd3&st=41kznl8o&raw=1',
+  },
   'Lạc Thích Quen': {
     url: 'https://www.facebook.com/profile.php?id=61585481250950&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/h0rjc8a0xahtvd0xt0hlg/L-c-Th-ch-Quen.jpg?rlkey=sicn8gi4lepq292jamaba2sjh&st=j1f0dy3i&raw=1',
