@@ -1,15 +1,11 @@
 const customThumbnails = {
   'Time': 'https://www.dropbox.com/scl/fi/o2t5xix5p7jefgkd6aybg/Time.jpg?rlkey=4seomewe2u7q22fk09wjmvx17&st=7hn1v56t&raw=1',
-  'Dream topics': 'https://www.dropbox.com/scl/fi/6aftifnv5iry39v56y838/Dream-topics.jpg?rlkey=agcq59ovsbgm84d19etkkszmc&st=0y7vcba6&raw=1',
-  'Travel topics': 'https://www.dropbox.com/scl/fi/iwdlv2r5iqx9m386qtxyy/Travel-topics.png?rlkey=z9cm6qs1xhvk36ruligtfg5jr&st=0m63ikmg&raw=1',
   // thêm các mục khác nếu cần
 };
 
 // Danh sách thư mục và số lượng ảnh trong mỗi thư mục
 const folders = {
   'Time': ['54088110141_a6dcd48bea_o.jpg', 'talkin_image_1729481035440.jpg', 'talkin_image_1730449853013.jpg', 'talkin_image_1730449854745.jpg', 'talkin_image_1730452491714.jpg', 'talkin_image_1730454953058.jpg', 'talkin_image_1730454954489.jpg', 'talkin_image_1730454957424.jpg', 'talkin_image_1730454966714.jpg', 'talkin_image_1730454969251.jpg', 'talkin_image_1733140473200.jpg', 'talkin_image_1735391001973.jpg', 'talkin_image_1735867431839.jpg', 'talkin_image_1737015117446.jpg', 'talkin_image_1737015118688.jpg', 'talkin_image_1737015121202.jpg', 'talkin_image_1737015123815.jpg', 'talkin_image_1737015147033.jpg', 'talkin_image_1737015148471.jpg', 'talkin_image_1737015150882.jpg', 'talkin_image_1737015153339.jpg', 'talkin_image_1737015184754.jpg', 'talkin_image_1737015186101.jpg', 'talkin_image_1737015188356.jpg', 'talkin_image_1737015190946.jpg', 'talkin_image_1737029907567.jpg', 'talkin_image_1737702106401.jpg', 'talkin_image_1737702107732.jpg', 'talkin_image_1737702110058.jpg', 'talkin_image_1737702112761.jpg', 'talkin_image_1739130158989.jpg', 'talkin_image_1753173710650.jpg', 'talkin_image_1753173712186.jpg', 'talkin_image_1753173714385.jpg', 'talkin_image_1753173716827.jpg', 'talkin_image_1753173902596.jpg', 'talkin_image_1753173904227.jpg', 'talkin_image_1753173906436.jpg', 'talkin_image_1753173908638.jpg', 'talkin_image_1753174087097.jpg', 'talkin_image_1753174088609.jpg', 'talkin_image_1753174090668.jpg', 'talkin_image_1753174093160.jpg', 'talkin_image_1756737549239.jpg', 'talkin_image_1756737660061.jpg', 'talkin_image_1756864921422.jpg', 'talkin_image_1760070344420.jpg'],
-  'Dream topics': ['My utopia (en).jpg', 'My utopia (vi).jpg'],
-  'Travel topics': ['Humanity could colonize other planets (en).jpg', 'Humanity could colonize other planets (vi).jpg', 'Monumental structures (en).png', 'Monumental structures (vi).png', 'My favorite place is better than others (en).png', 'My favorite place is better than others (vi).png', 'Photography has changed the world (en).png', 'Photography has changed the world (vi).png', 'Skydiving was the most courageous thing (en).png', 'Skydiving was the most courageous thing (vi).png', 'Tea and coffee have had a positive impact on lives (en).png', 'Tea and coffee have had a positive impact on lives (vi).png', "The most interesting place I've visited (en).jpg", "The most interesting place I've visited (vi).jpg", 'Visiting Los Angeles alone (en).jpg', 'Visiting Los Angeles alone (vi).jpg'],
   // thêm các mục khác nếu cần
 };
 
