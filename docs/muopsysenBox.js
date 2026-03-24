@@ -740,6 +740,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/viet.nguyenvan.988/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/hutx9hy86jyco7obwp0lz/Viet-Nguyen-Van.png?rlkey=s08yqt9tadqizux5rb580he0u&st=qz401dvs&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Nguyễn Văn Việt</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.damtaicap.net/search/label/Microsft%20Excel' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/w2tixq4kchb7zxydvs3sy/m-T-i-Cap-Excel.webp?rlkey=12pqdr8b9jw6pekyborcoyc1n&st=918gin9u&raw=1" alt="Ảnh 1">
 </div>
