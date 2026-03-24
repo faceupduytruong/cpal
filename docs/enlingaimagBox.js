@@ -241,6 +241,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Battle Game</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/1980/index.html?gameName=%E7%A9%BA%E6%96%97%E8%81%94%E7%9B%9F&gameId=1980&category=%E7%AB%9E%E6%8A%80&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10271_10241_10217_10266_10273_10270_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/d09e5fb1c8f6b77d9c0f6c218f8b7242.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Liên minh không chiến</div>
+      </div>
+    
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/851/index.html?gameName=%E6%97%A0%E6%95%8C%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB&gameId=851&category=%E5%86%92%E9%99%A9&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10262_10271_10242_10217_10267_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/ee635d390be9cdae9399c074a5e1bba6.png_.webp" alt="Ảnh 1">
 </div>
