@@ -93,6 +93,18 @@ container.innerHTML = `
 
      <!-- Hàng thứ 2 -->
     <div class="image-row glass-bg">
+    <h2 class="row-title">Modern Technology</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/huucao.tech/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/bu640ys56hrnbdknjutgk/H-C-ng-Ngh.webp?rlkey=mxysv85jvfp19a9jfaatf354p&st=bl7k2rzp&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hủ Công Nghệ</div>
+      </div>
+
+</div>
+
+     <!-- Hàng thứ 3 -->
+    <div class="image-row glass-bg">
     <h2 class="row-title">Programmer</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.youtube.com/@Ph%E1%BA%A1mHuyHo%C3%A0ng-w1e/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -102,7 +114,7 @@ container.innerHTML = `
       </div>
 </div>
 
-     <!-- Hàng thứ 3 -->
+     <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Laptop Buying Suggestions</h2>
       <div class="image-box">
@@ -177,7 +189,7 @@ container.innerHTML = `
      
 </div>
 
-     <!-- Hàng thứ 4 -->
+     <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Affordable Wholesale Laptops</h2>
       <div class="image-box">
@@ -231,7 +243,7 @@ container.innerHTML = `
       
 </div>
 
-     <!-- Hàng thứ 5 -->
+     <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Accessory Buying Suggestions</h2>
       <div class="image-box">
@@ -250,7 +262,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 6 -->
+     <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Games</h2>
       <div class="image-box">
@@ -297,7 +309,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 7 -->
+     <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Smart Tech Toys</h2>
       <div class="image-box">
