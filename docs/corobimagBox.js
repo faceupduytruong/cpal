@@ -107,11 +107,19 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Programmer</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.youtube.com/@Ph%E1%BA%A1mHuyHo%C3%A0ng-w1e/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@toiicodedaoblog/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/gxl9nzy8t9h3x94hbp536/Ph-m-Huy-Ho-ng.png?rlkey=dx0sd277zonee3xzkjokrdh4j&st=mp6bpxsu&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Phạm Huy Hoàng</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/hoangnm.ndm/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/g64rl1s7y4vu83z8tkivm/Hoang-Nguyen-Anh-Gi-o-Ho-ng?rlkey=cend141rflrxlic0ocr37apez&st=29bdpomo&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hoang Nguyen (Anh Giáo Hoàng)</div>
+      </div>
+      
 </div>
 
      <!-- Hàng thứ 4 -->
