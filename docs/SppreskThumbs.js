@@ -102,7 +102,7 @@ const folderLinks = {
   },
   'Đặng Thái Cường': {
     url: 'https://www.facebook.com/coachleocuong/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/6cd0ilr64butflt0rj9sy/ng-Th-i-C-ng.webp?rlkey=kob0y06l5hryt0mlnrrhmtbrj&st=fpevh9jx&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/cbfr0ydfx63mes7gxw1rc/ng-Th-i-C-ng.png?rlkey=4e5idqz7q8htx70gt1uuaqbvf&st=hwjr09g3&raw=1',
   },
   'Trạm Học Nói': {
     url: 'https://www.facebook.com/TramhocNOI/reels/',
