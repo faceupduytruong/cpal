@@ -46,7 +46,7 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/eap3o0v3b3o8ypxr3zr9e/Tr-chuy-n-v-i-T-ng-Lai.jpg?rlkey=j6i91048e6oevxm8wqv103zap&st=8bnuu7rp&raw=1',
   },
   'Phát Triển Bản Thân Liên Tục': {
-    url: 'https://www.facebook.com/groups/phattrienbanthanlientuc/media',
+    url: 'https://www.facebook.com/groups/phattrienbanthanlientuc',
     thumbnail: 'https://www.dropbox.com/scl/fi/ees17ngvzumv0et65mthw/Ph-t-tri-n-B-n-Th-n-Li-n-T-c.jpg?rlkey=pea6pdt5hhztlnljopdcox13r&st=h1gmdwbm&raw=1',
   },
   'Đàm Tài Cap (Chia sẻ hay)': {
@@ -59,7 +59,7 @@ const folderLinks = {
   },
   'Trần Toản': {
     url: 'https://www.facebook.com/trantoan886868/photos/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/fa5i2xlwq2y4cqk3hh9qp/Tr-n-To-n.jpg?rlkey=9sset688gq70k3b6trcn80ebm&st=gaxn5lpe&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lq8c6arhkukj5rtu3kxy7/Tr-n-To-n.png?rlkey=uyhvegrw2wjywxod5tf90w5rn&st=ps6934jf&raw=1',
   },
   'Sách Hay Chọn Đọc': {
     url: 'https://www.facebook.com/sachhaychondoc/reels/',
@@ -89,11 +89,15 @@ const folderLinks = {
     url: 'https://www.facebook.com/CaoCongThanhOfficial/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/41whnduk9dmm391z8o0br/Cao-C-ng-Th-nh.png?rlkey=uzrt4su0px7smp5a8juaqcdjy&st=e1sjecto&raw=1',
   },
-  'Nguyễn Anh Tuấn  (Online Business Mentor)': {
+  'Trần Trung Dũng': {
+    url: 'https://www.facebook.com/tran.trung.dung.402075',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ka2373gb8wuih2ix99lcn/Tr-n-Trung-D-ng.png?rlkey=fq5eopiemt8uv5aa0o0hs5sn9&st=34s2ckf2&raw=1',
+  },
+  'Nguyễn Anh Tuấn (Online Business Mentor)': {
     url: 'https://www.facebook.com/nguyenanhtuan.mentor.official/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/409uhgkfvlra4r9u7lvl3/Nguy-n-Anh-Tu-n-Online-Business-Mentor.png?rlkey=6cxj0np4ch7q742tb6awz8beb&st=mgni2xic&raw=1',
   },
-  'Trần Quốc Nhẫn  (Trần Quốc Nhẫn)': {
+  'Trần Quốc Nhẫn (Trần Quốc Nhẫn)': {
     url: 'https://www.facebook.com/RichdadTran/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/3jrjcg8l9kp05fzlc4rmm/Tr-n-Qu-c-Nh-n-Tr-n-Qu-c-Nh-n.jpg?rlkey=lywgxsgpl8pzi4q1tn9oy441t&st=xage1tmq&raw=1',
   },
