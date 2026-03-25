@@ -27,7 +27,11 @@ const folderLinks = {
   },
   'Revit Vietnam-Tự học Revit': {
     url: 'https://www.facebook.com/groups/revitvietnamtuhocrevit/posts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/qorng9j40ln31en9qkfmj/Revit-Vietnam-T-h-c-Revit.jpg?rlkey=s7kt69ip8e2pqujwm47amclzx&st=7lofzjo9&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vtmze6aqe6cr48uy92jj4/Revit-Vietnam-T-h-c-Revit.png?rlkey=mf90xpahos04wq6hpfgcvlzjx&st=hsme34yp&raw=1',
+  },
+  'Revit Vietnam - Tự học Revit': {
+    url: 'https://www.facebook.com/groups/1909106909373965/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qorng9j40ln31en9qkfmj/Revit-Vietnam-T-h-c-Revit.jpg?rlkey=s7kt69ip8e2pqujwm47amclzx&st=n038pc6n&raw=1',
   },
   'Sơn Long Revit Ctu': {
     url: 'https://www.facebook.com/profile.php?id=100023083592363&sk=reels_tab',
