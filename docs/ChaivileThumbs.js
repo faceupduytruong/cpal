@@ -44,6 +44,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61563355705752&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/p57rkvpnpd8rwjiqtaghe/H-c-Ti-ng-Trung-M-i-Ng-y.jpg?rlkey=hlr73i8r08bf98md6a0qnkqgq&st=dp3ave3f&raw=1'
   },
+  'Học Tiếng Trung Cùng MCBooks': {
+    url: 'https://www.facebook.com/mcbookshoctiengtrung/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9jv5cjfypc10ya3mfkxtt/H-c-Ti-ng-Trung-C-ng-MCBooks.jpg?rlkey=gm30t4uyfyoqc4lmov27yj6j7&st=is4md033&raw=1'
+  },
   'Tiếng Trung Trực Tuyến Tại Nhà': {
     url: 'https://www.facebook.com/TiengTrungGiaoTiepTrucTuyen/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8xqorca93zn4wclbys21b/ChineseRd-Ti-ng-Trung-Tr-c-Tuy-n-T-i-Nh.jpg?rlkey=uxwcyp5ycqnk2knwp6wctuv0l&st=dtd233la&raw=1'
