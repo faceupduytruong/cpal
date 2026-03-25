@@ -74,6 +74,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/ngoc.hanh.768422/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/doqg77p7gkca9wdr5gajs/H-nh-Vui-V.webp?rlkey=url2j9t0qji3x53mfj0la3hp7&st=va7qjp15&raw=1',
   },
+  'Tuyền Phạm (Góc Bếp Quê)': {
+    url: 'https://www.facebook.com/tuyen.pham.885389/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ayeqrr2yh1xjfadupbp27/Tuy-n-Ph-m-G-c-B-p-Qu.webp?rlkey=331nbqgn5ktlvyixhhtxnpf7t&st=4yzlv4bh&raw=1',
+  },
   'Yêu Bếp (Esheep Kitchen family)': {
     url: 'https://www.facebook.com/groups/557295677987925/',
     thumbnail: 'https://www.dropbox.com/scl/fi/l4bafpvu1jeh3e2yhi5xk/Y-U-B-P-Esheep-Kitchen-family.jpg?rlkey=2uei1mj67gggqvai08zija3lz&st=21qyiwo2&raw=1',
