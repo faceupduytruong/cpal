@@ -130,6 +130,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/TKBooks.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2xfs6mszfzta4v277h2ci/TKBooks-C-c-M-n-H-c.jpg?rlkey=yf9cv58ink6uj46ht41puzrtm&st=9owsvd48&raw=1'
   },
+  'Tủ truyện tranh đọc xuôi 199x': {
+    url: 'https://www.facebook.com/truyentranhdocxuoi199x/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/stpgk1w06tow0it9yqqs4/T-truy-n-tranh-c-xu-i-199x.jpg?rlkey=mts8b8zahno7ojp8b5tdvxfz7&st=nuyhzh13&raw=1'
+  },
   'Trí Đức Education': {
     url: 'https://www.facebook.com/profile.php?id=61570498768064&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/40e3hp0u7j5dldkqjy1tw/Tr-c-Education.jpg?rlkey=onmmqahhhyst4sckkp9b8ql4f&st=uk01btzd&raw=1'
