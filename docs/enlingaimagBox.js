@@ -246,6 +246,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Liên minh không chiến</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/56/2104/index.html?gameName=%E5%B0%8F%E7%B3%96%E4%BA%BA%E8%A5%BF%E6%B8%B8&gameId=2104&category=%E5%86%92%E9%99%A9&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1551191&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10271_10243_10216_10267_10273_10270_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://s3m9.mdvdns.com/yiti/5aa82ce0351c389f0e2a6b7e2ba1bb17.png_.webp" alt="Ảnh 1">
+</div>
+        <div class="caption">Hành trình về phương Tây của Tiểu Đường</div>
+      </div>
     
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/851/index.html?gameName=%E6%97%A0%E6%95%8C%E6%9C%BA%E7%94%B2%E6%88%98%E5%A3%AB&gameId=851&category=%E5%86%92%E9%99%A9&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10262_10271_10242_10217_10267_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
