@@ -58,7 +58,7 @@ const folderLinks = {
     url: 'https://www.youtube.com/@dsdaiminh88/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/gn0edpxb5zk7pl10rkqrw/D-c-S-i-Minh.jpg?rlkey=0hyzegspdwupvccy0sfw9bmxq&st=eo91n1z5&raw=1'
   },
- 'Vinmec Integrated Mental Health Center - Sức khỏe Tinh thần Tích hợp Vinmec': {
+ 'Sức khỏe Tinh thần Tích hợp Vinmec': {
     url: 'https://www.facebook.com/ttsuckhoetinhthantichhopvinmec/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/v38c70lqn85ov9pdtx4w0/Vinmec-Integrated-Mental-Health-Center-S-c-kh-e-Tinh-th-n-T-ch-h-p-Vinmec.jpg?rlkey=g9us95xdamnv8gc4bv8b6wamh&st=5915v0w2&raw=1'
   },
@@ -94,7 +94,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/bunnykidbooks/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/noimnbdwevmb533b0y7yl/Bunny-Kidbooks-S-ch-thi-u-nhi-thu-n-Vi-t.png?rlkey=as3mhvxo1xdf63rhvd9cns4ik&st=c3ge8di4&raw=1',
   },
-  'Tân Việt Books - Đồng hành cùng con trên hành trình trưởng thành': {
+  'Tân Việt Books - Đồng hành cùng con': {
     url: 'https://www.facebook.com/tanvietbookshn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/35ra27giupnf963frxkzy/T-n-Vi-t-Books-ng-h-nh-c-ng-con-tr-n-h-nh-tr-nh-tr-ng-th-nh.jpg?rlkey=xhh971bs16bwcdkukvvqh7jur&st=pcsllnvz&raw=1',
   },
@@ -132,7 +132,7 @@ const folderLinks = {
   },
   'Tủ truyện tranh đọc xuôi 199x': {
     url: 'https://www.facebook.com/truyentranhdocxuoi199x/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/stpgk1w06tow0it9yqqs4/T-truy-n-tranh-c-xu-i-199x.jpg?rlkey=mts8b8zahno7ojp8b5tdvxfz7&st=nuyhzh13&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/x2vrsguq32p07k9mvqnru/T-truy-n-tranh-c-xu-i-199x.gif?rlkey=ya0yye9qll2g37d3d245aksgo&st=boir6zy8&raw=1'
   },
   'Trí Đức Education': {
     url: 'https://www.facebook.com/profile.php?id=61570498768064&sk=photos',
