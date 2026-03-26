@@ -396,7 +396,7 @@ container.innerHTML = `
     <h2 class="row-title">Linux</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/linux-os' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/07z64vb6983gq74qsyp8y/Qu-n-Tr-M-ng-Linux.png?rlkey=0ld4zufw37rspmm2cx45w052s&st=liv1oefw&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/07z64vb6983gq74qsyp8y/Qu-n-Tr-M-ng-Linux.png?rlkey=0ld4zufw37rspmm2cx45w052s&st=d8wba10b&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Quản Trị Mạng (Linux)</div>
       </div>
@@ -420,6 +420,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/7sa1m1e9v8hz3bply1bpg/Vi-t-Nam-Linux-Family-VNLF.png?rlkey=3dy1gdf8tko0vbnp6i665xiz1&st=hbd7j4pz&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Việt Nam Linux Family - VNLF</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/1073126727485389/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/md8dr03xjt2gzbtw6puxv/Linux.png?rlkey=91oll3t9eil3hvhcwo6v9k0rg&st=j8bsmoee&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Linux</div>
       </div>
 
      <div class="image-box">
@@ -514,7 +521,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/7064460843613310/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/z74k9as8mqolrhq1kzhaz/Kali-Linux-Offensive-Security.png?rlkey=4ov78p31k6r0qxfjtefcekyt0&st=wkbhhpks&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/0pmabb0ys2gtbqwp0iwfp/Kali-Linux.webp?rlkey=06nx52rw2grmwq9meycftd516&st=1hnl8qkd&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Kali Linux | Offensive Security</div>
       </div>
