@@ -136,27 +136,27 @@ const folderLinks = {
     url: 'https://www.facebook.com/theieltsvn/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uzoco8dgg13uwu0o28gys/The-Real-IELTS-T-tin-x-a-M-T-G-C.png?rlkey=drnhwozadsxnnmfwvz94js93e&st=1fdqn5uf&raw=1',
   },
-  'IELTS FORECAST - Dự đoán đề IELTS': {
+  'IELTS Forecast - Dự đoán đề IELTS': {
     url: 'https://www.facebook.com/groups/1683171705425125/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/1yyiylswbbep0fm7s2b04/IELTS-FORECAST-D-o-n-IELTS.jpg?rlkey=m4efd5wbmsw7a2pc316rt4s2j&st=pibbk9bh&raw=1',
   },
-  'Abit - Học IELTS Đạt Chuẩn Tư Duy Của Giám Khảo Chấm Thi': {
+  'Abit - Tư duy của giám khảo chấm thi': {
     url: 'https://www.facebook.com/abitieltschuantuduygiamkhao/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/k0uibor1lk6sl2xwfvxao/Abit-H-c-IELTS-t-Chu-n-T-Duy-C-a-Gi-m-Kh-o-Ch-m-Thi.jpg?rlkey=e810wasqcdu9n9nth0xay78ka&st=f0oiw9tu&raw=1'
   },
-  'Chia sẻ kinh nghiệm thi IELTS - giáo viên dạy Tiếng Anh - IELTS': {
+  'Chia sẻ kinh nghiệm thi IELTS': {
     url: 'https://www.facebook.com/groups/196673868624700/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/8250koh7ufjdyijtqim7s/Chia-s-kinh-nghi-m-thi-IELTS-gi-o-vi-n-d-y-Ti-ng-Anh-IELTS.jpg?rlkey=z0ee5fpnlrcdtu3edvwwdwo8c&st=98k963bx&raw=1',
   },
-  'Chia sẻ kinh nghiệm và tài liệu tự học IELTS 8.0+': {
+  'Kinh nghiệm và tài liệu tự học IELTS 8.0+': {
     url: 'https://www.facebook.com/groups/study4.ielts/media/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jn8x1iyufvnt2a5f6ejd2/Chia-s-kinh-nghi-m-v-t-i-li-u-t-h-c-IELTS-8.0.jpg?rlkey=u8wmcf5tygt4b27gfgo8dmsp9&st=p5ddcq4g&raw=1',
   },
-  'IELTS BẢO QUỐC_Tự học IELTS Listening-Reading 9.0': {
+  'IELTS Bảo Quốc - Listening-Reading 9.0': {
     url: 'https://www.facebook.com/groups/ieltsbaoquoc.ieltscanhanhoa.listeningreading.group/media/',
     thumbnail: 'https://www.dropbox.com/scl/fi/jdb4g9ijes8ik8u2uxy54/IELTS-B-O-QU-C_T-h-c-IELTS-Listening-Reading-9.0.jpg?rlkey=zi4vr1j9p9h649c8pi55vq8zy&st=3fi4xf3x&raw=1',
   },
-  'Học IELTS cùng Cựu giám khảo (Mc IELTS)': {
+  'Học IELTS cùng Cựu giám khảo': {
     url: 'https://www.facebook.com/groups/643559425737713/',
     thumbnail: 'https://www.dropbox.com/scl/fi/a5kpizf88ddjztcnxfzr4/H-c-IELTS-c-ng-C-u-gi-m-kh-o-Mc-IELTS.jpg?rlkey=cibomm20y4dqne1gvh7zx0j05&st=m1k6d8ny&raw=1',
   },
