@@ -147,6 +147,13 @@ container.innerHTML = `
 </div>
         <div class="caption">AutoLISP Reviewer</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/autolispjustsimple/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/nvdk46pvibmoco6uexzy2/Autolisp-Th-t-l-n-gi-n.webp?rlkey=vkjjm5ywu7gqkdrgxmp41hixs&st=yfs105hg&raw=1">
+</div>
+        <div class="caption">Autolisp - Thật là đơn giản</div>
+      </div>
      
 </div>
 
