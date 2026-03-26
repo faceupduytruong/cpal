@@ -76,7 +76,7 @@ const folderLinks = {
   },
   'Giao tiếp gia đình': {
     url: 'https://www.facebook.com/giaotiepgiadinh/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/pe8m1vrc7qqydpblr9lgr/Giao-ti-p-gia-nh.jpg?rlkey=2bndznxv0f4t0kb5nabd8f322&st=7dvjx8bg&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/ag2w3aeocvnnhbtpaquwn/Giao-ti-p-gia-nh.jpg?rlkey=e18ym5xh3z1c5vymhhjp9ll6k&st=pm5nji3x&raw=1'
   },
   'English Speaking Practice': {
     url: 'https://www.facebook.com/groups/5688211251275040/media',
