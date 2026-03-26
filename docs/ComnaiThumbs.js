@@ -74,6 +74,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/ngoctrinh1314/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/llhl7vd467jee9n804ka8/Ng-c-Trinh.png?rlkey=8xv5tjsie08sntu60450y0ohu&st=jdv7ccjf&raw=1'
   },
+  'Giao tiếp gia đình': {
+    url: 'https://www.facebook.com/giaotiepgiadinh/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/co2ha8oh21ezhpobk31b7/K-n-ng-d-y-ti-ng-Anh-cho-tr.jpg?rlkey=fc6f8hghmuel9vdc6q4w0oruu&st=awhmg92z&raw=1'
+  },
   'English Speaking Practice': {
     url: 'https://www.facebook.com/groups/5688211251275040/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/i1eoqcn831eizxqa2s304/English-Speaking-practice.jpg?rlkey=ro51xu5ou06fi0y6xb782a4nx&st=w63rl9pq&raw=1'
