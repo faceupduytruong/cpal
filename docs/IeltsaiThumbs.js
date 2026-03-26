@@ -124,6 +124,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/lani.ielts.learning/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/lnqy6pkivg2zf6joxmlyi/Lani-Ielts.jpg?rlkey=p50p1mnc51cr5ajuez7rxbubo&st=dcyliutt&raw=1'
   },
+ 'The Real IELTS': {
+    url: 'https://www.facebook.com/realieltsvn/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gtcjpmioqeh5mtdafba1q/The-Real-IELTS.jpg?rlkey=y3cq9fu2a1dvr0s9633ivzwwo&st=lu8olx42&raw=1'
+  },
   'Jaxtina English Center': {
     url: 'https://www.facebook.com/jaxtinaenglish/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/9t7jefdesg7i7jiuulvra/Jaxtina-English-Center.jpg?rlkey=r87toe08nhgyu7i814ptva87y&st=gds37pca&raw=1'
