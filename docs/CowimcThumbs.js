@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tuyensaphia92/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/dn6a9uh4amouq0av05abz/Tuyen-saphia.jpg?rlkey=7nhtqnh6f6go28ffy1mxxjhf9&st=ifii00ox&raw=1',
   },
+  'Mai Tây Bắc': {
+    url: 'https://www.facebook.com/maitaybac34/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/13g3oai7t3tjfeen579fw/Mai-T-y-B-c.jpg?rlkey=clkc68bgagmufpsxsb8wuy89x&st=qz7cs7q6&raw=1',
+  },
   'Út về vườn': {
     url: 'https://www.facebook.com/utvevuon/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/epxg7mk6ww2dzappirfo3/t-v-v-n.jpg?rlkey=u02sro1w0powqgiejxwls7v13&st=0afm0kn6&raw=1',
