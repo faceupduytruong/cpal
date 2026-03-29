@@ -92,5 +92,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/trungtamtiengtrungquan6/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/v35q408zpp6yq3v72bdg9/Ti-ng-Trung-You-Can-Qu-n-6.png?rlkey=lpxodd08jatqyhu2f9nziwlcq&st=whqw7r7a&raw=1'
   },
+  'Tiếng Trung Tâm Tâm': {
+    url: 'https://www.facebook.com/tiengtrungtamtamxx/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/di9arkgg0euuu95qqf0kh/Ti-ng-Trung-T-m-T-m.png?rlkey=jabo8f5mbkpie2ynxpg6j8jor&st=nr2rs1g3&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
