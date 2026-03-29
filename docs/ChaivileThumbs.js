@@ -40,6 +40,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/HocTiengTrungCungCoMolii/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9e4e60d16bt85uhsyr1q5/Ti-ng-Trung-Molii-FM-Ti-ng-Trung-Giao-Ti-p.png?rlkey=zajond9b9fqld1tkfp610ojb8&st=7emafd73&raw=1'
   },
+  'Tiếng Trung Molii FM - Tiếng Trung Giao Tiếp': {
+    url: 'https://www.facebook.com/HocTiengTrungCungCoMolii/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9e4e60d16bt85uhsyr1q5/Ti-ng-Trung-Molii-FM-Ti-ng-Trung-Giao-Ti-p.png?rlkey=zajond9b9fqld1tkfp610ojb8&st=n0ajjagr&raw=1'
+  },
   'Học Tiếng Trung Quốc Mỗi Ngày': {
     url: 'https://www.facebook.com/profile.php?id=61563355705752&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/p57rkvpnpd8rwjiqtaghe/H-c-Ti-ng-Trung-M-i-Ng-y.jpg?rlkey=hlr73i8r08bf98md6a0qnkqgq&st=dp3ave3f&raw=1'
@@ -60,9 +64,33 @@ const folderLinks = {
     url: 'https://www.facebook.com/crilearnchinese/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/q6k9vrbj14hj6jhaa3ndy/Learn-Chinese.jpg?rlkey=2yx24sgs4d1clw72ecbmfdb9y&st=hf0p0f4u&raw=1'
   },
+  'Tiếng Trung Chao Hanyu': {
+    url: 'https://www.facebook.com/loptiengtrungchaohanyu/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/98tswgzyznnvqubrpgsn0/Ti-ng-Trung-Chao-Hanyu.jpg?rlkey=mel37iyumlk8ruzf6aw5p0a6e&st=8kcvx9zw&raw=1'
+  },
+  'Hoa Ngữ Đắc Nhân': {
+    url: 'https://www.facebook.com/dacnhanhoangu/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nkro54xhp7zr9gbuxm705/Hoa-Ng-c-Nh-n.webp?rlkey=je35ivpdg6rw223zey9yng1g6&st=vm5xvy39&raw=1'
+  },
   'Mcbooksvn (Học Tiếng Trung)': {
     url: 'https://www.facebook.com/mcbooksvn/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/uy5gswlcrq8gfpdwjwuzz/Mcbooksvn.jpg?rlkey=5094eeqsf5jaw4y3szlwz88wn&st=xfhlfajj&raw=1'
+  },
+  'Tiếng Trung Yixin - Tư duy phản xạ': {
+    url: 'https://www.facebook.com/tiengtrungyixin/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fciq8nvhpckw53kcpvs31/Ti-ng-Trung-Yixin-T-duy-ph-n-x.png?rlkey=t07c1rjerx78fjsean8b3eb3v&st=io0qzgpk&raw=1'
+  },
+  'Tiếng Trung SHZ TP.HCM': {
+    url: 'https://www.facebook.com/tiengtrungshztphcm/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ypkf7lbpuyrxnh1vm3xyz/Ti-ng-Trung-SHZ-TP.HCM.png?rlkey=jzpza4y1dprkzzqzttl5ebl33&st=jai253l5&raw=1'
+  },
+  'Tiếng Trung Ni Hao': {
+    url: 'https://www.facebook.com/tiengtrungnghenoinihao/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lcrw3nq9a5iwp45kgfpv9/Ti-ng-Trung-Ni-Hao.jpg?rlkey=jmkruh1bz9nwk1lcabl6ys5i4&st=o4nrr3jm&raw=1'
+  },
+  'Tiếng Trung You Can - Quận 6': {
+    url: 'https://www.facebook.com/trungtamtiengtrungquan6/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/v35q408zpp6yq3v72bdg9/Ti-ng-Trung-You-Can-Qu-n-6.png?rlkey=lpxodd08jatqyhu2f9nziwlcq&st=whqw7r7a&raw=1'
   },
   // thêm các mục khác nếu cần
 };
