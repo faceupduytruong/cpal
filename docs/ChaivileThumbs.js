@@ -40,10 +40,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/HocTiengTrungCungCoMolii/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9e4e60d16bt85uhsyr1q5/Ti-ng-Trung-Molii-FM-Ti-ng-Trung-Giao-Ti-p.png?rlkey=zajond9b9fqld1tkfp610ojb8&st=7emafd73&raw=1'
   },
-  'Tiếng Trung Molii FM - Tiếng Trung Giao Tiếp': {
-    url: 'https://www.facebook.com/HocTiengTrungCungCoMolii/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/9e4e60d16bt85uhsyr1q5/Ti-ng-Trung-Molii-FM-Ti-ng-Trung-Giao-Ti-p.png?rlkey=zajond9b9fqld1tkfp610ojb8&st=n0ajjagr&raw=1'
-  },
   'Học Tiếng Trung Quốc Mỗi Ngày': {
     url: 'https://www.facebook.com/profile.php?id=61563355705752&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/p57rkvpnpd8rwjiqtaghe/H-c-Ti-ng-Trung-M-i-Ng-y.jpg?rlkey=hlr73i8r08bf98md6a0qnkqgq&st=dp3ave3f&raw=1'
@@ -71,6 +67,10 @@ const folderLinks = {
   'Hoa Ngữ Đắc Nhân': {
     url: 'https://www.facebook.com/dacnhanhoangu/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/nkro54xhp7zr9gbuxm705/Hoa-Ng-c-Nh-n.webp?rlkey=je35ivpdg6rw223zey9yng1g6&st=vm5xvy39&raw=1'
+  },
+  'Tiếng Trung Xin Chào (Hoa Ngữ NiHao)': {
+    url: 'https://www.facebook.com/tiengtrungxinchaovn/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/umwk4y6pqwnvfmt2stvqb/Ti-ng-Trung-Xin-Ch-o-Hoa-Ng-NiHao.jpg?rlkey=4mw24y8d6gh1ihi59qehvltza&st=8h29dp1q&raw=1'
   },
   'Mcbooksvn (Học Tiếng Trung)': {
     url: 'https://www.facebook.com/mcbooksvn/photos',
