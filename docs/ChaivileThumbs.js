@@ -30,7 +30,7 @@ const folderLinks = {
   },
   'Tiếng Trung Long Vũ': {
     url: 'https://www.facebook.com/profile.php?id=61579962517312&sk=photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/d1cdrvlt1ndq49h978s96/Ti-ng-Trung-Long-V.png?rlkey=74fttctvfy8woe4h6934yg3ks&st=p6bzxrkj&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/jn6z26aqgvt9gktby1nwn/Ti-ng-Trung-Long-V.jpg?rlkey=zzx3ltltoai7lzzusm6wnoasy&st=42zu91mt&raw=1'
   },
   'Tiếng Trung Kim Oanh': {
     url: 'https://www.facebook.com/tiengtrungkimoanh/reels/',
@@ -54,7 +54,7 @@ const folderLinks = {
   },
   'Tiếng Trung CTI HSK TP.HCM': {
     url: 'https://www.facebook.com/ctihsktphcm/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/2py7xoz1e6z6sgprv769o/Ti-ng-Trung-CTI-HSK-TP.HCM.png?rlkey=dp7pj8radutbflg8yyfmxzdfb&st=1jin7y7q&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/0cnzzcnty6c24db47csb4/Ti-ng-Trung-CTI-HSK-TP.HCM.jpg?rlkey=mum5uta7bamxz9zksflpy0ese&st=54ezx2ch&raw=1'
   },
   'Learn Chinese': {
     url: 'https://www.facebook.com/crilearnchinese/reels/',
@@ -80,6 +80,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tiengtrungyixin/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/fciq8nvhpckw53kcpvs31/Ti-ng-Trung-Yixin-T-duy-ph-n-x.png?rlkey=t07c1rjerx78fjsean8b3eb3v&st=io0qzgpk&raw=1'
   },
+  'Ni Hao Ma - Mandarin Learning Lab Vietnam': {
+    url: 'https://www.facebook.com/NiHaoMaVietnam/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/981695tjqa3dpfk9rggxf/Ni-Hao-Ma-Mandarin-Learning-Lab-Vietnam.jpg?rlkey=iuwcpggxqu57gyk96el6e9ek3&st=ki0sr564&raw=1'
+  },
   'Tiếng Trung SHZ TP.HCM': {
     url: 'https://www.facebook.com/tiengtrungshztphcm/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ypkf7lbpuyrxnh1vm3xyz/Ti-ng-Trung-SHZ-TP.HCM.png?rlkey=jzpza4y1dprkzzqzttl5ebl33&st=jai253l5&raw=1'
@@ -87,6 +91,14 @@ const folderLinks = {
   'Tiếng Trung Ni Hao': {
     url: 'https://www.facebook.com/tiengtrungnghenoinihao/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/lcrw3nq9a5iwp45kgfpv9/Ti-ng-Trung-Ni-Hao.jpg?rlkey=jmkruh1bz9nwk1lcabl6ys5i4&st=o4nrr3jm&raw=1'
+  },
+  'Nhớ Hán Tự Thông Qua Chiết Tự Chữ Hán': {
+    url: 'https://www.facebook.com/NhoHanTu/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/705b71kcuux49jeymc8uv/Nh-H-n-T-Th-ng-Qua-Chi-t-T-Ch-H-n.jpg?rlkey=1b1kow72uwv211py52ceavxz3&st=4p228lot&raw=1'
+  },
+  'Tiếng Trung 21 Ngày': {
+    url: 'https://www.facebook.com/tiengtrung21ngay/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ydehp5ktkp4u3tdmmgkhr/Ti-ng-Trung-21-Ng-y.jpg?rlkey=0h1u04owz46v2rsn3zaz4pr5u&st=14yet5l0&raw=1'
   },
   'Tiếng Trung You Can - Quận 6': {
     url: 'https://www.facebook.com/trungtamtiengtrungquan6/photos',
