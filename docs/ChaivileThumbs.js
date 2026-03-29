@@ -80,7 +80,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/tiengtrungyixin/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/fciq8nvhpckw53kcpvs31/Ti-ng-Trung-Yixin-T-duy-ph-n-x.png?rlkey=t07c1rjerx78fjsean8b3eb3v&st=io0qzgpk&raw=1'
   },
-  'Ni Hao Ma - Mandarin Learning Lab Vietnam': {
+  'Ni Hao Ma - Mandarin Learning Lab': {
     url: 'https://www.facebook.com/NiHaoMaVietnam/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/981695tjqa3dpfk9rggxf/Ni-Hao-Ma-Mandarin-Learning-Lab-Vietnam.jpg?rlkey=iuwcpggxqu57gyk96el6e9ek3&st=ki0sr564&raw=1'
   },
@@ -98,7 +98,7 @@ const folderLinks = {
   },
   'Tiếng Trung 21 Ngày': {
     url: 'https://www.facebook.com/tiengtrung21ngay/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ydehp5ktkp4u3tdmmgkhr/Ti-ng-Trung-21-Ng-y.jpg?rlkey=0h1u04owz46v2rsn3zaz4pr5u&st=14yet5l0&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/nqvldquwbpzmm0h8xadd8/Ti-ng-Trung-21-Ng-y.avif?rlkey=jgkguna634ph0czleqsr6w8nb&st=a0uwyhfo&raw=1'
   },
   'Tiếng Trung You Can - Quận 6': {
     url: 'https://www.facebook.com/trungtamtiengtrungquan6/photos',
