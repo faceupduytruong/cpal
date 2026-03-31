@@ -283,10 +283,10 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/48/448/index.html?gameName=%E6%AD%BB%E7%A5%9EVS%E7%81%AB%E5%BD%B1&gameId=448&category=%E5%8A%A8%E4%BD%9C&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549664&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&lastTime=1772762719670&novipbtn=0&expe=10261_10272_10241_10216_10266_10273_10270_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://s3m9.mdvdns.com/yiti/d5bd39a30dfc27db53a9fe0e0a79f3f9.png_.webp" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/11/naruto-dai-chien/?gid=7993&returnurl=https%3a%2f%2fgamevui.vn%2fnaruto-dai-chien%2fgame&ratedages=0', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/09/17/naruto-dai-chien-300.jpg" alt="Ảnh 1">
 </div>
-        <div class="caption">Bleach đấu với Naruto</div>
+        <div class="caption">Naruto đại chiến Goku (Naruto vs Goku)</div>
       </div>
 
       <div class="image-box">
