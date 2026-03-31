@@ -16,7 +16,7 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/02/dao-vang/?gid=188&returnurl=https%3a%2f%2fgamevui.vn%2fdao-vang%2fgame&ratedages=0', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/08/09/dao-vang-300.jpg" alt="Ảnh 1">
 </div>
-        <div class="caption">Đào vàng</div>
+        <div class="caption">Đào vàng cải tiến (Gold Miner)</div>
       </div>
 
      <div class="image-box">
@@ -83,10 +83,10 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/2397/index.html?gameName=%E6%89%8B%E6%9C%BA%E4%BF%AE%E4%BB%99&gameId=2397&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10272_10242_10217_10266_10273_10269_10201&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://s3m9.mdvdns.com/yiti/e53c33e677e3e688fd515c9c9c342e2d.png_.webp" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/09/mui-ten-phep-thuat-2/?gid=5846&returnurl=https%3a%2f%2fgamevui.vn%2fmui-ten-phep-thuat-2%2fgame&ratedages=12', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://st.gamevui.vn/images/image/2021/09/12/mui-ten-phep-thuat-2-200.jpg" alt="Ảnh 1">
 </div>
-        <div class="caption">Trồng trọt điện thoại di động</div>
+        <div class="caption">Mũi tên phép thuật 2 (Bois DArc)</div>
       </div>
 
      <div class="image-box">
@@ -102,10 +102,10 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Plants & Zoombie</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/1955/index.html?gameName=%E5%83%B5%E5%B0%B8%E5%A1%94%E9%98%B2%E6%A4%8D%E7%89%A9&gameId=1955&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10262_10271_10241_10217_10268_10273_10269_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://s3m9.mdvdns.com/yiti/4f6b8b4479dcb7a212d8136e42703a09.png_.webp" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/10/hoa-qua-noi-gian-2/?gid=10002&returnurl=https%3a%2f%2fgamevui.vn%2fplants-vs-zombies%2fgame&ratedages=18', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/08/26/plants-vs-zombies-2-300.jpg" alt="Ảnh 1">
 </div>
-        <div class="caption">Cây trong trò chơi phòng thủ tháp zombie</div>
+        <div class="caption">Hoa quả nổi giận 2</div>
       </div>
     
       <div class="image-box">
@@ -429,26 +429,12 @@ container.innerHTML = `
       </div>
       
       <div class="image-box">
-  <div onclick="openRightHalfPopup('https://fun.360.cn/?ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+  <div onclick="openRightHalfPopup('https://gamevui.vn/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
           <img src="https://www.dropbox.com/scl/fi/xdbvsf43lbmld7km43tqh/Tr-m-Game-3-360-Games.webp?rlkey=qzs0vijn164zl58ueeaiwcj8b&st=msrpm6sc&raw=1">
 </div>
-        <div class="caption">Trạm game 3 (360 Games)</div>
+        <div class="caption">Trạm game 3 (Game vui)</div>
       </div>
-    
-      <div class="image-box">
-  <div onclick="openRightHalfPopup('https://g.360.cn/index.html', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-          <img src="https://www.dropbox.com/scl/fi/enl69sscfuizkg8xpynyf/Tr-m-Game-4-360-Games.png?rlkey=seqnl4ajx2noji0c8qkccsd0s&st=q11oxjq4&raw=1">
-</div>
-        <div class="caption">Trạm game 4 (360 Games)</div>
-      </div>
-
-      <div class="image-box">
-  <div onclick="openRightHalfPopup('https://g.360.cn/zt/summer2017.html', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-          <img src="https://www.dropbox.com/scl/fi/b68j4quo75gc73nvjj0xt/Tr-m-Game-5-360-Games.webp?rlkey=m4btmrh44uc7hygaq4ce9zzpu&st=4m4ipgpm&raw=1">
-</div>
-        <div class="caption">Trạm game 5 (360 Games)</div>
-      </div>
-      
+     
 </div>
 
 `;
