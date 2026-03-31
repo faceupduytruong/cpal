@@ -6,7 +6,7 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Easy-to-play Game</h2>    
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/87/1705/index.html?gameName=%E9%BB%84%E9%87%91%E7%9F%BF%E5%B7%A5&gameId=1705&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1567222&ad_source=iaa&djsource=F8ljcx&srcid=youyusi&lastTime=1772762719670&novipbtn=0&expe=10262_10272_10241_10217_10265_10273_10269_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/02/dao-vang/?gid=188&returnurl=https%3a%2f%2fgamevui.vn%2fdao-vang%2fgame&ratedages=0', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://s3m9.mdvdns.com/yiti/5b972755d1d2dc0500f94a3b646380aa.png_.webp" alt="Ảnh 1">
 </div>
         <div class="caption">Những người khai thác vàng</div>
