@@ -190,7 +190,7 @@ container.innerHTML = `
     <h2 class="row-title">Playing Shooters</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.gameflare.com/embed/duckmageddon/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/Image/2014/11/10/ban-vit-online.jpg" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/oq4nhngblpd108etuw9jf/B-n-v-t-Online-Duckmageddon.png?rlkey=6mdoped0ureeygyjtmg2bbjp6&st=4gn6iurd&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Bắn vịt Online (Duckmageddon)</div>
       </div>
@@ -427,12 +427,19 @@ container.innerHTML = `
 </div>
         <div class="caption">Trạm game 2 (Y8 Games)</div>
       </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.gameflare.com/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+          <img src="https://www.dropbox.com/scl/fi/xdbvsf43lbmld7km43tqh/Tr-m-Game-3-360-Games.webp?rlkey=qzs0vijn164zl58ueeaiwcj8b&st=09yqb1ds&raw=1">
+</div>
+        <div class="caption">Trạm game 3 (Gameflare)</div>
+      </div>
       
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://gamevui.vn/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-          <img src="https://www.dropbox.com/scl/fi/xdbvsf43lbmld7km43tqh/Tr-m-Game-3-360-Games.webp?rlkey=qzs0vijn164zl58ueeaiwcj8b&st=msrpm6sc&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/enl69sscfuizkg8xpynyf/Tr-m-Game-4-360-Games.png?rlkey=seqnl4ajx2noji0c8qkccsd0s&st=z3xdu9h1&raw=1">
 </div>
-        <div class="caption">Trạm game 3 (Game vui)</div>
+        <div class="caption">Trạm game 4 (Game vui)</div>
       </div>
      
 </div>
