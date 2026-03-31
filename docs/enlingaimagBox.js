@@ -55,10 +55,10 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/52/2004/index.html?gameName=%E8%A3%85%E4%BF%AE%E6%88%BF%E5%AD%90%E6%A8%A1%E6%8B%9F%E5%99%A8&gameId=2004&category=%E6%A8%A1%E6%8B%9F&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1550089&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10272_10242_10217_10265_10273_10269_10202&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://s3m9.mdvdns.com/yiti/009541b24e3bc3b3122549899dfd1c01.png_.webp" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2014/09/pikachu/?gid=9805&returnurl=https%3a%2f%2fgamevui.vn%2fpikachu%2fgame&ratedages=0', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/09/05/pikachu-300.jpg" alt="Ảnh 1">
 </div>
-        <div class="caption">Mô phỏng cải tạo nhà</div>
+        <div class="caption">Pikachu Online</div>
       </div>
 
       <div class="image-box">
@@ -76,10 +76,10 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/58/692/index.html?gameName=%E6%98%9F%E6%98%9F%E6%B6%88%E6%B6%88%E4%B9%90&gameId=692&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1551243&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10272_10217_10265_10273_10270_10200&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://s3m9.mdvdns.com/yiti/9e3c17d398afadb5ce605d2edfb453aa.png_.webp" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/12/noi-kim-cuong-2/?gid=10663&returnurl=https%3a%2f%2fgamevui.vn%2fnoi-kim-cuong-2%2fgame&ratedages=0', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/12/30/noi-kim-cuong-200.jpg" alt="Ảnh 1">
 </div>
-        <div class="caption">Loại trừ ngôi sao</div>
+        <div class="caption">Nối kim cương 2</div>
       </div>
 
      <div class="image-box">
