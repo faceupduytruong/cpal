@@ -189,7 +189,7 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Playing Shooters</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2014/11/ban-vit-online/?gid=10034&returnurl=https%3a%2f%2fgamevui.vn%2fban-vit-online%2fgame&ratedages=0', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://st.gamevui.vn/images/flash/games/2014/11/10/ban-vit-4.swf?gId=5176', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/Image/2014/11/10/ban-vit-online.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Bắn vịt Online (Duckmageddon)</div>
