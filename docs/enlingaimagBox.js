@@ -4,12 +4,19 @@ container.innerHTML = `
 
      <!-- Hàng thứ 1 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">Easy-to-play Game</h2>    
+    <h2 class="row-title">Easy-to-play Game</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2017/11/dao-vang-co-dien/?gid=16994&returnurl=https%3a%2f%2fgamevui.vn%2fdao-vang-co-dien%2fgame&ratedages=0', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/08/09/dao-vang-co-dien-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Đào vàng cổ điển (Gold Miner)</div>
+      </div>
+    
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/02/dao-vang/?gid=188&returnurl=https%3a%2f%2fgamevui.vn%2fdao-vang%2fgame&ratedages=0', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://s3m9.mdvdns.com/yiti/5b972755d1d2dc0500f94a3b646380aa.png_.webp" alt="Ảnh 1">
+       <img src="https://st.gamevui.vn/images/image/2024/08/09/dao-vang-300.jpg" alt="Ảnh 1">
 </div>
-        <div class="caption">Những người khai thác vàng</div>
+        <div class="caption">Đào vàng</div>
       </div>
 
      <div class="image-box">
