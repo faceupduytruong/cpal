@@ -155,9 +155,9 @@ container.innerHTML = `
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://itch.io/games/html5', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-          <img src="https://www.dropbox.com/scl/fi/b68j4quo75gc73nvjj0xt/Tr-m-game-5-Ggameslol.webp?rlkey=m4btmrh44uc7hygaq4ce9zzpu&st=2sfadzo1&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/wzu43l7a6rh1ofz44mt4k/Tr-m-game-6-itch.io.jpg?rlkey=4gapnic580i7rjmwo47f58503&st=txnsje9y&raw=1">
 </div>
-        <div class="caption">Trạm game 5 (itch.io)</div>
+        <div class="caption">Trạm game 6 (itch.io)</div>
       </div>
      
 </div>
