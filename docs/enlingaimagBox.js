@@ -133,14 +133,7 @@ container.innerHTML = `
 </div>
         <div class="caption">Trạm game 4 (Game vui)</div>
       </div>
-
-      <div class="image-box">
-  <div onclick="openRightHalfPopup('https://en.gameslol.net/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-          <img src="https://www.dropbox.com/scl/fi/b68j4quo75gc73nvjj0xt/Tr-m-game-5-Ggameslol.webp?rlkey=m4btmrh44uc7hygaq4ce9zzpu&st=2sfadzo1&raw=1">
-</div>
-        <div class="caption">Trạm game 5 (Ggameslol)</div>
-      </div>
-   
+  
 </div>
 
 `;
