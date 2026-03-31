@@ -90,7 +90,7 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.gameflare.com/embed/mega-shark/', 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.gameflare.com/embed/mega-shark/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://www.dropbox.com/scl/fi/ammar1wnx9t9jgcsncbvg/Mega-Shark.webp?rlkey=xfekjbtzv3yajv7vsnowurfmb&st=w5e4hsp1&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Mega Shark</div>
