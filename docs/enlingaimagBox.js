@@ -27,14 +27,14 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/12/noi-kim-cuong-2/?gid=10663', 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/12/noi-kim-cuong-2/?gid=10663', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2019/12/30/noi-kim-cuong-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Nối kim cương 2</div>
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/09/mui-ten-phep-thuat-2/?gid=5846', 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/09/mui-ten-phep-thuat-2/?gid=5846', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2021/09/12/mui-ten-phep-thuat-2-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Mũi tên phép thuật 2 (Bois DArc)</div>
@@ -89,7 +89,7 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Battle Game</h2>
           <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/11/naruto-dai-chien/?gid=7993', 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/11/naruto-dai-chien/?gid=7993', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/09/17/naruto-dai-chien-300.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Naruto đại chiến Goku (Naruto vs Goku)</div>
