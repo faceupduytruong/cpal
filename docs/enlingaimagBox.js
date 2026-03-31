@@ -90,10 +90,10 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/696/index.html?gameName=%E8%B6%85%E7%BA%A7%E6%89%93%E6%80%AA%E5%85%BD&gameId=696&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10272_10242_10217_10266_10273_10269_10201&iaaStyle=1&iaaAheadClick=1&hb=1&windowPmp=1', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://s3m9.mdvdns.com/yiti/82e02c9e1ef071efd1d215d3b6f13a5f.png_.webp" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://www.gameflare.com/embed/mega-shark/', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ammar1wnx9t9jgcsncbvg/Mega-Shark.webp?rlkey=xfekjbtzv3yajv7vsnowurfmb&st=w5e4hsp1&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Siêu chiến binh quái vật</div>
+        <div class="caption">Mega Shark</div>
       </div>
 
  </div>
