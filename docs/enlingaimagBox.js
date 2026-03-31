@@ -189,10 +189,10 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Playing Shooters</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://fun.em0bu.cn/ssp/47/973/index.html?gameName=%E5%90%83%E9%B8%A1%EF%BC%9A%E7%94%9F%E5%AD%98%E4%BD%9C%E6%88%98&gameId=973&category=%E4%BC%91%E9%97%B2&hasReal=1&qid=57aba2466da6c02ab0fa9f22f96fbe4e&cp=1549437&ad_source=iaa&djsource=l3vVSF&srcid=youyusiyouxi&novipbtn=0&expe=10261_10271_10242_10217_10266_10273_10269_10202&iaaStyle=1&iaaAheadClick=1&hb=1', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://s3m9.mdvdns.com/yiti/b316f144d7a6499c56765f5f55121b52.png_.webp" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2014/11/ban-vit-online/?gid=10034&returnurl=https%3a%2f%2fgamevui.vn%2fban-vit-online%2fgame&ratedages=0', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/Image/2014/11/10/ban-vit-online.jpg" alt="Ảnh 1">
 </div>
-        <div class="caption">Trận chiến sinh tồn</div>
+        <div class="caption">Bắn vịt Online (Duckmageddon)</div>
       </div>
 
      <div class="image-box">
@@ -283,7 +283,7 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/11/naruto-dai-chien/?gid=7993&returnurl=https%3a%2f%2fgamevui.vn%2fnaruto-dai-chien%2fgame&ratedages=0', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/11/naruto-dai-chien/?gid=7993&returnurl=https%3a%2f%2fgamevui.vn%2fnaruto-dai-chien%2fgame&ratedages=0', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/09/17/naruto-dai-chien-300.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Naruto đại chiến Goku (Naruto vs Goku)</div>
