@@ -53,10 +53,10 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Plants & Zoombie</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/10/hoa-qua-noi-gian-2/?gid=10002&returnurl=https%3a%2f%2fgamevui.vn%2fplants-vs-zombies%2fgame&ratedages=18', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://html-classic.itch.zone/html/16911001/Slay%20The%20Zomboss%202.9.0/index.html?v=1774301476', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/08/26/plants-vs-zombies-2-300.jpg" alt="Ảnh 1">
 </div>
-        <div class="caption">Hoa quả nổi giận 2</div>
+        <div class="caption">Slay The Zomboss</div>
       </div>
     
  </div>
@@ -144,6 +144,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/enl69sscfuizkg8xpynyf/Tr-m-Game-4-360-Games.png?rlkey=seqnl4ajx2noji0c8qkccsd0s&st=z3xdu9h1&raw=1">
 </div>
         <div class="caption">Trạm game 4 (Game vui)</div>
+      </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://en.gameslol.net/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+          <img src="https://www.dropbox.com/scl/fi/b68j4quo75gc73nvjj0xt/Tr-m-game-5-Ggameslol.webp?rlkey=m4btmrh44uc7hygaq4ce9zzpu&st=2sfadzo1&raw=1">
+</div>
+        <div class="caption">Trạm game 5 (Ggameslol)</div>
       </div>
      
 </div>
