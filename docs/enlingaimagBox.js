@@ -6,35 +6,35 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Easy-to-play Game</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2017/11/dao-vang-co-dien/?gid=16994', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2017/11/dao-vang-co-dien/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/08/09/dao-vang-co-dien-300.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Đào vàng cổ điển (Gold Miner)</div>
       </div>
     
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/02/dao-vang/?gid=188', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/02/dao-vang/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/08/09/dao-vang-300.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Đào vàng cải tiến (Gold Miner)</div>
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2014/09/pikachu/?gid=9805', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2014/09/pikachu/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/09/05/pikachu-300.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Pikachu Online</div>
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/12/noi-kim-cuong-2/?gid=10663', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/12/noi-kim-cuong-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2019/12/30/noi-kim-cuong-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Nối kim cương 2</div>
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/09/mui-ten-phep-thuat-2/?gid=5846', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/09/mui-ten-phep-thuat-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2021/09/12/mui-ten-phep-thuat-2-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Mũi tên phép thuật 2 (Bois DArc)</div>
