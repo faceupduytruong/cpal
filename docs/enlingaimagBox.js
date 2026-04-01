@@ -40,6 +40,27 @@ container.innerHTML = `
         <div class="caption">Mũi tên phép thuật 2 (Bois DArc)</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/11/crowdy-city/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/11/01/crowd-city-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Crowd City Online</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/04/xep-khoi-go/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2023/04/24/xep-khoi-go-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Xếp khối gỗ</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/05/xep-ngoc/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/05/16/xep-ngoc-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Xếp ngọc</div>
+      </div>
+
  </div>
 
         <!-- Hàng thứ 2 -->
@@ -102,6 +123,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/oq4nhngblpd108etuw9jf/B-n-v-t-Online-Duckmageddon.png?rlkey=6mdoped0ureeygyjtmg2bbjp6&st=4gn6iurd&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Bắn vịt Online (Duckmageddon)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/04/tho-san-alien/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/04/16/tho-san-alien-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Thợ săn Alien</div>
       </div>
       
       <div class="image-box">
