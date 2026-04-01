@@ -118,6 +118,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Đỗ xe trên phố (Park My Car 2)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/06/dua-oto-mao-hiem/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2018/06/21/dua-xe-mao-hiem-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Đua ô tô mạo hiểm (Furious Car Racing)</div>
+      </div>
       
  </div>
 
