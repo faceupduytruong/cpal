@@ -40,6 +40,11 @@ container.innerHTML = `
         <div class="caption">Mũi tên phép thuật 2 (Bois DArc)</div>
       </div>
 
+ </div>
+
+        <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Deep Sea Survival</h2>tránllatte
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/rvvASMiM/9ff4c1c62da64af98d32fe1a1b44ac0a/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5nYW1lZmxhcmUuY29tL2VtYmVkL21lZ2Etc2hhcmsvIiwicGFyZW50RG9tYWluIjoiZ2FtZWZsYXJlLmNvbSIsInRvcERvbWFpbiI6ImdhbWVmbGFyZS5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xOCJ9', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://www.dropbox.com/scl/fi/ammar1wnx9t9jgcsncbvg/Mega-Shark.webp?rlkey=xfekjbtzv3yajv7vsnowurfmb&st=w5e4hsp1&raw=1" alt="Ảnh 1">
@@ -47,21 +52,56 @@ container.innerHTML = `
         <div class="caption">Mega Shark</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/rvvASMiM/9ff4c1c62da64af98d32fe1a1b44ac0a/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5nYW1lZmxhcmUuY29tL2VtYmVkL21lZ2Etc2hhcmsvIiwicGFyZW50RG9tYWluIjoiZ2FtZWZsYXJlLmNvbSIsInRvcERvbWFpbiI6ImdhbWVmbGFyZS5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xOCJ9', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/07/23/ca-map-sieu-bao-chua-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cá mập siêu bạo chúa 1</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/09/ca-map-sieu-bao-chua-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/09/06/ca-map-sieu-bao-chua-2-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cá mập siêu bạo chúa 2</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/04/ca-map-sieu-bao-chua-3/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2021/04/02/ca-map-sieu-bao-chua-3-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cá mập siêu bạo chúa 3</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2016/10/ham-ca-map/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2016/10/19/ham-ca-map-105.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Hàm cá mập</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/02/ham-ca-map-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2023/02/07/ham-ca-map-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Hàm cá mập 2</div>
+      </div>
+      
  </div>
 
-        <!-- Hàng thứ 2 -->
+        <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Plants & Zoombie</h2>
     
  </div>
 
-       <!-- Hàng thứ 3 -->
+       <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Arcade Racer</h2>
 
  </div>
 
-       <!-- Hàng thứ 4 -->
+       <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Playing Shooters</h2>
       <div class="image-box">
@@ -73,37 +113,37 @@ container.innerHTML = `
 
  </div>
 
-       <!-- Hàng thứ 5 -->
+       <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Stickman Revival</h2>
 
 </div>
  
-      <!-- Hàng thứ 6 -->
+      <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Battle Game</h2>
 
  </div>
 
-       <!-- Hàng thứ 7 -->
+       <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Role-playing Games</h2>
       
  </div>
 
-      <!-- Hàng thứ 8 -->
+      <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
 
  </div>
  
-      <!-- Hàng thứ 9 -->
+      <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Two-player Game</h2>
 
  </div>
 
-    <!-- Hàng thứ 10 -->
+    <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Gaming Station</h2>
       <div class="image-box">
