@@ -112,7 +112,13 @@ container.innerHTML = `
        <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Arcade Racer</h2>
-
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2015/06/do-xe-tren-pho/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://www.dropbox.com/scl/fi/t4wcvn6ssrxiqi9ugo5y8/xe-tr-n-ph-Park-My-Car-2.jpg?rlkey=503ys2jdq68vetmbfjqj46tfp&st=68di18eu&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Đỗ xe trên phố (Park My Car 2)</div>
+      </div>
+      
  </div>
 
        <!-- Hàng thứ 5 -->
