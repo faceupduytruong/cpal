@@ -60,13 +60,6 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/09/ca-map-sieu-bao-chua-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2019/09/06/ca-map-sieu-bao-chua-2-200.jpg" alt="Ảnh 1">
-</div>
-        <div class="caption">Cá mập siêu bạo chúa 2</div>
-      </div>
-
-     <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/04/ca-map-sieu-bao-chua-3/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2021/04/02/ca-map-sieu-bao-chua-3-200.jpg" alt="Ảnh 1">
 </div>
@@ -109,6 +102,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/oq4nhngblpd108etuw9jf/B-n-v-t-Online-Duckmageddon.png?rlkey=6mdoped0ureeygyjtmg2bbjp6&st=4gn6iurd&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Bắn vịt Online (Duckmageddon)</div>
+      </div>
+      
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/02/tho-san-alien-4/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2021/02/20/tho-san-alien-200-a.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Thợ săn Alien 4 (Alien Hunter 4)</div>
       </div>
 
  </div>
