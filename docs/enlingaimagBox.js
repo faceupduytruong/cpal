@@ -146,6 +146,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/01/cuoc-dua-song-con/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2018/01/30/dua-xe-105.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cuộc đua sống còn (Survival Race)</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/06/dua-oto-mao-hiem/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2018/06/21/dua-xe-mao-hiem-200.jpg" alt="Ảnh 1">
 </div>
@@ -175,7 +182,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/05/dua-xe-go-kart/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://e.gamevui.vn/web/2017/09/mo-to-vuot-sa-mac/" alt="Ảnh 1">
+       <img src="https://st.gamevui.vn/images/image/2017/09/01/mo-to-vuot-sa-mac-105.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Mô Tô Vượt Sa Mạc (Biker Lane)</div>
       </div>
@@ -217,7 +224,13 @@ container.innerHTML = `
       <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Battle Game</h2>
-
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2017/12/than-sam-thor-diet-boss/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2017/12/16/than-sam-thor-105.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Thần sấm Thor diệt Boss (Thor Boss Battles)</div>
+      </div>
+      
  </div>
 
        <!-- Hàng thứ 9 -->
