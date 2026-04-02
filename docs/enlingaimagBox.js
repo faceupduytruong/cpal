@@ -230,10 +230,17 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/02/tho-san-alien-4/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/aa83b59148f3459687d6c6382cd30e9d/?gd_sdk_referrer_url=https://gamevui.vn/tho-sua-ong-nuoc/game', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2020/08/24/tho-sua-ong-nuoc-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Thợ sửa ống nước</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/08/tho-noi-ong-nuoc-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/08/06/tho-noi-ong-nuoc-2-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Thợ nối ống nước 2</div>
       </div>
       
  </div>
