@@ -45,6 +45,27 @@ container.innerHTML = `
         <!-- Hàng thứ 2 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Puzzle Game</h2>
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/05/xep-ngoc/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/05/16/xep-ngoc-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Xếp ngọc</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/12/xep-gach/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/12/28/xep-gach-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Xếp gạch</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/05/xep-gach-3d/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2018/05/09/xep-gach-3d-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Xếp gạch 3D</div>
+      </div>
+      
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/04/kim-cuong-co-dien-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2023/04/14/kim-cuong-co-dien-200.jpg" alt="Ảnh 1">
@@ -66,13 +87,6 @@ container.innerHTML = `
         <div class="caption">Nối kim cương 2</div>
       </div>
       
-     <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/05/xep-ngoc/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2019/05/16/xep-ngoc-200.jpg" alt="Ảnh 1">
-</div>
-        <div class="caption">Xếp ngọc</div>
-      </div>
-
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/04/xep-khoi-go/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2023/04/24/xep-khoi-go-200.jpg" alt="Ảnh 1">
@@ -97,6 +111,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/ammar1wnx9t9jgcsncbvg/Mega-Shark.webp?rlkey=xfekjbtzv3yajv7vsnowurfmb&st=w5e4hsp1&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Mega Shark</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/76681228c1134b7aa57ab4db8fc45477/?gd_sdk_referrer_url=https://gamevui.vn/ca-map-o-new-york/game', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2021/05/14/ca-map-o-new-york-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cá mập ở New York</div>
       </div>
 
      <div class="image-box">
