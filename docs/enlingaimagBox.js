@@ -88,7 +88,7 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2015/05/cuoc-chien-kim-cuong/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2015/05/cuoc-chien-kim-cuong/', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/12/26/cuoc-chien-kim-cuong-300.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Cuộc chiến kim cương (Puzzle Battle)</div>
