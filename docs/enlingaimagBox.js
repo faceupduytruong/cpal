@@ -151,6 +151,27 @@ container.innerHTML = `
 </div>
         <div class="caption">Đua ô tô mạo hiểm (Furious Car Racing)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/07/dua-mo-to-3d/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2020/07/10/dua-mo-to-3d-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Đua mô tô 3D</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/05/dua-mo-to-nuoc/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2018/05/31/dua-mo-to-nuoc-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Đua mô tô nước (Watercraft Rush)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/05/dua-xe-go-kart/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2018/05/24/dua-xe-go-kart-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Đua xe Go Kart (Kizi Kart Racing)</div>
+      </div>
       
  </div>
 
@@ -201,7 +222,13 @@ container.innerHTML = `
       <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
-
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/02/tho-san-alien-4/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2020/08/24/tho-sua-ong-nuoc-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Thợ sửa ống nước</div>
+      </div>
+      
  </div>
  
       <!-- Hàng thứ 11 -->
