@@ -278,12 +278,6 @@ container.innerHTML = `
        <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Role-playing Games</h2>
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/aa83b59148f3459687d6c6382cd30e9d/?gd_sdk_referrer_url=https://gamevui.vn/tho-sua-ong-nuoc/game', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://www.dropbox.com/scl/fi/s0wvy8sh8tdxldie7a91n/Aladdin-t-m-ng-Aladdins-Amazeing-Map.jpg?rlkey=cyzk4ne37m0js933yyixyav8d&st=xgi6yu4w&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Aladdin tìm đường (Aladdins Amazeing Map)</div>
-      </div>
       
  </div>
 
