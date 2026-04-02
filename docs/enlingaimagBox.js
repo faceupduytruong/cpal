@@ -172,6 +172,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Đua xe Go Kart (Kizi Kart Racing)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/05/dua-xe-go-kart/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://e.gamevui.vn/web/2017/09/mo-to-vuot-sa-mac/" alt="Ảnh 1">
+</div>
+        <div class="caption">Mô Tô Vượt Sa Mạc (Biker Lane)</div>
+      </div>
       
  </div>
 
