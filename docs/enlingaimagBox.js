@@ -86,6 +86,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Nối kim cương 2</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2015/05/cuoc-chien-kim-cuong/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/12/26/cuoc-chien-kim-cuong-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cuộc chiến kim cương (Puzzle Battle)</div>
+      </div>
       
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/04/xep-khoi-go/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
@@ -108,9 +115,16 @@ container.innerHTML = `
     <h2 class="row-title">Deep Sea Survival</h2>
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/rvvASMiM/9ff4c1c62da64af98d32fe1a1b44ac0a/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5nYW1lZmxhcmUuY29tL2VtYmVkL21lZ2Etc2hhcmsvIiwicGFyZW50RG9tYWluIjoiZ2FtZWZsYXJlLmNvbSIsInRvcERvbWFpbiI6ImdhbWVmbGFyZS5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xOCJ9', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://www.dropbox.com/scl/fi/ammar1wnx9t9jgcsncbvg/Mega-Shark.webp?rlkey=xfekjbtzv3yajv7vsnowurfmb&st=w5e4hsp1&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/qs1jbe278wa6w4knfzyhm/Mega-Shark.webp?rlkey=2w51pjx39hwvyjio17qbs3pdb&st=97sd9xkh&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Mega Shark</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/865da0ef336b4f108062165b360085e9/?gd_sdk_referrer_url=https://gamevui.vn/ca-map-sieu-bao-chua/game', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/07/23/ca-map-sieu-bao-chua-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cá mập siêu bạo chúa</div>
       </div>
 
      <div class="image-box">
@@ -121,10 +135,10 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/865da0ef336b4f108062165b360085e9/?gd_sdk_referrer_url=https://gamevui.vn/ca-map-sieu-bao-chua/game', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2019/07/23/ca-map-sieu-bao-chua-200.jpg" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2017/04/ca-map-tan-cong-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2017/04/14/ca-map-tan-cong-2.jpg" alt="Ảnh 1">
 </div>
-        <div class="caption">Cá mập siêu bạo chúa 1</div>
+        <div class="caption">Cá mập tấn công 2 (Shark Attack)</div>
       </div>
 
      <div class="image-box">
@@ -251,12 +265,25 @@ container.innerHTML = `
 </div>
         <div class="caption">Thần sấm Thor diệt Boss (Thor Boss Battles)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/07/ben-10-giai-cuu-the-gioi/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/07/12/ben10-giai-cuu-the-gioi-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Ben 10 Giải cứu thế giới</div>
+      </div>
       
  </div>
 
        <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Role-playing Games</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/aa83b59148f3459687d6c6382cd30e9d/?gd_sdk_referrer_url=https://gamevui.vn/tho-sua-ong-nuoc/game', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://www.dropbox.com/scl/fi/s0wvy8sh8tdxldie7a91n/Aladdin-t-m-ng-Aladdins-Amazeing-Map.jpg?rlkey=cyzk4ne37m0js933yyixyav8d&st=xgi6yu4w&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Aladdin tìm đường (Aladdins Amazeing Map)</div>
+      </div>
       
  </div>
 
