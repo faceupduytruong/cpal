@@ -107,6 +107,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Cuộc chiến kim cương (Puzzle Battle)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/01/ngoi-den-huyen-bi/', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://st.gamevui.vn/images/image/2022/01/12/ngoi-den-huyen-bi-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Ngôi đền huyền bí (Temple Jewels)</div>
+      </div>
       
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/04/xep-khoi-go/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
@@ -312,12 +319,25 @@ container.innerHTML = `
 </div>
         <div class="caption">Ngôi đền kì bí (Crossy Temple)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/02/vuong-quoc-eldorado-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2020/02/11/vuong-quoc-eldorado-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Vương quốc Eldorado 2</div>
+      </div>
       
  </div>
 
       <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/08/hoang-tu-ba-tu/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2020/08/27/hoang-tu-ba-tu-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Hoàng tử Ba Tư</div>
+      </div>
+    
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/aa83b59148f3459687d6c6382cd30e9d/?gd_sdk_referrer_url=https://gamevui.vn/tho-sua-ong-nuoc/game', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2020/08/24/tho-sua-ong-nuoc-200.jpg" alt="Ảnh 1">
@@ -337,7 +357,13 @@ container.innerHTML = `
       <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Two-player Game</h2>
-
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/02/lang-mo-ai-cap/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/09/23/lang-mo-ai-cap-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Lăng mộ Ai Cập (Lost Pyramid)</div>
+      </div>
+      
  </div>
 
     <!-- Hàng thứ 12 -->
