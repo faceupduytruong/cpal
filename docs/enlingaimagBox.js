@@ -88,6 +88,20 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/05/khu-rung-nhiet-doi/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2018/05/07/khu-rung-nhiet-doi-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Khu rừng nhiệt đới (Forest Match)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2016/06/pha-kim-cuong-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2016/6/9/pha-kim-cuong-2.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Phá kim cương 2 (Deep Sea Jewels)</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2015/05/cuoc-chien-kim-cuong/', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/12/26/cuoc-chien-kim-cuong-300.jpg" alt="Ảnh 1">
 </div>
@@ -278,6 +292,26 @@ container.innerHTML = `
        <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Role-playing Games</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/04/thoat-khoi-den-tho/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/04/13/thoat-khoi-den-tho-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Thoát khỏi đền thờ (Must Escape The Temple)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/05/temple-run-online/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2018/05/09/temple-run-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Temple Run (Pyramid Chase)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2015/09/ngoi-den-ki-bi/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2015/9/05/ngoi-den-ki-bi.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Ngôi đền kì bí (Crossy Temple)</div>
+      </div>
       
  </div>
 
