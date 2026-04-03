@@ -332,6 +332,7 @@ container.innerHTML = `
       <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/08/hoang-tu-ba-tu/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2020/08/27/hoang-tu-ba-tu-200.jpg" alt="Ảnh 1">
 </div>
