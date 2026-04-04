@@ -188,7 +188,27 @@ container.innerHTML = `
         <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Plants & Zoombie</h2>
-    
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2025/09/plants-vs-zombie-lai-tao-27/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2025/09/04/pvz-lai-tao-26-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Plants Vs Zombie lai tạo (phiên bản 2.7)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2014/10/PlantsMonsters/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/03/21/hoa-qua-noi-gian-online-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Hoa quả nổi giận Online (Plants Vs Monsters)</div>
+      </div>
+      
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/02/hoa-qua-noi-gian/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/08/26/hoa-qua-noi-gian-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Hoa quả nổi giận (Plants vs Zombies)</div>
+      </div>
+     
  </div>
 
        <!-- Hàng thứ 5 -->
