@@ -301,6 +301,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Battle Game</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/06/tran-chien-co-vua/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2023/06/20/tran-chien-co-vua-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Trận chiến Cờ vua</div>
+      </div>
+    
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2017/12/than-sam-thor-diet-boss/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2017/12/16/than-sam-thor-105.jpg" alt="Ảnh 1">
 </div>
@@ -381,7 +388,7 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/06/loai-bo-mui-ten/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/06/loai-bo-mui-ten/', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://st.gamevui.vn/images/image/2023/06/20/loai-bo-mui-ten-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Loại bỏ mũi tên</div>
@@ -392,13 +399,6 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2023/08/26/loai-bo-mui-ten-2-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Loại bỏ mũi tên 2</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/06/tran-chien-co-vua/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2023/06/20/tran-chien-co-vua-200.jpg" alt="Ảnh 1">
-</div>
-        <div class="caption">Trận chiến Cờ vua</div>
       </div>
 
       <div class="image-box">
