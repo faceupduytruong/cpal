@@ -372,6 +372,27 @@ container.innerHTML = `
 </div>
         <div class="caption">Thợ nối ống nước 2</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/12/cham-khoi-go/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/09/05/rut-go-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Rút gỗ</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/06/loai-bo-mui-ten/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2023/06/20/loai-bo-mui-ten-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Loại bỏ mũi tên</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/08/loai-bo-mui-ten-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2023/08/26/loai-bo-mui-ten-2-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Loại bỏ mũi tên 2</div>
+      </div>
       
  </div>
  
