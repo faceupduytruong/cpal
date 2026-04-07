@@ -114,6 +114,41 @@ container.innerHTML = `
 </div>
         <div class="caption">Ngôi đền huyền bí (Temple Jewels)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2017/05/tim-kim-cuong/', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/03/15/tim-kim-cuong-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Tìm kim cương (Jewels Blitz 2)</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2014/10/CandyRain/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2014/10/06/candyrain.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Mưa kẹo ngọt (Candy Rain)</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/08/xep-keo-deo/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2021/08/04/xep-keo-deo-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Xếp kẹo dẻo</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2017/12/xep-hinh-keo-ngot/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2017/12/13/xep-hinh-keo-ngot-105.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Xếp hình kẹo ngọt (Gummy Blocks)</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2014/11/xep-thach/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/Image/2014/11/26/xep-thach.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Xếp thạch (Jelly Picnic)</div>
+      </div>
       
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/04/xep-khoi-go/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
@@ -127,6 +162,13 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2023/06/13/xep-khoi-go-2-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Xếp khối gỗ 2</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/03/dai-duong-huyen-bi/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2020/03/24/dai-duong-huyen-bi-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Đại dương huyền bí</div>
       </div>
 
  </div>
@@ -319,6 +361,13 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2019/07/12/ben10-giai-cuu-the-gioi-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Ben 10 Giải cứu thế giới</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2017/11/lap-rap-robot-chien-dau/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/03/20/lap-rap-robot-chien-dau-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Lắp ráp Robot chiến đấu (Epic Robo Fight)</div>
       </div>
       
  </div>
