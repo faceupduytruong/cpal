@@ -369,6 +369,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Lắp ráp Robot chiến đấu (Epic Robo Fight)</div>
       </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/rvvASMiM/2f658de7229e49dba68786ffdc921e76/index.html?gd_sdk_referrer_url=https%3A%2F%2Fgamevui.vn%2Fpokemon-dai-chien%2Fgame&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2dhbWV2dWkudm4vcG9rZW1vbi1kYWktY2hpZW4vZ2FtZSIsInBhcmVudERvbWFpbiI6ImdhbWV2dWkudm4iLCJ0b3BEb21haW4iOiJnYW1ldnVpLnZuIiwiaGFzSW1wcmVzc2lvbiI6ZmFsc2UsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTgifQ%253D%253D', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/08/28/pokemon-dai-chien-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Pokemon đại chiến (Dynamons)</div>
+      </div>
       
  </div>
 
@@ -413,6 +420,20 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2020/08/27/hoang-tu-ba-tu-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Hoàng tử Ba Tư</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/10/nuoi-cuu/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2022/10/31/nuoi-cuu-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Nuôi cừu</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/10/cuu-ca/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2020/10/02/cuu-ca-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cứu cá</div>
       </div>
     
       <div class="image-box">
