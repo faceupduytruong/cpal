@@ -20,10 +20,31 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/11/cau-ca/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2018/11/07/cau-ca-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Câu cá</div>
+      </div>
+     
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/05/cau-ca-bien-sau-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/05/09/cau-ca-bien-sau-2-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Câu cá biển sâu 2</div>
+      </div>
+
+     <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2014/09/pikachu/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/09/05/pikachu-300.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Pikachu Online</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/10/pikachu-quai-thu/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2022/10/27/pikachu-quai-thu-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Pikachu quái thú</div>
       </div>
 
      <div class="image-box">
@@ -343,6 +364,20 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2021/02/20/tho-san-alien-200-a.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Thợ săn Alien 4 (Alien Hunter 4)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/07/Phi-Thuyen-Chien-Dau/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2018/07/20/phi-thuyen-chien-dau-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Phi thuyền không chiến</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2014/10/ban-ca-an-xu/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/08/26/ban-ca-an-xu-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Bắn cá ăn xu</div>
       </div>
 
  </div>
