@@ -271,6 +271,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/07/cung-duong-thinh-no/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/07/12/cung-duong-thinh-no-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cung đường thịnh nộ (Road of Fury)</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/06/dua-oto-mao-hiem/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2018/06/21/dua-xe-mao-hiem-200.jpg" alt="Ảnh 1">
 </div>
@@ -282,6 +289,13 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2020/07/10/dua-mo-to-3d-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Đua mô tô 3D</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2015/02/tay-dua-f1/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/Image/2015/2/14/tay-dua-f1.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Đua xe F1</div>
       </div>
 
       <div class="image-box">
