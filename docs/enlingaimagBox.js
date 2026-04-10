@@ -405,6 +405,13 @@ container.innerHTML = `
         <div class="caption">Thần sấm Thor diệt Boss (Thor Boss Battles)</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/08/avengers-chien-dau-2/?gid=23784&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA4L2F2ZW5nZXJzLWNoaWVuLWRhdS0yIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL2F2ZW5nZXJzLWNoaWVuLWRhdS0yL2dhbWUiLCJnaWQiOiIyMzc4NCIsInJhdGVkYWdlcyI6IjEyIiwiZXhwIjoxNzc1ODM3MDMxLCJpYXQiOjE3NzU4MDEwMzF9.gGeUm-ti6-5B7ZRU4ylC9-4_X_BjY8zymMaYJaYeR3s', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/08/07/avengers-chien-dau-2-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Avengers chiến đấu 2</div>
+      </div>
+
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/07/ben-10-giai-cuu-the-gioi/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2019/07/12/ben10-giai-cuu-the-gioi-200.jpg" alt="Ảnh 1">
