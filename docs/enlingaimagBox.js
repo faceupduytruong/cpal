@@ -360,7 +360,7 @@ container.innerHTML = `
       </div>
       
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/02/tho-san-alien-4/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/02/tho-san-alien-4/?gid=7433&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIxLzAyL3Roby1zYW4tYWxpZW4tNCIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi90aG8tc2FuLWFsaWVuLTQvZ2FtZSIsImdpZCI6Ijc0MzMiLCJyYXRlZGFnZXMiOiIxOCIsImV4cCI6MTc3NTg3NDM4OSwiaWF0IjoxNzc1ODM4Mzg5fQ.BJKBD35kOtN38qn9ezFxbF3bM9LT6rms6oJIgYjQ8Ug', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2021/02/20/tho-san-alien-200-a.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Thợ săn Alien 4 (Alien Hunter 4)</div>
