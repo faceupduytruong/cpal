@@ -380,6 +380,13 @@ container.innerHTML = `
         <div class="caption">Bắn cá ăn xu</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/09/dau-an-rong-thieng/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/09/27/dau-an-rong-thieng-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Dấu ấn rồng thiêng</div>
+      </div>
+
  </div>
 
        <!-- Hàng thứ 7 -->
@@ -532,6 +539,20 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2024/09/24/choi-co-caro-300.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Chơi cờ Caro (Ultimate Tic Tac Toe)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/06/sau-an-tao/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2022/06/13/sau-an-tao-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Apple Worm - Sâu ăn táo</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/09/lan-bong-ve-dich/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2020/09/18/lan-bong-ve-dich-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Lăn bóng về đích</div>
       </div>
       
  </div>
