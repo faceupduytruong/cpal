@@ -434,6 +434,20 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/11/nguoi-que-phieu-luu-5/?gid=20634&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIwLzExL25ndW9pLXF1ZS1waGlldS1sdXUtNS8iLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vbmd1b2ktcXVlLXBoaWV1LWx1dS01L2dhbWUiLCJnaWQiOiIyMDYzNCIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzU5MTE1NDUsImlhdCI6MTc3NTg3NTU0NX0.FVXRwo-Q8lRkjeS2hxMXo-biRyExTi3gIUmGs3OCZUo', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2020/11/17/nguoi-que-phieu-luu-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Người que phiêu lưu 5</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/01/cuoc-chien-nguoi-que/?gid=18655&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIiLCJ1c2VybmFtZSI6IiIsImdhbWV1cmwiOiJodHRwczovL2UuZ2FtZXZ1aS52bi93ZWIvMjAxOS8wMS9jdW9jLWNoaWVuLW5ndW9pLXF1ZS8iLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vY3VvYy1jaGllbi1uZ3VvaS1xdWUvZ2FtZSIsImdpZCI6IjE4NjU1IiwicmF0ZWRhZ2VzIjoiMTIiLCJleHAiOjE3NzU5MDU3NzAsImlhdCI6MTc3NTg2OTc3MH0.zeHWugoKxyZWx-bRicNLf6iVp0o3kdXeGH0QEvo_9RE', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/01/17/cuoc-chien-nguoi-que.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cuộc chiến người que</div>
+      </div>
+
+     <div class="image-box">
        <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/rvvASMiM/2f658de7229e49dba68786ffdc921e76/index.html?gd_sdk_referrer_url=https%3A%2F%2Fgamevui.vn%2Fpokemon-dai-chien%2Fgame&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2dhbWV2dWkudm4vcG9rZW1vbi1kYWktY2hpZW4vZ2FtZSIsInBhcmVudERvbWFpbiI6ImdhbWV2dWkudm4iLCJ0b3BEb21haW4iOiJnYW1ldnVpLnZuIiwiaGFzSW1wcmVzc2lvbiI6ZmFsc2UsImxvYWRlckVuYWJsZWQiOnRydWUsImhvc3QiOiJodG1sNS5nYW1lZGlzdHJpYnV0aW9uLmNvbSIsInZlcnNpb24iOiIxLjUuMTgifQ%253D%253D', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/08/28/pokemon-dai-chien-300.jpg" alt="Ảnh 1">
 </div>
