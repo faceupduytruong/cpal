@@ -61,6 +61,14 @@ container.innerHTML = `
         <div class="caption">Crowd City Online</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/08/Penalty-Shooters/?gid=10591&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE5LzA4L1BlbmFsdHktU2hvb3RlcnMiLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vc3V0LXBlbmFsdHkvZ2FtZSIsImdpZCI6IjEwNTkxIiwicmF0ZWRhZ2VzIjoiMCIsImV4cCI6MTc3NjAwNjEwNSwiaWF0IjoxNzc1OTcwMTA1fQ.iFWggFyT4KcV0SFwdOIn6arcyRisYoVKg7HJFF-d9WY', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/08/20/sut-penalty-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Sút Penalty (Penalty Shooters)</div>
+      </div>
+
+
  </div>
 
         <!-- Hàng thứ 2 -->
@@ -393,6 +401,27 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Stickman Revival</h2>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/11/nguoi-que-phieu-luu-5/?gid=20634&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIwLzExL25ndW9pLXF1ZS1waGlldS1sdXUtNS8iLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vbmd1b2ktcXVlLXBoaWV1LWx1dS01L2dhbWUiLCJnaWQiOiIyMDYzNCIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzU5MTE1NDUsImlhdCI6MTc3NTg3NTU0NX0.FVXRwo-Q8lRkjeS2hxMXo-biRyExTi3gIUmGs3OCZUo', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2020/11/17/nguoi-que-phieu-luu-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Người que phiêu lưu 5</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/01/cuoc-chien-nguoi-que/?gid=18655&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIiLCJ1c2VybmFtZSI6IiIsImdhbWV1cmwiOiJodHRwczovL2UuZ2FtZXZ1aS52bi93ZWIvMjAxOS8wMS9jdW9jLWNoaWVuLW5ndW9pLXF1ZS8iLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vY3VvYy1jaGllbi1uZ3VvaS1xdWUvZ2FtZSIsImdpZCI6IjE4NjU1IiwicmF0ZWRhZ2VzIjoiMTIiLCJleHAiOjE3NzU5MDU3NzAsImlhdCI6MTc3NTg2OTc3MH0.zeHWugoKxyZWx-bRicNLf6iVp0o3kdXeGH0QEvo_9RE', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/01/17/cuoc-chien-nguoi-que.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cuộc chiến người que</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/09/nguoi-que-phieu-luu/?gid=8545&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE4LzA5L25ndW9pLXF1ZS1waGlldS1sdXUiLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vbmd1b2ktcXVlLXBoaWV1LWx1dS9nYW1lIiwiZ2lkIjoiODU0NSIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzYwMDY4NzIsImlhdCI6MTc3NTk3MDg3Mn0.owMaNDj6QnyAiunpqklZ5QmDSFT0APrquew9ay0hmzA', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2018/09/17/nguoi-que-phieu-luu-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Người que phiêu lưu (Vex 2)</div>
+      </div>
+
 </div>
  
       <!-- Hàng thứ 8 -->
@@ -431,20 +460,6 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2019/03/20/lap-rap-robot-chien-dau-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Lắp ráp Robot chiến đấu (Epic Robo Fight)</div>
-      </div>
-
-     <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/11/nguoi-que-phieu-luu-5/?gid=20634&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIwLzExL25ndW9pLXF1ZS1waGlldS1sdXUtNS8iLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vbmd1b2ktcXVlLXBoaWV1LWx1dS01L2dhbWUiLCJnaWQiOiIyMDYzNCIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzU5MTE1NDUsImlhdCI6MTc3NTg3NTU0NX0.FVXRwo-Q8lRkjeS2hxMXo-biRyExTi3gIUmGs3OCZUo', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2020/11/17/nguoi-que-phieu-luu-200.jpg" alt="Ảnh 1">
-</div>
-        <div class="caption">Người que phiêu lưu 5</div>
-      </div>
-
-     <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/01/cuoc-chien-nguoi-que/?gid=18655&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIiLCJ1c2VybmFtZSI6IiIsImdhbWV1cmwiOiJodHRwczovL2UuZ2FtZXZ1aS52bi93ZWIvMjAxOS8wMS9jdW9jLWNoaWVuLW5ndW9pLXF1ZS8iLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vY3VvYy1jaGllbi1uZ3VvaS1xdWUvZ2FtZSIsImdpZCI6IjE4NjU1IiwicmF0ZWRhZ2VzIjoiMTIiLCJleHAiOjE3NzU5MDU3NzAsImlhdCI6MTc3NTg2OTc3MH0.zeHWugoKxyZWx-bRicNLf6iVp0o3kdXeGH0QEvo_9RE', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2019/01/17/cuoc-chien-nguoi-que.jpg" alt="Ảnh 1">
-</div>
-        <div class="caption">Cuộc chiến người que</div>
       </div>
 
      <div class="image-box">
