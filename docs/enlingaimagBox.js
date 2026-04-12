@@ -48,7 +48,7 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/10/pikachu-quai-thu/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/10/pikachu-quai-thu/?gid=8541&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIyLzEwL3Bpa2FjaHUtcXVhaS10aHUiLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vcGlrYWNodS1xdWFpLXRodS9nYW1lIiwiZ2lkIjoiODU0MSIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzYwMjY2OTIsImlhdCI6MTc3NTk5MDY5Mn0.lj2ikNFbWcfYJdd-g-IWi8B2DzQfyzQ9ZqqRgq0uXiE', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2022/10/27/pikachu-quai-thu-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Pikachu quái thú</div>
