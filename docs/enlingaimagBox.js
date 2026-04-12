@@ -41,6 +41,13 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2026/03/ghep-3-hinh/?gid=24959&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI2LzAzL2doZXAtMy1oaW5oIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL2doZXAtMy1oaW5oL2dhbWUiLCJnaWQiOiIyNDk1OSIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzYwMjYyMDIsImlhdCI6MTc3NTk5MDIwMn0.AmZKeNP3k0FO3MMk3CXTWAWMQvozd8mpmcBsrdetDbA', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2026/03/17/ghep-3-hinh-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Ghép 3 hình</div>
+      </div>
+
+     <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/10/pikachu-quai-thu/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2022/10/27/pikachu-quai-thu-200.jpg" alt="Ảnh 1">
 </div>
@@ -353,6 +360,13 @@ container.innerHTML = `
        <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Playing Shooters</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2026/03/xe-tang-ban-so/?gid=24957&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI2LzAzL3hlLXRhbmctYmFuLXNvIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL3hlLXRhbmctYmFuLW8tc28vZ2FtZSIsImdpZCI6IjI0OTU3IiwicmF0ZWRhZ2VzIjoiMTIiLCJleHAiOjE3NzYwMjY0NTMsImlhdCI6MTc3NTk5MDQ1M30._v9hzYOo3tZ3dnHX6DxnX_6CDoLIKF2dHfc5YJkkEq8', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2026/03/13/xe-tang-ban-so-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Xe tăng bắn ô số</div>
+      </div>
+
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.gameflare.com/embed/duckmageddon/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://www.dropbox.com/scl/fi/oq4nhngblpd108etuw9jf/B-n-v-t-Online-Duckmageddon.png?rlkey=6mdoped0ureeygyjtmg2bbjp6&st=4gn6iurd&raw=1" alt="Ảnh 1">
