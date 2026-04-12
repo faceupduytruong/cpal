@@ -6,21 +6,21 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Easy-to-play Game</h2>
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2017/11/dao-vang-co-dien/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2017/11/dao-vang-co-dien/?gid=16994&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE3LzExL2Rhby12YW5nLWNvLWRpZW4vIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL2Rhby12YW5nLWNvLWRpZW4vZ2FtZSIsImdpZCI6IjE2OTk0IiwicmF0ZWRhZ2VzIjoiMCIsImV4cCI6MTc3NjAyNjkyMywiaWF0IjoxNzc1OTkwOTIzfQ.LYncMeJFFgZgZfqhGQIx9fRojZ8oPadJPWTycolH_es', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/08/09/dao-vang-co-dien-300.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Đào vàng cổ điển (Gold Miner)</div>
       </div>
     
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/02/dao-vang/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2024/08/09/dao-vang-300.jpg" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2017/06/dao-vang-kieu-uc/?gid=14761&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE3LzA2L2Rhby12YW5nLWtpZXUtdWMvIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL2Rhby12YW5nLWtpZXUtdWMvZ2FtZSIsImdpZCI6IjE0NzYxIiwicmF0ZWRhZ2VzIjoiMCIsImV4cCI6MTc3NjAyNzIyNywiaWF0IjoxNzc1OTkxMjI3fQ.4X0Ptx-4n9OWj0PliinGcaX6jjI0-yLAwpY3W1q2FEQ', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2017/06/07/dao-vang-kieu-uc.jpg" alt="Ảnh 1">
 </div>
-        <div class="caption">Đào vàng cải tiến (Gold Miner)</div>
+        <div class="caption">Đào vàng kiểu úc (Gold Miner)</div>
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/11/cau-ca/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/11/cau-ca/?gid=283&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE4LzExL2NhdS1jYS8iLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vY2F1LWNhL2dhbWUiLCJnaWQiOiIyODMiLCJyYXRlZGFnZXMiOiIwIiwiZXhwIjoxNzc2MDI3NDEzLCJpYXQiOjE3NzU5OTE0MTN9.YPco7aEGMEouc20523HvSDziduer7B4Hbpqd5FJrwMk', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2018/11/07/cau-ca-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Câu cá</div>
