@@ -89,6 +89,20 @@ container.innerHTML = `
         <div class="caption">Bắn bóng phá gạch 2</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/01/nem-bowling/?gid=5606&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE5LzAxL25lbS1ib3dsaW5nLyIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi9ib3dsaW5nLTIvZ2FtZSIsImdpZCI6IjU2MDYiLCJyYXRlZGFnZXMiOiIwIiwiZXhwIjoxNzc2MTExMDc3LCJpYXQiOjE3NzYwNzUwNzd9.xwc0C4G2cYBVbR3BQd2U1_ppivYodTUvAC2IlJr-WRU', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/01/12/nem-bowling-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Bowling 2</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2015/04/pha-vo-giot-nuoc/?gid=10617&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE1LzA0L3BoYS12by1naW90LW51b2MvIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL3BoYS12by1naW90LW51b2MvZ2FtZSIsImdpZCI6IjEwNjE3IiwicmF0ZWRhZ2VzIjoiMCIsImV4cCI6MTc3NjExMDQyOCwiaWF0IjoxNzc2MDc0NDI4fQ.J_m0k7fAmnErutuEmxG77Bjd2cTiHleWSwa_MNF8ltw', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2015/4/20/pha-vo-giot-nuoc.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Phá vỡ giọt nước (Blops Plops)</div>
+      </div>
+
 </div>
 
         <!-- Hàng thứ 2 -->
@@ -422,6 +436,20 @@ container.innerHTML = `
         <div class="caption">Dấu ấn rồng thiêng</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/03/chien-tranh-ban-bong/?gid=23325&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzAzL2NoaWVuLXRyYW5oLWJhbi1ib25nIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL2NoaWVuLXRyYW5oLWJhbi1ib25nL2dhbWUiLCJnaWQiOiIyMzMyNSIsInJhdGVkYWdlcyI6IjEyIiwiZXhwIjoxNzc2MTA5Mzg2LCJpYXQiOjE3NzYwNzMzODZ9.jeJJe3Aez46Fbv9beyT3zVxKJ_LW10Bl6Tk0_cX2BS4', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/03/04/chien-tranh-ban-bong-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Chiến tranh bắn bóng</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2015/06/tieu-doi-diet-zombie/?gid=10860&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE1LzA2L3RpZXUtZG9pLWRpZXQtem9tYmllLyIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi90aWV1LWRvaS1kaWV0LXpvbWJpZS9nYW1lIiwiZ2lkIjoiMTA4NjAiLCJyYXRlZGFnZXMiOiIwIiwiZXhwIjoxNzc2MTA5ODg3LCJpYXQiOjE3NzYwNzM4ODd9.Ny-BBrH0XNvFgPFtWnH14pW6q_iSw1a6smmTIpxQ52A', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2015/6/24/tieu-doi-diet-zombie.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Tiểu đội diệt Zombie (Earths Final Hope Quadron)</div>
+      </div>
+
  </div>
 
        <!-- Hàng thứ 7 -->
@@ -509,6 +537,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Pokemon đại chiến (Dynamons)</div>
       </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2025/09/tuyet-dinh-kiem-khach/?gid=7889&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI1LzA5L3R1eWV0LWRpbmgta2llbS1raGFjaCIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi90dXlldC1kaW5oLWtpZW0ta2hhY2gvZ2FtZSIsImdpZCI6Ijc4ODkiLCJyYXRlZGFnZXMiOiIxOCIsImV4cCI6MTc3NjExMTY0MSwiaWF0IjoxNzc2MDc1NjQxfQ.70iLGL76lbpCZm5s8UG_2dX1C74zSwDEVGG3r-P-ZC8', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2021/06/23/tuyet-dinh-kiem-khach-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Tuyệt đỉnh kiếm khách (Forbidden Arms)</div>
+      </div>
       
  </div>
 
@@ -584,7 +619,7 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/12/cham-khoi-go/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/12/cham-khoi-go/?gid=23143&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIzLzEyL2NoYW0ta2hvaS1nbyIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi9ydXQtZ28vZ2FtZSIsImdpZCI6IjIzMTQzIiwicmF0ZWRhZ2VzIjoiMCIsImV4cCI6MTc3NjExMDkxOSwiaWF0IjoxNzc2MDc0OTE5fQ.ApeqOLN4cctwkHT1qCuBD-O4yQzyuy73FWYa6cV1HZY', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/09/05/rut-go-300.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Rút gỗ</div>
