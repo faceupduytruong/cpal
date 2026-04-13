@@ -62,6 +62,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@HanhTrinhGiaThuyet/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/6gbyhr77vyiau2jwim441/H-nh-Tr-nh-Gi-Thuy-t.jpg?rlkey=7cyu1gnp3qfrynh6tiuaqkrro&st=24783r4n&raw=1',
   },
+  'Hiểu Thế Giới': {
+    url: 'https://www.youtube.com/@hieuthegioi-2805/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fmp5is8x5c293ea16hkvg/Hi-u-Th-Gi-i.jpg?rlkey=ww3wrmyftztoflfxkagl856ll&st=ga4rhdpj&raw=1',
+  },
   '夫妻物语 (Fūqī Wùyǔ)': {
     url: 'https://www.youtube.com/@%E5%A4%AB%E5%A6%BB%E7%89%A9%E8%AF%AD/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/2rj30r3dpupqj4y8u71z8/F-q-W-y.jpg?rlkey=5x61knnkbdb21094y9izlvspp&st=qkopbsk2&raw=1',
