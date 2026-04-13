@@ -75,8 +75,21 @@ container.innerHTML = `
         <div class="caption">Sút Penalty (Penalty Shooters)</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2026/02/nhiem-vu-pha-gach/?gid=24947&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI2LzAyL25oaWVtLXZ1LXBoYS1nYWNoIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL25oaWVtLXZ1LXBoYS1nYWNoL2dhbWUiLCJnaWQiOiIyNDk0NyIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzYwODE3MDYsImlhdCI6MTc3NjA0NTcwNn0.sh1M9T84F0OUrFXpz9JNEUQyhyH0S_23GaQ3b5KdJIw', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2026/02/28/nhiem-vu-pha-gach-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Nhiệm vụ phá gạch</div>
+      </div>
 
- </div>
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/08/ban-bong-pha-gach-2/?gid=20909&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIxLzA4L2Jhbi1ib25nLXBoYS1nYWNoLTIiLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vYmFuLWJvbmctcGhhLWdhY2gtMi9nYW1lIiwiZ2lkIjoiMjA5MDkiLCJyYXRlZGFnZXMiOiIwIiwiZXhwIjoxNzc2MDgyMTIxLCJpYXQiOjE3NzYwNDYxMjF9.wW6d4tmPRDMlFeNVpJnMnSa60aV-XdRtzojyRl5k_3M', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2021/08/21/ban-bong-pha-gach-2-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Bắn bóng phá gạch 2</div>
+      </div>
+
+</div>
 
         <!-- Hàng thứ 2 -->
     <div class="image-row glass-bg">
@@ -474,6 +487,13 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2019/07/12/ben10-giai-cuu-the-gioi-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Ben 10 Giải cứu thế giới</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/10/batman-dot-kich/?gid=676&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE4LzEwL2JhdG1hbi1kb3Qta2ljaCIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi9uZ3VvaS1kb2kvZ2FtZSIsImdpZCI6IjY3NiIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzYwODI0NDEsImlhdCI6MTc3NjA0NjQ0MX0.LKKFIR1QT-lCQWIf-ALLViStEo9gGWLJVhZ0Rb2gPkc', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2018/10/17/nguoi-doi-dot-kich-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Người Dơi</div>
       </div>
 
       <div class="image-box">
