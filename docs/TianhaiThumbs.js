@@ -206,6 +206,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61585454649657&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/o4r4g4hmn4v4768agng6v/Learn-My-Words.png?rlkey=5pluji7i2o8rktewu2a9lxcuo&st=8ei2i4cz&raw=1'
   },
+  'Một ngày một từ vựng mới': {
+    url: 'https://www.facebook.com/messages/t/24023058223959054',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6ssjqe1qrceqfri480boq/M-t-ng-y-m-t-t-v-ng-m-i.jpeg?rlkey=afdupa62zduj77dlo67gj0tsm&st=7jtlc8yx&raw=1'
+  },
   '51Talk Việt Nam': {
     url: 'https://www.facebook.com/51TalkVietnam/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/y514ajxaxnfrwsavr6ou8/51Talk-Vi-t-Nam.png?rlkey=zd97llig89b92acx087m6sf04&st=hp5ygng2&raw=1'
