@@ -495,7 +495,7 @@ container.innerHTML = `
       </div>
 
         <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/messages/t/156025504001094', 'SmartApp Popup', window.innerWidth, 745)">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/messages/t/156025504001094', 'SmartApp Popup', window.innerWidth*2+45, 745)">
           <img src="https://www.dropbox.com/scl/fi/170ja0j667cl8txltqb9c/Meta-AI.png?rlkey=ig8si09c7ha1cjd0x516roh7z&st=oof97kgr&raw=1">
 </div>
         <div class="caption">Meta AI</div>
