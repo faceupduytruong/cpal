@@ -313,6 +313,20 @@ container.innerHTML = `
 </div>
         <div class="caption">Hoa quả nổi giận (Plants vs Zombies)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/05/cay-trong-noi-gian/?gid=5921&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIwLzA1L2NheS10cm9uZy1ub2ktZ2lhbiIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi9jYXktdHJvbmctbm9pLWdpYW4vZ2FtZSIsImdpZCI6IjU5MjEiLCJyYXRlZGFnZXMiOiIxMiIsImV4cCI6MTc3NjE2NTY4OCwiaWF0IjoxNzc2MTI5Njg4fQ.b3RhIua1FD26iD343fK-564W8IwU3bi3G8U_z4USAlI', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2020/05/13/cay-trong-noi-gian-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cây trồng nổi giận (Angry Zombies)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/05/cay-trong-noi-gian-3/?gid=7590&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIwLzA1L2NheS10cm9uZy1ub2ktZ2lhbi0zIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL2NheS10cm9uZy1ub2ktZ2lhbi0zL2dhbWUiLCJnaWQiOiI3NTkwIiwicmF0ZWRhZ2VzIjoiMCIsImV4cCI6MTc3NjE2Njg3MywiaWF0IjoxNzc2MTMwODczfQ.6oXrqrPLT7AYObrY46zNSmIbdmYct_G92UycmwTZlnI', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://st.gamevui.vn/images/image/2020/05/26/cay-trong-noi-gian-3-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cây trồng nổi giận 3 (Plants vs Zombies Christmas)</div>
+      </div>
      
  </div>
 
