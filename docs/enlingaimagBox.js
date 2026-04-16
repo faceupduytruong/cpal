@@ -631,6 +631,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Cứu cá</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/07/kho-bau-cua-pharaoh/?gid=10706&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIxLzA3L2toby1iYXUtY3VhLXBoYXJhb2giLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4va2hvLWJhdS1jdWEtcGhhcmFvaC9nYW1lIiwiZ2lkIjoiMTA3MDYiLCJyYXRlZGFnZXMiOiIwIiwiZXhwIjoxNzc2MzY1NjMwLCJpYXQiOjE3NzYzMjk2MzB9.yp-2iwsfo6eCn_5UlOT6y4lANWMiIM263aAApJbWcNM', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2021/07/31/kho-bau-cua-pharaoh-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Kho báu của Pharaoh (Pharao Treasures)</div>
+      </div>
     
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://html5.gamedistribution.com/aa83b59148f3459687d6c6382cd30e9d/?gd_sdk_referrer_url=https://gamevui.vn/tho-sua-ong-nuoc/game', 'SmartApp Popup', window.innerWidth*2+45, 745)">
@@ -687,10 +694,36 @@ container.innerHTML = `
 </div>
         <div class="caption">Lăn bóng về đích</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/08/me-nhot-toi-o-nha-2/?gid=20892&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIxLzA4L21lLW5ob3QtdG9pLW8tbmhhLTIiLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vbWUtbmhvdC10b2ktby1uaGEtMi9nYW1lIiwiZ2lkIjoiMjA4OTIiLCJyYXRlZGFnZXMiOiIwIiwiZXhwIjoxNzc2MzY1ODIyLCJpYXQiOjE3NzYzMjk4MjJ9.LViCHDWxqArbFX2IkpsQMSSJizuhP28XwzpgnXKbu4A', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2021/08/03/me-nhot-toi-o-nha-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Mẹ nhốt tôi ở nhà 2</div>
+      </div>
+      
+ </div>
+
+      <!-- Hàng thứ 11 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Word Connection</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/04/noi-tu-tieng-viet/?gid=23451&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA0L25vaS10dS10aWVuZy12aWV0IiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL25vaS10dS10aWVuZy12aWV0L2dhbWUiLCJnaWQiOiIyMzQ1MSIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzYzNjQ3NDIsImlhdCI6MTc3NjMyODc0Mn0.ynFKj6aQGw294XgV5NTgU7p_3cbsOjM8B7nxAa7uuYY', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/04/08/noi-tu-tieng-viet-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Nối từ tiếng Việt</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2026/04/ai-la-trieu-phu/?gid=8385&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI2LzA0L2FpLWxhLXRyaWV1LXBodSIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi9haS1sYS10cmlldS1waHUvZ2FtZSIsImdpZCI6IjgzODUiLCJyYXRlZGFnZXMiOiIwIiwiZXhwIjoxNzc2MzY1NDQxLCJpYXQiOjE3NzYzMjk0NDF9.t2x6sjVdS-CDTD7yOCyNErGUGJFutOUu2fmhVlf4wxs', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2026/04/16/ai-la-trieu-phu-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Ai là triệu phú</div>
+      </div>
       
  </div>
  
-      <!-- Hàng thứ 11 -->
+      <!-- Hàng thứ 12 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Two-player Game</h2>
       <div class="image-box">
@@ -702,7 +735,7 @@ container.innerHTML = `
       
  </div>
 
-    <!-- Hàng thứ 12 -->
+    <!-- Hàng thứ 13 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Gaming Station</h2>
       <div class="image-box">
