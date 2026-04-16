@@ -416,6 +416,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/01/xa-thu-nguy-trang/?gid=23210&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzAxL3hhLXRodS1uZ3V5LXRyYW5nIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL3hhLXRodS1uZ3V5LXRyYW5nL2dhbWUiLCJnaWQiOiIyMzIxMCIsInJhdGVkYWdlcyI6IjE4IiwiZXhwIjoxNzc2Mzc1MTY5LCJpYXQiOjE3NzYzMzkxNjl9.8UULYlpZdBQKftR-DobP5Vs0ABjf0o2_Is07Zt_Wx7o', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/01/19/xa-thu-nguy-trang-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Xạ thủ ngụy trang</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/04/tho-san-alien/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2019/04/16/tho-san-alien-200.jpg" alt="Ảnh 1">
 </div>
@@ -469,6 +476,20 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2024/05/08/chien-binh-animal-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Chiến binh hầm ngục</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/03/nguoi-song-sot-ragnarok/?gid=22029&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIzLzAzL25ndW9pLXNvbmctc290LXJhZ25hcm9rIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL25ndW9pLXNvbmctc290LXJhZ25hcm9rL2dhbWUiLCJnaWQiOiIyMjAyOSIsInJhdGVkYWdlcyI6IjEyIiwiZXhwIjoxNzc2MzY4MTA1LCJpYXQiOjE3NzYzMzIxMDV9.AXeE3ywij_4_vkQ1WBvnzerwFkRPpFA-j4cv33Pxdjg', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2023/03/30/nguoi-song-sot-ragnarok-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Người sống sót Ragnarok</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/04/tinh-linh-bau-troi/?gid=23485&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA0L3RpbmgtbGluaC1iYXUtdHJvaSIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi90aW5oLWxpbmgtYmF1LXRyb2kvZ2FtZSIsImdpZCI6IjIzNDg1IiwicmF0ZWRhZ2VzIjoiMCIsImV4cCI6MTc3NjM1OTE0MiwiaWF0IjoxNzc2MzIzMTQyfQ.MZtzGRBHZY_B1vlTGllXc89cBNo-QItKui72Fh69gkg', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/04/20/tinh-linh-bau-troi-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Tinh linh bầu trời</div>
       </div>
 
  </div>
@@ -574,17 +595,10 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/03/nguoi-song-sot-ragnarok/?gid=22029&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIzLzAzL25ndW9pLXNvbmctc290LXJhZ25hcm9rIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL25ndW9pLXNvbmctc290LXJhZ25hcm9rL2dhbWUiLCJnaWQiOiIyMjAyOSIsInJhdGVkYWdlcyI6IjEyIiwiZXhwIjoxNzc2MzY4MTA1LCJpYXQiOjE3NzYzMzIxMDV9.AXeE3ywij_4_vkQ1WBvnzerwFkRPpFA-j4cv33Pxdjg', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2023/03/30/nguoi-song-sot-ragnarok-200.jpg" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/11/vo-hiep/?gid=22946&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIzLzExL3ZvLWhpZXAiLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vdm8taGllcC9nYW1lIiwiZ2lkIjoiMjI5NDYiLCJyYXRlZGFnZXMiOiIwIiwiZXhwIjoxNzc2Mzc2NDYzLCJpYXQiOjE3NzYzNDA0NjN9.pQYn_JNtiA06aXjXUdHHDVJs8giiROlvfmKtobWGYu0', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2023/11/20/vo-hiep-200.jpg" alt="Ảnh 1">
 </div>
-        <div class="caption">Người sống sót Ragnarok</div>
-      </div>
-
-     <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/04/tinh-linh-bau-troi/?gid=23485&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA0L3RpbmgtbGluaC1iYXUtdHJvaSIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi90aW5oLWxpbmgtYmF1LXRyb2kvZ2FtZSIsImdpZCI6IjIzNDg1IiwicmF0ZWRhZ2VzIjoiMCIsImV4cCI6MTc3NjM1OTE0MiwiaWF0IjoxNzc2MzIzMTQyfQ.MZtzGRBHZY_B1vlTGllXc89cBNo-QItKui72Fh69gkg', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2024/04/20/tinh-linh-bau-troi-200.jpg" alt="Ảnh 1">
-</div>
-        <div class="caption">Tinh linh bầu trời</div>
+        <div class="caption">Võ hiệp</div>
       </div>
       
  </div>
