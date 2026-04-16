@@ -525,6 +525,13 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/01/avengers-chien-dau/?gid=23225&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzAxL2F2ZW5nZXJzLWNoaWVuLWRhdSIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi9hdmVuZ2Vycy1jaGllbi1kYXUvZ2FtZSIsImdpZCI6IjIzMjI1IiwicmF0ZWRhZ2VzIjoiMTIiLCJleHAiOjE3NzYzNjc0MTUsImlhdCI6MTc3NjMzMTQxNX0.7FDyGSKkvOh2LIWwW46v_E_KPhHDLmySkaVNWpimMcE', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/01/25/avengers-chien-dau-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Avengers chiến đấu</div>
+      </div>
+
+     <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/08/avengers-chien-dau-2/?gid=23784&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA4L2F2ZW5nZXJzLWNoaWVuLWRhdS0yIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL2F2ZW5nZXJzLWNoaWVuLWRhdS0yL2dhbWUiLCJnaWQiOiIyMzc4NCIsInJhdGVkYWdlcyI6IjEyIiwiZXhwIjoxNzc1ODM3MDMxLCJpYXQiOjE3NzU4MDEwMzF9.gGeUm-ti6-5B7ZRU4ylC9-4_X_BjY8zymMaYJaYeR3s', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/08/07/avengers-chien-dau-2-300.jpg" alt="Ảnh 1">
 </div>
@@ -564,6 +571,13 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2021/06/23/tuyet-dinh-kiem-khach-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Tuyệt đỉnh kiếm khách (Forbidden Arms)</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/03/nguoi-song-sot-ragnarok/?gid=22029&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIzLzAzL25ndW9pLXNvbmctc290LXJhZ25hcm9rIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL25ndW9pLXNvbmctc290LXJhZ25hcm9rL2dhbWUiLCJnaWQiOiIyMjAyOSIsInJhdGVkYWdlcyI6IjEyIiwiZXhwIjoxNzc2MzY4MTA1LCJpYXQiOjE3NzYzMzIxMDV9.AXeE3ywij_4_vkQ1WBvnzerwFkRPpFA-j4cv33Pxdjg', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2023/03/30/nguoi-song-sot-ragnarok-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Người sống sót Ragnarok</div>
       </div>
 
      <div class="image-box">
