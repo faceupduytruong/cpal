@@ -464,6 +464,13 @@ container.innerHTML = `
         <div class="caption">Tiểu đội diệt Zombie (Earths Final Hope Quadron)</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/05/chien-binh-ham-nguc/?gid=23537&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA1L2NoaWVuLWJpbmgtaGFtLW5ndWMiLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vY2hpZW4tYmluaC1oYW0tbmd1Yy9nYW1lIiwiZ2lkIjoiMjM1MzciLCJyYXRlZGFnZXMiOiIxOCIsImV4cCI6MTc3NjM0ODk0NywiaWF0IjoxNzc2MzEyOTQ3fQ.DShbbjjlWDirBe-4KsSIHTvf8wvljdqdycYV-Dfd_gY', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/05/08/chien-binh-animal-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Chiến binh hầm ngục</div>
+      </div>
+
  </div>
 
        <!-- Hàng thứ 7 -->
@@ -557,6 +564,13 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2021/06/23/tuyet-dinh-kiem-khach-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Tuyệt đỉnh kiếm khách (Forbidden Arms)</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/04/tinh-linh-bau-troi/?gid=23485&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA0L3RpbmgtbGluaC1iYXUtdHJvaSIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi90aW5oLWxpbmgtYmF1LXRyb2kvZ2FtZSIsImdpZCI6IjIzNDg1IiwicmF0ZWRhZ2VzIjoiMCIsImV4cCI6MTc3NjM1OTE0MiwiaWF0IjoxNzc2MzIzMTQyfQ.MZtzGRBHZY_B1vlTGllXc89cBNo-QItKui72Fh69gkg', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/04/20/tinh-linh-bau-troi-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Tinh linh bầu trời</div>
       </div>
       
  </div>
