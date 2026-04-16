@@ -715,6 +715,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Mẹ nhốt tôi ở nhà 2</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/08/chien-tranh-te-bao/?gid=1425&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIwLzA4L2NoaWVuLXRyYW5oLXRlLWJhbyIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi9jaGllbi10cmFuaC10ZS1iYW8vZ2FtZSIsImdpZCI6IjE0MjUiLCJyYXRlZGFnZXMiOiIwIiwiZXhwIjoxNzc2MzY4OTI2LCJpYXQiOjE3NzYzMzI5MjZ9.scF1v_gsuqoq9xpi2ITg4MsxBhtTbtqdUGFbt7ErZQI', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2020/08/05/chien-tranh-te-bao-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Chiến tranh tế bào</div>
+      </div>
       
  </div>
 
