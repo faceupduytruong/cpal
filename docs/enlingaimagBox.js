@@ -568,7 +568,7 @@ container.innerHTML = `
 
      <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/02/nguoi-que-phieu-luu-ky/?gid=17400&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE4LzAyL25ndW9pLXF1ZS1waGlldS1sdXUta3kvIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL25ndW9pLXF1ZS1waGlldS1sdXUta3kvZ2FtZSIsImdpZCI6IjE3NDAwIiwicmF0ZWRhZ2VzIjoiMCIsImV4cCI6MTc3NjAyMjYwNiwiaWF0IjoxNzc1OTg2NjA2fQ.AW1Zn88h1xWr1PlemO0EeS9tvXZYdpOMX-UAuXOZVe4', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2018/02/13/nguoi-que-phieu-luu-ky.jpg" alt="Ảnh 1">
+       <img src="https://st.gamevui.vn/images/image/2024/06/07/stickman-thu-thanh-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Stickman thủ thành</div>
       </div>
