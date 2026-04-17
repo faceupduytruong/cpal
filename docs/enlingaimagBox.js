@@ -566,6 +566,13 @@ container.innerHTML = `
         <div class="caption">Người que phiêu lưu ký (Stickman Boost)</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/02/nguoi-que-phieu-luu-ky/?gid=17400&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE4LzAyL25ndW9pLXF1ZS1waGlldS1sdXUta3kvIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL25ndW9pLXF1ZS1waGlldS1sdXUta3kvZ2FtZSIsImdpZCI6IjE3NDAwIiwicmF0ZWRhZ2VzIjoiMCIsImV4cCI6MTc3NjAyMjYwNiwiaWF0IjoxNzc1OTg2NjA2fQ.AW1Zn88h1xWr1PlemO0EeS9tvXZYdpOMX-UAuXOZVe4', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2018/02/13/nguoi-que-phieu-luu-ky.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Stickman thủ thành</div>
+      </div>
+
 </div>
  
       <!-- Hàng thứ 9 -->
@@ -639,6 +646,13 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2023/11/20/vo-hiep-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Võ hiệp</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/06/stickman-thu-thanh/?gid=23625&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA2L3N0aWNrbWFuLXRodS10aGFuaCIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi9zdGlja21hbi10aHUtdGhhbmgvZ2FtZSIsImdpZCI6IjIzNjI1IiwicmF0ZWRhZ2VzIjoiMTgiLCJleHAiOjE3NzY0NTI5OTYsImlhdCI6MTc3NjQxNjk5Nn0.kpNPcp1xD0OSMmfu9RjRtwQBp9KJzfiQjvSoqda-DR4', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/06/07/stickman-thu-thanh-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Stickman thủ thành</div>
       </div>
       
  </div>
