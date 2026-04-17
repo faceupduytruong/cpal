@@ -55,6 +55,13 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/02/nguoi-que-hoc-toan-3/?gid=21865&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIzLzAyL25ndW9pLXF1ZS1ob2MtdG9hbi0zIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL25ndW9pLXF1ZS1ob2MtdG9hbi0zL2dhbWUiLCJnaWQiOiIyMTg2NSIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzY0NTExODksImlhdCI6MTc3NjQxNTE4OX0._-4_i0Xq1a8g_GKLTzvP9afWrIS0ZBO8NCYCx64XMIM', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2023/02/14/nguoi-que-hoc-toan-3-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Người que học Toán 3</div>
+      </div>
+
+     <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2021/09/mui-ten-phep-thuat-2/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2021/09/12/mui-ten-phep-thuat-2-200.jpg" alt="Ảnh 1">
 </div>
@@ -101,6 +108,27 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2015/4/20/pha-vo-giot-nuoc.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Phá vỡ giọt nước (Blops Plops)</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/05/robot-hut-bui/?gid=23593&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA1L3JvYm90LWh1dC1idWkiLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vcm9ib3QtaHV0LWJ1aS9nYW1lIiwiZ2lkIjoiMjM1OTMiLCJyYXRlZGFnZXMiOiIwIiwiZXhwIjoxNzc2NDQ5NjA2LCJpYXQiOjE3NzY0MTM2MDZ9.FfB1uxMfiDKNrqREjIYuEYNbqkpKhv4pjurGTE97Els', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/05/27/robot-hut-bui-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Robot hút bụi</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/05/cat-do-vat-3d/?gid=23607&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA1L2NhdC1kby12YXQtM2QiLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vY2F0LWRvLXZhdC0zZC9nYW1lIiwiZ2lkIjoiMjM2MDciLCJyYXRlZGFnZXMiOiIwIiwiZXhwIjoxNzc2NDUwMDc3LCJpYXQiOjE3NzY0MTQwNzd9.IDXUPBMTRdEo7oEsmgpDIdB1hPB_M551FglB0JYalYw', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/05/31/cat-do-vat-3d-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Cắt đồ vật 3D</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/08/can-cu-sao-hoa/?gid=23838&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA4L2Nhbi1jdS1zYW8taG9hIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL2Nhbi1jdS1zYW8taG9hL2dhbWUiLCJnaWQiOiIyMzgzOCIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzY0NTA1MjgsImlhdCI6MTc3NjQxNDUyOH0.IKWHBkbZbcFef6QxVavFk8tZkjcnEjZMxapJPzLaH2w', 'SmartApp Popup', window.innerWidth*2+45, 745)">', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/08/28/can-cu-sao-hoa-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Căn cứ sao hỏa</div>
       </div>
 
 </div>
