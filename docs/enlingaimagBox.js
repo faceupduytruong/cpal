@@ -125,7 +125,7 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/08/can-cu-sao-hoa/?gid=23838&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA4L2Nhbi1jdS1zYW8taG9hIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL2Nhbi1jdS1zYW8taG9hL2dhbWUiLCJnaWQiOiIyMzgzOCIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzY0NTA1MjgsImlhdCI6MTc3NjQxNDUyOH0.IKWHBkbZbcFef6QxVavFk8tZkjcnEjZMxapJPzLaH2w', 'SmartApp Popup', window.innerWidth*2+45, 745)">', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/08/can-cu-sao-hoa/?gid=23838&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA4L2Nhbi1jdS1zYW8taG9hIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL2Nhbi1jdS1zYW8taG9hL2dhbWUiLCJnaWQiOiIyMzgzOCIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzY0NTA1MjgsImlhdCI6MTc3NjQxNDUyOH0.IKWHBkbZbcFef6QxVavFk8tZkjcnEjZMxapJPzLaH2w', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2024/08/28/can-cu-sao-hoa-300.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Căn cứ sao hỏa</div>
