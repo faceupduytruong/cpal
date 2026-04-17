@@ -34,27 +34,6 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2014/09/pikachu/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2024/09/05/pikachu-300.jpg" alt="Ảnh 1">
-</div>
-        <div class="caption">Pikachu Online</div>
-      </div>
-
-     <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2026/03/ghep-3-hinh/?gid=24959&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI2LzAzL2doZXAtMy1oaW5oIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL2doZXAtMy1oaW5oL2dhbWUiLCJnaWQiOiIyNDk1OSIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzYwMjYyMDIsImlhdCI6MTc3NTk5MDIwMn0.AmZKeNP3k0FO3MMk3CXTWAWMQvozd8mpmcBsrdetDbA', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2026/03/17/ghep-3-hinh-300.jpg" alt="Ảnh 1">
-</div>
-        <div class="caption">Ghép 3 hình</div>
-      </div>
-
-     <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/10/pikachu-quai-thu/?gid=8541&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIyLzEwL3Bpa2FjaHUtcXVhaS10aHUiLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vcGlrYWNodS1xdWFpLXRodS9nYW1lIiwiZ2lkIjoiODU0MSIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzYwMjY2OTIsImlhdCI6MTc3NTk5MDY5Mn0.lj2ikNFbWcfYJdd-g-IWi8B2DzQfyzQ9ZqqRgq0uXiE', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2022/10/27/pikachu-quai-thu-200.jpg" alt="Ảnh 1">
-</div>
-        <div class="caption">Pikachu quái thú</div>
-      </div>
-
-     <div class="image-box">
        <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2023/02/nguoi-que-hoc-toan-3/?gid=21865&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIzLzAyL25ndW9pLXF1ZS1ob2MtdG9hbi0zIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL25ndW9pLXF1ZS1ob2MtdG9hbi0zL2dhbWUiLCJnaWQiOiIyMTg2NSIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzY0NTExODksImlhdCI6MTc3NjQxNTE4OX0._-4_i0Xq1a8g_GKLTzvP9afWrIS0ZBO8NCYCx64XMIM', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2023/02/14/nguoi-que-hoc-toan-3-200.jpg" alt="Ảnh 1">
 </div>
@@ -134,6 +113,32 @@ container.innerHTML = `
 </div>
 
         <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">"Match Images</h2>
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2014/09/pikachu/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/09/05/pikachu-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Pikachu Online</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2026/03/ghep-3-hinh/?gid=24959&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI2LzAzL2doZXAtMy1oaW5oIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL2doZXAtMy1oaW5oL2dhbWUiLCJnaWQiOiIyNDk1OSIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzYwMjYyMDIsImlhdCI6MTc3NTk5MDIwMn0.AmZKeNP3k0FO3MMk3CXTWAWMQvozd8mpmcBsrdetDbA', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2026/03/17/ghep-3-hinh-300.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Ghép 3 hình</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2022/10/pikachu-quai-thu/?gid=8541&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIyLzEwL3Bpa2FjaHUtcXVhaS10aHUiLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vcGlrYWNodS1xdWFpLXRodS9nYW1lIiwiZ2lkIjoiODU0MSIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzYwMjY2OTIsImlhdCI6MTc3NTk5MDY5Mn0.lj2ikNFbWcfYJdd-g-IWi8B2DzQfyzQ9ZqqRgq0uXiE', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2022/10/27/pikachu-quai-thu-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Pikachu quái thú</div>
+      </div>
+
+</div>
+
+        <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Puzzle Game</h2>
      <div class="image-box">
@@ -264,7 +269,7 @@ container.innerHTML = `
 
  </div>
 
-        <!-- Hàng thứ 3 -->
+        <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Deep Sea Survival</h2>
      <div class="image-box">
@@ -318,7 +323,7 @@ container.innerHTML = `
       
  </div>
 
-        <!-- Hàng thứ 4 -->
+        <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Plants & Zoombie</h2>
       <div class="image-box">
@@ -358,7 +363,7 @@ container.innerHTML = `
      
  </div>
 
-       <!-- Hàng thứ 5 -->
+       <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Arcade Racer</h2>
       <div class="image-box">
@@ -426,7 +431,7 @@ container.innerHTML = `
       
  </div>
 
-       <!-- Hàng thứ 6 -->
+       <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Playing Shooters</h2>
       <div class="image-box">
@@ -522,7 +527,7 @@ container.innerHTML = `
 
  </div>
 
-       <!-- Hàng thứ 7 -->
+       <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Stickman Revival</h2>
 
@@ -556,7 +561,7 @@ container.innerHTML = `
 
 </div>
  
-      <!-- Hàng thứ 8 -->
+      <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Battle Game</h2>
       <div class="image-box">
@@ -631,7 +636,7 @@ container.innerHTML = `
       
  </div>
 
-       <!-- Hàng thứ 9 -->
+       <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Role-playing Games</h2>
       <div class="image-box">
@@ -664,7 +669,7 @@ container.innerHTML = `
       
  </div>
 
-      <!-- Hàng thứ 10 -->
+      <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
       <div class="image-box">
@@ -767,7 +772,7 @@ container.innerHTML = `
       
  </div>
 
-      <!-- Hàng thứ 11 -->
+      <!-- Hàng thứ 12 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Word Connection</h2>
       <div class="image-box">
@@ -786,7 +791,7 @@ container.innerHTML = `
       
  </div>
  
-      <!-- Hàng thứ 12 -->
+      <!-- Hàng thứ 13 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Two-player Game</h2>
       <div class="image-box">
@@ -798,7 +803,7 @@ container.innerHTML = `
       
  </div>
 
-    <!-- Hàng thứ 13 -->
+    <!-- Hàng thứ 14 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Gaming Station</h2>
       <div class="image-box">
