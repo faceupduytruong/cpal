@@ -261,10 +261,17 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/03/dai-duong-huyen-bi/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2020/03/dai-duong-huyen-bi/?gid=20456&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDIwLzAzL2RhaS1kdW9uZy1odXllbi1iaS8iLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4vZGFpLWR1b25nLWh1eWVuLWJpL2dhbWUiLCJnaWQiOiIyMDQ1NiIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzY0NTIyNDgsImlhdCI6MTc3NjQxNjI0OH0.BAyYMhontJcKpK0fGodQQNlX5VoFzDYOZy6L-zIaUpc', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2020/03/24/dai-duong-huyen-bi-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Đại dương huyền bí</div>
+      </div>
+
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/05/dao-kho-bau/?gid=4158&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE5LzA1L2Rhby1raG8tYmF1LyIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi9kYW8ta2hvLWJhdS9nYW1lIiwiZ2lkIjoiNDE1OCIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3NzY0NTIzOTcsImlhdCI6MTc3NjQxNjM5N30.y0XG-MX-s6xN3zGr35OqKz5mLXH7sDt981E39vfT8Uo', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2019/05/07/dao-kho-bau-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Đảo kho báu</div>
       </div>
 
  </div>
