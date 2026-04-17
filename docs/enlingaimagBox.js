@@ -566,6 +566,13 @@ container.innerHTML = `
         <div class="caption">Người que phiêu lưu ký (Stickman Boost)</div>
       </div>
 
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/06/stickman-thu-thanh/?gid=23625&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA2L3N0aWNrbWFuLXRodS10aGFuaCIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi9zdGlja21hbi10aHUtdGhhbmgvZ2FtZSIsImdpZCI6IjIzNjI1IiwicmF0ZWRhZ2VzIjoiMTgiLCJleHAiOjE3NzY0NTI5OTYsImlhdCI6MTc3NjQxNjk5Nn0.kpNPcp1xD0OSMmfu9RjRtwQBp9KJzfiQjvSoqda-DR4', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2024/06/07/stickman-thu-thanh-200.jpg" alt="Ảnh 1">
+</div>
+        <div class="caption">Stickman thủ thành</div>
+      </div>
+
 </div>
  
       <!-- Hàng thứ 9 -->
@@ -639,13 +646,6 @@ container.innerHTML = `
        <img src="https://st.gamevui.vn/images/image/2023/11/20/vo-hiep-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Võ hiệp</div>
-      </div>
-
-     <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2024/06/stickman-thu-thanh/?gid=23625&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI0LzA2L3N0aWNrbWFuLXRodS10aGFuaCIsInJldHVybnVybCI6Imh0dHBzOi8vZ2FtZXZ1aS52bi9zdGlja21hbi10aHUtdGhhbmgvZ2FtZSIsImdpZCI6IjIzNjI1IiwicmF0ZWRhZ2VzIjoiMTgiLCJleHAiOjE3NzY0NTI5OTYsImlhdCI6MTc3NjQxNjk5Nn0.kpNPcp1xD0OSMmfu9RjRtwQBp9KJzfiQjvSoqda-DR4', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2024/06/07/stickman-thu-thanh-200.jpg" alt="Ảnh 1">
-</div>
-        <div class="caption">Stickman thủ thành</div>
       </div>
       
  </div>
