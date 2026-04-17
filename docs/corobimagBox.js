@@ -25,6 +25,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Duy Luân Dễ Thương</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/duyluandethuong' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/ghvltshsd7w6higymu40h/Nguy-n-Ng-c-Duy-Lu-n.png?rlkey=yh0uk0pajk5us9beruboy8i59&st=04mbux2w&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Nguyễn Ngọc Duy Luân</div>
+      </div>
       
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/hinh.hoang.thien.tai/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
