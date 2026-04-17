@@ -121,6 +121,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">AutoCAD</h2>
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/hoccadcungT' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/iqwm7mufxvcqponimdrq6/TAI-Technical-Autocad-Instructor.png?rlkey=8z6oby29ljdu29jzvbi9dx16f&st=7ha6q8ya&raw=1">
+</div>
+        <div class="caption">TAI-Technical Autocad Instructor</div>
+      </div>
+      
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/traiautocad/learning_content/?filter=570550154039907' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/hcfjto85ns0cjz2qfhlg4/Tr-i-AutoCAD.jpg?rlkey=d0kw070ge8mnqbc1v5zh126a3&st=uzis40ka&raw=1">
 </div>
