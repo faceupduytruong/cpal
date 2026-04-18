@@ -194,13 +194,29 @@ style.textContent = `
       rgba(70, 130, 180, 0.7),   /* xanh lam (SteelBlue) */
       rgba(192, 192, 192, 0.7)   /* bạc (Silver) */
     );
-    border: 2px solid white;
+    border: 2px solid rgba(173, 255, 47, 0.6);
     color: black;
   }
   .btn-installedapps:hover {
     background-color: silver;
     color: navy;
     border: 2px solid lightblue;
+  }
+
+  /* Kdeconnect button */
+  .btn-kdeconnect {
+    background: linear-gradient(
+      to right,
+      rgba(0, 255, 255, 0.7),   /* cyan */
+      rgba(138, 43, 226, 0.7)   /* tím (BlueViolet) */
+    );
+    border: 2px solid white;
+    color: black;
+  }
+  .btn-kdeconnect:hover {
+    background-color: cyan;
+    color: darkviolet;
+    border: 2px solid violet;
   }
 
   /* Avast button */
