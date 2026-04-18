@@ -1,4 +1,4 @@
-// Tạo một thẻ <style> và chèn vào <head>
+// Đổi màu sắc cho các button gọi app
 
 const style = document.createElement('style');
 style.textContent = `
@@ -128,6 +128,17 @@ style.textContent = `
     color: yellow;              /* chữ vàng để nổi bật */
   }
 
+  /* File Explorer button */
+  .btn-fileexplorer {
+    background-color: rgba(255, 215, 0, 0.7); /* vàng nhạt (Gold) */
+    border: 2px solid royalblue;
+    color: black;
+  }
+  .btn-fileexplorer:hover {
+    background-color: royalblue;   /* khi hover nền xanh dương đậm */
+    color: yellow;                 /* chữ vàng để nổi bật */
+  }
+
   /* Internet Download Manager button */
   .btn-idm {
     background-color: rgba(173, 255, 47, 0.6); /* xanh lá tươi pha vàng (GreenYellow) */
@@ -137,6 +148,17 @@ style.textContent = `
   .btn-idm:hover {
     background-color: limegreen;   /* khi hover nền xanh lá đậm pha vàng */
     color: white;                  /* chữ trắng để nổi bật */
+  }
+
+  /* MPC-HC button */
+  .btn-mpchc {
+    background-color: rgba(255, 0, 0, 0.7); /* đỏ tươi nhạt */
+    border: 2px solid black;
+    color: white;
+  }
+  .btn-mpchc:hover {
+    background-color: black;     /* khi hover nền đen tuyền */
+    color: red;                  /* chữ đỏ để nổi bật */
   }
 
   /* Babylon.js Sandbox button */
