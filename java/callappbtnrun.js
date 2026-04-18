@@ -80,6 +80,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Startup Apps
   </button>
 
+  <!-- Nút mở Installed Apps -->
+  <button class="btn-installedapps" onclick="fetch('http://127.0.0.1:5000/run-installedapps')">
+    Mở Installed Apps
+  </button>
+
   <!-- Nút mở Avast Free Antivurs -->
   <button class="btn-avast" onclick="fetch('http://127.0.0.1:5000/run-avast')">
     Mở Avast Free Antivirus
