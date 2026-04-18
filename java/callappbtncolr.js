@@ -29,6 +29,17 @@ style.textContent = `
     margin-top: 0px;
     }
 
+  /* Fluentsearch button */
+  .btn-fluentsearch {
+    background-color: rgba(70, 130, 180, 0.7); /* xanh SteelBlue nhạt */
+    border: 2px solid navy;
+    color: white;
+  }
+  .btn-fluentsearch:hover {
+    background-color: navy;   /* khi hover nền xanh đậm */
+    color: cyan;              /* chữ xanh sáng để nổi bật */
+  }
+
   /* Notepad button */
   .btn-notepad {
     background-color: rgba(0, 0, 139, 0.6);
@@ -183,6 +194,17 @@ style.textContent = `
     color: cyan;              /* chữ xanh sáng để nổi bật */
   }
 
+  /* Wondershare PDFelement button */
+  .btn-pdfelement {
+    background-color: rgba(34, 139, 34, 0.6); /* xanh lá nhạt */
+    border: 2px solid goldenrod;
+    color: white;
+  }
+  .btn-pdfelement:hover {
+    background-color: goldenrod;   /* khi hover nền vàng đậm */
+    color: black;                  /* chữ đen để nổi bật */
+  }
+
   /* Babylon.js Sandbox button */
   .btn-babylon {
     background-color: rgba(128, 0, 128, 0.6); /* tím nhạt */
@@ -203,6 +225,28 @@ style.textContent = `
   .btn-github:hover {
     background-color: black;   /* khi hover nền đen tuyền */
     color: #f5f5f5;            /* chữ xám nhạt để nổi bật */
+  }
+
+  /* Copilot button */
+  .btn-copilot {
+    background-color: rgba(0, 191, 255, 0.7); /* xanh dương tươi */
+    border: 2px solid navy;
+    color: white;
+  }
+  .btn-copilot:hover {
+    background-color: navy;   /* khi hover nền xanh đậm */
+    color: cyan;              /* chữ xanh sáng để nổi bật */
+  }
+
+  /* Xzaitalk button */
+  .btn-xzaitalk {
+    background-color: rgba(0, 128, 128, 0.6); /* xanh teal nhạt */
+    border: 2px solid darkgreen;
+    color: white;
+  }
+  .btn-xzaitalk:hover {
+    background-color: darkgreen;   /* khi hover nền xanh đậm */
+    color: yellow;                 /* chữ vàng để nổi bật */
   }
 
   /* SoundCloud button */
