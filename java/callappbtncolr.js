@@ -154,7 +154,7 @@ style.textContent = `
   .btn-github {
     background-color: rgba(0, 0, 0, 0.2); /* đen tuyền nhạt */
     border: 2px solid black;
-    color: white;
+    color: orange;
   }
   .btn-github:hover {
     background-color: black;   /* khi hover nền đen tuyền */
@@ -187,7 +187,7 @@ style.textContent = `
   .btn-dropbox {
     background-color: white; /* xanh da trời mạnh (DodgerBlue) */
     border: 2px solid rgba(30, 144, 255, 0.7);
-    color: white;
+    color: rgba(30, 144, 255, 0.7);
   }
   .btn-dropbox:hover {
     background-color: dodgerblue;         /* khi hover nền đỏ */
