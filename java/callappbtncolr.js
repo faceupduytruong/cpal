@@ -155,6 +155,22 @@ style.textContent = `
     border: 2px solid violet;   /* viền tím nhạt khi hover */
   }
 
+  /* Storage button */
+  .btn-storage {
+    background: linear-gradient(
+      to right,
+      rgba(0, 255, 255, 0.7),   /* cyan */
+      rgba(192, 192, 192, 0.7)  /* silver */
+    );
+    border: 2px solid white;
+    color: black;
+  }
+  .btn-storage:hover {
+    background-color: silver;
+    color: navy;
+    border: 2px solid cyan;
+  }
+
   /* Avast button */
   .btn-avast {
     background-color: rgba(255,165,0,0.6);
