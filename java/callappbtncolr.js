@@ -62,6 +62,17 @@ style.textContent = `
     color: cyan;                /* chữ vàng để nổi bật */
   }
 
+  /* Powershell button */
+  .btn-powershell {
+    background-color: rgba(0, 0, 128, 0.7); /* xanh dương đậm nhạt */
+    border: 2px solid black;
+    color: white;
+  }
+  .btn-powershell:hover {
+    background-color: black;   /* khi hover nền đen tuyền */
+    color: cyan;               /* chữ xanh sáng để nổi bật */
+  }
+
   /* Microsoft Store button */
   .btn-store {
     background-color: rgba(199, 21, 133, 0.6); /* hồng sen đậm nhạt (MediumVioletRed) */
@@ -96,7 +107,7 @@ style.textContent = `
   }
   
   /* BleachBit button */
-  .btn-bleach {
+  .btn-bleachbit {
     background-color: rgba(255, 255, 153, 0.6); /* vàng nhạt */
     border: 2px solid gold;
     color: black;
@@ -152,7 +163,7 @@ style.textContent = `
 
   /* MPC-HC button */
   .btn-mpchc {
-    background-color: rgba(255, 0, 0, 0.7); /* đỏ tươi nhạt */
+    background-color: rgba(255, 0, 0, 1.7); /* đỏ tươi nhạt */
     border: 2px solid black;
     color: white;
   }
