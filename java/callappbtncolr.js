@@ -141,18 +141,18 @@ style.textContent = `
 
   /* Defrag button */
   .btn-defrag {
-  background-color: linear-gradient(
-    to right,
-    rgba(142, 0, 75, 0.7),   /* hồng củ dền (beetroot pink) */
-    rgba(216, 191, 216, 0.7) /* tím nhạt (thistle) */
+    background-color: linear-gradient(
+      to right,
+      rgba(142, 0, 75, 0.7),   /* hồng củ dền (beetroot pink) */
+      rgba(216, 191, 216, 0.7) /* tím nhạt (thistle) */
   );
-  border: 2px solid white;   /* viền trắng */
-  color: white;
+  border: 2px solid purple;   /* viền trắng */
+  color: violet;
   }
   .btn-defrag:hover {
-    background-color: white;   /* khi hover nền trắng */
-    color: purple;             /* chữ tím để nổi bật */
-    border: 2px solid violet;  /* viền tím nhạt khi hover */
+    background-color: rgba(142, 0, 75, 0.7);   /* khi hover nền trắng */
+    color: white;             /* chữ tím để nổi bật */
+    border: 2px solid rgba(216, 191, 216, 0.7);  /* viền tím nhạt khi hover */
   }
 
   /* Avast button */
@@ -338,13 +338,18 @@ style.textContent = `
 
   /* Fcportables button */
   .btn-fcportables {
-    background-color: rgba(60, 179, 113, 0.7); /* xanh lá nhạt (MediumSeaGreen) */
-    border: 2px solid gray;                    /* viền xám */
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 139, 0.7),   /* xanh chàm (DarkBlue) */
+      rgba(0, 255, 255, 0.7)  /* cyan */
+    );
+    border: 2px solid white;  /* viền trắng */
     color: white;
   }
   .btn-fcportables:hover {
-    background-color: darkgreen;   /* khi hover nền xanh đậm */
-    color: yellow;                 /* chữ vàng để nổi bật */
+    background-color: cyan;   /* khi hover nền cyan */
+    color: darkblue;          /* chữ xanh chàm để nổi bật */
+    border: 2px solid lightcyan; /* viền cyan nhạt khi hover */
   }
   
 `;
