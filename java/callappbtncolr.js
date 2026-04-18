@@ -186,11 +186,11 @@ style.textContent = `
   /* Box button */
   .btn-box {
     background-color: rgba(30, 144, 255, 0.7); /* xanh da trời mạnh (DodgerBlue) */
-    border: 2px solid red;
+    border: 2px solid white;
     color: white;
   }
   .btn-box:hover {
-    background-color: red;         /* khi hover nền đỏ */
+    background-color: white;         /* khi hover nền đỏ */
     color: dodgerblue;             /* chữ xanh da trời nổi bật */
   }
 
