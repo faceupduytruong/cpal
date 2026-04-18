@@ -75,6 +75,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở System Storage
   </button>
 
+  <!-- Nút mở Startup Apps -->
+  <button class="btn-startup" onclick="fetch('http://127.0.0.1:5000/run-startup')">
+    Mở Startup Apps
+  </button>
+
   <!-- Nút mở Avast Free Antivurs -->
   <button class="btn-avast" onclick="fetch('http://127.0.0.1:5000/run-avast')">
     Mở Avast Free Antivirus
