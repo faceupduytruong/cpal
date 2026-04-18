@@ -75,7 +75,7 @@ style.textContent = `
 
   /* GitHub button */
   .btn-github {
-    background-color: rgba(0, 0, 0, 0.85); /* đen tuyền nhạt */
+    background-color: rgba(0, 0, 0, 0.2); /* đen tuyền nhạt */
     border: 2px solid black;
     color: white;
   }
