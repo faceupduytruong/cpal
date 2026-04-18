@@ -184,12 +184,12 @@ style.textContent = `
   }
 
   /* Dropbox button */
-  .btn-box {
+  .btn-dropbox {
     background-color: white; /* xanh da trời mạnh (DodgerBlue) */
     border: 2px solid rgba(30, 144, 255, 0.7);
     color: white;
   }
-  .btn-box:hover {
+  .btn-dropbox:hover {
     background-color: dodgerblue;         /* khi hover nền đỏ */
     color: white;                         /* chữ xanh da trời nổi bật */
   }
