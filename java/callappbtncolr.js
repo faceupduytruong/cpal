@@ -183,6 +183,17 @@ style.textContent = `
     color: yellow;           /* chữ vàng để nổi bật */
   }
 
+  /* Dropbox button */
+  .btn-box {
+    background-color: white; /* xanh da trời mạnh (DodgerBlue) */
+    border: 2px solid rgba(30, 144, 255, 0.7);
+    color: white;
+  }
+  .btn-box:hover {
+    background-color: dodgerblue;         /* khi hover nền đỏ */
+    color: white;                         /* chữ xanh da trời nổi bật */
+  }
+
   /* Box button */
   .btn-box {
     background-color: rgba(30, 144, 255, 0.7); /* xanh da trời mạnh (DodgerBlue) */
