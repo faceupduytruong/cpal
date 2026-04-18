@@ -50,14 +50,24 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Avast Free Antivirus
   </button>
 
-  <!-- Nút mở Files -->
+  <!-- Nút mở Files (Store App)-->
   <button class="btn-files" onclick="fetch('http://127.0.0.1:5000/run-files')">
     Mở Files (Store App)
+  </button>
+
+  <!-- Nút mở File Explorer -->
+  <button class="btn-fileexplorer" onclick="fetch('http://127.0.0.1:5000/run-fileexplorer')">
+    Mở File Explorer
   </button>
 
   <!-- Nút mở Internet Download Manager -->
   <button class="btn-idm" onclick="fetch('http://127.0.0.1:5000/run-idm')">
     Mở Internet Download Manager
+  </button>
+
+  <!-- Nút mở MPC-HC (K-Lite Codec Pack) -->
+  <button class="btn-mpchc" onclick="fetch('http://127.0.0.1:5000/run-mpchc')">
+    Mở MPC-HC (K-Lite Codec Pack)
   </button>
 
   <!-- Nút mở Babylon.js Sandbox (ứng dụng web) -->
