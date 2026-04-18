@@ -119,6 +119,18 @@ style.textContent = `
     background-color: red;   /* khi hover nền đỏ đậm */
     color: yellow;           /* chữ vàng để nổi bật */
   }
+
+  /* Karan button */
+  .btn-karan {
+    background-color: rgba(0, 128, 0, 0.6); /* xanh lá nhạt */
+    border: 2px solid green;
+    color: white;
+  }
+
+  .btn-karan:hover {
+    background-color: green;   /* khi hover nền xanh lá đậm */
+    color: yellow;             /* chữ vàng để nổi bật */
+  }
   
 `;
 document.head.appendChild(style);
