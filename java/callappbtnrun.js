@@ -75,6 +75,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở MPC-HC (K-Lite Codec Pack)
   </button>
 
+  <!-- Nút mở Telegram -->
+  <button class="btn-telegram" onclick="fetch('http://127.0.0.1:5000/run-telegram')">
+    Mở Telegram
+  </button>
+
   <!-- Nút mở Babylon.js Sandbox (ứng dụng web) -->
   <button class="btn-babylon" onclick="fetch('http://127.0.0.1:5000/run-babylon')">
     Mở Babylon.js Sandbox
