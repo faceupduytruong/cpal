@@ -23,6 +23,17 @@ style.textContent = `
     background-color: cyan;
     color: darkblue;
   }
+  
+  /* BleachBit button */
+  .btn-bleach {
+    background-color: rgba(34,139,34,0.6);
+    border: 2px solid green;
+    color: white;
+  }
+  .btn-bleach:hover {
+    background-color: green;
+    color: yellow;
+  }
 
   /* Avast button */
   .btn-avast {
@@ -33,17 +44,6 @@ style.textContent = `
   .btn-avast:hover {
     background-color: orange;
     color: white;
-  }
-
-  /* BleachBit button */
-  .btn-bleach {
-    background-color: rgba(34,139,34,0.6);
-    border: 2px solid green;
-    color: white;
-  }
-  .btn-bleach:hover {
-    background-color: green;
-    color: yellow;
   }
 `;
 document.head.appendChild(style);
