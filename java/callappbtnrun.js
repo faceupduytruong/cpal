@@ -5,6 +5,16 @@ document.addEventListener("DOMContentLoaded", function() {
   container.className = "button-container";
 
   container.innerHTML = `
+  <!-- Nút mở XZSearch -->
+  <button class="btn-xzsearch" onclick="fetch('http://127.0.0.1:5000/run-xzsearch')">
+   Mở XZSearch
+  </button>
+
+  <!-- Nút mở Fluent Search -->
+  <button class="btn-fluentsearch" onclick="fetch('http://127.0.0.1:5000/run-fluentsearch')">
+    Mở Fluent Search
+  </button>
+
   <!-- Nút mở Notepad -->
   <button class="btn-notepad" onclick="fetch('http://127.0.0.1:5000/run-notepad')">
     Mở Notepad
@@ -80,6 +90,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Telegram
   </button>
 
+  <!-- Nút mở Wondershare PDFelement -->
+  <button class="btn-pdfelement" onclick="fetch('http://127.0.0.1:5000/run-pdfelement')">
+    Mở Wondershare PDFelement
+  </button>
+
   <!-- Nút mở Babylon.js Sandbox (ứng dụng web) -->
   <button class="btn-babylon" onclick="fetch('http://127.0.0.1:5000/run-babylon')">
     Mở Babylon.js Sandbox
@@ -90,9 +105,19 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở GitHub
   </button>
 
+  <!-- Nút mở Copilot (ứng dụng web) -->
+  <button class="btn-copilot" onclick="fetch('http://127.0.0.1:5000/run-copilot')">
+    Mở Copilot
+  </button>
+
   <!-- Nút mở Gemini (ứng dụng web) -->
   <button onclick="fetch('http://127.0.0.1:5000/run-gemini')">
     Mở Google Gemini
+  </button>
+
+  <!-- Nút mở XZAiTalkApp -->
+  <button class="btn-xzaitalk" onclick="fetch('http://127.0.0.1:5000/run-xzaitalk')">
+    Mở XZAiTalkApp
   </button>
 
   <!-- Nút mở SoundCloud (ứng dụng web) -->
