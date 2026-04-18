@@ -88,7 +88,7 @@ style.textContent = `
   .btn-powershell {
     background-color: rgba(0, 0, 128, 0.7); /* xanh dương đậm nhạt */
     border: 2px solid black;
-    color: yellow;
+    color: limegreen;
   }
   .btn-powershell:hover {
     background-color: black;   /* khi hover nền đen tuyền */
@@ -137,6 +137,22 @@ style.textContent = `
   .btn-bleachbit:hover {
     background-color: gold;     /* khi hover nền vàng đậm */
     color: white;               /* chữ trắng để nổi bật */
+  }
+
+  /* Defrag button */
+  .btn-defrag {
+  background-color: linear-gradient(
+    to right,
+    rgba(142, 0, 75, 0.7),   /* hồng củ dền (beetroot pink) */
+    rgba(216, 191, 216, 0.7) /* tím nhạt (thistle) */
+  );
+  border: 2px solid white;   /* viền trắng */
+  color: white;
+  }
+  .btn-defrag:hover {
+    background-color: white;   /* khi hover nền trắng */
+    color: purple;             /* chữ tím để nổi bật */
+    border: 2px solid violet;  /* viền tím nhạt khi hover */
   }
 
   /* Avast button */
