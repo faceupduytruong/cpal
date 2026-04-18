@@ -50,16 +50,27 @@ style.textContent = `
     background-color: cyan;
     color: darkblue;
   }
+
+  /* Check for Update button */
+  .btn-update {
+    background-color: rgba(255, 182, 193, 0.6); /* hồng nhạt (LightPink) */
+    border: 2px solid pink;
+    color: black;
+  }
+  .btn-update:hover {
+    background-color: pink;     /* khi hover nền hồng đậm hơn */
+    color: white;               /* chữ trắng để nổi bật */
+  }
   
   /* BleachBit button */
-  .btn-bleachbit {
-    background-color: rgba(34,139,34,0.6);
-    border: 2px solid green;
-    color: white;
+  .btn-bleach {
+    background-color: rgba(255, 255, 153, 0.6); /* vàng nhạt */
+    border: 2px solid gold;
+    color: black;
   }
-  .btn-bleachbit:hover {
-    background-color: green;
-    color: yellow;
+  .btn-bleach:hover {
+    background-color: gold;     /* khi hover nền vàng đậm */
+    color: white;               /* chữ trắng để nổi bật */
   }
 
   /* Avast button */
