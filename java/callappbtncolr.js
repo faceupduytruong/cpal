@@ -73,6 +73,18 @@ style.textContent = `
     color: white;
   }
 
+  /* Babylon.js Sandbox button */
+  .btn-babylon {
+    background-color: rgba(128, 0, 128, 0.6); /* tím nhạt */
+    border: 2px solid purple;
+    color: white;
+  }
+
+  .btn-babylon:hover {
+    background-color: purple;   /* khi hover nền tím đậm */
+    color: yellow;              /* chữ vàng để nổi bật */
+  }
+
   /* GitHub button */
   .btn-github {
     background-color: rgba(0, 0, 0, 0.2); /* đen tuyền nhạt */
