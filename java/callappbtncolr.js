@@ -41,23 +41,23 @@ style.textContent = `
   }
 
   /* Calculator button */
-  .btn-cal {
+  .btn-calculator {
     background-color: rgba(0, 150, 139, 0.6);
     border: 2px solid cyan;
     color: white;
   }
-  .btn-cal:hover {
+  .btn-calculator:hover {
     background-color: cyan;
     color: darkblue;
   }
   
   /* BleachBit button */
-  .btn-bleach {
+  .btn-bleachbit {
     background-color: rgba(34,139,34,0.6);
     border: 2px solid green;
     color: white;
   }
-  .btn-bleach:hover {
+  .btn-bleachbit:hover {
     background-color: green;
     color: yellow;
   }
@@ -71,6 +71,18 @@ style.textContent = `
   .btn-avast:hover {
     background-color: orange;
     color: white;
+  }
+
+  /* SoundCloud button */
+  .btn-soundcloud {
+    background-color: rgba(255, 102, 0, 0.6); /* cam nhạt */
+    border: 2px solid orange;
+    color: white;
+  }
+
+  .btn-soundcloud:hover {
+    background-color: orange;   /* khi hover nền cam đậm */
+    color: black;               /* chữ đen để nổi bật */
   }
 
   /* YouTube button */
