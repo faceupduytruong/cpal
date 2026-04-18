@@ -70,6 +70,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Defragment and Optimize Drives
   </button>
 
+  <!-- Nút mở System Storage -->
+  <button class="btn-storage" onclick="fetch('http://127.0.0.1:5000/run-storage')">
+    Mở System Storage
+  </button>
+
   <!-- Nút mở Avast Free Antivurs -->
   <button class="btn-avast" onclick="fetch('http://127.0.0.1:5000/run-avast')">
     Mở Avast Free Antivirus
