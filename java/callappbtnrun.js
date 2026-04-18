@@ -85,6 +85,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở KDE Connect
   </button>
 
+  <!-- Nút mở Quick Share -->
+  <button class="btn-quickshare" onclick="fetch('http://127.0.0.1:5000/run-quickshare')">
+    Mở Quick Share
+  </button>
+
   <!-- Nút mở Installed Apps -->
   <button class="btn-installedapps" onclick="fetch('http://127.0.0.1:5000/run-installedapps')">
     Mở Installed Apps
