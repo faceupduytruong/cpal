@@ -128,6 +128,17 @@ style.textContent = `
     color: yellow;              /* chữ vàng để nổi bật */
   }
 
+  /* Internet Download Manager button */
+  .btn-idm {
+    background-color: rgba(173, 255, 47, 0.6); /* xanh lá tươi pha vàng (GreenYellow) */
+    border: 2px solid limegreen;
+    color: black;
+  }
+  .btn-idm:hover {
+    background-color: limegreen;   /* khi hover nền xanh lá đậm pha vàng */
+    color: white;                  /* chữ trắng để nổi bật */
+  }
+
   /* Babylon.js Sandbox button */
   .btn-babylon {
     background-color: rgba(128, 0, 128, 0.6); /* tím nhạt */
@@ -136,7 +147,7 @@ style.textContent = `
   }
   .btn-babylon:hover {
     background-color: purple;   /* khi hover nền tím đậm */
-    color: yellow;              /* chữ vàng để nổi bật */
+    color: rgba(255, 182, 193, 0.6);              /* chữ vàng để nổi bật */
   }
 
   /* GitHub button */
