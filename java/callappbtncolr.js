@@ -59,7 +59,7 @@ style.textContent = `
   }
   .btn-fsquirt:hover {
     background-color: teal;       /* khi hover nền xanh nước biển đậm */
-    color: green;                /* chữ vàng để nổi bật */
+    color: cyan;                /* chữ vàng để nổi bật */
   }
 
   /* Microsoft Store button */
@@ -134,7 +134,6 @@ style.textContent = `
     border: 2px solid purple;
     color: white;
   }
-
   .btn-babylon:hover {
     background-color: purple;   /* khi hover nền tím đậm */
     color: yellow;              /* chữ vàng để nổi bật */
@@ -146,7 +145,6 @@ style.textContent = `
     border: 2px solid black;
     color: white;
   }
-
   .btn-github:hover {
     background-color: black;   /* khi hover nền đen tuyền */
     color: #f5f5f5;            /* chữ xám nhạt để nổi bật */
@@ -158,7 +156,6 @@ style.textContent = `
     border: 2px solid orange;
     color: white;
   }
-
   .btn-soundcloud:hover {
     background-color: orange;   /* khi hover nền cam đậm */
     color: black;               /* chữ đen để nổi bật */
@@ -181,7 +178,6 @@ style.textContent = `
     border: 2px solid green;
     color: white;
   }
-
   .btn-karanpc:hover {
     background-color: green;   /* khi hover nền xanh lá đậm */
     color: yellow;             /* chữ vàng để nổi bật */
