@@ -61,6 +61,17 @@ style.textContent = `
     background-color: pink;     /* khi hover nền hồng đậm hơn */
     color: white;               /* chữ trắng để nổi bật */
   }
+
+  /* PC Manager button */
+  .btn-pcmanager {
+    background-color: rgba(0, 128, 128, 0.6); /* xanh teal nhạt (pha xanh lá + xanh dương) */
+    border: 2px solid teal;
+    color: white;
+  }
+  .btn-pcmanager:hover {
+    background-color: teal;     /* khi hover nền xanh teal đậm */
+    color: yellow;              /* chữ vàng để nổi bật */
+  }
   
   /* BleachBit button */
   .btn-bleach {
