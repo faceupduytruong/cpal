@@ -80,6 +80,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Startup Apps
   </button>
 
+  <!-- Nút mở KDE Connect -->
+  <button class="btn-kdeconnect" onclick="fetch('http://127.0.0.1:5000/run-kdeconnect')">
+    Mở KDE Connect
+  </button>
+
   <!-- Nút mở Installed Apps -->
   <button class="btn-installedapps" onclick="fetch('http://127.0.0.1:5000/run-installedapps')">
     Mở Installed Apps
