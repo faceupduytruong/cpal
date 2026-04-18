@@ -65,6 +65,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở BleachBit
   </button>
 
+  <!-- Nút mở Defragment and Optimize Drives -->
+  <button class="btn-defrag" onclick="fetch('http://127.0.0.1:5000/run-defrag')">
+    Mở Defragment and Optimize Drives
+  </button>
+
   <!-- Nút mở Avast Free Antivurs -->
   <button class="btn-avast" onclick="fetch('http://127.0.0.1:5000/run-avast')">
     Mở Avast Free Antivirus
