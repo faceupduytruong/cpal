@@ -232,7 +232,7 @@ style.textContent = `
   .btn-quickshare:hover {
     background-color: cyan;
     color: deeppink;
-    border: 2px solid hotpink;
+    border: 2px solid black;
   }
 
   /* Avast button */
