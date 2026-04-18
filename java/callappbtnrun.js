@@ -35,6 +35,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Control Panel
   </button>
 
+  <!-- Nút mở GodMode -->
+  <button class="btn-godmode" onclick="fetch('http://127.0.0.1:5000/run-godmode')">
+    Mở GodMode
+  </button>
+
   <!-- Nút mở Powershell -->
   <button class="btn-powershell" onclick="fetch('http://127.0.0.1:5000/run-powershell')">
     Mở PowerShell
@@ -143,6 +148,11 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở KaranPC Category (ứng dụng web) -->
   <button class="btn-karanpc" onclick="fetch('http://127.0.0.1:5000/run-karanpc')">
     Mở KaranPC Category
+  </button>
+
+  <!-- Nút mở FC Portables (ứng dụng web) -->
+  <button class="btn-fcportables" onclick="fetch('http://127.0.0.1:5000/run-fcportables')">
+    Mở FC Portables
   </button>
 
   `;
