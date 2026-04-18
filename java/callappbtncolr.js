@@ -66,7 +66,7 @@ style.textContent = `
   .btn-powershell {
     background-color: rgba(0, 0, 128, 0.7); /* xanh dương đậm nhạt */
     border: 2px solid black;
-    color: white;
+    color: yellow;
   }
   .btn-powershell:hover {
     background-color: black;   /* khi hover nền đen tuyền */
@@ -112,7 +112,7 @@ style.textContent = `
     border: 2px solid gold;
     color: black;
   }
-  .btn-bleach:hover {
+  .btn-bleachbit:hover {
     background-color: gold;     /* khi hover nền vàng đậm */
     color: white;               /* chữ trắng để nổi bật */
   }
@@ -170,6 +170,17 @@ style.textContent = `
   .btn-mpchc:hover {
     background-color: black;     /* khi hover nền đen tuyền */
     color: red;                  /* chữ đỏ để nổi bật */
+  }
+
+  /* Telegram button */
+  .btn-telegram {
+    background-color: rgba(0, 191, 255, 0.7); /* xanh dương tươi (DeepSkyBlue) */
+    border: 2px solid navy;
+    color: white;
+  }
+  .btn-telegram:hover {
+    background-color: navy;   /* khi hover nền xanh đậm */
+    color: cyan;              /* chữ xanh sáng để nổi bật */
   }
 
   /* Babylon.js Sandbox button */
