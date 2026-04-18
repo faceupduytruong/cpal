@@ -25,6 +25,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Control Panel
   </button>
 
+  <!-- Nút mở Powershell -->
+  <button class="btn-powershell" onclick="fetch('http://127.0.0.1:5000/run-powershell')">
+    Mở PowerShell
+  </button>
+
   <!-- Nút mở Microsoft Store -->
   <button class="btn-store" onclick="fetch('http://127.0.0.1:5000/run-store')">
     Mở Microsoft Store
