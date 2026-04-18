@@ -226,7 +226,7 @@ style.textContent = `
       rgba(0, 255, 255, 0.7),   /* cyan */
       rgba(255, 105, 180, 0.7)  /* hồng (HotPink) */
     );
-    border: 2px solid white;
+    border: 2px solid deeppink;
     color: black;
   }
   .btn-quickshare:hover {
