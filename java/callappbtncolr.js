@@ -121,13 +121,13 @@ style.textContent = `
   }
 
   /* Karan button */
-  .btn-karan {
+  .btn-karanpc {
     background-color: rgba(0, 128, 0, 0.6); /* xanh lá nhạt */
     border: 2px solid green;
     color: white;
   }
 
-  .btn-karan:hover {
+  .btn-karanpc:hover {
     background-color: green;   /* khi hover nền xanh lá đậm */
     color: yellow;             /* chữ vàng để nổi bật */
   }
