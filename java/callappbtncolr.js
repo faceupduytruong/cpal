@@ -187,6 +187,22 @@ style.textContent = `
     border: 2px solid lime;
   }
 
+  /* Installedapps button */
+  .btn-installedapps {
+    background: linear-gradient(
+      to right,
+      rgba(70, 130, 180, 0.7),   /* xanh lam (SteelBlue) */
+      rgba(192, 192, 192, 0.7)   /* bạc (Silver) */
+    );
+    border: 2px solid white;
+    color: black;
+  }
+  .btn-installedapps:hover {
+    background-color: silver;
+    color: navy;
+    border: 2px solid lightblue;
+  }
+
   /* Avast button */
   .btn-avast {
     background-color: rgba(255,165,0,0.6);
