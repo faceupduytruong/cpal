@@ -178,7 +178,7 @@ style.textContent = `
       rgba(50, 205, 50, 0.7),   /* xanh lá sáng (LimeGreen) */
       rgba(255, 215, 0, 0.7)    /* vàng (Gold) */
     );
-    border: 2px solid white;
+    border: 2px solid orange;
     color: black;
   }
   .btn-startup:hover {
@@ -217,6 +217,22 @@ style.textContent = `
     background-color: cyan;
     color: darkviolet;
     border: 2px solid violet;
+  }
+
+  /* Quickshare button */
+  .btn-quickshare {
+    background: linear-gradient(
+      to right,
+      rgba(0, 255, 255, 0.7),   /* cyan */
+      rgba(255, 105, 180, 0.7)  /* hồng (HotPink) */
+    );
+    border: 2px solid white;
+    color: black;
+  }
+  .btn-quickshare:hover {
+    background-color: cyan;
+    color: deeppink;
+    border: 2px solid hotpink;
   }
 
   /* Avast button */
