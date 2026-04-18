@@ -73,6 +73,18 @@ style.textContent = `
     color: white;
   }
 
+  /* GitHub button */
+  .btn-github {
+    background-color: rgba(0, 0, 0, 0.85); /* đen tuyền nhạt */
+    border: 2px solid black;
+    color: white;
+  }
+
+  .btn-github:hover {
+    background-color: black;   /* khi hover nền đen tuyền */
+    color: #f5f5f5;            /* chữ xám nhạt để nổi bật */
+  }
+
   /* SoundCloud button */
   .btn-soundcloud {
     background-color: rgba(255, 102, 0, 0.6); /* cam nhạt */
