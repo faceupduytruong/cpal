@@ -196,14 +196,20 @@ style.textContent = `
 
   /* Wondershare PDFelement button */
   .btn-pdfelement {
-    background-color: rgba(34, 139, 34, 0.6); /* xanh lá nhạt */
-    border: 2px solid goldenrod;
-    color: white;
+    background-color: linear-gradient(
+      to right,
+      rgba(135, 206, 250, 0.7),   /* xanh dương nhạt (LightSkyBlue) */
+      rgba(255, 182, 193, 0.7)    /* hồng cánh sen (LightPink) */
+    );
+    border: 2px solid white;       /* viền trắng */
+    color: black;
   }
-  .btn-pdfelement:hover {
-    background-color: goldenrod;   /* khi hover nền vàng đậm */
-    color: black;                  /* chữ đen để nổi bật */
-  }
+
+.btn-pdfelement:hover {
+  background-color: white;       /* khi hover nền trắng */
+  color: deeppink;               /* chữ hồng đậm để nổi bật */
+  border: 2px solid lightblue;   /* viền xanh nhạt khi hover */
+}
 
   /* Babylon.js Sandbox button */
   .btn-babylon {
@@ -229,19 +235,19 @@ style.textContent = `
 
   /* Copilot button */
   .btn-copilot {
-    background-color: rgba(0, 191, 255, 0.7); /* xanh dương tươi */
-    border: 2px solid navy;
-    color: white;
+    background-color: rgba(216, 191, 216, 0.7); /* tím nhạt (thistle) */
+    border: 2px solid #FFC0CB; /* vàng ửng hồng (pinkish gold) */
+    color: black;
   }
   .btn-copilot:hover {
-    background-color: navy;   /* khi hover nền xanh đậm */
-    color: cyan;              /* chữ xanh sáng để nổi bật */
+    background-color: gold;     /* khi hover nền vàng đậm */
+    color: purple;              /* chữ tím để nổi bật */
   }
 
   /* Xzaitalk button */
   .btn-xzaitalk {
-    background-color: rgba(0, 128, 128, 0.6); /* xanh teal nhạt */
-    border: 2px solid darkgreen;
+    background-color: rgba(0, 228, 128, 0.6); /* xanh teal nhạt */
+    border: 2px solid yellow;
     color: white;
   }
   .btn-xzaitalk:hover {
