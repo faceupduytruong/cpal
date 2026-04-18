@@ -171,6 +171,22 @@ style.textContent = `
     border: 2px solid cyan;
   }
 
+  /* Startup button */
+  .btn-startup {
+    background: linear-gradient(
+      to right,
+      rgba(50, 205, 50, 0.7),   /* xanh lá sáng (LimeGreen) */
+      rgba(255, 215, 0, 0.7)    /* vàng (Gold) */
+    );
+    border: 2px solid white;
+    color: black;
+  }
+  .btn-startup:hover {
+    background-color: gold;
+    color: darkgreen;
+    border: 2px solid lime;
+  }
+
   /* Avast button */
   .btn-avast {
     background-color: rgba(255,165,0,0.6);
@@ -359,7 +375,7 @@ style.textContent = `
       rgba(0, 0, 139, 0.7),   /* xanh chàm (DarkBlue) */
       rgba(0, 255, 255, 0.7)  /* cyan */
     );
-    border: 2px solid white;  /* viền trắng */
+    border: 2px solid cyan;  /* viền trắng */
     color: white;
   }
   .btn-fcportables:hover {
