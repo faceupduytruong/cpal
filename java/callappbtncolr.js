@@ -59,7 +59,7 @@ style.textContent = `
   }
   .btn-store:hover {
     background-color: deeppink;   /* khi hover nền hồng sen đậm */
-    color: red;                /* chữ vàng để nổi bật */
+    color: black;                /* chữ vàng để nổi bật */
   }
 
   /* Check for Update button */
@@ -104,6 +104,17 @@ style.textContent = `
   .btn-avast:hover {
     background-color: orange;
     color: white;
+  }
+
+  /* Files (Store App) button */
+  .btn-files {
+    background-color: rgba(139, 69, 19, 0.6); /* nâu sen đậm nhạt (SaddleBrown) */
+    border: 2px solid sienna;
+    color: white;
+  }
+  .btn-files:hover {
+    background-color: sienna;   /* khi hover nền nâu sen đậm */
+    color: yellow;              /* chữ vàng để nổi bật */
   }
 
   /* Babylon.js Sandbox button */
