@@ -141,18 +141,18 @@ style.textContent = `
 
   /* Defrag button */
   .btn-defrag {
-    background-color: rgba(142, 0, 75, 0.7);   /* khi hover nền trắng */
-    color: white;             /* chữ tím để nổi bật */
-    border: 2px solid rgba(216, 191, 216, 0.7);  /* viền tím nhạt khi hover */
-  );
-  border: 2px solid purple;   /* viền trắng */
-  color: violet;
-  }
-  .btn-defrag:hover {
-    background-color: linear-gradient(
+    background: linear-gradient(
       to right,
       rgba(142, 0, 75, 0.7),   /* hồng củ dền (beetroot pink) */
       rgba(216, 191, 216, 0.7) /* tím nhạt (thistle) */
+    );
+    border: 2px solid purple;   /* viền tím */
+    color: white;
+  }
+  .btn-defrag:hover {
+    background: white;          /* khi hover nền trắng */
+    color: purple;              /* chữ tím để nổi bật */
+    border: 2px solid violet;   /* viền tím nhạt khi hover */
   }
 
   /* Avast button */
