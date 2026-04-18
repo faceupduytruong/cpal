@@ -73,6 +73,17 @@ style.textContent = `
     color: cyan;                /* chữ vàng để nổi bật */
   }
 
+  /* Godmode button */
+  .btn-godmode {
+    background-color: rgba(138, 43, 226, 0.6); /* tím nhạt (BlueViolet) */
+    border: 2px solid white;                   /* viền trắng */
+    color: yellow;
+  }
+  .btn-godmode:hover {
+    background-color: navy;   /* khi hover nền xanh đậm */
+    color: white;             /* chữ trắng để nổi bật */
+  }
+
   /* Powershell button */
   .btn-powershell {
     background-color: rgba(0, 0, 128, 0.7); /* xanh dương đậm nhạt */
@@ -204,12 +215,11 @@ style.textContent = `
     border: 2px solid white;       /* viền trắng */
     color: black;
   }
-
-.btn-pdfelement:hover {
-  background-color: white;       /* khi hover nền trắng */
-  color: deeppink;               /* chữ hồng đậm để nổi bật */
-  border: 2px solid lightblue;   /* viền xanh nhạt khi hover */
-}
+  .btn-pdfelement:hover {
+    background-color: white;       /* khi hover nền trắng */
+    color: deeppink;               /* chữ hồng đậm để nổi bật */
+    border: 2px solid lightblue;   /* viền xanh nhạt khi hover */
+  }
 
   /* Babylon.js Sandbox button */
   .btn-babylon {
@@ -308,6 +318,17 @@ style.textContent = `
   .btn-karanpc:hover {
     background-color: green;   /* khi hover nền xanh lá đậm */
     color: yellow;             /* chữ vàng để nổi bật */
+  }
+
+  /* Fcportables button */
+  .btn-fcportables {
+    background-color: rgba(60, 179, 113, 0.7); /* xanh lá nhạt (MediumSeaGreen) */
+    border: 2px solid gray;                    /* viền xám */
+    color: white;
+  }
+  .btn-fcportables:hover {
+    background-color: darkgreen;   /* khi hover nền xanh đậm */
+    color: yellow;                 /* chữ vàng để nổi bật */
   }
   
 `;
