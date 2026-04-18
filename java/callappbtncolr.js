@@ -51,6 +51,17 @@ style.textContent = `
     color: darkblue;
   }
 
+  /* Fsquirt button */
+  .btn-fsquirt {
+    background-color: rgba(70, 130, 180, 0.6); /* xanh dương nhạt (SteelBlue) pha xanh nước biển */
+    border: 2px solid teal;
+    color: white;
+  }
+  .btn-fsquirt:hover {
+    background-color: teal;       /* khi hover nền xanh nước biển đậm */
+    color: green;                /* chữ vàng để nổi bật */
+  }
+
   /* Microsoft Store button */
   .btn-store {
     background-color: rgba(199, 21, 133, 0.6); /* hồng sen đậm nhạt (MediumVioletRed) */
