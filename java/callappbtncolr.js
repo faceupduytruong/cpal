@@ -72,5 +72,17 @@ style.textContent = `
     background-color: orange;
     color: white;
   }
+
+  /* YouTube button */
+  .btn-youtube {
+    background-color: rgba(255, 0, 0, 0.6); /* đỏ nhạt */
+    border: 2px solid red;
+    color: white;
+  }
+  .btn-youtube:hover {
+    background-color: red;   /* khi hover nền đỏ đậm */
+    color: yellow;           /* chữ vàng để nổi bật */
+  }
+  
 `;
 document.head.appendChild(style);
