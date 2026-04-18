@@ -51,6 +51,17 @@ style.textContent = `
     color: darkblue;
   }
 
+  /* Microsoft Store button */
+  .btn-store {
+    background-color: rgba(199, 21, 133, 0.6); /* hồng sen đậm nhạt (MediumVioletRed) */
+    border: 2px solid deeppink;
+    color: white;
+  }
+  .btn-store:hover {
+    background-color: deeppink;   /* khi hover nền hồng sen đậm */
+    color: red;                /* chữ vàng để nổi bật */
+  }
+
   /* Check for Update button */
   .btn-update {
     background-color: rgba(255, 182, 193, 0.6); /* hồng nhạt (LightPink) */
@@ -70,7 +81,7 @@ style.textContent = `
   }
   .btn-pcmanager:hover {
     background-color: teal;     /* khi hover nền xanh teal đậm */
-    color: yellow;              /* chữ vàng để nổi bật */
+    color: cyan;              /* chữ vàng để nổi bật */
   }
   
   /* BleachBit button */
