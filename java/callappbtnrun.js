@@ -110,6 +110,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở File Explorer
   </button>
 
+  <!-- Nút mở QuickLook -->
+  <button class="btn-quicklook" onclick="fetch('http://127.0.0.1:5000/run-quicklook')">
+    Mở QuickLook
+  </button>
+
   <!-- Nút mở Internet Download Manager -->
   <button class="btn-idm" onclick="fetch('http://127.0.0.1:5000/run-idm')">
     Mở Internet Download Manager
@@ -173,6 +178,11 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở Box (ứng dụng web) -->
   <button class="btn-box" onclick="fetch('http://127.0.0.1:5000/run-box')">
     Mở Box
+  </button>
+
+  <!-- Nút mở Mega (ứng dụng web) -->
+  <button class="btn-mega" onclick="fetch('http://127.0.0.1:5000/run-mega')">
+    Mở Mega.nz
   </button>
 
   <!-- Nút mở KaranPC Category (ứng dụng web) -->
