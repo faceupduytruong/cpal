@@ -321,7 +321,7 @@ style.textContent = `
   .btn-fluentreader {
     background: linear-gradient(
       to right,
-      rgba(30, 144, 255, 0.7),   /* xanh dương (DodgerBlue) */
+      rgba(130, 144, 55, 0.7),   /* xanh dương (DodgerBlue) */
       rgba(255, 255, 255, 0.7)   /* trắng */
     );
     border: 2px solid darkred;
