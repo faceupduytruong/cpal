@@ -130,6 +130,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Telegram
   </button>
 
+  <!-- Nút mở Fluent Reader -->
+  <button class="btn-fluentreader" onclick="fetch('http://127.0.0.1:5000/run-fluentreader')">
+    Mở Fluent Reader
+  </button>
+
   <!-- Nút mở Wondershare PDFelement -->
   <button class="btn-pdfelement" onclick="fetch('http://127.0.0.1:5000/run-pdfelement')">
     Mở Wondershare PDFelement
