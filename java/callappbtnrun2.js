@@ -4,6 +4,15 @@ document.addEventListener("DOMContentLoaded", function() {
   const container = document.createElement("div");
   container.className = "button-container";
 
+  // Nhóm Tìm kiếm
+  const workGroup = document.createElement("div");
+  findGroup.className = "group find";
+  findGroup.innerHTML = `
+    <h2>Tìm kiếm</h2>
+    <button class="btn-xzsearch" onclick="fetch('http://127.0.0.1:5000/run-xzsearch')">Mở XZSearch</button>
+    <button class="btn-fluentsearch" onclick="fetch('http://127.0.0.1:5000/run-fluentsearch')">Mở Fluent Search</button>
+  `;
+  
   // Nhóm Công việc
   const workGroup = document.createElement("div");
   workGroup.className = "group work";
@@ -30,6 +39,13 @@ document.addEventListener("DOMContentLoaded", function() {
   systemGroup.className = "group system";
   systemGroup.innerHTML = `
     <h2>Hệ thống</h2>
+    <button onclick="fetch('http://127.0.0.1:5000/run-control')">Mở Control Panel</button>
+    <button class="btn-godmode" onclick="fetch('http://127.0.0.1:5000/run-godmode')">Mở GodMode</button>
+    <button class="btn-powershell" onclick="fetch('http://127.0.0.1:5000/run-powershell')">Mở PowerShell</button>
+    <button class="btn-store" onclick="fetch('http://127.0.0.1:5000/run-store')">Mở Microsoft Store</button>
+    <button class="btn-update" onclick="fetch('http://127.0.0.1:5000/run-update')">Mở Check for Updates</button>
+    <button class="btn-pcmanager" onclick="fetch('http://127.0.0.1:5000/run-pcmanager')">Mở PC Manager</button>
+    <button class="btn-bleachbit" onclick="fetch('http://127.0.0.1:5000/run-bleachbit')">Mở BleachBit</button>
     <button class="btn-defrag" onclick="fetch('http://127.0.0.1:5000/run-defrag')">Mở Defrag</button>
     <button class="btn-storage" onclick="fetch('http://127.0.0.1:5000/run-storage')">Mở Storage</button>
     <button class="btn-startup" onclick="fetch('http://127.0.0.1:5000/run-startup')">Mở Startup Apps</button>
@@ -41,8 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
   securityGroup.className = "group security";
   securityGroup.innerHTML = `
     <h2>Bảo mật</h2>
-    <button class="btn-avast" onclick="fetch('http://127.0.0.1:5000/run-avast')">Mở Avast</button>
-    <button class="btn-bleachbit" onclick="fetch('http://127.0.0.1:5000/run-bleachbit')">Mở BleachBit</button>
+    <button class="btn-avast" onclick="fetch('http://127.0.0.1:5000/run-avast')">Mở Avast</button> 
   `;
 
   // Nhóm AI
@@ -55,6 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <button class="btn-xzaitalk" onclick="fetch('http://127.0.0.1:5000/run-xzaitalk')">Mở XZAiTalkApp</button>
   `;
 
+  container.appendChild(findGroup);
   container.appendChild(workGroup);
   container.appendChild(funGroup);
   container.appendChild(systemGroup);
