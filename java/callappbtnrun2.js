@@ -43,13 +43,9 @@ document.addEventListener("DOMContentLoaded", function() {
     <button class="btn-godmode" onclick="fetch('http://127.0.0.1:5000/run-godmode')">Mở GodMode</button>
     <button class="btn-powershell" onclick="fetch('http://127.0.0.1:5000/run-powershell')">Mở PowerShell</button>
     <button class="btn-store" onclick="fetch('http://127.0.0.1:5000/run-store')">Mở Microsoft Store</button>
-    <button class="btn-update" onclick="fetch('http://127.0.0.1:5000/run-update')">Mở Check for Updates</button>
-    <button class="btn-pcmanager" onclick="fetch('http://127.0.0.1:5000/run-pcmanager')">Mở PC Manager</button>
     <button class="btn-bleachbit" onclick="fetch('http://127.0.0.1:5000/run-bleachbit')">Mở BleachBit</button>
     <button class="btn-defrag" onclick="fetch('http://127.0.0.1:5000/run-defrag')">Mở Defrag</button>
     <button class="btn-storage" onclick="fetch('http://127.0.0.1:5000/run-storage')">Mở Storage</button>
-    <button class="btn-startup" onclick="fetch('http://127.0.0.1:5000/run-startup')">Mở Startup Apps</button>
-    <button class="btn-installedapps" onclick="fetch('http://127.0.0.1:5000/run-installedapps')">Mở Installed Apps</button>
   `;
 
   // Nhóm Bảo mật
@@ -57,7 +53,11 @@ document.addEventListener("DOMContentLoaded", function() {
   securityGroup.className = "group security";
   securityGroup.innerHTML = `
     <h2>Bảo mật</h2>
-    <button class="btn-avast" onclick="fetch('http://127.0.0.1:5000/run-avast')">Mở Avast</button> 
+    <button class="btn-avast" onclick="fetch('http://127.0.0.1:5000/run-avast')">Mở Avast</button>
+    <button class="btn-update" onclick="fetch('http://127.0.0.1:5000/run-update')">Mở Check for Updates</button>
+    <button class="btn-pcmanager" onclick="fetch('http://127.0.0.1:5000/run-pcmanager')">Mở PC Manager</button>
+    <button class="btn-startup" onclick="fetch('http://127.0.0.1:5000/run-startup')">Mở Startup Apps</button>
+    <button class="btn-installedapps" onclick="fetch('http://127.0.0.1:5000/run-installedapps')">Mở Installed Apps</button>
   `;
 
   // Nhóm AI
