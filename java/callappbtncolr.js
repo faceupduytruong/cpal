@@ -317,6 +317,22 @@ style.textContent = `
     color: cyan;              /* chữ xanh sáng để nổi bật */
   }
 
+  /* Fluentreader button */
+  .btn-fluentreader {
+    background: linear-gradient(
+      to right,
+      rgba(30, 144, 255, 0.7),   /* xanh dương (DodgerBlue) */
+      rgba(255, 255, 255, 0.7)   /* trắng */
+    );
+    border: 2px solid navy;
+    color: black;
+  }
+  .btn-fluentreader:hover {
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid lightblue;
+  }
+
   /* Wondershare PDFelement button */
   .btn-pdfelement {
     background-color: linear-gradient(
