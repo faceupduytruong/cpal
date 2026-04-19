@@ -15,6 +15,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Fluent Search
   </button>
 
+  <!-- Nút mở FileLocatorPro -->
+  <button class="btn-filelocatorpro" onclick="fetch('http://127.0.0.1:5000/run-filelocatorpro')">
+    Mở FileLocatorPro
+  </button>
+
   <!-- Nút mở Notepad -->
   <button class="btn-notepad" onclick="fetch('http://127.0.0.1:5000/run-notepad')">
     Mở Notepad
@@ -115,6 +120,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở QuickLook
   </button>
 
+  <!-- Nút mở Duplicate Cleaner Pro -->
+  <button class="btn-duplicatecleaner" onclick="fetch('http://127.0.0.1:5000/run-duplicatecleaner')">
+    Mở Duplicate Cleaner Pro
+  </button>
+
   <!-- Nút mở Internet Download Manager -->
   <button class="btn-idm" onclick="fetch('http://127.0.0.1:5000/run-idm')">
     Mở Internet Download Manager
@@ -123,11 +133,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở MPC-HC (K-Lite Codec Pack) -->
   <button class="btn-mpchc" onclick="fetch('http://127.0.0.1:5000/run-mpchc')">
     Mở MPC-HC (K-Lite Codec Pack)
-  </button>
-
-  <!-- Nút mở Telegram -->
-  <button class="btn-telegram" onclick="fetch('http://127.0.0.1:5000/run-telegram')">
-    Mở Telegram
   </button>
 
   <!-- Nút mở Fluent Reader -->
@@ -140,6 +145,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Wondershare PDFelement
   </button>
 
+  <!-- Nút mở GIMP Portable -->
+  <button class="btn-gimp" onclick="fetch('http://127.0.0.1:5000/run-gimp')">
+    Mở GIMP Portable
+  </button>
+
   <!-- Nút mở Babylon.js Sandbox (ứng dụng web) -->
   <button class="btn-babylon" onclick="fetch('http://127.0.0.1:5000/run-babylon')">
     Mở Babylon.js Sandbox
@@ -148,6 +158,11 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở Github (ứng dụng web) -->
   <button class="btn-github" onclick="fetch('http://127.0.0.1:5000/run-github')">
     Mở GitHub
+  </button>
+
+  <!-- Nút mở Telegram -->
+  <button class="btn-telegram" onclick="fetch('http://127.0.0.1:5000/run-telegram')">
+    Mở Telegram
   </button>
 
   <!-- Nút mở Copilot (ứng dụng web) -->
