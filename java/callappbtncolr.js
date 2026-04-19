@@ -7,9 +7,9 @@ style.textContent = `
   button {
     background-color: rgba(255,255,255,0.6); /* nền trong suốt */
     border: 2px solid #4CAF50;     /* viền màu xanh lá */
-    color: black;                /* chữ màu đen */
-    padding: 10px 20px;
-    font-size: 16px;
+    color: black;                  /* chữ màu đen */
+    padding: 10px 15px;
+    font-size: 13px;
     cursor: pointer;
     border-radius: 8px;            /* bo góc */
     transition: 0.3s;
@@ -70,7 +70,7 @@ style.textContent = `
   }
   .btn-fsquirt:hover {
     background-color: teal;       /* khi hover nền xanh nước biển đậm */
-    color: cyan;                /* chữ vàng để nổi bật */
+    color: cyan;                  /* chữ xanh lam để nổi bật */
   }
 
   /* Godmode button */
@@ -268,6 +268,22 @@ style.textContent = `
     color: yellow;                 /* chữ vàng để nổi bật */
   }
 
+  /* Quicklook button */
+  .btn-quicklook {
+    background: linear-gradient(
+      to right,
+      rgba(70, 130, 180, 0.7),   /* xanh lam (SteelBlue) */
+      rgba(255, 255, 255, 0.7)   /* trắng */
+    );
+    border: 2px solid navy;
+    color: black;
+  }
+  .btn-quicklook:hover {
+    background-color: steelblue;
+    color: white;
+    border: 2px solid lightblue;
+  }
+
   /* Internet Download Manager button */
   .btn-idm {
     background-color: rgba(173, 255, 47, 0.6); /* xanh lá tươi pha vàng (GreenYellow) */
@@ -403,6 +419,22 @@ style.textContent = `
   .btn-box:hover {
     background-color: white;         /* khi hover nền đỏ */
     color: dodgerblue;             /* chữ xanh da trời nổi bật */
+  }
+
+  /* Mega button */
+  .btn-mega {
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 255, 0.7),   /* xanh lam */
+      rgba(220, 20, 60, 0.7)  /* đỏ carmine */
+    );
+    border: 2px solid rgba(138, 43, 226, 0.6);
+    color: white;
+  }
+  .btn-mega:hover {
+    background-color: crimson;
+    color: yellow;
+    border: 2px solid lightblue;
   }
 
   /* Karan button */
