@@ -1,4 +1,4 @@
-// Gọi ứng dụng bằng web server, trường hợp riêng rẻ
+// Gọi ứng dụng bằng web server, trường hợp gom nhóm
 
 document.addEventListener("DOMContentLoaded", function() {
   const container = document.createElement("div");
