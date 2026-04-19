@@ -20,8 +20,11 @@ document.addEventListener("DOMContentLoaded", function() {
     <h2>Công việc</h2>
     <button class="btn-notepad" onclick="fetch('http://127.0.0.1:5000/run-notepad')">Mở Notepad</button>
     <button class="btn-calculator" onclick="fetch('http://127.0.0.1:5000/run-calculator')">Mở Calculator</button>
+    <button class="btn-files" onclick="fetch('http://127.0.0.1:5000/run-files')">Mở Files (Store App)</button>
+    <button class="btn-fileexplorer" onclick="fetch('http://127.0.0.1:5000/run-fileexplorer')">Mở File Explorer</button>
+    <button class="btn-quicklook" onclick="fetch('http://127.0.0.1:5000/run-quicklook')">Mở QuickLook</button>
     <button class="btn-pdfelement" onclick="fetch('http://127.0.0.1:5000/run-pdfelement')">Mở PDFelement</button>
-    <button class="btn-fluentreader" onclick="fetch('http://127.0.0.1:5000/run-fluentreader')">Mở Fluent Reader</button>
+    <button class="btn-mpchc" onclick="fetch('http://127.0.0.1:5000/run-mpchc')">Mở MPC-HC</button>
   `;
 
   // Nhóm Giải trí
@@ -29,9 +32,9 @@ document.addEventListener("DOMContentLoaded", function() {
   funGroup.className = "group fun";
   funGroup.innerHTML = `
     <h2>Giải trí</h2>
+    <button class="btn-fluentreader" onclick="fetch('http://127.0.0.1:5000/run-fluentreader')">Mở Fluent Reader</button>
     <button class="btn-youtube" onclick="fetch('http://127.0.0.1:5000/run-youtube')">Mở Youtube</button>
     <button class="btn-soundcloud" onclick="fetch('http://127.0.0.1:5000/run-soundcloud')">Mở SoundCloud</button>
-    <button class="btn-mpchc" onclick="fetch('http://127.0.0.1:5000/run-mpchc')">Mở MPC-HC</button>
   `;
 
   // Nhóm Hệ thống
@@ -65,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
   aiGroup.className = "group ai";
   aiGroup.innerHTML = `
     <h2>AI</h2>
+    <button class="btn-telegram" onclick="fetch('http://127.0.0.1:5000/run-telegram')">Mở Telegram</button>
     <button class="btn-copilot" onclick="fetch('http://127.0.0.1:5000/run-copilot')">Mở Copilot</button>
     <button onclick="fetch('http://127.0.0.1:5000/run-gemini')">Mở Google Gemini</button>
     <button class="btn-xzaitalk" onclick="fetch('http://127.0.0.1:5000/run-xzaitalk')">Mở XZAiTalkApp</button>
