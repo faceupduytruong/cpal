@@ -324,8 +324,8 @@ style.textContent = `
       rgba(30, 144, 255, 0.7),   /* xanh dương (DodgerBlue) */
       rgba(255, 255, 255, 0.7)   /* trắng */
     );
-    border: 2px solid navy;
-    color: black;
+    border: 2px solid darkred;
+    color: darkblue;
   }
   .btn-fluentreader:hover {
     background-color: dodgerblue;
