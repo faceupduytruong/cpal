@@ -45,6 +45,16 @@ document.addEventListener("DOMContentLoaded", function() {
     <button class="btn-bleachbit" onclick="fetch('http://127.0.0.1:5000/run-bleachbit')">Mở BleachBit</button>
   `;
 
+  // Nhóm AI
+  const securityGroup = document.createElement("div");
+  securityGroup.className = "group ai";
+  securityGroup.innerHTML = `
+    <h2>AI</h2>
+    <button class="btn-copilot" onclick="fetch('http://127.0.0.1:5000/run-copilot')">Mở Copilot</button>
+    <button onclick="fetch('http://127.0.0.1:5000/run-gemini')">Mở Google Gemini</button>
+    <button class="btn-xzaitalk" onclick="fetch('http://127.0.0.1:5000/run-xzaitalk')">Mở XZAiTalkApp</button>
+  `;
+
   container.appendChild(workGroup);
   container.appendChild(funGroup);
   container.appendChild(systemGroup);
