@@ -46,9 +46,9 @@ document.addEventListener("DOMContentLoaded", function() {
   `;
 
   // Nhóm AI
-  const securityGroup = document.createElement("div");
-  securityGroup.className = "group ai";
-  securityGroup.innerHTML = `
+  const aiGroup = document.createElement("div");
+  aiGroup.className = "group ai";
+  aiGroup.innerHTML = `
     <h2>AI</h2>
     <button class="btn-copilot" onclick="fetch('http://127.0.0.1:5000/run-copilot')">Mở Copilot</button>
     <button onclick="fetch('http://127.0.0.1:5000/run-gemini')">Mở Google Gemini</button>
@@ -59,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
   container.appendChild(funGroup);
   container.appendChild(systemGroup);
   container.appendChild(securityGroup);
+  container.appendChild(aiGroup);
 
   document.body.appendChild(container);
 });
