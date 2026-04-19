@@ -40,6 +40,22 @@ style.textContent = `
     color: cyan;              /* chữ xanh sáng để nổi bật */
   }
 
+  /* Filelocatorpro button */
+  .btn-filelocatorpro {
+    background: linear-gradient(
+      to right,
+      rgba(34, 139, 34, 0.7),   /* xanh lá (ForestGreen) */
+      rgba(173, 216, 230, 0.7)  /* xanh nhạt (LightBlue) */
+    );
+    border: 2px solid darkgreen;
+    color: black;
+  }
+  .btn-filelocatorpro:hover {
+    background-color: forestgreen;
+    color: white;
+    border: 2px solid lightgreen;
+  }
+
   /* Notepad button */
   .btn-notepad {
     background-color: rgba(0, 0, 139, 0.6);
@@ -284,6 +300,22 @@ style.textContent = `
     border: 2px solid lightblue;
   }
 
+  /* Duplicate Cleaner button */
+  .btn-duplicatecleaner {
+    background: linear-gradient(
+      to right,
+      rgba(255, 99, 71, 0.7),   /* đỏ cam (Tomato) */
+      rgba(0, 191, 255, 0.7)    /* xanh cyan (DeepSkyBlue) */
+    );
+    border: 2px solid crimson;
+    color: black;
+  }
+  .btn-duplicatecleaner:hover {
+    background-color: tomato;
+    color: white;
+    border: 2px solid deepskyblue;
+  }
+
   /* Internet Download Manager button */
   .btn-idm {
     background-color: rgba(173, 255, 47, 0.6); /* xanh lá tươi pha vàng (GreenYellow) */
@@ -347,6 +379,22 @@ style.textContent = `
     background-color: white;       /* khi hover nền trắng */
     color: deeppink;               /* chữ hồng đậm để nổi bật */
     border: 2px solid lightblue;   /* viền xanh nhạt khi hover */
+  }
+
+  /* GIMP Portable button */
+  .btn-gimp {
+    background: linear-gradient(
+      to right,
+      rgba(255, 140, 0, 0.7),   /* cam (DarkOrange) */
+      rgba(70, 130, 180, 0.7)   /* xanh lam (SteelBlue) */
+    );
+    border: 2px solid darkorange;
+    color: black;
+  }
+  .btn-gimp:hover {
+    background-color: darkorange;
+    color: white;
+    border: 2px solid gold;
   }
 
   /* Babylon.js Sandbox button */
