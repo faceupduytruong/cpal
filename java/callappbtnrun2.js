@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
   container.className = "button-container";
 
   // Nhóm Tìm kiếm
-  const workGroup = document.createElement("div");
+  const findGroup = document.createElement("div");
   findGroup.className = "group find";
   findGroup.innerHTML = `
     <h2>Tìm kiếm</h2>
