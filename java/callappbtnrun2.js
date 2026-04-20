@@ -10,7 +10,10 @@ document.addEventListener("DOMContentLoaded", function() {
   findGroup.innerHTML = `
     <h2>Tìm kiếm</h2>
     <button class="btn-xzsearch" onclick="fetch('http://127.0.0.1:5000/run-xzsearch')">Mở XZSearch</button>
+    <button class="btn-baishasearch" onclick="fetch('http://127.0.0.1:5000/run-baishasearch')">Mở Baisha Search</button>
     <button class="btn-fluentsearch" onclick="fetch('http://127.0.0.1:5000/run-fluentsearch')">Mở Fluent Search</button>
+    <button class="btn-everything" onclick="fetch('http://127.0.0.1:5000/run-everything')">Mở Everything</button>
+    <button class="btn-filelocatorpro" onclick="fetch('http://127.0.0.1:5000/run-filelocatorpro')">Mở FileLocatorPro</button>
   `;
   
   // Nhóm Công việc
@@ -25,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <button class="btn-quicklook" onclick="fetch('http://127.0.0.1:5000/run-quicklook')">Mở QuickLook</button>
     <button class="btn-pdfelement" onclick="fetch('http://127.0.0.1:5000/run-pdfelement')">Mở PDFelement</button>
     <button class="btn-mpchc" onclick="fetch('http://127.0.0.1:5000/run-mpchc')">Mở MPC-HC</button>
+    <button class="btn-gimp" onclick="fetch('http://127.0.0.1:5000/run-gimp')">Mở GIMP Portable</button>
   `;
 
   // Nhóm Giải trí
@@ -33,8 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
   funGroup.innerHTML = `
     <h2>Giải trí</h2>
     <button class="btn-fluentreader" onclick="fetch('http://127.0.0.1:5000/run-fluentreader')">Mở Fluent Reader</button>
-    <button class="btn-youtube" onclick="fetch('http://127.0.0.1:5000/run-youtube')">Mở Youtube</button>
     <button class="btn-soundcloud" onclick="fetch('http://127.0.0.1:5000/run-soundcloud')">Mở SoundCloud</button>
+    <button class="btn-youtube" onclick="fetch('http://127.0.0.1:5000/run-youtube')">Mở Youtube</button>
   `;
 
   // Nhóm Hệ thống
