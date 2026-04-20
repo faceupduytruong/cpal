@@ -332,6 +332,22 @@ style.textContent = `
     border: 2px solid lightblue;
   }
 
+  /* Baisha Desktop Manager button */
+  .btn-baisha {
+    background: linear-gradient(
+      to right,
+      rgba(255, 215, 0, 0.7),   /* vàng (Gold) */
+      rgba(65, 105, 225, 0.7)   /* xanh lam (RoyalBlue) */
+    );
+    border: 2px solid goldenrod;
+    color: black;
+  }
+  .btn-baisha:hover {
+    background-color: royalblue;
+    color: white;
+    border: 2px solid gold;
+  }
+
   /* Duplicate Cleaner button */
   .btn-duplicatecleaner {
     background: linear-gradient(
