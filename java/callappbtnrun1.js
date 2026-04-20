@@ -60,11 +60,6 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở PowerShell
   </button>
 
-  <!-- Nút mở Microsoft Store -->
-  <button class="btn-store" onclick="fetch('http://127.0.0.1:5000/run-store')">
-    Mở Microsoft Store
-  </button>
-
   <!-- Nút mở Check for Updates -->
   <button class="btn-update" onclick="fetch('http://127.0.0.1:5000/run-update')">
     Mở Check for Updates
@@ -228,6 +223,11 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở Mega (ứng dụng web) -->
   <button class="btn-mega" onclick="fetch('http://127.0.0.1:5000/run-mega')">
     Mở Mega.nz
+  </button>
+
+  <!-- Nút mở Microsoft Store -->
+  <button class="btn-store" onclick="fetch('http://127.0.0.1:5000/run-store')">
+    Mở Microsoft Store
   </button>
 
   <!-- Nút mở KaranPC Category (ứng dụng web) -->
