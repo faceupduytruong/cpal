@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
   `;
 
   // Nhóm Portable
-  const aiGroup = document.createElement("div");
+  const portableGroup = document.createElement("div");
   portableGroup.className = "group portable";
   portableGroup.innerHTML = `
     <h2>AI</h2>
