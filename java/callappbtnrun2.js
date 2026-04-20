@@ -31,6 +31,16 @@ document.addEventListener("DOMContentLoaded", function() {
     <button class="btn-gimp" onclick="fetch('http://127.0.0.1:5000/run-gimp')">Mở GIMP Portable</button>
   `;
 
+  // Nhóm Upload
+  const uploadGroup = document.createElement("div");
+  uploadGroup.className = "group upload";
+  uploadGroup.innerHTML = `
+    <h2>Upload</h2>
+      <button class="btn-dropbox" onclick="fetch('http://127.0.0.1:5000/run-dropbox')">Mở Dropbox</button>
+      <button class="btn-box" onclick="fetch('http://127.0.0.1:5000/run-box')">Mở Box</button>
+      <button class="btn-mega" onclick="fetch('http://127.0.0.1:5000/run-mega')">Mở Mega.nz</button>
+  `;
+
   // Nhóm Giải trí
   const funGroup = document.createElement("div");
   funGroup.className = "group fun";
@@ -80,6 +90,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   container.appendChild(findGroup);
   container.appendChild(workGroup);
+  container.appendChild(uploadGroup);
   container.appendChild(funGroup);
   container.appendChild(systemGroup);
   container.appendChild(securityGroup);
