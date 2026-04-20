@@ -15,6 +15,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Fluent Search
   </button>
 
+  <!-- Nút mở Everything -->
+  <button class="btn-everything" onclick="fetch('http://127.0.0.1:5000/run-everything')">
+    Mở Everything
+  </button>
+
   <!-- Nút mở FileLocatorPro -->
   <button class="btn-filelocatorpro" onclick="fetch('http://127.0.0.1:5000/run-filelocatorpro')">
     Mở FileLocatorPro
