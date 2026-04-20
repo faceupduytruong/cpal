@@ -29,6 +29,22 @@ style.textContent = `
     margin-top: 0px;
     }
 
+  /* Baisha Search button */
+  .btn-baishasearch {
+    background: linear-gradient(
+      to right,
+      rgba(0, 128, 255, 0.7),   /* xanh lam sáng */
+      rgba(255, 255, 0, 0.7)    /* vàng */
+    );
+    border: 2px solid blue;
+    color: black;
+  }
+  .btn-baishasearch:hover {
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid gold;
+  }
+
   /* Fluentsearch button */
   .btn-fluentsearch {
     background-color: rgba(70, 130, 180, 0.7); /* xanh SteelBlue nhạt */
@@ -330,6 +346,22 @@ style.textContent = `
     background-color: steelblue;
     color: white;
     border: 2px solid lightblue;
+  }
+
+  /* XZdesktop button */
+  .btn-xzdesktop {
+    background: linear-gradient(
+      to right,
+      rgba(72, 61, 139, 0.7),   /* tím đậm (DarkSlateBlue) */
+      rgba(0, 206, 209, 0.7)    /* xanh ngọc (DarkTurquoise) */
+    );
+    border: 2px solid indigo;
+    color: black;
+  }
+  .btn-xzdesktop:hover {
+    background-color: darkslateblue;
+    color: white;
+    border: 2px solid turquoise;
   }
 
   /* Baisha Desktop Manager button */
