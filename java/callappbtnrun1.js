@@ -59,6 +59,11 @@ document.addEventListener("DOMContentLoaded", function() {
   <button class="btn-update" onclick="fetch('http://127.0.0.1:5000/run-update')">
     Mở Check for Updates
   </button>
+  
+  <!-- Nút mở Defragment and Optimize Drives -->
+  <button class="btn-defrag" onclick="fetch('http://127.0.0.1:5000/run-defrag')">
+    Mở Defragment and Optimize Drives
+  </button>
 
   <!-- Nút mở PC Manager -->
   <button class="btn-pcmanager" onclick="fetch('http://127.0.0.1:5000/run-pcmanager')">
@@ -70,14 +75,14 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở BleachBit
   </button>
 
-  <!-- Nút mở Defragment and Optimize Drives -->
-  <button class="btn-defrag" onclick="fetch('http://127.0.0.1:5000/run-defrag')">
-    Mở Defragment and Optimize Drives
-  </button>
-
   <!-- Nút mở System Storage -->
   <button class="btn-storage" onclick="fetch('http://127.0.0.1:5000/run-storage')">
     Mở System Storage
+  </button>
+
+  <!-- Nút mở Disk Cleanup -->
+  <button class="btn-diskcleanup" onclick="fetch('http://127.0.0.1:5000/run-diskcleanup')">
+    Mở Disk Cleanup
   </button>
 
   <!-- Nút mở Startup Apps -->
