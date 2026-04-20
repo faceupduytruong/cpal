@@ -10,6 +10,11 @@ document.addEventListener("DOMContentLoaded", function() {
    Mở XZSearch
   </button>
 
+  <!-- Nút mở Baisha Search -->
+  <button class="btn-baishasearch" onclick="fetch('http://127.0.0.1:5000/run-baishasearch')">
+    Mở Baisha Search
+  </button>
+
   <!-- Nút mở Fluent Search -->
   <button class="btn-fluentsearch" onclick="fetch('http://127.0.0.1:5000/run-fluentsearch')">
     Mở Fluent Search
@@ -130,9 +135,14 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở QuickLook
   </button>
 
-  <!-- Nút mở Baisha Desktop Manager -->
+  <!-- Nút mở Baisha Desktop Manager (白鲨桌面整理) -->
   <button class="btn-baisha" onclick="fetch('http://127.0.0.1:5000/run-baisha')">
     Mở Baisha Desktop Manager (白鲨桌面整理)
+  </button>
+
+  <!-- Nút mở XZDesktop -->
+  <button class="btn-xzdesktop" onclick="fetch('http://127.0.0.1:5000/run-xzdesktop')">
+    Mở XZDesktop (小智桌面)
   </button>
 
   <!-- Nút mở Duplicate Cleaner Pro -->
