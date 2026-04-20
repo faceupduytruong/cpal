@@ -130,6 +130,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở QuickLook
   </button>
 
+  <!-- Nút mở Baisha Desktop Manager -->
+  <button class="btn-baisha" onclick="fetch('http://127.0.0.1:5000/run-baisha')">
+    Mở Baisha Desktop Manager (白鲨桌面整理)
+  </button>
+
   <!-- Nút mở Duplicate Cleaner Pro -->
   <button class="btn-duplicatecleaner" onclick="fetch('http://127.0.0.1:5000/run-duplicatecleaner')">
     Mở Duplicate Cleaner Pro
