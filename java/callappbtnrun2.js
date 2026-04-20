@@ -59,7 +59,6 @@ document.addEventListener("DOMContentLoaded", function() {
     <button onclick="fetch('http://127.0.0.1:5000/run-control')">Mở Control Panel</button>
     <button class="btn-godmode" onclick="fetch('http://127.0.0.1:5000/run-godmode')">Mở GodMode</button>
     <button class="btn-powershell" onclick="fetch('http://127.0.0.1:5000/run-powershell')">Mở PowerShell</button>
-    <button class="btn-store" onclick="fetch('http://127.0.0.1:5000/run-store')">Mở Microsoft Store</button>
     <button class="btn-bleachbit" onclick="fetch('http://127.0.0.1:5000/run-bleachbit')">Mở BleachBit</button>
     <button class="btn-defrag" onclick="fetch('http://127.0.0.1:5000/run-defrag')">Mở Defrag</button>
     <button class="btn-storage" onclick="fetch('http://127.0.0.1:5000/run-storage')">Mở Storage</button>
