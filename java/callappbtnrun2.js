@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const portableGroup = document.createElement("div");
   portableGroup.className = "group portable";
   portableGroup.innerHTML = `
-    <h2>AI</h2>
+    <h2>Portable</h2>
     <button class="btn-store" onclick="fetch('http://127.0.0.1:5000/run-store')">Mở Microsoft Store</button>
     <button class="btn-karanpc" onclick="fetch('http://127.0.0.1:5000/run-karanpc')">Mở KaranPC Category</button>
     <button class="btn-fcportables" onclick="fetch('http://127.0.0.1:5000/run-fcportables')">Mở FC Portables</button>
