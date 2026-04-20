@@ -1,0 +1,44 @@
+// 👉 Chèn CSS vào DOM
+const style = document.createElement('style');
+style.textContent = `
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      scrollbar-width: none; /* Firefox */
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: rgba(0, 0, 0, 0.4); /* đen nhạt trong suốt */
+      overflow: auto; /* OK */
+      /* Không nên có thuộc tính như scrollbar-color hoặc ::-webkit-scrollbar nếu muốn extension kiểm soát */
+      }
+    /* Chrome, Edge */
+    body::-webkit-scrollbar {
+    width: 5px;
+    }
+    body::-webkit-scrollbar-track {
+    background: rgba(30, 30, 30, 0.3);
+    backdrop-filter: blur(10px);
+    }
+    body::-webkit-scrollbar-thumb {
+      box-shadow: 0 4px 30px rgba(0, 128, 0, 0.3);
+      background: linear-gradient(
+        to bottom right,
+        rgba(255, 255, 255, 0.4),
+        rgba(173, 255, 47, 0.6),
+        rgba(60, 179, 113, 0.8),
+        rgba(0, 128, 0, 1)
+      );
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(12px); /* thêm vào đây */
+    }
+
+`;
+
+document.head.appendChild(style);
