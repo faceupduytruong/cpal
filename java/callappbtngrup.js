@@ -12,6 +12,7 @@ style.textContent = `
 
 .group.find { background: linear-gradient(to right, #20b2aa, #ffd700); /* xanh ngọc → vàng */ }
 .group.work { background: linear-gradient(to right, #87cefa, #f0f8ff); }
+.group.upload { background: linear-gradient(to right, #00c6ff, #1e90ff); /* xanh cyan → trắng mây */ }
 .group.fun { background: linear-gradient(to right, #ff69b4, #ffa07a); }
 .group.system { background: linear-gradient(to right, #90ee90, #32cd32); }
 .group.security { background: linear-gradient(to right, #ff4500, #ff6347); }
