@@ -88,6 +88,16 @@ document.addEventListener("DOMContentLoaded", function() {
     <button class="btn-xzaitalk" onclick="fetch('http://127.0.0.1:5000/run-xzaitalk')">Mở XZAiTalkApp</button>
   `;
 
+  // Nhóm Portable
+  const aiGroup = document.createElement("div");
+  portableGroup.className = "group portable";
+  portableGroup.innerHTML = `
+    <h2>AI</h2>
+    <button class="btn-store" onclick="fetch('http://127.0.0.1:5000/run-store')">Mở Microsoft Store</button>
+    <button class="btn-karanpc" onclick="fetch('http://127.0.0.1:5000/run-karanpc')">Mở KaranPC Category</button>
+    <button class="btn-fcportables" onclick="fetch('http://127.0.0.1:5000/run-fcportables')">Mở FC Portables</button>
+  `;
+
   container.appendChild(findGroup);
   container.appendChild(workGroup);
   container.appendChild(uploadGroup);
@@ -95,6 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
   container.appendChild(systemGroup);
   container.appendChild(securityGroup);
   container.appendChild(aiGroup);
+  container.appendChild(portableGroup);
 
   document.body.appendChild(container);
 });
