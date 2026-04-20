@@ -12,7 +12,6 @@ style.textContent = `
     }
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
       background: rgba(0, 0, 0, 0.4); /* đen nhạt trong suốt */
       overflow: auto; /* OK */
       /* Không nên có thuộc tính như scrollbar-color hoặc ::-webkit-scrollbar nếu muốn extension kiểm soát */
