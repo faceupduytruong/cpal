@@ -17,6 +17,7 @@ style.textContent = `
 .group.system { background: linear-gradient(to right, #90ee90, #32cd32); }
 .group.security { background: linear-gradient(to right, #ff4500, #ff6347); }
 .group.ai { background: linear-gradient(to right, #8a2be2, #00ffff); /* tím BlueViolet → cyan */ }
+.group.portable { background: linear-gradient(to right, #ff8c00, #00fa9a); /* cam DarkOrange → xanh lá LimeGreen */ }
 
 .group h2 {
   margin-bottom: 10px;
