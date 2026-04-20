@@ -40,6 +40,22 @@ style.textContent = `
     color: cyan;              /* chữ xanh sáng để nổi bật */
   }
 
+  /* Everything button */
+  .btn-everything {
+    background: linear-gradient(
+      to right,
+      rgba(0, 191, 255, 0.7),   /* xanh cyan (DeepSkyBlue) */
+      rgba(123, 104, 238, 0.7)  /* tím (MediumSlateBlue) */
+    );
+    border: 2px solid navy;
+    color: black;
+  }
+  .btn-everything:hover {
+    background-color: deepskyblue;
+    color: white;
+    border: 2px solid slateblue;
+  }
+
   /* Filelocatorpro button */
   .btn-filelocatorpro {
     background: linear-gradient(
@@ -133,6 +149,22 @@ style.textContent = `
     color: white;               /* chữ trắng để nổi bật */
   }
 
+  /* Defrag button */
+  .btn-defrag {
+    background: linear-gradient(
+      to right,
+      rgba(142, 0, 75, 0.7),   /* hồng củ dền (beetroot pink) */
+      rgba(216, 191, 216, 0.7) /* tím nhạt (thistle) */
+    );
+    border: 2px solid purple;   /* viền tím */
+    color: white;
+  }
+  .btn-defrag:hover {
+    background: white;          /* khi hover nền trắng */
+    color: purple;              /* chữ tím để nổi bật */
+    border: 2px solid violet;   /* viền tím nhạt khi hover */
+  }
+
   /* PC Manager button */
   .btn-pcmanager {
     background-color: rgba(0, 128, 128, 0.6); /* xanh teal nhạt (pha xanh lá + xanh dương) */
@@ -155,22 +187,6 @@ style.textContent = `
     color: white;               /* chữ trắng để nổi bật */
   }
 
-  /* Defrag button */
-  .btn-defrag {
-    background: linear-gradient(
-      to right,
-      rgba(142, 0, 75, 0.7),   /* hồng củ dền (beetroot pink) */
-      rgba(216, 191, 216, 0.7) /* tím nhạt (thistle) */
-    );
-    border: 2px solid purple;   /* viền tím */
-    color: white;
-  }
-  .btn-defrag:hover {
-    background: white;          /* khi hover nền trắng */
-    color: purple;              /* chữ tím để nổi bật */
-    border: 2px solid violet;   /* viền tím nhạt khi hover */
-  }
-
   /* Storage button */
   .btn-storage {
     background: linear-gradient(
@@ -185,6 +201,22 @@ style.textContent = `
     background-color: silver;
     color: navy;
     border: 2px solid cyan;
+  }
+
+  /* Disk Cleanup button */
+  .btn-diskcleanup {
+    background: linear-gradient(
+      to right,
+      rgba(135, 206, 250, 0.7),   /* xanh dương nhạt (LightSkyBlue) */
+      rgba(0, 128, 128, 0.7)      /* xanh teal */
+    );
+    border: 2px solid teal;
+    color: black;
+  }
+  .btn-diskcleanup:hover {
+    background-color: lightseagreen;
+    color: white;
+    border: 2px solid aqua;
   }
 
   /* Startup button */
