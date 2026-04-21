@@ -15,6 +15,16 @@ document.addEventListener("DOMContentLoaded", function() {
     <button class="btn-everything" onclick="fetch('http://127.0.0.1:5000/run-everything')">Mở Everything</button>
     <button class="btn-filelocatorpro" onclick="fetch('http://127.0.0.1:5000/run-filelocatorpro')">Mở FileLocatorPro</button>
   `;
+
+  // Nhóm Bố Trí
+  const layoutGroup = document.createElement("div");
+  layoutGroup.className = "group layout";
+  layoutGroup.innerHTML = `
+    <h2>Tìm kiếm</h2>
+    <button class="btn-xzsearch" onclick="fetch('http://127.0.0.1:5000/run-xzsearch')">Mở XZSearch</button>
+    <button class="btn-baisha" onclick="fetch('http://127.0.0.1:5000/run-baisha')">Mở Baisha Desktop Manager (白鲨桌面整理)</button>
+    <button class="btn-xzdesktop" onclick="fetch('http://127.0.0.1:5000/run-xzdesktop')">Mở XZDesktop (小智桌面)</button>
+  `;
   
   // Nhóm Công việc
   const workGroup = document.createElement("div");
