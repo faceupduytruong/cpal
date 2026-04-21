@@ -36,6 +36,10 @@ document.addEventListener("DOMContentLoaded", function() {
   uploadGroup.className = "group upload";
   uploadGroup.innerHTML = `
     <h2>Upload</h2>
+      <button class="btn-fsquirt" onclick="fetch('http://127.0.0.1:5000/run-fsquirt')">Mở Fsquirt</button>
+      <button class="btn-kdeconnect" onclick="fetch('http://127.0.0.1:5000/run-kdeconnect')">Mở KDE Connect</button>
+      <button class="btn-quickshare" onclick="fetch('http://127.0.0.1:5000/run-quickshare')">Mở Quick Share</button>
+      <button class="btn-github" onclick="fetch('http://127.0.0.1:5000/run-github')">Mở GitHub</button>
       <button class="btn-dropbox" onclick="fetch('http://127.0.0.1:5000/run-dropbox')">Mở Dropbox</button>
       <button class="btn-box" onclick="fetch('http://127.0.0.1:5000/run-box')">Mở Box</button>
       <button class="btn-mega" onclick="fetch('http://127.0.0.1:5000/run-mega')">Mở Mega.nz</button>
@@ -62,6 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <button class="btn-bleachbit" onclick="fetch('http://127.0.0.1:5000/run-bleachbit')">Mở BleachBit</button>
     <button class="btn-defrag" onclick="fetch('http://127.0.0.1:5000/run-defrag')">Mở Defrag</button>
     <button class="btn-storage" onclick="fetch('http://127.0.0.1:5000/run-storage')">Mở Storage</button>
+    <button class="btn-diskcleanup" onclick="fetch('http://127.0.0.1:5000/run-diskcleanup')">Mở Disk Cleanup</button>
   `;
 
   // Nhóm Bảo mật
@@ -98,6 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
   `;
 
   container.appendChild(findGroup);
+  container.appendChild(layoutGroup);
   container.appendChild(workGroup);
   container.appendChild(uploadGroup);
   container.appendChild(funGroup);
