@@ -20,8 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const layoutGroup = document.createElement("div");
   layoutGroup.className = "group layout";
   layoutGroup.innerHTML = `
-    <h2>Tìm kiếm</h2>
-    <button class="btn-xzsearch" onclick="fetch('http://127.0.0.1:5000/run-xzsearch')">Mở XZSearch</button>
+    <h2>Bố Trí</h2>
     <button class="btn-baisha" onclick="fetch('http://127.0.0.1:5000/run-baisha')">Mở Baisha Desktop Manager (白鲨桌面整理)</button>
     <button class="btn-xzdesktop" onclick="fetch('http://127.0.0.1:5000/run-xzdesktop')">Mở XZDesktop (小智桌面)</button>
   `;
