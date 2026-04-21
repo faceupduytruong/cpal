@@ -11,6 +11,7 @@ style.textContent = `
   }
 
 .group.find { background: linear-gradient(to right, #20b2aa, #ffd700); /* xanh ngọc → vàng */ }
+.group.layout { background: linear-gradient(to right, #ff1493, #1e90ff); /* hồng đậm (DeepPink) → xanh lam (DodgerBlue) */ }
 .group.work { background: linear-gradient(to right, #87cefa, #f0f8ff); }
 .group.upload { background: linear-gradient(to right, #00c6ff, #1e90ff); /* xanh cyan → trắng mây */ }
 .group.fun { background: linear-gradient(to right, #ff69b4, #ffa07a); }
