@@ -136,29 +136,7 @@ style.textContent = `
     border: 2px solid gold;
   }
 
-  /* Notepad button */
-  .btn-notepad {
-    background-color: rgba(0, 0, 139, 0.6);
-    border: 2px solid blue;
-    color: white;
-  }
-  .btn-notepad:hover {
-    background-color: blue;
-    color: yellow;
-  }
-
-  /* Calculator button */
-  .btn-calculator {
-    background-color: rgba(0, 150, 139, 0.6);
-    border: 2px solid cyan;
-    color: white;
-  }
-  .btn-calculator:hover {
-    background-color: cyan;
-    color: darkblue;
-  }
-
-  /* Files (Store App) button */
+    /* Files (Store App) button */
   .btn-files {
     background-color: rgba(139, 69, 19, 0.6); /* nâu sen đậm nhạt (SaddleBrown) */
     border: 2px solid sienna;
@@ -210,6 +188,28 @@ style.textContent = `
     background-color: steelblue;
     color: white;
     border: 2px solid lightblue;
+  }
+
+  /* Notepad button */
+  .btn-notepad {
+    background-color: rgba(0, 0, 139, 0.6);
+    border: 2px solid blue;
+    color: white;
+  }
+  .btn-notepad:hover {
+    background-color: blue;
+    color: yellow;
+  }
+
+  /* Calculator button */
+  .btn-calculator {
+    background-color: rgba(0, 150, 139, 0.6);
+    border: 2px solid cyan;
+    color: white;
+  }
+  .btn-calculator:hover {
+    background-color: cyan;
+    color: darkblue;
   }
 
   /* Foxit button */
