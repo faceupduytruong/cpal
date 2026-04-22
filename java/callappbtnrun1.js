@@ -30,6 +30,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở FileLocatorPro
   </button>
 
+  <!-- Nút mở Duplicate Cleaner Pro -->
+  <button class="btn-duplicatecleaner" onclick="fetch('http://127.0.0.1:5000/run-duplicatecleaner')">
+    Mở Duplicate Cleaner Pro
+  </button>
+
   <!-- Nút mở Notepad -->
   <button class="btn-notepad" onclick="fetch('http://127.0.0.1:5000/run-notepad')">
     Mở Notepad
@@ -38,11 +43,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở Calculator -->
   <button class="btn-calculator" onclick="fetch('http://127.0.0.1:5000/run-calculator')">
     Mở Calculator
-  </button>
-
-  <!-- Nút mở Fsquirt -->
-  <button class="btn-fsquirt" onclick="fetch('http://127.0.0.1:5000/run-fsquirt')">
-    Mở Fsquirt
   </button>
 
   <!-- Nút mở Control Panel -->
@@ -94,6 +94,11 @@ document.addEventListener("DOMContentLoaded", function() {
   <button class="btn-startup" onclick="fetch('http://127.0.0.1:5000/run-startup')">
     Mở Startup Apps
   </button>
+  
+  <!-- Nút mở Fsquirt -->
+  <button class="btn-fsquirt" onclick="fetch('http://127.0.0.1:5000/run-fsquirt')">
+    Mở Fsquirt
+  </button>
 
   <!-- Nút mở KDE Connect -->
   <button class="btn-kdeconnect" onclick="fetch('http://127.0.0.1:5000/run-kdeconnect')">
@@ -138,16 +143,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở XZDesktop -->
   <button class="btn-xzdesktop" onclick="fetch('http://127.0.0.1:5000/run-xzdesktop')">
     Mở XZDesktop (小智桌面)
-  </button>
-
-  <!-- Nút mở Duplicate Cleaner Pro -->
-  <button class="btn-duplicatecleaner" onclick="fetch('http://127.0.0.1:5000/run-duplicatecleaner')">
-    Mở Duplicate Cleaner Pro
-  </button>
-
-  <!-- Nút mở Internet Download Manager -->
-  <button class="btn-idm" onclick="fetch('http://127.0.0.1:5000/run-idm')">
-    Mở Internet Download Manager
   </button>
 
   <!-- Nút mở MPC-HC (K-Lite Codec Pack) -->
@@ -223,6 +218,11 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở Mega (ứng dụng web) -->
   <button class="btn-mega" onclick="fetch('http://127.0.0.1:5000/run-mega')">
     Mở Mega.nz
+  </button>
+
+  <!-- Nút mở Internet Download Manager -->
+  <button class="btn-idm" onclick="fetch('http://127.0.0.1:5000/run-idm')">
+    Mở Internet Download Manager
   </button>
 
   <!-- Nút mở Microsoft Store -->
