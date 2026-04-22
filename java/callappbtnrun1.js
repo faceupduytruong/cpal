@@ -55,6 +55,21 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Calculator
   </button>
 
+  <!-- Nút mở Files (Store App)-->
+  <button class="btn-files" onclick="fetch('http://127.0.0.1:5000/run-files')">
+    Mở Files (Store App)
+  </button>
+
+  <!-- Nút mở File Explorer -->
+  <button class="btn-fileexplorer" onclick="fetch('http://127.0.0.1:5000/run-fileexplorer')">
+    Mở File Explorer
+  </button>
+
+  <!-- Nút mở QuickLook -->
+  <button class="btn-quicklook" onclick="fetch('http://127.0.0.1:5000/run-quicklook')">
+    Mở QuickLook
+  </button>
+
   <!-- Nút mở Control Panel -->
   <button onclick="fetch('http://127.0.0.1:5000/run-control')">
     Mở Control Panel
@@ -128,21 +143,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở Avast Free Antivurs -->
   <button class="btn-avast" onclick="fetch('http://127.0.0.1:5000/run-avast')">
     Mở Avast Free Antivirus
-  </button>
-
-  <!-- Nút mở Files (Store App)-->
-  <button class="btn-files" onclick="fetch('http://127.0.0.1:5000/run-files')">
-    Mở Files (Store App)
-  </button>
-
-  <!-- Nút mở File Explorer -->
-  <button class="btn-fileexplorer" onclick="fetch('http://127.0.0.1:5000/run-fileexplorer')">
-    Mở File Explorer
-  </button>
-
-  <!-- Nút mở QuickLook -->
-  <button class="btn-quicklook" onclick="fetch('http://127.0.0.1:5000/run-quicklook')">
-    Mở QuickLook
   </button>
 
   <!-- Nút mở Fluent Reader -->
