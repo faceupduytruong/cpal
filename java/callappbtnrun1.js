@@ -5,11 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
   container.className = "button-container";
 
   container.innerHTML = `
-  <!-- Nút mở Start Menu -->
-  <button class="btn-startmenu" onclick="fetch('http://127.0.0.1:5000/run-startmenu')">
-   Mở Start Menu
-  </button>
-  
   <!-- Nút mở XZSearch -->
   <button class="btn-xzsearch" onclick="fetch('http://127.0.0.1:5000/run-xzsearch')">
    Mở XZSearch
@@ -65,6 +60,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Files (Store App)
   </button>
 
+  <!-- Nút mở Q-Dir -->
+  <button class="btn-qdir" onclick="fetch('http://127.0.0.1:5000/run-qdir')">
+   Mở Q-Dir Portable
+  </button>
+
   <!-- Nút mở File Explorer -->
   <button class="btn-fileexplorer" onclick="fetch('http://127.0.0.1:5000/run-fileexplorer')">
     Mở File Explorer
@@ -73,6 +73,11 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở QuickLook -->
   <button class="btn-quicklook" onclick="fetch('http://127.0.0.1:5000/run-quicklook')">
     Mở QuickLook
+  </button>
+
+  <!-- Nút mở Foxit PDF Editor Portable -->
+  <button class="btn-foxit" onclick="fetch('http://127.0.0.1:5000/run-foxit')">
+   Mở Foxit PDF Editor Portable
   </button>
 
   <!-- Nút mở Wondershare PDFelement -->
