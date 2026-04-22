@@ -29,22 +29,6 @@ style.textContent = `
     margin-top: 0px;
     }
 
-  /* Startmenu button */
-  .btn-startmenu {
-    background: linear-gradient(
-      to right,
-      rgba(0, 128, 0, 0.7),   /* xanh lá */
-      rgba(0, 0, 255, 0.7)    /* xanh lam */
-    );
-    border: 2px solid navy;
-    color: black;
-  }
-  .btn-startmenu:hover {
-    background-color: green;
-    color: white;
-    border: 2px solid blue;
-  }
-
   /* Baisha Search button */
   .btn-baishasearch {
     background: linear-gradient(
@@ -185,6 +169,22 @@ style.textContent = `
     color: yellow;              /* chữ vàng để nổi bật */
   }
 
+  /* Qdir button */
+  .btn-qdir {
+    background: linear-gradient(
+      to right,
+      rgba(70, 130, 180, 0.7),   /* xanh SteelBlue */
+      rgba(173, 216, 230, 0.7)   /* xanh LightBlue */
+    );
+    border: 2px solid steelblue;
+    color: black;
+  }
+  .btn-qdir:hover {
+    background-color: deepskyblue;
+    color: white;
+    border: 2px solid lightsteelblue;
+  }
+
   /* File Explorer button */
   .btn-fileexplorer {
     background-color: rgba(255, 215, 0, 0.7); /* vàng nhạt (Gold) */
@@ -210,6 +210,22 @@ style.textContent = `
     background-color: steelblue;
     color: white;
     border: 2px solid lightblue;
+  }
+
+  /* Foxit button */
+  .btn-foxit {
+    background: linear-gradient(
+      to right,
+      rgba(255, 69, 0, 0.7),   /* đỏ cam (OrangeRed) */
+      rgba(255, 215, 0, 0.7)   /* vàng (Gold) */
+    );
+    border: 2px solid darkred;
+    color: black;
+  }
+  .btn-foxit:hover {
+    background-color: orange;
+    color: white;
+    border: 2px solid gold;
   }
 
   /* Wondershare PDFelement button */
