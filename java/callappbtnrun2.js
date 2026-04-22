@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <button class="btn-fluentsearch" onclick="fetch('http://127.0.0.1:5000/run-fluentsearch')">Mở Fluent Search</button>
     <button class="btn-everything" onclick="fetch('http://127.0.0.1:5000/run-everything')">Mở Everything</button>
     <button class="btn-filelocatorpro" onclick="fetch('http://127.0.0.1:5000/run-filelocatorpro')">Mở FileLocatorPro</button>
+    <button class="btn-duplicatecleaner" onclick="fetch('http://127.0.0.1:5000/run-duplicatecleaner')">Mở Duplicate Cleaner Pro</button>
   `;
 
   // Nhóm Bố Trí
@@ -62,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
     <button class="btn-fluentreader" onclick="fetch('http://127.0.0.1:5000/run-fluentreader')">Mở Fluent Reader</button>
     <button class="btn-soundcloud" onclick="fetch('http://127.0.0.1:5000/run-soundcloud')">Mở SoundCloud</button>
     <button class="btn-youtube" onclick="fetch('http://127.0.0.1:5000/run-youtube')">Mở Youtube</button>
+    <button class="btn-babylon" onclick="fetch('http://127.0.0.1:5000/run-babylon')">Mở Babylon.js Sandbox</button>
   `;
 
   // Nhóm Hệ thống
@@ -106,6 +108,7 @@ document.addEventListener("DOMContentLoaded", function() {
   portableGroup.className = "group portable";
   portableGroup.innerHTML = `
     <h2>Portable</h2>
+    <button class="btn-idm" onclick="fetch('http://127.0.0.1:5000/run-idm')">Mở Internet Download Manager</button>
     <button class="btn-store" onclick="fetch('http://127.0.0.1:5000/run-store')">Mở Microsoft Store</button>
     <button class="btn-karanpc" onclick="fetch('http://127.0.0.1:5000/run-karanpc')">Mở KaranPC Category</button>
     <button class="btn-fcportables" onclick="fetch('http://127.0.0.1:5000/run-fcportables')">Mở FC Portables</button>
