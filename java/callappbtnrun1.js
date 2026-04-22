@@ -120,6 +120,26 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Mega.nz
   </button>
 
+  <!-- Nút mở Fluent Reader -->
+  <button class="btn-fluentreader" onclick="fetch('http://127.0.0.1:5000/run-fluentreader')">
+    Mở Fluent Reader
+  </button>
+  
+  <!-- Nút mở SoundCloud (ứng dụng web) -->
+  <button class="btn-soundcloud" onclick="fetch('http://127.0.0.1:5000/run-soundcloud')">
+    Mở SoundCloud
+  </button>
+
+  <!-- Nút mở Youtube (ứng dụng web) -->
+  <button class="btn-youtube" onclick="fetch('http://127.0.0.1:5000/run-youtube')">
+    Mở Youtube
+  </button>
+
+  <!-- Nút mở Babylon.js Sandbox (ứng dụng web) -->
+  <button class="btn-babylon" onclick="fetch('http://127.0.0.1:5000/run-babylon')">
+    Mở Babylon.js Sandbox
+  </button>
+
   <!-- Nút mở Control Panel -->
   <button onclick="fetch('http://127.0.0.1:5000/run-control')">
     Mở Control Panel
@@ -180,16 +200,6 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Avast Free Antivirus
   </button>
 
-  <!-- Nút mở Fluent Reader -->
-  <button class="btn-fluentreader" onclick="fetch('http://127.0.0.1:5000/run-fluentreader')">
-    Mở Fluent Reader
-  </button>
-
-  <!-- Nút mở Babylon.js Sandbox (ứng dụng web) -->
-  <button class="btn-babylon" onclick="fetch('http://127.0.0.1:5000/run-babylon')">
-    Mở Babylon.js Sandbox
-  </button>
-
   <!-- Nút mở Telegram -->
   <button class="btn-telegram" onclick="fetch('http://127.0.0.1:5000/run-telegram')">
     Mở Telegram
@@ -208,16 +218,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở XZAiTalkApp -->
   <button class="btn-xzaitalk" onclick="fetch('http://127.0.0.1:5000/run-xzaitalk')">
     Mở XZAiTalkApp
-  </button>
-
-  <!-- Nút mở SoundCloud (ứng dụng web) -->
-  <button class="btn-soundcloud" onclick="fetch('http://127.0.0.1:5000/run-soundcloud')">
-    Mở SoundCloud
-  </button>
-
-  <!-- Nút mở Youtube (ứng dụng web) -->
-  <button class="btn-youtube" onclick="fetch('http://127.0.0.1:5000/run-youtube')">
-    Mở Youtube
   </button>
 
   <!-- Nút mở Internet Download Manager -->
