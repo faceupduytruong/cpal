@@ -29,6 +29,22 @@ style.textContent = `
     margin-top: 0px;
     }
 
+  /* Startmenu button */
+  .btn-startmenu {
+    background: linear-gradient(
+      to right,
+      rgba(0, 128, 0, 0.7),   /* xanh lá */
+      rgba(0, 0, 255, 0.7)    /* xanh lam */
+    );
+    border: 2px solid navy;
+    color: black;
+  }
+  .btn-startmenu:hover {
+    background-color: green;
+    color: white;
+    border: 2px solid blue;
+  }
+
   /* Baisha Search button */
   .btn-baishasearch {
     background: linear-gradient(
