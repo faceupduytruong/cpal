@@ -34,8 +34,10 @@ document.addEventListener("DOMContentLoaded", function() {
     <button class="btn-notepad" onclick="fetch('http://127.0.0.1:5000/run-notepad')">Mở Notepad</button>
     <button class="btn-calculator" onclick="fetch('http://127.0.0.1:5000/run-calculator')">Mở Calculator</button>
     <button class="btn-files" onclick="fetch('http://127.0.0.1:5000/run-files')">Mở Files (Store App)</button>
+    <button class="btn-qdir" onclick="fetch('http://127.0.0.1:5000/run-qdir')">Mở Q-Dir Portable</button>
     <button class="btn-fileexplorer" onclick="fetch('http://127.0.0.1:5000/run-fileexplorer')">Mở File Explorer</button>
     <button class="btn-quicklook" onclick="fetch('http://127.0.0.1:5000/run-quicklook')">Mở QuickLook</button>
+    <button class="btn-foxit" onclick="fetch('http://127.0.0.1:5000/run-foxit')">Mở Foxit PDF Editor Portable</button>
     <button class="btn-pdfelement" onclick="fetch('http://127.0.0.1:5000/run-pdfelement')">Mở PDFelement</button>
     <button class="btn-mpchc" onclick="fetch('http://127.0.0.1:5000/run-mpchc')">Mở MPC-HC</button>
     <button class="btn-gimp" onclick="fetch('http://127.0.0.1:5000/run-gimp')">Mở GIMP Portable</button>
