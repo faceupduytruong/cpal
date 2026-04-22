@@ -34,6 +34,16 @@ document.addEventListener("DOMContentLoaded", function() {
   <button class="btn-duplicatecleaner" onclick="fetch('http://127.0.0.1:5000/run-duplicatecleaner')">
     Mở Duplicate Cleaner Pro
   </button>
+  
+  <!-- Nút mở Baisha Desktop Manager (白鲨桌面整理) -->
+  <button class="btn-baisha" onclick="fetch('http://127.0.0.1:5000/run-baisha')">
+    Mở Baisha Desktop Manager (白鲨桌面整理)
+  </button>
+
+  <!-- Nút mở XZDesktop -->
+  <button class="btn-xzdesktop" onclick="fetch('http://127.0.0.1:5000/run-xzdesktop')">
+    Mở XZDesktop (小智桌面)
+  </button>
 
   <!-- Nút mở Notepad -->
   <button class="btn-notepad" onclick="fetch('http://127.0.0.1:5000/run-notepad')">
@@ -135,21 +145,6 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở QuickLook
   </button>
 
-  <!-- Nút mở Baisha Desktop Manager (白鲨桌面整理) -->
-  <button class="btn-baisha" onclick="fetch('http://127.0.0.1:5000/run-baisha')">
-    Mở Baisha Desktop Manager (白鲨桌面整理)
-  </button>
-
-  <!-- Nút mở XZDesktop -->
-  <button class="btn-xzdesktop" onclick="fetch('http://127.0.0.1:5000/run-xzdesktop')">
-    Mở XZDesktop (小智桌面)
-  </button>
-
-  <!-- Nút mở MPC-HC (K-Lite Codec Pack) -->
-  <button class="btn-mpchc" onclick="fetch('http://127.0.0.1:5000/run-mpchc')">
-    Mở MPC-HC (K-Lite Codec Pack)
-  </button>
-
   <!-- Nút mở Fluent Reader -->
   <button class="btn-fluentreader" onclick="fetch('http://127.0.0.1:5000/run-fluentreader')">
     Mở Fluent Reader
@@ -158,6 +153,11 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở Wondershare PDFelement -->
   <button class="btn-pdfelement" onclick="fetch('http://127.0.0.1:5000/run-pdfelement')">
     Mở Wondershare PDFelement
+  </button>
+
+  <!-- Nút mở MPC-HC (K-Lite Codec Pack) -->
+  <button class="btn-mpchc" onclick="fetch('http://127.0.0.1:5000/run-mpchc')">
+    Mở MPC-HC (K-Lite Codec Pack)
   </button>
 
   <!-- Nút mở GIMP Portable -->
