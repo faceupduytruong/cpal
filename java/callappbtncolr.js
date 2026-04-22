@@ -29,6 +29,22 @@ style.textContent = `
     margin-top: 0px;
     }
 
+  /* Callapps button */
+  .btn-callapps {
+    background: linear-gradient(
+      to right,
+      rgba(46, 139, 87, 0.7),   /* xanh lá SeaGreen */
+      rgba(255, 140, 0, 0.7)    /* cam DarkOrange */
+    );
+    border: 2px solid seagreen;
+    color: black;
+  }
+  .btn-callapps:hover {
+    background-color: darkorange;
+    color: white;
+    border: 2px solid lightgreen;
+  }
+
   /* Baisha Search button */
   .btn-baishasearch {
     background: linear-gradient(
