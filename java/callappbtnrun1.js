@@ -5,11 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
   container.className = "button-container";
 
   container.innerHTML = `
-  <!-- Nút mở Call Apps -->
-  <button class="btn-callapps" onclick="fetch('http://127.0.0.1:5000/run-callapps')">
-   Chạy Call Apps (.bat)
-  </button>
-  
   <!-- Nút mở XZSearch -->
   <button class="btn-xzsearch" onclick="fetch('http://127.0.0.1:5000/run-xzsearch')">
    Mở XZSearch
