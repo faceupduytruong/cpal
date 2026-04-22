@@ -34,25 +34,15 @@ document.addEventListener("DOMContentLoaded", function() {
   <button class="btn-duplicatecleaner" onclick="fetch('http://127.0.0.1:5000/run-duplicatecleaner')">
     Mở Duplicate Cleaner Pro
   </button>
-  
-  <!-- Nút mở Baisha Desktop Manager (白鲨桌面整理) -->
-  <button class="btn-baisha" onclick="fetch('http://127.0.0.1:5000/run-baisha')">
-    Mở Baisha Desktop Manager (白鲨桌面整理)
-  </button>
 
   <!-- Nút mở XZDesktop -->
   <button class="btn-xzdesktop" onclick="fetch('http://127.0.0.1:5000/run-xzdesktop')">
     Mở XZDesktop (小智桌面)
   </button>
-
-  <!-- Nút mở Notepad -->
-  <button class="btn-notepad" onclick="fetch('http://127.0.0.1:5000/run-notepad')">
-    Mở Notepad
-  </button>
-
-  <!-- Nút mở Calculator -->
-  <button class="btn-calculator" onclick="fetch('http://127.0.0.1:5000/run-calculator')">
-    Mở Calculator
+  
+  <!-- Nút mở Baisha Desktop Manager (白鲨桌面整理) -->
+  <button class="btn-baisha" onclick="fetch('http://127.0.0.1:5000/run-baisha')">
+    Mở Baisha Desktop Manager (白鲨桌面整理)
   </button>
 
   <!-- Nút mở Files (Store App)-->
@@ -73,6 +63,16 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở QuickLook -->
   <button class="btn-quicklook" onclick="fetch('http://127.0.0.1:5000/run-quicklook')">
     Mở QuickLook
+  </button>
+
+  <!-- Nút mở Notepad -->
+  <button class="btn-notepad" onclick="fetch('http://127.0.0.1:5000/run-notepad')">
+    Mở Notepad
+  </button>
+
+  <!-- Nút mở Calculator -->
+  <button class="btn-calculator" onclick="fetch('http://127.0.0.1:5000/run-calculator')">
+    Mở Calculator
   </button>
 
   <!-- Nút mở Foxit PDF Editor Portable -->
