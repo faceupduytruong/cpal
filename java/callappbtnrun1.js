@@ -70,6 +70,21 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở QuickLook
   </button>
 
+  <!-- Nút mở Wondershare PDFelement -->
+  <button class="btn-pdfelement" onclick="fetch('http://127.0.0.1:5000/run-pdfelement')">
+    Mở Wondershare PDFelement
+  </button>
+
+  <!-- Nút mở MPC-HC (K-Lite Codec Pack) -->
+  <button class="btn-mpchc" onclick="fetch('http://127.0.0.1:5000/run-mpchc')">
+    Mở MPC-HC (K-Lite Codec Pack)
+  </button>
+
+  <!-- Nút mở GIMP Portable -->
+  <button class="btn-gimp" onclick="fetch('http://127.0.0.1:5000/run-gimp')">
+    Mở GIMP Portable
+  </button>
+
   <!-- Nút mở Control Panel -->
   <button onclick="fetch('http://127.0.0.1:5000/run-control')">
     Mở Control Panel
@@ -148,21 +163,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở Fluent Reader -->
   <button class="btn-fluentreader" onclick="fetch('http://127.0.0.1:5000/run-fluentreader')">
     Mở Fluent Reader
-  </button>
-
-  <!-- Nút mở Wondershare PDFelement -->
-  <button class="btn-pdfelement" onclick="fetch('http://127.0.0.1:5000/run-pdfelement')">
-    Mở Wondershare PDFelement
-  </button>
-
-  <!-- Nút mở MPC-HC (K-Lite Codec Pack) -->
-  <button class="btn-mpchc" onclick="fetch('http://127.0.0.1:5000/run-mpchc')">
-    Mở MPC-HC (K-Lite Codec Pack)
-  </button>
-
-  <!-- Nút mở GIMP Portable -->
-  <button class="btn-gimp" onclick="fetch('http://127.0.0.1:5000/run-gimp')">
-    Mở GIMP Portable
   </button>
 
   <!-- Nút mở Babylon.js Sandbox (ứng dụng web) -->
