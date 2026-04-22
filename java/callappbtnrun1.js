@@ -5,6 +5,11 @@ document.addEventListener("DOMContentLoaded", function() {
   container.className = "button-container";
 
   container.innerHTML = `
+  <!-- Nút mở Start Menu -->
+  <button class="btn-startmenu" onclick="fetch('http://127.0.0.1:5000/run-startmenu')">
+   Mở Start Menu
+  </button>
+  
   <!-- Nút mở XZSearch -->
   <button class="btn-xzsearch" onclick="fetch('http://127.0.0.1:5000/run-xzsearch')">
    Mở XZSearch
