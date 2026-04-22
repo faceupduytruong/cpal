@@ -155,24 +155,14 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở PowerShell
   </button>
 
-  <!-- Nút mở Check for Updates -->
-  <button class="btn-update" onclick="fetch('http://127.0.0.1:5000/run-update')">
-    Mở Check for Updates
-  </button>
-  
-  <!-- Nút mở Defragment and Optimize Drives -->
-  <button class="btn-defrag" onclick="fetch('http://127.0.0.1:5000/run-defrag')">
-    Mở Defragment and Optimize Drives
-  </button>
-
-  <!-- Nút mở PC Manager -->
-  <button class="btn-pcmanager" onclick="fetch('http://127.0.0.1:5000/run-pcmanager')">
-    Mở PC Manager
-  </button>
-
   <!-- Nút mở BleachBit -->
   <button class="btn-bleachbit" onclick="fetch('http://127.0.0.1:5000/run-bleachbit')">
     Mở BleachBit
+  </button>
+
+  <!-- Nút mở Defragment and Optimize Drives -->
+  <button class="btn-defrag" onclick="fetch('http://127.0.0.1:5000/run-defrag')">
+    Mở Defragment and Optimize Drives
   </button>
 
   <!-- Nút mở System Storage -->
@@ -183,6 +173,16 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở Disk Cleanup -->
   <button class="btn-diskcleanup" onclick="fetch('http://127.0.0.1:5000/run-diskcleanup')">
     Mở Disk Cleanup
+  </button>
+
+  <!-- Nút mở Check for Updates -->
+  <button class="btn-update" onclick="fetch('http://127.0.0.1:5000/run-update')">
+    Mở Check for Updates
+  </button>
+  
+  <!-- Nút mở PC Manager -->
+  <button class="btn-pcmanager" onclick="fetch('http://127.0.0.1:5000/run-pcmanager')">
+    Mở PC Manager
   </button>
 
   <!-- Nút mở Startup Apps -->
