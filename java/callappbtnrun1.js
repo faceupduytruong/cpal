@@ -95,6 +95,11 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở GIMP Portable
   </button>
 
+  <!-- Nút mở Quizlet -->
+  <button class="btn-quizlet" onclick="fetch('http://127.0.0.1:5000/run-quizlet')">
+   Mở Quizlet
+  </button>
+
    <!-- Nút mở Fsquirt -->
   <button class="btn-fsquirt" onclick="fetch('http://127.0.0.1:5000/run-fsquirt')">
     Mở Fsquirt
