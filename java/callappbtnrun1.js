@@ -85,6 +85,41 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở GIMP Portable
   </button>
 
+   <!-- Nút mở Fsquirt -->
+  <button class="btn-fsquirt" onclick="fetch('http://127.0.0.1:5000/run-fsquirt')">
+    Mở Fsquirt
+  </button>
+
+  <!-- Nút mở KDE Connect -->
+  <button class="btn-kdeconnect" onclick="fetch('http://127.0.0.1:5000/run-kdeconnect')">
+    Mở KDE Connect
+  </button>
+
+  <!-- Nút mở Quick Share -->
+  <button class="btn-quickshare" onclick="fetch('http://127.0.0.1:5000/run-quickshare')">
+    Mở Quick Share
+  </button>
+
+  <!-- Nút mở Github (ứng dụng web) -->
+  <button class="btn-github" onclick="fetch('http://127.0.0.1:5000/run-github')">
+    Mở GitHub
+  </button>
+
+  <!-- Nút mở Dropbox (ứng dụng web) -->
+  <button class="btn-dropbox" onclick="fetch('http://127.0.0.1:5000/run-dropbox')">
+    Mở Dropbox
+  </button>
+
+  <!-- Nút mở Box (ứng dụng web) -->
+  <button class="btn-box" onclick="fetch('http://127.0.0.1:5000/run-box')">
+    Mở Box
+  </button>
+
+  <!-- Nút mở Mega (ứng dụng web) -->
+  <button class="btn-mega" onclick="fetch('http://127.0.0.1:5000/run-mega')">
+    Mở Mega.nz
+  </button>
+
   <!-- Nút mở Control Panel -->
   <button onclick="fetch('http://127.0.0.1:5000/run-control')">
     Mở Control Panel
@@ -135,21 +170,6 @@ document.addEventListener("DOMContentLoaded", function() {
     Mở Startup Apps
   </button>
   
-  <!-- Nút mở Fsquirt -->
-  <button class="btn-fsquirt" onclick="fetch('http://127.0.0.1:5000/run-fsquirt')">
-    Mở Fsquirt
-  </button>
-
-  <!-- Nút mở KDE Connect -->
-  <button class="btn-kdeconnect" onclick="fetch('http://127.0.0.1:5000/run-kdeconnect')">
-    Mở KDE Connect
-  </button>
-
-  <!-- Nút mở Quick Share -->
-  <button class="btn-quickshare" onclick="fetch('http://127.0.0.1:5000/run-quickshare')">
-    Mở Quick Share
-  </button>
-
   <!-- Nút mở Installed Apps -->
   <button class="btn-installedapps" onclick="fetch('http://127.0.0.1:5000/run-installedapps')">
     Mở Installed Apps
@@ -168,11 +188,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở Babylon.js Sandbox (ứng dụng web) -->
   <button class="btn-babylon" onclick="fetch('http://127.0.0.1:5000/run-babylon')">
     Mở Babylon.js Sandbox
-  </button>
-
-  <!-- Nút mở Github (ứng dụng web) -->
-  <button class="btn-github" onclick="fetch('http://127.0.0.1:5000/run-github')">
-    Mở GitHub
   </button>
 
   <!-- Nút mở Telegram -->
@@ -203,21 +218,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở Youtube (ứng dụng web) -->
   <button class="btn-youtube" onclick="fetch('http://127.0.0.1:5000/run-youtube')">
     Mở Youtube
-  </button>
-
-  <!-- Nút mở Dropbox (ứng dụng web) -->
-  <button class="btn-dropbox" onclick="fetch('http://127.0.0.1:5000/run-dropbox')">
-    Mở Dropbox
-  </button>
-
-  <!-- Nút mở Box (ứng dụng web) -->
-  <button class="btn-box" onclick="fetch('http://127.0.0.1:5000/run-box')">
-    Mở Box
-  </button>
-
-  <!-- Nút mở Mega (ứng dụng web) -->
-  <button class="btn-mega" onclick="fetch('http://127.0.0.1:5000/run-mega')">
-    Mở Mega.nz
   </button>
 
   <!-- Nút mở Internet Download Manager -->
