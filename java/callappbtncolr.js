@@ -275,8 +275,8 @@ style.textContent = `
   .btn-quizlet {
     background: linear-gradient(
       to right,
-      rgba(65, 105, 225, 0.7),   /* xanh RoyalBlue */
-      rgba(124, 252, 0, 0.7)     /* xanh LawnGreen */
+      rgba(5, 205, 5, 0.7),   /* xanh RoyalBlue */
+      rgba(4, 52, 200, 0.7)     /* xanh LawnGreen */
     );
     border: 2px solid royalblue;
     color: black;
