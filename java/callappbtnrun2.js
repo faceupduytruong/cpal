@@ -24,6 +24,10 @@ document.addEventListener("DOMContentLoaded", function() {
     <h2>Bố Trí</h2>
     <button class="btn-baisha" onclick="fetch('http://127.0.0.1:5000/run-baisha')">Mở Baisha Desktop Manager (白鲨桌面整理)</button>
     <button class="btn-xzdesktop" onclick="fetch('http://127.0.0.1:5000/run-xzdesktop')">Mở XZDesktop (小智桌面)</button>
+    <button class="btn-files" onclick="fetch('http://127.0.0.1:5000/run-files')">Mở Files (Store App)</button>
+    <button class="btn-qdir" onclick="fetch('http://127.0.0.1:5000/run-qdir')">Mở Q-Dir Portable</button>
+    <button class="btn-fileexplorer" onclick="fetch('http://127.0.0.1:5000/run-fileexplorer')">Mở File Explorer</button>
+    <button class="btn-quicklook" onclick="fetch('http://127.0.0.1:5000/run-quicklook')">Mở QuickLook</button>
   `;
   
   // Nhóm Công việc
@@ -33,10 +37,6 @@ document.addEventListener("DOMContentLoaded", function() {
     <h2>Công việc</h2>
     <button class="btn-notepad" onclick="fetch('http://127.0.0.1:5000/run-notepad')">Mở Notepad</button>
     <button class="btn-calculator" onclick="fetch('http://127.0.0.1:5000/run-calculator')">Mở Calculator</button>
-    <button class="btn-files" onclick="fetch('http://127.0.0.1:5000/run-files')">Mở Files (Store App)</button>
-    <button class="btn-qdir" onclick="fetch('http://127.0.0.1:5000/run-qdir')">Mở Q-Dir Portable</button>
-    <button class="btn-fileexplorer" onclick="fetch('http://127.0.0.1:5000/run-fileexplorer')">Mở File Explorer</button>
-    <button class="btn-quicklook" onclick="fetch('http://127.0.0.1:5000/run-quicklook')">Mở QuickLook</button>
     <button class="btn-foxit" onclick="fetch('http://127.0.0.1:5000/run-foxit')">Mở Foxit PDF Editor Portable</button>
     <button class="btn-pdfelement" onclick="fetch('http://127.0.0.1:5000/run-pdfelement')">Mở PDFelement</button>
     <button class="btn-mpchc" onclick="fetch('http://127.0.0.1:5000/run-mpchc')">Mở MPC-HC</button>
