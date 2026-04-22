@@ -271,6 +271,22 @@ style.textContent = `
     border: 2px solid gold;
   }
 
+  /* Quizlet button */
+  .btn-quizlet {
+    background: linear-gradient(
+      to right,
+      rgba(65, 105, 225, 0.7),   /* xanh RoyalBlue */
+      rgba(124, 252, 0, 0.7)     /* xanh LawnGreen */
+    );
+    border: 2px solid royalblue;
+    color: black;
+  }
+  .btn-quizlet:hover {
+    background-color: mediumseagreen;
+    color: white;
+    border: 2px solid limegreen;
+  }
+
   /* Fsquirt button */
   .btn-fsquirt {
     background-color: rgba(70, 130, 180, 0.6); /* xanh dương nhạt (SteelBlue) pha xanh nước biển */
