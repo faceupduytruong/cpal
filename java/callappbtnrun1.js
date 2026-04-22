@@ -174,6 +174,11 @@ document.addEventListener("DOMContentLoaded", function() {
   <button class="btn-diskcleanup" onclick="fetch('http://127.0.0.1:5000/run-diskcleanup')">
     Mở Disk Cleanup
   </button>
+  
+  <!-- Nút mở Avast Free Antivurs -->
+  <button class="btn-avast" onclick="fetch('http://127.0.0.1:5000/run-avast')">
+    Mở Avast Free Antivirus
+  </button>
 
   <!-- Nút mở Check for Updates -->
   <button class="btn-update" onclick="fetch('http://127.0.0.1:5000/run-update')">
@@ -193,11 +198,6 @@ document.addEventListener("DOMContentLoaded", function() {
   <!-- Nút mở Installed Apps -->
   <button class="btn-installedapps" onclick="fetch('http://127.0.0.1:5000/run-installedapps')">
     Mở Installed Apps
-  </button>
-
-  <!-- Nút mở Avast Free Antivurs -->
-  <button class="btn-avast" onclick="fetch('http://127.0.0.1:5000/run-avast')">
-    Mở Avast Free Antivirus
   </button>
 
   <!-- Nút mở Telegram -->
