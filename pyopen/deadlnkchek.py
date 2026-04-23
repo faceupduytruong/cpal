@@ -9,7 +9,7 @@ urls = [u.strip() for u in raw_input.split(",") if u.strip()]
 
 print("\n🔍 Bắt đầu kiểm tra các liên kết...\n")
 
-with open("ketqua.txt", "w", encoding="utf-8") as f:
+with open("C:/Users/Admin/OneDrive/Desktop/ketqua.txt", "w", encoding="utf-8") as f:
     f.write("🔍 Bắt đầu kiểm tra các liên kết...\n\n")
 
     for url in urls:
