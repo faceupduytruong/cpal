@@ -9,7 +9,7 @@ if not folder_path:
     print("❌ Bạn chưa nhập đường dẫn!")
     exit()
 
-output_file = "C:\Users\Admin\OneDrive\Desktop\index.html"
+output_file = "C:/Users/Admin/OneDrive/Desktop/index.html"
 
 with open(output_file, "w", encoding="utf-8") as f:
     f.write("""<!DOCTYPE html>
