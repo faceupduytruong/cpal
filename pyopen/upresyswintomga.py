@@ -85,10 +85,10 @@ if os.path.exists(desktop_zip):
 shutil.move(zip_output, desktop_zip)
 print("Đã tạo và di chuyển file ZIP tới Desktop:", desktop_zip)
 
-# 6. Xóa các file/thư mục cpal-* trong thư mục Compressed
-print("Đang xóa các file/thư mục cpal-* trong thư mục Compressed...")
+# 6. Xóa các file/thư mục cpal-* và temp_zip trong thư mục Compressed
+print("Đang xóa các file/thư mục cpal-* và temp_zip trong thư mục Compressed...")
 for item in os.listdir(download_dir):
-    if item.startswith("cpal-"):
+    if item.startswith("cpal-") or item == "temp_zip":
         item_path = os.path.join(download_dir, item)
         if os.path.isdir(item_path):
             shutil.rmtree(item_path, onerror=remove_readonly)
