@@ -19,8 +19,11 @@ def load_env(path):
                 key, value = line.strip().split("=", 1)
                 os.environ[key] = value
 
-# Load thông tin đăng nhập từ file config.env
-load_env("config.env")
+# Luôn tìm config.env nằm cạnh file .py
+script_dir = os.path.dirname(os.path.abspath(__file__))
+config_path = os.path.join(script_dir, "config.env")
+load_env(config_path)
+
 MEGA_USER = os.getenv("MEGA_USER")
 MEGA_PASS = os.getenv("MEGA_PASS")
 
