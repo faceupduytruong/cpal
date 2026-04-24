@@ -27,7 +27,7 @@ header h1 {
   color: white;
   text-shadow: 2px 2px 0 white, -2px -2px 0 white;
   margin: 0; /* bỏ margin mặc định */
-  animation: slideText 7s ease-in-out infinite;
+  animation: slideText 17s ease-in-out infinite;
 }
 
 /* Hiệu ứng trượt nguyên dòng chữ */
