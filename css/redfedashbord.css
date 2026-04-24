@@ -97,7 +97,7 @@ header h1 {
 
 .card .summary {
   display: -webkit-box;
-  -webkit-line-clamp: 8;
+  -webkit-line-clamp: 7;  /* hiện 7 dòng */
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
