@@ -57,13 +57,13 @@ header h1 {
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.7;
   }
-  98% {
-    transform: translateX(178%);
+  97% {
+    transform: translateX(160%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.95;
   }
   100% {
-    transform: translateX(180%);
+    transform: translateX(170%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
   }
@@ -121,6 +121,7 @@ header h1 {
 
 .search-box button {
   font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
   padding: 0.3rem 0.7rem;
   border: none;
   border-radius: 4px;
