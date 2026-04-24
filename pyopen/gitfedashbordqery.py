@@ -6,7 +6,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Cho phép mọi nguồn gốc
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -16,11 +16,10 @@ app.add_middleware(
 def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
     url = "https://api.github.com/search/repositories"
     all_repos = []
-    
-    # Lấy 10 trang, mỗi trang 100 repo = 1000 repo
-    for page in range(1, 11):
+
+    for page in range(1, 3):  # ví dụ lấy 2 trang cho nhanh
         params = {
-            "q": q,  # dùng query người dùng nhập
+            "q": q,
             "sort": "stars",
             "order": "desc",
             "per_page": 100,
@@ -28,7 +27,7 @@ def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
         }
         response = requests.get(url, params=params)
         data = response.json()
-        
+
         for repo in data.get("items", []):
             all_repos.append({
                 "name": repo["name"],
@@ -36,5 +35,5 @@ def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
                 "url": repo["html_url"],
                 "description": repo.get("description", "")
             })
-    
+
     return {"feed": all_repos}
