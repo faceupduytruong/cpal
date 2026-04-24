@@ -8,7 +8,7 @@ function renderFeed(feed) {
     card.innerHTML = `
       <h3>${post.title || "Không có tiêu đề"}</h3>
       <p>🔥 Score: ${post.score ?? 0}</p>
-      <p class="summary">${post.summary || "Không có nội dung tóm tắt"}</p>
+      <p class="summary">${post.selftext || "Không có nội dung tóm tắt"}</p>
       <a href="${post.url}" target="_blank">Xem trên Reddit</a>
     `;
     feedContainer.appendChild(card);
@@ -36,5 +36,11 @@ async function fetchFeed() {
 
 // 👉 Gắn sự kiện cho nút Search khi DOM đã load
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelector(".search-box button").addEventListener("click", fetchFeed);
+  const searchButton = document.querySelector(".search-box button");
+  if (searchButton) {
+    searchButton.addEventListener("click", fetchFeed);
+  }
+
+  // Tự động load mặc định khi mở trang
+  fetchFeed();
 });
