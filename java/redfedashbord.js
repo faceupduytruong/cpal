@@ -18,7 +18,8 @@ function renderFeed(feed) {
 
 async function fetchFeed() {
   try {
-    const response = await fetch("http://127.0.0.1:8000/feed");
+    const query = document.getElementById("query").value; // lấy từ ô input
+    const response = await fetch(`http://127.0.0.1:8000/feed?q=${encodeURIComponent(query)}`);
     const data = await response.json();
     renderFeed(data.feed);
   } catch (error) {
