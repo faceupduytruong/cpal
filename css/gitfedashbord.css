@@ -96,7 +96,7 @@ header h1 {
 
 .card p {
   display: -webkit-box;
-  -webkit-line-clamp: 6; /* chỉ hiển thị 6 dòng */
+  -webkit-line-clamp: 7; /* chỉ hiển thị 7 dòng */
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
