@@ -137,3 +137,30 @@ header h1 {
 .search-box button:hover {
   background: #024c9a;
 }
+
+.text-area  {
+  font-family: 'Quicksand', sans-serif;
+  width: 93%;
+  height: 60px;
+  font-size: 18px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* shadow mặc định */
+  resize: none;
+  transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+/* Placeholder màu nhẹ */
+.text-area::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* Hiệu ứng phát sáng khi focus */
+.text-area:focus {
+  outline: none; /* bỏ viền mặc định */
+  animation: rainbowGlow 20s infinite;
+}
