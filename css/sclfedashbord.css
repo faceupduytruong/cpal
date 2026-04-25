@@ -92,6 +92,11 @@ header h1 {
   min-height: 100%;
 }
 
+.card .content {
+  flex: 1;          /* chiếm toàn bộ không gian còn lại */
+  min-height: 0;    /* tránh overflow */
+}
+
 .card h3 {
   font-size: 1.2rem;
   margin: 0 0 0.5rem 0;
