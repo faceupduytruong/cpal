@@ -117,7 +117,7 @@ header h1 {
 }
 
 .search-box input {
-  width: 300px;   /* tăng chiều rộng input */
+  width: 350px;   /* tăng chiều rộng input */
   padding: 0.3rem 0.5rem;
   border-radius: 4px;
   border: 1px solid #ccc;
@@ -136,7 +136,7 @@ header h1 {
 }
 
 .search-box button:hover {
-  background: #024c9a;
+  background: #800080;
 }
 
 .text-area  {
@@ -163,9 +163,14 @@ header h1 {
 }
 
 #ai-btn {
-  background-color: #ff5500;
+  background-color: #ff5500; /* xanh lá cây */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
 }
 
 #ai-btn:hover {
-  background-color: #005fa3;
+  background-color: #28a745; /* cam khi hover */
 }
