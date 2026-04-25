@@ -26,7 +26,6 @@ async function fetchFeed() {
       card.className = "card";
       card.innerHTML = `
         ${item.html}
-        <h3>${item.title}</h3>
       `;
       feed.appendChild(card);
     });
