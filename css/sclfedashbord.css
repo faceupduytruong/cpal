@@ -77,16 +77,14 @@ header h1 {
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.6); /* nền trắng nhưng trong suốt 20% */
+  background: rgba(255, 255, 255, 0.6);
   padding: 1rem;
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  /* height: 265px;  cố định chiều cao */
-  overflow: hidden; /* ẩn phần vượt quá */
-  backdrop-filter: blur(5px); /* hiệu ứng mờ phía sau, tạo cảm giác kính */
+  gap: 0.5rem;
+  backdrop-filter: blur(5px);
 }
 
 .card h3 {
