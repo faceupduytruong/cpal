@@ -1,27 +1,40 @@
-async function loadFeed() {
+async function fetchFeed() {
   try {
-    const response = await fetch("http://127.0.0.1:8000/feed_soundcloud?username=nhanhlaxanh");
-    console.log("HTTP status:", response.status);
-    const text = await response.text();
-    console.log("Raw response:", text);
+    // Lấy giá trị từ ô input
+    const queryValue = document.getElementById("query").value.trim();
+    if (!queryValue) {
+      alert("Vui lòng nhập username,playlist");
+      return;
+    }
 
-    const data = JSON.parse(text); // parse thủ công để dễ debug
-    console.log("Parsed JSON:", data);
+    // Tách username và playlists
+    const parts = queryValue.split(",");
+    const username = parts[0];
+    const playlists = parts.slice(1).join(","); // nếu có nhiều playlist
 
-    const card = document.getElementById("soundcloud-card");
-    card.innerHTML = `
-      <img src="${data.thumbnail_url}" alt="Thumbnail">
-      <h2>${data.title}</h2>
-      <p>${data.description}</p>
-      <p><strong>Tác giả:</strong> <a href="${data.author_url}" target="_blank">${data.author_name}</a></p>
-      <p><strong>Provider:</strong> <a href="${data.provider_url}" target="_blank">${data.provider_name}</a></p>
-      ${data.html}  <!-- nhúng player đúng chuẩn -->
-    `;
+    // Gọi API
+    const url = `http://127.0.0.1:8000/feed_soundcloud?username=${username}&playlists=${playlists}`;
+    const response = await fetch(url);
+    const data = await response.json();
 
+    const feed = document.getElementById("feed");
+    feed.innerHTML = "";
+
+    // Render từng playlist thành card
+    data.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <img src="${item.thumbnail_url}" alt="Thumbnail">
+        <h3>${item.title}</h3>
+        <p><strong>Tác giả:</strong> <a href="${item.author_url}" target="_blank">${item.author_name}</a></p>
+        <p><strong>Provider:</strong> <a href="${item.provider_url}" target="_blank">${item.provider_name}</a></p>
+        ${item.html}
+      `;
+      feed.appendChild(card);
+    });
   } catch (error) {
-    document.getElementById("soundcloud-card").innerHTML = "<p>Lỗi tải dữ liệu.</p>";
-    console.error("Chi tiết lỗi:", error);
+    document.getElementById("feed").innerHTML = "<p>Lỗi tải dữ liệu.</p>";
+    console.error(error);
   }
 }
-
-loadFeed();
