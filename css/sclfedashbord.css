@@ -104,14 +104,13 @@ header h1 {
   margin: 0;
   line-height: 1.4;
   color: #333;
-  /* bỏ clamp để hiển thị đầy đủ mô tả */
 }
 
 .card a {
   text-decoration: none;
   color: #0366d6;
   font-weight: bold;
-  margin-top: auto; /* đẩy link xuống cuối card */
+  margin-top: auto;
 }
 
 .search-box {
