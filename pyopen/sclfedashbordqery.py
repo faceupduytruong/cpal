@@ -33,3 +33,35 @@ def get_playlists(username: str = Query(...), playlists: str = Query(None)):
                 "html": data.get("html"),
             })
     return results
+
+# Endpoint mới cho AI Playlist
+@app.get("/ai_playlist")
+def ai_playlist(query: str = Query(...)):
+    results = []
+    sample_playlists = {
+        "soul": [
+            "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts1",
+            "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts2",
+            "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts3"
+        ],
+        "saigon": [
+            "https://soundcloud.com/nhanhlaxanh/sets/sgp",
+            "https://soundcloud.com/nhanhlaxanh/sets/sgtls2"
+        ]
+    }
+
+    for key, urls in sample_playlists.items():
+        if key in query.lower():
+            for url in urls:
+                api_url = "https://soundcloud.com/oembed"
+                params = {"url": url, "format": "json"}
+                r = requests.get(api_url, params=params)
+                if r.status_code == 200:
+                    data = r.json()
+                    results.append({
+                        "title": data.get("title"),
+                        "author_name": data.get("author_name"),
+                        "html": data.get("html"),
+                    })
+
+    return results
