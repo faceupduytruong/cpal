@@ -69,52 +69,6 @@ header h1 {
   }
 }
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f4f4f4;
-}
-
-@font-face {
-  font-family: 'FC Coldwell Bridges Regular';
-  src: url('https://raw.githubusercontent.com/faceupduytruong/cpal/main/fonts/FCColdwellBridges-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-header {
-  background: rgba(0, 0, 0, 0.2);
-  text-align: center;
-  padding: 0.5rem 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;        
-}
-
-header h1 {
-  font-family: 'FC Coldwell Bridges Regular', sans-serif;
-  font-weight: bold;
-  font-size: 2.2rem;
-  color: white;
-  text-shadow: 2px 2px 0 white, -2px -2px 0 white;
-  margin: 0;
-  animation: slideText 17s ease-in-out infinite;
-}
-
-/* hiệu ứng chữ */
-@keyframes slideText {
-  0% { transform: translateX(0%); opacity: 1; }
-  50% { transform: translateX(90%); opacity: 0.5; }
-  100% { transform: translateX(175%); opacity: 1; }
-}
-
-#feed {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-  gap: 1rem;
-  padding: 1rem;
-}
-
 .card {
   background: rgba(255, 255, 255, 0.6);
   padding: 1rem;
