@@ -15,8 +15,9 @@ async function loadFeed() {
       <p>${data.description}</p>
       <p><strong>Tác giả:</strong> <a href="${data.author_url}" target="_blank">${data.author_name}</a></p>
       <p><strong>Provider:</strong> <a href="${data.provider_url}" target="_blank">${data.provider_name}</a></p>
-      <iframe src="${data.author_url}" width="${data.width}" height="${data.height}" frameborder="0"></iframe>
+      ${data.html}  <!-- nhúng player đúng chuẩn -->
     `;
+
   } catch (error) {
     document.getElementById("soundcloud-card").innerHTML = "<p>Lỗi tải dữ liệu.</p>";
     console.error("Chi tiết lỗi:", error);
