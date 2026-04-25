@@ -25,11 +25,10 @@ async function fetchFeed() {
       const card = document.createElement("div");
       card.className = "card";
       card.innerHTML = `
-        <img src="${item.thumbnail_url}" alt="Thumbnail">
+        ${item.html}
         <h3>${item.title}</h3>
         <p><strong>Playlist Creator:</strong> <a href="${item.author_url}" target="_blank">${item.author_name}</a></p>
         <p><strong>Provider:</strong> <a href="${item.provider_url}" target="_blank">${item.provider_name}</a></p>
-        ${item.html}
       `;
       feed.appendChild(card);
     });
