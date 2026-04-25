@@ -84,18 +84,14 @@ header h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 575px; /* thay height cố định bằng min-height */
+  min-height: 570px; /* thay height cố định bằng min-height */
   backdrop-filter: blur(5px);
   
 }
 
-.card .embed {
-  flex: 1;
-  display: flex;
-}
-
-.card .embed iframe {
-  flex: 1;   /* iframe giãn theo container */
+.card iframe {
+  width: 100%;
+  height: 100%;   /* ép chiếm toàn bộ chiều cao card */
 }
 
 .card h3 {
