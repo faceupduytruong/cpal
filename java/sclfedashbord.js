@@ -8,9 +8,9 @@ function renderFeed(playlist) {
   // Hiển thị các trường text từ JSON
   card.innerHTML = `
     <h3>${playlist.title}</h3>
+    <img src="${playlist.thumbnail_url}" alt="${playlist.title}" />
     <p><strong>Tác giả:</strong> ${playlist.author_name}</p>
     <p><strong>Mô tả:</strong> ${playlist.description}</p>
-    <img src="${playlist.thumbnail_url}" alt="${playlist.title}" style="max-width:200px;"/>
     <p><strong>Provider:</strong> ${playlist.provider_name}</p>
     <a href="${playlist.author_url}" target="_blank">Xem trên SoundCloud</a>
   `;
