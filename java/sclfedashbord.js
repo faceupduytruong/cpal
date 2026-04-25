@@ -5,18 +5,15 @@ function renderFeed(playlist) {
   const card = document.createElement("div");
   card.className = "card";
 
-  // Nội dung cơ bản
+  // Hiển thị các trường text từ JSON
   card.innerHTML = `
     <h3>${playlist.title}</h3>
-    <p>Tác giả: ${playlist.author_name}</p>
+    <p><strong>Tác giả:</strong> ${playlist.author_name}</p>
+    <p><strong>Mô tả:</strong> ${playlist.description}</p>
     <img src="${playlist.thumbnail_url}" alt="${playlist.title}" style="max-width:200px;"/>
+    <p><strong>Provider:</strong> ${playlist.provider_name}</p>
     <a href="${playlist.author_url}" target="_blank">Xem trên SoundCloud</a>
   `;
-
-  // Thêm iframe player
-  const playerWrapper = document.createElement("div");
-  playerWrapper.innerHTML = playlist.html; 
-  card.appendChild(playerWrapper);
 
   feedContainer.appendChild(card);
 }
