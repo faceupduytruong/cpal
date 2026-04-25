@@ -27,8 +27,6 @@ async function fetchFeed() {
       card.innerHTML = `
         ${item.html}
         <h3>${item.title}</h3>
-        <p><strong>Playlist Creator:</strong> <a href="${item.author_url}" target="_blank">${item.author_name}</a></p>
-        <p><strong>Provider:</strong> <a href="${item.provider_url}" target="_blank">${item.provider_name}</a></p>
       `;
       feed.appendChild(card);
     });
