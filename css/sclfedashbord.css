@@ -81,11 +81,13 @@ header h1 {
   padding: 1rem;
   border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  display: flex;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   flex-direction: column;
   justify-content: space-between;
   min-height: 500px; /* thay height cố định bằng min-height */
   backdrop-filter: blur(5px);
+  
 }
 
 .card .item-html {
