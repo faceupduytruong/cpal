@@ -1,11 +1,12 @@
 async function loadFeed() {
   try {
     const response = await fetch("http://127.0.0.1:8000/feed_soundcloud?username=nhanhlaxanh");
-    if (!response.ok) {
-      throw new Error("HTTP status " + response.status);
-    }
-    const data = await response.json();
-    console.log("Data nhận được:", data);
+    console.log("HTTP status:", response.status);
+    const text = await response.text();
+    console.log("Raw response:", text);
+
+    const data = JSON.parse(text); // parse thủ công để dễ debug
+    console.log("Parsed JSON:", data);
 
     const card = document.getElementById("soundcloud-card");
     card.innerHTML = `
@@ -21,3 +22,5 @@ async function loadFeed() {
     console.error("Chi tiết lỗi:", error);
   }
 }
+
+loadFeed();
