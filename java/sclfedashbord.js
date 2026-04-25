@@ -15,7 +15,7 @@ function renderFeed(playlist) {
 
   // Thêm iframe từ playlist.html
   const playerWrapper = document.createElement("div");
-  playerWrapper.innerHTML = playlist.html; // chèn iframe
+  playerWrapper.innerHTML = playlist.html; 
   card.appendChild(playerWrapper);
 
   feedContainer.appendChild(card);
