@@ -161,3 +161,11 @@ header h1 {
   outline: none; /* bỏ viền mặc định */
   animation: rainbowGlow 20s infinite;
 }
+
+#ai-btn {
+  background-color: #0077cc;
+}
+
+#ai-btn:hover {
+  background-color: #005fa3;
+}
