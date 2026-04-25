@@ -6,19 +6,17 @@ function renderFeed(playlist) {
   card.className = "card";
   card.innerHTML = `
     <h3>${playlist.title}</h3>
-    <div class="summary">${playlist.author_name}</div>
-    <div>${playlist.provider_name}</div>
+    <p>Tác giả: ${playlist.author_name}</p>
     <div>${playlist.html}</div>
     <a href="${playlist.url}" target="_blank">Xem trên SoundCloud</a>
   `;
-
   feedContainer.appendChild(card);
 }
 
 async function fetchFeed() {
   try {
-    const query = document.getElementById("query").value; // nhập URL playlist
-    const response = await fetch(`http://127.0.0.1:8000/feed_soundcloud?url=${encodeURIComponent(query)}`);
+    const username = document.getElementById("query").value; // chỉ nhập username
+    const response = await fetch(`http://127.0.0.1:8000/feed_soundcloud?username=${encodeURIComponent(username)}`);
     const data = await response.json();
     renderFeed(data);
   } catch (error) {
