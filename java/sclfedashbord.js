@@ -37,12 +37,6 @@ async function fetchFeed() {
 
 async function createAIPlaylist() {
   const queryValue = document.getElementById("query").value.trim();
-  if (!queryValue) {
-    alert("Vui lòng nhập ý tưởng playlist");
-    return;
-  }
-
-  // Gọi backend của bạn, ví dụ /ai_playlist
   const response = await fetch(`http://127.0.0.1:8000/ai_playlist?query=${encodeURIComponent(queryValue)}`);
   const data = await response.json();
 
@@ -54,7 +48,7 @@ async function createAIPlaylist() {
     card.className = "card";
     card.innerHTML = `
       <h3>${item.title}</h3>
-      <p><strong>Playlist Creator:</strong> ${item.author_name}</p>
+      <p><strong>Tác giả:</strong> ${item.author_name}</p>
       ${item.html}
     `;
     feed.appendChild(card);
