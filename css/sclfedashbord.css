@@ -84,18 +84,18 @@ header h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 500px; /* thay height cố định bằng min-height */
+  min-height: 575px; /* thay height cố định bằng min-height */
   backdrop-filter: blur(5px);
   
 }
 
-.card .item-html {
-  min-height: 100%;
+.card .embed {
+  flex: 1;
+  display: flex;
 }
 
-.card .content {
-  flex: 1;          /* chiếm toàn bộ không gian còn lại */
-  min-height: 0;    /* tránh overflow */
+.card .embed iframe {
+  flex: 1;   /* iframe giãn theo container */
 }
 
 .card h3 {
@@ -114,6 +114,11 @@ header h1 {
   text-decoration: none;
   color: #0366d6;
   font-weight: bold;
+}
+
+.search-box {
+  display: flex;
+  gap: 0.5rem; /* khoảng cách giữa input và button */
 }
 
 .search-box input {
