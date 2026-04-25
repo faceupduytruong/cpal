@@ -84,7 +84,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 365px; /* thay height cố định bằng min-height */
+  min-height: 500px; /* thay height cố định bằng min-height */
   backdrop-filter: blur(5px);
 }
 
