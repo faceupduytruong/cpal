@@ -1,18 +1,17 @@
-function renderFeed(playlist) {
+function renderFeed(data) {
   const feedContainer = document.getElementById("feed");
   feedContainer.innerHTML = "";
 
   const card = document.createElement("div");
   card.className = "card";
 
-  // Hiển thị các trường text từ JSON
   card.innerHTML = `
-    <h3>${playlist.title}</h3>
-    <img src="${playlist.thumbnail_url}" alt="${playlist.title}" />
-    <p><strong>Tác giả:</strong> ${playlist.author_name}</p>
-    <p><strong>Mô tả:</strong> ${playlist.description}</p>
-    <p><strong>Provider:</strong> ${playlist.provider_name}</p>
-    <a href="${playlist.author_url}" target="_blank">Xem trên SoundCloud</a>
+    <h3>${data.title}</h3>
+    <img src="${data.thumbnail_url}" alt="${data.title}" />
+    <p><strong>Tác giả:</strong> ${data.author_name}</p>
+    <p><strong>Mô tả:</strong> ${data.description}</p>
+    <p><strong>Provider:</strong> ${data.provider_name}</p>
+    <a href="${data.author_url}" target="_blank">Xem trên SoundCloud</a>
   `;
 
   feedContainer.appendChild(card);
@@ -20,11 +19,22 @@ function renderFeed(playlist) {
 
 async function fetchFeed() {
   try {
-    const username = document.getElementById("query").value;
-    const response = await fetch(`http://127.0.0.1:8000/feed_soundcloud?username=${encodeURIComponent(username)}`);
+    const username = document.getElementById("query").value.trim();
+    if (!username) {
+      alert("Vui lòng nhập username SoundCloud");
+      return;
+    }
+
+    const response = await fetch(
+      `http://127.0.0.1:8000/feed_soundcloud?username=${encodeURIComponent(username)}`
+    );
+    if (!response.ok) {
+      throw new Error("Không lấy được dữ liệu từ server");
+    }
+
     const data = await response.json();
-    console.log("Data nhận được:", data); // kiểm tra dữ liệu
-    renderFeed(data); // truyền object trực tiếp
+    console.log("Data nhận được:", data);
+    renderFeed(data);
   } catch (error) {
     console.error("Lỗi khi lấy feed:", error);
   }
