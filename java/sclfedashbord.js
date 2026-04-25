@@ -48,7 +48,6 @@ async function createAIPlaylist() {
     card.className = "card";
     card.innerHTML = `
       <h3>${item.title}</h3>
-      <p><strong>Playlist Creator:</strong> ${item.author_name}</p>
       ${item.html}
     `;
     feed.appendChild(card);
