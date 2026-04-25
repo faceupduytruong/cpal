@@ -47,7 +47,64 @@ def ai_playlist(query: str = Query(...)):
         "saigon": [
             "https://soundcloud.com/nhanhlaxanh/sets/sgp",
             "https://soundcloud.com/nhanhlaxanh/sets/sgtls2"
-        ]
+        ],
+        "dance": [
+            "https://soundcloud.com/nhanhlaxanh/sets/msgldt1",
+            "https://soundcloud.com/nhanhlaxanh/sets/qd2",
+            "https://soundcloud.com/nhanhlaxanh/sets/eicme2",
+            "https://soundcloud.com/nhanhlaxanh/sets/slq2"
+        ],
+        "r&b": [
+            "https://soundcloud.com/nhanhlaxanh/sets/slq1",
+            "https://soundcloud.com/nhanhlaxanh/sets/ain",
+            "https://soundcloud.com/nhanhlaxanh/sets/ds1",
+            "https://soundcloud.com/nhanhlaxanh/sets/sts1",
+            "https://soundcloud.com/nhanhlaxanh/sets/rvd"
+        ],
+        "pop": [
+            "https://soundcloud.com/nhanhlaxanh/sets/nmbn",
+            "https://soundcloud.com/nhanhlaxanh/sets/tcnn",
+            "https://soundcloud.com/nhanhlaxanh/sets/mgltb",
+            "https://soundcloud.com/nhanhlaxanh/sets/ltbcqk",
+            "https://soundcloud.com/nhanhlaxanh/sets/hcs5",
+            "https://soundcloud.com/nhanhlaxanh/sets/hcs2",
+            "https://soundcloud.com/nhanhlaxanh/sets/ynh",
+            "https://soundcloud.com/nhanhlaxanh/sets/dl2",
+            "https://soundcloud.com/nhanhlaxanh/sets/dl1"
+        ],
+        "world": [
+            "https://soundcloud.com/nhanhlaxanh/sets/lit",
+            "https://soundcloud.com/nhanhlaxanh/sets/lip",
+            "https://soundcloud.com/nhanhlaxanh/sets/lif4",
+            "https://soundcloud.com/nhanhlaxanh/sets/lis",
+            "https://soundcloud.com/nhanhlaxanh/sets/lif3",
+            "https://soundcloud.com/nhanhlaxanh/sets/lid",
+            "https://soundcloud.com/nhanhlaxanh/sets/lii"
+        ],
+        "sleep": [
+            "https://soundcloud.com/nhanhlaxanh/sets/wpl",
+            "https://soundcloud.com/nhanhlaxanh/sets/kvyt"
+        ],
+        "bolero": [
+            "https://soundcloud.com/nhanhlaxanh/sets/bc4",
+            "https://soundcloud.com/nhanhlaxanh/sets/mxg"
+        ],
+        "inspiration": [
+            "https://soundcloud.com/nhanhlaxanh/sets/nkm",
+            "https://soundcloud.com/nhanhlaxanh/sets/sbh",
+            "https://soundcloud.com/nhanhlaxanh/sets/wpl",
+            "https://soundcloud.com/nhanhlaxanh/sets/dhm2",
+            "https://soundcloud.com/nhanhlaxanh/sets/ms2",
+            "https://soundcloud.com/nhanhlaxanh/sets/dhm1",
+            "https://soundcloud.com/nhanhlaxanh/sets/cd2",
+            "https://soundcloud.com/nhanhlaxanh/sets/cd1",
+            "https://soundcloud.com/nhanhlaxanh/sets/mars",
+            "https://soundcloud.com/nhanhlaxanh/sets/cm1"
+        ],
+        "christmas": [
+            "https://soundcloud.com/nhanhlaxanh/sets/christmas2",
+            "https://soundcloud.com/nhanhlaxanh/sets/christmas1"
+        ],
     }
 
     for key, urls in sample_playlists.items():
