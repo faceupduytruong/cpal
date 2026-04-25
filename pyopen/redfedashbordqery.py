@@ -57,4 +57,3 @@ def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
 			break
 
 	return {"feed": all_posts}
-
