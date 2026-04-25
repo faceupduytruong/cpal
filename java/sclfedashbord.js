@@ -5,7 +5,7 @@ function renderFeed(playlist) {
   const card = document.createElement("div");
   card.className = "card";
 
-  // Nội dung text cơ bản
+  // Nội dung cơ bản
   card.innerHTML = `
     <h3>${playlist.title}</h3>
     <p>Tác giả: ${playlist.author_name}</p>
@@ -15,7 +15,7 @@ function renderFeed(playlist) {
 
   // Thêm iframe player
   const playerWrapper = document.createElement("div");
-  playerWrapper.innerHTML = playlist.html; // chèn iframe
+  playerWrapper.innerHTML = playlist.html; 
   card.appendChild(playerWrapper);
 
   feedContainer.appendChild(card);
