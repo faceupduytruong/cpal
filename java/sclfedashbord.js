@@ -27,7 +27,7 @@ async function fetchFeed() {
       card.innerHTML = `
         <img src="${item.thumbnail_url}" alt="Thumbnail">
         <h3>${item.title}</h3>
-        <p><strong>Tác giả:</strong> <a href="${item.author_url}" target="_blank">${item.author_name}</a></p>
+        <p><strong>Playlist Creator:</strong> <a href="${item.author_url}" target="_blank">${item.author_name}</a></p>
         <p><strong>Provider:</strong> <a href="${item.provider_url}" target="_blank">${item.provider_name}</a></p>
         ${item.html}
       `;
