@@ -64,6 +64,7 @@ def ai_playlist(query: str = Query(...)):
             "https://soundcloud.com/nhanhlaxanh/sets/msgldt1",
             "https://soundcloud.com/nhanhlaxanh/sets/lid2",
             "https://soundcloud.com/nhanhlaxanh/sets/lid1",
+            "https://soundcloud.com/nhanhlaxanh/sets/tb1",
             "https://soundcloud.com/nhanhlaxanh/sets/qd2",
             "https://soundcloud.com/nhanhlaxanh/sets/eicme2",
             "https://soundcloud.com/nhanhlaxanh/sets/slq2"
@@ -80,6 +81,8 @@ def ai_playlist(query: str = Query(...)):
             "https://soundcloud.com/nhanhlaxanh/sets/nmbn",
             "https://soundcloud.com/nhanhlaxanh/sets/tcnn",
             "https://soundcloud.com/nhanhlaxanh/sets/mgltb",
+            "https://soundcloud.com/nhanhlaxanh/sets/atc2",
+            "https://soundcloud.com/nhanhlaxanh/sets/atc1",
             "https://soundcloud.com/nhanhlaxanh/sets/ltbcqk",
             "https://soundcloud.com/nhanhlaxanh/sets/xle",
             "https://soundcloud.com/nhanhlaxanh/sets/lmtls5",
