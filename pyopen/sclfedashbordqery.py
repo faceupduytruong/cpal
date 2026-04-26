@@ -39,6 +39,18 @@ def get_playlists(username: str = Query(...), playlists: str = Query(None)):
 def ai_playlist(query: str = Query(...)):
     results = []
     sample_playlists = {
+        "discover": [
+            "https://soundcloud.com/trending-music-us/sets/pop-1",
+            "https://soundcloud.com/trending-music-us/sets/r-b-1",
+            "https://soundcloud.com/trending-music-us/sets/soul",
+            "https://soundcloud.com/trending-music-us/sets/reggae",
+            "https://soundcloud.com/trending-music-us/sets/latin",
+            "https://soundcloud.com/trending-music-us/sets/indie-1",
+            "https://soundcloud.com/trending-music-us/sets/jazz",
+            "https://soundcloud.com/trending-music-us/sets/folk",
+            "https://soundcloud.com/trending-music-us/sets/electronic-1",
+            "https://soundcloud.com/trending-music-us/sets/country"
+        ],
         "soul": [
             "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts1",
             "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts2",
@@ -50,22 +62,28 @@ def ai_playlist(query: str = Query(...)):
         ],
         "dance": [
             "https://soundcloud.com/nhanhlaxanh/sets/msgldt1",
+            "https://soundcloud.com/nhanhlaxanh/sets/lid2",
+            "https://soundcloud.com/nhanhlaxanh/sets/lid1",
             "https://soundcloud.com/nhanhlaxanh/sets/qd2",
             "https://soundcloud.com/nhanhlaxanh/sets/eicme2",
             "https://soundcloud.com/nhanhlaxanh/sets/slq2"
         ],
         "r&b": [
-            "https://soundcloud.com/nhanhlaxanh/sets/slq1",
+            "https://soundcloud.com/nhanhlaxanh/sets/rvd",
+            "https://soundcloud.com/nhanhlaxanh/sets/dpm3",
             "https://soundcloud.com/nhanhlaxanh/sets/ain",
             "https://soundcloud.com/nhanhlaxanh/sets/ds1",
             "https://soundcloud.com/nhanhlaxanh/sets/sts1",
-            "https://soundcloud.com/nhanhlaxanh/sets/rvd"
+            "https://soundcloud.com/nhanhlaxanh/sets/slq1"
         ],
         "pop": [
             "https://soundcloud.com/nhanhlaxanh/sets/nmbn",
             "https://soundcloud.com/nhanhlaxanh/sets/tcnn",
             "https://soundcloud.com/nhanhlaxanh/sets/mgltb",
             "https://soundcloud.com/nhanhlaxanh/sets/ltbcqk",
+            "https://soundcloud.com/nhanhlaxanh/sets/xle",
+            "https://soundcloud.com/nhanhlaxanh/sets/lmtls5",
+            "https://soundcloud.com/nhanhlaxanh/sets/ntgnl2",
             "https://soundcloud.com/nhanhlaxanh/sets/hcs5",
             "https://soundcloud.com/nhanhlaxanh/sets/hcs2",
             "https://soundcloud.com/nhanhlaxanh/sets/ynh",
@@ -75,10 +93,11 @@ def ai_playlist(query: str = Query(...)):
         "world": [
             "https://soundcloud.com/nhanhlaxanh/sets/lit",
             "https://soundcloud.com/nhanhlaxanh/sets/lip",
-            "https://soundcloud.com/nhanhlaxanh/sets/lif4",
+            "https://soundcloud.com/nhanhlaxanh/sets/lif2",
             "https://soundcloud.com/nhanhlaxanh/sets/lis",
-            "https://soundcloud.com/nhanhlaxanh/sets/lif3",
-            "https://soundcloud.com/nhanhlaxanh/sets/lid",
+            "https://soundcloud.com/nhanhlaxanh/sets/lif1",
+            "https://soundcloud.com/nhanhlaxanh/sets/lid2",
+            "https://soundcloud.com/nhanhlaxanh/sets/lid1",
             "https://soundcloud.com/nhanhlaxanh/sets/lii"
         ],
         "sleep": [
