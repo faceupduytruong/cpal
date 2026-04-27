@@ -7,8 +7,7 @@ function renderFeed(feed) {
     card.className = "card";
 
     // dẫn tới trang Mega Search với tên/path
-    const searchQuery = encodeURIComponent(item.name || item.path);
-    const megaUrl = `https://mega.nz/search/${searchQuery}`;
+    const megaUrl = `https://mega.nz/fm/k4lH3BoZ`;
 
     card.innerHTML = `
       <h3>${item.path}</h3>
