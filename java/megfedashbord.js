@@ -7,7 +7,6 @@ function renderFeed(feed) {
     card.className = "card";
     card.innerHTML = `
       <h3>${item.name}</h3>
-      <p>📂 Loại: ${item.type}</p>
       <p>📦 Dung lượng: ${item.size}</p>
       <p>📅 Ngày: ${item.date}</p>
     `;
