@@ -9,6 +9,7 @@ function renderFeed(feed) {
       <h3>${item.name}</h3>
       <p>📦 Dung lượng: ${item.size}</p>
       <p>📅 Ngày: ${item.date}</p>
+      <a href="${megaUrl}" target="_blank">Xem thêm trên Mega</a>
     `;
     feedContainer.appendChild(card);
   });
