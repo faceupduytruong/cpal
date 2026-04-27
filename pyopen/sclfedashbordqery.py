@@ -39,7 +39,7 @@ def get_playlists(username: str = Query(...), playlists: str = Query(None)):
 def ai_playlist(query: str = Query(...)):
     results = []
     sample_playlists = {
-        "discover": [
+        "us": [
             "https://soundcloud.com/trending-music-us/sets/pop-1",
             "https://soundcloud.com/trending-music-us/sets/r-b-1",
             "https://soundcloud.com/trending-music-us/sets/soul",
@@ -50,6 +50,19 @@ def ai_playlist(query: str = Query(...)):
             "https://soundcloud.com/trending-music-us/sets/folk",
             "https://soundcloud.com/trending-music-us/sets/electronic-1",
             "https://soundcloud.com/trending-music-us/sets/country"
+        ],
+        "vn": [
+            "https://soundcloud.com/trending-music-vn/sets/soundcloud",
+            "https://soundcloud.com/trending-music-vn/sets/pop",
+            "https://soundcloud.com/trending-music-vn/sets/r-b",
+            "https://soundcloud.com/trending-music-vn/sets/soul",
+            "https://soundcloud.com/trending-music-vn/sets/reggae",
+            "https://soundcloud.com/trending-music-vn/sets/latin",
+            "https://soundcloud.com/trending-music-vn/sets/indie",
+            "https://soundcloud.com/trending-music-vn/sets/jazz",
+            "https://soundcloud.com/trending-music-vn/sets/folk",
+            "https://soundcloud.com/trending-music-vn/sets/electronic",
+            "https://soundcloud.com/trending-music-vn/sets/country"
         ],
         "soul": [
             "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts1",
