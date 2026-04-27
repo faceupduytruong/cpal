@@ -40,6 +40,7 @@ def ai_playlist(query: str = Query(...)):
     results = []
     sample_playlists = {
         "us": [
+            "https://soundcloud.com/trending-music-us/sets/soundcloud-1",
             "https://soundcloud.com/trending-music-us/sets/pop-1",
             "https://soundcloud.com/trending-music-us/sets/r-b-1",
             "https://soundcloud.com/trending-music-us/sets/soul",
