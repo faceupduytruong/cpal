@@ -1,10 +1,14 @@
 function renderFeed(feed) {
   const feedContainer = document.getElementById("feed");
   feedContainer.innerHTML = "";
-  
+
   feed.forEach(item => {
     const card = document.createElement("div");
     card.className = "card";
+
+    // giả sử bạn muốn dẫn tới mega.nz bằng ID
+    const megaUrl = `https://mega.nz/file/${item.id}`;
+    
     card.innerHTML = `
       <h3>${item.name}</h3>
       <p>📦 Dung lượng: ${item.size}</p>
