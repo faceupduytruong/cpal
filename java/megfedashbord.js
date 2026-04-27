@@ -8,8 +8,9 @@ function renderFeed(feed) {
     card.innerHTML = `
       <h3>${item.name}</h3>
       <p>📂 Loại: ${item.type}</p>
-      <p>📦 Dung lượng: ${item.size} bytes</p>
+      <p>📦 Dung lượng: ${item.size}</p>
       <p>📅 Ngày: ${item.date}</p>
+      <p>ID: ${item.id}</p>
     `;
     feedContainer.appendChild(card);
   });
