@@ -17,11 +17,13 @@ def load_env(path):
 
 load_env(config_path)
 
-MEGA_USER = os.getenv("MEGA_USER")
-MEGA_PASS = os.getenv("MEGA_PASS")
+MEGA_USER1 = os.getenv("MEGA_USER1")
+MEGA_PASS1 = os.getenv("MEGA_PASS1")
+MEGA_USER2 = os.getenv("MEGA_USER2")
+MEGA_PASS2 = os.getenv("MEGA_PASS2")
 
-if not MEGA_USER or not MEGA_PASS:
-    raise ValueError("Thiếu MEGA_USER hoặc MEGA_PASS trong config.env")
+if not MEGA_USER1 or not MEGA_PASS1 or not MEGA_USER2 or not MEGA_PASS2:
+    raise ValueError("Thiếu MEGA_USER1/MEGA_PASS1 hoặc MEGA_USER2/MEGA_PASS2 trong config.env")
 
 # Đường dẫn tới megatools.exe
 megatools_exe = r"C:\ProgramData\chocolatey\bin\megatools.exe"
@@ -42,39 +44,44 @@ def format_size(size_str: str) -> str:
         size = int(size_str)
         return f"{size/1024/1024:.2f} MB"
     except ValueError:
-        return size_str  # nếu không phải số thì giữ nguyên
+        return size_str
 
-@app.get("/feed")
-def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
+def run_megatools(user, password):
     cmd = [
         megatools_exe, "ls",
-        "--username", MEGA_USER,
-        "--password", MEGA_PASS,
+        "--username", user,
+        "--password", password,
         "--long"
     ]
     result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="ignore")
-
     if result.returncode != 0:
-        return {"error": result.stderr.strip()}
+        return []
+    return result.stdout.splitlines() if result.stdout else []
 
-    output = result.stdout.splitlines() if result.stdout else []
+@app.get("/feed")
+def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
+    output1 = run_megatools(MEGA_USER1, MEGA_PASS1)
+    output2 = run_megatools(MEGA_USER2, MEGA_PASS2)
+
     results = []
 
-    for line in output:
-        if q.lower() in line.lower():
-            parts = line.strip().split(maxsplit=6)
-            if len(parts) == 7:
-                file_id = parts[0]
-                size = format_size(parts[3])          # dung lượng quy đổi sang MB
-                date = parts[4] + " " + parts[5]      # ngày + giờ
-                path = parts[6]                       # đường dẫn đầy đủ
-                results.append({
-                    "name": os.path.basename(path) if not path.endswith("/") else path,
-                    "path": path,                      # đường dẫn đầy đủ
-                    "id": file_id,
-                    "size": size,
-                    "date": date,
-                    "type": "folder" if path.endswith("/") else "file"
-                })
+    for account_name, output in [("Account1", output1), ("Account2", output2)]:
+        for line in output:
+            if q.lower() in line.lower():
+                parts = line.strip().split(maxsplit=6)
+                if len(parts) == 7:
+                    file_id = parts[0]
+                    size = format_size(parts[3])
+                    date = parts[4] + " " + parts[5]
+                    path = parts[6]
+                    results.append({
+                        "name": os.path.basename(path) if not path.endswith("/") else path,
+                        "path": path,
+                        "id": file_id,
+                        "size": size,
+                        "date": date,
+                        "type": "folder" if path.endswith("/") else "file",
+                        "account": account_name   # thêm thông tin tài khoản
+                    })
 
     return {"feed": results}
