@@ -6,8 +6,9 @@ function renderFeed(feed) {
     const card = document.createElement("div");
     card.className = "card";
 
-    // giả sử bạn muốn dẫn tới mega.nz bằng ID
-    const megaUrl = `https://mega.nz/file/${item.id}`;
+    // dẫn tới trang Mega Search với tên/path
+    const searchQuery = encodeURIComponent(item.name || item.path);
+    const megaUrl = `https://mega.nz/search/${searchQuery}`;
 
     card.innerHTML = `
       <h3>${item.path}</h3>
