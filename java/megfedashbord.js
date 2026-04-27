@@ -11,10 +11,8 @@ function renderFeed(feed) {
 
     card.innerHTML = `
       <h3>${item.path}</h3>
-      <p>📂 Loại: ${item.type}</p>
       <p>📦 Dung lượng: ${item.size}</p>
       <p>📅 Ngày: ${item.date}</p>
-      <p>ID: ${item.id}</p>
       <a href="${megaUrl}" target="_blank">Xem thêm trên Mega</a>
     `;
     feedContainer.appendChild(card);
