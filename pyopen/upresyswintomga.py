@@ -35,6 +35,9 @@ dst_folder = r"C:\Users\Admin\OneDrive\Documents\Reset System Windows\Music Play
 print("Đang xóa nội dung trong thư mục đích...")
 if os.path.exists(dst_folder):
     shutil.rmtree(dst_folder, onerror=remove_readonly)
+    print("Đã xóa xong.")
+else:
+    print("Thư mục không tồn tại, bỏ qua bước này.")
 
 # 1. Tải file ZIP từ GitHub
 url = "https://github.com/faceupduytruong/cpal/archive/refs/heads/main.zip"
