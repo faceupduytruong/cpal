@@ -6,16 +6,14 @@ function renderFeed(feed) {
     const card = document.createElement("div");
     card.className = "card";
 
-    // giả sử bạn muốn dẫn tới mega.nz bằng ID
-    const megaUrl = `https://mega.nz/file/${item.id}`;
+    // dẫn tới folder gốc bằng folder_id
+    const megaUrl = item.folder_id ? `https://mega.nz/fm/${item.folder_id}` : "#";
 
     card.innerHTML = `
       <h3>${item.path}</h3>
-      <p>📂 Loại: ${item.type}</p>
       <p>📦 Dung lượng: ${item.size}</p>
       <p>📅 Ngày: ${item.date}</p>
-      <p>ID: ${item.id}</p>
-      <a href="${megaUrl}" target="_blank">Xem thêm trên Mega</a>
+      ${item.folder_id ? `<a href="${megaUrl}" target="_blank">Xem thêm trên Mega</a>` : ""}
     `;
     feedContainer.appendChild(card);
   });
