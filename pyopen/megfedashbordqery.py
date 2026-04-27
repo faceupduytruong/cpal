@@ -69,7 +69,8 @@ def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
                 date = parts[4] + " " + parts[5]      # ngày + giờ
                 path = parts[6]                       # đường dẫn đầy đủ
                 results.append({
-                    "name": path,                      # hiển thị luôn đường dẫn
+                    "name": os.path.basename(path) if not path.endswith("/") else path,
+                    "path": path,                      # đường dẫn đầy đủ
                     "id": file_id,
                     "size": size,
                     "date": date,
