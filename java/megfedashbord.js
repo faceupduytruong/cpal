@@ -10,7 +10,6 @@ function renderFeed(feed) {
       <p>📂 Loại: ${item.type}</p>
       <p>📦 Dung lượng: ${item.size}</p>
       <p>📅 Ngày: ${item.date}</p>
-      <p>ID: ${item.id}</p>
     `;
     feedContainer.appendChild(card);
   });
