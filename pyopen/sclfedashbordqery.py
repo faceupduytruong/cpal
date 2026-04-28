@@ -67,7 +67,11 @@ def ai_playlist(query: str = Query(...)):
             "https://soundcloud.com/trending-music-vn/sets/jazz",
             "https://soundcloud.com/trending-music-vn/sets/folk",
             "https://soundcloud.com/trending-music-vn/sets/electronic",
-            "https://soundcloud.com/trending-music-vn/sets/country"
+            "https://soundcloud.com/trending-music-vn/sets/hip-hop-rap",
+            "https://soundcloud.com/trending-music-vn/sets/house",
+            "https://soundcloud.com/trending-music-vn/sets/country",
+            "https://soundcloud.com/trending-music-vn/sets/techno",
+            "https://soundcloud.com/trending-music-vn/sets/rock-metal-punk"
         ],
         "soul": [
             "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts1",
