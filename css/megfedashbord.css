@@ -4,6 +4,12 @@ body {
   background: #f4f4f4;
 }
 
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
 @font-face {
   font-family: 'FC Coldwell Bridges Regular';
   src: url('https://raw.githubusercontent.com/faceupduytruong/cpal/main/fonts/FCColdwellBridges-Regular.woff2') format('woff2');
@@ -87,6 +93,12 @@ header h1 {
   height: 265px; /* cố định chiều cao */
   overflow-y: auto;    /* cho phép cuộn dọc */
   backdrop-filter: blur(5px); /* hiệu ứng mờ phía sau, tạo cảm giác kính */
+}
+
+/* Card trong dark mode */
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #ffffff;
 }
 
 .card h3 {
