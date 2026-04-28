@@ -39,7 +39,7 @@ header h1 {
 /* Hiệu ứng trượt nguyên dòng chữ */
 @keyframes slideText {
   0% {
-    transform: translateX(-90%);
+    transform: translateX(-95%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
   }
