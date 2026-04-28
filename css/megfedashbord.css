@@ -202,6 +202,6 @@ body.dark-mode .card {
 
 /* Khi click (dark mode) */
 body.dark-mode #toggleTheme {
-  background-color: rgba(0, 0, 0, 0.4); /* đen mờ */
+  background-color: rgba(0, 0, 0, 0.3); /* đen mờ */
   color: #fff;
 }
