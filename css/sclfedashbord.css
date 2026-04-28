@@ -4,6 +4,12 @@ body {
   background: #f4f4f4;
 }
 
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
 @font-face {
   font-family: 'FC Coldwell Bridges Regular';
   src: url('https://raw.githubusercontent.com/faceupduytruong/cpal/main/fonts/FCColdwellBridges-Regular.woff2') format('woff2');
@@ -168,4 +174,24 @@ header h1 {
 
 #ai-btn:hover {
   background-color: #28a745; /* cam khi hover */
+}
+
+/* Nút Mode 🥭 */
+#toggleTheme {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  padding: 0.3rem 0.7rem;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2); /* trắng mờ mặc định */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Khi click (dark mode) */
+body.dark-mode #toggleTheme {
+  background-color: rgba(0, 0, 0, 0.3); /* đen mờ */
+  color: #fff;
 }
