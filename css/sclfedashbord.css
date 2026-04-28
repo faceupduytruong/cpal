@@ -44,21 +44,31 @@ header h1 {
     opacity: 1;
   }
   5% {
-    transform: translateX(50%);
+    transform: translateX(65%);
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 0.8;
+  }
+  10% {
+    transform: translateX(30%);
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 0.4;
+  }
+  15% {
+    transform: translateX(10%);
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 0.8;
+  }
+  20% {
+    transform: translateX(-50%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
   }
-  10% {
-    transform: translateX(-50%);
-    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
-    opacity: 0.98;
-  }
-  20% {
+  25% {
     transform: translateX(-25%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 0.9;
   }
-  25% {
+  35% {
     transform: translateX(0%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 0.8;
@@ -71,25 +81,30 @@ header h1 {
   55% {
     transform: translateX(70%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
-    opacity: 0.8;
+    opacity: 0.7;
   }
-  75% {
+  65% {
     transform: translateX(100%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
-    opacity: 0.85;
+    opacity: 0.75;
+  }
+  75% {
+    transform: translateX(150%);
+    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
+    opacity: 0.75;
   }
   80% {
-    transform: translateX(150%);
+    transform: translateX(200%);
+    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
+    opacity: 0.8;
+  }
+  85% {
+    transform: translateX(245%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.9;
   }
-  85% {
-    transform: translateX(200%);
-    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
-    opacity: 0.92;
-  }
   97% {
-    transform: translateX(245%);
+    transform: translateX(200%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.95;
   }
