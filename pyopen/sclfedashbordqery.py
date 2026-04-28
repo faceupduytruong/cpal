@@ -80,6 +80,7 @@ def ai_playlist(query: str = Query(...)):
         ],
         "saigon": [
             "https://soundcloud.com/nhanhlaxanh/sets/sgp",
+            "https://soundcloud.com/nhanhlaxanh/sets/msgldt1"
             "https://soundcloud.com/nhanhlaxanh/sets/sgtls2"
         ],
         "dance": [
@@ -109,6 +110,7 @@ def ai_playlist(query: str = Query(...)):
             "https://soundcloud.com/nhanhlaxanh/sets/ltbcqk",
             "https://soundcloud.com/nhanhlaxanh/sets/xle",
             "https://soundcloud.com/nhanhlaxanh/sets/lmtls5",
+            "https://soundcloud.com/nhanhlaxanh/sets/bm1",
             "https://soundcloud.com/nhanhlaxanh/sets/999r2",
             "https://soundcloud.com/nhanhlaxanh/sets/999r1",
             "https://soundcloud.com/nhanhlaxanh/sets/ntgnl2",
@@ -122,6 +124,7 @@ def ai_playlist(query: str = Query(...)):
             "https://soundcloud.com/nhanhlaxanh/sets/lit",
             "https://soundcloud.com/nhanhlaxanh/sets/lip",
             "https://soundcloud.com/nhanhlaxanh/sets/lif2",
+            "https://soundcloud.com/nhanhlaxanh/sets/liai2",
             "https://soundcloud.com/nhanhlaxanh/sets/lis",
             "https://soundcloud.com/nhanhlaxanh/sets/lif1",
             "https://soundcloud.com/nhanhlaxanh/sets/lid2",
@@ -130,7 +133,8 @@ def ai_playlist(query: str = Query(...)):
         ],
         "sleep": [
             "https://soundcloud.com/nhanhlaxanh/sets/wpl",
-            "https://soundcloud.com/nhanhlaxanh/sets/kvyt"
+            "https://soundcloud.com/nhanhlaxanh/sets/kvyt",
+            "https://soundcloud.com/nhanhlaxanh/sets/sleep"
         ],
         "bolero": [
             "https://soundcloud.com/nhanhlaxanh/sets/bc4",
@@ -152,8 +156,17 @@ def ai_playlist(query: str = Query(...)):
             "https://soundcloud.com/nhanhlaxanh/sets/christmas2",
             "https://soundcloud.com/nhanhlaxanh/sets/christmas1"
         ],
+        "karaoke": [
+            "https://soundcloud.com/nhanhlaxanh/sets/karaoke"
+        ],
+        "a": [
+            "https://soundcloud.com/nhanhlaxanh/sets/eboa"
+        ],
         "mj": [
             "https://soundcloud.com/nhanhlaxanh/sets/mj1"
+        ],
+        "bs": [
+            "https://soundcloud.com/nhanhlaxanh/sets/glory"
         ],
     }
 
