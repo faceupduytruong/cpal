@@ -97,8 +97,10 @@ header h1 {
 
 /* Card trong dark mode */
 body.dark-mode .card {
-  background-color: #1e1e1e;
+  background: rgba(0, 0, 0, 0.6); /* nền trắng nhưng trong suốt 20% */
   color: #ffffff;
+  box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+  backdrop-filter: blur(5px); /* hiệu ứng mờ phía sau, tạo cảm giác kính */
 }
 
 .card h3 {
