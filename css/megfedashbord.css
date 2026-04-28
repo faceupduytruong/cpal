@@ -44,32 +44,32 @@ header h1 {
     opacity: 1;
   }
   15% {
-    transform: translateX(-100%);
+    transform: translateX(-110%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 0.95;
   }
   25% {
-    transform: translateX(-40%);
+    transform: translateX(-60%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 0.7;
   }
   50% {
-    transform: translateX(80%);
+    transform: translateX(40%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.5;
   }
   75% {
-    transform: translateX(100%);
+    transform: translateX(90%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.85;
   }
   97% {
-    transform: translateX(130%);
+    transform: translateX(120%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.95;
   }
   100% {
-    transform: translateX(160%);
+    transform: translateX(155%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
   }
