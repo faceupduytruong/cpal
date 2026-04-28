@@ -39,12 +39,12 @@ header h1 {
 /* Hiệu ứng trượt nguyên dòng chữ */
 @keyframes slideText {
   0% {
-    transform: translateX(-200%);
+    transform: translateX(-250%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
   }
   5% {
-    transform: translateX(-100%);
+    transform: translateX(-200%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
   }
@@ -76,10 +76,15 @@ header h1 {
   80% {
     transform: translateX(150%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
+    opacity: 0.85;
+  }
+  85% {
+    transform: translateX(200%);
+    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.9;
   }
   97% {
-    transform: translateX(200%);
+    transform: translateX(225%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.95;
   }
