@@ -44,22 +44,22 @@ header h1 {
     opacity: 1;
   }
   5% {
-    transform: translateX(0%);
+    transform: translateX(50%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
   }
   10% {
-    transform: translateX(-150%);
+    transform: translateX(-50%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 0.98;
   }
   20% {
-    transform: translateX(-50%);
+    transform: translateX(-25%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 0.9;
   }
   25% {
-    transform: translateX(-5%);
+    transform: translateX(0%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 0.8;
   }
@@ -89,7 +89,7 @@ header h1 {
     opacity: 0.92;
   }
   97% {
-    transform: translateX(225%);
+    transform: translateX(245%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.95;
   }
