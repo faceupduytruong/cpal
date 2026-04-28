@@ -39,17 +39,17 @@ header h1 {
 /* Hiệu ứng trượt nguyên dòng chữ */
 @keyframes slideText {
   0% {
-    transform: translateX(-150%);
+    transform: translateX(-160%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
   }
   15% {
-    transform: translateX(-70%);
+    transform: translateX(-100%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 0.95;
   }
   25% {
-    transform: translateX(30%);
+    transform: translateX(-40%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 0.7;
   }
@@ -69,7 +69,7 @@ header h1 {
     opacity: 0.95;
   }
   100% {
-    transform: translateX(170%);
+    transform: translateX(160%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
   }
