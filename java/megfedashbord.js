@@ -29,3 +29,22 @@ async function fetchFeed() {
     console.error("Lỗi khi lấy feed:", error);
   }
 }
+
+document.getElementById("toggleTheme").addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+
+  // lưu trạng thái vào localStorage để nhớ khi reload
+  if (document.body.classList.contains("dark-mode")) {
+    localStorage.setItem("theme", "dark");
+  } else {
+    localStorage.setItem("theme", "light");
+  }
+});
+
+// khi load trang, kiểm tra trạng thái đã lưu
+window.addEventListener("DOMContentLoaded", () => {
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+  }
+});
