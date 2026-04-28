@@ -80,7 +80,7 @@ def ai_playlist(query: str = Query(...)):
         ],
         "saigon": [
             "https://soundcloud.com/nhanhlaxanh/sets/sgp",
-            "https://soundcloud.com/nhanhlaxanh/sets/msgldt1"
+            "https://soundcloud.com/nhanhlaxanh/sets/msgldt1",
             "https://soundcloud.com/nhanhlaxanh/sets/sgtls2"
         ],
         "dance": [
