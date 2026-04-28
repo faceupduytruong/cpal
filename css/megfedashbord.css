@@ -54,22 +54,22 @@ header h1 {
     opacity: 0.7;
   }
   50% {
-    transform: translateX(175%);
+    transform: translateX(130%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.5;
   }
   75% {
-    transform: translateX(215%);
+    transform: translateX(170%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.85;
   }
   97% {
-    transform: translateX(265%);
+    transform: translateX(200%);
     text-shadow: 0 0 2px #660000, 0 0 4px #660000;
     opacity: 0.95;
   }
   100% {
-    transform: translateX(335%);
+    transform: translateX(250%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
   }
@@ -174,4 +174,24 @@ body.dark-mode .card {
 .text-area:focus {
   outline: none; /* bỏ viền mặc định */
   animation: rainbowGlow 20s infinite;
+}
+
+/* Nút Mode 🥭 */
+#toggleTheme {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  padding: 0.3rem 0.7rem;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2); /* trắng mờ mặc định */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Khi click (dark mode) */
+body.dark-mode #toggleTheme {
+  background-color: rgba(0, 0, 0, 0.4); /* đen mờ */
+  color: #fff;
 }
