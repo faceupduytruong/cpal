@@ -6,8 +6,27 @@ import subprocess
 import stat
 
 def remove_readonly(func, path, excinfo):
-    os.chmod(path, stat.S_IWRITE)
-    func(path)
+    try:
+        os.chmod(path, stat.S_IWRITE)
+        func(path)
+    except PermissionError:
+        print(f"⚠️ Không thể xóa {path}, bỏ qua...")
+
+def clear_folder(path):
+    """Xóa toàn bộ nội dung bên trong thư mục, giữ nguyên thư mục gốc"""
+    if os.path.exists(path):
+        for item in os.listdir(path):
+            item_path = os.path.join(path, item)
+            try:
+                if os.path.isdir(item_path):
+                    shutil.rmtree(item_path, onerror=remove_readonly)
+                else:
+                    os.remove(item_path)
+            except PermissionError:
+                print(f"⚠️ Không thể xóa {item_path}, bỏ qua...")
+        print(f"✅ Đã dọn sạch nội dung trong {path}")
+    else:
+        print(f"ℹ️ Thư mục {path} không tồn tại, bỏ qua.")
 
 def load_env(path):
     """Đọc file config.env và set biến môi trường"""
@@ -33,11 +52,7 @@ if not MEGA_USER or not MEGA_PASS:
 # 0. Xóa nội dung trong thư mục đích
 dst_folder = r"C:\Users\Admin\OneDrive\Documents\Reset System Windows\Music Playlist\Support Create Web\JavaScript GitHub"
 print("Đang xóa nội dung trong thư mục đích...")
-if os.path.exists(dst_folder):
-    shutil.rmtree(dst_folder, onerror=remove_readonly)
-    print("Đã xóa xong.")
-else:
-    print("Thư mục không tồn tại, bỏ qua bước này.")
+clear_folder(dst_folder)
 
 # 1. Tải file ZIP từ GitHub
 url = "https://github.com/faceupduytruong/cpal/archive/refs/heads/main.zip"
@@ -55,15 +70,14 @@ print("Đang giải nén...")
 with zipfile.ZipFile(zip_path, "r") as zip_ref:
     zip_ref.extractall(download_dir)
 
-# 3. Xóa nội dung trong thư mục đích (lặp lại)
+# 3. Dọn sạch thư mục đích (lặp lại)
 print("Đang xóa nội dung trong thư mục đích...")
-if os.path.exists(dst_folder):
-    shutil.rmtree(dst_folder, onerror=remove_readonly)
+clear_folder(dst_folder)
 
 # 4. Copy nội dung repo sang thư mục đích
 src_folder = os.path.join(download_dir, extract_folder)
 print("Đang copy nội dung...")
-shutil.copytree(src_folder, dst_folder)
+shutil.copytree(src_folder, dst_folder, dirs_exist_ok=True)
 
 # 5. Nén toàn bộ thư mục gốc với tên mới trong ZIP và di chuyển sang Desktop
 root_folder = r"C:\Users\Admin\OneDrive\Documents\Reset System Windows"
@@ -72,12 +86,11 @@ zip_output = zip_name + ".zip"
 
 print("Đang nén toàn bộ thư mục...")
 temp_dir = os.path.join(download_dir, "temp_zip")
-if os.path.exists(temp_dir):
-    shutil.rmtree(temp_dir, onerror=remove_readonly)
-os.makedirs(temp_dir)
+clear_folder(temp_dir)
+os.makedirs(temp_dir, exist_ok=True)
 
 new_root = os.path.join(temp_dir, zip_name)
-shutil.copytree(root_folder, new_root)
+shutil.copytree(root_folder, new_root, dirs_exist_ok=True)
 
 shutil.make_archive(zip_name, 'zip', temp_dir, zip_name)
 
@@ -94,9 +107,16 @@ for item in os.listdir(download_dir):
     if item.startswith("cpal-") or item == "temp_zip":
         item_path = os.path.join(download_dir, item)
         if os.path.isdir(item_path):
-            shutil.rmtree(item_path, onerror=remove_readonly)
+            clear_folder(item_path)
+            try:
+                os.rmdir(item_path)
+            except OSError:
+                pass
         else:
-            os.remove(item_path)
+            try:
+                os.remove(item_path)
+            except PermissionError:
+                print(f"⚠️ Không thể xóa file {item_path}, bỏ qua...")
 
 # 7. Upload lên Mega.nz
 print("Đang upload lên Mega.nz...")
