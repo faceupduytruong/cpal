@@ -43,8 +43,8 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 config_path = os.path.join(script_dir, "config.env")
 load_env(config_path)
 
-MEGA_USER = os.getenv("MEGA_USER")
-MEGA_PASS = os.getenv("MEGA_PASS")
+MEGA_USER = os.getenv("MEGA_USER1")
+MEGA_PASS = os.getenv("MEGA_PASS1")
 
 if not MEGA_USER or not MEGA_PASS:
     raise ValueError("Thiếu MEGA_USER hoặc MEGA_PASS trong config.env")
