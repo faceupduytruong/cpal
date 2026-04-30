@@ -1,115 +1,129 @@
-function renderFeed(feed) {
-  const feedContainer = document.getElementById("feed");
-  feedContainer.innerHTML = "";
-  
-  feed.forEach(item => {
-    const card = document.createElement("div");
-    card.className = "card";
+import os
+import subprocess
+from fastapi import FastAPI, Query
+from fastapi.middleware.cors import CORSMiddleware
+from collections import defaultdict
+from datetime import datetime
+from typing import Optional
 
-    const megaUrl = `https://mega.nz/fm/k4lH3BoZ`;
+# --- Load config.env ---
+script_dir = os.path.dirname(os.path.abspath(__file__))
+config_path = os.path.join(script_dir, "config.env")
 
-    card.innerHTML = `
-      <h3>${item.path}</h3>
-      <p>📦 Dung lượng: ${item.size}</p>
-      <p>📅 Ngày: ${item.date}</p>
-      <a href="${megaUrl}" target="_blank">Xem thêm trên Mega</a>
-    `;
-    feedContainer.appendChild(card);
-  });
-}
+def load_env(path):
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            for line in f:
+                if "=" in line:
+                    key, value = line.strip().split("=", 1)
+                    os.environ[key] = value
 
-async function fetchFeed(query) {
-  const response = await fetch(`http://127.0.0.1:8000/feed?q=${encodeURIComponent(query)}`);
-  const data = await response.json();
-  renderFeed(data.feed);
-}
+load_env(config_path)
 
-let folderChart, yearChart;
+MEGA_USER1 = os.getenv("MEGA_USER1")
+MEGA_PASS1 = os.getenv("MEGA_PASS1")
+MEGA_USER2 = os.getenv("MEGA_USER2")
+MEGA_PASS2 = os.getenv("MEGA_PASS2")
 
-async function fetchStats(query) {
-  // nếu có query thì truyền, nếu không thì lấy toàn bộ
-  const url = query 
-    ? `http://127.0.0.1:8000/stats?q=${encodeURIComponent(query)}`
-    : `http://127.0.0.1:8000/stats`;
+if not MEGA_USER1 or not MEGA_PASS1 or not MEGA_USER2 or not MEGA_PASS2:
+    raise ValueError("Thiếu MEGA_USER1/MEGA_PASS1 hoặc MEGA_USER2/MEGA_PASS2 trong config.env")
 
-  const response = await fetch(url);
-  const data = await response.json();
+# Đường dẫn tới megatools.exe
+megatools_exe = r"C:\ProgramData\chocolatey\bin\megatools.exe"
 
-  if (folderChart) folderChart.destroy();
-  if (yearChart) yearChart.destroy();
+app = FastAPI()
 
-  const textColor = document.body.classList.contains("dark-mode") ? "#ffffff" : "#000000";
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-  const ctx1 = document.getElementById("folderChart").getContext("2d");
-  folderChart = new Chart(ctx1, {
-    type: "bar",
-    data: {
-      labels: Object.keys(data.folder_sizes),
-      datasets: [{
-        label: "Dung lượng (MB)",
-        data: Object.values(data.folder_sizes),
-        backgroundColor: "rgba(75, 192, 192, 0.6)"
-      }]
-    },
-    options: {
-      plugins: { legend: { labels: { color: textColor } } },
-      scales: {
-        x: { ticks: { color: textColor } },
-        y: { ticks: { color: textColor } }
-      }
+def format_size(size_str: str) -> str:
+    """Chuyển bytes sang MB, làm tròn 2 chữ số thập phân"""
+    try:
+        size = int(size_str)
+        return f"{size/1024/1024:.2f} MB"
+    except ValueError:
+        return size_str
+
+def run_megatools(user, password):
+    cmd = [
+        megatools_exe, "ls",
+        "--username", user,
+        "--password", password,
+        "--long"
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="ignore")
+    if result.returncode != 0:
+        return []
+    return result.stdout.splitlines() if result.stdout else []
+
+@app.get("/feed")
+def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
+    output1 = run_megatools(MEGA_USER1, MEGA_PASS1)
+    output2 = run_megatools(MEGA_USER2, MEGA_PASS2)
+
+    results = []
+
+    for account_name, output in [("Account1", output1), ("Account2", output2)]:
+        for line in output:
+            if q.lower() in line.lower():
+                parts = line.strip().split(maxsplit=6)
+                if len(parts) == 7:
+                    file_id = parts[0]
+                    size = format_size(parts[3])
+                    date = parts[4] + " " + parts[5]
+                    path = parts[6]
+                    results.append({
+                        "name": os.path.basename(path) if not path.endswith("/") else path,
+                        "path": path,
+                        "id": file_id,
+                        "size": size,
+                        "date": date,
+                        "type": "folder" if path.endswith("/") else "file",
+                        "account": account_name   # thêm thông tin tài khoản
+                    })
+
+    return {"feed": results}
+
+@app.get("/stats")
+def get_stats(q: Optional[str] = Query(None, description="Từ khóa tìm kiếm (có thể bỏ trống)")):
+    output1 = run_megatools(MEGA_USER1, MEGA_PASS1)
+    output2 = run_megatools(MEGA_USER2, MEGA_PASS2)
+
+    folder_sizes = defaultdict(int)
+    files_per_year = defaultdict(int)
+
+    for output in [output1, output2]:
+        for line in output:
+            # nếu có query thì lọc, nếu không thì lấy tất cả
+            if q is None or q.lower() in line.lower():
+                parts = line.strip().split(maxsplit=6)
+                if len(parts) == 7:
+                    size_str = parts[3]
+                    path = parts[6]
+                    try:
+                        size = int(size_str)
+                    except ValueError:
+                        size = 0
+
+                    folder = path.strip("/").split("/")[0] if "/" in path else path
+                    folder_sizes[folder] += size
+
+                    date_str = parts[4]
+                    try:
+                        year = datetime.strptime(date_str, "%Y-%m-%d").year
+                        if not path.endswith("/"):
+                            files_per_year[year] += 1
+                    except Exception:
+                        pass
+
+    folder_sizes_mb = {folder: round(sz/1024/1024, 2) for folder, sz in folder_sizes.items()}
+
+    return {
+        "folder_sizes": folder_sizes_mb,
+        "files_per_year": files_per_year
     }
-  });
-
-  const ctx2 = document.getElementById("yearChart").getContext("2d");
-  yearChart = new Chart(ctx2, {
-    type: "line",
-    data: {
-      labels: Object.keys(data.files_per_year),
-      datasets: [{
-        label: "Số lượng file",
-        data: Object.values(data.files_per_year),
-        borderColor: "rgba(255, 99, 132, 0.8)",
-        fill: false
-      }]
-    },
-    options: {
-      plugins: { legend: { labels: { color: textColor } } },
-      scales: {
-        x: { ticks: { color: textColor } },
-        y: { ticks: { color: textColor } }
-      }
-    }
-  });
-}
-
-// Hàm tìm kiếm chung
-async function doSearch() {
-  const query = document.getElementById("query").value.trim();
-  if (query) {
-    await fetchFeed(query);
-    await fetchStats(query);
-  } else {
-    // nếu không nhập query thì chỉ vẽ chart tổng
-    document.getElementById("feed").innerHTML = "";
-    await fetchStats();
-  }
-}
-
-// Khi load trang, kiểm tra trạng thái đã lưu và vẽ chart tổng
-window.addEventListener("DOMContentLoaded", () => {
-  const savedTheme = localStorage.getItem("theme");
-  if (savedTheme === "dark") {
-    document.body.classList.add("dark-mode");
-  }
-  fetchStats(); // chart tổng khi load
-});
-
-// Nút Search
-document.getElementById("searchButton").addEventListener("click", doSearch);
-
-// Toggle theme
-document.getElementById("toggleTheme").addEventListener("click", () => {
-  document.body.classList.toggle("dark-mode");
-  localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
-  doSearch(); // vẽ lại feed + chart theo theme
-});
