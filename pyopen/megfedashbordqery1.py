@@ -4,6 +4,7 @@ from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from collections import defaultdict
 from datetime import datetime
+from typing import Optional
 
 # --- Load config.env ---
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -89,7 +90,7 @@ def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
     return {"feed": results}
 
 @app.get("/stats")
-def get_stats(q: str = Query(..., description="Từ khóa tìm kiếm")):
+def get_stats(q: Optional[str] = Query(None, description="Từ khóa tìm kiếm (có thể bỏ trống)")):
     output1 = run_megatools(MEGA_USER1, MEGA_PASS1)
     output2 = run_megatools(MEGA_USER2, MEGA_PASS2)
 
@@ -98,7 +99,8 @@ def get_stats(q: str = Query(..., description="Từ khóa tìm kiếm")):
 
     for output in [output1, output2]:
         for line in output:
-            if q.lower() in line.lower():   # lọc theo query
+            # nếu có query thì lọc, nếu không thì lấy tất cả
+            if q is None or q.lower() in line.lower():
                 parts = line.strip().split(maxsplit=6)
                 if len(parts) == 7:
                     size_str = parts[3]
@@ -108,15 +110,13 @@ def get_stats(q: str = Query(..., description="Từ khóa tìm kiếm")):
                     except ValueError:
                         size = 0
 
-                    # thống kê dung lượng theo folder gốc
                     folder = path.strip("/").split("/")[0] if "/" in path else path
                     folder_sizes[folder] += size
 
-                    # thống kê số lượng file theo năm
-                    date_str = parts[4]  # định dạng YYYY-MM-DD
+                    date_str = parts[4]
                     try:
                         year = datetime.strptime(date_str, "%Y-%m-%d").year
-                        if not path.endswith("/"):  # chỉ tính file
+                        if not path.endswith("/"):
                             files_per_year[year] += 1
                     except Exception:
                         pass
