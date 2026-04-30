@@ -48,3 +48,42 @@ window.addEventListener("DOMContentLoaded", () => {
     document.body.classList.add("dark-mode");
   }
 });
+
+let folderChart, yearChart;
+
+async function fetchStats() {
+  const response = await fetch("http://127.0.0.1:8000/stats");
+  const data = await response.json();
+
+  if (folderChart) folderChart.destroy();
+  if (yearChart) yearChart.destroy();
+
+  const ctx1 = document.getElementById("folderChart").getContext("2d");
+  folderChart = new Chart(ctx1, {
+    type: "bar",
+    data: {
+      labels: Object.keys(data.folder_sizes),
+      datasets: [{
+        label: "Dung lượng (MB)",
+        data: Object.values(data.folder_sizes),
+        backgroundColor: "rgba(75, 192, 192, 0.6)"
+      }]
+    }
+  });
+
+  const ctx2 = document.getElementById("yearChart").getContext("2d");
+  yearChart = new Chart(ctx2, {
+    type: "line",
+    data: {
+      labels: Object.keys(data.files_per_year),
+      datasets: [{
+        label: "Số lượng file",
+        data: Object.values(data.files_per_year),
+        borderColor: "rgba(255, 99, 132, 0.8)",
+        fill: false
+      }]
+    }
+  });
+}
+
+window.addEventListener("DOMContentLoaded", fetchStats);
