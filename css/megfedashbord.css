@@ -208,8 +208,11 @@ body.dark-mode #toggleTheme {
 
 /* Canvas mặc định (light mode) */
 canvas {
+  display: block;        /* để canvas chiếm nguyên dòng */
+  margin: 1rem;          /* cách đều xung quanh */
+  margin-left: 1rem;     /* riêng cách bên trái */
+  border-radius: 6px;    /* bo góc cho đẹp */
   background-color: rgba(255, 255, 255, 0.6); /* nền trắng nhưng trong suốt 20% */
-  border-radius: 6px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
