@@ -58,6 +58,9 @@ async function fetchStats() {
   if (folderChart) folderChart.destroy();
   if (yearChart) yearChart.destroy();
 
+  // Lấy màu chữ theo theme hiện tại
+  const textColor = document.body.classList.contains("dark-mode") ? "#ffffff" : "#000000";
+
   const ctx1 = document.getElementById("folderChart").getContext("2d");
   folderChart = new Chart(ctx1, {
     type: "bar",
@@ -68,6 +71,15 @@ async function fetchStats() {
         data: Object.values(data.folder_sizes),
         backgroundColor: "rgba(75, 192, 192, 0.6)"
       }]
+    },
+    options: {
+      plugins: {
+        legend: { labels: { color: textColor } }
+      },
+      scales: {
+        x: { ticks: { color: textColor } },
+        y: { ticks: { color: textColor } }
+      }
     }
   });
 
@@ -82,6 +94,15 @@ async function fetchStats() {
         borderColor: "rgba(255, 99, 132, 0.8)",
         fill: false
       }]
+    },
+    options: {
+      plugins: {
+        legend: { labels: { color: textColor } }
+      },
+      scales: {
+        x: { ticks: { color: textColor } },
+        y: { ticks: { color: textColor } }
+      }
     }
   });
 }
