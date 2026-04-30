@@ -6,7 +6,6 @@ function renderFeed(feed) {
     const card = document.createElement("div");
     card.className = "card";
 
-    // dẫn tới trang Mega Search với tên/path
     const megaUrl = `https://mega.nz/fm/k4lH3BoZ`;
 
     card.innerHTML = `
@@ -21,7 +20,7 @@ function renderFeed(feed) {
 
 async function fetchFeed() {
   try {
-    const query = document.getElementById("query").value; // lấy từ ô input
+    const query = document.getElementById("query").value;
     const response = await fetch(`http://127.0.0.1:8000/feed?q=${encodeURIComponent(query)}`);
     const data = await response.json();
     renderFeed(data.feed);
@@ -30,23 +29,13 @@ async function fetchFeed() {
   }
 }
 
-document.getElementById("toggleTheme").addEventListener("click", () => {
-  document.body.classList.toggle("dark-mode");
-
-  // lưu trạng thái vào localStorage để nhớ khi reload
-  if (document.body.classList.contains("dark-mode")) {
-    localStorage.setItem("theme", "dark");
-  } else {
-    localStorage.setItem("theme", "light");
-  }
-});
-
-// khi load trang, kiểm tra trạng thái đã lưu
+// Khi load trang, kiểm tra trạng thái đã lưu
 window.addEventListener("DOMContentLoaded", () => {
   const savedTheme = localStorage.getItem("theme");
   if (savedTheme === "dark") {
     document.body.classList.add("dark-mode");
   }
+  fetchStats(); // vẽ biểu đồ ngay khi load
 });
 
 let folderChart, yearChart;
@@ -58,7 +47,6 @@ async function fetchStats() {
   if (folderChart) folderChart.destroy();
   if (yearChart) yearChart.destroy();
 
-  // Lấy màu chữ theo theme hiện tại
   const textColor = document.body.classList.contains("dark-mode") ? "#ffffff" : "#000000";
 
   const ctx1 = document.getElementById("folderChart").getContext("2d");
@@ -73,9 +61,7 @@ async function fetchStats() {
       }]
     },
     options: {
-      plugins: {
-        legend: { labels: { color: textColor } }
-      },
+      plugins: { legend: { labels: { color: textColor } } },
       scales: {
         x: { ticks: { color: textColor } },
         y: { ticks: { color: textColor } }
@@ -96,9 +82,7 @@ async function fetchStats() {
       }]
     },
     options: {
-      plugins: {
-        legend: { labels: { color: textColor } }
-      },
+      plugins: { legend: { labels: { color: textColor } } },
       scales: {
         x: { ticks: { color: textColor } },
         y: { ticks: { color: textColor } }
@@ -107,12 +91,9 @@ async function fetchStats() {
   });
 }
 
-// Khi load trang
-window.addEventListener("DOMContentLoaded", fetchStats);
-
-// Khi toggle theme thì vẽ lại biểu đồ để đổi màu chữ
+// Nút toggle theme: gộp lại một listener duy nhất
 document.getElementById("toggleTheme").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
-  fetchStats(); // vẽ lại với màu chữ mới
+  fetchStats(); // vẽ lại biểu đồ với màu chữ mới
 });
