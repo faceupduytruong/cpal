@@ -2,6 +2,8 @@ import os
 import subprocess
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
+from collections import defaultdict
+from datetime import datetime
 
 # --- Load config.env ---
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -85,3 +87,43 @@ def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
                     })
 
     return {"feed": results}
+
+@app.get("/stats")
+def get_stats():
+    output1 = run_megatools(MEGA_USER1, MEGA_PASS1)
+    output2 = run_megatools(MEGA_USER2, MEGA_PASS2)
+
+    folder_sizes = defaultdict(int)
+    files_per_year = defaultdict(int)
+
+    for output in [output1, output2]:
+        for line in output:
+            parts = line.strip().split(maxsplit=6)
+            if len(parts) == 7:
+                size_str = parts[3]
+                path = parts[6]
+                try:
+                    size = int(size_str)
+                except ValueError:
+                    size = 0
+
+                # thống kê dung lượng theo folder gốc
+                folder = path.strip("/").split("/")[0] if "/" in path else path
+                folder_sizes[folder] += size
+
+                # thống kê số lượng file theo năm
+                date_str = parts[4]  # định dạng YYYY-MM-DD
+                try:
+                    year = datetime.strptime(date_str, "%Y-%m-%d").year
+                    if not path.endswith("/"):  # chỉ tính file
+                        files_per_year[year] += 1
+                except Exception:
+                    pass
+
+    # chuyển sang MB và dict
+    folder_sizes_mb = {folder: round(sz/1024/1024, 2) for folder, sz in folder_sizes.items()}
+
+    return {
+        "folder_sizes": folder_sizes_mb,
+        "files_per_year": files_per_year
+    }
