@@ -27,7 +27,12 @@ async function fetchFeed(query) {
 let folderChart, yearChart;
 
 async function fetchStats(query) {
-  const response = await fetch(`http://127.0.0.1:8000/stats?q=${encodeURIComponent(query)}`);
+  // nếu có query thì truyền, nếu không thì lấy toàn bộ
+  const url = query 
+    ? `http://127.0.0.1:8000/stats?q=${encodeURIComponent(query)}`
+    : `http://127.0.0.1:8000/stats`;
+
+  const response = await fetch(url);
   const data = await response.json();
 
   if (folderChart) folderChart.destroy();
@@ -79,21 +84,24 @@ async function fetchStats(query) {
 
 // Hàm tìm kiếm chung
 async function doSearch() {
-  const query = document.getElementById("query").value;
-  if (!query) {
-    console.warn("⚠️ Bạn chưa nhập từ khóa tìm kiếm");
-    return;
+  const query = document.getElementById("query").value.trim();
+  if (query) {
+    await fetchFeed(query);
+    await fetchStats(query);
+  } else {
+    // nếu không nhập query thì chỉ vẽ chart tổng
+    document.getElementById("feed").innerHTML = "";
+    await fetchStats();
   }
-  await fetchFeed(query);
-  await fetchStats(query);
 }
 
-// Khi load trang, kiểm tra trạng thái đã lưu
+// Khi load trang, kiểm tra trạng thái đã lưu và vẽ chart tổng
 window.addEventListener("DOMContentLoaded", () => {
   const savedTheme = localStorage.getItem("theme");
   if (savedTheme === "dark") {
     document.body.classList.add("dark-mode");
   }
+  fetchStats(); // chart tổng khi load
 });
 
 // Nút Search
