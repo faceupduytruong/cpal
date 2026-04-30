@@ -18,30 +18,16 @@ function renderFeed(feed) {
   });
 }
 
-async function fetchFeed() {
-  try {
-    const query = document.getElementById("query").value;
-    const response = await fetch(`http://127.0.0.1:8000/feed?q=${encodeURIComponent(query)}`);
-    const data = await response.json();
-    renderFeed(data.feed);
-  } catch (error) {
-    console.error("Lỗi khi lấy feed:", error);
-  }
+async function fetchFeed(query) {
+  const response = await fetch(`http://127.0.0.1:8000/feed?q=${encodeURIComponent(query)}`);
+  const data = await response.json();
+  renderFeed(data.feed);
 }
-
-// Khi load trang, kiểm tra trạng thái đã lưu
-window.addEventListener("DOMContentLoaded", () => {
-  const savedTheme = localStorage.getItem("theme");
-  if (savedTheme === "dark") {
-    document.body.classList.add("dark-mode");
-  }
-  fetchStats(); // vẽ biểu đồ ngay khi load
-});
 
 let folderChart, yearChart;
 
-async function fetchStats() {
-  const response = await fetch("http://127.0.0.1:8000/stats");
+async function fetchStats(query) {
+  const response = await fetch(`http://127.0.0.1:8000/stats?q=${encodeURIComponent(query)}`);
   const data = await response.json();
 
   if (folderChart) folderChart.destroy();
@@ -91,9 +77,24 @@ async function fetchStats() {
   });
 }
 
-// Nút toggle theme: gộp lại một listener duy nhất
+// Hàm tìm kiếm chung
+async function doSearch() {
+  const query = document.getElementById("query").value;
+  await fetchFeed(query);
+  await fetchStats(query);
+}
+
+// Khi load trang, kiểm tra trạng thái đã lưu
+window.addEventListener("DOMContentLoaded", () => {
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+  }
+});
+
+// Toggle theme
 document.getElementById("toggleTheme").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
-  fetchStats(); // vẽ lại biểu đồ với màu chữ mới
+  doSearch(); // vẽ lại feed + chart theo theme
 });
