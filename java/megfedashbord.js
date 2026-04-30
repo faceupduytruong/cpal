@@ -107,4 +107,12 @@ async function fetchStats() {
   });
 }
 
+// Khi load trang
 window.addEventListener("DOMContentLoaded", fetchStats);
+
+// Khi toggle theme thì vẽ lại biểu đồ để đổi màu chữ
+document.getElementById("toggleTheme").addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+  localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
+  fetchStats(); // vẽ lại với màu chữ mới
+});
