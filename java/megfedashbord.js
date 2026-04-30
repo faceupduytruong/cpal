@@ -80,6 +80,10 @@ async function fetchStats(query) {
 // Hàm tìm kiếm chung
 async function doSearch() {
   const query = document.getElementById("query").value;
+  if (!query) {
+    console.warn("⚠️ Bạn chưa nhập từ khóa tìm kiếm");
+    return;
+  }
   await fetchFeed(query);
   await fetchStats(query);
 }
@@ -91,6 +95,9 @@ window.addEventListener("DOMContentLoaded", () => {
     document.body.classList.add("dark-mode");
   }
 });
+
+// Nút Search
+document.getElementById("searchButton").addEventListener("click", doSearch);
 
 // Toggle theme
 document.getElementById("toggleTheme").addEventListener("click", () => {
