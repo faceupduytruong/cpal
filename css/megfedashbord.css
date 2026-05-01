@@ -209,7 +209,6 @@ body.dark-mode #toggleChart {
 }
 
 #chartContainer {
-  margin: 1rem;              /* cách đều xung quanh */
   padding: 1rem;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.6);
