@@ -209,6 +209,7 @@ body.dark-mode #toggleChart {
 }
 
 #chartContainer {
+  margin: 1rem;              /* cách đều xung quanh */
   padding: 1rem;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.6);
@@ -235,4 +236,10 @@ body.dark-mode #chartContainer {
   margin: 0 auto 1rem auto;
   border-radius: 6px;
   background-color: transparent;
+}
+
+/* Khi ẩn chartContainer */
+#chartContainer.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
