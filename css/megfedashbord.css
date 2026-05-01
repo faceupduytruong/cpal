@@ -39,7 +39,7 @@ header h1 {
 /* Hiệu ứng trượt nguyên dòng chữ */
 @keyframes slideText {
   0% {
-    transform: translateX(-155%);
+    transform: translateX(-145%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
   }
@@ -79,7 +79,7 @@ header h1 {
     opacity: 0.95;
   }
   100% {
-    transform: translateX(155%);
+    transform: translateX(145%);
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
   }
@@ -212,7 +212,7 @@ body.dark-mode #toggleChart {
   margin: 1rem;              /* cách lề giống card */
   padding: 1rem;             /* khoảng cách bên trong */
   border-radius: 8px;        /* bo góc */
-  background: linear-gradient(135deg, #00c9a7, #92fe9d); /* xanh lục ngọc gradient */
+  background: rgba(255, 255, 255, 0.3); /* nền sáng mặc định */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* bóng nhẹ */
   backdrop-filter: blur(5px); /* hiệu ứng kính mờ */
   transition: margin-top 0.4s ease, opacity 0.4s ease; /* hiệu ứng mượt */
