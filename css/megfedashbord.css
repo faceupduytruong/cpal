@@ -218,6 +218,9 @@ body.dark-mode #toggleChart {
   transition: margin-top 0.4s ease, opacity 0.4s ease; /* hiệu ứng mượt */
   margin-top: -1px; /* trượt lên trên */
   pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;                 /* khoảng cách giữa các canvas bên trong */
 }
 
 /* Dark mode */
