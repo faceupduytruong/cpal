@@ -64,7 +64,7 @@ async function fetchStats(query) {
     }
   });
 
-  // Line chart với màu xanh đọt chuối
+  // Line chart giữ nguyên màu đỏ
   const ctx2 = document.getElementById("yearChart").getContext("2d");
   yearChart = new Chart(ctx2, {
     type: "line",
@@ -73,7 +73,7 @@ async function fetchStats(query) {
       datasets: [{
         label: "Số lượng file",
         data: Object.values(data.files_per_year),
-        borderColor: "#7FFF00", // xanh đọt chuối
+        borderColor: "rgba(255, 99, 132, 0.8)", // đỏ như cũ
         fill: false,
         tension: 0.3
       }]
