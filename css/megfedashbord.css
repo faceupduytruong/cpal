@@ -243,5 +243,6 @@ body.dark-mode #chartContainer {
 /* Khi ẩn chartContainer */
 #chartContainer.hidden {
   opacity: 0;
+  margin-top: -50px; /* trượt lên trên khi ẩn */
   pointer-events: none;
 }
