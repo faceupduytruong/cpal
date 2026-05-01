@@ -219,7 +219,7 @@ body.dark-mode #toggleChart {
   display: flex;
   flex-direction: column;
   gap: 1rem;                 /* khoảng cách giữa các canvas bên trong */
-  margin-top: -1px; /* trượt lên trên */
+  margin-top: 0px; /* trượt lên trên */
 }
 
 /* Dark mode */
