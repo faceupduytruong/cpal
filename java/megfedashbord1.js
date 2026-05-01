@@ -44,8 +44,8 @@ async function fetchStats(query) {
   const barGradient = ctx1.createLinearGradient(0, 0, 0, 400);
 
   // thêm alpha 0.6 để trong suốt giống lúc đầu
-  barGradient.addColorStop(0, "rgba(127, 255, 0, 1)"); // xanh đọt chuối trong suốt
-  barGradient.addColorStop(1, "rgba(173, 255, 47, 1)"); // xanh nhạt hơn trong suốt
+  barGradient.addColorStop(0, "rgba(127, 255, 0, 0.3)"); // xanh đọt chuối trong suốt
+  barGradient.addColorStop(1, "rgba(173, 255, 47, 0.3)"); // xanh nhạt hơn trong suốt
 
   folderChart = new Chart(ctx1, {
     type: "bar",
@@ -75,7 +75,7 @@ async function fetchStats(query) {
       datasets: [{
         label: "Số lượng file",
         data: Object.values(data.files_per_year),
-        borderColor: "rgba(255, 99, 132, 1)", // đỏ như cũ
+        borderColor: "rgba(255, 99, 132, 0.3)", // đỏ như cũ
         fill: false,
         tension: 0.3
       }]
