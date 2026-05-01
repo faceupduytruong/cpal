@@ -47,11 +47,8 @@ async function fetchStats(query = "") {
 
   const textColor = document.body.classList.contains("dark-mode") ? "#ffffff" : "#000000";
 
+  // Bar chart giữ nguyên màu cũ
   const ctx1 = document.getElementById("folderChart").getContext("2d");
-  const barGradient = ctx1.createLinearGradient(0, 0, 0, 400);
-  barGradient.addColorStop(0, "rgba(127, 255, 0, 0.6)");
-  barGradient.addColorStop(1, "rgba(173, 255, 47, 0.6)");
-
   folderChart = new Chart(ctx1, {
     type: "bar",
     data: {
@@ -59,7 +56,7 @@ async function fetchStats(query = "") {
       datasets: [{
         label: "Dung lượng (MB)",
         data: Object.values(data.folder_sizes),
-        backgroundColor: barGradient
+        backgroundColor: "rgba(75, 192, 192, 0.6)" // giữ màu cũ
       }]
     },
     options: {
@@ -71,6 +68,7 @@ async function fetchStats(query = "") {
     }
   });
 
+  // Line chart giữ nguyên màu đỏ
   const ctx2 = document.getElementById("yearChart").getContext("2d");
   yearChart = new Chart(ctx2, {
     type: "line",
@@ -79,7 +77,7 @@ async function fetchStats(query = "") {
       datasets: [{
         label: "Số lượng file",
         data: Object.values(data.files_per_year),
-        borderColor: "rgba(255, 99, 132, 0.8)", // giữ màu đỏ
+        borderColor: "rgba(255, 99, 132, 0.8)", // đỏ như cũ
         fill: false,
         tension: 0.3
       }]
@@ -107,7 +105,8 @@ window.addEventListener("DOMContentLoaded", () => {
 document.getElementById("toggleTheme").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
-  // vẽ lại chart theo theme hiện tại
+
+  // vẽ lại chart theo theme hiện tại và query đang nhập
   const query = document.getElementById("query").value.trim();
   fetchStats(query);
 });
