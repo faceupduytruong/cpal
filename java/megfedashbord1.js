@@ -117,3 +117,8 @@ document.getElementById("toggleChart").addEventListener("click", () => {
   const chartContainer = document.getElementById("chartContainer");
   chartContainer.style.display = chartContainer.style.display === "none" ? "block" : "none";
 });
+
+document.getElementById("toggleChart").addEventListener("click", () => {
+  const chartContainer = document.getElementById("chartContainer");
+  chartContainer.classList.toggle("hidden");
+});
