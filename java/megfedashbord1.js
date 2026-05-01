@@ -39,7 +39,12 @@ async function fetchStats(query) {
 
   const textColor = document.body.classList.contains("dark-mode") ? "#ffffff" : "#000000";
 
+  // Bar chart với gradient xanh đọt chuối
   const ctx1 = document.getElementById("folderChart").getContext("2d");
+  const barGradient = ctx1.createLinearGradient(0, 0, 0, 400);
+  barGradient.addColorStop(0, "#7FFF00");   // xanh đọt chuối
+  barGradient.addColorStop(1, "#ADFF2F");   // xanh nhạt hơn
+
   folderChart = new Chart(ctx1, {
     type: "bar",
     data: {
@@ -47,7 +52,7 @@ async function fetchStats(query) {
       datasets: [{
         label: "Dung lượng (MB)",
         data: Object.values(data.folder_sizes),
-        backgroundColor: "linear-gradient(135deg, #00c9a7, #92fe9d)"  /* xanh lục ngọc gradient */
+        backgroundColor: barGradient
       }]
     },
     options: {
@@ -59,6 +64,7 @@ async function fetchStats(query) {
     }
   });
 
+  // Line chart với màu xanh đọt chuối
   const ctx2 = document.getElementById("yearChart").getContext("2d");
   yearChart = new Chart(ctx2, {
     type: "line",
@@ -67,8 +73,9 @@ async function fetchStats(query) {
       datasets: [{
         label: "Số lượng file",
         data: Object.values(data.files_per_year),
-        borderColor: "rgba(255, 99, 132, 0.8)",
-        fill: false
+        borderColor: "#7FFF00", // xanh đọt chuối
+        fill: false,
+        tension: 0.3
       }]
     },
     options: {
@@ -113,11 +120,6 @@ document.getElementById("toggleTheme").addEventListener("click", () => {
 });
 
 // Toggle chart hiển thị/ẩn
-document.getElementById("toggleChart").addEventListener("click", () => {
-  const chartContainer = document.getElementById("chartContainer");
-  chartContainer.style.display = chartContainer.style.display === "none" ? "block" : "none";
-});
-
 document.getElementById("toggleChart").addEventListener("click", () => {
   const chartContainer = document.getElementById("chartContainer");
   chartContainer.classList.toggle("hidden");
