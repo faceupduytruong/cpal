@@ -20,28 +20,26 @@ function renderFeed(feed) {
 
 async function fetchFeed() {
   try {
-    const query = document.getElementById("query").value;
+    const query = document.getElementById("query").value.trim();
     const response = await fetch(`http://127.0.0.1:8000/feed?q=${encodeURIComponent(query)}`);
     const data = await response.json();
     renderFeed(data.feed);
+
+    // gọi thêm fetchStats với query để cập nhật chart
+    await fetchStats(query);
   } catch (error) {
     console.error("Lỗi khi lấy feed:", error);
   }
 }
 
-// Khi load trang, kiểm tra trạng thái đã lưu
-window.addEventListener("DOMContentLoaded", () => {
-  const savedTheme = localStorage.getItem("theme");
-  if (savedTheme === "dark") {
-    document.body.classList.add("dark-mode");
-  }
-  fetchStats(); // vẽ biểu đồ ngay khi load
-});
-
 let folderChart, yearChart;
 
-async function fetchStats() {
-  const response = await fetch("http://127.0.0.1:8000/stats");
+async function fetchStats(query = "") {
+  const url = query
+    ? `http://127.0.0.1:8000/stats?q=${encodeURIComponent(query)}`
+    : `http://127.0.0.1:8000/stats`;
+
+  const response = await fetch(url);
   const data = await response.json();
 
   if (folderChart) folderChart.destroy();
@@ -50,6 +48,10 @@ async function fetchStats() {
   const textColor = document.body.classList.contains("dark-mode") ? "#ffffff" : "#000000";
 
   const ctx1 = document.getElementById("folderChart").getContext("2d");
+  const barGradient = ctx1.createLinearGradient(0, 0, 0, 400);
+  barGradient.addColorStop(0, "rgba(127, 255, 0, 0.6)");
+  barGradient.addColorStop(1, "rgba(173, 255, 47, 0.6)");
+
   folderChart = new Chart(ctx1, {
     type: "bar",
     data: {
@@ -57,7 +59,7 @@ async function fetchStats() {
       datasets: [{
         label: "Dung lượng (MB)",
         data: Object.values(data.folder_sizes),
-        backgroundColor: "rgba(75, 192, 192, 0.6)"
+        backgroundColor: barGradient
       }]
     },
     options: {
@@ -77,8 +79,9 @@ async function fetchStats() {
       datasets: [{
         label: "Số lượng file",
         data: Object.values(data.files_per_year),
-        borderColor: "rgba(255, 99, 132, 0.8)",
-        fill: false
+        borderColor: "rgba(255, 99, 132, 0.8)", // giữ màu đỏ
+        fill: false,
+        tension: 0.3
       }]
     },
     options: {
@@ -91,13 +94,25 @@ async function fetchStats() {
   });
 }
 
-// Nút toggle theme: gộp lại một listener duy nhất
+// Khi load trang, kiểm tra trạng thái đã lưu và vẽ chart tổng
+window.addEventListener("DOMContentLoaded", () => {
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+  }
+  fetchStats(); // chart tổng khi load
+});
+
+// Toggle theme
 document.getElementById("toggleTheme").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
-  fetchStats(); // vẽ lại biểu đồ với màu chữ mới
+  // vẽ lại chart theo theme hiện tại
+  const query = document.getElementById("query").value.trim();
+  fetchStats(query);
 });
 
+// Toggle chart hiển thị/ẩn
 document.getElementById("toggleChart").addEventListener("click", () => {
   const chartContainer = document.getElementById("chartContainer");
   chartContainer.classList.toggle("hidden");
