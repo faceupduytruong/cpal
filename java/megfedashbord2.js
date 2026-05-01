@@ -20,30 +20,45 @@ function renderFeed(feed) {
 
 async function fetchFeed() {
   try {
-    const query = document.getElementById("query").value;
+    const query = document.getElementById("query").value.trim();
     const response = await fetch(`http://127.0.0.1:8000/feed?q=${encodeURIComponent(query)}`);
     const data = await response.json();
     renderFeed(data.feed);
+
+    // Sau khi render feed, tự tính thống kê từ dữ liệu feed
+    computeStatsFromFeed(data.feed);
   } catch (error) {
     console.error("Lỗi khi lấy feed:", error);
   }
 }
 
-// Khi load trang, kiểm tra trạng thái đã lưu
-window.addEventListener("DOMContentLoaded", () => {
-  const savedTheme = localStorage.getItem("theme");
-  if (savedTheme === "dark") {
-    document.body.classList.add("dark-mode");
-  }
-  fetchStats(); // vẽ biểu đồ ngay khi load
-});
-
 let folderChart, yearChart;
 
-async function fetchStats() {
-  const response = await fetch("http://127.0.0.1:8000/stats");
-  const data = await response.json();
+function computeStatsFromFeed(feed) {
+  const folder_sizes = {};
+  const files_per_year = {};
 
+  feed.forEach(item => {
+    // cộng dồn dung lượng theo folder gốc
+    const folder = item.path.split("/")[0];
+    // item.size hiện đang là chuỗi "0.08 MB", cần parse số
+    let sizeNum = 0;
+    if (typeof item.size === "string" && item.size.includes("MB")) {
+      sizeNum = parseFloat(item.size.replace("MB", "").trim());
+    } else if (!isNaN(item.size)) {
+      sizeNum = parseFloat(item.size);
+    }
+    folder_sizes[folder] = (folder_sizes[folder] || 0) + sizeNum;
+
+    // cộng dồn số lượng file theo năm
+    const year = new Date(item.date).getFullYear();
+    files_per_year[year] = (files_per_year[year] || 0) + 1;
+  });
+
+  drawCharts(folder_sizes, files_per_year);
+}
+
+function drawCharts(folder_sizes, files_per_year) {
   if (folderChart) folderChart.destroy();
   if (yearChart) yearChart.destroy();
 
@@ -53,11 +68,11 @@ async function fetchStats() {
   folderChart = new Chart(ctx1, {
     type: "bar",
     data: {
-      labels: Object.keys(data.folder_sizes),
+      labels: Object.keys(folder_sizes),
       datasets: [{
         label: "Dung lượng (MB)",
-        data: Object.values(data.folder_sizes),
-        backgroundColor: "rgba(75, 192, 192, 0.6)"
+        data: Object.values(folder_sizes),
+        backgroundColor: "rgba(75, 192, 192, 0.6)" // giữ màu cũ
       }]
     },
     options: {
@@ -73,12 +88,13 @@ async function fetchStats() {
   yearChart = new Chart(ctx2, {
     type: "line",
     data: {
-      labels: Object.keys(data.files_per_year),
+      labels: Object.keys(files_per_year),
       datasets: [{
         label: "Số lượng file",
-        data: Object.values(data.files_per_year),
-        borderColor: "rgba(255, 99, 132, 0.8)",
-        fill: false
+        data: Object.values(files_per_year),
+        borderColor: "rgba(255, 99, 132, 0.8)", // đỏ như cũ
+        fill: false,
+        tension: 0.3
       }]
     },
     options: {
@@ -91,11 +107,42 @@ async function fetchStats() {
   });
 }
 
-// Nút toggle theme: gộp lại một listener duy nhất
+// Khi load trang, kiểm tra trạng thái đã lưu và vẽ chart tổng
+window.addEventListener("DOMContentLoaded", async () => {
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+  }
+
+  try {
+    // gọi feed tổng (backend cần hỗ trợ q=None)
+    const response = await fetch("http://127.0.0.1:8000/feed?q=");
+    const data = await response.json();
+    renderFeed(data.feed);
+    computeStatsFromFeed(data.feed); // vẽ chart tổng từ feed
+  } catch (error) {
+    console.error("Lỗi khi load feed tổng:", error);
+  }
+});
+
+// Toggle theme
 document.getElementById("toggleTheme").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
-  fetchStats(); // vẽ lại biểu đồ với màu chữ mới
+
+  // vẽ lại chart theo theme hiện tại và dữ liệu feed đang hiển thị
+  const feedContainer = document.getElementById("feed");
+  const cards = feedContainer.querySelectorAll(".card");
+  if (cards.length > 0) {
+    const feed = Array.from(cards).map(card => {
+      return {
+        path: card.querySelector("h3").textContent,
+        size: parseFloat(card.querySelector("p").textContent.replace("📦 Dung lượng:", "").replace("MB", "").trim()),
+        date: card.querySelectorAll("p")[1].textContent.replace("📅 Ngày:", "").trim()
+      };
+    });
+    computeStatsFromFeed(feed);
+  }
 });
 
 // Toggle chart hiển thị/ẩn
