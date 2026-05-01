@@ -224,6 +224,28 @@ def get_playlists(username: str = Query(...), playlists: str = Query(None)):
     logging.info(f"[feed_soundcloud] Feed OK - {len(results)} kết quả cho user '{username}'")
     return results
 
+# Lấy playlist theo tag (dùng chung sample_playlists)
+@app.get("/tag_playlists")
+def tag_playlists(tag: str = Query(...), limit: int = 20):
+    urls = sample_playlists.get(tag.lower(), [])
+    if not urls:
+        return {"message": f"Tag '{tag}' chưa có dữ liệu curated."}
+
+    urls = urls[:limit]
+    results = []
+    for link in urls:
+        api_url = "https://soundcloud.com/oembed"
+        params = {"url": link, "format": "json"}
+        r = requests.get(api_url, params=params)
+        if r.status_code == 200:
+            data = r.json()
+            results.append({
+                "title": data.get("title"),
+                "author_name": data.get("author_name"),
+                "html": data.get("html"),
+            })
+    return results
+
 # Endpoint mới cho AI Playlist
 @app.get("/ai_playlist")
 def ai_playlist(query: str = Query(...)):
