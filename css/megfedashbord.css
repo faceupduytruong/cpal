@@ -206,19 +206,30 @@ body.dark-mode #toggleTheme {
   color: #fff;
 }
 
-/* Canvas mặc định (light mode) */
-canvas {
-  display: block;        /* để canvas chiếm nguyên dòng */
-  margin: 1rem;          /* cách đều xung quanh */
-  margin-left: 1rem;     /* riêng cách bên trái */
-  border-radius: 6px;    /* bo góc cho đẹp */
-  background-color: rgba(255, 255, 255, 0.6); /* nền trắng nhưng trong suốt 20% */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+#chartContainer {
+  margin: 1rem;              /* cách lề giống card */
+  padding: 1rem;             /* khoảng cách bên trong */
+  border-radius: 8px;        /* bo góc */
+  background: rgba(255, 255, 255, 0.6); /* nền sáng mặc định */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* bóng nhẹ */
+  backdrop-filter: blur(5px); /* hiệu ứng kính mờ */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* hiệu ứng mượt khi bật/tắt */
 }
 
-/* Canvas trong dark mode */
-body.dark-mode canvas {
-  background-color: rgba(0, 0, 0, 0.6); /* nền trắng nhưng trong suốt 20% */
+/* Dark mode */
+body.dark-mode #chartContainer {
+  background: rgba(0, 0, 0, 0.6); /* nền tối */
   color: #ffffff;
   box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+  backdrop-filter: blur(5px);
+}
+
+/* Canvas bên trong chartContainer */
+#chartContainer canvas {
+  display: block;
+  width: 100%;
+  max-width: 800px;          /* giới hạn chiều rộng */
+  margin: 0 auto 1rem auto;  /* căn giữa, cách dưới */
+  border-radius: 6px;
+  background-color: transparent; /* nền trong suốt, dùng nền container */
 }
