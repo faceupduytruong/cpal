@@ -209,15 +209,12 @@ body.dark-mode #toggleChart {
 }
 
 #chartContainer {
-  margin: 1rem;              /* cách đều xung quanh */
-  padding: 1rem;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.6);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  backdrop-filter: blur(5px);
-  transition: margin-top 0.4s ease, opacity 0.4s ease; /* hiệu ứng mượt */
-  margin-top: -1px; /* trượt lên trên */
-  pointer-events: none;
+  margin: 1rem;              /* cách lề giống card */
+  padding: 1rem;             /* khoảng cách bên trong */
+  border-radius: 8px;        /* bo góc */
+  background: rgba(255, 255, 255, 0.6); /* nền sáng mặc định */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* bóng nhẹ */
+  backdrop-filter: blur(5px); /* hiệu ứng kính mờ */
   display: flex;
   flex-direction: column;
   gap: 1rem;                 /* khoảng cách giữa các canvas bên trong */
@@ -231,14 +228,14 @@ body.dark-mode #chartContainer {
   backdrop-filter: blur(5px);
 }
 
-/* Canvas bên trong */
+/* Canvas bên trong chartContainer */
 #chartContainer canvas {
   display: block;
   width: 100%;
-  maxwidth: 800px;
-  margin: 0 auto 1rem auto;
+  max-width: 800px;
+  margin: 0 auto;            /* căn giữa */
   border-radius: 6px;
-  background-color: transparent;
+  background-color: transparent; /* dùng nền container */
 }
 
 /* Khi ẩn chartContainer */
