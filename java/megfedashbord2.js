@@ -35,21 +35,17 @@ async function fetchFeed() {
 let folderChart, yearChart;
 
 function computeStatsFromFeed(feed) {
-  // Tính dung lượng theo folder và số lượng file theo năm
   const folder_sizes = {};
   const files_per_year = {};
 
   feed.forEach(item => {
-    // cộng dồn dung lượng theo folder gốc
     const folder = item.path.split("/")[0];
     folder_sizes[folder] = (folder_sizes[folder] || 0) + item.size;
 
-    // cộng dồn số lượng file theo năm
     const year = new Date(item.date).getFullYear();
     files_per_year[year] = (files_per_year[year] || 0) + 1;
   });
 
-  // Vẽ chart từ thống kê vừa tính
   drawCharts(folder_sizes, files_per_year);
 }
 
@@ -59,7 +55,6 @@ function drawCharts(folder_sizes, files_per_year) {
 
   const textColor = document.body.classList.contains("dark-mode") ? "#ffffff" : "#000000";
 
-  // Bar chart giữ nguyên màu cũ
   const ctx1 = document.getElementById("folderChart").getContext("2d");
   folderChart = new Chart(ctx1, {
     type: "bar",
@@ -80,7 +75,6 @@ function drawCharts(folder_sizes, files_per_year) {
     }
   });
 
-  // Line chart giữ nguyên màu đỏ
   const ctx2 = document.getElementById("yearChart").getContext("2d");
   yearChart = new Chart(ctx2, {
     type: "line",
@@ -111,15 +105,19 @@ window.addEventListener("DOMContentLoaded", async () => {
     document.body.classList.add("dark-mode");
   }
 
-  // Lấy feed tổng rồi vẽ chart từ feed
-  const response = await fetch("http://127.0.0.1:8000/feed");
-  const data = await response.json();
-  renderFeed(data.feed);
-  computeStatsFromFeed(data.feed);
+  // Lấy feed tổng ngay khi load
+  try {
+    const response = await fetch("http://127.0.0.1:8000/feed");
+    const data = await response.json();
+    renderFeed(data.feed);
+    computeStatsFromFeed(data.feed); // vẽ chart tổng từ feed
+  } catch (error) {
+    console.error("Lỗi khi load feed tổng:", error);
+  }
 });
 
 // Toggle theme
-document.getElementById("toggleTheme").addEventListener("click", async () => {
+document.getElementById("toggleTheme").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
 
@@ -127,7 +125,6 @@ document.getElementById("toggleTheme").addEventListener("click", async () => {
   const feedContainer = document.getElementById("feed");
   const cards = feedContainer.querySelectorAll(".card");
   if (cards.length > 0) {
-    // reconstruct feed data từ DOM nếu cần
     const feed = Array.from(cards).map(card => {
       return {
         path: card.querySelector("h3").textContent,
