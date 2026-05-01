@@ -20,42 +20,30 @@ function renderFeed(feed) {
 
 async function fetchFeed() {
   try {
-    const query = document.getElementById("query").value.trim();
-
-    // gọi API feed với query
+    const query = document.getElementById("query").value;
     const response = await fetch(`http://127.0.0.1:8000/feed?q=${encodeURIComponent(query)}`);
     const data = await response.json();
     renderFeed(data.feed);
-
-    // nếu có query thì vẽ chart theo query, nếu trống thì vẽ chart tổng
-    if (query) {
-      await fetchStats(query);
-    } else {
-      await fetchStats();
-    }
   } catch (error) {
     console.error("Lỗi khi lấy feed:", error);
   }
 }
 
+// Khi load trang, kiểm tra trạng thái đã lưu
+window.addEventListener("DOMContentLoaded", () => {
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+  }
+  fetchStats(); // vẽ biểu đồ ngay khi load
+});
+
 let folderChart, yearChart;
 
-function computeStatsFromFeed(feed) {
-  const folder_sizes = {};
-  const files_per_year = {};
+async function fetchStats() {
+  const response = await fetch("http://127.0.0.1:8000/stats");
+  const data = await response.json();
 
-  feed.forEach(item => {
-    const folder = item.path.split("/")[0];
-    folder_sizes[folder] = (folder_sizes[folder] || 0) + item.size;
-
-    const year = new Date(item.date).getFullYear();
-    files_per_year[year] = (files_per_year[year] || 0) + 1;
-  });
-
-  drawCharts(folder_sizes, files_per_year);
-}
-
-function drawCharts(folder_sizes, files_per_year) {
   if (folderChart) folderChart.destroy();
   if (yearChart) yearChart.destroy();
 
@@ -65,11 +53,11 @@ function drawCharts(folder_sizes, files_per_year) {
   folderChart = new Chart(ctx1, {
     type: "bar",
     data: {
-      labels: Object.keys(folder_sizes),
+      labels: Object.keys(data.folder_sizes),
       datasets: [{
         label: "Dung lượng (MB)",
-        data: Object.values(folder_sizes),
-        backgroundColor: "rgba(75, 192, 192, 0.6)" // giữ màu cũ
+        data: Object.values(data.folder_sizes),
+        backgroundColor: "rgba(75, 192, 192, 0.6)"
       }]
     },
     options: {
@@ -85,13 +73,12 @@ function drawCharts(folder_sizes, files_per_year) {
   yearChart = new Chart(ctx2, {
     type: "line",
     data: {
-      labels: Object.keys(files_per_year),
+      labels: Object.keys(data.files_per_year),
       datasets: [{
         label: "Số lượng file",
-        data: Object.values(files_per_year),
-        borderColor: "rgba(255, 99, 132, 0.8)", // đỏ như cũ
-        fill: false,
-        tension: 0.3
+        data: Object.values(data.files_per_year),
+        borderColor: "rgba(255, 99, 132, 0.8)",
+        fill: false
       }]
     },
     options: {
@@ -104,46 +91,9 @@ function drawCharts(folder_sizes, files_per_year) {
   });
 }
 
-// Khi load trang, kiểm tra trạng thái đã lưu và vẽ chart tổng
-window.addEventListener("DOMContentLoaded", async () => {
-  const savedTheme = localStorage.getItem("theme");
-  if (savedTheme === "dark") {
-    document.body.classList.add("dark-mode");
-  }
-
-  // Lấy feed tổng ngay khi load
-  try {
-    const response = await fetch("http://127.0.0.1:8000/feed");
-    const data = await response.json();
-    renderFeed(data.feed);
-    computeStatsFromFeed(data.feed); // vẽ chart tổng từ feed
-  } catch (error) {
-    console.error("Lỗi khi load feed tổng:", error);
-  }
-});
-
-// Toggle theme
+// Nút toggle theme: gộp lại một listener duy nhất
 document.getElementById("toggleTheme").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
-
-  // vẽ lại chart theo theme hiện tại và dữ liệu feed đang hiển thị
-  const feedContainer = document.getElementById("feed");
-  const cards = feedContainer.querySelectorAll(".card");
-  if (cards.length > 0) {
-    const feed = Array.from(cards).map(card => {
-      return {
-        path: card.querySelector("h3").textContent,
-        size: parseFloat(card.querySelector("p").textContent.replace("📦 Dung lượng: ", "")),
-        date: card.querySelectorAll("p")[1].textContent.replace("📅 Ngày: ", "")
-      };
-    });
-    computeStatsFromFeed(feed);
-  }
-});
-
-// Toggle chart hiển thị/ẩn
-document.getElementById("toggleChart").addEventListener("click", () => {
-  const chartContainer = document.getElementById("chartContainer");
-  chartContainer.classList.toggle("hidden");
+  fetchStats(); // vẽ lại biểu đồ với màu chữ mới
 });
