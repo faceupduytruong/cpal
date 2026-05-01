@@ -97,3 +97,8 @@ document.getElementById("toggleTheme").addEventListener("click", () => {
   localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
   fetchStats(); // vẽ lại biểu đồ với màu chữ mới
 });
+
+document.getElementById("toggleChart").addEventListener("click", () => {
+  const chartContainer = document.getElementById("chartContainer");
+  chartContainer.classList.toggle("hidden");
+});
