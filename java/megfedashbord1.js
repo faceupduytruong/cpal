@@ -42,8 +42,10 @@ async function fetchStats(query) {
   // Bar chart với gradient xanh đọt chuối
   const ctx1 = document.getElementById("folderChart").getContext("2d");
   const barGradient = ctx1.createLinearGradient(0, 0, 0, 400);
-  barGradient.addColorStop(0, "#7FFF00");   // xanh đọt chuối
-  barGradient.addColorStop(1, "#ADFF2F");   // xanh nhạt hơn
+
+  // thêm alpha 0.6 để trong suốt giống lúc đầu
+  barGradient.addColorStop(0, "rgba(127, 255, 0, 0.6)"); // xanh đọt chuối trong suốt
+  barGradient.addColorStop(1, "rgba(173, 255, 47, 0.6)"); // xanh nhạt hơn trong suốt
 
   folderChart = new Chart(ctx1, {
     type: "bar",
