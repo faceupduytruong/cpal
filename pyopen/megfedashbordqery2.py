@@ -61,7 +61,7 @@ def run_megatools(user, password):
     return result.stdout.splitlines() if result.stdout else []
 
 @app.get("/feed")
-def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
+def get_feed(q: str = Query(None, description="Từ khóa tìm kiếm")):
     output1 = run_megatools(MEGA_USER1, MEGA_PASS1)
     output2 = run_megatools(MEGA_USER2, MEGA_PASS2)
 
@@ -69,7 +69,8 @@ def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
 
     for account_name, output in [("Account1", output1), ("Account2", output2)]:
         for line in output:
-            if q.lower() in line.lower():
+            # nếu có query thì lọc, nếu không thì lấy tất cả
+            if not q or q.lower() in line.lower():
                 parts = line.strip().split(maxsplit=6)
                 if len(parts) == 7:
                     file_id = parts[0]
@@ -83,7 +84,7 @@ def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
                         "size": size,
                         "date": date,
                         "type": "folder" if path.endswith("/") else "file",
-                        "account": account_name   # thêm thông tin tài khoản
+                        "account": account_name
                     })
 
     return {"feed": results}
