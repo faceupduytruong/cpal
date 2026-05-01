@@ -27,7 +27,6 @@ async function fetchFeed(query) {
 let folderChart, yearChart;
 
 async function fetchStats(query) {
-  // nếu có query thì truyền, nếu không thì lấy toàn bộ
   const url = query 
     ? `http://127.0.0.1:8000/stats?q=${encodeURIComponent(query)}`
     : `http://127.0.0.1:8000/stats`;
@@ -89,7 +88,6 @@ async function doSearch() {
     await fetchFeed(query);
     await fetchStats(query);
   } else {
-    // nếu không nhập query thì chỉ vẽ chart tổng
     document.getElementById("feed").innerHTML = "";
     await fetchStats();
   }
@@ -111,5 +109,11 @@ document.getElementById("searchButton").addEventListener("click", doSearch);
 document.getElementById("toggleTheme").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
-  doSearch(); // vẽ lại feed + chart theo theme
+  doSearch();
+});
+
+// Toggle chart hiển thị/ẩn
+document.getElementById("toggleChart").addEventListener("click", () => {
+  const chartContainer = document.getElementById("chartContainer");
+  chartContainer.style.display = chartContainer.style.display === "none" ? "block" : "none";
 });
