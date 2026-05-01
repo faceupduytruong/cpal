@@ -105,8 +105,8 @@ window.addEventListener("DOMContentLoaded", async () => {
     document.body.classList.add("dark-mode");
   }
 
+  // Lấy feed tổng ngay khi load
   try {
-    // gọi feed tổng
     const response = await fetch("http://127.0.0.1:8000/feed");
     const data = await response.json();
     renderFeed(data.feed);
