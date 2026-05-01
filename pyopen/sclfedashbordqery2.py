@@ -250,8 +250,6 @@ def tag_playlists(tag: str = Query(...), limit: int = 20):
 @app.get("/ai_playlist")
 def ai_playlist(query: str = Query(...)):
     results = []
-    sample_playlists = {
-    }
 
     for key, urls in sample_playlists.items():
         if key in query.lower():
