@@ -25,8 +25,8 @@ async function fetchFeed() {
     const data = await response.json();
     renderFeed(data.feed);
 
-    // Sau khi render feed, tự tính thống kê từ dữ liệu feed
-    computeStatsFromFeed(data.feed);
+    // Sau khi render feed, gọi thống kê theo query
+    await fetchStats(query);
   } catch (error) {
     console.error("Lỗi khi lấy feed:", error);
   }
