@@ -212,7 +212,7 @@ body.dark-mode #toggleChart {
   margin: 1rem;              /* cách lề giống card */
   padding: 1rem;             /* khoảng cách bên trong */
   border-radius: 8px;        /* bo góc */
-  background: rgba(255, 255, 255, 0.3); /* nền sáng mặc định */
+  background: linear-gradient(135deg, #00c9a7, #92fe9d); /* xanh lục ngọc gradient */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* bóng nhẹ */
   backdrop-filter: blur(5px); /* hiệu ứng kính mờ */
   transition: margin-top 0.4s ease, opacity 0.4s ease; /* hiệu ứng mượt */
