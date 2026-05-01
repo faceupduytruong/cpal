@@ -28,6 +28,11 @@ async function fetchTagPlaylists(tag) {
     const feed = document.getElementById("feed");
     feed.innerHTML = "";
 
+    if (data.length === 0) {
+      feed.innerHTML = "<p>Không tìm thấy track/playlist cho tag này.</p>";
+      return;
+    }
+
     data.forEach(item => {
       const card = document.createElement("div");
       card.className = "card";
