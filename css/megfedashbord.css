@@ -216,7 +216,6 @@ body.dark-mode #toggleChart {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   backdrop-filter: blur(5px);
   transition: margin-top 0.4s ease, opacity 0.4s ease; /* hiệu ứng mượt */
-  opacity: 0;
   margin-top: -5px; /* trượt lên trên */
   pointer-events: none;
 }
@@ -233,7 +232,7 @@ body.dark-mode #chartContainer {
 #chartContainer canvas {
   display: block;
   width: 100%;
-  max-width: 800px;
+  maxwidth: 800px;
   margin: 0 auto 1rem auto;
   border-radius: 6px;
   background-color: transparent;
