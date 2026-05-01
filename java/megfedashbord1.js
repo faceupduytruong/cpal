@@ -47,7 +47,7 @@ async function fetchStats(query) {
       datasets: [{
         label: "Dung lượng (MB)",
         data: Object.values(data.folder_sizes),
-        backgroundColor: "rgba(75, 192, 192, 0.6)"
+        backgroundColor: "linear-gradient(135deg, #00c9a7, #92fe9d)"  /* xanh lục ngọc gradient */
       }]
     },
     options: {
