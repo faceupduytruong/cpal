@@ -35,6 +35,7 @@ async function fetchFeed() {
 let folderChart, yearChart;
 
 async function fetchStats(query = "") {
+  // nếu có query thì gọi API với query, nếu không thì gọi tổng
   const url = query
     ? `http://127.0.0.1:8000/stats?q=${encodeURIComponent(query)}`
     : `http://127.0.0.1:8000/stats`;
