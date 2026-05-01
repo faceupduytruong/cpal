@@ -20,13 +20,10 @@ function renderFeed(feed) {
 
 async function fetchFeed() {
   try {
-    const query = document.getElementById("query").value.trim();
+    const query = document.getElementById("query").value;
     const response = await fetch(`http://127.0.0.1:8000/feed?q=${encodeURIComponent(query)}`);
     const data = await response.json();
     renderFeed(data.feed);
-
-    // Sau khi render feed, tự tính thống kê từ dữ liệu feed
-    computeStatsFromFeed(data.feed);
   } catch (error) {
     console.error("Lỗi khi lấy feed:", error);
   }
@@ -43,25 +40,13 @@ window.addEventListener("DOMContentLoaded", () => {
 
 let folderChart, yearChart;
 
-function computeStatsFromFeed(feed) {
-  const folder_sizes = {};
-  const files_per_year = {};
+async function fetchStats() {
+  const response = await fetch("http://127.0.0.1:8000/stats");
+  const data = await response.json();
 
-  feed.forEach(item => {
-    const folder = item.path.split("/")[0];
-    folder_sizes[folder] = (folder_sizes[folder] || 0) + item.size;
-
-    const year = new Date(item.date).getFullYear();
-    files_per_year[year] = (files_per_year[year] || 0) + 1;
-  });
-
-  drawCharts(folder_sizes, files_per_year);
-}
-
-function drawCharts(folder_sizes, files_per_year) {
   if (folderChart) folderChart.destroy();
   if (yearChart) yearChart.destroy();
-  
+
   const textColor = document.body.classList.contains("dark-mode") ? "#ffffff" : "#000000";
 
   const ctx1 = document.getElementById("folderChart").getContext("2d");
