@@ -21,18 +21,12 @@ function renderFeed(feed) {
 async function fetchFeed() {
   try {
     const query = document.getElementById("query").value.trim();
-
-    // gọi API feed với query
     const response = await fetch(`http://127.0.0.1:8000/feed?q=${encodeURIComponent(query)}`);
     const data = await response.json();
     renderFeed(data.feed);
 
-    // nếu có query thì vẽ chart theo query, nếu trống thì vẽ chart tổng
-    if (query) {
-      await fetchStats(query);
-    } else {
-      await fetchStats();
-    }
+    // Sau khi render feed, gọi thống kê theo query
+    await fetchStats(query);
   } catch (error) {
     console.error("Lỗi khi lấy feed:", error);
   }
