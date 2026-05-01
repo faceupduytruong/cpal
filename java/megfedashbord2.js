@@ -20,10 +20,13 @@ function renderFeed(feed) {
 
 async function fetchFeed() {
   try {
-    const query = document.getElementById("query").value;
+    const query = document.getElementById("query").value.trim();
     const response = await fetch(`http://127.0.0.1:8000/feed?q=${encodeURIComponent(query)}`);
     const data = await response.json();
     renderFeed(data.feed);
+
+    // Sau khi render feed, tự tính thống kê từ dữ liệu feed
+    computeStatsFromFeed(data.feed);
   } catch (error) {
     console.error("Lỗi khi lấy feed:", error);
   }
