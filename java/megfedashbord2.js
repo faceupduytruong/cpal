@@ -21,12 +21,18 @@ function renderFeed(feed) {
 async function fetchFeed() {
   try {
     const query = document.getElementById("query").value.trim();
+
+    // gọi API feed với query
     const response = await fetch(`http://127.0.0.1:8000/feed?q=${encodeURIComponent(query)}`);
     const data = await response.json();
     renderFeed(data.feed);
 
-    // gọi thêm fetchStats với query để cập nhật chart
-    await fetchStats(query);
+    // nếu có query thì vẽ chart theo query, nếu trống thì vẽ chart tổng
+    if (query) {
+      await fetchStats(query);
+    } else {
+      await fetchStats();
+    }
   } catch (error) {
     console.error("Lỗi khi lấy feed:", error);
   }
@@ -35,7 +41,6 @@ async function fetchFeed() {
 let folderChart, yearChart;
 
 async function fetchStats(query = "") {
-  // nếu có query thì gọi API với query, nếu không thì gọi tổng
   const url = query
     ? `http://127.0.0.1:8000/stats?q=${encodeURIComponent(query)}`
     : `http://127.0.0.1:8000/stats`;
