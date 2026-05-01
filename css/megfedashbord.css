@@ -217,7 +217,7 @@ body.dark-mode #toggleChart {
   backdrop-filter: blur(5px);
   transition: margin-top 0.4s ease, opacity 0.4s ease; /* hiệu ứng mượt */
   opacity: 0;
-  margin-top: -50px; /* trượt lên trên */
+  margin-top: -5px; /* trượt lên trên */
   pointer-events: none;
 }
 
