@@ -9,6 +9,7 @@ function renderFeed(feed) {
     const megaUrl = `https://mega.nz/fm/k4lH3BoZ`;
 
     card.innerHTML = `
+      <input type="checkbox" class="compare-checkbox" data-path="${item.path}">
       <h3>${item.path}</h3>
       <p>📦 Dung lượng: ${item.size}</p>
       <p>📅 Ngày: ${item.date}</p>
