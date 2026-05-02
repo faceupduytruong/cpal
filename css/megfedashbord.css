@@ -249,3 +249,29 @@ body.dark-mode #chartContainer {
   margin-top: -50px; /* trượt lên trên khi ẩn */
   pointer-events: none;
 }
+
+/* CSS của legend và scroll ngang) */
+.diff-table {
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+  display: block; /* để scroll ngang */
+}
+
+.diff-table th, .diff-table td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: center;
+}
+
+.legend {
+  margin: 10px 0;
+}
+
+.legend span {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.9em;
+}
