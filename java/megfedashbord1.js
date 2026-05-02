@@ -160,7 +160,6 @@ async function compareMultipleExcel(paths) {
     });
     const data = await response.json();
 
-    // dùng container riêng cho kết quả so sánh
     const compareContainer = document.getElementById("compareResult");
     compareContainer.innerHTML = "<h3>Kết quả so sánh Excel</h3>";
 
@@ -169,6 +168,8 @@ async function compareMultipleExcel(paths) {
     } else {
       const table = document.createElement("table");
       table.className = "diff-table";
+
+      // header động theo số file
       let header = "<tr><th>Sheet</th><th>Ô</th>";
       data.files.forEach((fname, idx) => {
         header += `<th>File${idx+1}: ${fname}</th>`;
@@ -176,6 +177,7 @@ async function compareMultipleExcel(paths) {
       header += "</tr>";
       table.innerHTML = header;
 
+      // render từng dòng với màu nền khác nhau cho từng file
       data.diffs.forEach(diff => {
         let row = `<tr><td>${diff.sheet}</td><td>${diff.cell}</td>`;
         diff.values.forEach((val, idx) => {
@@ -191,6 +193,11 @@ async function compareMultipleExcel(paths) {
         table.innerHTML += row;
       });
       compareContainer.appendChild(table);
+    }
+
+    // hiển thị đường dẫn file CSV đã xuất ra Desktop
+    if (data.export_file) {
+      compareContainer.innerHTML += `<p>File CSV đã lưu tại Desktop: ${data.export_file}</p>`;
     }
   } catch (error) {
     console.error("Lỗi khi so sánh nhiều Excel:", error);
