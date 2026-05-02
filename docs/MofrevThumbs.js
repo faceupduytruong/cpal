@@ -64,5 +64,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/donhatminh25/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/u545rmvh9fgrzbq4znnim/Nh-t-Minh-Minh-Ph-p-S.png?rlkey=r7p5jxwjk0xh9p48x8bs9ehi6&st=pegt0h3w&raw=1',
   },
+  'Hùng Phim Hay': {
+    url: 'https://www.facebook.com/profile.php?id=61574378254561&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/enzmr2310kj37mu0t9f7w/H-ng-Phim-Hay.jpg?rlkey=amuecqyk51g3x2xlz5wop7tk7&st=20336yv8&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
