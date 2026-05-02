@@ -234,18 +234,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100090791846406&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/irixstkdgvi3tql1qnxrs/B-n-Th-Gi-i-Kh-c.webp?rlkey=8iw34hqy1eykllzacyfdrg1a3&st=0k5hshff&raw=1',
   },
-  'Bí Ẩn Tâm Linh': {
-    url: 'https://www.facebook.com/profile.php?id=61555482115414&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/1rmkxo598f9rldagg7jn6/B-n-T-m-Linh.webp?rlkey=q0lkb22gxgp9six4j4v173pts&st=lequknzx&raw=1',
-  },
-  'Tâm Linh Huyền Bí': {
-    url: 'https://www.facebook.com/tamlinhplusvnc/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/qpxw6dp30bkn33tdu727r/T-m-Linh-Huy-n-B.jpg?rlkey=u16f7n6p6m9t2xajvr7ckhykh&st=fk6fjvd6&raw=1',
-  },
-  'NEW88 Truyện Ma Canh Tý': {
-    url: 'https://www.facebook.com/new88truyenmacanhty/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/a4hturk0c04wi5kb4o6zk/NEW88-Truy-n-Ma-Canh-T.jpg?rlkey=8aashzsm3w2zads7ew9lqq0py&st=duf40vn4&raw=1',
-  },
   'Bắp TV': {
     url: 'https://www.facebook.com/baptv5642/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0zql6b385pmdek2m4ln0e/B-p-TV.jpg?rlkey=egergzdyz6b32uzhg0sti2s9d&st=sdaqywxa&raw=1',
