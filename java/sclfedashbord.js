@@ -27,12 +27,12 @@ async function fetchTagPlaylists(tag) {
     const discoverLinks = [
       {
         title: "Daily Drops",
-        img: "https://al.sndcdn.com/labs-94f3878c-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9EUk9QUwp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMxMTEwOTY0MiIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTA0MjExODQiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMzA5OTE0NzMwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMxMDIxMTEyMSIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTExNTA5MTYiCg%3D%3D&quot",
+        img: "https://al.sndcdn.com/labs-94f3878c-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9EUk9QUwp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMxMTEwOTY0MiIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTA0MjExODQiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMzA5OTE0NzMwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMxMDIxMTEyMSIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTExNTA5MTYiCg%3D%3D",
         url: "https://soundcloud.com/discover/sets/new-for-you::nhanhlaxanh"
       },
       {
         title: "Your Mix 10",
-        img: "https://al.sndcdn.com/labs-f62c5564-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF8xMAp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MzMwODQxNTEwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6NDQ3ODU5OTM4Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MTkzNjc5MjMzNyIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjExOTIyODU5NzUiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoxMTIyNjYwNDMzIgo%3D&quot",
+        img: "https://al.sndcdn.com/labs-f62c5564-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF8xMAp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MzMwODQxNTEwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6NDQ3ODU5OTM4Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MTkzNjc5MjMzNyIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjExOTIyODU5NzUiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoxMTIyNjYwNDMzIgo%3D",
         url: "https://soundcloud.com/discover/sets/your-moods:33939568:10"
       }
       // bạn có thể thêm nhiều link khác nữa ở đây
