@@ -94,13 +94,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/minh.lagau.9/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/m19wiuyny0dnyeu069nvd/V-Tr-L-G.jpg?rlkey=8a2mlcjipinhtdojjx42054y1&st=ngh11xy6&raw=1',
   },
-  'Đột Phá Tri Thức': {
-    url: 'https://www.youtube.com/@dotphatrithuc/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/t-Ph-Tri-Th-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=x9ui7pat&raw=1',
-  },
   'Bí Ẩn Vũ Trụ': {
     url: 'https://www.facebook.com/profile.php?id=61573268736021&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/htmzaj5uqtnoh7fpawaun/B-n-V-Tr.jpg?rlkey=vbw166lneag7k7y7s35ufa8o4&st=m51pqyc6&raw=1',
+  },
+  'Đột Phá Tri Thức': {
+    url: 'https://www.youtube.com/@dotphatrithuc/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/t-Ph-Tri-Th-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=x9ui7pat&raw=1',
   },
   'Quản Trị Mạng (Vũ Trụ)': {
     url: 'https://quantrimang.com/khoa-hoc/khoa-hoc-vu-tru',
