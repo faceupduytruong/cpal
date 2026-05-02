@@ -150,6 +150,24 @@ async function compareFiles(path1, path2) {
   }
 }
 
+async function compareExcel(path1, path2) {
+  const response = await fetch(`http://127.0.0.1:8000/compare_excel?path1=${encodeURIComponent(path1)}&path2=${encodeURIComponent(path2)}`);
+  const data = await response.json();
+
+  const feedContainer = document.getElementById("feed");
+  feedContainer.innerHTML = "<h3>Kết quả so sánh Excel</h3>";
+
+  if (data.diffs.length === 0) {
+    feedContainer.innerHTML += "<p>Hai file giống nhau.</p>";
+  } else {
+    data.diffs.forEach(diff => {
+      const p = document.createElement("p");
+      p.textContent = `Ô ${diff.cell}: ${diff.file1} ↔ ${diff.file2}`;
+      feedContainer.appendChild(p);
+    });
+  }
+}
+
 document.getElementById("compareBtn").addEventListener("click", () => {
   const checked = document.querySelectorAll(".compare-checkbox:checked");
   if (checked.length !== 2) {
