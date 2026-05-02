@@ -1,3 +1,4 @@
+// Render feed ra card
 function renderFeed(feed) {
   const feedContainer = document.getElementById("feed");
   feedContainer.innerHTML = "";
@@ -115,6 +116,7 @@ window.addEventListener("DOMContentLoaded", () => {
 // Nút Search
 document.getElementById("searchButton").addEventListener("click", doSearch);
 
+// So sánh 2 file text
 async function compareFiles(path1, path2) {
   try {
     const response = await fetch(`http://127.0.0.1:8000/compare?path1=${encodeURIComponent(path1)}&path2=${encodeURIComponent(path2)}`);
@@ -139,6 +141,7 @@ async function compareFiles(path1, path2) {
   }
 }
 
+// So sánh tối thiểu 2 file Excel
 document.getElementById("compareBtn").addEventListener("click", () => {
   const checked = document.querySelectorAll(".compare-checkbox:checked");
   if (checked.length < 2) {
