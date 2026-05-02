@@ -42,7 +42,7 @@ function renderDiscover(feed) {
     card.innerHTML = `
       <h3>${item.title}</h3>
       <img src="${item.img}" alt="${item.title}" style="width:100%;max-width:400px;border-radius:8px;margin:10px 0;">
-      <p>Nhấn nút để mở trực tiếp trên SoundCloud:</p>
+      <p>Khám phá nhạc mới trên SoundCloud:</p>
       <button class="discover-btn" onclick="window.open('${item.url}','_blank')">
         Mở trên SoundCloud
       </button>
