@@ -160,11 +160,14 @@ async function compareExcel(path1, path2) {
   if (data.diffs.length === 0) {
     feedContainer.innerHTML += "<p>Hai file giống nhau.</p>";
   } else {
+    const table = document.createElement("table");
+    table.innerHTML = "<tr><th>Sheet</th><th>Ô</th><th>File1</th><th>File2</th></tr>";
     data.diffs.forEach(diff => {
-      const p = document.createElement("p");
-      p.textContent = `Ô ${diff.cell}: ${diff.file1} ↔ ${diff.file2}`;
-      feedContainer.appendChild(p);
+      const row = document.createElement("tr");
+      row.innerHTML = `<td>${diff.sheet}</td><td>${diff.cell}</td><td>${diff.file1}</td><td>${diff.file2}</td>`;
+      table.appendChild(row);
     });
+    feedContainer.appendChild(table);
   }
 }
 
