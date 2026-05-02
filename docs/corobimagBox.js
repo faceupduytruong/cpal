@@ -51,7 +51,14 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.youtube.com/@H%C6%B0ngKh%C3%BAc/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/3b73jzo1u32dbfnra3wxo/H-ng-Kh-c.png?rlkey=3vr3pcgj8dr5l4zgoosf776mm&st=0fxqkcxv&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Hưng Khúc</div>
+        <div class="caption">Hưng Khúc (Youtube)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/hungquockhuc' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/y5vqckgkzbqdww61eji6c/H-ng-Kh-c-Facebook.png?rlkey=nha05b0z99xkc6iml54y5p0pb&st=lzgt31g1&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hưng Khúc (Facebook)</div>
       </div>
 
       <div class="image-box">
