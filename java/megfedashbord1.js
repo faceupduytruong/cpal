@@ -166,28 +166,33 @@ async function compareMultipleExcel(paths) {
     if (!data.diffs || data.diffs.length === 0) {
       compareContainer.innerHTML += "<p>Các file giống nhau hoặc không thể so sánh.</p>";
     } else {
+      // mảng màu động
+      const colors = ["#ffe0e0", "#e0ffe0", "#e0e0ff", "#fff0b3", "#f0d9ff", "#d9f0ff"];
+
+      // tạo legend
+      let legendHtml = "<div class='legend'>";
+      data.files.forEach((fname, idx) => {
+        const color = colors[idx % colors.length];
+        legendHtml += `<span style="background:${color}">File${idx+1}: ${fname}</span>`;
+      });
+      legendHtml += "</div>";
+      compareContainer.innerHTML += legendHtml;
+
+      // tạo bảng
       const table = document.createElement("table");
       table.className = "diff-table";
-
-      // header động theo số file
       let header = "<tr><th>Sheet</th><th>Ô</th>";
       data.files.forEach((fname, idx) => {
-        header += `<th>File${idx+1}: ${fname}</th>`;
+        header += `<th>File${idx+1}</th>`;
       });
       header += "</tr>";
       table.innerHTML = header;
 
-      // render từng dòng với màu nền khác nhau cho từng file
       data.diffs.forEach(diff => {
         let row = `<tr><td>${diff.sheet}</td><td>${diff.cell}</td>`;
         diff.values.forEach((val, idx) => {
-          let bgColor = "";
-          if (idx === 0) bgColor = "background:#ffe0e0"; // đỏ nhạt
-          else if (idx === 1) bgColor = "background:#e0ffe0"; // xanh nhạt
-          else if (idx === 2) bgColor = "background:#e0e0ff"; // xanh dương nhạt
-          else if (idx === 3) bgColor = "background:#fff0b3"; // vàng nhạt
-          // thêm màu khác nếu có nhiều file hơn
-          row += `<td style="${bgColor}">${val ?? ""}</td>`;
+          const bgColor = colors[idx % colors.length];
+          row += `<td style="background:${bgColor}">${val ?? ""}</td>`;
         });
         row += "</tr>";
         table.innerHTML += row;
