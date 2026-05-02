@@ -20,15 +20,47 @@ async function fetchFeed(username, playlists) {
 }
 
 async function fetchTagPlaylists(tag) {
+  const feed = document.getElementById("feed");
+  feed.innerHTML = "";
+
+  if (tag.toLowerCase() === "discover") {
+    const discoverLinks = [
+      {
+        title: "Daily Drops",
+        img: "https://al.sndcdn.com/labs-94f3878c-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9EUk9QUwp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMxMTEwOTY0MiIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTA0MjExODQiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMzA5OTE0NzMwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMxMDIxMTEyMSIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTExNTA5MTYiCg%3D%3D&quot",
+        url: "https://soundcloud.com/discover/sets/new-for-you::nhanhlaxanh"
+      },
+      {
+        title: "Your Mix 10",
+        img: "https://al.sndcdn.com/labs-f62c5564-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF8xMAp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MzMwODQxNTEwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6NDQ3ODU5OTM4Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MTkzNjc5MjMzNyIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjExOTIyODU5NzUiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoxMTIyNjYwNDMzIgo%3D&quot",
+        url: "https://soundcloud.com/discover/sets/your-moods:33939568:10"
+      }
+      // bạn có thể thêm nhiều link khác nữa ở đây
+    ];
+
+    discoverLinks.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <h3>${item.title}</h3>
+        <img src="${item.img}" alt="${item.title}" style="width:100%;max-width:400px;border-radius:8px;margin:10px 0;">
+        <p>Nhấn nút để mở trực tiếp trên SoundCloud:</p>
+        <button onclick="window.open('${item.url}','_blank')">
+          Mở trên SoundCloud
+        </button>
+      `;
+      feed.appendChild(card);
+    });
+    return; // không gọi API nữa
+  }
+
+  // phần còn lại giữ nguyên
   try {
     const url = `http://127.0.0.1:8000/tag_playlists?tag=${encodeURIComponent(tag)}`;
     const response = await fetch(url);
     const data = await response.json();
 
-    const feed = document.getElementById("feed");
-    feed.innerHTML = "";
-
-    if (data.length === 0) {
+    if (data.length === 0 || data.message) {
       feed.innerHTML = "<p>Không tìm thấy track/playlist cho tag này.</p>";
       return;
     }
@@ -43,28 +75,64 @@ async function fetchTagPlaylists(tag) {
       feed.appendChild(card);
     });
   } catch (error) {
-    document.getElementById("feed").innerHTML = "<p>Lỗi tải dữ liệu.</p>";
+    feed.innerHTML = "<p>Lỗi tải dữ liệu.</p>";
     console.error(error);
   }
 }
 
 async function createAIPlaylist() {
   const queryValue = document.getElementById("query").value.trim();
-  const response = await fetch(`http://127.0.0.1:8000/ai_playlist?query=${encodeURIComponent(queryValue)}`);
-  const data = await response.json();
-
   const feed = document.getElementById("feed");
   feed.innerHTML = "";
 
-  data.forEach(item => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-      <h3>${item.title}</h3>
-      ${item.html}
-    `;
-    feed.appendChild(card);
-  });
+  if (queryValue.toLowerCase() === "discover") {
+    const discoverLinks = [
+      {
+        title: "Daily Drops",
+        img: "https://al.sndcdn.com/labs-94f3878c-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9EUk9QUwp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMxMTEwOTY0MiIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTA0MjExODQiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMzA5OTE0NzMwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMxMDIxMTEyMSIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTExNTA5MTYiCg%3D%3D&quot",
+        url: "https://soundcloud.com/discover/sets/new-for-you::nhanhlaxanh"
+      },
+      {
+        title: "Your Mix 10",
+        img: "https://al.sndcdn.com/labs-f62c5564-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF8xMAp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MzMwODQxNTEwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6NDQ3ODU5OTM4Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MTkzNjc5MjMzNyIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjExOTIyODU5NzUiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoxMTIyNjYwNDMzIgo%3D&quot",
+        url: "https://soundcloud.com/discover/sets/your-moods:33939568:10"
+      }
+    ];
+
+    discoverLinks.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <h3>${item.title}</h3>
+        <img src="${item.img}" alt="${item.title}" style="width:100%;max-width:400px;border-radius:8px;margin:10px 0;">
+        <p>Nhấn nút để mở trực tiếp trên SoundCloud:</p>
+        <button onclick="window.open('${item.url}','_blank')">
+          Mở trên SoundCloud
+        </button>
+      `;
+      feed.appendChild(card);
+    });
+    return; // không gọi API nữa
+  }
+
+  // phần còn lại giữ nguyên
+  try {
+    const response = await fetch(`http://127.0.0.1:8000/ai_playlist?query=${encodeURIComponent(queryValue)}`);
+    const data = await response.json();
+
+    data.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <h3>${item.title}</h3>
+        ${item.html}
+      `;
+      feed.appendChild(card);
+    });
+  } catch (error) {
+    feed.innerHTML = "<p>Lỗi tải dữ liệu.</p>";
+    console.error(error);
+  }
 }
 
 // Hàm search chính: tự động phân biệt
