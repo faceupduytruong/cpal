@@ -34,6 +34,9 @@ const discoverLinks = [
   // thêm các link khác ở đây nếu cần
 ];
 
+// Danh sách alias cho discover
+const discoverAliases = ["discover", "newforyou", "recommend", "trend", "hot", "suggested", "nóng", "mới nhất", "nhạc mới", "mới", "lạ", "khám phá", "khuyên", "xu hướng", "đề xuất", "mix", "trộn"];
+
 // Hàm render discover
 function renderDiscover(feed) {
   discoverLinks.forEach(item => {
@@ -55,7 +58,8 @@ async function fetchTagPlaylists(tag) {
   const feed = document.getElementById("feed");
   feed.innerHTML = "";
 
-  if (tag.toLowerCase() === "discover") {
+  // Kiểm tra alias
+  if (discoverAliases.includes(tag.toLowerCase())) {
     renderDiscover(feed);
     return;
   }
