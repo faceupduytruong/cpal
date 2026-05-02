@@ -94,7 +94,8 @@ async function createAIPlaylist() {
   const feed = document.getElementById("feed");
   feed.innerHTML = "";
 
-  if (queryValue.toLowerCase() === "discover") {
+  // Kiểm tra alias cho discover
+  if (discoverAliases.includes(queryValue.toLowerCase())) {
     renderDiscover(feed);
     return;
   }
