@@ -52,9 +52,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/wonderfulnature79/videos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xdxj0rj5mgkpxsr0ta02f/VFC-Best-Movies.png?rlkey=lmsk8v274zrlwhyfk5yzqg9yi&st=j86b3x2d&raw=1',
   },
-  'Thích xem review - Review hay': {
-    url: 'https://www.facebook.com/groups/1068161579900981/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/f2vmsrz86uuho1u4ktt7e/Th-ch-xem-Review-Review-hay.png?rlkey=ha7knjvyccu3jmoa262nr5lmk&st=bbxiyz9e&raw=1',
+  'Hùng Phim Hay': {
+    url: 'https://www.facebook.com/profile.php?id=61574378254561&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/enzmr2310kj37mu0t9f7w/H-ng-Phim-Hay.jpg?rlkey=amuecqyk51g3x2xlz5wop7tk7&st=20336yv8&raw=1',
   },
   'Săn phim hot': {
     url: 'https://www.facebook.com/sanphimhot.mcv/reels/',
@@ -63,10 +63,6 @@ const folderLinks = {
   'Đỗ Nhật Minh (Minh pháp sư)': {
     url: 'https://www.facebook.com/donhatminh25/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/u545rmvh9fgrzbq4znnim/Nh-t-Minh-Minh-Ph-p-S.png?rlkey=r7p5jxwjk0xh9p48x8bs9ehi6&st=pegt0h3w&raw=1',
-  },
-  'Hùng Phim Hay': {
-    url: 'https://www.facebook.com/profile.php?id=61574378254561&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/enzmr2310kj37mu0t9f7w/H-ng-Phim-Hay.jpg?rlkey=amuecqyk51g3x2xlz5wop7tk7&st=20336yv8&raw=1',
   },
   // thêm các mục khác nếu cần
 };
