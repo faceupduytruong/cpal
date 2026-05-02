@@ -230,10 +230,6 @@ const folderLinks = {
     url: 'https://www.youtube.com/@bianthegioi19/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/s0mhl93n258ud79olo6m6/B-n-Th-Gi-i.jpg?rlkey=omqinbtj8zyejdfw1jycd8vqd&st=lejnzoq7&raw=1',
   },
-  'Bí Ẩn Thế Giới Khác': {
-    url: 'https://www.facebook.com/profile.php?id=100090791846406&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/irixstkdgvi3tql1qnxrs/B-n-Th-Gi-i-Kh-c.webp?rlkey=8iw34hqy1eykllzacyfdrg1a3&st=0k5hshff&raw=1',
-  },
   'Bắp TV': {
     url: 'https://www.facebook.com/baptv5642/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0zql6b385pmdek2m4ln0e/B-p-TV.jpg?rlkey=egergzdyz6b32uzhg0sti2s9d&st=sdaqywxa&raw=1',
