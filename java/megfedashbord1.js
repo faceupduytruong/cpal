@@ -174,17 +174,55 @@ async function compareExcel(path1, path2) {
 
 document.getElementById("compareBtn").addEventListener("click", () => {
   const checked = document.querySelectorAll(".compare-checkbox:checked");
-  if (checked.length !== 2) {
-    alert("Vui lòng chọn đúng 2 file để so sánh.");
+  if (checked.length < 2) {
+    alert("Vui lòng chọn ít nhất 2 file để so sánh.");
     return;
   }
 
-  const path1 = checked[0].dataset.path;
-  const path2 = checked[1].dataset.path;
+  const paths = Array.from(checked).map(cb => cb.dataset.path);
 
-  // Gọi so sánh Excel thay vì so sánh text
-  compareExcel(path1, path2);
+  compareMultipleExcel(paths);
 });
+
+async function compareMultipleExcel(paths) {
+  try {
+    const response = await fetch("http://127.0.0.1:8000/compare_excel_multi", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ paths })
+    });
+    const data = await response.json();
+
+    const feedContainer = document.getElementById("feed");
+    feedContainer.innerHTML = "<h3>Kết quả so sánh Excel</h3>";
+
+    if (!data.diffs || data.diffs.length === 0) {
+      feedContainer.innerHTML += "<p>Các file giống nhau hoặc không thể so sánh.</p>";
+    } else {
+      const table = document.createElement("table");
+      table.className = "diff-table";
+      // header động theo số file
+      let header = "<tr><th>Sheet</th><th>Ô</th>";
+      data.files.forEach((fname, idx) => {
+        header += `<th>File${idx+1}: ${fname}</th>`;
+      });
+      header += "</tr>";
+      table.innerHTML = header;
+
+      data.diffs.forEach(diff => {
+        let row = `<tr><td>${diff.sheet}</td><td>${diff.cell}</td>`;
+        diff.values.forEach(val => {
+          row += `<td>${val ?? ""}</td>`;
+        });
+        row += "</tr>";
+        table.innerHTML += row;
+      });
+      feedContainer.appendChild(table);
+    }
+  } catch (error) {
+    console.error("Lỗi khi so sánh nhiều Excel:", error);
+  }
+}
 
 // Toggle theme
 document.getElementById("toggleTheme").addEventListener("click", () => {
