@@ -1,4 +1,4 @@
-import os, subprocess, tempfile, shutil, difflib, subprocess
+import os, csv, subprocess, tempfile, shutil, difflib, subprocess
 from fastapi import FastAPI, Query, Body
 from fastapi.middleware.cors import CORSMiddleware
 from collections import defaultdict
@@ -183,7 +183,6 @@ def compare_excel_multi(paths: list[str] = Body(..., embed=True)):
     workbooks = [load_workbook(f, data_only=True) for f in files]
     diffs = []
 
-    # lấy sheetnames chung
     common_sheets = set(workbooks[0].sheetnames)
     for wb in workbooks[1:]:
         common_sheets &= set(wb.sheetnames)
@@ -202,6 +201,19 @@ def compare_excel_multi(paths: list[str] = Body(..., embed=True)):
                         "values": values
                     })
 
+    # --- Xuất ra Desktop ---
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    desktop_path = r"C:\Users\Admin\OneDrive\Desktop"
+    export_path = os.path.join(desktop_path, f"compare_result_{timestamp}.csv")
+
+    with open(export_path, "w", newline="", encoding="utf-8") as csvfile:
+        writer = csv.writer(csvfile)
+        header = ["Sheet", "Cell"] + [f"File{i+1}" for i in range(len(paths))]
+        writer.writerow(header)
+        for diff in diffs:
+            row = [diff["sheet"], diff["cell"]] + diff["values"]
+            writer.writerow(row)
+
     # cleanup file tạm
     for f in files:
         try:
@@ -210,4 +222,4 @@ def compare_excel_multi(paths: list[str] = Body(..., embed=True)):
         except Exception as e:
             print(f"Lỗi xóa file {f}: {e}")
 
-    return {"files": paths, "diffs": diffs}
+    return {"files": paths, "diffs": diffs, "export_file": export_path}
