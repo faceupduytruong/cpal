@@ -98,6 +98,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@dotphatrithuc/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/t-Ph-Tri-Th-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=x9ui7pat&raw=1',
   },
+  'Bí Ẩn Vũ Trụ': {
+    url: 'https://www.facebook.com/profile.php?id=61573268736021&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/htmzaj5uqtnoh7fpawaun/B-n-V-Tr.jpg?rlkey=vbw166lneag7k7y7s35ufa8o4&st=m51pqyc6&raw=1',
+  },
   'Quản Trị Mạng (Vũ Trụ)': {
     url: 'https://quantrimang.com/khoa-hoc/khoa-hoc-vu-tru',
     thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/Qu-n-Tr-M-ng-V-Tr.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=rvxcg180&raw=1',
