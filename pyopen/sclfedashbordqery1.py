@@ -48,6 +48,67 @@ sample_playlists = {
         "https://soundcloud.com/trending-music-vn/sets/techno",
         "https://soundcloud.com/trending-music-vn/sets/rock-metal-punk"
     ],
+    "fr": [
+        "https://soundcloud.com/trending-music-fr/sets/soundcloud",
+        "https://soundcloud.com/trending-music-fr/sets/pop",
+        "https://soundcloud.com/trending-music-fr/sets/r-b",
+        "https://soundcloud.com/trending-music-fr/sets/hip-hop-rap",
+        "https://soundcloud.com/trending-music-fr/sets/soul",
+        "https://soundcloud.com/trending-music-fr/sets/reggae",
+        "https://soundcloud.com/trending-music-fr/sets/latin",
+        "https://soundcloud.com/trending-music-fr/sets/indie",
+        "https://soundcloud.com/trending-music-fr/sets/jazz",
+        "https://soundcloud.com/trending-music-fr/sets/folk",
+        "https://soundcloud.com/trending-music-fr/sets/electronic",
+        "https://soundcloud.com/trending-music-fr/sets/house",
+        "https://soundcloud.com/trending-music-fr/sets/country",
+        "https://soundcloud.com/trending-music-fr/sets/rock-metal-punk",
+        "https://soundcloud.com/trending-music-fr/sets/techno"
+    ],
+    "ca": [
+        "https://soundcloud.com/trending-music-ca/sets/soundcloud",
+        "https://soundcloud.com/trending-music-ca/sets/pop",
+        "https://soundcloud.com/trending-music-ca/sets/r-b",
+        "https://soundcloud.com/trending-music-ca/sets/hip-hop-rap",
+        "https://soundcloud.com/trending-music-ca/sets/soul",
+        "https://soundcloud.com/trending-music-ca/sets/reggae",
+        "https://soundcloud.com/trending-music-ca/sets/latin",
+        "https://soundcloud.com/trending-music-ca/sets/indie",
+        "https://soundcloud.com/trending-music-ca/sets/jazz",
+        "https://soundcloud.com/trending-music-ca/sets/folk",
+        "https://soundcloud.com/trending-music-ca/sets/electronic",
+        "https://soundcloud.com/trending-music-ca/sets/house",
+        "https://soundcloud.com/trending-music-ca/sets/country",
+        "https://soundcloud.com/trending-music-ca/sets/rock-metal-punk",
+        "https://soundcloud.com/trending-music-ca/sets/techno"
+    ],
+    "de": [
+        "https://soundcloud.com/trending-music-de/sets/soundcloud",
+        "https://soundcloud.com/trending-music-de/sets/pop",
+        "https://soundcloud.com/trending-music-de/sets/r-b",
+        "https://soundcloud.com/trending-music-de/sets/hip-hop-rap",
+        "https://soundcloud.com/trending-music-de/sets/soul",
+        "https://soundcloud.com/trending-music-de/sets/reggae",
+        "https://soundcloud.com/trending-music-de/sets/latin",
+        "https://soundcloud.com/trending-music-de/sets/indie",
+        "https://soundcloud.com/trending-music-de/sets/jazz",
+        "https://soundcloud.com/trending-music-de/sets/folk",
+        "https://soundcloud.com/trending-music-de/sets/electronic",
+        "https://soundcloud.com/trending-music-de/sets/house",
+        "https://soundcloud.com/trending-music-de/sets/country",
+        "https://soundcloud.com/trending-music-de/sets/rock-metal-punk",
+        "https://soundcloud.com/trending-music-de/sets/techno"
+    ],
+    "buzzing": [
+        "https://soundcloud.com/buzzing-playlists/sets/buzzing-pop",
+        "https://soundcloud.com/buzzing-playlists/sets/buzzing-r-b",
+        "https://soundcloud.com/buzzing-playlists/sets/buzzing-mexico",
+        "https://soundcloud.com/buzzing-playlists/sets/buzzing-hip-hop",
+        "https://soundcloud.com/buzzing-playlists/sets/buzzing-indie",
+        "https://soundcloud.com/buzzing-playlists/sets/buzzing-rock",
+        "https://soundcloud.com/buzzing-playlists/sets/buzzing-electronic",
+        "https://soundcloud.com/buzzing-playlists/sets/buzzing-metal"
+    ],
     "soul": [
         "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts1",
         "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts2",
@@ -189,6 +250,18 @@ sample_playlists["shop"] = sample_playlists["coffee"]
 sample_playlists["heaven coffee"] = sample_playlists["coffee"]
 sample_playlists["coffee shop"] = sample_playlists["coffee"]
 sample_playlists["heaven coffee shop"] = sample_playlists["coffee"]
+
+sample_playlists["giới trẻ"] = sample_playlists["soul"]
+sample_playlists["GenZ"] = sample_playlists["soul"]
+sample_playlists["câu hỏi"] = sample_playlists["soul"]
+sample_playlists["tự vấn"] = sample_playlists["soul"]
+sample_playlists["an ủi"] = sample_playlists["soul"]
+
+sample_playlists["dalat"] = sample_playlists["Đà Lạt"]
+sample_playlists["Đà lạt"] = sample_playlists["Đà Lạt"]
+sample_playlists["đà lạt"] = sample_playlists["Đà Lạt"]
+sample_playlists["đà Lạt"] = sample_playlists["Đà Lạt"]
+sample_playlists["da lat"] = sample_playlists["Đà Lạt"]
 
 # Lấy playlist theo username và danh sách playlist
 @app.get("/feed_soundcloud")
