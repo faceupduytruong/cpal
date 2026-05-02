@@ -9,6 +9,7 @@ function renderFeed(feed) {
     const megaUrl = `https://mega.nz/fm/k4lH3BoZ`;
 
     card.innerHTML = `
+      <input type="checkbox" class="compare-checkbox" data-path="${item.path}">
       <h3>${item.path}</h3>
       <p>📦 Dung lượng: ${item.size}</p>
       <p>📅 Ngày: ${item.date}</p>
@@ -148,6 +149,19 @@ async function compareFiles(path1, path2) {
     console.error("Lỗi khi so sánh:", error);
   }
 }
+
+document.getElementById("compareBtn").addEventListener("click", () => {
+  const checked = document.querySelectorAll(".compare-checkbox:checked");
+  if (checked.length !== 2) {
+    alert("Vui lòng chọn đúng 2 file để so sánh.");
+    return;
+  }
+
+  const path1 = checked[0].dataset.path;
+  const path2 = checked[1].dataset.path;
+
+  compareFiles(path1, path2);
+});
 
 // Toggle theme
 document.getElementById("toggleTheme").addEventListener("click", () => {
