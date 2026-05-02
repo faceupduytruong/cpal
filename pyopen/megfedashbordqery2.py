@@ -142,8 +142,8 @@ def download_file_from_mega(path, user, password):
         raise ValueError("Không tạo được link chia sẻ cho file")
 
     tmpdir = tempfile.mkdtemp()
-    cmd = [megatools_exe, "dl", link, "--path", tmpdir]  # dùng --path thay vì --to
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    cmd = [megatools_exe, "dl", link, "--path", tmpdir]
+    result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", errors="ignore")
 
     if result.returncode != 0:
         raise RuntimeError(f"Lỗi tải file từ Mega: {result.stderr}")
@@ -174,44 +174,41 @@ def compare_files(path1: str = Query(...), path2: str = Query(...)):
     except Exception as e:
         return {"error": str(e)}
 
-@app.get("/compare_excel")
-def compare_excel(path1: str = Query(...), path2: str = Query(...)):
-    file1 = download_file_from_mega(path1, MEGA_USER1, MEGA_PASS1)
-    file2 = download_file_from_mega(path2, MEGA_USER1, MEGA_PASS1)
+@app.post("/compare_excel_multi")
+def compare_excel_multi(paths: list[str] = Body(..., embed=True)):
+    files = []
+    for p in paths:
+        f = download_file_from_mega(p, MEGA_USER1, MEGA_PASS1)
+        files.append(f)
 
-    print(f"[compare_excel] File1 đã tải về: {file1}")
-    print(f"[compare_excel] File2 đã tải về: {file2}")
-
-    wb1 = load_workbook(file1, data_only=True)
-    wb2 = load_workbook(file2, data_only=True)
-
+    workbooks = [load_workbook(f, data_only=True) for f in files]
     diffs = []
-    for sheetname in wb1.sheetnames:
-        if sheetname in wb2.sheetnames:
-            s1, s2 = wb1[sheetname], wb2[sheetname]
-            for row in range(1, max(s1.max_row, s2.max_row) + 1):
-                for col in range(1, max(s1.max_column, s2.max_column) + 1):
-                    v1 = s1.cell(row=row, column=col).value
-                    v2 = s2.cell(row=row, column=col).value
-                    if v1 != v2:
-                        diffs.append({
-                            "sheet": sheetname,
-                            "cell": s1.cell(row=row, column=col).coordinate,
-                            "file1": v1,
-                            "file2": v2
-                        })
 
-    print(f"[compare_excel] Tổng số khác biệt: {len(diffs)}")
+    # lấy sheetnames chung
+    common_sheets = set(workbooks[0].sheetnames)
+    for wb in workbooks[1:]:
+        common_sheets &= set(wb.sheetnames)
 
-    # --- Xóa file tạm sau khi so sánh ---
-    try:
-        os.remove(file1)
-        os.remove(file2)
-        # Nếu muốn xóa cả thư mục tạm:
-        shutil.rmtree(os.path.dirname(file1), ignore_errors=True)
-        shutil.rmtree(os.path.dirname(file2), ignore_errors=True)
-        print("[compare_excel] Đã xóa file tạm.")
-    except Exception as e:
-        print(f"[compare_excel] Lỗi khi xóa file tạm: {e}")
+    for sheetname in common_sheets:
+        sheets = [wb[sheetname] for wb in workbooks]
+        max_row = max(s.max_row for s in sheets)
+        max_col = max(s.max_column for s in sheets)
+        for row in range(1, max_row+1):
+            for col in range(1, max_col+1):
+                values = [s.cell(row=row, column=col).value for s in sheets]
+                if not all(v == values[0] for v in values):
+                    diffs.append({
+                        "sheet": sheetname,
+                        "cell": sheets[0].cell(row=row, column=col).coordinate,
+                        "values": values
+                    })
 
-    return {"diffs": diffs}
+    # cleanup file tạm
+    for f in files:
+        try:
+            os.remove(f)
+            shutil.rmtree(os.path.dirname(f), ignore_errors=True)
+        except Exception as e:
+            print(f"Lỗi xóa file {f}: {e}")
+
+    return {"files": paths, "diffs": diffs}
