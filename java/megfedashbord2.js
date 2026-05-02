@@ -125,6 +125,30 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
+async function compareFiles(path1, path2) {
+  try {
+    const response = await fetch(`http://127.0.0.1:8000/compare?path1=${encodeURIComponent(path1)}&path2=${encodeURIComponent(path2)}`);
+    const data = await response.json();
+
+    const feedContainer = document.getElementById("feed");
+    feedContainer.innerHTML = "";
+
+    if (data.diff_html) {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <h3>So sánh phiên bản</h3>
+        ${data.diff_html}
+      `;
+      feedContainer.appendChild(card);
+    } else {
+      feedContainer.innerHTML = "<p>Không thể so sánh file.</p>";
+    }
+  } catch (error) {
+    console.error("Lỗi khi so sánh:", error);
+  }
+}
+
 // Toggle theme
 document.getElementById("toggleTheme").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
