@@ -27,6 +27,11 @@ const discoverLinks = [
     url: "https://soundcloud.com/discover/sets/new-for-you::nhanhlaxanh"
   },
   {
+    title: "Weekly Wave",
+    img: "https://al.sndcdn.com/labs-b60de5cd-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBTQ19XRUVLTFkKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIyNjE5NDA5NDciCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjQ2NjIxMTU5Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI3NDUwMDA5MCIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIyNDc3MzU5OTIiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjg2MTE5MzYzIgo%3D",
+    url: "https://soundcloud.com/discover/sets/weekly::nhanhlaxanh"
+  },
+  {
     title: "Your Mix 1",
     img: "https://al.sndcdn.com/labs-2d3991b7-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF8xCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjI0NjIyMzk2Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI0MTcwNzI5NyIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIyMzEwNDAyNDIiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjQwOTA3ODk5Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjIxNTg0NzI4OCIK",
     url: "https://soundcloud.com/discover/sets/your-moods:33939568:1"
