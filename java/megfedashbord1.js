@@ -178,8 +178,14 @@ async function compareMultipleExcel(paths) {
 
       data.diffs.forEach(diff => {
         let row = `<tr><td>${diff.sheet}</td><td>${diff.cell}</td>`;
-        diff.values.forEach(val => {
-          row += `<td>${val ?? ""}</td>`;
+        diff.values.forEach((val, idx) => {
+          let bgColor = "";
+          if (idx === 0) bgColor = "background:#ffe0e0"; // đỏ nhạt
+          else if (idx === 1) bgColor = "background:#e0ffe0"; // xanh nhạt
+          else if (idx === 2) bgColor = "background:#e0e0ff"; // xanh dương nhạt
+          else if (idx === 3) bgColor = "background:#fff0b3"; // vàng nhạt
+          // thêm màu khác nếu có nhiều file hơn
+          row += `<td style="${bgColor}">${val ?? ""}</td>`;
         });
         row += "</tr>";
         table.innerHTML += row;
