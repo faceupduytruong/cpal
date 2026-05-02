@@ -44,10 +44,8 @@ async function fetchStats(query) {
   // Bar chart với gradient xanh đọt chuối
   const ctx1 = document.getElementById("folderChart").getContext("2d");
   const barGradient = ctx1.createLinearGradient(0, 0, 0, 400);
-
-  // thêm alpha 0.6 để trong suốt giống lúc đầu
-  barGradient.addColorStop(0, "rgba(127, 255, 0, 0.5)"); // xanh đọt chuối trong suốt
-  barGradient.addColorStop(1, "rgba(173, 255, 47, 0.5)"); // xanh nhạt hơn trong suốt
+  barGradient.addColorStop(0, "rgba(127, 255, 0, 0.5)");
+  barGradient.addColorStop(1, "rgba(173, 255, 47, 0.5)");
 
   folderChart = new Chart(ctx1, {
     type: "bar",
@@ -77,7 +75,7 @@ async function fetchStats(query) {
       datasets: [{
         label: "Số lượng file",
         data: Object.values(data.files_per_year),
-        borderColor: "rgba(255, 99, 132, 0.6)", // đỏ như cũ
+        borderColor: "rgba(255, 99, 132, 0.6)",
         fill: false,
         tension: 0.3
       }]
@@ -104,13 +102,13 @@ async function doSearch() {
   }
 }
 
-// Khi load trang, kiểm tra trạng thái đã lưu và vẽ chart tổng
+// Khi load trang
 window.addEventListener("DOMContentLoaded", () => {
   const savedTheme = localStorage.getItem("theme");
   if (savedTheme === "dark") {
     document.body.classList.add("dark-mode");
   }
-  fetchStats(); // chart tổng khi load
+  fetchStats();
 });
 
 // Nút Search
@@ -141,7 +139,7 @@ async function compareFiles(path1, path2) {
   }
 }
 
-// So sánh tối thiểu 2 file Excel
+// So sánh nhiều file Excel
 document.getElementById("compareBtn").addEventListener("click", () => {
   const checked = document.querySelectorAll(".compare-checkbox:checked");
   if (checked.length < 2) {
@@ -150,7 +148,6 @@ document.getElementById("compareBtn").addEventListener("click", () => {
   }
 
   const paths = Array.from(checked).map(cb => cb.dataset.path);
-
   compareMultipleExcel(paths);
 });
 
@@ -163,15 +160,15 @@ async function compareMultipleExcel(paths) {
     });
     const data = await response.json();
 
-    const feedContainer = document.getElementById("feed");
-    feedContainer.innerHTML = "<h3>Kết quả so sánh Excel</h3>";
+    // dùng container riêng cho kết quả so sánh
+    const compareContainer = document.getElementById("compareResult");
+    compareContainer.innerHTML = "<h3>Kết quả so sánh Excel</h3>";
 
     if (!data.diffs || data.diffs.length === 0) {
-      feedContainer.innerHTML += "<p>Các file giống nhau hoặc không thể so sánh.</p>";
+      compareContainer.innerHTML += "<p>Các file giống nhau hoặc không thể so sánh.</p>";
     } else {
       const table = document.createElement("table");
       table.className = "diff-table";
-      // header động theo số file
       let header = "<tr><th>Sheet</th><th>Ô</th>";
       data.files.forEach((fname, idx) => {
         header += `<th>File${idx+1}: ${fname}</th>`;
@@ -187,7 +184,7 @@ async function compareMultipleExcel(paths) {
         row += "</tr>";
         table.innerHTML += row;
       });
-      feedContainer.appendChild(table);
+      compareContainer.appendChild(table);
     }
   } catch (error) {
     console.error("Lỗi khi so sánh nhiều Excel:", error);
@@ -198,7 +195,7 @@ async function compareMultipleExcel(paths) {
 document.getElementById("toggleTheme").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
-  doSearch();
+  fetchStats(); // chỉ vẽ lại chart, không ghi đè kết quả so sánh
 });
 
 // Toggle chart hiển thị/ẩn
