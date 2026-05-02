@@ -1,9 +1,9 @@
-import os
-import subprocess
+import os, subprocess, tempfile, shutil, difflib, subprocess
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from collections import defaultdict
 from datetime import datetime
+from openpyxl import load_workbook
 
 # --- Load config.env ---
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -128,3 +128,90 @@ def get_stats():
         "folder_sizes": folder_sizes_mb,
         "files_per_year": files_per_year
     }
+
+def export_link(path, user, password):
+    cmd = [megatools_exe, "export", "--username", user, "--password", password, path]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode == 0 and result.stdout:
+        return result.stdout.strip().splitlines()[0]
+    return None
+
+def download_file_from_mega(path, user, password):
+    link = export_link(path, user, password)
+    if not link:
+        raise ValueError("Không tạo được link chia sẻ cho file")
+
+    tmpdir = tempfile.mkdtemp()
+    cmd = [megatools_exe, "dl", link, "--path", tmpdir]  # dùng --path thay vì --to
+    result = subprocess.run(cmd, capture_output=True, text=True)
+
+    if result.returncode != 0:
+        raise RuntimeError(f"Lỗi tải file từ Mega: {result.stderr}")
+
+    # tìm file vừa tải về trong tmpdir
+    for root, dirs, files in os.walk(tmpdir):
+        for f in files:
+            fullpath = os.path.join(root, f)
+            print(f"[download_file_from_mega] File đã tải về: {fullpath}")
+            return fullpath
+    return None
+
+@app.get("/compare")
+def compare_files(path1: str = Query(...), path2: str = Query(...)):
+    # chạy megatools để lấy nội dung file (ví dụ dùng cat hoặc export)
+    # ở đây demo bằng cách đọc file text từ local
+    try:
+        with open(path1, encoding="utf-8") as f1, open(path2, encoding="utf-8") as f2:
+            text1 = f1.readlines()
+            text2 = f2.readlines()
+
+        diff = difflib.HtmlDiff().make_table(text1, text2,
+                                             fromdesc=path1,
+                                             todesc=path2,
+                                             context=True,
+                                             numlines=3)
+        return {"diff_html": diff}
+    except Exception as e:
+        return {"error": str(e)}
+
+@app.get("/compare_excel")
+def compare_excel(path1: str = Query(...), path2: str = Query(...)):
+    file1 = download_file_from_mega(path1, MEGA_USER1, MEGA_PASS1)
+    file2 = download_file_from_mega(path2, MEGA_USER1, MEGA_PASS1)
+
+    print(f"[compare_excel] File1 đã tải về: {file1}")
+    print(f"[compare_excel] File2 đã tải về: {file2}")
+
+    wb1 = load_workbook(file1, data_only=True)
+    wb2 = load_workbook(file2, data_only=True)
+
+    diffs = []
+    for sheetname in wb1.sheetnames:
+        if sheetname in wb2.sheetnames:
+            s1, s2 = wb1[sheetname], wb2[sheetname]
+            for row in range(1, max(s1.max_row, s2.max_row) + 1):
+                for col in range(1, max(s1.max_column, s2.max_column) + 1):
+                    v1 = s1.cell(row=row, column=col).value
+                    v2 = s2.cell(row=row, column=col).value
+                    if v1 != v2:
+                        diffs.append({
+                            "sheet": sheetname,
+                            "cell": s1.cell(row=row, column=col).coordinate,
+                            "file1": v1,
+                            "file2": v2
+                        })
+
+    print(f"[compare_excel] Tổng số khác biệt: {len(diffs)}")
+
+    # --- Xóa file tạm sau khi so sánh ---
+    try:
+        os.remove(file1)
+        os.remove(file2)
+        # Nếu muốn xóa cả thư mục tạm:
+        shutil.rmtree(os.path.dirname(file1), ignore_errors=True)
+        shutil.rmtree(os.path.dirname(file2), ignore_errors=True)
+        print("[compare_excel] Đã xóa file tạm.")
+    except Exception as e:
+        print(f"[compare_excel] Lỗi khi xóa file tạm: {e}")
+
+    return {"diffs": diffs}
