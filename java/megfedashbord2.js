@@ -179,13 +179,24 @@ async function compareMultipleExcel(paths) {
     if (!data.diffs || data.diffs.length === 0) {
       compareContainer.innerHTML += "<p>Các file giống nhau hoặc không thể so sánh.</p>";
     } else {
-      // mảng màu động
-      const colors = ["#ffe0e0", "#e0ffe0", "#e0e0ff", "#fff0b3", "#f0d9ff", "#d9f0ff"];
+      // tạo mảng màu với hơn 20 màu
+      const colors = [
+        "#ffe0e0","#e0ffe0","#e0e0ff","#fff0b3","#f0d9ff","#d9f0ff",
+        "#ffd9d9","#d9ffd9","#d9d9ff","#ffffd9","#ffd9ff","#d9ffff",
+        "#fce4ec","#e8f5e9","#e3f2fd","#fff3e0","#f9fbe7","#ede7f6",
+        "#e0f7fa","#fbe9e7","#f1f8e9","#f9fbe7"
+      ];
+
+      // gán màu ngẫu nhiên cho từng file
+      const fileColors = data.files.map(() => {
+        const randomIndex = Math.floor(Math.random() * colors.length);
+        return colors[randomIndex];
+      });
 
       // tạo legend
       let legendHtml = "<div class='legend'>";
       data.files.forEach((fname, idx) => {
-        const color = colors[idx % colors.length];
+        const color = fileColors[idx];
         legendHtml += `<span style="background:${color}">File${idx+1}: ${fname}</span>`;
       });
       legendHtml += "</div>";
@@ -204,7 +215,7 @@ async function compareMultipleExcel(paths) {
       data.diffs.forEach(diff => {
         let row = `<tr><td>${diff.sheet}</td><td>${diff.cell}</td>`;
         diff.values.forEach((val, idx) => {
-          const bgColor = colors[idx % colors.length];
+          const bgColor = fileColors[idx];
           row += `<td style="background:${bgColor}">${val ?? ""}</td>`;
         });
         row += "</tr>";
