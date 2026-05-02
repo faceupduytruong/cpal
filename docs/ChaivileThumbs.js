@@ -108,5 +108,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/tiengtrungtamtamxx/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/di9arkgg0euuu95qqf0kh/Ti-ng-Trung-T-m-T-m.png?rlkey=jabo8f5mbkpie2ynxpg6j8jor&st=nr2rs1g3&raw=1'
   },
+  'Vũ Chinese': {
+    url: 'https://www.facebook.com/vuchinese1990/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ypo0mvnx17hhiggo1stko/V-Chinese.jpeg?rlkey=9cqzi769ardr68tqs06w4umil&st=rwr6wde0&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
