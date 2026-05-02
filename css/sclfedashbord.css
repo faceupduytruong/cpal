@@ -256,9 +256,9 @@ body.dark-mode #toggleTheme {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
 
-/* Hover: đỏ trong suốt (light mode) */
+/* Hover: xanh đọt chuối trong suốt (light mode) */
 .discover-btn:hover {
-  background-color: rgba(255, 0, 0, 0.4);
+  background-color: rgba(154, 205, 50, 0.4); /* xanh đọt chuối */
 }
 
 /* Khi bật dark mode */
