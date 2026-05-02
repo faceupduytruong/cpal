@@ -152,7 +152,7 @@ async function compareFiles(path1, path2) {
   }
 }
 
-// So sánh tối thiểu 2 file Excel
+// So sánh nhiều file Excel
 document.getElementById("compareBtn").addEventListener("click", () => {
   const checked = document.querySelectorAll(".compare-checkbox:checked");
   if (checked.length < 2) {
@@ -161,7 +161,6 @@ document.getElementById("compareBtn").addEventListener("click", () => {
   }
 
   const paths = Array.from(checked).map(cb => cb.dataset.path);
-
   compareMultipleExcel(paths);
 });
 
@@ -174,15 +173,15 @@ async function compareMultipleExcel(paths) {
     });
     const data = await response.json();
 
-    const feedContainer = document.getElementById("feed");
-    feedContainer.innerHTML = "<h3>Kết quả so sánh Excel</h3>";
+    // dùng container riêng cho kết quả so sánh
+    const compareContainer = document.getElementById("compareResult");
+    compareContainer.innerHTML = "<h3>Kết quả so sánh Excel</h3>";
 
     if (!data.diffs || data.diffs.length === 0) {
-      feedContainer.innerHTML += "<p>Các file giống nhau hoặc không thể so sánh.</p>";
+      compareContainer.innerHTML += "<p>Các file giống nhau hoặc không thể so sánh.</p>";
     } else {
       const table = document.createElement("table");
       table.className = "diff-table";
-      // header động theo số file
       let header = "<tr><th>Sheet</th><th>Ô</th>";
       data.files.forEach((fname, idx) => {
         header += `<th>File${idx+1}: ${fname}</th>`;
@@ -192,13 +191,19 @@ async function compareMultipleExcel(paths) {
 
       data.diffs.forEach(diff => {
         let row = `<tr><td>${diff.sheet}</td><td>${diff.cell}</td>`;
-        diff.values.forEach(val => {
-          row += `<td>${val ?? ""}</td>`;
+        diff.values.forEach((val, idx) => {
+          let bgColor = "";
+          if (idx === 0) bgColor = "background:#ffe0e0"; // đỏ nhạt
+          else if (idx === 1) bgColor = "background:#e0ffe0"; // xanh nhạt
+          else if (idx === 2) bgColor = "background:#e0e0ff"; // xanh dương nhạt
+          else if (idx === 3) bgColor = "background:#fff0b3"; // vàng nhạt
+          // thêm màu khác nếu có nhiều file hơn
+          row += `<td style="${bgColor}">${val ?? ""}</td>`;
         });
         row += "</tr>";
         table.innerHTML += row;
       });
-      feedContainer.appendChild(table);
+      compareContainer.appendChild(table);
     }
   } catch (error) {
     console.error("Lỗi khi so sánh nhiều Excel:", error);
