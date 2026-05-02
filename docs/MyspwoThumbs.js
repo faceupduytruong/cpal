@@ -18,9 +18,9 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/go7hgrxhqjdlc8twaob54/Google.webp?rlkey=re0z5hmanpo8rp4xts7m24xck&st=riwgh2gl&raw=1'
   },
-  'Nguyên Đạt Story': {
-    url: 'https://www.facebook.com/nguyendat2512s/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/aamk8bzq4xfgkxp854txq/Nguy-n-t-Story.jpg?rlkey=9lhk879uu45yzq9zav2epyton&st=ulk2o63h&raw=1',
+  'Bí Ẩn Thế Giới Khác': {
+    url: 'https://www.facebook.com/profile.php?id=100090791846406&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/irixstkdgvi3tql1qnxrs/B-n-Th-Gi-i-Kh-c.webp?rlkey=8iw34hqy1eykllzacyfdrg1a3&st=0k5hshff&raw=1',
   },
   'Bí Ẩn Tâm Linh': {
     url: 'https://www.facebook.com/profile.php?id=61555482115414&sk=reels_tab',
@@ -33,6 +33,10 @@ const folderLinks = {
   'NEW88 Truyện Ma Canh Tý': {
     url: 'https://www.facebook.com/new88truyenmacanhty/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/a4hturk0c04wi5kb4o6zk/NEW88-Truy-n-Ma-Canh-T.jpg?rlkey=8aashzsm3w2zads7ew9lqq0py&st=duf40vn4&raw=1',
+  },
+  'Nguyên Đạt Story': {
+    url: 'https://www.facebook.com/nguyendat2512s/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/aamk8bzq4xfgkxp854txq/Nguy-n-t-Story.jpg?rlkey=9lhk879uu45yzq9zav2epyton&st=ulk2o63h&raw=1',
   },
   // thêm các mục khác nếu cần
 };
