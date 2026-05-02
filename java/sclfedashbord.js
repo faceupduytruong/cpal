@@ -27,6 +27,51 @@ const discoverLinks = [
     url: "https://soundcloud.com/discover/sets/new-for-you::nhanhlaxanh"
   },
   {
+    title: "Your Mix 1",
+    img: "https://al.sndcdn.com/labs-2d3991b7-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF8xCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjI0NjIyMzk2Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI0MTcwNzI5NyIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIyMzEwNDAyNDIiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjQwOTA3ODk5Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjIxNTg0NzI4OCIK",
+    url: "https://soundcloud.com/discover/sets/your-moods:33939568:1"
+  },
+  {
+    title: "Your Mix 2",
+    img: "https://al.sndcdn.com/labs-eaad907d-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF8yCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMzA1MjA3Njk0Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMwMDI2NDI0MCIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIyMjYwMjc5NjIiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjQ2NDc1NzA0Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI0Njc5NzU0NyIK",
+    url: "https://soundcloud.com/discover/sets/your-moods:33939568:2"
+  },
+  {
+    title: "Your Mix 3",
+    img: "https://i1.sndcdn.com/avatars-B1WnjTfMN4JCHtB2-5t6j0Q-t500x500.jpg",
+    url: "https://soundcloud.com/discover/sets/your-moods:33939568:3"
+  },
+  {
+    title: "Your Mix 4",
+    img: "https://al.sndcdn.com/labs-6914ea80-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF80CnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMzAwMjY0MjQwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI5NTE3MDIwNCIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMDUyMDc2OTQiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjQ1MzM4NDE5Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI1OTEwOTA2MSIK",
+    url: "https://soundcloud.com/discover/sets/your-moods:33939568:4"
+  },
+  {
+    title: "Your Mix 5",
+    img: "https://al.sndcdn.com/labs-cec3a2cc-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF81CnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjQzMzQ0OTQzIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI0MDg3MDMxMiIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIyNDQ1NjcwODYiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjQ4NTk0NTkyIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI0MDg3MDMxNSIK",
+    url: "https://soundcloud.com/discover/sets/your-moods:33939568:5"
+  },
+  {
+    title: "Your Mix 6",
+    img: "https://al.sndcdn.com/labs-919baf1a-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF82CnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczo0MTI1MTkxODIiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoxMTg1MDg3MDQwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MTg4NzQ4MTU2MCIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjU0MzQ2NjU1MSIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjEyMDYwOTA5NDMiCg%3D%3D",
+    url: "https://soundcloud.com/discover/sets/your-moods:33939568:6"
+  },
+  {
+    title: "Your Mix 7",
+    img: "https://al.sndcdn.com/labs-29c15706-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF83CnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczo3MDY3MzI3NCIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjEzODQzNTg0OTEiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoxMTM0MjA3MzM3Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MTEyNjU0NzkxNCIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjk2OTM5Mzc2NiIK",
+    url: "https://soundcloud.com/discover/sets/your-moods:33939568:7"
+  },
+  {
+    title: "Your Mix 8",
+    img: "https://al.sndcdn.com/labs-611869c3-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF84CnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjU2ODI2NzkwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjIwMTc4MDAxNSIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIyNjMxMjQzNDgiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMDkzNzA5MDI3Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjIwMTc4MDUwMyIK",
+    url: "https://soundcloud.com/discover/sets/your-moods:33939568:8"
+  },
+  {
+    title: "Your Mix 9",
+    img: "https://al.sndcdn.com/labs-e0eb1e72-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF85CnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjYyMzc4MTQ2Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI2NjUwMzQyMiIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIyOTc3ODg0NzgiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjg0NDAyNTQ0Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI0MDcxOTYwNCIK",
+    url: "https://soundcloud.com/discover/sets/your-moods:33939568:9"
+  },
+  {
     title: "Your Mix 10",
     img: "https://al.sndcdn.com/labs-f62c5564-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF8xMAp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MzMwODQxNTEwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6NDQ3ODU5OTM4Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MTkzNjc5MjMzNyIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjExOTIyODU5NzUiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoxMTIyNjYwNDMzIgo%3D",
     url: "https://soundcloud.com/discover/sets/your-moods:33939568:10"
