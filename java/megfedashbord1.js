@@ -114,6 +114,77 @@ window.addEventListener("DOMContentLoaded", () => {
 // Nút Search
 document.getElementById("searchButton").addEventListener("click", doSearch);
 
+async function compareFiles(path1, path2) {
+  try {
+    const response = await fetch(`http://127.0.0.1:8000/compare?path1=${encodeURIComponent(path1)}&path2=${encodeURIComponent(path2)}`);
+    const data = await response.json();
+
+    const feedContainer = document.getElementById("feed");
+    feedContainer.innerHTML = "";
+
+    if (data.diff_html) {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <h3>So sánh phiên bản</h3>
+        ${data.diff_html}
+      `;
+      feedContainer.appendChild(card);
+    } else {
+      feedContainer.innerHTML = "<p>Không thể so sánh file.</p>";
+    }
+  } catch (error) {
+    console.error("Lỗi khi so sánh:", error);
+  }
+}
+
+async function compareExcel(path1, path2) {
+  try {
+    const response = await fetch(
+      `http://127.0.0.1:8000/compare_excel?path1=${encodeURIComponent(path1)}&path2=${encodeURIComponent(path2)}`
+    );
+    const data = await response.json();
+
+    const feedContainer = document.getElementById("feed");
+    feedContainer.innerHTML = "<h3>Kết quả so sánh Excel</h3>";
+
+    if (!data.diffs || data.diffs.length === 0) {
+      feedContainer.innerHTML += "<p>Hai file giống nhau hoặc không thể so sánh.</p>";
+    } else {
+      const table = document.createElement("table");
+      table.className = "diff-table";
+      table.innerHTML = "<tr><th>Sheet</th><th>Ô</th><th>File1</th><th>File2</th></tr>";
+      data.diffs.forEach(diff => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${diff.sheet}</td>
+          <td>${diff.cell}</td>
+          <td style="background:#ffe0e0">${diff.file1 ?? ""}</td>
+          <td style="background:#e0ffe0">${diff.file2 ?? ""}</td>
+        `;
+        table.appendChild(row);
+      });
+      feedContainer.appendChild(table);
+    }
+  } catch (error) {
+    console.error("Lỗi khi so sánh Excel:", error);
+  }
+}
+
+document.getElementById("compareBtn").addEventListener("click", () => {
+  const checked = document.querySelectorAll(".compare-checkbox:checked");
+  if (checked.length !== 2) {
+    alert("Vui lòng chọn đúng 2 file để so sánh.");
+    return;
+  }
+
+  const path1 = checked[0].dataset.path;
+  const path2 = checked[1].dataset.path;
+
+  // Gọi so sánh Excel thay vì so sánh text
+  compareExcel(path1, path2);
+});
+
 // Toggle theme
 document.getElementById("toggleTheme").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
