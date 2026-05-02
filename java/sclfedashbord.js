@@ -38,7 +38,7 @@ const discoverLinks = [
   },
   {
     title: "Your Mix 3",
-    img: "https://i1.sndcdn.com/avatars-B1WnjTfMN4JCHtB2-5t6j0Q-t500x500.jpg",
+    img: "https://al.sndcdn.com/labs-f6aede22-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF8zCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMTg4MDExODcxIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MTMzODYyOTQxNiIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIyMjg1MTc0MTYiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMTkyMzQ4MzExIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI0NjYyMTE1OSIK",
     url: "https://soundcloud.com/discover/sets/your-moods:33939568:3"
   },
   {
