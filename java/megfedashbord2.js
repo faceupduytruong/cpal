@@ -7,16 +7,40 @@ function renderFeed(feed) {
     const card = document.createElement("div");
     card.className = "card";
 
-    const megaUrl = `https://mega.nz/fm/k4lH3BoZ`;
+    let megaButton = "";
+    if (item.export_link) {
+      megaButton = `<a href="${item.export_link}" target="_blank">🔗 Mở trực tiếp trên Mega.nz</a>`;
+    } else {
+      megaButton = `<button class="share-btn" data-path="${item.path}">📤 Tạo link chia sẻ</button>`;
+    }
 
     card.innerHTML = `
       <input type="checkbox" class="compare-checkbox" data-path="${item.path}">
       <h3>${item.path}</h3>
       <p>📦 Dung lượng: ${item.size}</p>
       <p>📅 Ngày: ${item.date}</p>
-      <a href="${megaUrl}" target="_blank">Xem thêm trên Mega</a>
+      ${megaButton}
     `;
     feedContainer.appendChild(card);
+  });
+
+  // gắn sự kiện cho nút "Tạo link chia sẻ"
+  document.querySelectorAll(".share-btn").forEach(btn => {
+    btn.addEventListener("click", async (e) => {
+      const path = e.target.dataset.path;
+      try {
+        const response = await fetch(`http://127.0.0.1:8000/share?path=${encodeURIComponent(path)}`);
+        const data = await response.json();
+        if (data.share_link) {
+          // thay nút bằng link mở trực tiếp
+          e.target.outerHTML = `<a href="${data.share_link}" target="_blank">🔗 Mở trực tiếp trên Mega.nz</a>`;
+        } else {
+          alert("Không tạo được link chia sẻ: " + data.error);
+        }
+      } catch (err) {
+        console.error("Lỗi tạo link chia sẻ:", err);
+      }
+    });
   });
 }
 
