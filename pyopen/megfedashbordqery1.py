@@ -61,6 +61,16 @@ def run_megatools(user, password):
         return []
     return result.stdout.splitlines() if result.stdout else []
 
+@app.get("/share")
+def create_share_link(path: str = Query(...)):
+    try:
+        link = export_link(path, MEGA_USER1, MEGA_PASS1)
+        if not link:
+            return {"error": "Không tạo được link chia sẻ cho file/folder này"}
+        return {"share_link": link}
+    except Exception as e:
+        return {"error": str(e)}
+
 @app.get("/feed")
 def get_feed(q: str = Query(..., description="Từ khóa tìm kiếm")):
     output1 = run_megatools(MEGA_USER1, MEGA_PASS1)
