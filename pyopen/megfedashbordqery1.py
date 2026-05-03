@@ -201,12 +201,12 @@ def compare_excel_multi(paths: list[str] = Body(..., embed=True)):
                         "values": values
                     })
 
-    # --- Xuất ra Desktop ---
+    # --- Xuất ra Desktop với UTF-8 BOM ---
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     desktop_path = r"C:\Users\Admin\OneDrive\Desktop"
     export_path = os.path.join(desktop_path, f"compare_result_{timestamp}.csv")
 
-    with open(export_path, "w", newline="", encoding="utf-8") as csvfile:
+    with open(export_path, "w", newline="", encoding="utf-8-sig") as csvfile:
         writer = csv.writer(csvfile)
         header = ["Sheet", "Cell"] + [f"File{i+1}" for i in range(len(paths))]
         writer.writerow(header)
