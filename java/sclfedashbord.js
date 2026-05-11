@@ -23,12 +23,12 @@ async function fetchFeed(username, playlists) {
 const discoverLinks = [
   {
     title: "Daily Drops",
-    img: "https://al.sndcdn.com/labs-94f3878c-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9EUk9QUwp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMxMTEwOTY0MiIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTA0MjExODQiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMzA5OTE0NzMwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMxMDIxMTEyMSIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTExNTA5MTYiCg%3D%3D",
+    img: "https://al.sndcdn.com/labs-9180d1fa-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9EUk9QUwp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMxNTUzMTU1NSIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTcyMjQ3NDMiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMzE2NzQ4NjI1Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjMxNjc3NzUzMCIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTU1NDIxMTgiCg%3D%3D",
     url: "https://soundcloud.com/discover/sets/new-for-you::nhanhlaxanh"
   },
   {
     title: "Weekly Wave",
-    img: "https://al.sndcdn.com/labs-b60de5cd-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBTQ19XRUVLTFkKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIyNjE5NDA5NDciCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjQ2NjIxMTU5Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI3NDUwMDA5MCIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIyNDc3MzU5OTIiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMjg2MTE5MzYzIgo%3D",
+    img: "https://al.sndcdn.com/labs-fb7cd9d1-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBTQ19XRUVLTFkKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMTQ3MzI5MzciCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMTk0NTI1Njk1Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MjI3OTg1NDU1MCIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjIzMDI4NTgyNzEiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoyMzA2NDc3NzMyIgo%3D",
     url: "https://soundcloud.com/discover/sets/weekly::nhanhlaxanh"
   },
   {
@@ -80,12 +80,42 @@ const discoverLinks = [
     title: "Your Mix 10",
     img: "https://al.sndcdn.com/labs-f62c5564-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBEQUlMWV9NSVhfUElMTF8xMAp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MzMwODQxNTEwIgp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6NDQ3ODU5OTM4Igp1cm5zOiAic291bmRjbG91ZDp0cmFja3M6MTkzNjc5MjMzNyIKdXJuczogInNvdW5kY2xvdWQ6dHJhY2tzOjExOTIyODU5NzUiCnVybnM6ICJzb3VuZGNsb3VkOnRyYWNrczoxMTIyNjYwNDMzIgo%3D",
     url: "https://soundcloud.com/discover/sets/your-moods:33939568:10"
+  },
+  {
+    title: "1987VibesVN Station",
+    img: "https://al.sndcdn.com/labs-9e66cbbf-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBTVEFUSU9OCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjE2NjA0NjA0MTQiCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjU2MzEwMDQ5MiIKdXJuczogInNvdW5kY2xvdWQ6dXNlcnM6MTM4NjA1NjY0MyIKdXJuczogInNvdW5kY2xvdWQ6dXNlcnM6MTM5MDA5Njg1Igp1cm5zOiAic291bmRjbG91ZDp1c2VyczoxMjEwOTcxMTI3Igp1cm5zOiAic291bmRjbG91ZDp1c2Vyczo5NDQwODQ2MCIKdXJuczogInNvdW5kY2xvdWQ6dXNlcnM6MzU1ODY5OTExIgo%3D",
+    url: "https://soundcloud.com/discover/sets/artist-stations:1660460414"
+  },
+  {
+    title: "Mariah Carey Station",
+    img: "https://al.sndcdn.com/labs-3c05f296-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBTVEFUSU9OCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjM2NDE3NjkxIgp1cm5zOiAic291bmRjbG91ZDp1c2VyczoxODcxOTEyOTQiCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjE3MzgwNDI4MyIKdXJuczogInNvdW5kY2xvdWQ6dXNlcnM6NTA3NTgzNjkiCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjIwMzQwNjgxNyIKdXJuczogInNvdW5kY2xvdWQ6dXNlcnM6MTY3NDE2NjgiCg%3D%3D",
+    url: "https://soundcloud.com/discover/sets/artist-stations:36417691"
+  },
+  {
+    title: "Popping Club Station",
+    img: "https://al.sndcdn.com/labs-8214a609-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBTVEFUSU9OCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjI2Mjc0NjMwNCIKdXJuczogInNvdW5kY2xvdWQ6dXNlcnM6MTM1MDI1NDcwMCIKdXJuczogInNvdW5kY2xvdWQ6dXNlcnM6ODE2NjgwMjk2Igp1cm5zOiAic291bmRjbG91ZDp1c2VyczoxNTIyMTQxMzIwIgp1cm5zOiAic291bmRjbG91ZDp1c2Vyczo5MjE0ODMzNzYiCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjEyNjgyNjYyMTAiCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjc1NTc1MDcyIgo%3D",
+    url: "https://soundcloud.com/discover/sets/artist-stations:262746304"
+  },
+  {
+    title: "Lê Thanh Trúc (Kenneth) Station",
+    img: "https://al.sndcdn.com/labs-3430ecb0-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBTVEFUSU9OCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjUwMDM4NDk2Igp1cm5zOiAic291bmRjbG91ZDp1c2Vyczo1ODM0NzE2NDQiCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjI1NTIyMzYzIgp1cm5zOiAic291bmRjbG91ZDp1c2Vyczo0NDUyOTExMiIKdXJuczogInNvdW5kY2xvdWQ6dXNlcnM6MjUxMjcwOTQiCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjE0MDUyMzg2NSIKdXJuczogInNvdW5kY2xvdWQ6dXNlcnM6MzIzNTkyNyIK",
+    url: "https://soundcloud.com/discover/sets/artist-stations:50038496"
+  },
+  {
+    title: "Hwa Station",
+    img: "https://al.sndcdn.com/labs-841ddb0b-0-t500x500.jpg?q=YXJ0d29ya190eXBlOiBTVEFUSU9OCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjU4MDk3NzQyOSIKdXJuczogInNvdW5kY2xvdWQ6dXNlcnM6ODQxODk4OTk1Igp1cm5zOiAic291bmRjbG91ZDp1c2Vyczo0MzQzNDM4NzMiCnVybnM6ICJzb3VuZGNsb3VkOnVzZXJzOjYzMzk5NCIKdXJuczogInNvdW5kY2xvdWQ6dXNlcnM6MzEyMTc4NDY0Igp1cm5zOiAic291bmRjbG91ZDp1c2VyczoxMTExMTQ2NTQxIgp1cm5zOiAic291bmRjbG91ZDp1c2VyczoxMTMyMTYzMDI2Igo%3D",
+    url: "https://soundcloud.com/discover/sets/artist-stations:580977429:1914161654"
+  },
+  {
+    title: "Related tracks: Khi Nào Em Mới Biết",
+    img: "https://i1.sndcdn.com/artworks-k7xysXAHz7ocNdNm-div4IA-t500x500.jpg",
+    url: "https://soundcloud.com/discover/sets/personalized-tracks::nhanhlaxanh:2297681687"
   }
   // thêm các link khác ở đây nếu cần
 ];
 
 // Danh sách alias cho discover
-const discoverAliases = ["discover", "newforyou", "recommend", "trend", "hot", "suggested", "nóng", "mới nhất", "nhạc mới", "mới", "lạ", "khám phá", "khuyên", "xu hướng", "đề xuất", "mix", "trộn"];
+const discoverAliases = ["discover", "newforyou", "recommend", "trend", "hot", "suggested", "nóng", "mới nhất", "nhạc mới", "mới", "lạ", "khám phá", "khuyên", "xu hướng", "đề xuất", "mix", "trộn", "trạm", "station"];
 
 // Hàm render discover
 function renderDiscover(feed) {
