@@ -244,12 +244,20 @@ sample_playlists = {
 
 # alias: country dùng chung với bolero
 aliases = {
+    "us": ["us", "nhạc âu mỹ", "nhạc tây", "nhạc nước ngoài", "nhạc mới nước ngoài"],
+    "vn": ["vn", "nhạc việt nam", "nhạc trong nước", "nhạc mới trong nước"],
+    "fr": ["fr", "nhạc pháp"],
+    "buzzing": ["buzzing", "nhạc khám phá", "nhạc mới"],
+    "sleep": ["sleep", "nhạc ngủ", "nhạc làm dịu tinh thần", "nhạc không lời"],
     "bolero": ["bolero", "country", "trữ tình", "quê hương"],
-    "coffee": ["coffee", "heaven", "shop", "heaven coffee", "coffee shop", "heaven coffee shop"],
+    "inspiration": ["inspiration", "nguồn cảm hứng", "đam mê của tôi", "đam mê", "nhạc dân tộc", "thế giới", "nhạc thế giới", "nhạc chiết trung"],
     "soul": ["soul", "giới trẻ", "genz", "câu hỏi", "tự vấn", "an ủi"],
+    "christmas": ["christmas", "Christmas", "giáng sinh", "Giáng Sinh", "giáng Sinh", "Giáng sinh", "Noel", "noel"],
+    "love": ["love", "tình yêu", "yêu thương", "romantic"],
+    "saigon": ["saigon", "sài gòn", "sài thành", "sg", "Sài Gòn", "sài Gòn", "Sài gòn"],
+    "coffee": ["coffee", "heaven", "shop", "heaven coffee", "coffee shop", "heaven coffee shop"],
     "Đà Lạt": ["đà lạt", "dalat", "da lat", "Đà Lạt", "đà Lạt"],
-    "saigon": ["saigon", "sài gòn", "sài thành", "sg"],
-    "love": ["love", "tình yêu", "yêu thương", "romantic"]
+    "karaoke": ["karaoke", "tự hát", "hát hay không bằng hay hát", "tự sướng"]
 }
 
 # Lấy playlist theo username và danh sách playlist
