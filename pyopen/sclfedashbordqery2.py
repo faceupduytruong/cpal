@@ -208,9 +208,11 @@ sample_playlists = {
         "https://soundcloud.com/nhanhlaxanh/sets/christmas1"
     ],
     "love": [
-        "https://soundcloud.com/nhanhlaxanh/sets/nmbn",
-        "https://soundcloud.com/nhanhlaxanh/sets/tcnn",
+        "https://soundcloud.com/nhanhlaxanh/sets/dcng",
+        "https://soundcloud.com/nhanhlaxanh/sets/vtby",
         "https://soundcloud.com/nhanhlaxanh/sets/mgltb",
+        "https://soundcloud.com/nhanhlaxanh/sets/tcnn",
+        "https://soundcloud.com/nhanhlaxanh/sets/nmbn",
         "https://soundcloud.com/nhanhlaxanh/sets/xle",
         "https://soundcloud.com/nhanhlaxanh/sets/lmtls",
         "https://soundcloud.com/nhanhlaxanh/sets/bm1",
@@ -248,27 +250,14 @@ sample_playlists = {
 }
 
 # alias: country dùng chung với bolero
-sample_playlists["country"] = sample_playlists["bolero"]
-sample_playlists["bolero,country"] = sample_playlists["bolero"]
-sample_playlists["trữ tình"] = sample_playlists["bolero"]
-
-sample_playlists["heaven"] = sample_playlists["coffee"]
-sample_playlists["shop"] = sample_playlists["coffee"]
-sample_playlists["heaven coffee"] = sample_playlists["coffee"]
-sample_playlists["coffee shop"] = sample_playlists["coffee"]
-sample_playlists["heaven coffee shop"] = sample_playlists["coffee"]
-
-sample_playlists["giới trẻ"] = sample_playlists["soul"]
-sample_playlists["GenZ"] = sample_playlists["soul"]
-sample_playlists["câu hỏi"] = sample_playlists["soul"]
-sample_playlists["tự vấn"] = sample_playlists["soul"]
-sample_playlists["an ủi"] = sample_playlists["soul"]
-
-sample_playlists["dalat"] = sample_playlists["Đà Lạt"]
-sample_playlists["Đà lạt"] = sample_playlists["Đà Lạt"]
-sample_playlists["đà lạt"] = sample_playlists["Đà Lạt"]
-sample_playlists["đà Lạt"] = sample_playlists["Đà Lạt"]
-sample_playlists["da lat"] = sample_playlists["Đà Lạt"]
+aliases = {
+    "bolero": ["bolero", "country", "trữ tình", "quê hương"],
+    "coffee": ["coffee", "heaven", "shop", "heaven coffee", "coffee shop", "heaven coffee shop"],
+    "soul": ["soul", "giới trẻ", "genz", "câu hỏi", "tự vấn", "an ủi"],
+    "Đà Lạt": ["đà lạt", "dalat", "da lat", "Đà Lạt", "đà Lạt"],
+    "saigon": ["saigon", "sài gòn", "sài thành", "sg"],
+    "love": ["love", "tình yêu", "yêu thương", "romantic"]
+}
 
 @app.get("/feed_soundcloud")
 def get_playlists(username: str = Query(...), playlists: str = Query(None)):
@@ -300,10 +289,19 @@ def get_playlists(username: str = Query(...), playlists: str = Query(None)):
 # Lấy playlist theo tag (dùng chung sample_playlists)
 @app.get("/tag_playlists")
 def tag_playlists(tag: str = Query(...), limit: int = 20):
-    urls = sample_playlists.get(tag.lower(), [])
-    if not urls:
+    q = tag.lower()
+
+    # tìm alias khớp
+    matched_key = None
+    for key, alias_list in aliases.items():
+        if any(alias in q for alias in alias_list):
+            matched_key = key
+            break
+
+    if not matched_key:
         return {"message": f"Tag '{tag}' chưa có dữ liệu curated."}
 
+    urls = sample_playlists.get(matched_key, [])
     urls = urls[:limit]
     results = []
     for link in urls:
@@ -323,23 +321,30 @@ def tag_playlists(tag: str = Query(...), limit: int = 20):
 @app.get("/ai_playlist")
 def ai_playlist(query: str = Query(...)):
     results = []
+    q = query.lower()
 
-    for key, urls in sample_playlists.items():
-        if key in query.lower():
-            for url in urls:
-                api_url = "https://soundcloud.com/oembed"
-                params = {"url": url, "format": "json"}
-                try:
-                    r = requests.get(api_url, params=params, headers=DEFAULT_HEADERS, timeout=10)
-                    if r.status_code == 200:
-                        data = r.json()
-                        results.append({
-                            "title": data.get("title"),
-                            "author_name": data.get("author_name"),
-                            "html": data.get("html"),
-                        })
-                except requests.exceptions.RequestException as e:
-                    logging.error(f"SoundCloud API error: {e}")
+    matched_key = None
+    for key, alias_list in aliases.items():
+        if any(alias in q for alias in alias_list):
+            matched_key = key
+            break
+
+    if matched_key:
+        urls = sample_playlists.get(matched_key, [])
+        for url in urls:
+            api_url = "https://soundcloud.com/oembed"
+            params = {"url": url, "format": "json"}
+            try:
+                r = requests.get(api_url, params=params, headers=DEFAULT_HEADERS, timeout=10)
+                if r.status_code == 200:
+                    data = r.json()
+                    results.append({
+                        "title": data.get("title"),
+                        "author_name": data.get("author_name"),
+                        "html": data.get("html"),
+                    })
+            except requests.exceptions.RequestException as e:
+                logging.error(f"SoundCloud API error: {e}")
 
     logging.info(f"[ai_playlist] Feed OK - {len(results)} kết quả cho query '{query}'")
     return results
