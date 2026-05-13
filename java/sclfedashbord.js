@@ -110,6 +110,21 @@ const discoverLinks = [
     title: "Related tracks: Khi Nào Em Mới Biết",
     img: "https://i1.sndcdn.com/artworks-k7xysXAHz7ocNdNm-div4IA-t500x500.jpg",
     url: "https://soundcloud.com/discover/sets/personalized-tracks::nhanhlaxanh:2297681687"
+  },
+  {
+    title: "Related tracks: Người Lạ Thoáng Qua",
+    img: "https://i1.sndcdn.com/artworks-ESQHYrc4b8zbR7hj-qCdJug-t500x500.jpg",
+    url: "https://soundcloud.com/discover/sets/personalized-tracks::nhanhlaxanh:2284214684"
+  },
+  {
+    title: "Related tracks: Đừng Ngoảnh Lại",
+    img: "https://i1.sndcdn.com/artworks-Dsxv6vHtktLnBNDR-Je2B4A-t500x500.jpg",
+    url: "https://soundcloud.com/discover/sets/personalized-tracks::nhanhlaxanh:2241601289"
+  },
+  {
+    title: "Related tracks: Đắng Cay Nhân Gian",
+    img: "https://i1.sndcdn.com/artworks-ejJsy1CGvONMAyo9-oq9zKg-t500x500.jpg",
+    url: "https://soundcloud.com/discover/sets/personalized-tracks::nhanhlaxanh:2211783359"
   }
   // thêm các link khác ở đây nếu cần
 ];
