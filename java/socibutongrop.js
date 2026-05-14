@@ -257,31 +257,30 @@ const appButtonsHTML = `
       <p>Xiaohongshu</p>
     </div>
 
-<div class="app-button" onclick="openKuaishou()">
-  <img src="https://www.dropbox.com/scl/fi/x8xqxt4ughv3b7ygo6ojt/Kuaishou.webp?rlkey=eco68evlype3z1n65m904yg5e&st=vw7wq5xk&raw=1" alt="Kuaishou">
-  <p>Kuaishou</p>
-</div>
+    <div class="app-button" onclick="openKuaishou()">
+      <img src="https://www.dropbox.com/scl/fi/x8xqxt4ughv3b7ygo6ojt/Kuaishou.webp?rlkey=eco68evlype3z1n65m904yg5e&st=vw7wq5xk&raw=1" alt="Kuaishou">
+      <p>Kuaishou</p>
+    </div>
 
-<div class="app-button" onclick="openZhihu()">
-  <img src="https://www.dropbox.com/scl/fi/951il0t88s9bimug7slxr/Zhihu.png?rlkey=rcqz2n8f0e6nhjkv4l7rjm7pn&st=d27tuqb3&raw=1" alt="Zhihu">
-  <p>Zhihu</p>
-</div>
+    <div class="app-button" onclick="openZhihu()">
+      <img src="https://www.dropbox.com/scl/fi/951il0t88s9bimug7slxr/Zhihu.png?rlkey=rcqz2n8f0e6nhjkv4l7rjm7pn&st=d27tuqb3&raw=1" alt="Zhihu">
+      <p>Zhihu</p>
+    </div>
 
-<div class="app-button" onclick="openDouban()">
-  <img src="https://www.dropbox.com/scl/fi/ttjkemtt2q7ghb9bj3dw9/Douban.webp?rlkey=c2cb4sh4xuhhigo6n1lg065m3&st=1opfs9zm&raw=1" alt="Douban">
-  <p>Douban</p>
-</div>
+    <div class="app-button" onclick="openDouban()">
+      <img src="https://www.dropbox.com/scl/fi/ttjkemtt2q7ghb9bj3dw9/Douban.webp?rlkey=c2cb4sh4xuhhigo6n1lg065m3&st=1opfs9zm&raw=1" alt="Douban">
+      <p>Douban</p>
+    </div>
 
    <div class="app-button" onclick="openTalkin()">
       <img src="https://www.dropbox.com/scl/fi/a6lh3un87j912difxmuve/Talkin.webp?rlkey=fj4a4sk3msnv6g786fegruy9o&st=fd5evmyr&raw=1" alt="Talkin">
       <p>Talkin</p>
     </div>
 
-<div class="app-button" onclick="openTalkinapp()">
-  <img src="https://www.dropbox.com/scl/fi/an2p6uqwmm5kcljufvv0w/Talkin-App.webp?rlkey=7szl915njsqfb3j88ldcajow8&st=1cqfwgtp&raw=1" alt="Talkin">
-  <p>Talkin app</p>
-</div>
-
+    <div class="app-button" onclick="openTalkinapp()">
+      <img src="https://www.dropbox.com/scl/fi/an2p6uqwmm5kcljufvv0w/Talkin-App.webp?rlkey=7szl915njsqfb3j88ldcajow8&st=1cqfwgtp&raw=1" alt="Talkin">
+      <p>Talkin app</p>
+    </div>
 
     <div class="app-button" onclick="openIzuiyou()">
       <img src="https://www.dropbox.com/scl/fi/rcpibljmwj40l4wazfq7o/Izhuyou.webp?rlkey=8e76f5b2hdtei97d8qqdfag1n&st=tdvuckz9&raw=1" alt="Izuiyou">
