@@ -184,7 +184,7 @@ async function fetchTagPlaylists(tag) {
   }
 }
 
-async function createAIPlaylist() {
+async function searchSoundcloud() {
   const queryValue = document.getElementById("query").value.trim();
   const feed = document.getElementById("feed");
   feed.innerHTML = "";
@@ -215,7 +215,7 @@ async function createAIPlaylist() {
 }
 
 // Hàm search chính: tự động phân biệt
-async function searchSoundcloud() {
+async function tag() {
   const queryValue = document.getElementById("query").value.trim();
   if (!queryValue) {
     alert("Vui lòng nhập dữ liệu");
@@ -318,3 +318,25 @@ document.getElementById("translateBtn").addEventListener("click", async () => {
     console.error(err);
   }
 });
+
+// 👉 Nút Google: tìm trên Google với soundcloud.com + query
+document.getElementById("google-btn").addEventListener("click", () => {
+  const queryValue = document.getElementById("query").value.trim();
+  if (!queryValue) {
+    alert("Vui lòng nhập cụm từ cần tìm");
+    return;
+  }
+  const googleUrl = `https://www.google.com/search?q=site:soundcloud.com+${encodeURIComponent(queryValue)}`;
+  window.open(googleUrl, "_blank");
+});
+
+// 👉 Mở Gemini với query để tạo playlist âm nhạc
+async function createAIPlaylist() {
+  const queryValue = document.getElementById("query").value.trim();
+  if (!queryValue) {
+    alert("Vui lòng nhập ý tưởng playlist");
+    return;
+  }
+  const geminiUrl = `https://gemini.google.com/?q=${encodeURIComponent("create music playlist based on: " + queryValue)}`;
+  window.open(geminiUrl, "_blank");
+}
