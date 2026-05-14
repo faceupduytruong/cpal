@@ -272,7 +272,7 @@ const appButtonsHTML = `
       <p>Douban</p>
     </div>
 
-   <div class="app-button" onclick="openTalkin()">
+    <div class="app-button" onclick="openTalkin()">
       <img src="https://www.dropbox.com/scl/fi/a6lh3un87j912difxmuve/Talkin.webp?rlkey=fj4a4sk3msnv6g786fegruy9o&st=fd5evmyr&raw=1" alt="Talkin">
       <p>Talkin</p>
     </div>
