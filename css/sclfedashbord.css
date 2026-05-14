@@ -292,6 +292,7 @@ body.dark-mode .discover-btn:hover {
 .circle-button {
   width: 30px;
   height: 30px;
+  display: block;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
