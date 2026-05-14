@@ -256,27 +256,30 @@ header h1 {
 
 /* Nút AI Playlist (Gemini) */
 #ai-btn1 {
-   background-color: white;       /* xanh da trời mạnh (DodgerBlue) */
-   border: 2px solid white;       /* viền trắng */
-   color: black;
-  }
+   background: linear-gradient(
+     to right,
+     rgba(0, 0, 139, 0.7),   /* xanh chàm (DarkBlue) */
+     rgba(0, 255, 255, 0.7)  /* cyan */
+   );
+   border: 2px solid cyan;  /* viền trắng */
+   color: white;
 }
 
 #ai-btn1:hover {
-   background-color: white;       /* khi hover nền trắng */
-   color: deeppink;               /* chữ hồng đậm để nổi bật */
-   border: 2px solid lightblue;   /* viền xanh nhạt khi hover */
+   background-color: cyan;   /* khi hover nền cyan */
+   color: darkblue;          /* chữ xanh chàm để nổi bật */
+   border: 2px solid lightcyan; /* viền cyan nhạt khi hover */
 }
 
 /* Nút AI Playlist (Copilot) */
 #ai-btn2 {
-  background: linear-gradient(
-     to right,
-     rgba(142, 0, 75, 0.7),   /* hồng củ dền (beetroot pink) */
-     rgba(216, 191, 216, 0.7) /* tím nhạt (thistle) */
-   );
-   border: 2px solid purple;   /* viền tím */
-   color: white;
+   background: linear-gradient(
+      to right,
+      rgba(142, 0, 75, 0.7),   /* hồng củ dền (beetroot pink) */
+      rgba(216, 191, 216, 0.7) /* tím nhạt (thistle) */
+    );
+    border: 2px solid purple;   /* viền tím */
+    color: white;
 }
 
 #ai-btn2:hover {
