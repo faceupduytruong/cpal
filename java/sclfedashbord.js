@@ -330,8 +330,14 @@ document.getElementById("google-btn").addEventListener("click", () => {
   window.open(googleUrl, "_blank");
 });
 
-// 👉 Nút AI Playlist: copy query vào clipboard rồi mở Gemini
-async function createAIPlaylist() {
+// Khi click vào AI Playlist thì hiện nhóm công cụ
+document.getElementById("ai-btn").addEventListener("click", () => {
+  const toolsPanel = document.getElementById("ai-tools");
+  toolsPanel.style.display = toolsPanel.style.display === "none" ? "block" : "none";
+});
+
+// Hàm mở công cụ tương ứng
+async function openTool(toolName) {
   const queryValue = document.getElementById("query").value.trim();
   if (!queryValue) {
     alert("Vui lòng nhập ý tưởng playlist");
@@ -340,15 +346,29 @@ async function createAIPlaylist() {
 
   try {
     // Ghép thêm dòng chữ trước nội dung
-    const textToCopy = "tạo giùm tôi playlist nhạc và sử dụng tính năng 'tạo hình ảnh' của Gemini để tạo bìa cover playlist hình vuông phù hợp với chủ đề " + queryValue;
+    const textToCopy = "tạo giùm tôi playlist nhạc về chủ đề " + queryValue;
 
     // Copy vào clipboard
     await navigator.clipboard.writeText(textToCopy);
-    alert("Ý tưởng playlist đã được copy vào clipboard. Bạn chỉ cần paste vào Gemini.");
+    alert("Ý tưởng playlist đã được copy vào clipboard. Bạn chỉ cần paste vào " + toolName);
 
-    // Mở Gemini
-    const geminiUrl = "https://gemini.google.com";
-    window.open(geminiUrl, "_blank");
+    // Mở trang tương ứng
+    let url = "";
+    switch (toolName) {
+      case "gemini":
+        url = "https://gemini.google.com";
+        break;
+      case "copilot":
+        url = "https://copilot.microsoft.com";
+        break;
+      case "chatgpt":
+        url = "https://chat.openai.com";
+        break;
+      case "deepseek":
+        url = "https://chat.deepseek.com";
+        break;
+    }
+    window.open(url, "_blank");
   } catch (err) {
     alert("Không thể copy vào clipboard. Hãy cấp quyền truy cập.");
     console.error(err);
