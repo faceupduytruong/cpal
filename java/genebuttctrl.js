@@ -1,9 +1,8 @@
-  <!-- 👉 Ấn nút Delbtn thì dòng chữ biến mất -->
+<!-- 👉 Ấn nút Delbtn thì dòng chữ biến mất -->
 document.getElementById("DelBtn").addEventListener("click", () => {
   const el = document.getElementById("clipboardText");
   el.style.opacity = "0";
 });
-
 
   <!-- 👉 JavaScript cho vệc hiển thị & tự động ẩn dòng chữ hiện ra -->
      function showClipboardText(text) {
@@ -28,8 +27,7 @@ document.getElementById("DelBtn").addEventListener("click", () => {
       }
     });
 
-
-  <!-- 👉 Ấn nút Paste thì dòng chữ trong clipboard hiện ra -->
+<!-- 👉 Ấn nút Paste thì dòng chữ trong clipboard hiện ra -->
 document.getElementById("PasteBtn").addEventListener("click", async () => {
   try {
     const text = await navigator.clipboard.readText();
@@ -40,18 +38,15 @@ document.getElementById("PasteBtn").addEventListener("click", async () => {
   }
  });
 
-
   <!-- 👉 Hiển thị popup khi nhấn homeBtn -->
   document.getElementById("homeBtn").onclick = () => {
     document.getElementById("popupOverlay").style.display = "block";
   };
 
-
  <!-- 👉 Hiển thị dòng chữ "I'm Siri, Your Virtual Assisstant khi ấn homeBtn -->
   document.getElementById("homeBtn").addEventListener("click", () => {
     showClipboardText("I'm Siri, Your Virtual Assistant");
   });
-
 
   <!-- 👉 Dòng chữ hiển thị nội dung clipboard -->
 document.getElementById("PasteBtn").addEventListener("click", async () => {
@@ -63,7 +58,6 @@ document.getElementById("PasteBtn").addEventListener("click", async () => {
     console.error("Lỗi khi đọc clipboard:", err);
   }
 });
-
 
 <!-- 👉 Xử lý file ghi âm và lưu lại file ogg -->
   let mediaRecorder;
@@ -118,8 +112,6 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
   document.body.removeChild(downloadLink);
 };
 
-
-
 <!-- 👉 Dừng âm thanh Voice Siri khi ấn 3 nút Record, Stop, Download -->
   function stopAllSiriSounds() {
     const sounds = ['audio1', 'audio2', 'audio3'];
@@ -147,7 +139,6 @@ document.getElementById("audioPlayback").addEventListener("play", () => {
     stopAllSiriSounds();
     // ... xử lý tải về
   });
-
 
  <!-- 👉 Ấn vào nút convertBtn để mở ra trang web Speaknotes -->
    document.getElementById("convertBtn").addEventListener("click", () => {
