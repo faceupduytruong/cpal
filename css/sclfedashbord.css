@@ -208,34 +208,50 @@ header h1 {
   animation: rainbowGlow 20s infinite;
 }
 
+#tag-btn {
+  background-color: rgba(255, 215, 0, 0.7);  /* vàng nhạt (Gold) */
+  border: 2px solid royalblue;
+  color: black;
+}
+
+#tag-btn:hover {
+  background-color: royalblue;   /* khi hover nền xanh dương đậm */
+  color: yellow;                 /* chữ vàng để nổi bật */
+}
+
 #search-btn {
-  background-color: #28a745; /* xanh lá cây */
+  background-color: rgba(0, 128, 0, 0.6); /* xanh lá nhạt */
+  border: 2px solid green;
+  color: white;
 }
 
 #search-btn:hover {
-  background-color: #ff5500; /* cam khi hover */
+   background-color: green;   /* khi hover nền xanh lá đậm */
+   color: yellow;             /* chữ vàng để nổi bật */
 }
 
 /* Nút Google */
 #google-btn {
-  background-color: #800080; /* tím */
-  color: #fff;
+   background-color: rgba(128, 0, 128, 0.6); /* tím nhạt */
+   border: 2px solid purple;
+   color: white;
 }
 
 #google-btn:hover {
-  background-color: #00ffff; /* cyan */
-  color: #fff;
+   background-color: purple;   /* khi hover nền tím đậm */
+   color: pink;              /* chữ vàng để nổi bật */
 }
 
 /* Nút AI Playlist (Gemini) */
 #ai-btn {
-  background-color: #ff0000; /* đỏ tươi */
-  color: #fff;
+   background-color: rgba(199, 21, 133, 0.6); /* hồng sen đậm nhạt (MediumVioletRed) */
+   border: 2px solid deeppink;
+   color: white;
 }
 
 #ai-btn:hover {
-  background-color: #f8b500; /* vàng khi hover */
-  color: #000; /* chữ đen để nổi bật trên nền vàng */
+   background-color: deeppink;   /* khi hover nền hồng sen đậm */
+   color: black;                /* chữ vàng để nổi bật */
 }
 
 /* Nhóm nút trong header */
