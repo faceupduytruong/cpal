@@ -288,3 +288,30 @@ body.dark-mode .discover-btn:hover {
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.25);
 }
+
+.circle-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #ffffff88, #00aa00cc);
+  border: 2px solid #ffffff66;
+  color: #003300;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.circle-button:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 12px rgba(0, 255, 128, 0.6);
+  background: radial-gradient(circle at center, #ccffcc, #009900);
+}
+.circle-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
