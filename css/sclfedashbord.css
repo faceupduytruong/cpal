@@ -283,7 +283,6 @@ body.dark-mode .discover-btn:hover {
 
 /* Css viền màu vàng bao quanh cho Audioplayback */
 #recordPlayback {
-  outline: none;
   padding: 14px;
   background: linear-gradient(135deg, #fceabb, #f8b500); /* vàng gradient */
   border-radius: 12px;
