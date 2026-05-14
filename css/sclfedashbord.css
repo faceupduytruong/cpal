@@ -290,8 +290,8 @@ body.dark-mode .discover-btn:hover {
 }
 
 .circle-button {
-  width: 48px;              /* chiều rộng */
-  height: 48px;             /* chiều cao */
+  width: 38px;              /* chiều rộng */
+  height: 38px;             /* chiều cao */
   border-radius: 50%;       /* bo tròn thành hình tròn */
   border: 2px solid rgba(255,255,255,0.4); /* viền trắng mờ */
   background-color: transparent;           /* nền trong suốt */
