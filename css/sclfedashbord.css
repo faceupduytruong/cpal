@@ -218,12 +218,12 @@ header h1 {
 
 /* Nút Google */
 #google-btn {
-  background-color: #800020; /* đỏ rượu vang */
+  background-color: #800080; /* tím */
   color: #fff;
 }
 
 #google-btn:hover {
-  background-color: #4b0082; /* màu chàm khi hover */
+  background-color: #800020; /* màu chàm khi hover */
   color: #fff;
 }
 
