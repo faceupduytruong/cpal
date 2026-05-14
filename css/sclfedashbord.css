@@ -209,11 +209,11 @@ header h1 {
 }
 
 #search-btn {
-  background-color: #ff5500; /* xanh lá cây */
+  background-color: #28a745; /* xanh lá cây */
 }
 
 #search-btn:hover {
-  background-color: #28a745; /* cam khi hover */
+  background-color: #ff5500; /* cam khi hover */
 }
 
 /* Nút Google */
@@ -223,7 +223,7 @@ header h1 {
 }
 
 #google-btn:hover {
-  background-color: #800020; /* màu chàm khi hover */
+  background-color: #00ffff; /* cyan */
   color: #fff;
 }
 
