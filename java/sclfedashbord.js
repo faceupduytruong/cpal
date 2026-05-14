@@ -245,3 +245,53 @@ window.addEventListener("DOMContentLoaded", () => {
     document.body.classList.add("dark-mode");
   }
 });
+
+let mediaRecorder;
+let audioChunks = [];
+let audioBlob;
+
+// Toggle panel
+document.getElementById("toolsBtn").addEventListener("click", () => {
+  const panel = document.getElementById("toolsPanel");
+  panel.style.display = panel.style.display === "none" ? "block" : "none";
+});
+
+// Start recording
+document.getElementById("startRecordBtn").addEventListener("click", async () => {
+  const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  mediaRecorder = new MediaRecorder(stream, { mimeType: "audio/webm" });
+  audioChunks = [];
+  mediaRecorder.start();
+
+  mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
+
+  mediaRecorder.onstop = () => {
+    audioBlob = new Blob(audioChunks, { type: "audio/webm" });
+    const audioUrl = URL.createObjectURL(audioBlob);
+    document.getElementById("recordPlayback").src = audioUrl;
+    document.getElementById("downloadRecordBtn").disabled = false;
+  };
+
+  document.getElementById("stopRecordBtn").disabled = false;
+});
+
+// Stop recording
+document.getElementById("stopRecordBtn").addEventListener("click", () => {
+  mediaRecorder.stop();
+  document.getElementById("stopRecordBtn").disabled = true;
+});
+
+// Download recording
+document.getElementById("downloadRecordBtn").addEventListener("click", () => {
+  if (!audioBlob) {
+    alert("⚠️ Chưa có bản ghi âm để tải về.");
+    return;
+  }
+  const audioUrl = URL.createObjectURL(audioBlob);
+  const link = document.createElement("a");
+  link.href = audioUrl;
+  link.download = "recording.ogg";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
