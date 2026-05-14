@@ -340,7 +340,7 @@ async function createAIPlaylist() {
 
   try {
     // Ghép thêm dòng chữ trước nội dung
-    const textToCopy = "tạo giùm tôi playlist nhạc và bìa cover playlist hình vuông về chủ đề " + queryValue;
+    const textToCopy = "tạo giùm tôi playlist nhạc và sử dụng tính năng 'tạo hình ảnh' của Gemini để tạo bìa cover playlist hình vuông phù hợp với chủ đề " + queryValue;
 
     // Copy vào clipboard
     await navigator.clipboard.writeText(textToCopy);
