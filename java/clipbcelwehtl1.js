@@ -1,4 +1,4 @@
-  <!-- 👉 Tạo trang web html hiển thị nội dung trong Clipboard -->
+<!-- 👉 Tạo trang web html hiển thị nội dung trong Clipboard -->
 
 async function showCelebrityInfo() {
   const text = await navigator.clipboard.readText();
@@ -6,7 +6,7 @@ const htmlContent = `
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Celebrity profile you're searching for</title>
+    <title>Music lyrics you're searching for</title>
 <style>
   body {
     margin: 0;
@@ -16,27 +16,27 @@ const htmlContent = `
     background-color: rgba(0, 0, 0, 0.8);
   }
 
-/* Chrome, Edge */
-body::-webkit-scrollbar {
-  width: 5px;
-}
-body::-webkit-scrollbar-track {
-background: rgba(30, 30, 30, 0.3);
-backdrop-filter: blur(10px);
-}
-body::-webkit-scrollbar-thumb {
-  box-shadow: 0 4px 30px rgba(0, 128, 0, 0.3);
-  background: linear-gradient(
-    to bottom right,
-    rgba(255, 255, 255, 0.4),
-    rgba(173, 255, 47, 0.6),
-    rgba(60, 179, 113, 0.8),
-    rgba(0, 128, 0, 1)
-  );
-  border-radius: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(12px); /* thêm vào đây */
-}
+  /* Chrome, Edge */
+  body::-webkit-scrollbar {
+    width: 5px;
+  }
+  body::-webkit-scrollbar-track {
+  background: rgba(30, 30, 30, 0.3);
+  backdrop-filter: blur(10px);
+  }
+  body::-webkit-scrollbar-thumb {
+    box-shadow: 0 4px 30px rgba(0, 128, 0, 0.3);
+    background: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 0.4),
+      rgba(173, 255, 47, 0.6),
+      rgba(60, 179, 113, 0.8),
+      rgba(0, 128, 0, 1)
+    );
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px); /* thêm vào đây */
+  }
 
   video {
     position: fixed;
@@ -74,7 +74,7 @@ body::-webkit-scrollbar-thumb {
 </style>
   </head>
   <body>
-    <h1>Celebrity profile you're searching for</h1>
+    <h1>Music lyrics you're searching for</h1>
     <div class="content">${text}</div>
 
 <video
