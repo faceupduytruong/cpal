@@ -284,8 +284,9 @@ body.dark-mode .discover-btn:hover {
 /* Css viền màu vàng bao quanh cho Audioplayback */
 #recordPlayback {
   display: block;
-  margin-top: 10px;
-  width: 100%;
+  margin: 15px auto;          /* căn giữa */
+  width: 80%;                 /* mở rộng theo chiều ngang */
+  max-width: 900px;           /* giới hạn tối đa để không quá to */
   outline: none;
   padding: 12px;
   background: linear-gradient(135deg, #fceabb, #f8b500); /* vàng gradient */
