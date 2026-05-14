@@ -1,8 +1,7 @@
-import logging
+import logging, requests, random
 logging.basicConfig(level=logging.INFO)
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-import requests
 
 # cấu hình logging
 logging.basicConfig(level=logging.INFO)
@@ -245,26 +244,32 @@ sample_playlists = {
         "https://soundcloud.com/nhanhlaxanh/sets/mj1"
     ],
     "bs": [
-        "ttps://soundcloud.com/nhanhlaxanh/sets/glory"
+        "https://soundcloud.com/nhanhlaxanh/sets/glory"
     ],
 }
 
 # alias: country dùng chung với bolero
 aliases = {
-    "us": ["us", "nhạc âu mỹ", "nhạc tây", "nhạc nước ngoài", "nhạc mới nước ngoài"],
-    "vn": ["vn", "nhạc việt nam", "nhạc trong nước", "nhạc mới trong nước"],
-    "fr": ["fr", "nhạc pháp"],
+    "us": ["us", "nhạc âu mỹ", "nhạc tây", "nhạc nước ngoài", "nhạc mới nước ngoài", "US-UK", "US"],
+    "vn": ["vn", "nhạc việt nam", "nhạc trong nước", "nhạc mới trong nước", "Việt Nam", "VN"],
+    "fr": ["fr", "nhạc pháp", "Pháp"],
+    "ca": ["ca", "nhạc canada", "Canada"],
     "buzzing": ["buzzing", "nhạc khám phá", "nhạc mới"],
+    "pop": ["pop", "nhạc phổ thông", "nhạc đại chúng"],
+    "world": ["world", "thế giới", "nhạc thế giới"],
     "sleep": ["sleep", "nhạc ngủ", "nhạc làm dịu tinh thần", "nhạc không lời"],
     "bolero": ["bolero", "country", "trữ tình", "quê hương"],
-    "inspiration": ["inspiration", "nguồn cảm hứng", "đam mê của tôi", "đam mê", "nhạc dân tộc", "thế giới", "nhạc thế giới", "nhạc chiết trung"],
+    "inspiration": ["inspiration", "nguồn cảm hứng", "đam mê của tôi", "đam mê", "nhạc dân tộc", "nhạc chiết trung"],
     "soul": ["soul", "giới trẻ", "genz", "câu hỏi", "tự vấn", "an ủi"],
     "christmas": ["christmas", "Christmas", "giáng sinh", "Giáng Sinh", "giáng Sinh", "Giáng sinh", "Noel", "noel"],
     "love": ["love", "tình yêu", "yêu thương", "romantic"],
     "saigon": ["saigon", "sài gòn", "sài thành", "sg", "Sài Gòn", "sài Gòn", "Sài gòn"],
     "coffee": ["coffee", "heaven", "shop", "heaven coffee", "coffee shop", "heaven coffee shop"],
     "Đà Lạt": ["đà lạt", "dalat", "da lat", "Đà Lạt", "đà Lạt"],
-    "karaoke": ["karaoke", "tự hát", "hát hay không bằng hay hát", "tự sướng"]
+    "karaoke": ["karaoke", "tự hát", "hát hay không bằng hay hát", "tự sướng"],
+    "la": ["la", "chữ a", "playlist a", "A"],
+    "mj": ["mj", "michael jackson", "Michael Jackson", "Michael", "Jackson", "ông vua nhạc pop"],
+    "bs": ["bs", "Britney Spears", "công chúa nhạc pop", "britney spears", "britney"]
 }
 
 @app.get("/feed_soundcloud")
