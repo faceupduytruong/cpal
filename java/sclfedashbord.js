@@ -346,7 +346,7 @@ async function openTool(toolName) {
 
   try {
     // Ghép thêm dòng chữ trước nội dung
-    const textToCopy = "tạo giùm tôi playlist nhạc về chủ đề " + queryValue;
+    const textToCopy = "tạo giùm tôi playlist âm nhạc và dùng tính năng tạo hình ảnh để làm bìa đĩa cover cho playlist hình vuông phù hợp với chủ đề" + queryValue;
 
     // Copy vào clipboard
     await navigator.clipboard.writeText(textToCopy);
