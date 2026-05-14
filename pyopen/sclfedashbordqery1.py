@@ -1,6 +1,7 @@
+import logging, requests, random
+logging.basicConfig(level=logging.INFO)
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-import requests
 
 app = FastAPI()
 
@@ -11,6 +12,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+DEFAULT_HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 # Curated playlists dùng chung cho cả ai_playlist và tag_playlists
 sample_playlists = {
@@ -238,26 +241,32 @@ sample_playlists = {
         "https://soundcloud.com/nhanhlaxanh/sets/mj1"
     ],
     "bs": [
-        "ttps://soundcloud.com/nhanhlaxanh/sets/glory"
+        "https://soundcloud.com/nhanhlaxanh/sets/glory"
     ],
 }
 
 # alias: country dùng chung với bolero
 aliases = {
-    "us": ["us", "nhạc âu mỹ", "nhạc tây", "nhạc nước ngoài", "nhạc mới nước ngoài"],
-    "vn": ["vn", "nhạc việt nam", "nhạc trong nước", "nhạc mới trong nước"],
-    "fr": ["fr", "nhạc pháp"],
+    "us": ["us", "nhạc âu mỹ", "nhạc tây", "nhạc nước ngoài", "nhạc mới nước ngoài", "US-UK", "US"],
+    "vn": ["vn", "nhạc việt nam", "nhạc trong nước", "nhạc mới trong nước", "Việt Nam", "VN"],
+    "fr": ["fr", "nhạc pháp", "Pháp"],
+    "ca": ["ca", "nhạc canada", "Canada"],
     "buzzing": ["buzzing", "nhạc khám phá", "nhạc mới"],
+    "pop": ["pop", "nhạc phổ thông", "nhạc đại chúng"],
+    "world": ["world", "thế giới", "nhạc thế giới"],
     "sleep": ["sleep", "nhạc ngủ", "nhạc làm dịu tinh thần", "nhạc không lời"],
     "bolero": ["bolero", "country", "trữ tình", "quê hương"],
-    "inspiration": ["inspiration", "nguồn cảm hứng", "đam mê của tôi", "đam mê", "nhạc dân tộc", "thế giới", "nhạc thế giới", "nhạc chiết trung"],
+    "inspiration": ["inspiration", "nguồn cảm hứng", "đam mê của tôi", "đam mê", "nhạc dân tộc", "nhạc chiết trung"],
     "soul": ["soul", "giới trẻ", "genz", "câu hỏi", "tự vấn", "an ủi"],
     "christmas": ["christmas", "Christmas", "giáng sinh", "Giáng Sinh", "giáng Sinh", "Giáng sinh", "Noel", "noel"],
     "love": ["love", "tình yêu", "yêu thương", "romantic"],
     "saigon": ["saigon", "sài gòn", "sài thành", "sg", "Sài Gòn", "sài Gòn", "Sài gòn"],
     "coffee": ["coffee", "heaven", "shop", "heaven coffee", "coffee shop", "heaven coffee shop"],
     "Đà Lạt": ["đà lạt", "dalat", "da lat", "Đà Lạt", "đà Lạt"],
-    "karaoke": ["karaoke", "tự hát", "hát hay không bằng hay hát", "tự sướng"]
+    "karaoke": ["karaoke", "tự hát", "hát hay không bằng hay hát", "tự sướng"],
+    "la": ["la", "chữ a", "playlist a", "A"],
+    "mj": ["mj", "michael jackson", "Michael Jackson", "Michael", "Jackson", "ông vua nhạc pop"],
+    "bs": ["bs", "Britney Spears", "công chúa nhạc pop", "britney spears", "britney"]
 }
 
 # Lấy playlist theo username và danh sách playlist
@@ -286,7 +295,7 @@ def get_playlists(username: str = Query(...), playlists: str = Query(None)):
 
 # Lấy playlist theo tag (dùng chung sample_playlists)
 @app.get("/tag_playlists")
-def tag_playlists(tag: str = Query(...), limit: int = 20):
+def tag_playlists(tag: str = Query(...), limit: int = 3):
     q = tag.lower()
 
     # tìm alias khớp
@@ -300,7 +309,12 @@ def tag_playlists(tag: str = Query(...), limit: int = 20):
         return {"message": f"Tag '{tag}' chưa có dữ liệu curated."}
 
     urls = sample_playlists.get(matched_key, [])
-    urls = urls[:limit]
+    if not urls:
+        return {"message": f"Tag '{tag}' chưa có dữ liệu curated."}
+
+    # ✅ lấy ngẫu nhiên limit playlist thay vì 3 cái đầu
+    urls = random.sample(urls, min(limit, len(urls)))
+
     results = []
     for link in urls:
         api_url = "https://soundcloud.com/oembed"
