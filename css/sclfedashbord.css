@@ -217,7 +217,8 @@ header h1 {
 }
 
 /* Nút Mode 🥭 */
-#toggleTheme {
+#toggleTheme,
+#toolsBtn {
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   padding: 0.3rem 0.7rem;
@@ -237,7 +238,8 @@ body.dark-mode .card {
 }
 
 /* Khi click (dark mode) */
-body.dark-mode #toggleTheme {
+body.dark-mode #toggleTheme,
+body.dark-mode #toolsBtn {
   background-color: rgba(0, 0, 0, 0.3); /* đen mờ */
   color: #fff;
 }
