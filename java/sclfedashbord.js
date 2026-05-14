@@ -337,6 +337,6 @@ async function createAIPlaylist() {
     alert("Vui lòng nhập ý tưởng playlist");
     return;
   }
-  const geminiUrl = `https://gemini.google.com/?q=${encodeURIComponent("create music playlist based on: " + queryValue)}`;
+  const geminiUrl = "https://gemini.google.com";
   window.open(geminiUrl, "_blank");
 }
