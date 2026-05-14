@@ -330,13 +330,24 @@ document.getElementById("google-btn").addEventListener("click", () => {
   window.open(googleUrl, "_blank");
 });
 
-// 👉 Mở Gemini với query để tạo playlist âm nhạc
+// 👉 Nút AI Playlist: copy query vào clipboard rồi mở Gemini
 async function createAIPlaylist() {
   const queryValue = document.getElementById("query").value.trim();
   if (!queryValue) {
     alert("Vui lòng nhập ý tưởng playlist");
     return;
   }
-  const geminiUrl = "https://gemini.google.com";
-  window.open(geminiUrl, "_blank");
+
+  try {
+    // Copy vào clipboard
+    await navigator.clipboard.writeText(queryValue);
+    alert("Ý tưởng playlist đã được copy vào clipboard. Bạn chỉ cần paste vào Gemini.");
+
+    // Mở Gemini
+    const geminiUrl = "https://gemini.google.com";
+    window.open(geminiUrl, "_blank");
+  } catch (err) {
+    alert("Không thể copy vào clipboard. Hãy cấp quyền truy cập.");
+    console.error(err);
+  }
 }
