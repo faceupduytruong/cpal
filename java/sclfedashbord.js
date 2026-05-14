@@ -306,6 +306,7 @@ document.getElementById("convertBtn").addEventListener("click", () => {
 // 👉 Nút Translate mở Google Dịch
 document.getElementById("translateBtn").addEventListener("click", async () => {
   try {
+    // Đọc clipboard (chỉ hoạt động khi trang được mở qua HTTPS hoặc localhost)
     const text = await navigator.clipboard.readText();
     const encodedText = encodeURIComponent(text);
     const url = `https://translate.google.com.vn/?sl=auto&tl=vi&text=${encodedText}&op=translate`;
