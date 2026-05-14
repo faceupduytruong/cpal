@@ -92,7 +92,7 @@ src="https://dl.dropboxusercontent.com/scl/fi/ro55pib7cpqnbs80kq1k6/37-9023778ef
   const blob = new Blob([htmlContent], { type: "text/html" });
   const url = URL.createObjectURL(blob);
 
-  const screenWidth = window.innerWidth * 2 + 45;
+  const screenWidth = window.innerWidth;
   const popupWidth = Math.floor(screenWidth); // nửa phải
   const popupHeight = 745;
   const left = screenWidth + popupWidth;
@@ -101,7 +101,7 @@ src="https://dl.dropboxusercontent.com/scl/fi/ro55pib7cpqnbs80kq1k6/37-9023778ef
   window.open(
     url,
     "_blank",
-    `width=${popupWidth},height=${popupHeight},left=${left},top=${top},resizable=yes,scrollbars=yes`
+    `width=${popupWidth}*2+45,height=${popupHeight},left=${left},top=${top},resizable=yes,scrollbars=yes`
   );
 
 }
