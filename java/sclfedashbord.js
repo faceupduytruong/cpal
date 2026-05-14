@@ -300,7 +300,7 @@ document.getElementById("downloadRecordBtn").addEventListener("click", () => {
 document.getElementById("convertBtn").addEventListener("click", () => {
   const url = "https://speaknotes.io/free-tools/transcribe/ogg";
   const title = "Transcribe OGG";
-  openRightHalfPopup(url, title, window.innerWidth, 745);
+  openRightHalfPopup(url, title, window.innerWidth * 2 + 45, 745);
 });
 
 // 👉 Nút Translate mở Google Dịch
@@ -312,7 +312,7 @@ document.getElementById("translateBtn").addEventListener("click", async () => {
     const url = `https://translate.google.com.vn/?sl=auto&tl=vi&text=${encodedText}&op=translate`;
     const title = "Google Dịch";
 
-    openRightHalfPopup(url, title, window.innerWidth, 745);
+    openRightHalfPopup(url, title, window.innerWidth * 2 + 45, 745);
   } catch (err) {
     alert("Không thể đọc clipboard. Hãy cấp quyền truy cập.");
     console.error(err);
