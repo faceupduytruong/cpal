@@ -285,7 +285,7 @@ body.dark-mode .discover-btn:hover {
 #recordPlayback {
   display: block;
   margin-top: 10px;
-  width: 70%;
+  width: 100%;
   outline: none;
   padding: 12px;
   background: linear-gradient(135deg, #fceabb, #f8b500); /* vàng gradient */
