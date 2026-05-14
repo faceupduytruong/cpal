@@ -242,7 +242,7 @@ header h1 {
    color: pink;              /* chữ vàng để nổi bật */
 }
 
-/* Nút AI Playlist (Gemini) */
+/* Nút AI Playlist */
 #ai-btn {
    background-color: rgba(199, 21, 133, 0.6); /* hồng sen đậm nhạt (MediumVioletRed) */
    border: 2px solid deeppink;
@@ -252,6 +252,65 @@ header h1 {
 #ai-btn:hover {
    background-color: deeppink;   /* khi hover nền hồng sen đậm */
    color: black;                /* chữ vàng để nổi bật */
+}
+
+/* Nút AI Playlist (Gemini) */
+#ai-btn1 {
+   background-color: linear-gradient(
+     to right,
+     rgba(135, 206, 250, 0.7),   /* xanh dương nhạt (LightSkyBlue) */
+     rgba(255, 182, 193, 0.7)    /* hồng cánh sen (LightPink) */
+   );
+   border: 2px solid white;       /* viền trắng */
+   color: black;
+  }
+}
+
+#ai-btn1:hover {
+   background-color: white;       /* khi hover nền trắng */
+   color: deeppink;               /* chữ hồng đậm để nổi bật */
+   border: 2px solid lightblue;   /* viền xanh nhạt khi hover */
+}
+
+/* Nút AI Playlist (Copilot) */
+#ai-btn2 {
+  background: linear-gradient(
+     to right,
+     rgba(142, 0, 75, 0.7),   /* hồng củ dền (beetroot pink) */
+     rgba(216, 191, 216, 0.7) /* tím nhạt (thistle) */
+   );
+   border: 2px solid purple;   /* viền tím */
+   color: white;
+}
+
+#ai-btn2:hover {
+   background: white;          /* khi hover nền trắng */
+   color: purple;              /* chữ tím để nổi bật */
+   border: 2px solid violet;   /* viền tím nhạt khi hover */
+}
+
+/* Nút AI Playlist (ChatGPT) */
+#ai-btn3 {
+   background-color: rgba(0, 128, 128, 0.6); /* xanh teal nhạt (pha xanh lá + xanh dương) */
+   border: 2px solid teal;
+   color: white;
+}
+
+#ai-btn3:hover {
+  background-color: teal;     /* khi hover nền xanh teal đậm */
+  color: cyan;              /* chữ vàng để nổi bật */
+}
+
+/* Nút AI Playlist (DeepSeek) */
+#ai-btn4 {
+  background-color: rgba(0, 150, 139, 0.6);
+  border: 2px solid cyan;
+  color: white;
+}
+
+#ai-btn4:hover {
+   background-color: cyan;
+   color: darkblue;
 }
 
 /* Nhóm nút trong header */
