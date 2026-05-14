@@ -256,11 +256,7 @@ header h1 {
 
 /* Nút AI Playlist (Gemini) */
 #ai-btn1 {
-   background-color: linear-gradient(
-     to right,
-     rgba(135, 206, 250, 0.7),   /* xanh dương nhạt (LightSkyBlue) */
-     rgba(255, 182, 193, 0.7)    /* hồng cánh sen (LightPink) */
-   );
+   background-color: white;       /* xanh da trời mạnh (DodgerBlue) */
    border: 2px solid white;       /* viền trắng */
    color: black;
   }
@@ -303,14 +299,14 @@ header h1 {
 
 /* Nút AI Playlist (DeepSeek) */
 #ai-btn4 {
-  background-color: rgba(0, 150, 139, 0.6);
-  border: 2px solid cyan;
-  color: white;
+  background-color: rgba(255, 182, 193, 0.6); /* hồng nhạt (LightPink) */
+  border: 2px solid pink;
+  color: black;
 }
 
 #ai-btn4:hover {
-   background-color: cyan;
-   color: darkblue;
+  background-color: pink;     /* khi hover nền hồng đậm hơn */
+  color: white;               /* chữ trắng để nổi bật */
 }
 
 /* Nhóm nút trong header */
