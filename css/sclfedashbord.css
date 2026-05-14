@@ -286,7 +286,7 @@ body.dark-mode .discover-btn:hover {
   display: block;
   margin: 20px auto;              /* căn giữa */
   width: 95%;                     /* mở rộng gần hết chiều ngang */
-  max-width: 1200px;              /* giới hạn tối đa để không quá to */
+  max-width: 1500px;              /* giới hạn tối đa để không quá to */
   outline: none;
   padding: 14px;
   background: linear-gradient(135deg, #fceabb, #f8b500); /* vàng gradient */
