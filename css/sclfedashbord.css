@@ -218,18 +218,24 @@ header h1 {
 
 /* Nút Google */
 #google-btn {
-  background-color: #34a853; /* xanh lá Google */
+  background-color: #800020; /* đỏ rượu vang */
+  color: #fff;
 }
+
 #google-btn:hover {
-  background-color: #2c8c46; /* xanh lá đậm khi hover */
+  background-color: #4b0082; /* màu chàm khi hover */
+  color: #fff;
 }
 
 /* Nút AI Playlist (Gemini) */
 #ai-btn {
-  background-color: #ff5500; /* cam nổi bật */
+  background-color: #d8b4fe; /* tím nhạt */
+  color: #fff;
 }
+
 #ai-btn:hover {
-  background-color: #e64a19; /* cam đậm khi hover */
+  background-color: #f8b500; /* vàng khi hover */
+  color: #000; /* chữ đen để nổi bật trên nền vàng */
 }
 
 /* Nhóm nút trong header */
