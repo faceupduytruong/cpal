@@ -16,7 +16,6 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-
 // 👉 Biến lưu popup cho từng nền tảng
 
 let popupWindows = {
