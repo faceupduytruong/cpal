@@ -320,12 +320,12 @@ header h1 {
     rgba(200, 52, 0, 0.7)     /* xanh LawnGreen */
   );
   border: 2px solid royalblue;
-  color: black;
+  color: white;
 }
 
 #ai-btn5:hover {
   background-color: mediumseagreen;
-  color: white;
+  color: black;
   border: 2px solid limegreen;
 }
 
