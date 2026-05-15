@@ -442,13 +442,12 @@ async function loadPlaylist(username, playlist) {
 
   if (data.length > 0) {
     document.getElementById("playlist-title").textContent = data[0].title;
-    document.getElementById("playlist-description").textContent = data[0].description || "Không có mô tả";
+    document.getElementById("playlist-description").innerHTML = data[0].description || "Không có mô tả";
     const iframeSrc = data[0].html.match(/src="([^"]+)"/)[1];
     document.getElementById("sc-player").src = iframeSrc;
   }
 }
 
-// Toggle hiển/ẩn mô tả
 document.getElementById("btn-desc").addEventListener("click", () => {
   const desc = document.getElementById("playlist-description");
   const currentDisplay = window.getComputedStyle(desc).display;
