@@ -433,20 +433,13 @@ body.dark-mode .discover-btn:hover {
   align-items: flex-end;
   gap: 4px;
   height: 40px;
-  margin-top: 10px;
 }
 
-.wave-container .bar {
+.bar {
   width: 6px;
-  background: #00ffff; /* màu cyan */
+  background: cyan;
   animation: wave 1s infinite ease-in-out;
 }
-
-.wave-container .bar:nth-child(1) { animation-delay: 0s; }
-.wave-container .bar:nth-child(2) { animation-delay: 0.2s; }
-.wave-container .bar:nth-child(3) { animation-delay: 0.4s; }
-.wave-container .bar:nth-child(4) { animation-delay: 0.6s; }
-.wave-container .bar:nth-child(5) { animation-delay: 0.8s; }
 
 @keyframes wave {
   0% { height: 10px; }
