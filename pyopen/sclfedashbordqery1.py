@@ -362,3 +362,16 @@ def ai_playlist(query: str = Query(...)):
 
     logging.info(f"[ai_playlist] Feed OK - {len(results)} kết quả cho query '{query}'")
     return results
+
+# Random Playlist (lấy ngẫu nhiên trong sample_playlists)
+@app.get("/random_playlist")
+def random_playlist():
+    all_urls = []
+    for urls in sample_playlists.values():
+        all_urls.extend(urls)
+
+    if not all_urls:
+        return {"message": "Không có dữ liệu playlist."}
+
+    chosen = random.choice(all_urls)
+    return {"url": chosen}
