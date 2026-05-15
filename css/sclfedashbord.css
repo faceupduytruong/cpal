@@ -434,6 +434,12 @@ body.dark-mode .discover-btn:hover {
   align-items: flex-end;
   gap: 4px;
   height: 40px;
+  overflow-x: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+
+.wave-container::-webkit-scrollbar { /* Chrome, Safari */
+  display: none;
 }
 
 .bar {
