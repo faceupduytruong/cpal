@@ -437,7 +437,7 @@ body.dark-mode .discover-btn:hover {
 
 .bar {
   width: 6px;
-  background: darkred;
+  background: orange;
   animation: wave 1s infinite ease-in-out;
 }
 
