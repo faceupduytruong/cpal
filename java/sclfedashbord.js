@@ -438,11 +438,11 @@ async function loadRandomPlaylist() {
 async function loadPlaylist(username, playlist) {
   const res = await fetch(`http://127.0.0.1:8000/feed_soundcloud?username=${username}&playlists=${playlist}`);
   const data = await res.json();
+  console.log("API trả về:", data);
 
   if (data.length > 0) {
     document.getElementById("playlist-title").textContent = data[0].title;
     document.getElementById("playlist-description").textContent = data[0].description || "Không có mô tả";
-    // lấy src từ html embed
     const iframeSrc = data[0].html.match(/src="([^"]+)"/)[1];
     document.getElementById("sc-player").src = iframeSrc;
   }
