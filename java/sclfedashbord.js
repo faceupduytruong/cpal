@@ -380,17 +380,23 @@ async function openTool(toolName) {
 // Toggle hiển/ẩn sóng nhạc
 document.getElementById("wave-btn").addEventListener("click", () => {
   const wave = document.getElementById("music-wave");
-  wave.style.display = (wave.style.display === "none") ? "flex" : "none";
+  if (wave.style.display === "none" || wave.style.display === "") {
+    wave.style.display = "flex";
+    createBars(139); // sinh lại bar khi bật
+  } else {
+    wave.style.display = "none";
+    wave.innerHTML = ""; // xoá bar khi tắt
+  }
 });
 
-// Sinh ra 30 thanh bar tự động
+// Sinh ra nhiều thanh bar tự động
 function createBars(count = 139) {
   const container = document.getElementById("music-wave");
   container.innerHTML = ""; // xoá cũ
   for (let i = 0; i < count; i++) {
     const bar = document.createElement("div");
     bar.className = "bar";
-    bar.style.animationDelay = `${i * 0.1}s`; // lệch nhịp cho đẹp
+    bar.style.animationDelay = `${i * 0.05}s`; // lệch nhịp cho đẹp
     container.appendChild(bar);
   }
 }
