@@ -398,7 +398,7 @@ function createBars(count = 139) {
 // Chọn 1 Playlist ngẫu nhiên
 async function loadRandomPlaylist() {
   try {
-    const res = await fetch("http://127.0.0.1:5000/random_playlist");
+    const res = await fetch("http://127.0.0.1:8000/random_playlist");
     const data = await res.json();
     console.log("API trả về:", data);
 
