@@ -175,13 +175,21 @@ async function fetchTagPlaylists(tag) {
       card.innerHTML = `
         <h3>${item.title}</h3>
         ${item.html}
-        <button class="btn-desc">📖 Toggle Giới thiệu</button>
-        <div class="playlist-description" style="display:none;">
+        <button class="btn-desc">📖 Description of Playlist</button>
+        <div class="playlist-description" style="display:none; margin-top:10px;">
         ${item.description || "Không có mô tả"}
-    </div>
-    </div>
+        </div>
       `;
       feed.appendChild(card);
+    });
+
+    // Gắn sự kiện toggle cho tất cả nút
+    feed.querySelectorAll(".btn-desc").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const desc = btn.nextElementSibling;
+        const currentDisplay = window.getComputedStyle(desc).display;
+        desc.style.display = (currentDisplay === "none") ? "block" : "none";
+      });
     });
   } catch (error) {
     feed.innerHTML = "<p>Lỗi tải dữ liệu.</p>";
