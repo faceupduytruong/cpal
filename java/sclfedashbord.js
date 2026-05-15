@@ -175,7 +175,6 @@ async function fetchTagPlaylists(tag) {
       card.innerHTML = `
         <h3>${item.title}</h3>
         ${item.html}
-        <div class="playlist-description" style="margin-top:10px;">
         ${item.description || "Không có mô tả"}
     </div>
       `;
