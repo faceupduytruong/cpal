@@ -382,3 +382,18 @@ document.getElementById("wave-btn").addEventListener("click", () => {
   const wave = document.getElementById("music-wave");
   wave.style.display = (wave.style.display === "none") ? "flex" : "none";
 });
+
+// Sinh ra 30 thanh bar tự động
+function createBars(count = 100) {
+  const container = document.getElementById("music-wave");
+  container.innerHTML = ""; // xoá cũ
+  for (let i = 0; i < count; i++) {
+    const bar = document.createElement("div");
+    bar.className = "bar";
+    bar.style.animationDelay = `${i * 0.1}s`; // tạo hiệu ứng lệch nhịp
+    container.appendChild(bar);
+  }
+}
+
+// Gọi khi cần
+createBars(100);
