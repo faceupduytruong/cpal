@@ -376,3 +376,9 @@ async function openTool(toolName) {
     console.error(err);
   }
 }
+
+// Toggle hiển/ẩn sóng nhạc
+document.getElementById("wave-btn").addEventListener("click", () => {
+  const wave = document.getElementById("music-wave");
+  wave.style.display = (wave.style.display === "none") ? "flex" : "none";
+});
