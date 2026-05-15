@@ -372,7 +372,8 @@ body.dark-mode #btn-random {
 }
 
 /* Nút Discover - mặc định (light mode) */
-.discover-btn {
+.discover-btn,
+.btn-desc {
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   padding: 0.3rem 0.7rem;
@@ -386,18 +387,21 @@ body.dark-mode #btn-random {
 }
 
 /* Hover: xanh đọt chuối trong suốt (light mode) */
-.discover-btn:hover {
+.discover-btn:hover,
+.btn-desc:hover {
   background-color: rgba(154, 205, 50, 0.4); /* xanh đọt chuối */
 }
 
 /* Khi bật dark mode */
-body.dark-mode .discover-btn {
+body.dark-mode .discover-btn,
+body.dark-mode .btn-desc {
   background-color: rgba(255, 255, 255, 0.3); /* trắng mờ */
   color: #fff;
 }
 
 /* Hover trong dark mode: cam trong suốt */
-body.dark-mode .discover-btn:hover {
+body.dark-mode .discover-btn:hover,
+body.dark-mode .btn-desc {
   background-color: rgba(255, 165, 0, 0.4); /* cam trong suốt */
 }
 
