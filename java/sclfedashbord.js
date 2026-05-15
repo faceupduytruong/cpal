@@ -221,6 +221,7 @@ async function searchSoundcloud() {
         <button class="btn-desc">📖 Description of Playlist</button>
         <div class="playlist-description" style="display:none; margin-top:10px;">
         ${item.description || "Không có mô tả"}
+        </div>
       `;
       feed.appendChild(card);
     });
