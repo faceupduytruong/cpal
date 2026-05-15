@@ -341,7 +341,8 @@ header h1 {
 #toggleTheme,
 #toolsBtn,
 #btn-gimp,
-#wave-btn {
+#btn-wave,
+#btn-random {
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   padding: 0.3rem 0.7rem;
@@ -364,7 +365,8 @@ body.dark-mode .card {
 body.dark-mode #toggleTheme,
 body.dark-mode #toolsBtn,
 body.dark-mode #btn-gimp,
-body.dark-mode #wave-btn {
+body.dark-mode #btn-wave,
+body.dark-mode #btn-random {
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
 }
