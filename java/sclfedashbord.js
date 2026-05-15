@@ -425,3 +425,19 @@ function startWave() {
 
   draw();
 }
+
+async function loadRandomPlaylist() {
+  try {
+    const res = await fetch("http://127.0.0.1:5000/random_playlist");
+    const data = await res.json();
+    if (data.url) {
+      const embedUrl = `https://w.soundcloud.com/player/?url=${encodeURIComponent(data.url)}&color=%23ff5500&auto_play=false`;
+      document.getElementById("sc-player").src = embedUrl;
+    } else {
+      alert(data.message || "Không tìm thấy playlist");
+    }
+  } catch (err) {
+    console.error(err);
+    alert("Lỗi khi tải playlist ngẫu nhiên");
+  }
+}
