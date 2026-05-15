@@ -384,7 +384,7 @@ document.getElementById("wave-btn").addEventListener("click", () => {
 });
 
 // Sinh ra 30 thanh bar tự động
-function createBars(count = 150) {
+function createBars(count = 140) {
   const container = document.getElementById("music-wave");
   container.innerHTML = ""; // xoá cũ
   for (let i = 0; i < count; i++) {
@@ -396,4 +396,4 @@ function createBars(count = 150) {
 }
 
 // Gọi khi cần
-createBars(150);
+createBars(140);
