@@ -377,23 +377,6 @@ async function openTool(toolName) {
   }
 }
 
-async function loadRandomPlaylist() {
-  try {
-    const res = await fetch("http://127.0.0.1:8000/random_playlist");
-    const data = await res.json();
-    console.log("API trả về:", data); // log ra để kiểm tra
-    if (data.url) {
-      const embedUrl = `https://w.soundcloud.com/player/?url=${encodeURIComponent(data.url)}&color=%23ff5500&auto_play=false`;
-      document.getElementById("sc-player").src = embedUrl;
-    } else {
-      alert(data.message || "Không tìm thấy playlist");
-    }
-  } catch (err) {
-    console.error("Fetch lỗi:", err);
-    alert("Lỗi khi tải playlist ngẫu nhiên");
-  }
-}
-
 // Toggle hiển/ẩn sóng nhạc
 document.getElementById("wave-btn").addEventListener("click", () => {
   const wave = document.getElementById("music-wave");
@@ -407,10 +390,32 @@ function createBars(count = 139) {
   for (let i = 0; i < count; i++) {
     const bar = document.createElement("div");
     bar.className = "bar";
-    bar.style.animationDelay = `${i * 0.1}s`; // tạo hiệu ứng lệch nhịp
+    bar.style.animationDelay = `${i * 0.1}s`; // lệch nhịp cho đẹp
     container.appendChild(bar);
   }
 }
 
-// Gọi khi cần
-createBars(139);
+// Chọn 1 Playlist ngẫu nhiên
+async function loadRandomPlaylist() {
+  try {
+    const res = await fetch("http://127.0.0.1:5000/random_playlist");
+    const data = await res.json();
+    console.log("API trả về:", data);
+
+    if (data.url) {
+      // gán src cho iframe
+      const embedUrl = `https://w.soundcloud.com/player/?url=${encodeURIComponent(data.url)}&color=%23ff5500&auto_play=false`;
+      document.getElementById("sc-player").src = embedUrl;
+
+      // bật sóng nhạc và tạo bar
+      const wave = document.getElementById("music-wave");
+      wave.style.display = "flex";
+      createBars(139);
+    } else {
+      alert(data.message || "Không tìm thấy playlist");
+    }
+  } catch (err) {
+    console.error("Fetch lỗi:", err);
+    alert("Lỗi khi tải playlist ngẫu nhiên");
+  }
+}
