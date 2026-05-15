@@ -338,7 +338,8 @@ header h1 {
 
 /* Nút Mode 🥭 và Tools 🍉 giống nhau */
 #toggleTheme,
-#toolsBtn {
+#toolsBtn,
+#btn-gimp {
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   padding: 0.3rem 0.7rem;
@@ -359,7 +360,8 @@ body.dark-mode .card {
 
 /* Khi click (dark mode) */
 body.dark-mode #toggleTheme,
-body.dark-mode #toolsBtn {
+body.dark-mode #toolsBtn,
+body.dark-mode #btn-gimp {
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
 }
