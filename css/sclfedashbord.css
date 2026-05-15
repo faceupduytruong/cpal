@@ -437,33 +437,12 @@ body.dark-mode .discover-btn:hover {
 
 .bar {
   width: 6px;
-  /* Gradient nhiều màu neon */
-  background: linear-gradient(
-    180deg,
-    #ff0000,
-    #ff00ff,
-    #00ffff,
-    #00ff00,
-    #ffff00,
-    #ff8800
-  );
-  /* Hiệu ứng phát sáng neon */
-  box-shadow: 
-    0 0 10px #ff00ff,
-    0 0 20px #00ffff,
-    0 0 30px #ffff00,
-    0 0 40px #ff0000;
-  animation: wave 1s infinite ease-in-out, neon 5s infinite linear;
+  background: darkred;
+  animation: wave 1s infinite ease-in-out;
 }
 
 @keyframes wave {
   0% { height: 10px; }
   50% { height: 40px; }
   100% { height: 10px; }
-}
-
-@keyframes neon {
-  0%   { filter: hue-rotate(0deg); }
-  50%  { filter: hue-rotate(180deg); }
-  100% { filter: hue-rotate(360deg); }
 }
