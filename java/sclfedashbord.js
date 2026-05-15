@@ -434,3 +434,22 @@ async function loadRandomPlaylist() {
     alert("Lỗi khi tải playlist ngẫu nhiên");
   }
 }
+
+async function loadPlaylist(username, playlist) {
+  const res = await fetch(`http://127.0.0.1:8000/feed_soundcloud?username=${username}&playlists=${playlist}`);
+  const data = await res.json();
+  console.log("API trả về:", data);
+
+  if (data.length > 0) {
+    document.getElementById("playlist-title").textContent = data[0].title;
+    document.getElementById("playlist-description").textContent = data[0].description || "Không có mô tả";
+    document.getElementById("sc-player").src = data[0].html.match(/src="([^"]+)"/)[1]; // lấy src từ html embed
+  }
+}
+
+// Toggle hiển/ẩn mô tả
+document.querySelector(".btn-desc").addEventListener("click", () => {
+  const desc = document.getElementById("playlist-description");
+  const currentDisplay = window.getComputedStyle(desc).display;
+  desc.style.display = (currentDisplay === "none") ? "block" : "none";
+});
