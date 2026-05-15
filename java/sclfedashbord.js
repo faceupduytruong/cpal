@@ -380,7 +380,9 @@ async function openTool(toolName) {
 // Toggle hiển/ẩn sóng nhạc
 document.getElementById("wave-btn").addEventListener("click", () => {
   const wave = document.getElementById("music-wave");
-  if (wave.style.display === "none" || wave.style.display === "") {
+  const currentDisplay = window.getComputedStyle(wave).display;
+
+  if (currentDisplay === "none") {
     wave.style.display = "flex";
     createBars(139); // sinh lại bar khi bật
   } else {
@@ -404,7 +406,7 @@ function createBars(count = 139) {
 // Chọn 1 Playlist ngẫu nhiên
 async function loadRandomPlaylist() {
   try {
-    const res = await fetch("http://127.0.0.1:8000/random_playlist");
+    const res = await fetch("http://127.0.0.1:8000/random_playlist"); // nhớ khớp cổng với uvicorn
     const data = await res.json();
     console.log("API trả về:", data);
 
