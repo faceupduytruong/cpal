@@ -292,6 +292,7 @@ def get_playlists(username: str = Query(...), playlists: str = Query(None)):
                     "provider_name": data.get("provider_name"),
                     "provider_url": data.get("provider_url"),
                     "html": data.get("html"),
+                    "description": data.get("description")  # thêm mô tả
                 })
     return results
 
@@ -328,6 +329,7 @@ def tag_playlists(tag: str = Query(...), limit: int = 3):
                 "title": data.get("title"),
                 "author_name": data.get("author_name"),
                 "html": data.get("html"),
+                "description": data.get("description")  # thêm mô tả
             })
     return results
 
@@ -356,6 +358,7 @@ def ai_playlist(query: str = Query(...)):
                         "title": data.get("title"),
                         "author_name": data.get("author_name"),
                         "html": data.get("html"),
+                        "description": data.get("description")  # thêm mô tả
                     })
             except requests.exceptions.RequestException as e:
                 logging.error(f"SoundCloud API error: {e}")
