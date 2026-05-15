@@ -437,9 +437,23 @@ body.dark-mode .discover-btn:hover {
 
 .bar {
   width: 6px;
-  background: linear-gradient(180deg, #ff00ff, #00ffff, #ffff00);
-  box-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff, 0 0 30px #ffff00;
-  animation: wave 1s infinite ease-in-out, neon 3s infinite linear;
+  /* Gradient nhiều màu neon */
+  background: linear-gradient(
+    180deg,
+    #ff0000,
+    #ff00ff,
+    #00ffff,
+    #00ff00,
+    #ffff00,
+    #ff8800
+  );
+  /* Hiệu ứng phát sáng neon */
+  box-shadow: 
+    0 0 10px #ff00ff,
+    0 0 20px #00ffff,
+    0 0 30px #ffff00,
+    0 0 40px #ff0000;
+  animation: wave 1s infinite ease-in-out, neon 5s infinite linear;
 }
 
 @keyframes wave {
