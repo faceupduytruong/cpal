@@ -397,7 +397,7 @@ document.getElementById("btn-wave").addEventListener("click", () => {
 });
 
 // Sinh ra nhiều thanh bar tự động
-function createBars(count = 135) {
+function createBars(count = 137) {
   const container = document.getElementById("music-wave");
   container.innerHTML = ""; // xoá cũ
   for (let i = 0; i < count; i++) {
@@ -425,7 +425,7 @@ async function loadRandomPlaylist() {
       // bật sóng nhạc và tạo bar
       const wave = document.getElementById("music-wave");
       wave.style.display = "flex";
-      createBars(135);
+      createBars(137);
     } else {
       alert(data.message || "Không tìm thấy playlist");
     }
