@@ -175,9 +175,28 @@ async function fetchTagPlaylists(tag) {
       card.innerHTML = `
         <h3>${item.title}</h3>
         ${item.html}
+        <button class="btn-desc">📖 Toggle Giới thiệu</button>
+        <div class="playlist-description" style="display:none;">
+          ${item.description || "Không có mô tả"}
+        </div>
       `;
       feed.appendChild(card);
     });
+    
+    // Gắn sự kiện toggle cho tất cả nút
+    feed.querySelectorAll(".btn-desc").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const desc = btn.nextElementSibling;
+        const currentDisplay = window.getComputedStyle(desc).display;
+        desc.style.display = (currentDisplay === "none") ? "block" : "none";
+      });
+    });
+  } catch (error) {
+    document.getElementById("feed").innerHTML = "<p>Lỗi tải dữ liệu.</p>";
+    console.error(error);
+  }
+}
+
   } catch (error) {
     feed.innerHTML = "<p>Lỗi tải dữ liệu.</p>";
     console.error(error);
