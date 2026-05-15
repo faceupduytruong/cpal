@@ -378,7 +378,7 @@ async function openTool(toolName) {
 }
 
 // Toggle hiển/ẩn sóng nhạc
-document.getElementById("wave-btn").addEventListener("click", () => {
+document.getElementById("btn-wave").addEventListener("click", () => {
   const wave = document.getElementById("music-wave");
   const currentDisplay = window.getComputedStyle(wave).display;
 
