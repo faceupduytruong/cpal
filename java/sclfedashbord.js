@@ -440,4 +440,3 @@ async function loadRandomPlaylist() {
     console.error(err);
     alert("Lỗi khi tải playlist ngẫu nhiên");
   }
-}
