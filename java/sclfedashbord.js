@@ -18,7 +18,7 @@ async function fetchFeed(username, playlists) {
       card.innerHTML = `
         <h3>${item.title}</h3>
         ${item.html}
-        <button class="btn-desc">📖 Toggle Giới thiệu</button>
+        <button class="btn-desc">📖 Description of Playlist</button>
         <div class="playlist-description" style="display:none; margin-top:10px;">
           ${item.description || "Không có mô tả"}
         </div>
