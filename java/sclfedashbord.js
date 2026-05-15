@@ -379,6 +379,49 @@ async function openTool(toolName) {
 
 // Toggle hiển/ẩn sóng nhạc
 document.getElementById("wave-btn").addEventListener("click", () => {
-  const wave = document.getElementById("music-wave");
-  wave.style.display = (wave.style.display === "none") ? "flex" : "none";
+  const canvas = document.getElementById("music-wave");
+  canvas.style.display = (canvas.style.display === "none") ? "block" : "none";
+
+  if (canvas.style.display === "block") {
+    startWave();
+  }
 });
+
+function startWave() {
+  const canvas = document.getElementById("music-wave");
+  const ctx = canvas.getContext("2d");
+
+  // Lấy audio từ SoundCloud iframe
+  const iframe = document.getElementById("sc-player");
+  const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  const source = audioCtx.createMediaElementSource(iframe); // ⚠️ chỉ hoạt động nếu bạn có quyền truy cập audio element
+
+  const analyser = audioCtx.createAnalyser();
+  source.connect(analyser);
+  analyser.connect(audioCtx.destination);
+
+  analyser.fftSize = 256;
+  const bufferLength = analyser.frequencyBinCount;
+  const dataArray = new Uint8Array(bufferLength);
+
+  function draw() {
+    requestAnimationFrame(draw);
+
+    analyser.getByteFrequencyData(dataArray);
+
+    ctx.fillStyle = "black";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    const barWidth = (canvas.width / bufferLength) * 2.5;
+    let x = 0;
+
+    for (let i = 0; i < bufferLength; i++) {
+      const barHeight = dataArray[i] / 2;
+      ctx.fillStyle = "cyan";
+      ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
+      x += barWidth + 1;
+    }
+  }
+
+  draw();
+}
