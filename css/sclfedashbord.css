@@ -312,6 +312,23 @@ header h1 {
   color: white;               /* chữ trắng để nổi bật */
 }
 
+/* Nút AI Playlist (DeepSeek) */
+#ai-btn5 {
+  background: linear-gradient(
+    to right,
+    rgba(5, 205, 5, 0.7),   /* xanh RoyalBlue */
+    rgba(4, 52, 200, 0.7)     /* xanh LawnGreen */
+  );
+  border: 2px solid royalblue;
+  color: black;
+}
+
+#ai-btn4:hover {
+  background-color: mediumseagreen;
+  color: white;
+  border: 2px solid limegreen;
+}
+
 /* Nhóm nút trong header */
 .header-buttons {
   display: flex;
