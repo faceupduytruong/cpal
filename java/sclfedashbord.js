@@ -377,17 +377,22 @@ async function openTool(toolName) {
   }
 }
 
-// Toggle hiển/ẩn sóng nhạc
+// Toggle hiển/ẩn sóng nhạc + iframe
 document.getElementById("btn-wave").addEventListener("click", () => {
   const wave = document.getElementById("music-wave");
+  const player = document.getElementById("sc-player");
   const currentDisplay = window.getComputedStyle(wave).display;
 
   if (currentDisplay === "none") {
+    // bật sóng và iframe
     wave.style.display = "flex";
-    createBars(139); // sinh lại bar khi bật
+    player.style.display = "block"; // hiện iframe
+    createBars(139);
   } else {
+    // tắt sóng và iframe
     wave.style.display = "none";
-    wave.innerHTML = ""; // xoá bar khi tắt
+    wave.innerHTML = ""; // xoá bar
+    player.style.display = "none"; // ẩn iframe
   }
 });
 
@@ -413,7 +418,9 @@ async function loadRandomPlaylist() {
     if (data.url) {
       // gán src cho iframe
       const embedUrl = `https://w.soundcloud.com/player/?url=${encodeURIComponent(data.url)}&color=%23ff5500&auto_play=false`;
-      document.getElementById("sc-player").src = embedUrl;
+      const player = document.getElementById("sc-player");
+      player.src = embedUrl;
+      player.style.display = "block"; // đảm bảo iframe hiện
 
       // bật sóng nhạc và tạo bar
       const wave = document.getElementById("music-wave");
