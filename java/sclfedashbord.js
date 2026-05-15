@@ -7,11 +7,32 @@ async function fetchFeed(username, playlists) {
     const feed = document.getElementById("feed");
     feed.innerHTML = "";
 
+    if (data.length === 0 || data.message) {
+      feed.innerHTML = "<p>Không tìm thấy playlist cho username này.</p>";
+      return;
+    }
+
     data.forEach(item => {
       const card = document.createElement("div");
       card.className = "card";
-      card.innerHTML = item.html;
+      card.innerHTML = `
+        <h3>${item.title}</h3>
+        ${item.html}
+        <button class="btn-desc">📖 Toggle Giới thiệu</button>
+        <div class="playlist-description" style="display:none; margin-top:10px;">
+          ${item.description || "Không có mô tả"}
+        </div>
+      `;
       feed.appendChild(card);
+    });
+
+    // Gắn sự kiện toggle cho tất cả nút
+    feed.querySelectorAll(".btn-desc").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const desc = btn.nextElementSibling;
+        const currentDisplay = window.getComputedStyle(desc).display;
+        desc.style.display = (currentDisplay === "none") ? "block" : "none";
+      });
     });
   } catch (error) {
     document.getElementById("feed").innerHTML = "<p>Lỗi tải dữ liệu.</p>";
