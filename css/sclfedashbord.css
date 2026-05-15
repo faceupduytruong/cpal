@@ -317,13 +317,13 @@ header h1 {
   background: linear-gradient(
     to right,
     rgba(5, 205, 5, 0.7),   /* xanh RoyalBlue */
-    rgba(4, 52, 200, 0.7)     /* xanh LawnGreen */
+    rgba(200, 52, 0, 0.7)     /* xanh LawnGreen */
   );
   border: 2px solid royalblue;
   color: black;
 }
 
-#ai-btn4:hover {
+#ai-btn5:hover {
   background-color: mediumseagreen;
   color: white;
   border: 2px solid limegreen;
