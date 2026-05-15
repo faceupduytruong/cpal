@@ -364,6 +364,8 @@ async function openTool(toolName) {
       case "chatgpt":
         url = "https://chat.openai.com";
         break;
+      case "chaton":
+        url = "https://chat.chaton.ai/my/main";
       case "deepseek":
         url = "https://chat.deepseek.com";
         break;
