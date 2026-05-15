@@ -175,7 +175,10 @@ async function fetchTagPlaylists(tag) {
       card.innerHTML = `
         <h3>${item.title}</h3>
         ${item.html}
+        <button class="btn-desc">📖 Toggle Giới thiệu</button>
+        <div class="playlist-description" style="display:none;">
         ${item.description || "Không có mô tả"}
+    </div>
     </div>
       `;
       feed.appendChild(card);
