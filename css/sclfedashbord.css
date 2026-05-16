@@ -524,6 +524,14 @@ button {
   transition: transform 0.2s ease;
 }
 
+#lyricsPopup {
+  position: fixed;        /* cố định theo màn hình */
+  top: 50%;               /* căn giữa theo chiều dọc */
+  left: 50%;              /* căn giữa theo chiều ngang */
+  transform: translate(-50%, -50%); /* dịch chuyển để đúng tâm */
+  z-index: 9999;          /* nổi lên trên cùng */
+}
+
 .popup-content {
   background: linear-gradient(135deg, #6a11cb, #ff6fd8); /* xanh tím → hồng cánh sen */
   padding: 23px; /* giảm padding để tiết kiệm không gian */
