@@ -262,7 +262,7 @@ aliases = {
     "bolero": ["bolero", "country", "trữ tình", "nhạc trữ tình", "quê hương"],
     "inspiration": ["inspiration", "nguồn cảm hứng", "đam mê của tôi", "đam mê", "nhạc dân tộc", "nhạc chiết trung"],
     "christmas": ["christmas", "Christmas", "giáng sinh", "Giáng Sinh", "giáng Sinh", "Giáng sinh", "Noel", "noel"],
-    "lovge": ["love", "tình yêu", "yêu thương", "romantic", "nhạc tình yêu", "nhạc lãng mạn"],
+    "love": ["love", "tình yêu", "yêu thương", "romantic", "nhạc tình yêu", "nhạc lãng mạn"],
     "saigon": ["saigon", "sài gòn", "sài thành", "sg", "Sài Gòn", "sài Gòn", "Sài gòn", "tphcm", "TpHCM", "miền nam", "Miền Nam", "miền Nam", "Miền nam"],
     "coffee": ["coffee", "heaven", "shop", "heaven coffee", "coffee shop", "heaven coffee shop"],
     "Đà Lạt": ["đà lạt", "dalat", "da lat", "Đà Lạt", "đà Lạt"],
