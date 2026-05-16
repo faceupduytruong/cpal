@@ -491,20 +491,3 @@ document.getElementById("btn-desc").addEventListener("click", () => {
   const currentDisplay = window.getComputedStyle(desc).display;
   desc.style.display = (currentDisplay === "none") ? "block" : "none";
 });
-
-// Mở popup khi nhấn nút 🐟
-document.addEventListener("DOMContentLoaded", () => {
-  // Toggle popup khi nhấn 🐟
-  document.getElementById("lyricsBtn").addEventListener("click", () => {
-    const popup = document.getElementById("lyricsPopup");
-    popup.style.display = (popup.style.display === "none" || popup.style.display === "") ? "block" : "none";
-  });
-
-  // Gắn sự kiện cho các siteBtn
-  document.querySelectorAll(".siteBtn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const url = btn.getAttribute("data-url");
-      window.open(url, "_blank");
-    });
-  });
-});
