@@ -499,11 +499,6 @@ document.addEventListener("DOMContentLoaded", () => {
     popup.style.display = (popup.style.display === "none" || popup.style.display === "") ? "block" : "none";
   });
 
-  // Đóng popup khi nhấn ❌
-  document.getElementById("closeStationPopup").addEventListener("click", () => {
-    document.getElementById("stationPopup").style.display = "none";
-  });
-
   // Gắn sự kiện cho các siteBtn
   document.querySelectorAll(".siteBtn").forEach(btn => {
     btn.addEventListener("click", () => {
