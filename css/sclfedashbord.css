@@ -532,7 +532,7 @@ button {
   color: white;
   width: 360px;
   text-align: center;
-  max-height: 280px;  /* Giới hạn chiều cao popup màu tím hường */
+  max-height: 380px;  /* Giới hạn chiều cao popup màu tím hường */
   scroll-behavior: smooth; /* Cuộn mượt */
   scrollbar-width: thin;              /* Firefox */
   scrollbar-color: #00BFFF #f0f0f0;   /* Firefox */
