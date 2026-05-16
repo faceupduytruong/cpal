@@ -493,19 +493,19 @@ document.getElementById("btn-desc").addEventListener("click", () => {
 });
 
 // Mở popup khi nhấn nút 🐟
-document.getElementById("lyricsBtn").addEventListener("click", () => {
-  document.getElementById("lyricsPopup").classList.remove("popup-hidden");
-});
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("lyricsBtn").addEventListener("click", () => {
+    document.getElementById("lyricsPopup").classList.remove("popup-hidden");
+  });
 
-// Đóng popup khi nhấn ❌
-document.getElementById("closeLyricsPopup").addEventListener("click", () => {
-  document.getElementById("lyricsPopup").classList.add("popup-hidden");
-});
+  document.getElementById("closeLyricsPopup").addEventListener("click", () => {
+    document.getElementById("lyricsPopup").classList.add("popup-hidden");
+  });
 
-// Gắn sự kiện cho các nút siteBtn
-document.querySelectorAll(".siteBtn").forEach(btn => {
-  btn.addEventListener("click", () => {
-    const url = btn.getAttribute("data-url");
-    window.open(url, "_blank");
+  document.querySelectorAll(".siteBtn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const url = btn.getAttribute("data-url");
+      window.open(url, "_blank");
+    });
   });
 });
