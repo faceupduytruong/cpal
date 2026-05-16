@@ -523,3 +523,76 @@ button {
   border-radius: 8px;
   transition: transform 0.2s ease;
 }
+
+.popup-content {
+  background: linear-gradient(135deg, #6a11cb, #ff6fd8); /* xanh tím → hồng cánh sen */
+  padding: 23px; /* giảm padding để tiết kiệm không gian */
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  color: white;
+  width: 360px;
+  text-align: center;
+  max-height: 280px;  /* Giới hạn chiều cao popup màu tím hường */
+  scroll-behavior: smooth; /* Cuộn mượt */
+  scrollbar-width: thin;              /* Firefox */
+  scrollbar-color: #00BFFF #f0f0f0;   /* Firefox */
+  overflow-y: scroll;  /* Cho phép cuộn */
+}
+
+.popup-content::-webkit-scrollbar {
+  width: 4px;
+}
+
+.popup-content::-webkit-scrollbar-track {
+  background: #f0f0f0;                /* Màu nền track */
+  border-radius: 4px;
+}
+
+.popup-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #00BFFF, #4B6A88); /* Màu thanh cuộn */
+  border-radius: 4px;
+}
+
+/* Style riêng cho input popup */
+.input-content {
+background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0);
+  padding: 25px;
+  width: 300px;
+  max-height: 275px;
+  overflow-y: auto;
+}
+
+.popup-content button {
+  padding: 10px 20px;    /* Quản lý style của nút Close */
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: #6a11cb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.popup-content h3 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: white;
+  animation: greenPulse 7s infinite;
+  text-shadow:
+    0 0 6px #006400,     /* ánh sáng xanh lá cây đậm gần chữ */
+    0 0 12px #228B22,    /* ánh sáng lan rộng hơn */
+    1px 1px 4px rgba(0,0,0,0.3); /* bóng nhẹ màu đen */
+}
