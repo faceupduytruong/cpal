@@ -465,13 +465,3 @@ body.dark-mode .btn-desc:hover {
   padding: 10px;
   border-left: 3px solid #ff5500;
 }
-
-#lyricsPopup {
-  margin-top: 10px;
-}
-
-.popup-content {
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-}
