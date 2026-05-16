@@ -491,3 +491,24 @@ document.getElementById("btn-desc").addEventListener("click", () => {
   const currentDisplay = window.getComputedStyle(desc).display;
   desc.style.display = (currentDisplay === "none") ? "block" : "none";
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Toggle popup khi nhấn 🐟
+  document.getElementById("btn-station").addEventListener("click", () => {
+    const popup = document.getElementById("lyricsPopup");
+    popup.classList.toggle("popup-hidden");
+  });
+
+  // Đóng popup khi nhấn ❌
+  document.getElementById("closeLyricsPopup").addEventListener("click", () => {
+    document.getElementById("lyricsPopup").classList.add("popup-hidden");
+  });
+
+  // Gắn sự kiện cho các siteBtn
+  document.querySelectorAll(".siteBtn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const url = btn.getAttribute("data-url");
+      window.open(url, "_blank");
+    });
+  });
+});
