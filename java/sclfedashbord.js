@@ -486,12 +486,7 @@ async function loadPlaylist(username, playlist) {
   }
 }
 
-document.getElementById("btn-desc").addEventListener("click", () => {
-  const desc = document.getElementById("playlist-description");
-  const currentDisplay = window.getComputedStyle(desc).display;
-  desc.style.display = (currentDisplay === "none") ? "block" : "none";
-});
-
+document.addEventListener("DOMContentLoaded", () => {
   // Toggle popup khi nhấn 🐟
   document.getElementById("btn-station").addEventListener("click", () => {
     const popup = document.getElementById("lyricsPopup");
@@ -510,3 +505,4 @@ document.getElementById("btn-desc").addEventListener("click", () => {
       window.open(url, "_blank");
     });
   });
+});
