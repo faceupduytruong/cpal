@@ -563,7 +563,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
       try {
-        const textToCopy = "tạo giùm tôi playlist âm nhạc phù hợp với chủ đề " + queryValue;
+        const textToCopy = "playlist " + queryValue;
         await navigator.clipboard.writeText(textToCopy);
         alert("Ý tưởng playlist đã được copy vào clipboard. Bạn chỉ cần paste vào trang nhạc.");
         window.open(url, "_blank");
