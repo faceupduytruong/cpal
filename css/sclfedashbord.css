@@ -538,7 +538,7 @@ button {
   }
 
 .popup-content {
-  background: linear-gradient(135deg, #6a11cb, #ff6fd8); /* xanh tím → hồng cánh sen */
+  background: linear-gradient(135deg, #FF8C00, #FF4500); /* cam đậm → cam đỏ */
   padding: 23px; /* giảm padding để tiết kiệm không gian */
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
@@ -548,7 +548,7 @@ button {
   max-height: 380px;  /* Giới hạn chiều cao popup màu tím hường */
   scroll-behavior: smooth; /* Cuộn mượt */
   scrollbar-width: thin;              /* Firefox */
-  scrollbar-color: #00BFFF #f0f0f0;   /* Firefox */
+  scrollbar-color: #FFA500 #f0f0f0;   /* thanh cuộn cam */
   overflow-y: scroll;  /* Cho phép cuộn */
 }
 
