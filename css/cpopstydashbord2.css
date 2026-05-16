@@ -480,7 +480,8 @@ button:hover {
 
 /* Style riêng cho input popup */
 .input-content {
-background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0);
+  background: linear-gradient(135deg, #DFFFD6, #228B22, #6DBF4B);
+  /* xanh nhạt → xanh trung tính → xanh lá cây đậm */
   padding: 25px;
   width: 300px;
   max-height: 265px;
