@@ -140,7 +140,7 @@ iframe::-webkit-scrollbar {
   border-radius: 0%;
   background-size: cover;
   pointer-events: none;
-  background: url(https://music.163.com/style/web2/img/coverall.png?833a16762040c0aa3fc214fd7ce34894) no-repeat;
+  background: url('https://music.163.com/style/web2/img/coverall.png?833a16762040c0aa3fc214fd7ce34894') no-repeat;
   background-position: 0px -983px;
   transform: scale(0.89); /* 👈 Thu nhỏ mask xuống 95% */
   transform-origin: center;
@@ -520,7 +520,7 @@ background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0);
     1px 1px 4px rgba(0,0,0,0.3); /* bóng nhẹ màu đen */
 }
 
-// Quản lý các nhóm nút QQmusic, Netease Music, Kugou Music...
+/* Quản lý các nhóm nút QQmusic, Netease Music, Kugou Music... */
 
 button {
   background-color: rgba(70, 130, 180, 0.5); /* SteelBlue với độ mờ 50% */
@@ -569,7 +569,7 @@ button {
 }
 
 .icon-img {
-  width: 41.5px;   // Chỉnh kích cỡ của các icon trong button group Music Station
+  width: 41.5px;   /* Chỉnh kích cỡ của các icon trong button group Music Station */
   height: 50px;
   object-fit: contain;
   border-radius: 8px;
