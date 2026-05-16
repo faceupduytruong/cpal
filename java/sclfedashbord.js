@@ -492,16 +492,60 @@ document.getElementById("btn-desc").addEventListener("click", () => {
   desc.style.display = (currentDisplay === "none") ? "block" : "none";
 });
 
+// Toggle nhóm công cụ khi nhấn 🐟
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("btn-station").addEventListener("click", () => {
-    const popup = document.getElementById("stationPopup");
-    popup.style.display = (popup.style.display === "none" || popup.style.display === "") ? "block" : "none";
-  });
-
-  document.querySelectorAll(".siteBtn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const url = btn.getAttribute("data-url");
-      window.open(url, "_blank");
-    });
+    const tools = document.getElementById("station-tools");
+    tools.style.display = (tools.style.display === "none" || tools.style.display === "") ? "block" : "none";
   });
 });
+
+// Hàm mở website và copy nội dung
+async function openStation(siteName) {
+  const queryValue = document.getElementById("query").value.trim();
+  if (!queryValue) {
+    alert("Vui lòng nhập ý tưởng playlist");
+    return;
+  }
+
+  try {
+    const textToCopy = "tạo giùm tôi playlist âm nhạc phù hợp với chủ đề " + queryValue;
+    await navigator.clipboard.writeText(textToCopy);
+    alert("Ý tưởng playlist đã được copy vào clipboard. Bạn chỉ cần paste vào " + siteName);
+
+    let url = "";
+    switch (siteName) {
+      case "youtube":
+        url = "https://www.youtube.com/playlist?list=PL3oW2tjiIxvSk0WKXaEiDY78KKbKghOOo";
+        break;
+      case "nhaccuatui":
+        url = "https://www.nhaccuatui.com/";
+        break;
+      case "zingmp3":
+        url = "https://zingmp3.vn/";
+        break;
+      case "qqmusic":
+        url = "https://y.qq.com/";
+        break;
+      case "netease":
+        url = "https://music.163.com/";
+        break;
+      case "kugou":
+        url = "https://www.kugou.com/";
+        break;
+      case "migu":
+        url = "https://music.migu.cn/v5/#/musicLibrary/";
+        break;
+      case "yinyuetai":
+        url = "https://www.yinyuetai.com/";
+        break;
+      case "9ku":
+        url = "https://www.9ku.com/music/";
+        break;
+    }
+    window.open(url, "_blank");
+  } catch (err) {
+    alert("Không thể copy vào clipboard. Hãy cấp quyền truy cập.");
+    console.error(err);
+  }
+}
