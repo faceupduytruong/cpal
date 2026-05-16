@@ -493,3 +493,13 @@ body.dark-mode .btn-desc:hover {
   border-radius: 8px;
   transition: transform 0.2s ease;
 }
+
+.popup-hidden {
+  display: none;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
