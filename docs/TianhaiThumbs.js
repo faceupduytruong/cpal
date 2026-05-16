@@ -210,6 +210,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/messages/t/24023058223959054',
     thumbnail: 'https://www.dropbox.com/scl/fi/6ssjqe1qrceqfri480boq/M-t-ng-y-m-t-t-v-ng-m-i.jpeg?rlkey=afdupa62zduj77dlo67gj0tsm&st=7jtlc8yx&raw=1'
   },
+  'Lộ Trình Học Tiếng Anh': {
+    url: 'https://www.facebook.com/lotrinhtuhoctienganh/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/kqqgqsti8jia3nv16qhhz/L-Tr-nh-H-c-Ti-ng-Anh.jpg?rlkey=bmqlq62jf1q7h3n4k71hi2a29&st=cw5lgc6v&raw=1'
+  },
   '51Talk Việt Nam': {
     url: 'https://www.facebook.com/51TalkVietnam/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/y514ajxaxnfrwsavr6ou8/51Talk-Vi-t-Nam.png?rlkey=zd97llig89b92acx087m6sf04&st=hp5ygng2&raw=1'
@@ -217,6 +221,14 @@ const folderLinks = {
   'Kỹ Năng Dạy Tiếng Anh Cho Trẻ': {
     url: 'https://www.facebook.com/profile.php?id=61578164143682',
     thumbnail: 'https://www.dropbox.com/scl/fi/co2ha8oh21ezhpobk31b7/K-n-ng-d-y-ti-ng-Anh-cho-tr.jpg?rlkey=fc6f8hghmuel9vdc6q4w0oruu&st=awhmg92z&raw=1'
+  },
+  'Trung tâm ngoại ngữ Thần Tốc': {
+    url: 'https://www.facebook.com/profile.php?id=100091225930364&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/093g9qiichbywvg4zb0oa/Trung-t-m-ngo-i-ng-Th-n-T-c.jpg?rlkey=cev78dq7bb89xa8baslwnnarx&st=e9htq24b&raw=1'
+  },
+  'Học Tiếng Anh cùng Capu': {
+    url: 'https://www.facebook.com/tienganhCapu/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/bvw8wa2jtkbblekyz6sxq/H-c-Ti-ng-Anh-c-ng-Capu.jpg?rlkey=k6z6wwucs9oml3bd8rhc35f6j&st=34pdphdt&raw=1'
   },
   'Anki Support Vietnam': {
     url: 'https://www.facebook.com/AnkiSupportVietnam',
