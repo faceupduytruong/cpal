@@ -140,7 +140,7 @@ iframe::-webkit-scrollbar {
   border-radius: 0%;
   background-size: cover;
   pointer-events: none;
-  background: url(https://music.163.com/style/web2/img/coverall.png?833a16762040c0aa3fc214fd7ce34894) no-repeat;
+  background: url('https://music.163.com/style/web2/img/coverall.png?833a16762040c0aa3fc214fd7ce34894') no-repeat;
   background-position: 0px -983px;
   transform: scale(0.89); /* 👈 Thu nhỏ mask xuống 95% */
   transform-origin: center;
@@ -409,7 +409,6 @@ button:hover {
   display: none;
 }
 
-
 #customPopup {
   position: fixed;
   top: 0;
@@ -558,7 +557,6 @@ background: linear-gradient(135deg, #ffffff, #FF6EB4, #ffffff);
   margin-top: 2em;            /* Dịch nút xuống dưới */
   margin: 20px auto 0 auto;   /* căn giữa theo chiều dọc */
 }
-
 
 #searchBtn:hover {
   transform: scale(1.2);     /* phóng to toàn bộ nút */
