@@ -32,6 +32,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/learnwithlypham/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/hw5ufll477cwpssw1y5vq/LY-PHAM-Learnatlim.png?rlkey=1w85i3yl2i8obwr6ksoch7cjq&st=vlnqdf6&raw=1'
   },
+  'Traenglish': {
+    url: 'https://www.facebook.com/Traenglish/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h264d4gly62pbljyo3zjz/Traenglish.jpg?rlkey=mylu6yzeu966fzrukil1gze50&st=6ciy49n9&raw=1'
+  },
   'Cộ': {
     url: 'https://www.facebook.com/coawabe/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/t73j8jjudsazncprg3ff1/C.png?rlkey=fu4e3n204k569hdf50xvmp1q1&st=l32p6lyc&raw=1'
