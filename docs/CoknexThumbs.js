@@ -98,6 +98,22 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61573268736021&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/htmzaj5uqtnoh7fpawaun/B-n-V-Tr.jpg?rlkey=vbw166lneag7k7y7s35ufa8o4&st=m51pqyc6&raw=1',
   },
+  '': {
+    url: 'https://www.facebook.com/profile.php?id=61573268736021&sk=reels_tab',
+    thumbnail: '&raw=1',
+  },
+  'Vũ Trụ Bao La': {
+    url: 'https://www.facebook.com/profile.php?id=61567981193695&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2rbwl6o8w2glrlby1rvhl/V-Tr-Bao-La.webp?rlkey=mlyxv5b3p2kwk1pxtkzmq3x5e&st=pivuik0i&raw=1',
+  },
+  'Hồ Sơ Vũ Trụ': {
+    url: 'https://www.facebook.com/profile.php?id=61581984846790&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ingic1jpi19prtm5qxw7u/H-S-V-Tr.jpg?rlkey=013sdvtx87q5tyv31ulqwvros&st=sfauc4yp&raw=1',
+  },
+  'Hội Thiên Văn Hà Nội - HAS': {
+    url: 'https://www.facebook.com/thienvanhanoi/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1jj76v4p0lr040vo4tnuo/H-i-Thi-n-V-n-H-N-i-HAS.jpg?rlkey=bu9tjzwy2yz0l1y8zikyltow1&st=73k6e1l0&raw=1',
+  },
   'Đột Phá Tri Thức': {
     url: 'https://www.youtube.com/@dotphatrithuc/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/t-Ph-Tri-Th-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=x9ui7pat&raw=1',
