@@ -491,11 +491,3 @@ document.getElementById("btn-desc").addEventListener("click", () => {
   const currentDisplay = window.getComputedStyle(desc).display;
   desc.style.display = (currentDisplay === "none") ? "block" : "none";
 });
-
-// Toggle nhóm công cụ khi nhấn 🐟
-document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("btn-station").addEventListener("click", () => {
-    const tools = document.getElementById("station-tools");
-    tools.style.display = (tools.style.display === "none" || tools.style.display === "") ? "block" : "none";
-  });
-});
