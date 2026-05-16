@@ -604,3 +604,7 @@ background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0);
     0 0 12px #228B22,    /* ánh sáng lan rộng hơn */
     1px 1px 4px rgba(0,0,0,0.3); /* bóng nhẹ màu đen */
 }
+
+.popup-hidden {
+  display: none;
+}
