@@ -477,6 +477,7 @@ body.dark-mode .btn-desc:hover {
   justify-content: center;
   align-items: center;
   z-index: 999;
+  margin-top: 10px;
 }
 
 .popup-content {
@@ -606,10 +607,6 @@ button {
   object-fit: contain;
   border-radius: 8px;
   transition: transform 0.2s ease;
-}
-
-.popup-hidden {
-  display: none;
 }
 
 .popup-content {
