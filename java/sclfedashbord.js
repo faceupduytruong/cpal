@@ -486,25 +486,25 @@ async function loadPlaylist(username, playlist) {
   }
 }
 
-import { createStationPopup } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@0712841/docs/mustationpop.js';
+import { createStationPopup } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@08edc7a/docs/mustationpop.js';
 
 document.addEventListener("DOMContentLoaded", () => {
-  // chỉ gọi 1 lần
+  // tạo popup
   createStationPopup();
 
   // Toggle popup khi nhấn 🐟
   document.getElementById("btn-station").addEventListener("click", () => {
-    lyricsPopup.classList.toggle("popup-hidden");
+    document.getElementById("stationPopup").classList.toggle("popup-hidden");
   });
 
   // Đóng popup khi nhấn ❌
   document.addEventListener("click", (e) => {
-    if (e.target && e.target.id === "closeLyricsPopup") {
-      lyricsPopup.classList.add("popup-hidden");
+    if (e.target && e.target.id === "closeStationPopup") {
+      document.getElementById("stationPopup").classList.add("popup-hidden");
     }
   });
 
-  // Gắn sự kiện cho các siteBtn
+  // Gắn sự kiện cho siteBtn
   document.addEventListener("click", async (e) => {
     if (e.target.closest(".siteBtn")) {
       const btn = e.target.closest(".siteBtn");
