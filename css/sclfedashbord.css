@@ -568,7 +568,8 @@ button {
 
 /* Style riêng cho input popup */
 .input-content {
-  background: linear-gradient(135deg, #FFA500, #FF8C00, #FF4500); /* cam sáng → cam đậm → đỏ cam */
+  background: linear-gradient(135deg, #FFD194, #FF7E5F, #FF4500); 
+  /* vàng cam nhạt → cam đào → đỏ cam */
   padding: 25px;
   width: 300px;
   max-height: 420px;
