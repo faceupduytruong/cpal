@@ -500,11 +500,6 @@ document.addEventListener("DOMContentLoaded", () => {
     popup.style.display = (popup.style.display === "none" || popup.style.display === "") ? "block" : "none";
   });
 
-  // Đóng popup khi nhấn ❌
-  document.getElementById("closeLyricsPopup").addEventListener("click", () => {
-    document.getElementById("lyricsPopup").style.display = "none";
-  });
-
   // Gắn sự kiện cho các siteBtn
   document.querySelectorAll(".siteBtn").forEach(btn => {
     btn.addEventListener("click", () => {
