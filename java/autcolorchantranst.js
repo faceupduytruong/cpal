@@ -1,4 +1,4 @@
-import colors from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@cd2e5da/docs/coloarramodif.js';
+import colors from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@dd39995/docs/coloarramodif.js';
 
 const glassElements = document.querySelectorAll(".glass-bg");
 const searchInput = document.getElementById("searchInput");
@@ -45,5 +45,3 @@ document.getElementById("toggleEffectBtn").addEventListener("click", function(ev
   event.stopPropagation();
   event.stopImmediatePropagation();
 });
-
-
