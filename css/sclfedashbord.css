@@ -467,23 +467,3 @@ body.dark-mode .btn-desc:hover {
   padding: 10px;
   border-left: 3px solid #ff5500;
 }
-
-.close-btn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  background: transparent;
-  border: none;
-  font-size: 20px;
-  color: white;
-  cursor: pointer;
-  z-index: 1000;
-}
-
-.icon-img {
-  width: 41.5px;   // Chỉnh kích cỡ của các icon trong button group Music Station
-  height: 50px;
-  object-fit: contain;
-  border-radius: 8px;
-  transition: transform 0.2s ease;
-}
