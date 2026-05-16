@@ -1,0 +1,632 @@
+    body {
+      font-family: 'FC Coldwell Bridges Regular', sans-serif;
+      font-weight: bold;
+      background: #111;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+      overflow-x: hidden; /* 👈 Ẩn cuộn ngang toàn trang */
+      scrollbar-width: none; /* Firefox */
+    }
+    video.bg-video {
+      position: fixed; top: 0; left: 0;
+      width: 100%; height: 100%;
+      object-fit: cover; z-index: -1;
+    }
+    h1 { 
+      margin-bottom: 16px;
+      font-size: 23px;
+      margin-top: -30px;
+     }
+
+@font-face {
+  font-family: 'FC Coldwell Bridges Regular';
+  src: url('https://raw.githubusercontent.com/faceupduytruong/cpal/main/fonts/FCColdwellBridges-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.glowing-text {
+  font-family: 'FC Coldwell Bridges Regular', sans-serif;
+  font-weight: bold;
+  font-size: 2.7rem;
+  animation: glowPulse 7s infinite;
+  color: white;
+  text-shadow: 2px 2px 0 white, -2px -2px 0 white;
+
+}
+
+    .player-container {
+      position: absolute; top: 70.5%; left: 50%;   /* Chỉnh độ cao của background mờ trong suốt */
+      transform: translate(-50%, -50%);
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 16px; padding: 25px 20px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      text-align: center; z-index: 1; width: 530px;   /* Độ rộng của background mờ trong suốt nếu gập 1/2 là 530px */
+      max-height: 290px; overflow: auto;   /* Độ cao của background mờ trong suốt */
+      transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+.player-container iframe::-webkit-scrollbar {
+  display: none;
+}
+
+iframe {
+  overflow: hidden;
+  scrollbar-width: none;
+}
+
+iframe::-webkit-scrollbar {
+  display: none;
+}
+
+.glass-bg {
+  transition: background-color 0.5s ease;
+}
+
+    .album-carousel {
+      width: 100%;
+      max-width: 1170px;
+      margin: 0 auto;
+      position: relative;
+      overflow: visible; /* 👈 Cho phép nút mũi tên vượt ra ngoài */
+      margin-top: auto; /* 👈 Đẩy xuống cuối */
+    }
+
+.swiper-slide {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow:
+  0 0 10px rgba(0, 191, 255, 0.3),
+  0 0 20px rgba(0, 191, 255, 0.4),
+  0 0 30px rgba(0, 191, 255, 0.2);
+}
+
+    @media (max-width: 600px) {
+      .swiper-slide {
+        width: 140px !important;
+        height: 140px;
+      }
+    }
+
+.swiper-slide img:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 1); /* glow đen mạnh hơn khi hover */
+  transform: scale(1.05); /* phóng to nhẹ */
+  transition: all 0.3s ease;
+}
+
+.u-cover {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.u-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0%;
+  display: block;
+  transform-origin: left center;
+  transform: scale(0.872);
+  margin-top: 3.5px; /* Dịch lên xuống bằng margin */
+  margin-left: -3.3px; /* Dịch sang trái bằng margin */
+}
+
+.u-cover .msk {
+  position: absolute;
+  top: 0;
+  left: -10%;
+  width: 140%;
+  height: 140%;
+  border-radius: 0%;
+  background-size: cover;
+  pointer-events: none;
+  background: url(https://music.163.com/style/web2/img/coverall.png?833a16762040c0aa3fc214fd7ce34894) no-repeat;
+  background-position: 0px -983px;
+  transform: scale(0.89); /* 👈 Thu nhỏ mask xuống 95% */
+  transform-origin: center;
+}
+
+.u-cover:hover .msk {
+  transition: opacity 0.3s ease-in-out ;
+  opacity: 0; /* Ẩn mask khi hover */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgba(255, 215, 0, 0.8); /* Vàng nhạt trong suốt */
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.8), 
+               0 0 16px rgba(255, 215, 0, 0.6); /* Glow vàng */
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+  top: 0%; /* 👈 Canh giữa chiều cao carousel */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.2); /* Phóng to khi hover */
+  text-shadow: 0 0 12px rgba(255, 215, 0, 1), 
+               0 0 24px rgba(255, 215, 0, 0.8); /* Glow mạnh hơn */
+}
+
+/* 👈 Đẩy nút trái ra xa bên trái */
+.swiper-button-prev {
+  left: -30px; /* Điều chỉnh khoảng cách tùy ý */
+}
+
+/* 👈 Đẩy nút phải ra xa bên phải */
+.swiper-button-next {
+  right: -30px;
+}
+
+.swiper-pagination {
+  position: absolute; /* 👈 Đổi từ static sang absolute để kiểm soát vị trí */
+  bottom: -35px;        /* 👈 Di chuyển lên hoặc xuống bằng bottom hoặc top */
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+.swiper-pagination-bullet {
+  background: #fff;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.player-container iframe {
+  width: 100%;
+  height: 700px;
+  border: none;
+  overflow: hidden;
+  scrollbar-width: none;
+  scrollbar-color: #00bcd4 transparent;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color:  #ffb74d transparent;
+  overflow: hidden;
+}
+
+/* CSS bên trong trang iframe */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  border-radius: 6px;
+  border: 2px solid #f0f0f0;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.iframe-wrapper {
+  width: 100%;
+  height: 500px;
+  overflow: auto;
+}
+
+.iframe-wrapper::-webkit-scrollbar {
+  width: 12px;
+}
+
+.iframe-wrapper::-webkit-scrollbar-track {
+  background: #fff8dc;
+}
+
+.iframe-wrapper::-webkit-scrollbar-thumb {
+  background-color: gold;
+  border-radius: 6px;
+  border: 2px solid #fff8dc;
+}
+
+#audio {
+  width: 90%;
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  margin-top: 20px; /* 👈 Khoảng cách với iframe */
+}
+
+.blur-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(252, 234, 187, 0.5), rgba(248, 181, 0, 0.5));
+  opacity: 0.5;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+button {
+  background-color: rgba(70, 130, 180, 0.5); /* SteelBlue với độ mờ 50% */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-weight: bold;
+  width: 48px;         /* Chiều rộng cố định */
+  height: 48px;        /* Chiều cao bằng chiều rộng */
+  border-radius: 50%;  /* Bo tròn hoàn toàn */
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s, color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  padding: 0;          /* Loại bỏ padding để không phá vỡ hình tròn */
+}
+
+button:hover {
+  background: rgba(191, 255, 0, 0.6);
+  color: #000;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Ánh sáng xanh dịu */
+}
+
+.wrapper {
+  margin-top: 15px;   /* Chỉnh độ cách trên của ellipse */
+  padding-bottom: 20px;  /* Chỉnh độ cách dưới của ellipse */
+}
+
+.audio-player-overlay {
+  position: relative;
+  width: 354px;
+  height: 158px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50% / 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+  background: radial-gradient(circle at center, rgba(255,0,0,0.8), rgba(255,50,50,0.4));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 50, 50, 0.3);
+  transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ✨ Hiệu ứng ánh sáng đỏ tỏa mạnh */
+  box-shadow:
+    0 0 40px rgba(255, 0, 0, 0.8),     /* ánh sáng chính mạnh hơn */
+    0 0 80px rgba(255, 0, 0, 0.5),     /* lớp tỏa rộng hơn */
+    0 0 120px rgba(255, 0, 0, 0.3),    /* lớp ngoài cùng mờ */
+    inset 0 0 30px rgba(255, 0, 0, 0.4); /* ánh sáng bên trong */
+    animation: pulseGlow 2s infinite ease-in-out;
+}
+
+.audio-player-overlay button {
+  position: absolute;
+  width: 60px;               /* Tăng kích thước chiều ngang */
+  height: 60px;              /* Tăng kích thước chiều dọc */
+  border-radius: 50%;        /* Giữ hình tròn */
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  color: white;
+  font-size: 24px;           /* Tăng kích thước biểu tượng/text */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.audio-player-overlay button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: scale(1.2);     /* Nở ra nhiều hơn */
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.9); /* Ánh sáng trắng mạnh hơn */
+}
+
+/* Vị trí các nút theo ellipse với 8 nút vòng ngoài */
+#playBtn         { top: 0%;   left: 50%; transform: translate(-50%, -50%); }   /* 0° */
+#stopBtn         { top: 15%;  left: 80%; transform: translate(-50%, -50%); }   /* 45° */
+#homeBtn         { top: 50%;  left: 95%; transform: translate(-50%, -50%); }   /* 90° */
+#engBtn          { top: 85%;  left: 80%; transform: translate(-50%, -50%); }   /* 135° */
+#toggleEffectBtn { top: 100%; left: 50%; transform: translate(-50%, -50%); }   /* 180° */
+#lyricsBtn       { top: 85%;  left: 20%; transform: translate(-50%, -50%); }   /* 225° */
+#ahaBtn          { top: 50%;  left: 5%;  transform: translate(-50%, -50%); }   /* 270° */
+#sheBtn          { top: 15%;  left: 20%; transform: translate(-50%, -50%); }   /* 315° */
+#learnBtn        { top: 50%;  left: 50%; transform: translate(-50%, -50%); }   /* Nút trung tâm */
+
+#popup-link {
+  position: fixed;
+  z-index: 9999;
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  color: #111;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif; /* ✅ Font hiện đại, dễ đọc */
+  font-weight: 500; /* chữ đậm vừa phải */
+  line-height: 1.4;
+  letter-spacing: 0.3px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: opacity 0.3s ease;
+  pointer-events: auto;
+}
+
+.popup-hidden {
+  display: none;
+}
+
+.popup-visible {
+  display: block;
+}
+
+#popup-link a {
+  color: #111;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  text-decoration: none;
+}
+
+#popup-link a:hover {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+/* Ẩn popup ban đầu */
+.popup-hidden {
+  display: none;
+}
+
+
+#customPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: none; /* Ẩn ban đầu */
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+    .popup-hidden {
+      display: none;
+    }
+
+.popup {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 50vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: linear-gradient(135deg, #6a11cb, #ff6fd8); /* xanh tím → hồng cánh sen */
+  padding: 23px; /* giảm padding để tiết kiệm không gian */
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  color: white;
+  width: 300px;
+  text-align: center;
+  max-height: 275px;  /* Giới hạn chiều cao popup màu tím hường */
+  overflow-y: auto
+  scroll-behavior: smooth; /* Cuộn mượt */
+  scrollbar-width: thin;              /* Firefox */
+  scrollbar-color: #00BFFF #f0f0f0;   /* Firefox */
+  overflow-y: scroll;  /* Cho phép cuộn */
+}
+
+.popup-content::-webkit-scrollbar {
+  width: 4px;
+}
+
+.popup-content::-webkit-scrollbar-track {
+  background: #f0f0f0;                /* Màu nền track */
+  border-radius: 4px;
+}
+
+.popup-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #00BFFF, #4B6A88); /* Màu thanh cuộn */
+  border-radius: 4px;
+}
+
+/* Style riêng cho lyrics popup */
+.lyrics-content {
+  background: linear-gradient(135deg, #6a11cb, #ff6fd8);
+  padding: 20px;
+  width: 320px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* Style riêng cho input popup */
+.input-content {
+background: linear-gradient(135deg, #DFFFD6, #228B22, #6DBF4B);
+/* xanh nhạt → xanh trung tính → xanh lá cây đậm */
+  padding: 25px;
+  width: 300px;
+  max-height: 275px;
+  overflow-y: auto;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+/* Gradient dịu dàng như cánh sen */
+/* Hồng sen tươi → hồng đào → trắng */
+background: linear-gradient(135deg, #ffffff, #FF6EB4, #ffffff);
+  box-sizing: border-box;
+}
+
+.popup-content button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: #6a11cb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.popup-content h2 {
+  font-size: 45px;
+  line-height: 1.2; /* Giúp chữ không chiếm quá nhiều chiều cao */
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+  margin-bottom: 3px; /* tạo khoảng cách hợp lý giữa tiêu đề và ô nhập */
+  animation: yellowPulse 7s infinite;  
+}
+
+.popup-content h3 {
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+  animation: bluePulse 3s infinite alternate;
+}
+
+#searchBtn {
+  font-size: 28px;              /* Tăng kích thước chữ và emoji */
+  padding: 6px 12px;            /* Tăng khoảng cách bên trong nút */
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #ffffff, #FF69B4);
+  color: #d96fa1;
+  font-weight: bold;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  margin-top: 2em;            /* Dịch nút xuống dưới */
+  margin: 20px auto 0 auto;   /* căn giữa theo chiều dọc */
+}
+
+
+#searchBtn:hover {
+  transform: scale(1.2);     /* phóng to toàn bộ nút */
+  font-size: 32px;            /* tăng kích thước chữ và emoji */
+}
+
+// Quản lý các nhóm nút QQmusic, Netease Music, Kugou Music...
+
+.button-group {
+  display: flex;              /* Dùng flex để xếp nút ngang */
+  flex-wrap: wrap;            /* Cho phép xuống dòng nếu thiếu chỗ */
+  gap: 15px;                  /* Khoảng cách giữa các nút */
+  justify-content: center;   /* Căn giữa toàn bộ nhóm nút */
+  margin-top: 30px;
+}
+
+.button-group button {
+  font-size: 5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0); /* xanh dương đậm → xanh dương nhạt */
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.button-group button:hover {
+  transform: scale(1.05);
+}
+
+.icon-img {
+  width: 45.1px;   // Chỉnh kích cỡ của các icon trong button group Music Station
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.siteBtn {
+  font-size: 12px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #ffffff, #FF69B4);
+  color: #d96fa1;
+  font-weight: bold;
+  cursor: pointer;
+  width: auto;
+  height: auto;               /* ✅ thêm dấu ; ở đây */
+  display: inline-block;
+  margin-top: 0px;
+  margin: 7px 0 0 0;          /* ❌ bỏ auto để không ép căn giữa từng nút */
+}
+
+.siteBtn:hover .icon-img {
+  transform: scale(1.2);
+}
+
+#lyricsPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
