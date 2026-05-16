@@ -500,9 +500,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Gắn sự kiện cho các siteBtn
   document.querySelectorAll(".siteBtn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const url = btn.getAttribute("data-url");
-      window.open(url, "_blank");
+    btn.addEventListener("click", async () => {
+      const queryValue = document.getElementById("query").value.trim();
+      if (!queryValue) {
+        alert("Vui lòng nhập ý tưởng playlist");
+        return;
+      }
+
+      try {
+        // Ghép thêm dòng chữ trước nội dung
+        const textToCopy = "tạo giùm tôi playlist âm nhạc phù hợp với chủ đề " + queryValue;
+
+        // Copy vào clipboard
+        await navigator.clipboard.writeText(textToCopy);
+        alert("Ý tưởng playlist đã được copy vào clipboard. Bạn chỉ cần paste vào trang nhạc.");
+
+        // Mở trang tương ứng
+        const url = btn.getAttribute("data-url");
+        window.open(url, "_blank");
+      } catch (err) {
+        alert("Không thể copy vào clipboard. Hãy cấp quyền truy cập.");
+        console.error(err);
+      }
     });
   });
 });
