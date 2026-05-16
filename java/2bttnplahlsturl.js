@@ -1,3 +1,5 @@
+// videoPlayer.js
+
 window.addEventListener('DOMContentLoaded', () => {
     // Gọi script của bạn ở đây nếu cần
 
