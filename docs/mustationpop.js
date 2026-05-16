@@ -1,4 +1,5 @@
 export function createStationPopup() {
+  if (document.getElementById("stationPopup")) return; // tránh tạo trùng
   const stationPopup = document.createElement("div");
   stationPopup.id = "stationPopup";
   stationPopup.className = "popup-hidden";
