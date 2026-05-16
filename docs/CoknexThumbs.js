@@ -98,10 +98,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61573268736021&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/htmzaj5uqtnoh7fpawaun/B-n-V-Tr.jpg?rlkey=vbw166lneag7k7y7s35ufa8o4&st=m51pqyc6&raw=1',
   },
-  '': {
-    url: 'https://www.facebook.com/profile.php?id=61573268736021&sk=reels_tab',
-    thumbnail: '&raw=1',
-  },
   'Vũ Trụ Bao La': {
     url: 'https://www.facebook.com/profile.php?id=61567981193695&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/2rbwl6o8w2glrlby1rvhl/V-Tr-Bao-La.webp?rlkey=mlyxv5b3p2kwk1pxtkzmq3x5e&st=pivuik0i&raw=1',
