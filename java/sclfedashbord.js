@@ -515,33 +515,15 @@ async function openStation(siteName) {
 
     let url = "";
     switch (siteName) {
-      case "youtube":
-        url = "https://www.youtube.com/playlist?list=PL3oW2tjiIxvSk0WKXaEiDY78KKbKghOOo";
-        break;
-      case "nhaccuatui":
-        url = "https://www.nhaccuatui.com/";
-        break;
-      case "zingmp3":
-        url = "https://zingmp3.vn/";
-        break;
-      case "qqmusic":
-        url = "https://y.qq.com/";
-        break;
-      case "netease":
-        url = "https://music.163.com/";
-        break;
-      case "kugou":
-        url = "https://www.kugou.com/";
-        break;
-      case "migu":
-        url = "https://music.migu.cn/v5/#/musicLibrary/";
-        break;
-      case "yinyuetai":
-        url = "https://www.yinyuetai.com/";
-        break;
-      case "9ku":
-        url = "https://www.9ku.com/music/";
-        break;
+      case "youtube": url = "https://www.youtube.com/; break;
+      case "nhaccuatui": url = "https://www.nhaccuatui.com/"; break;
+      case "zingmp3": url = "https://zingmp3.vn/"; break;
+      case "qqmusic": url = "https://y.qq.com/"; break;
+      case "netease": url = "https://music.163.com/"; break;
+      case "kugou": url = "https://www.kugou.com/"; break;
+      case "migu": url = "https://music.migu.cn/v5/#/musicLibrary/"; break;
+      case "yinyuetai": url = "https://www.yinyuetai.com/"; break;
+      case "9ku": url = "https://www.9ku.com/music/"; break;
     }
     window.open(url, "_blank");
   } catch (err) {
