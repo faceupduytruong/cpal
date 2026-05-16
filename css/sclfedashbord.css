@@ -568,7 +568,7 @@ button {
 
 /* Style riêng cho input popup */
 .input-content {
-  background: linear-gradient(135deg, #FBD786, #F7797D, #F54EA2);
+  background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0);
   /* vàng cam → cam hồng → hồng tím */
   padding: 25px;
   width: 300px;
