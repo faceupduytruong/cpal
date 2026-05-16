@@ -433,7 +433,7 @@ button:hover {
   box-shadow: 0 0 12px rgba(0, 198, 255, 0.6);
 }
 
-#lyricsPopup {
+#stationPopup {
   position: fixed;      /* Vị trí của cả 1 popup chứa các button group */
   top: 0;
   left: 0;
