@@ -2,7 +2,6 @@
 // Mảng màu RGBA với độ trong suốt khác nhau
 
 export const colors = [
-  "rgba(255, 255, 255, 0.08)",   // trắng mờ
   "rgba(255, 0, 0, 0.2)",       // đỏ tươi
   "rgba(255, 69, 0, 0.2)",      // đỏ cam
   "rgba(255, 140, 0, 0.2)",     // cam đậm
@@ -62,5 +61,5 @@ export const colors = [
   "rgba(255, 140, 0, 0.2)",    // cam đậm
   "rgba(139, 69, 19, 0.2)",    // nâu đất
   "rgba(250, 128, 114, 0.2)"   // cam san hô
+  "rgba(255, 255, 255, 0.08)",   // trắng mờ
 ];
-
