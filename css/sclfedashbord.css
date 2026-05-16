@@ -401,7 +401,7 @@ body.dark-mode .btn-desc {
 
 /* Hover trong dark mode: cam trong suốt */
 body.dark-mode .discover-btn:hover,
-body.dark-mode .btn-desc {
+body.dark-mode .btn-desc:hover {
   background-color: rgba(255, 165, 0, 0.4); /* cam trong suốt */
 }
 
