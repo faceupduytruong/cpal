@@ -495,6 +495,13 @@ document.getElementById("btn-desc").addEventListener("click", () => {
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("btn-station").addEventListener("click", () => {
     const popup = document.getElementById("stationPopup");
-    popup.style.display = popup.style.display === "none" ? "block" : "none";
+    popup.style.display = (popup.style.display === "none" || popup.style.display === "") ? "block" : "none";
+  });
+
+  document.querySelectorAll(".siteBtn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const url = btn.getAttribute("data-url");
+      window.open(url, "_blank");
+    });
   });
 });
