@@ -492,7 +492,6 @@ document.getElementById("btn-desc").addEventListener("click", () => {
   desc.style.display = (currentDisplay === "none") ? "block" : "none";
 });
 
-document.addEventListener("DOMContentLoaded", () => {
   // Toggle popup khi nhấn 🐟
   document.getElementById("btn-station").addEventListener("click", () => {
     const popup = document.getElementById("lyricsPopup");
@@ -511,4 +510,3 @@ document.addEventListener("DOMContentLoaded", () => {
       window.open(url, "_blank");
     });
   });
-});
