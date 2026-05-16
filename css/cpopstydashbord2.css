@@ -565,7 +565,7 @@ background: linear-gradient(135deg, #ffffff, #FF6EB4, #ffffff);
   font-size: 32px;            /* tăng kích thước chữ và emoji */
 }
 
-// Quản lý các nhóm nút QQmusic, Netease Music, Kugou Music...
+/* Quản lý các nhóm nút QQmusic, Netease Music, Kugou Music... */
 
 .button-group {
   display: flex;              /* Dùng flex để xếp nút ngang */
@@ -592,7 +592,7 @@ background: linear-gradient(135deg, #ffffff, #FF6EB4, #ffffff);
 }
 
 .icon-img {
-  width: 45.1px;   // Chỉnh kích cỡ của các icon trong button group Music Station
+  width: 45.1px;   /* Chỉnh kích cỡ của các icon trong button group Music Station */
   height: 50px;
   object-fit: contain;
   border-radius: 8px;
