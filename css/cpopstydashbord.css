@@ -445,7 +445,7 @@ button:hover {
   display: none;
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  z-index: 9909;
 }
 
 .popup-content {
