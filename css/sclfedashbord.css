@@ -342,7 +342,8 @@ header h1 {
 #toolsBtn,
 #btn-gimp,
 #btn-wave,
-#btn-random {
+#btn-random,
+#btn-station {
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   padding: 0.3rem 0.7rem;
@@ -366,7 +367,8 @@ body.dark-mode #toggleTheme,
 body.dark-mode #toolsBtn,
 body.dark-mode #btn-gimp,
 body.dark-mode #btn-wave,
-body.dark-mode #btn-random {
+body.dark-mode #btn-random,
+body.dark-mode #btn-station {
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
 }
