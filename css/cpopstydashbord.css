@@ -575,3 +575,56 @@ button {
   border-radius: 8px;
   transition: transform 0.2s ease;
 }
+
+/* Style riêng cho lyrics popup */
+.lyrics-content {
+  background: linear-gradient(135deg, #6a11cb, #ff6fd8);
+  padding: 20px;
+  width: 320px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.popup-content input {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+/* Gradient dịu dàng như cánh sen */
+/* Hồng sen tươi → hồng đào → trắng */
+background: linear-gradient(135deg, #ffffff, #FF6EB4, #ffffff);
+  box-sizing: border-box;
+}
+
+.popup-content h2 {
+  font-size: 45px;
+  line-height: 1.2; /* Giúp chữ không chiếm quá nhiều chiều cao */
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+  margin-bottom: 3px; /* tạo khoảng cách hợp lý giữa tiêu đề và ô nhập */
+  animation: yellowPulse 7s infinite;  
+}
+
+#searchBtn {
+  font-size: 28px;              /* Tăng kích thước chữ và emoji */
+  padding: 6px 12px;            /* Tăng khoảng cách bên trong nút */
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #ffffff, #FF69B4);
+  color: #d96fa1;
+  font-weight: bold;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  margin-top: 2em;            /* Dịch nút xuống dưới */
+  margin: 20px auto 0 auto;   /* căn giữa theo chiều dọc */
+}
+
+#searchBtn:hover {
+  transform: scale(1.2);     /* phóng to toàn bộ nút */
+  font-size: 32px;            /* tăng kích thước chữ và emoji */
+}
