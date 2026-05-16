@@ -525,7 +525,7 @@ button {
 }
 
 /* Ẩn hiện popup */
-  #lyricsPopup {
+  #stationPopup {
     position: fixed;
     top: 50%;
     left: 50%;
