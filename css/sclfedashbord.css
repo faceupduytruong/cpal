@@ -558,7 +558,7 @@ button {
 background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0);
   padding: 25px;
   width: 300px;
-  max-height: 275px;
+  max-height: 420px;
   overflow-y: auto;
 }
 
