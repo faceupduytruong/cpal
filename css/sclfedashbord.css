@@ -465,3 +465,31 @@ body.dark-mode .btn-desc:hover {
   padding: 10px;
   border-left: 3px solid #ff5500;
 }
+
+.button-group button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #FFFFFF, #228B22);
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.button-group button:hover {
+  transform: scale(1.2);
+}
+
+.icon-img {
+  width: 41.5px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
