@@ -57,13 +57,13 @@ document.getElementById("engBtn").addEventListener("click", function () {
 
 /* Nhấn vào nút lyricsBtn 🐟 luân phiên mở YouTube và Bilibili */
 
-document.getElementById("lyricsBtn").addEventListener("click", function () {
-  document.getElementById("stationPopup").style.display = "flex";
-});
+//document.getElementById("lyricsBtn").addEventListener("click", function () {
+//  document.getElementById("stationPopup").style.display = "flex";
+//});
 
-document.getElementById("closeStationPopup").addEventListener("click", function () {
-  document.getElementById("stationPopup").style.display = "none";
-});
+//document.getElementById("closeStationPopup").addEventListener("click", function () {
+//  document.getElementById("stationPopup").style.display = "none";
+//});
 
 // Xử lý khi nhấn vào từng nút nền tảng
 document.querySelectorAll(".siteBtn").forEach(function (btn) {
