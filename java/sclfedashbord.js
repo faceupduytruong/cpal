@@ -276,11 +276,37 @@ async function tag() {
 document.getElementById("toggleTheme").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
   localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
+
+  // Lấy phần tử popup và input
+  const popup = document.querySelector(".popup-content");
+  const input = document.querySelector(".input-content");
+
+  if (popup && input) {
+    // Lấy màu hiện tại từ CSS
+    const popupBg = window.getComputedStyle(popup).backgroundImage;
+    const inputBg = window.getComputedStyle(input).backgroundImage;
+
+    // Hoán đổi màu nền
+    popup.style.backgroundImage = inputBg;
+    input.style.backgroundImage = popupBg;
+  }
 });
 
+// Khôi phục theme khi load trang
 window.addEventListener("DOMContentLoaded", () => {
   if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark-mode");
+
+    // Khi khôi phục dark mode, cũng hoán đổi màu popup và input
+    const popup = document.querySelector(".popup-content");
+    const input = document.querySelector(".input-content");
+
+    if (popup && input) {
+      const popupBg = window.getComputedStyle(popup).backgroundImage;
+      const inputBg = window.getComputedStyle(input).backgroundImage;
+      popup.style.backgroundImage = inputBg;
+      input.style.backgroundImage = popupBg;
+    }
   }
 });
 
