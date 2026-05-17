@@ -59,13 +59,13 @@ document.getElementById("engBtn").addEventListener("click", function () {
 
 /* Nhấn vào nút lyricsBtn 🐟 sẽ mở ra popup gồm các button group */
 
-document.getElementById("lyricsBtn").addEventListener("click", function () {
-  document.getElementById("lyricsPopup").style.display = "flex";
-});
+//document.getElementById("lyricsBtn").addEventListener("click", function () {
+//  document.getElementById("lyricsPopup").style.display = "flex";
+//});
 
-document.getElementById("closeLyricsPopup").addEventListener("click", function () {
-  document.getElementById("lyricsPopup").style.display = "none";
-});
+//document.getElementById("closeLyricsPopup").addEventListener("click", function () {
+//  document.getElementById("lyricsPopup").style.display = "none";
+//});
 
 // Xử lý khi nhấn vào từng nút nền tảng
 document.querySelectorAll(".siteBtn").forEach(function (btn) {
@@ -80,7 +80,7 @@ document.querySelectorAll(".siteBtn").forEach(function (btn) {
 
     window.open(url, "popupWindow", features);
 
-    document.getElementById("lyricsPopup").style.display = "none";
+    document.getElementById("stationPopup").style.display = "none";
   });
 });
 
