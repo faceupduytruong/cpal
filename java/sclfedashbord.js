@@ -459,10 +459,6 @@ async function loadRandomPlaylist() {
       const player = document.getElementById("sc-player");
       player.src = embedUrl;
       player.style.display = "block";
-      console.log("Iframe src đã gán:", embedUrl);
-      } else {
-      console.warn("Không có URL trong dữ liệu:", data);
-      }
 
       // bật sóng nhạc và tạo bar
       const wave = document.getElementById("music-wave");
