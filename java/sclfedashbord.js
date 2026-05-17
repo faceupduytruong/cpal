@@ -383,14 +383,10 @@ async function openTool(toolName) {
   }
 
   try {
-    // Ghép thêm dòng chữ trước nội dung
-    const textToCopy = "tạo giùm tôi playlist âm nhạc và dùng tính năng tạo hình ảnh để làm bìa đĩa cover cho playlist hình vuông phù hợp với chủ đề" + queryValue;
-
-    // Copy vào clipboard
+    const textToCopy = "tạo giùm tôi playlist âm nhạc và dùng tính năng tạo hình ảnh để làm bìa đĩa cover cho playlist hình vuông phù hợp với chủ đề " + queryValue;
     await navigator.clipboard.writeText(textToCopy);
     alert("Ý tưởng playlist đã được copy vào clipboard. Bạn chỉ cần paste vào " + toolName);
 
-    // Mở trang tương ứng
     let url = "";
     switch (toolName) {
       case "gemini":
@@ -404,6 +400,7 @@ async function openTool(toolName) {
         break;
       case "chaton":
         url = "https://chat.chaton.ai/my/main";
+        break;
       case "deepseek":
         url = "https://chat.deepseek.com";
         break;
@@ -414,6 +411,9 @@ async function openTool(toolName) {
     console.error(err);
   }
 }
+
+// Đảm bảo gọi được từ HTML
+window.openTool = openTool;
 
 // Toggle hiển/ẩn sóng nhạc + iframe
 document.getElementById("btn-wave").addEventListener("click", () => {
