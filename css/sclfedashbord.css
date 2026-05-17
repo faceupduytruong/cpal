@@ -538,6 +538,7 @@ button {
   }
 
 .popup-content {
+  background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0); /* xanh lam → xám xanh */
   padding: 23px; /* giảm padding để tiết kiệm không gian */
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
@@ -567,7 +568,7 @@ button {
 
 /* Style riêng cho input popup */
 .input-content {
-  background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0);
+  background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0); /* xanh lam → xám xanh */
   /* vàng cam → cam hồng → hồng tím */
   padding: 25px;
   width: 300px;
