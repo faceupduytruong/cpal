@@ -611,16 +611,6 @@ button {
     1px 1px 4px rgba(0,0,0,0.3); /* bóng nhẹ màu đen */
 }
 
-/* Light mode mặc định */
-.button-group button {
-  background: linear-gradient(135deg, #FFFFFF, #228B22); /* trắng → xanh lá cây */
-}
-
-.input-content,
-.popup-content {
-  background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0); /* xanh lam → xám xanh */
-}
-
 /* Khi bật dark mode: hoán đổi màu */
 body.dark-mode .button-group button {
   background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0); /* xanh lam → xám xanh */
@@ -629,4 +619,11 @@ body.dark-mode .button-group button {
 body.dark-mode .input-content,
 body.dark-mode .popup-content {
   background: linear-gradient(135deg, #FFFFFF, #228B22); /* trắng → xanh lá cây */
+}
+
+body.dark-mode .popup-content h3 {
+  text-shadow:
+    0 0 6px #00008B,     /* ánh sáng xanh lam đậm gần chữ (DarkBlue) */
+    0 0 12px #1E90FF,    /* ánh sáng xanh lam sáng hơn (DodgerBlue) */
+    1px 1px 4px rgba(0,0,0,0.3); /* bóng nhẹ màu đen */
 }
