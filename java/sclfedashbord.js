@@ -415,25 +415,6 @@ async function openTool(toolName) {
 // Đảm bảo gọi được từ HTML
 window.openTool = openTool;
 
-// Toggle hiển/ẩn sóng nhạc + iframe
-document.getElementById("btn-wave").addEventListener("click", () => {
-  const wave = document.getElementById("music-wave");
-  const player = document.getElementById("sc-player");
-  const currentDisplay = window.getComputedStyle(wave).display;
-
-  if (currentDisplay === "none") {
-    // bật sóng và iframe
-    wave.style.display = "flex";
-    player.style.display = "block"; // hiện iframe
-    createBars(139);
-  } else {
-    // tắt sóng và iframe
-    wave.style.display = "none";
-    wave.innerHTML = ""; // xoá bar
-    player.style.display = "none"; // ẩn iframe
-  }
-});
-
 // Sinh ra nhiều thanh bar tự động
 function createBars(count = 137) {
   const container = document.getElementById("music-wave");
@@ -449,18 +430,17 @@ function createBars(count = 137) {
 // Chọn 1 Playlist ngẫu nhiên
 async function loadRandomPlaylist() {
   try {
-    const res = await fetch("http://127.0.0.1:8000/random_playlist"); // nhớ khớp cổng với uvicorn
+    const res = await fetch("http://127.0.0.1:8000/random_playlist");
     const data = await res.json();
     console.log("API trả về:", data);
 
     if (data.url) {
-      // gán src cho iframe
       const embedUrl = `https://w.soundcloud.com/player/?url=${encodeURIComponent(data.url)}&color=%23ff5500&auto_play=false`;
       const player = document.getElementById("sc-player");
       player.src = embedUrl;
       player.style.display = "block";
+      console.log("Iframe src đã gán:", embedUrl);
 
-      // bật sóng nhạc và tạo bar
       const wave = document.getElementById("music-wave");
       wave.style.display = "flex";
       createBars(137);
@@ -473,18 +453,54 @@ async function loadRandomPlaylist() {
   }
 }
 
+// Load playlist theo username + tên playlist
 async function loadPlaylist(username, playlist) {
-  const res = await fetch(`http://127.0.0.1:8000/feed_soundcloud?username=${username}&playlists=${playlist}`);
-  const data = await res.json();
-  console.log("API trả về:", data);
+  try {
+    const res = await fetch(`http://127.0.0.1:8000/feed_soundcloud?username=${username}&playlists=${playlist}`);
+    const data = await res.json();
+    console.log("API trả về:", data);
 
-  if (data.length > 0) {
-    document.getElementById("playlist-title").textContent = data[0].title;
-    document.getElementById("playlist-description").innerHTML = data[0].description || "Không có mô tả";
-    const iframeSrc = data[0].html.match(/src="([^"]+)"/)[1];
-    document.getElementById("sc-player").src = iframeSrc;
+    if (Array.isArray(data) && data.length > 0) {
+      document.getElementById("playlist-title").textContent = data[0].title || "Playlist";
+      document.getElementById("playlist-description").innerHTML = data[0].description || "Không có mô tả";
+
+      const match = data[0].html ? data[0].html.match(/src="([^"]+)"/) : null;
+      if (match) {
+        document.getElementById("sc-player").src = match[1];
+        document.getElementById("sc-player").style.display = "block";
+        console.log("Iframe src đã gán:", match[1]);
+      } else {
+        console.warn("Không tìm thấy src trong HTML embed:", data[0].html);
+      }
+    } else {
+      alert("Không tìm thấy playlist cho username này.");
+    }
+  } catch (err) {
+    console.error("Fetch lỗi:", err);
+    alert("Lỗi khi tải playlist");
   }
 }
+
+// Toggle hiển/ẩn sóng nhạc + iframe
+document.getElementById("btn-wave").addEventListener("click", () => {
+  const wave = document.getElementById("music-wave");
+  const player = document.getElementById("sc-player");
+  const currentDisplay = window.getComputedStyle(wave).display;
+
+  if (currentDisplay === "none") {
+    wave.style.display = "flex";
+    player.style.display = "block";
+    createBars(139);
+  } else {
+    wave.style.display = "none";
+    wave.innerHTML = "";
+    player.style.display = "none";
+  }
+});
+
+// Gắn hàm vào window để gọi từ HTML onclick
+window.loadRandomPlaylist = loadRandomPlaylist;
+window.loadPlaylist = loadPlaylist;
 
 import { createStationPopup } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@08edc7a/docs/mustationpop.js';
 
