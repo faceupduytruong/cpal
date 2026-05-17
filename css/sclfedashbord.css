@@ -610,3 +610,11 @@ button {
     0 0 12px #228B22,    /* ánh sáng lan rộng hơn */
     1px 1px 4px rgba(0,0,0,0.3); /* bóng nhẹ màu đen */
 }
+
+/* Khi bật dark mode: hoán đổi màu */
+body.dark-mode .popup-content {
+  background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0);
+}
+body.dark-mode .input-content {
+  background: linear-gradient(135deg, #FF8C00, #FF4500);
+}
