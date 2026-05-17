@@ -30,7 +30,7 @@ document.getElementById("homeBtn").addEventListener("click", function () {
   const randomIndex = Math.floor(Math.random() * urls.length);
   const randomUrl = urls[randomIndex];
 
-  openRightHalfPopup(randomUrl, "SmartApp Popup", window.innerWidth, 700);
+  openRightHalfPopup(randomUrl, "SmartApp Popup", window.innerWidth, 745);
 });
 
 /* Nhấn nút engBtn 👓 mở search Baike */
@@ -41,7 +41,7 @@ document.getElementById("engBtn").addEventListener("click", function () {
   const url = "https://baike.so.com/doc/430855-456301.html";
   const name = "BaikePage";
   const width = window.innerWidth;
-  const height = 700;
+  const height = 745;
   const left = window.innerWidth + width;
   const top = (window.innerHeight - height) / 2;
 
@@ -56,16 +56,6 @@ document.getElementById("engBtn").addEventListener("click", function () {
 });
 
 /* Nhấn vào nút lyricsBtn 🐟 luân phiên mở QQ Music (QQ音乐), Kugou Music (酷狗音乐), Kuwo Music (酷我音乐), NetEase Cloud Music (网易云音乐), Migu Music (咪咕音乐), Duomi Music (多米音乐), Ai Yin Yue (爱音乐)    */
-
-/* Nhấn vào nút lyricsBtn 🐟 sẽ mở ra popup gồm các button group */
-
-//document.getElementById("lyricsBtn").addEventListener("click", function () {
-//  document.getElementById("lyricsPopup").style.display = "flex";
-//});
-
-//document.getElementById("closeLyricsPopup").addEventListener("click", function () {
-//  document.getElementById("lyricsPopup").style.display = "none";
-//});
 
 // Xử lý khi nhấn vào từng nút nền tảng
 document.querySelectorAll(".siteBtn").forEach(function (btn) {
@@ -87,7 +77,7 @@ document.querySelectorAll(".siteBtn").forEach(function (btn) {
 /* Nhấn vào nút ahaBtn 💧 mở popup Tìm kiếm tên bài hát và tên ca sĩ */
 
 document.getElementById("ahaBtn").addEventListener("click", function () {
-  openRightHalfPopup("https://www.aha-music.com/identify-songs-music-recognition-online#record-div", "aha-music", window.innerWidth, 700);
+  openRightHalfPopup("https://www.aha-music.com/identify-songs-music-recognition-online#record-div", "aha-music", window.innerWidth, 745);
 });
 
 /* Nhấn nút sheBtn 🔄 nhập tên bài hát, tên ca sĩ và search bài hát */
@@ -128,7 +118,7 @@ document.getElementById("sheBtn").addEventListener("click", function () {
 
   const name = "Kết quả tìm kiếm";
   const width = window.innerWidth;
-  const height = 700;
+  const height = 745;
   const left = window.innerWidth + width;
   const top = (window.innerHeight - height) / 2;
   const features = `width=${width},height=${height},left=${left},top=${top}`;
@@ -143,5 +133,5 @@ document.getElementById("sheBtn").addEventListener("click", function () {
 
 /* Nhấn vào nút learnBtn 🐋 mở popup AI nhạc lý */
 document.getElementById("learnBtn").addEventListener("click", function () {
-  openRightHalfPopup("https://metaso.cn/study", "MetasoStudy", window.innerWidth, 700);
+  openRightHalfPopup("https://metaso.cn/study", "MetasoStudy", window.innerWidth, 745);
 });
