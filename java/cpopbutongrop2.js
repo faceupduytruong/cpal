@@ -157,7 +157,8 @@ document.getElementById("closePopup").addEventListener("click", function () {
 });
 
 /* Nhấn vào nút learnBtn 🐋 mở popup AI nhạc lý */
-
-document.getElementById("learnBtn").addEventListener("click", function () {
-  openRightHalfPopup("https://metaso.cn/study", "MetasoStudy", window.innerWidth, 700);
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("learnBtn").addEventListener("click", function () {
+    openRightHalfPopup("https://metaso.cn/study", "MetasoStudy", window.innerWidth, 700);
+  });
 });
