@@ -526,3 +526,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+window.tag = tag;
+window.searchSoundcloud = searchSoundcloud;
