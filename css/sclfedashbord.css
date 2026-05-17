@@ -611,10 +611,18 @@ button {
     1px 1px 4px rgba(0,0,0,0.3); /* bóng nhẹ màu đen */
 }
 
+/* Mặc định (light mode) */
+.popup-content {
+  background: linear-gradient(135deg, #FF8C00, #FF4500); /* cam đậm → cam đỏ */
+}
+.input-content {
+  background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0); /* xanh lam → xám xanh */
+}
+
 /* Khi bật dark mode: hoán đổi màu */
 body.dark-mode .popup-content {
   background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0);
 }
 body.dark-mode .input-content {
-  background: linear-gradient(135deg, #FF8C00, #FF4500);
+  background: linear-gradient(135deg, #FF8C00, #FF4500); /* cam đậm → cam đỏ */
 }
