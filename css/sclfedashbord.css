@@ -538,7 +538,6 @@ button {
   }
 
 .popup-content {
-  background: linear-gradient(135deg, #FF8C00, #FF4500); /* cam đậm → cam đỏ */
   padding: 23px; /* giảm padding để tiết kiệm không gian */
   border-radius: 16px;
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
@@ -611,11 +610,13 @@ button {
     1px 1px 4px rgba(0,0,0,0.3); /* bóng nhẹ màu đen */
 }
 
-/* Mặc định (light mode) */
+/* Light mode mặc định */
 .button-group button {
   background: linear-gradient(135deg, #FFFFFF, #228B22); /* trắng → xanh lá cây */
 }
-.input-content {
+
+.input-content,
+.popup-content {
   background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0); /* xanh lam → xám xanh */
 }
 
@@ -623,6 +624,8 @@ button {
 body.dark-mode .button-group button {
   background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0); /* xanh lam → xám xanh */
 }
-body.dark-mode .input-content {
+
+body.dark-mode .input-content,
+body.dark-mode .popup-content {
   background: linear-gradient(135deg, #FFFFFF, #228B22); /* trắng → xanh lá cây */
 }
