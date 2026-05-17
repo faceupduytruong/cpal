@@ -1,4 +1,6 @@
-// 👉 Chèn CSS vào DOM
+/* Ẩn toàn bộ scroll bar ngang và dọc của trang web */
+
+/* Chèn CSS vào DOM */
 const style = document.createElement('style');
 style.textContent = `
 
@@ -41,4 +43,3 @@ style.textContent = `
 `;
 
 document.head.appendChild(style);
-
