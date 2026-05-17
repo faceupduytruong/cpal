@@ -210,6 +210,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/sudungtienganh/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/edbb2vexyhm7n2uiyf96h/H-c-Ti-ng-Anh-Ch-a-L-nh.jpg?rlkey=x9zd2x9o3g3ospxz67jfsxqd8&st=y2uxrcc5&raw=1'
   },
+  'Tram Nguyen English': {
+    url: 'https://www.facebook.com/tramnguyenenglish/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tsjz7uxg2ztyduja504re/Tram-Nguyen-English.jpg?rlkey=cmnewnlzbrqls3t2kvvinqtp3&st=mphrfqpi&raw=1'
+  },
   'Learn My Words': {
     url: 'https://www.facebook.com/profile.php?id=61585454649657&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/o4r4g4hmn4v4768agng6v/Learn-My-Words.png?rlkey=5pluji7i2o8rktewu2a9lxcuo&st=8ei2i4cz&raw=1'
