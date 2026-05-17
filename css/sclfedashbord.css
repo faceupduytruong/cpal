@@ -622,6 +622,7 @@ body.dark-mode .popup-content {
 }
 
 body.dark-mode .popup-content h3 {
+  animation: bluePulse 7s infinite;
   text-shadow:
     0 0 6px #00008B,     /* ánh sáng xanh lam đậm gần chữ (DarkBlue) */
     0 0 12px #1E90FF,    /* ánh sáng xanh lam sáng hơn (DodgerBlue) */
