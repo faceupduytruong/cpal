@@ -146,7 +146,7 @@ import { createStationPopup } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/
 
 document.addEventListener("DOMContentLoaded", () => {
   // tạo popup
-  createStationPopup();
+  createStationPopup(queryValue); // truyền queryValue vào popup
 
   // Toggle popup khi nhấn 🐟
   document.getElementById("btn-station").addEventListener("click", () => {
