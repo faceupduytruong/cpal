@@ -1,0 +1,630 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  overflow-x: hidden;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: 'FC Coldwell Bridges Regular';
+  src: url('https://raw.githubusercontent.com/faceupduytruong/cpal/main/fonts/FCColdwellBridges-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 0.5rem 1rem;
+  display: flex;              /* dùng flexbox */
+  justify-content: space-between; /* h1 bên trái, search-box bên phải */
+  align-items: center;        
+}
+
+header h1 {
+  font-family: 'FC Coldwell Bridges Regular', sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: white;
+  text-shadow: 2px 2px 0 white, -2px -2px 0 white;
+  margin: 0; /* bỏ margin mặc định */
+  animation: slideText 17s ease-in-out infinite;
+}
+
+/* Hiệu ứng trượt nguyên dòng chữ */
+@keyframes slideText {
+  0% {
+    transform: translateX(-250%);
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 1;
+  }
+  5% {
+    transform: translateX(55%);
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 0.8;
+  }
+  10% {
+    transform: translateX(30%);
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 0.4;
+  }
+  15% {
+    transform: translateX(-5%);
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 0.8;
+  }
+  20% {
+    transform: translateX(-95%);
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 1;
+  }
+  25% {
+    transform: translateX(-55%);
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 0.9;
+  }
+  35% {
+    transform: translateX(-5%);
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 0.8;
+  }
+  40% {
+    transform: translateX(30%);
+    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
+    opacity: 0.5;
+  }
+  55% {
+    transform: translateX(70%);
+    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
+    opacity: 0.7;
+  }
+  65% {
+    transform: translateX(100%);
+    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
+    opacity: 0.75;
+  }
+  75% {
+    transform: translateX(150%);
+    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
+    opacity: 0.75;
+  }
+  80% {
+    transform: translateX(200%);
+    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
+    opacity: 0.8;
+  }
+  85% {
+    transform: translateX(245%);
+    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
+    opacity: 0.9;
+  }
+  97% {
+    transform: translateX(200%);
+    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
+    opacity: 0.95;
+  }
+  100% {
+    transform: translateX(245%);
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 1;
+  }
+}
+
+#feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 575px; /* thay height cố định bằng min-height */
+  backdrop-filter: blur(5px);
+}
+
+.card iframe {
+  width: 100%;
+  height: 100%;   /* ép chiếm toàn bộ chiều cao card */
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 8; /* chỉ hiển thị 8 dòng */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card a {
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: bold;
+}
+
+.search-box {
+  display: flex;
+  gap: 0.5rem; /* khoảng cách giữa input và button */
+}
+
+.search-box input {
+  width: 287px;   /* tăng chiều rộng input */
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 30px rgba(0, 128, 0, 0.3);
+}
+
+.search-box button {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  padding: 0.3rem 0.7rem;
+  border: none;
+  border-radius: 4px;
+  background: #0366d6;
+  color: white;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #ff69b4;
+}
+
+.text-area  {
+  font-family: 'Quicksand', sans-serif;
+  height: 20px;
+  font-size: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* shadow mặc định */
+  resize: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+/* Placeholder màu nhẹ */
+.text-area::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* Hiệu ứng phát sáng khi focus */
+.text-area:focus {
+  outline: none; /* bỏ viền mặc định */
+  animation: rainbowGlow 20s infinite;
+}
+
+#tag-btn {
+  background-color: rgba(255, 215, 0, 0.7);  /* vàng nhạt (Gold) */
+  border: 2px solid royalblue;
+  color: black;
+}
+
+#tag-btn:hover {
+  background-color: royalblue;   /* khi hover nền xanh dương đậm */
+  color: yellow;                 /* chữ vàng để nổi bật */
+}
+
+#search-btn {
+  background-color: rgba(0, 128, 0, 0.6); /* xanh lá nhạt */
+  border: 2px solid green;
+  color: white;
+}
+
+#search-btn:hover {
+   background-color: green;   /* khi hover nền xanh lá đậm */
+   color: yellow;             /* chữ vàng để nổi bật */
+}
+
+/* Nút Google */
+#google-btn {
+   background-color: rgba(128, 0, 128, 0.6); /* tím nhạt */
+   border: 2px solid purple;
+   color: white;
+}
+
+#google-btn:hover {
+   background-color: purple;   /* khi hover nền tím đậm */
+   color: pink;              /* chữ vàng để nổi bật */
+}
+
+/* Nút AI Playlist */
+#ai-btn {
+   background-color: rgba(199, 21, 133, 0.6); /* hồng sen đậm nhạt (MediumVioletRed) */
+   border: 2px solid deeppink;
+   color: white;
+}
+
+#ai-btn:hover {
+   background-color: deeppink;   /* khi hover nền hồng sen đậm */
+   color: black;                /* chữ vàng để nổi bật */
+}
+
+/* Nút AI Playlist (Gemini) */
+#ai-btn1 {
+   background: linear-gradient(
+     to right,
+     rgba(0, 0, 139, 0.7),   /* xanh chàm (DarkBlue) */
+     rgba(0, 255, 255, 0.7)  /* cyan */
+   );
+   border: 2px solid cyan;  /* viền trắng */
+   color: white;
+}
+
+#ai-btn1:hover {
+   background-color: cyan;   /* khi hover nền cyan */
+   color: darkblue;          /* chữ xanh chàm để nổi bật */
+   border: 2px solid lightcyan; /* viền cyan nhạt khi hover */
+}
+
+/* Nút AI Playlist (Copilot) */
+#ai-btn2 {
+   background: linear-gradient(
+      to right,
+      rgba(142, 0, 75, 0.7),   /* hồng củ dền (beetroot pink) */
+      rgba(216, 191, 216, 0.7) /* tím nhạt (thistle) */
+    );
+    border: 2px solid purple;   /* viền tím */
+    color: white;
+}
+
+#ai-btn2:hover {
+   background: white;          /* khi hover nền trắng */
+   color: purple;              /* chữ tím để nổi bật */
+   border: 2px solid violet;   /* viền tím nhạt khi hover */
+}
+
+/* Nút AI Playlist (ChatGPT) */
+#ai-btn3 {
+   background-color: rgba(0, 128, 128, 0.6); /* xanh teal nhạt (pha xanh lá + xanh dương) */
+   border: 2px solid teal;
+   color: white;
+}
+
+#ai-btn3:hover {
+  background-color: teal;     /* khi hover nền xanh teal đậm */
+  color: cyan;              /* chữ vàng để nổi bật */
+}
+
+/* Nút AI Playlist (DeepSeek) */
+#ai-btn4 {
+  background-color: rgba(255, 182, 193, 0.6); /* hồng nhạt (LightPink) */
+  border: 2px solid pink;
+  color: black;
+}
+
+#ai-btn4:hover {
+  background-color: pink;     /* khi hover nền hồng đậm hơn */
+  color: white;               /* chữ trắng để nổi bật */
+}
+
+/* Nút AI Playlist (DeepSeek) */
+#ai-btn5 {
+  background: linear-gradient(
+    to right,
+    rgba(5, 205, 5, 0.7),   /* xanh RoyalBlue */
+    rgba(200, 52, 0, 0.7)     /* xanh LawnGreen */
+  );
+  border: 2px solid royalblue;
+  color: white;
+}
+
+#ai-btn5:hover {
+  background-color: mediumseagreen;
+  color: black;
+  border: 2px solid limegreen;
+}
+
+/* Nhóm nút trong header */
+.header-buttons {
+  display: flex;
+  gap: 8px; /* khoảng cách nhỏ giữa các nút */
+  align-items: center;
+}
+
+/* Nút Mode 🥭 và Tools 🍉 giống nhau */
+#toggleTheme,
+#toolsBtn,
+#btn-gimp,
+#btn-wave,
+#btn-random,
+#btn-station {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  padding: 0.3rem 0.7rem;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Khi bật dark mode */
+body.dark-mode .card {
+  background: rgba(0, 0, 0, 0.3); /* đen mờ */
+  color: #fff;
+}
+
+/* Khi click (dark mode) */
+body.dark-mode #toggleTheme,
+body.dark-mode #toolsBtn,
+body.dark-mode #btn-gimp,
+body.dark-mode #btn-wave,
+body.dark-mode #btn-random,
+body.dark-mode #btn-station {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+/* Nút Discover - mặc định (light mode) */
+.discover-btn,
+.btn-desc {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  padding: 0.3rem 0.7rem;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.3); /* đen mờ mặc định */
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover: xanh đọt chuối trong suốt (light mode) */
+.discover-btn:hover,
+.btn-desc:hover {
+  background-color: rgba(154, 205, 50, 0.4); /* xanh đọt chuối */
+}
+
+/* Khi bật dark mode */
+body.dark-mode .discover-btn,
+body.dark-mode .btn-desc {
+  background-color: rgba(255, 255, 255, 0.3); /* trắng mờ */
+  color: #fff;
+}
+
+/* Hover trong dark mode: cam trong suốt */
+body.dark-mode .discover-btn:hover,
+body.dark-mode .btn-desc:hover {
+  background-color: rgba(255, 165, 0, 0.4); /* cam trong suốt */
+}
+
+/* Css viền màu vàng bao quanh cho Audioplayback */
+#recordPlayback {
+  padding: 14px;
+  background: linear-gradient(135deg, #fceabb, #f8b500); /* vàng gradient */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}
+
+.circle-button {
+  width: 35px;              /* chiều rộng */
+  height: 35px;             /* chiều cao */
+  border-radius: 50%;       /* bo tròn thành hình tròn */
+  border: 2px solid rgba(255,255,255,0.4); /* viền trắng mờ */
+  background-color: transparent;           /* nền trong suốt */
+  color: #fff;              /* màu icon */
+  font-size: 22px;          /* kích thước icon */
+  display: inline-flex;     /* căn giữa icon */
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Hiệu ứng hover */
+.circle-button:hover {
+  border-color: #f8b500;    /* viền vàng khi hover */
+  box-shadow: 0 0 8px rgba(248,181,0,0.7);
+}
+
+.wave-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 40px;
+  overflow-x: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+
+.wave-container::-webkit-scrollbar { /* Chrome, Safari */
+  display: none;
+}
+
+.bar {
+  width: 6px;
+  background: orange;
+  animation: wave 1s infinite ease-in-out;
+}
+
+@keyframes wave {
+  0% { height: 10px; }
+  50% { height: 40px; }
+  100% { height: 10px; }
+}
+
+.playlist-description {
+  margin-top: 8px;
+  padding: 10px;
+  border-left: 3px solid #ff5500;
+}
+
+// Quản lý các nhóm nút QQmusic, Netease Music, Kugou Music...
+
+button {
+  background-color: rgba(70, 130, 180, 0.5); /* SteelBlue với độ mờ 50% */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-weight: bold;
+  width: auto;         /* Chiều rộng cố định */
+  height: auto;        /* Chiều cao bằng chiều rộng */
+  border-radius: 50%;  /* Bo tròn hoàn toàn */
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s, color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  padding: 0;          /* Loại bỏ padding để không phá vỡ hình tròn */
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  overflow: visible; /* Cho phép nút phóng to vượt ra ngoài */
+}
+
+.button-group button {
+  display: inline-flex; /* hoặc flex */
+  align-items: center;
+  justify-content: center;
+  width: auto; /* tránh full width */
+  font-size: 16px; /* hoặc lớn hơn nếu cần */
+  padding: 12px 20px;
+  transition: transform 0.3s ease;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #FFFFFF, #228B22); /* trắng → xanh lá cây */
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.button-group button:hover {
+  transform: scale(1.2);
+}
+
+.icon-img {
+  width: 41.5px;   // Chỉnh kích cỡ của các icon trong button group Music Station
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+/* Ẩn hiện popup */
+  #stationPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 9999;
+  }
+  .popup-hidden {
+    display: none !important;
+  }
+
+.popup-content {
+  background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0); /* xanh lam → xám xanh */
+  padding: 23px; /* giảm padding để tiết kiệm không gian */
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  color: white;
+  width: 380px;
+  text-align: center;
+  max-height: 380px;  /* Giới hạn chiều cao popup màu tím hường */
+  scroll-behavior: smooth; /* Cuộn mượt */
+  scrollbar-width: thin;              /* Firefox */
+  scrollbar-color: #FFA500 #f0f0f0;   /* thanh cuộn cam */
+  overflow-y: scroll;  /* Cho phép cuộn */
+}
+
+.popup-content::-webkit-scrollbar {
+  width: 4px;
+}
+
+.popup-content::-webkit-scrollbar-track {
+  background: #f0f0f0;                /* Màu nền track */
+  border-radius: 4px;
+}
+
+.popup-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #00BFFF, #4B6A88); /* Màu thanh cuộn */
+  border-radius: 4px;
+}
+
+/* Style riêng cho input popup */
+.input-content {
+  background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0); /* xanh lam → xám xanh */
+  /* vàng cam → cam hồng → hồng tím */
+  padding: 25px;
+  width: 300px;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.popup-content button {
+  padding: 10px 20px;    /* Quản lý style của nút Close */
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: #6a11cb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.popup-content h3 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: white;
+  animation: greenPulse 7s infinite;
+  text-shadow:
+    0 0 6px #006400,     /* ánh sáng xanh lá cây đậm gần chữ */
+    0 0 12px #228B22,    /* ánh sáng lan rộng hơn */
+    1px 1px 4px rgba(0,0,0,0.3); /* bóng nhẹ màu đen */
+}
+
+/* Khi bật dark mode: hoán đổi màu */
+body.dark-mode .button-group button {
+  background: linear-gradient(135deg, #A3CBEF, #445577, #6A89A0); /* xanh lam → xám xanh */
+}
+
+body.dark-mode .input-content,
+body.dark-mode .popup-content {
+  background: linear-gradient(135deg, #FFFFFF, #228B22); /* trắng → xanh lá cây */
+}
+
+body.dark-mode .popup-content h3 {
+  animation: bluePulse 7s infinite;
+  text-shadow:
+    0 0 6px #00008B,     /* ánh sáng xanh lam đậm gần chữ (DarkBlue) */
+    0 0 12px #1E90FF,    /* ánh sáng xanh lam sáng hơn (DodgerBlue) */
+    1px 1px 4px rgba(0,0,0,0.3); /* bóng nhẹ màu đen */
+}
