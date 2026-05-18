@@ -91,7 +91,7 @@ document.getElementById("google-btn").addEventListener("click", () => {
     alert("Vui lòng nhập cụm từ cần tìm");
     return;
   }
-  const googleUrl = `https://www.google.com/search?q=site:soundcloud.com+${encodeURIComponent(queryValue)}`;
+  const googleUrl = `https://www.google.com/search?q=site:ketcausoft.com+${encodeURIComponent(queryValue)}`;
   window.open(googleUrl, "_blank");
 });
 
