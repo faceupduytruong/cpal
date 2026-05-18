@@ -105,14 +105,14 @@ document.getElementById("ai-btn").addEventListener("click", () => {
 async function openTool(toolName) {
   const queryValue = document.getElementById("query").value.trim();
   if (!queryValue) {
-    alert("Vui lòng nhập ý tưởng playlist");
+    alert("Vui lòng nhập ý tưởng keyword");
     return;
   }
 
   try {
-    const textToCopy = "tạo giùm tôi playlist âm nhạc và dùng tính năng tạo hình ảnh để làm bìa đĩa cover cho playlist hình vuông phù hợp với chủ đề " + queryValue;
+    const textToCopy = "Giả sử bạn là chuyên gia kết cấu xây dựng nhà dân dụng và công nghiệp, bạn hãy chia sẻ kiến thức chuyên sâu giùm tôi về chủ đề " + queryValue + " và dùng công cụ tạo hình ảnh để vẽ hình ảnh minh họa 3D về chủ đề trên";
     await navigator.clipboard.writeText(textToCopy);
-    alert("Ý tưởng playlist đã được copy vào clipboard. Bạn chỉ cần paste vào " + toolName);
+    alert("Ý tưởng keyword đã được copy vào clipboard. Bạn chỉ cần paste vào " + toolName);
 
     let url = "";
     switch (toolName) {
@@ -171,9 +171,9 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
       try {
-        const textToCopy = "Giả sử bạn là chuyên gia kết cấu xây dựng nhà dân dụng và công nghiệp, bạn hãy chia sẻ kiến thức chuyên sâu giùm tôi về chủ đề " + queryValue + " và dùng công cụ tạo hình ảnh để vẽ hình ảnh minh họa 3D về chủ đề trên";
+        const textToCopy = queryValue;
         await navigator.clipboard.writeText(textToCopy);
-        alert("Ý tưởng keyword đã được copy vào clipboard. Bạn chỉ cần paste vào trang nhạc.");
+        alert("Ý tưởng keyword đã được copy vào clipboard. Bạn chỉ cần paste vào trang web");
         window.open(url, "_blank");
       } catch (err) {
         alert("Không thể copy vào clipboard. Hãy cấp quyền truy cập.");
