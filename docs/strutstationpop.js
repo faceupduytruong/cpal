@@ -8,10 +8,10 @@ export function createStationPopup() {
       <button id="closeStationPopup" class="close-btn">❌</button>
       <h3>Explore Station</h3>
       <div class="button-group">
-        <button class="siteBtn" data-url="https://www.youtube.com/">      
+        <button class="siteBtn" data-url="https://www.youtube.com/results?search_query=${encodeURIComponent(queryValue)}">      
           <img src="https://www.dropbox.com/scl/fi/2i2v4mc1l8icnv869mkbm/youtube.png?rlkey=q8ioeca7uldwhu9r449fwgi53&st=ref24m5q&raw=1" alt="Youtube" class="icon-img">
         </button>
-        <button class="siteBtn" data-url="https://www.google.com/">      
+        <button class="siteBtn" data-url="https://www.google.com/search?q=${encodeURIComponent(queryValue)}">      
           <img src="https://www.dropbox.com/scl/fi/xxcu48l8mq0daw943cpki/Google.png?rlkey=h3btnzpi3dz9jq8wpphebcr48&st=bv4kepqe&raw=1" alt="Google" class="icon-img">
         </button>
         <button class="siteBtn" data-url="https://www.nhaccuatui.com/">      
