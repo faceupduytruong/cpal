@@ -142,7 +142,7 @@ async function openTool(toolName) {
 // Đảm bảo gọi được từ HTML
 window.openTool = openTool;
 
-import { createStationPopup } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@08edc7a/docs/mustationpop.js';
+import { createStationPopup } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@b0f9601/docs/strutstationpop.js';
 
 document.addEventListener("DOMContentLoaded", () => {
   // tạo popup
