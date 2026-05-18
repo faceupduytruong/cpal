@@ -145,11 +145,18 @@ window.openTool = openTool;
 import { createStationPopup } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@7800ef9/docs/strutstationpop.js';
 
 document.addEventListener("DOMContentLoaded", () => {
-  const queryValue = document.getElementById("query").value.trim();
-  createStationPopup(queryValue); // truyền queryValue vào popup
-
   // Toggle popup khi nhấn 🐟
   document.getElementById("btn-station").addEventListener("click", () => {
+    const queryValue = document.getElementById("query").value.trim();
+    if (!queryValue) {
+      alert("Vui lòng nhập keyword trước");
+      return;
+    }
+    // Xóa popup cũ nếu có
+    const oldPopup = document.getElementById("stationPopup");
+    if (oldPopup) oldPopup.remove();
+    // Tạo popup mới với query
+    createStationPopup(queryValue);
     document.getElementById("stationPopup").classList.toggle("popup-hidden");
   });
 
@@ -167,18 +174,24 @@ document.addEventListener("DOMContentLoaded", () => {
       const url = btn.getAttribute("data-url");
       const queryValue = document.getElementById("query").value.trim();
       if (!queryValue) {
-        alert("Vui lòng nhập ý tưởng keyword");
+        alert("Vui lòng nhập keyword");
         return;
       }
       try {
-        const textToCopy = queryValue;
-        await navigator.clipboard.writeText(textToCopy);
-        alert("Ý tưởng keyword đã được copy vào clipboard. Bạn chỉ cần paste vào trang web");
+        await navigator.clipboard.writeText(queryValue);
+        alert("Keyword đã được copy vào clipboard");
         window.open(url, "_blank");
       } catch (err) {
-        alert("Không thể copy vào clipboard. Hãy cấp quyền truy cập.");
+        alert("Không thể copy vào clipboard");
         console.error(err);
       }
     }
   });
 });
+
+function refreshStationPopup() {
+  const oldPopup = document.getElementById("stationPopup");
+  if (oldPopup) oldPopup.remove();
+  const queryValue = document.getElementById("query").value.trim();
+  createStationPopup(queryValue);
+}
