@@ -142,10 +142,6 @@ async function openTool(toolName) {
 // Đảm bảo gọi được từ HTML
 window.openTool = openTool;
 
-// Gắn hàm vào window để gọi từ HTML onclick
-window.loadRandomPlaylist = loadRandomPlaylist;
-window.loadPlaylist = loadPlaylist;
-
 import { createStationPopup } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@08edc7a/docs/mustationpop.js';
 
 document.addEventListener("DOMContentLoaded", () => {
