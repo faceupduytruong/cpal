@@ -145,7 +145,7 @@ window.openTool = openTool;
 import { createStationPopup } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@7800ef9/docs/strutstationpop.js';
 
 document.addEventListener("DOMContentLoaded", () => {
-  // tạo popup
+  const queryValue = document.getElementById("query").value.trim();
   createStationPopup(queryValue); // truyền queryValue vào popup
 
   // Toggle popup khi nhấn 🐟
