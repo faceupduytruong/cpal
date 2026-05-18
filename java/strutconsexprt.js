@@ -167,13 +167,13 @@ document.addEventListener("DOMContentLoaded", () => {
       const url = btn.getAttribute("data-url");
       const queryValue = document.getElementById("query").value.trim();
       if (!queryValue) {
-        alert("Vui lòng nhập ý tưởng playlist");
+        alert("Vui lòng nhập ý tưởng keyword");
         return;
       }
       try {
-        const textToCopy = "playlist " + queryValue;
+        const textToCopy = "Giả sử bạn là chuyên gia kết cấu xây dựng nhà dân dụng và công nghiệp, bạn hãy chia sẻ kiến thức chuyên sâu giùm tôi về chủ đề " + queryValue + " và dùng công cụ tạo hình ảnh để vẽ hình ảnh minh họa 3D về chủ đề trên";
         await navigator.clipboard.writeText(textToCopy);
-        alert("Ý tưởng playlist đã được copy vào clipboard. Bạn chỉ cần paste vào trang nhạc.");
+        alert("Ý tưởng keyword đã được copy vào clipboard. Bạn chỉ cần paste vào trang nhạc.");
         window.open(url, "_blank");
       } catch (err) {
         alert("Không thể copy vào clipboard. Hãy cấp quyền truy cập.");
