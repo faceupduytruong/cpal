@@ -715,7 +715,6 @@ li:hover .rainbow-text {
 .close-container {
   max-width: 60px;
   background: #e74c3c;
-  white-space: nowrap;
   color: white;
   border: none;
   padding: 10px 20px;
