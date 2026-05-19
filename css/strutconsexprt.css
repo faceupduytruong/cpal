@@ -651,3 +651,35 @@ body.dark-mode .popup-content h3 {
   color: white;
   text-shadow: 2px 2px 0 white, -2px -2px 0 white;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.2); /* nền trắng trong suốt */
+  padding: 8.5px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-left: 5px solid #3498db;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  color: #2a3439;
+  text-shadow: 20px 0px 20px rgba(255,255,255,9.5);
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+    }
+
+li:hover .rainbow-text {
+  background: radial-gradient(circle at center, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  background-size: 200% 200%;
+  animation: rainbowMove 10s ease infinite;
+}
