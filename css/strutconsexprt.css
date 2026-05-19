@@ -713,9 +713,9 @@ li:hover .rainbow-text {
 }
 
 .close-container {
-  display: flex;
-  justify-content: right; /* căn giữa ngang */
-  margin: 20px 0;
+  display: relative;
+  justify-content: center; /* căn giữa ngang */
+  margin: 30px 10px;
 }
 
 .close-btn {
