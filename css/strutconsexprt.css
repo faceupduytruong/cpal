@@ -50,11 +50,11 @@ h2 {
 h3 {
   font-family: 'Quicksand', cursive;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: center;
   color: #ffffff;
   text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
-  margin-top: 5vh;
+  margin-top: 2vh;
   margin-bottom: 2vh;
   animation: redGlow 17s ease-in-out infinite;
 }
@@ -62,11 +62,11 @@ h3 {
 h4 {
   font-family: 'Quicksand', cursive;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: center;
   color: #ffffff;
   text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
-  margin-top: -5vh;
+  margin-top: -11vh;
   margin-bottom: 2.5vh;
   animation: bluePulse 17s ease-in-out infinite;
 }
@@ -610,7 +610,7 @@ body.dark-mode .popup-content h3 {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3); /* ✅ viền trắng mờ */
   padding: 16px;    /* Thu gọn phần nhô ra 2 bên của background mờ phía sau */
-  padding-bottom: 20px;    /* Chỉnh phần dưới của background trong mờ phía dưới ảnh */
+  padding-bottom: 30px;    /* Chỉnh phần dưới của background trong mờ phía dưới ảnh */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* bóng tối nhẹ */
   justify-content: center;     /* ✅ Căn giữa ảnh */
   overflow-x: visible;         /* bật cuộn ngang */
