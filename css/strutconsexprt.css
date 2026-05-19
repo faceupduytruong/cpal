@@ -687,7 +687,7 @@ li:hover .rainbow-text {
 
 .popup {
   display: none;
-  position: fixed;
+  position: relative;
   top: 2.9%;
   left: 50%;
   bottom: 2.8%;
