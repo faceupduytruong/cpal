@@ -27,93 +27,39 @@ header {
   align-items: center;        
 }
 
-header h1 {
-  font-family: 'FC Coldwell Bridges Regular', sans-serif;
+h1 {
+  font-family: 'Gwendolyn', cursive;
   font-weight: bold;
   font-size: 2.2rem;
-  color: white;
-  text-shadow: 2px 2px 0 white, -2px -2px 0 white;
-  margin: 0; /* bỏ margin mặc định */
-  animation: slideText 17s ease-in-out infinite;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 15px 0px 25px rgba(0,0,0,1.5);
+  margin-top: 6vh;
+  margin-bottom: 3vh;
 }
 
-/* Hiệu ứng trượt nguyên dòng chữ */
-@keyframes slideText {
-  0% {
-    transform: translateX(-250%);
-    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
-    opacity: 1;
-  }
-  5% {
-    transform: translateX(55%);
-    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
-    opacity: 0.8;
-  }
-  10% {
-    transform: translateX(30%);
-    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
-    opacity: 0.4;
-  }
-  15% {
-    transform: translateX(-5%);
-    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
-    opacity: 0.8;
-  }
-  20% {
-    transform: translateX(-95%);
-    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
-    opacity: 1;
-  }
-  25% {
-    transform: translateX(-55%);
-    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
-    opacity: 0.9;
-  }
-  35% {
-    transform: translateX(-5%);
-    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
-    opacity: 0.8;
-  }
-  40% {
-    transform: translateX(30%);
-    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
-    opacity: 0.5;
-  }
-  55% {
-    transform: translateX(70%);
-    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
-    opacity: 0.7;
-  }
-  65% {
-    transform: translateX(100%);
-    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
-    opacity: 0.75;
-  }
-  75% {
-    transform: translateX(150%);
-    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
-    opacity: 0.75;
-  }
-  80% {
-    transform: translateX(200%);
-    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
-    opacity: 0.8;
-  }
-  85% {
-    transform: translateX(245%);
-    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
-    opacity: 0.9;
-  }
-  97% {
-    transform: translateX(200%);
-    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
-    opacity: 0.95;
-  }
-  100% {
-    transform: translateX(245%);
-    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
-    opacity: 1;
-  }
+h2 {
+  font-family: 'Quicksand', cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  animation: redGlow 17s ease-in-out infinite;
+}
+
+h3 {
+  font-family: 'Quicksand', cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
+  margin-top: -5vh;
+  margin-bottom: 2.5vh;
+  animation: bluePulse 17s ease-in-out infinite;
 }
 
 #feed {
@@ -627,4 +573,72 @@ body.dark-mode .popup-content h3 {
     0 0 6px #00008B,     /* ánh sáng xanh lam đậm gần chữ (DarkBlue) */
     0 0 12px #1E90FF,    /* ánh sáng xanh lam sáng hơn (DodgerBlue) */
     1px 1px 4px rgba(0,0,0,0.3); /* bóng nhẹ màu đen */
+}
+
+.section {
+   margin-bottom: 0px;
+}
+.section h4 {
+   margin-bottom: 20px;
+   /* color: #333; ← xóa hoặc thay bằng dòng dưới */
+   color: white;
+}
+
+.image-row-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* căn giữa hàng ảnh */
+  margin-bottom: -40px; /* tạo khoảng cách giữa các khối */
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;               /* giữ ảnh trên một hàng */
+  gap:40px;
+  background: rgba(255, 255, 255, 0.08); /* nền trắng mờ */
+  backdrop-filter: blur(12px);          /* làm mờ nền phía sau */
+  -webkit-backdrop-filter: blur(12px);  /* hỗ trợ Safari */
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* ✅ viền trắng mờ */
+  padding: 16px;    /* Thu gọn phần nhô ra 2 bên của background mờ phía sau */
+  padding-bottom: 50px;    /* Chỉnh phần dưới của background trong mờ phía dưới ảnh */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* bóng tối nhẹ */
+  justify-content: center;     /* ✅ Căn giữa ảnh */
+  overflow-x: visible;         /* bật cuộn ngang */
+  max-width: 900px;               /* ✅ Giới hạn chiều rộng để ảnh không tràn */
+  margin: 0 auto 24px auto;        /* ✅ Căn giữa khối ảnh */
+  transition: background-color 0.5s ease;
+}
+@media (max-width: 600px) {
+  .image-row {
+    gap: 0px;
+    padding: 36px;
+  }
+  .image-row-wrapper {
+    margin-bottom: 8px;
+  }
+}
+
+.row-title {
+  font-size: 34px;   /* Chỉnh font chữ của Structual System ... */
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  white-space: normal;       /* Cho phép ngắt dòng */
+  word-break: break-word;    /* Ngắt từ nếu quá dài */
+  text-align: center;        /* Căn giữa nếu cần */
+}
+
+.glass-bg {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background-color 0.5s ease, backdrop-filter 0.5s ease;
+  border-radius: 12px;
+}
+
+.glowing-text {
+  font-weight: bold;
+  font-size: 2.7rem;
+  animation: glowPulse 7s infinite;
+  color: white;
+  text-shadow: 2px 2px 0 white, -2px -2px 0 white;
 }
