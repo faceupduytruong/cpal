@@ -711,3 +711,13 @@ li:hover .rainbow-text {
   height: 560px;
   border: 1px solid rgba(255, 255, 255, 0.3); /* viền trắng mờ */;
 }
+
+.close-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+}
