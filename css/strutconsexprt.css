@@ -713,7 +713,6 @@ li:hover .rainbow-text {
 }
 
 .close-container {
-  max-width: 60px;
   background: #e74c3c;
   color: white;
   border: none;
