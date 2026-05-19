@@ -712,16 +712,6 @@ li:hover .rainbow-text {
   border: 1px solid rgba(255, 255, 255, 0.3); /* viền trắng mờ */;
 }
 
-.close-btn {
-  background: #e74c3c;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 6px;
-  font-size: 16px;
-}
-
 .close-btn1 {
   display: inline-block;
   max-width: 60px;
@@ -737,6 +727,13 @@ li:hover .rainbow-text {
 }
 
 .close-container {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
   text-align: center;
   margin-bottom: 10px;
 }
