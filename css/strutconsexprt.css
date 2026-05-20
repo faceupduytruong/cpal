@@ -715,7 +715,7 @@ li:hover .rainbow-text {
 .close-container {
   display: flex;
   justify-content: center; /* căn giữa ngang */
-  margin: 10px 20px;
+  margin: 25px 30px;
   transform: translateX(-40%);
 }
 
@@ -727,4 +727,5 @@ li:hover .rainbow-text {
   cursor: pointer;
   border-radius: 6px;
   font-size: 16px;
+  top: -25px;
 }
