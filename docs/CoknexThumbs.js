@@ -110,6 +110,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/thienvanhanoi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1jj76v4p0lr040vo4tnuo/H-i-Thi-n-V-n-H-N-i-HAS.jpg?rlkey=bu9tjzwy2yz0l1y8zikyltow1&st=73k6e1l0&raw=1',
   },
+  'An': {
+    url: 'https://www.facebook.com/sieuquay.nhok.927758/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lmg0urtgoqjwjixzelhmn/An.jpg?rlkey=tp26v9fo2sa30tjtmwnzhjxup&st=04q57ilu&raw=1',
+  },
   'Đột Phá Tri Thức': {
     url: 'https://www.youtube.com/@dotphatrithuc/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/t-Ph-Tri-Th-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=x9ui7pat&raw=1',
@@ -117,6 +121,10 @@ const folderLinks = {
   'Quản Trị Mạng (Vũ Trụ)': {
     url: 'https://quantrimang.com/khoa-hoc/khoa-hoc-vu-tru',
     thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/Qu-n-Tr-M-ng-V-Tr.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=rvxcg180&raw=1',
+  },
+  'Yêu Khoa Học': {
+    url: 'https://www.facebook.com/profile.php?id=100090017247326&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/sp8m5tihikkwfz9o7372p/Y-u-Khoa-H-c.png?rlkey=51ilo00ssfk39ysqzff1ie6sv&st=ja2ksryx&raw=1',
   },
   'Khoa Học Dễ Hiểu': {
     url: 'https://www.youtube.com/@Khoahocdehieu67/shorts',
@@ -169,6 +177,10 @@ const folderLinks = {
   'Khám Phá Thế Giới 410': {
     url: 'https://www.youtube.com/@khamphathegioi410/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uywrn9x520t8pq86bt944/Kh-m-ph-th-gi-i-410.jpg?rlkey=6nc70yru54q71g03rt5fezyp1&st=2i62rn6z&raw=1',
+  },
+  'Thế giới kì bí': {
+    url: 'https://www.facebook.com/Thegioikibi1/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3qpbqkj5qpkt4tovec1g2/Th-gi-i-k-b.jpg?rlkey=ww1apk7oyeog8oos9dbsxqn6v&st=to1ndqwg&raw=1',
   },
   'Kiến Thức Thú Vị Official': {
     url: 'https://www.youtube.com/@KI%E1%BA%BENTH%E1%BB%A8CTH%C3%9AV%E1%BB%8AOfficial-i8e/playlists',
