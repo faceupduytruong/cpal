@@ -118,9 +118,9 @@ const folderLinks = {
     url: 'https://quantrimang.com/khoa-hoc/khoa-hoc-vu-tru',
     thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/Qu-n-Tr-M-ng-V-Tr.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=rvxcg180&raw=1',
   },
-  'The Dream Weaver': {
-    url: 'https://www.youtube.com/@TheDreamWeaver-m6o/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/j13ghhk924gane1i550sj/The-Dream-Weaver.jpg?rlkey=g9338w00x9y7y4udieeo5p40l&st=m15ciz32&raw=1',
+  'Khoa Học Dễ Hiểu': {
+    url: 'https://www.youtube.com/@Khoahocdehieu67/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0jejd9y1p1blmud9l2fve/Khoa-H-c-D-Hi-u.jpg?rlkey=3nc3tkdwc8oawx3xtx8hh458n&st=1qa5is0p&raw=1',
   },
   '1 Phút Khoa Học': {
     url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
@@ -269,6 +269,10 @@ const folderLinks = {
   'NH88 Tin tức Chính Trị': {
     url: 'https://www.youtube.com/@nh88tintucchinhtri/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/8fzubu9unw2dd0i1p22j1/NH88-TIN-T-C-CH-NH-TR.jpg?rlkey=kbi78vdct2v1g3aqbw4id1klj&st=qdcptb16&raw=1',
+  },
+  'The Dream Weaver': {
+    url: 'https://www.youtube.com/@TheDreamWeaver-m6o/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/j13ghhk924gane1i550sj/The-Dream-Weaver.jpg?rlkey=g9338w00x9y7y4udieeo5p40l&st=m15ciz32&raw=1',
   },
   // thêm các mục khác nếu cần
 };
