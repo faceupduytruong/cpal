@@ -715,8 +715,8 @@ li:hover .rainbow-text {
 .close-container {
   display: flex;
   justify-content: center; /* căn giữa ngang */
-  margin: 10px 30px;
-  transform: translateX(-50%);
+  margin: 10px 20px;
+  transform: translateX(-40%);
 }
 
 .close-btn {
