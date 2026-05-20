@@ -653,6 +653,14 @@ body.dark-mode .popup-content h3 {
   text-shadow: 2px 2px 0 white, -2px -2px 0 white;
 }
 
+.yellow-text {
+  font-weight: bold;
+  font-size: 2.7rem;
+  animation: yellowPulse 7s infinite;
+  color: white;
+  text-shadow: 2px 2px 0 white, -2px -2px 0 white;
+}
+
 ul {
   list-style: none;
   padding: 0;
