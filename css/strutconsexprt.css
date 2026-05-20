@@ -43,7 +43,7 @@ h2 {
   text-align: center;
   color: #ffffff;
   text-shadow: 15px 0px 25px rgba(0,0,0,1.5);
-  margin-top: 0vh;
+  margin-top: 1vh;
   margin-bottom: 2vh;
 }
 
@@ -615,7 +615,7 @@ body.dark-mode .popup-content h3 {
   justify-content: center;     /* ✅ Căn giữa ảnh */
   overflow-x: visible;         /* bật cuộn ngang */
   max-width: 1250px;               /* ✅ Giới hạn chiều rộng để ảnh không tràn */
-  margin: 0 auto 24px auto;        /* ✅ Căn giữa khối ảnh */
+  margin: 0 auto 0px auto;        /* ✅ Căn giữa khối ảnh */
   margin-top: 20px;
   transition: background-color 0.5s ease;
 }
