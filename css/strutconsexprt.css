@@ -779,7 +779,7 @@ li:hover .rainbow-text {
 }
 
 .folder-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   box-shadow: 0 0 20px 8px rgba(255, 255, 255, 0.3); /* ánh sáng trắng mờ */
   transition: all 0.3s ease;
   animation: redbackgroundGlow 2s infinite;
