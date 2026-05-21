@@ -699,7 +699,7 @@ li:hover .rainbow-text {
   top: 2.9%;
   left: 50%;
   bottom: 2.8%;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
   width: 90%;
   max-width: 800px;
   background: rgba(255, 255, 255, 0.2); /* nền trắng trong suốt */
