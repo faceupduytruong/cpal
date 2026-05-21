@@ -717,14 +717,14 @@ li:hover .rainbow-text {
 
 .popup1 iframe {
   width: 100%;
-  height: 570px;
+  height: 560px;
   border: 1px solid rgba(255, 255, 255, 0.3); /* viền trắng mờ */;
 }
 
 .close-container {
   display: flex;
   justify-content: center; /* căn giữa ngang */
-  margin: 5px 30px;
+  margin: 10px 20px;
   transform: translateX(0%);
 }
 
