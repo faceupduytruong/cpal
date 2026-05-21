@@ -712,6 +712,7 @@ li:hover .rainbow-text {
   z-index: 1000;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 👈 Bạn có thể thay bằng font khác */
   font-size: 13px; /* 👈 Tuỳ chỉnh cỡ chữ nếu cần */
+  height: 89%;
 }
 
 .popup1 iframe {
