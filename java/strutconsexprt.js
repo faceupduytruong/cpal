@@ -195,3 +195,20 @@ function refreshStationPopup() {
   const queryValue = document.getElementById("query").value.trim();
   createStationPopup(queryValue);
 }
+
+function togglePopup(element, popupId) {
+  const popup = document.getElementById(popupId);
+  if (popupId === "popup1") {
+    const iframe = document.getElementById("bookFrame");
+    iframe.src = element.getAttribute("data-src");
+  }
+  popup.style.display = "block";
+}
+
+function closePopup(popupId) {
+  const popup = document.getElementById(popupId);
+  if (popupId === "popup1") {
+    document.getElementById("bookFrame").src = "";
+  }
+  popup.style.display = "none";
+}
