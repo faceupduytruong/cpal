@@ -806,7 +806,7 @@ li:hover .rainbow-text {
   color: #333;
 }
 
-.popup {
+.popup1 {
   display: none;
   position: fixed;
   top: 0; left: 0;
@@ -816,7 +816,7 @@ li:hover .rainbow-text {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.popup-inner {
+.popup-inner1 {
   margin: 15px auto;
   padding: 20px;
   background: rgba(255, 255, 255, 0.01);
