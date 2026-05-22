@@ -1567,6 +1567,13 @@ container.innerHTML = `
         <div class="caption">Cơm AI lo</div>
       </div>
 
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/928731596477469', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/g38hnjs7a84oer831z6tu/ng-d-ng-NotebookLM-v-Gemini.jpg?rlkey=20hhi745pj19oji6vixr6sh1o&st=ina35dti&raw=1">
+</div>
+        <div class="caption">Ứng dụng NotebookLM và Gemini</div>
+      </div>
+
 </div>
 
 `;
