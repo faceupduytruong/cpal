@@ -183,6 +183,18 @@ container.innerHTML = `
       
 </div>
 
+    <!-- Hàng thứ 9 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Thủ thuật Design</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61586610899551&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/z408bwh6qisks2y623nv9/Edit-Chuy-n-Nh.png?rlkey=ul3z6vemzx76919c0j6eg9c6w&st=fktftd0y&raw=1">
+</div>
+        <div class="caption">Edit Chuyện Nhỏ</div>
+      </div>
+      
+</div>
+
 
 `;
 
@@ -230,4 +242,4 @@ glassElements.forEach(el => {
 });
 
 // Gọi lại sau khi DOM đã có .glass-bg
-applyColor(colorIndex); 
+applyColor(colorIndex);
