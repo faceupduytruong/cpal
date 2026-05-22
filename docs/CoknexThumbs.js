@@ -34,13 +34,17 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Thienvanhocnhi/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/0ti3blfcpk9v2o19n0yk8/Thi-n-V-n-H-c-Nh.webp?rlkey=go0235xwiv1iw30014d3z1iz9&st=qbu9o199&raw=1',
   },
-  'Vũ Trụ 1 Phút – Official': {
+  'Vũ Trụ 1 Phút (Youtube)': {
     url: 'https://www.youtube.com/@vutru1phut/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/ydcw3kznd9iqut69ty1y5/V-Tr-1-Ph-t-Official.jpg?rlkey=skucxjxwmf89jgo4wn5iygw7l&st=qixtrba6&raw=1',
   },
+  'Vũ Trụ 1 Phút (Facebook)': {
+    url: 'https://www.youtube.com/@vutru1phut/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gjmesqkq1mcgug8hr5f90/V-Tr-1-Ph-t-Facebook.jpg?rlkey=5ct5uepu14ixbbtwpznnwcc02&st=94bor8ep&raw=1',
+  },
   'Vũ Trụ Tĩnh Lặng': {
-    url: 'https://www.youtube.com/@VuTruTinhLang/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/rb6wev2gw7ab81sud6wae/V-Tr-T-nh-L-ng.jpg?rlkey=ulo5sfhi247nu7ctn42532f71&st=o0hagypg&raw=1',
+    url: 'https://www.facebook.com/vutru1phut/reels/',
+    thumbnail: '&raw=1',
   },
   'Trần My': {
     url: 'https://www.facebook.com/coba.bentre.33/reels/',
