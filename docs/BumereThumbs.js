@@ -1,5 +1,5 @@
 const customThumbnails = {
-  'School topics': 'https://www.dropbox.com/scl/fi/m73gxcbw9fv0xn6oqwye7/School-topics.avif?rlkey=1vvvc8ljpindiwk3abptovbfq&st=cpd9sjwb&raw=1',
+  'School topics': 'https://www.dropbox.com/scl/fi/hc8ecf4un7yfz2gjvx4al/Social-topics.webp?rlkey=46wezaze7ie67mzklblaxklma&st=6nb3d0m5&raw=1',
   // thêm các mục khác nếu cần
 };
 
