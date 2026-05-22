@@ -1471,6 +1471,13 @@ container.innerHTML = `
         <div class="caption">Cường hóa AI</div>
       </div>
 
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/CuongMeAI/reels/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/65y5ghnt6k7euyih9212i/C-ng-M-AI.avif?rlkey=019d0q75kgzfpm16h12wkcmta&st=8cyitw42&raw=1">
+</div>
+        <div class="caption">Cường Mê AI</div>
+      </div>
+
             <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/nguyentatkiem.aicoaching/photos/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/elbhxmaz6fytnbupnfl0d/Nguy-n-T-t-Ki-m-AI.jpg?rlkey=939i6jam853nxsdndkljz4zk1&st=jbk1p2fn&raw=1">
