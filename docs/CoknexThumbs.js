@@ -70,6 +70,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@%E5%A4%AB%E5%A6%BB%E7%89%A9%E8%AF%AD/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/2rj30r3dpupqj4y8u71z8/F-q-W-y.jpg?rlkey=5x61knnkbdb21094y9izlvspp&st=qkopbsk2&raw=1',
   },
+  'F8BET Trạm Vũ Trụ': {
+    url: 'https://www.facebook.com/f8bettramvutru/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/no7x37tpq38c60gyvnwl5/F8BET-Tr-m-V-Tr.jpg?rlkey=f00wvvjmobbug2c2yfjecssrc&st=clxp3y0n&raw=1',
+  },
   'Hồ Sơ Vô Cực': {
     url: 'https://www.youtube.com/@H%E1%BB%93S%C6%A1V%C3%B4C%E1%BB%B1c/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/s170i9ovpm56orbv086au/H-S-V-C-c.webp?rlkey=89bkifi14z2x6c9m4dorpuash&st=jrt88axj&raw=1',
