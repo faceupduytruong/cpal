@@ -35,7 +35,7 @@ const folderLinks = {
   },
   'Infinity Revit': {
     url: 'https://www.facebook.com/InfinityRevit',
-    thumbnail: 'https://www.dropbox.com/scl/fi/z31ii5kovk1xxtw3uicaj/Infinity-Revit.jpg?rlkey=s0yeapya037s2yu8o9zg3mg9k&st=y1xiw2yj&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zqdz85inrdl2e8uyhpst5/Infinity-Revit.webp?rlkey=2j3pm266oxunohs22bbm4vt1g&st=tzs3w45w&raw=1',
   },
   'Sơn Long Revit Ctu': {
     url: 'https://www.facebook.com/profile.php?id=100023083592363&sk=reels_tab',
