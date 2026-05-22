@@ -33,6 +33,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/1909106909373965/',
     thumbnail: 'https://www.dropbox.com/scl/fi/qorng9j40ln31en9qkfmj/Revit-Vietnam-T-h-c-Revit.jpg?rlkey=s7kt69ip8e2pqujwm47amclzx&st=n038pc6n&raw=1',
   },
+  'Infinity Revit': {
+    url: 'https://www.facebook.com/InfinityRevit',
+    thumbnail: 'https://www.dropbox.com/scl/fi/z31ii5kovk1xxtw3uicaj/Infinity-Revit.jpg?rlkey=s0yeapya037s2yu8o9zg3mg9k&st=y1xiw2yj&raw=1',
+  },
   'Sơn Long Revit Ctu': {
     url: 'https://www.facebook.com/profile.php?id=100023083592363&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/0wrbqac46lcyu1wtj8jzu/S-n-Long-Revit-Ctu.jpg?rlkey=tm7i2tbn0dmapk4ve4oivvaz3&st=z8qppg1s&raw=1',
