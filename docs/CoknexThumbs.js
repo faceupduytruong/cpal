@@ -39,12 +39,12 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/ydcw3kznd9iqut69ty1y5/V-Tr-1-Ph-t-Official.jpg?rlkey=skucxjxwmf89jgo4wn5iygw7l&st=qixtrba6&raw=1',
   },
   'Vũ Trụ 1 Phút (Facebook)': {
-    url: 'https://www.youtube.com/@vutru1phut/shorts',
+    url: 'https://www.facebook.com/vutru1phut/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/gjmesqkq1mcgug8hr5f90/V-Tr-1-Ph-t-Facebook.jpg?rlkey=5ct5uepu14ixbbtwpznnwcc02&st=94bor8ep&raw=1',
   },
   'Vũ Trụ Tĩnh Lặng': {
-    url: 'https://www.facebook.com/vutru1phut/reels/',
-    thumbnail: '&raw=1',
+    url: 'https://www.youtube.com/@VuTruTinhLang/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rb6wev2gw7ab81sud6wae/V-Tr-T-nh-L-ng.jpg?rlkey=ulo5sfhi247nu7ctn42532f71&st=a0g4xcxh&raw=1',
   },
   'Trần My': {
     url: 'https://www.facebook.com/coba.bentre.33/reels/',
