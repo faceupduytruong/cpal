@@ -38,6 +38,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/dvdhoctienganhtreem/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/z2g6lp4uk0yvtgwfmbkh6/Video-h-c-Ti-ng-Anh-tr-em.jpg?rlkey=m3tm080f8uqz2sfwllwc4d5bn&st=vj9ggbkp&raw=1'
   },
+  'Tiếng Anh siêu dễ': {
+    url: 'https://www.facebook.com/profile.php?id=61586650697495&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/w4femudb77m3qyhazadd8/Ti-ng-Anh-si-u-d.webp?rlkey=opjyfifu4kacg7lghtxlukf0v&st=ygg7jyrp&raw=1'
+  },
   'Tự Học Tiếng Anh Cùng Con': {
     url: 'https://www.facebook.com/Tuhoctienganhcungconvn/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2a67cc3euu7bzuol5bah3/T-H-c-Ti-ng-Anh-C-ng-Con.jpg?rlkey=vuim96udm6qt4sr9wztbpjis7&st=ppcnkfus&raw=1'
