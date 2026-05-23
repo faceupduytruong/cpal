@@ -403,6 +403,13 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61587814036366' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/3l3q6c85ymhad91604wmj/Ph-m-Th-ng.png?rlkey=pi1kw6djh1hcujb64k39ah4cp&st=jtnh72fe&raw=1">
+</div>
+        <div class="caption">Phạm Thắng</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/kenhxaydung/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/phrmbb47mk1bwkplnnp10/K-nh-X-y-D-ng.webp?rlkey=3pldfhjlkxjnp7vn7s3mld943&st=94gobvu1&raw=1">
 </div>
