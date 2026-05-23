@@ -114,6 +114,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61581984846790&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/ingic1jpi19prtm5qxw7u/H-S-V-Tr.jpg?rlkey=013sdvtx87q5tyv31ulqwvros&st=sfauc4yp&raw=1',
   },
+  'Học Viện Vũ Trụ': {
+    url: 'https://www.facebook.com/hocvienvutru/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/egt23kd8e6qc3dgpqbx94/H-c-Vi-n-V-Tr.jpg?rlkey=1s06fg2wc9w1bmxte95l13mdn&st=dyio6c8s&raw=1',
+  },
   'Hội Thiên Văn Hà Nội - HAS': {
     url: 'https://www.facebook.com/thienvanhanoi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1jj76v4p0lr040vo4tnuo/H-i-Thi-n-V-n-H-N-i-HAS.jpg?rlkey=bu9tjzwy2yz0l1y8zikyltow1&st=73k6e1l0&raw=1',
