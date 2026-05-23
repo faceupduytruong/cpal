@@ -173,6 +173,18 @@ container.innerHTML = `
 
      <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
+    <h2 class="row-title">Revit AI</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/chieu.nguyenvan.1447' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/8iybv02amomuvkhmajhza/Chi-u-Nguy-n.webp?rlkey=d1n4anymb57p29c5cn76j9ybm&st=htz2uarj&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Chiêu Nguyễn</div>
+      </div>
+
+</div>
+
+     <!-- Hàng thứ 5 -->
+    <div class="image-row glass-bg">
     <h2 class="row-title">Revit Structure</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/239065509920947/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -232,7 +244,7 @@ container.innerHTML = `
    
 </div>
 
-    <!-- Hàng thứ 5 -->
+    <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Architecture</h2>
   <div class="image-box">
@@ -265,7 +277,7 @@ container.innerHTML = `
     
 </div>
 
-    <!-- Hàng thứ 6 -->
+    <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Models</h2>
   <div class="image-box">
@@ -284,7 +296,7 @@ container.innerHTML = `
       
 </div>
 
-    <!-- Hàng thứ 7 -->
+    <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Building Home</h2>
   <div class="image-box">
@@ -317,7 +329,7 @@ container.innerHTML = `
             
 </div>
 
-    <!-- Hàng thứ 8 -->
+    <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Decor</h2>
   <div class="image-box">
@@ -385,7 +397,7 @@ container.innerHTML = `
     
 </div>
 
-    <!-- Hàng thứ 9 -->
+    <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Quản lý dự án</h2>
   <div class="image-box">
@@ -432,7 +444,7 @@ container.innerHTML = `
          
 </div>
 
-    <!-- Hàng thứ 10 -->
+    <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Kiến thức BIM</h2>
   <div class="image-box">
@@ -444,7 +456,7 @@ container.innerHTML = `
           
 </div>
 
-    <!-- Hàng thứ 11 -->
+    <!-- Hàng thứ 12 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Tải xuống tài liệu BIM</h2>
       <div class="image-box">
@@ -463,7 +475,7 @@ container.innerHTML = `
           
 </div>
 
-    <!-- Hàng thứ 12 -->
+    <!-- Hàng thứ 13 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Hạ tầng kỹ thuật</h2>
       <div class="image-box">
