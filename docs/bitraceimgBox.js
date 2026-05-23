@@ -418,7 +418,7 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/Phanmemnghiemthuxaydung360' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/pyfl6s91hjlrozusarws5/Nghi-m-Thu-X-y-D-ng-360.webp?rlkey=7o0nkjntudez8ivqs0978igrg&st=5bregecx&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/xb0rwtiqntyteb080lpan/Nghi-m-Thu-X-y-D-ng-360.webp?rlkey=rw8ip2oc07346h77e2rujqwg7&st=gq6wa4vt&raw=1">
 </div>
         <div class="caption">Nghiệm Thu Xây Dựng 360</div>
       </div>
