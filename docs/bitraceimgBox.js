@@ -134,6 +134,13 @@ container.innerHTML = `
         <div class="caption">Trại AutoCAD</div>
       </div>
 
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/thanquangvu93/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/xe7zqrxgq75vgwjzoctkm/Quang-V-XD.webp?rlkey=fv095p08grcl7wop458pva5hm&st=oc2p3jd5&raw=1">
+</div>
+        <div class="caption">Quang Vũ XD</div>
+      </div>
+
    <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/@ThanLe/videos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/kes90jycxdd9wt3yx9937/Th-n-L.png?rlkey=wt77tb8lmmn2dw7sd1848utt2&st=kz2tgx9w&raw=1">
