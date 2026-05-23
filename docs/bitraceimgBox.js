@@ -136,7 +136,7 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/thanquangvu93/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/xe7zqrxgq75vgwjzoctkm/Quang-V-XD.webp?rlkey=fv095p08grcl7wop458pva5hm&st=oc2p3jd5&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/p8odbrz96t2ptacs3s2lf/Quang-V-XD.webp?rlkey=5ow5ng23nvdu5wrh4rhx4l8l5&st=goex3chv&raw=1">
 </div>
         <div class="caption">Quang Vũ XD</div>
       </div>
