@@ -296,7 +296,34 @@ container.innerHTML = `
       
 </div>
 
+
     <!-- Hàng thứ 8 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Architecture Design</h2>
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/109717852235362/user/1843794205/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/88g8nafnlqo3lwu88aeyn/AI-Architect.jpg?rlkey=oa8hya03kykf79bv340xpogx2&st=wjwszm02&raw=1">
+</div>
+        <div class="caption">KTS Cotin</div>
+      </div>
+      
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/815479533482926/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/oj4v9ueps0z4r2x6w7d6u/AIAI-ng-d-ng-AI-trong-thi-t-k-Ki-n-Tr-c-N-i-th-t.webp?rlkey=zhf5ebv40n4obcvfhrsoxy1dd&st=pe60e3or&raw=1">
+</div>
+        <div class="caption">AIAI - Ứng dụng AI trong thiết kế kiến trúc, nội thất</div>
+      </div>
+      
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/tonyhoangaixaydung/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/2k3ij3jh9vwrpob08q3vb/Tony-Ho-ng-Chia-S-AI-cho-X-y-D-ng.png?rlkey=86xbxkaqmo4coxojvriopgy2p&st=pknfwh6z&raw=1">
+</div>
+        <div class="caption">Tony Hoàng chia sẻ AI cho xây dựng</div>
+      </div>
+      
+</div>
+
+    <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Building Home</h2>
   <div class="image-box">
@@ -329,7 +356,7 @@ container.innerHTML = `
             
 </div>
 
-    <!-- Hàng thứ 9 -->
+    <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Decor</h2>
   <div class="image-box">
@@ -397,7 +424,7 @@ container.innerHTML = `
     
 </div>
 
-    <!-- Hàng thứ 10 -->
+    <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Quản lý dự án</h2>
   <div class="image-box">
@@ -444,7 +471,7 @@ container.innerHTML = `
          
 </div>
 
-    <!-- Hàng thứ 11 -->
+    <!-- Hàng thứ 12 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Kiến thức BIM</h2>
   <div class="image-box">
@@ -456,7 +483,7 @@ container.innerHTML = `
           
 </div>
 
-    <!-- Hàng thứ 12 -->
+    <!-- Hàng thứ 13 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Tải xuống tài liệu BIM</h2>
       <div class="image-box">
@@ -475,7 +502,7 @@ container.innerHTML = `
           
 </div>
 
-    <!-- Hàng thứ 13 -->
+    <!-- Hàng thứ 14 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Hạ tầng kỹ thuật</h2>
       <div class="image-box">
