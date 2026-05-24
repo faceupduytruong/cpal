@@ -54,9 +54,17 @@ const folderLinks = {
     url: 'https://www.facebook.com/tienganhCapu/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/bvw8wa2jtkbblekyz6sxq/H-c-Ti-ng-Anh-c-ng-Capu.jpg?rlkey=k6z6wwucs9oml3bd8rhc35f6j&st=34pdphdt&raw=1'
   },
+  'Bứt Phá Tiếng Anh Cùng Gia Sư Vuihoc': {
+    url: 'https://www.facebook.com/giasuvuihoc.butphatienganh/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ktdgz1obklbgfk4wwnr7j/B-t-Ph-Ti-ng-Anh-C-ng-Gia-S-Vuihoc.png?rlkey=snjp3gufh1h23igd3o358z34x&st=604pdbwi&raw=1'
+  },
   'Ms Trang Tích Cực': {
     url: 'https://www.facebook.com/mstrangtichcuc/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/sxlnkszwealvz3l2inqo0/Ms-Trang-T-ch-C-c.jpg?rlkey=42vv976c8q68s8bsqsh94fhwy&st=t3d5o8d8&raw=1'
+  },
+  'Ms Hoa Junior': {
+    url: 'https://www.facebook.com/mshoajunior.edu.vn/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7z5wto3lo1gl23579zll5/Ms-Hoa-Junior.jpg?rlkey=ewwamtkz53old38578al8cq0k&st=g5gj8c0&raw=1'
   },
   'Lê Công Minh': {
     url: 'https://www.facebook.com/lecongminhofficial/reels/',
