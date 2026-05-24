@@ -307,7 +307,6 @@ container.innerHTML = `
         <div class="caption">KTS Cotin</div>
       </div>
 
-    <h2 class="row-title">Architecture Design</h2>
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/khanh.lt.vpp', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/zga5p6ksrn2ta7htnl5nt/Kh-nh-Nguy-n.webp?rlkey=5ulwof8aqvot13u6fzqrwdll0&st=yytysiag&raw=1">
