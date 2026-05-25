@@ -190,10 +190,6 @@ const folderLinks = {
     url: 'https://www.youtube.com/@khamphathegioi410/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uywrn9x520t8pq86bt944/Kh-m-ph-th-gi-i-410.jpg?rlkey=6nc70yru54q71g03rt5fezyp1&st=2i62rn6z&raw=1',
   },
-  'Thế giới kì bí': {
-    url: 'https://www.facebook.com/Thegioikibi1/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/3qpbqkj5qpkt4tovec1g2/Th-gi-i-k-b.jpg?rlkey=ww1apk7oyeog8oos9dbsxqn6v&st=to1ndqwg&raw=1',
-  },
   'Kiến Thức Thú Vị Official': {
     url: 'https://www.youtube.com/@KI%E1%BA%BENTH%E1%BB%A8CTH%C3%9AV%E1%BB%8AOfficial-i8e/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/4nuy4lz9wjtg1p4x761no/KI-N-TH-C-TH-V-Official.png?rlkey=54spxlb8qakpvxy3qpmf3l6rt&st=oq8kys5c&raw=1',
@@ -265,10 +261,6 @@ const folderLinks = {
   'MC Quang Huy': {
     url: 'https://www.facebook.com/profile.php?id=61581484430903&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/tblc057on8le9tt4hu6ru/MC-Quang-Huy.jpg?rlkey=0zkq1d26yu1kc2dao9mqvrutx&st=u6ngatxp&raw=1',
-  },
-  'Bí Ẩn Thế Giới': {
-    url: 'https://www.youtube.com/@bianthegioi19/shorts/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/s0mhl93n258ud79olo6m6/B-n-Th-Gi-i.jpg?rlkey=omqinbtj8zyejdfw1jycd8vqd&st=lejnzoq7&raw=1',
   },
   'Bắp TV': {
     url: 'https://www.facebook.com/baptv5642/reels/',
