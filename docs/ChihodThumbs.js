@@ -134,6 +134,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61576693687932&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/sifdxv1ht763x2nel7g4o/GlassBox-AI.gif?rlkey=rbilphq4w3r6y0f7am2lacs3b&st=mr9tl1dp&raw=1'
   },
+ 'Phạm Mạnh Tuyến': {
+    url: 'https://www.youtube.com/@tuyenpham29792/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h87z2yni22z168litndio/Ph-m-M-nh-Tuy-n.jpg?rlkey=ae75na1ro7t02z0kmk0bdzhp7&st=00vqs84e&raw=1'
+  },
   'Tủ truyện tranh đọc xuôi 199x': {
     url: 'https://www.facebook.com/truyentranhdocxuoi199x/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/x2vrsguq32p07k9mvqnru/T-truy-n-tranh-c-xu-i-199x.gif?rlkey=ya0yye9qll2g37d3d245aksgo&st=boir6zy8&raw=1'
