@@ -18,6 +18,14 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/go7hgrxhqjdlc8twaob54/Google.webp?rlkey=re0z5hmanpo8rp4xts7m24xck&st=riwgh2gl&raw=1'
   },
+  'Thế giới kì bí': {
+    url: 'https://www.facebook.com/Thegioikibi1/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3qpbqkj5qpkt4tovec1g2/Th-gi-i-k-b.jpg?rlkey=ww1apk7oyeog8oos9dbsxqn6v&st=to1ndqwg&raw=1',
+  },
+  'Bí Ẩn Thế Giới': {
+    url: 'https://www.youtube.com/@bianthegioi19/shorts/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s0mhl93n258ud79olo6m6/B-n-Th-Gi-i.jpg?rlkey=omqinbtj8zyejdfw1jycd8vqd&st=lejnzoq7&raw=1',
+  },
   'Bí Ẩn Thế Giới Khác': {
     url: 'https://www.facebook.com/profile.php?id=100090791846406&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/irixstkdgvi3tql1qnxrs/B-n-Th-Gi-i-Kh-c.webp?rlkey=8iw34hqy1eykllzacyfdrg1a3&st=0k5hshff&raw=1',
