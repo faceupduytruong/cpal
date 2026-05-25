@@ -197,7 +197,14 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.youtube.com/@tuan617/playlists/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/h5p1e5y8dj6048vy2hc8e/L-P-H-C-REVIT.png?rlkey=mh4t2dw2esdwbc7glgiou2aqi&st=51ujz5ye&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">LỚP HỌC REVIT</div>
+        <div class="caption">Lớp học REVIT</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@RevitNCN/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/guof5ertn5uif3yn2zioa/Revit-Nh-C-ng-Nghi-p.png?rlkey=rkuh51yc5qxkxfybxjvdrk81a&st=ey739scz&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Revit Nhà Công Nghiệp</div>
       </div>
 
       <div class="image-box">
@@ -241,14 +248,7 @@ container.innerHTML = `
 </div>
         <div class="caption">Tới Hoàng (Engineering)</div>
       </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.youtube.com/@RevitNCN/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/guof5ertn5uif3yn2zioa/Revit-Nh-C-ng-Nghi-p.png?rlkey=rkuh51yc5qxkxfybxjvdrk81a&st=ey739scz&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Revit Nhà Công Nghiệp</div>
-      </div>
-   
+ 
 </div>
 
     <!-- Hàng thứ 6 -->
