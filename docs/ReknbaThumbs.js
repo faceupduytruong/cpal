@@ -41,5 +41,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100023083592363&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/0wrbqac46lcyu1wtj8jzu/S-n-Long-Revit-Ctu.jpg?rlkey=tm7i2tbn0dmapk4ve4oivvaz3&st=z8qppg1s&raw=1',
   },
+  'Revit Nhà Công Nghiệp': {
+    url: 'https://www.facebook.com/groups/1147139689367900/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h4pm2jw8y5fk93pkf4s63/Revit-Nh-C-ng-Nghi-p.jpeg?rlkey=cbnoq1qg3nchavopwc8jmvzol&st=mgg1q00q&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
