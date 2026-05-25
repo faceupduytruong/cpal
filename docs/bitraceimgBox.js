@@ -233,14 +233,21 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/g6yogf9vv7pvp3cs8oyq9/Tri-Huynh-Huu.png?rlkey=i7sminontz1qwsj1njyubcxq8&st=3mvvzsif&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tri Huynh Huu</div>
-      </div> 
+      </div>
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/HoangToi.Ks/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/zhwwng1oa8tjlbjsae7cc/T-i-Ho-ng-Engineering.png?rlkey=tw4zjv6z1tlol147hp7yeuhft&st=39i8emjv&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tới Hoàng (Engineering)</div>
-      </div> 
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@RevitNCN/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/guof5ertn5uif3yn2zioa/Revit-Nh-C-ng-Nghi-p.png?rlkey=rkuh51yc5qxkxfybxjvdrk81a&st=ey739scz&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Revit Nhà Công Nghiệp</div>
+      </div>
    
 </div>
 
