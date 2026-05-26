@@ -2,7 +2,7 @@ const customThumbnails = {
   Function: 'https://www.dropbox.com/scl/fi/rxytqn1kfi49n0nz480kv/Function.webp?rlkey=8zmfz2tndgqjifhwgumtuagu8&st=njmd77uv&raw=1',
   Integer: 'https://www.dropbox.com/scl/fi/e205t3mi73kh4q015vcjb/Integer.png?rlkey=d2clzsyh3ikao314yn6kambc7&st=e6bnhuta&raw=1',
   Sequence: 'https://www.dropbox.com/scl/fi/n5hlv9d21bc1tffrrw0kj/Sequence.jpg?rlkey=dkx4uej2ofhyvkvr01rip422r&st=ol2346sz&raw=1',
-  Trigonometry: 'https://www.dropbox.com/scl/fi/5w6gcrzygxt09ddtoml2k/Trigonometry.webp?rlkey=tinkuw0vm4g0ktu2o1gdv2fza&st=upatrwzs&raw=1',
+  Trigonometry: 'https://www.dropbox.com/scl/fi/i61p5c42iq349f20npcmb/Trigonometry.jpg?rlkey=mhgr34422fq2db2rnt1mbqia8&st=0foye5lg&raw=1',
   Food: 'https://www.dropbox.com/scl/fi/lgtt5781nc4c0orcbbs5l/Food.jpeg?rlkey=jjz5hte4jvcf0w6jjau72xzp6&st=1av9mq5g&raw=1',
   Grammar: 'https://www.dropbox.com/scl/fi/vdfzsyxyjmayk1jrpma7e/Grammar.jpg?rlkey=6nac3oauj9w2ivbz7cuponom8&st=9g2f1s1h&raw=1',
   Health: 'https://www.dropbox.com/scl/fi/44a3z93cu05tmhzyzr7i3/Health.jpg?rlkey=xr36m336mjqec0was4ogohfyy&st=4pwimca2&raw=1',
