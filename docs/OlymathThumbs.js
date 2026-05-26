@@ -1,6 +1,6 @@
 const customThumbnails = {
   Function: 'https://www.dropbox.com/scl/fi/rxytqn1kfi49n0nz480kv/Function.webp?rlkey=8zmfz2tndgqjifhwgumtuagu8&st=njmd77uv&raw=1',
-  Integer: 'https://www.dropbox.com/scl/fi/pljaaycycad5yu9eeypl5/Integer.png?rlkey=zu9ja4dwkojikk28xyrp7whn6&st=z6tdcsxn&raw=1',
+  Integer: 'https://www.dropbox.com/scl/fi/e205t3mi73kh4q015vcjb/Integer.png?rlkey=d2clzsyh3ikao314yn6kambc7&st=e6bnhuta&raw=1',
   Sequence: 'https://www.dropbox.com/scl/fi/n5hlv9d21bc1tffrrw0kj/Sequence.jpg?rlkey=dkx4uej2ofhyvkvr01rip422r&st=ol2346sz&raw=1',
   Employment: 'https://www.dropbox.com/scl/fi/7y8i2fx7cliuodliufhmo/Employment.jpg?rlkey=ik8wlxxs5ca5nqwgcp6vvbqab&st=ubcjbsck&raw=1',
   Food: 'https://www.dropbox.com/scl/fi/lgtt5781nc4c0orcbbs5l/Food.jpeg?rlkey=jjz5hte4jvcf0w6jjau72xzp6&st=1av9mq5g&raw=1',
