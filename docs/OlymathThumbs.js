@@ -11,7 +11,7 @@ const customThumbnails = {
 const folders = {
 'Function': ['2026-05-26_073500.png'],
 'Integer': ['2026-05-26_093444.png'],
-'Sequence': ['2026-05-25_234425.png', '2026-05-26_140046.png'],
+'Sequence': ['2026-05-25_234425.png', '2026-05-26_140046.png', '2026-05-28_205517.png'],
 'Trigonometry': ['2026-05-26_150534.png'],
 'Vector': ['2026-05-28_154819.png'],
 // thêm các mục khác nếu cần
