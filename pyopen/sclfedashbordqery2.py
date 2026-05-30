@@ -105,6 +105,38 @@ sample_playlists = {
         "https://soundcloud.com/trending-music-de/sets/rock-metal-punk",
         "https://soundcloud.com/trending-music-de/sets/techno"
     ],
+    "af": [
+        "https://soundcloud.com/nhanhlaxanh/sets/td1",
+        "https://soundcloud.com/nhanhlaxanh/sets/se2",
+        "https://soundcloud.com/nhanhlaxanh/sets/se1"
+    ],
+    "world": [
+        "https://soundcloud.com/nhanhlaxanh/sets/lit",
+        "https://soundcloud.com/nhanhlaxanh/sets/lip",
+        "https://soundcloud.com/nhanhlaxanh/sets/lif2",
+        "https://soundcloud.com/nhanhlaxanh/sets/liai2",
+        "https://soundcloud.com/nhanhlaxanh/sets/lis",
+        "https://soundcloud.com/nhanhlaxanh/sets/lif1",
+        "https://soundcloud.com/nhanhlaxanh/sets/poc",
+        "https://soundcloud.com/nhanhlaxanh/sets/lid2",
+        "https://soundcloud.com/nhanhlaxanh/sets/lid1",
+        "https://soundcloud.com/nhanhlaxanh/sets/lii"
+    ],
+    "saigon": [
+        "https://soundcloud.com/nhanhlaxanh/sets/sgp",
+        "https://soundcloud.com/nhanhlaxanh/sets/msgldt1",
+        "https://soundcloud.com/nhanhlaxanh/sets/sgtls2",
+        "https://soundcloud.com/slavomir-such/sets/vietnam"
+    ],
+    "hanoi": [
+        "https://soundcloud.com/mrhapham/sets/quoc-trung-duong-xa-van-dam-the-road-to-infinity",
+        "https://soundcloud.com/1stbst/sets/suoi-va-co-nguyen-thao",
+	    "https://soundcloud.com/d-ng-xit-xa-xay/sets/copy-of-don-moen-songs"
+    ],
+    "dalat": [
+        "https://soundcloud.com/nhanhlaxanh/sets/dl2",
+        "https://soundcloud.com/nhanhlaxanh/sets/dl1"
+    ],
     "buzzing": [
         "https://soundcloud.com/buzzing-playlists/sets/buzzing-pop",
         "https://soundcloud.com/buzzing-playlists/sets/buzzing-r-b",
@@ -140,6 +172,7 @@ sample_playlists = {
         "https://soundcloud.com/nhanhlaxanh/sets/slq1"
     ],
     "pop": [
+        "https://soundcloud.com/nhanhlaxanh/sets/nbn",
         "https://soundcloud.com/nhanhlaxanh/sets/nmbn",
         "https://soundcloud.com/nhanhlaxanh/sets/tcnn",
         "https://soundcloud.com/nhanhlaxanh/sets/mgltb",
@@ -163,17 +196,8 @@ sample_playlists = {
         "https://soundcloud.com/nhanhlaxanh/sets/dl2",
         "https://soundcloud.com/nhanhlaxanh/sets/dl1"
     ],
-    "world": [
-        "https://soundcloud.com/nhanhlaxanh/sets/lit",
-        "https://soundcloud.com/nhanhlaxanh/sets/lip",
-        "https://soundcloud.com/nhanhlaxanh/sets/lif2",
-        "https://soundcloud.com/nhanhlaxanh/sets/liai2",
-        "https://soundcloud.com/nhanhlaxanh/sets/lis",
-        "https://soundcloud.com/nhanhlaxanh/sets/lif1",
-        "https://soundcloud.com/nhanhlaxanh/sets/poc",
-        "https://soundcloud.com/nhanhlaxanh/sets/lid2",
-        "https://soundcloud.com/nhanhlaxanh/sets/lid1",
-        "https://soundcloud.com/nhanhlaxanh/sets/lii"
+    "rock": [
+        "https://soundcloud.com/tr-n-nguy-n-915588676/sets/liveshow-buc-tuong-tro-ve"
     ],
     "sleep": [
         "https://soundcloud.com/nhanhlaxanh/sets/wpl",
@@ -206,6 +230,9 @@ sample_playlists = {
         "https://soundcloud.com/nhanhlaxanh/sets/christmas2",
         "https://soundcloud.com/nhanhlaxanh/sets/christmas1"
     ],
+    "xuân": [
+        "https://soundcloud.com/nguy-n-c-b-c-675906594/sets/nhac-xuan-bat-hu"
+    ],
     "love": [
         "https://soundcloud.com/nhanhlaxanh/sets/dcng",
         "https://soundcloud.com/nhanhlaxanh/sets/vtby",
@@ -218,11 +245,6 @@ sample_playlists = {
         "https://soundcloud.com/nhanhlaxanh/sets/999r2",
         "https://soundcloud.com/nhanhlaxanh/sets/999r1"
     ],
-    "saigon": [
-        "https://soundcloud.com/nhanhlaxanh/sets/sgp",
-        "https://soundcloud.com/nhanhlaxanh/sets/msgldt1",
-        "https://soundcloud.com/nhanhlaxanh/sets/sgtls2"
-    ],
     "coffee": [
         "https://soundcloud.com/nhanhlaxanh/sets/hcs5",
         "https://soundcloud.com/nhanhlaxanh/sets/hcs4",
@@ -230,9 +252,14 @@ sample_playlists = {
         "https://soundcloud.com/nhanhlaxanh/sets/hcs2",
         "https://soundcloud.com/nhanhlaxanh/sets/hcs1"
     ],
-    "Đà Lạt": [
-        "https://soundcloud.com/nhanhlaxanh/sets/dl2",
-        "https://soundcloud.com/nhanhlaxanh/sets/dl1"
+    "moon": [
+        "https://soundcloud.com/nhanhlaxanh/sets/nbn",
+        "https://soundcloud.com/nhanhlaxanh/sets/bm1",
+        "https://soundcloud.com/nhanhlaxanh/sets/atc1",
+        "https://soundcloud.com/nhanhlaxanh/sets/hcs5",
+        "https://soundcloud.com/nhanhlaxanh/sets/dayspring2",
+        "https://soundcloud.com/nhanhlaxanh/sets/reflection",
+        "https://soundcloud.com/nhanhlaxanh/sets/fullmoon"
     ],
     "karaoke": [
         "https://soundcloud.com/nhanhlaxanh/sets/karaoke"
@@ -240,11 +267,68 @@ sample_playlists = {
     "la": [
         "https://soundcloud.com/nhanhlaxanh/sets/eboa"
     ],
-    "mj": [
-        "https://soundcloud.com/nhanhlaxanh/sets/mj1"
+    "stories": [
+        "https://soundcloud.com/soundcloud-stories/sets/alternative-ireland",
+        "https://soundcloud.com/soundcloud-stories/sets/alternative-japan",
+        "https://soundcloud.com/soundcloud-stories/sets/alternative-sweden",
+        "https://soundcloud.com/soundcloud-stories/sets/big-mood-2016",
+        "https://soundcloud.com/soundcloud-stories/sets/festival-radar-desert-rave-trip",
+        "https://soundcloud.com/soundcloud-stories/sets/festival-radar-desert-road-trip-2026",
+        "https://soundcloud.com/soundcloud-stories/sets/glastonbury-2025",
+        "https://soundcloud.com/soundcloud-stories/sets/ibiza-summer-anthems",
+        "https://soundcloud.com/soundcloud-stories/sets/new-indie",
+        "https://soundcloud.com/soundcloud-stories/sets/passport-puerto-rico",
+        "https://soundcloud.com/soundcloud-stories/sets/rewind-electronic-2016",
+        "https://soundcloud.com/soundcloud-stories/sets/sounds-of-latin-culture",
+        "https://soundcloud.com/soundcloud-stories/sets/sounds-of-the-asian-diaspora",
+        "https://soundcloud.com/soundcloud-stories/sets/uk-garage",
+        "https://soundcloud.com/soundcloud-stories/sets/women-of-musica-mexicana",
     ],
     "bs": [
         "https://soundcloud.com/nhanhlaxanh/sets/glory"
+    ],
+    "mj": [
+        "https://soundcloud.com/nhanhlaxanh/sets/mj1"
+    ],
+    "cnkk": [
+        "https://soundcloud.com/hi-n-okyo/sets/daily-stoic-am-m-v-c-m-x-c"
+    ],
+    "tkcx": [
+        "https://soundcloud.com/v-n-th-ng-nguy-n-thuong-nguyen-media/sets/tri-k-c-m-x-c-tamsukinhdoanh",
+        "https://soundcloud.com/blue-765383763/sets/tri-k-c-m-x-c-tamsukinhdoanh",
+        "https://soundcloud.com/m-nh-linh-tr-n-496864268/sets/tri-ky-cam-xuc",
+        "https://soundcloud.com/miler-henppy/sets/tri-k-c-m-x-c-tamsukinhdoanh",
+        "https://soundcloud.com/minh-h-i-v-593829035/sets/tri-ki-cam-xuc",
+        "https://soundcloud.com/le-trung-nhan/sets/tri-ki-cam-xuc",
+        "https://soundcloud.com/minh-tu-n-553145952/sets/trikycamxuc",
+        "https://soundcloud.com/qu-c-885618429/sets/tri-k-c-m-x-c",
+        "https://soundcloud.com/thai-hoang-nam-775236035/sets/tri-k-c-m-x-c-tamsukinhdoanh",
+        "https://soundcloud.com/chien-dao-van-895049440/sets/tri-k-c-m-x-c-tamsukinhdoanh",
+        "https://soundcloud.com/chen-nguy-n-910823790/sets/tri-k-c-m-x-c-tamsukinhdoanh",
+        "https://soundcloud.com/trikycamxuc/sets/t-m-s-kinh-doanh-web5ngay",
+        "https://soundcloud.com/user-497407594/sets/tri-k-c-m-x-c",
+        "https://soundcloud.com/user-214793012/sets/t-m-s-kinh-doanh-web5ngay",
+    	"https://soundcloud.com/hey-iamsalem/sets/lemnlife",
+	    "https://soundcloud.com/gusvie-761004526/sets/greens-podcast"
+    ],
+    "xd": [
+        "https://soundcloud.com/ki-n-nguy-n-ch-306626288/sets/tinh-th-n-x-y-d-ng",
+    	"https://soundcloud.com/h-nh-v-672592290/sets/b-i-ca-x-y-d-ng",
+	    "https://soundcloud.com/phuongbte/sets/bi-quyet-xay-dung-nhom-lam",
+    	"https://soundcloud.com/user-948212987/sets/k-n-ng-kinh-doanh-x-y-d-ng-h",
+    	"https://soundcloud.com/nuviet/sets/kinh-nghi-m-x-y-d-ng-h-th-ng",
+    	"https://soundcloud.com/sang-huynh-834491688/sets/b-quy-t-x-y-d-ng-c-nghi-p-b-c",
+        "https://soundcloud.com/nguy-n-th-o-31/sets/english-xay-dung",
+    	"https://soundcloud.com/nguyen-nam-428622813/sets/ti-ng-anh-x-y-d-ng",
+    	"https://soundcloud.com/ti-ng-anh-x-y-d-ng/sets/english-for-construction-pq"     
+    ],
+    "audio": [
+        "https://soundcloud.com/radioonlinevietnam/sets/radioplusvn-truyen-trang-quynh-trang-lon",
+	    "https://soundcloud.com/user-380097984/sets/day-con-lam-giau-tap-12-xay-dung-con-thuyen-tai-chinh-cua-ban",
+        "https://soundcloud.com/sach-noi-phuong-hoa/sets/gi-n-th-ch-nh-t-h-nh",
+	    "https://soundcloud.com/sach-noi-phuong-hoa/sets/t-m-b-nh-y-n-trong-gia-nh-th",
+	    "https://soundcloud.com/sach-noi-phuong-hoa/sets/h-nh-ph-c-c-m-tay-th-ch-nh-t-h",
+    	"https://soundcloud.com/ncavn/sets/audio-book-van-hoa-va-con-nguoi"	
     ],
 }
 
@@ -252,27 +336,35 @@ sample_playlists = {
 aliases = {
     "us": ["us", "US", "US-UK", "US-uk", "us-UK", "us-uk", "US_UK", "us_uk",  "nhạc âu mỹ", "nhạc tây", "nhạc nước ngoài", "nhạc mới nước ngoài", "Mỹ", "mỹ"],
     "vn": ["vn", "VN", "nhạc việt nam", "nhạc trong nước", "nhạc mới trong nước", "Việt Nam", "việt nam", "Việt nam", "việt Nam"],
-    "fr": ["fr", "nhạc pháp", "Pháp", "pháp"],
+    "fr": ["fr", "france", "France","pháp", "Pháp", "nhạc pháp", "Nhạc Pháp", "nhạc Pháp"],
     "ca": ["ca", "nhạc canada", "Canada"],
+    "af": ["af", "Africa", "africa", "nhạc châu phi", "nhạc Châu Phi", "Nhạc Châu Phi", "nhạc Châu phi", "nhạc châu Phi"],
+    "world": ["world", "thế giới", "nhạc thế giới"],
     "de": ["de", "nhạc đan mạch", "Đan Mạch", "Đan mạch", "đan Mạch"],
     "buzzing": ["buzzing", "nhạc khám phá", "nhạc nóng", "hàng nóng"],
     "soul": ["soul", "giới trẻ", "genz", "câu hỏi", "tự vấn", "an ủi", "nhạc tâm hồn", "tâm hồn"],
     "dance": ["dance", "nhạc dance", "nhảy", "nhạc nhảy", "bar", "quán bar"],
     "r&b": ["r&b", "R&B", "nhạc r&b", "nhạc luyến láy", "nhạc người da đen", "da đen"],
     "pop": ["pop", "nhạc phổ thông", "nhạc đại chúng"],
-    "world": ["world", "thế giới", "nhạc thế giới"],
     "sleep": ["sleep", "ngủ", "nhạc ngủ", "nhạc làm dịu tinh thần", "nhạc không lời"],
     "bolero": ["bolero", "country", "trữ tình", "nhạc trữ tình", "quê hương"],
     "inspiration": ["inspiration", "nguồn cảm hứng", "đam mê của tôi", "đam mê", "nhạc dân tộc", "nhạc chiết trung"],
     "christmas": ["christmas", "Christmas", "giáng sinh", "Giáng Sinh", "giáng Sinh", "Giáng sinh", "Noel", "noel"],
     "love": ["love", "tình yêu", "yêu thương", "romantic", "nhạc tình yêu", "nhạc lãng mạn"],
-    "saigon": ["saigon", "sài gòn", "sài thành", "sg", "Sài Gòn", "sài Gòn", "Sài gòn", "tphcm", "TpHCM", "miền nam", "Miền Nam", "miền Nam", "Miền nam"],
     "coffee": ["coffee", "heaven", "shop", "heaven coffee", "coffee shop", "heaven coffee shop"],
-    "Đà Lạt": ["đà lạt", "dalat", "da lat", "Đà Lạt", "đà Lạt"],
+    "saigon": ["saigon", "sài gòn", "sài thành", "sg", "Sài Gòn", "sài Gòn", "Sài gòn", "SÀI GÒN", "tphcm", "TpHCM", "TPHCM", "miền nam", "Miền Nam", "miền Nam", "Miền nam", "Phía Nam", "Phía nam", "phía Nam", "PHÍA NAM"],
+    "hanoi": ["hanoi", "hà nội", "hn", "Hà Nội", "Hà nội", "hà Nội", "HÀ NỘI", "miền bắc", "miền Bắc", "Miền bắc", "Miền Bắc", "Phía Bắc", "Phía bắc", "phía Bắc", "PHÍA BẮC"],
+    "dalat": ["dalat", "da lat", "đà lạt", "Đà Lạt", "đà Lạt"],
+    "moon": ["moon", "Moon", "mặt trăng", "Mặt trăng", "mặt Trăng", "Mặt Trăng"],
     "karaoke": ["karaoke", "tự hát", "hát hay không bằng hay hát", "tự sướng"],
     "la": ["la", "chữ a", "playlist a", "A"],
+    "stories": ["stories", "Stories", "soundcloud", "Soundcloud", "souncloud stories", "Souncloud stories", "Souncloud Stories", "playlist of soundcloud", "soundcloud playlist", "Soundcloud playlist", "Soundcloud Playlist"],
+    "bs": ["bs", "Britney Spears", "công chúa nhạc pop", "britney spears", "britney"],
     "mj": ["mj", "michael jackson", "Michael Jackson", "Michael", "Jackson", "ông vua nhạc pop"],
-    "bs": ["bs", "Britney Spears", "công chúa nhạc pop", "britney spears", "britney"]
+    "cnkk": ["cnkk", "chủ nghĩa khắc kỷ", "Chủ Nghĩa Khắc Kỷ", "Chủ nghĩa khắc kỷ", "CHỦ NGHĨA KHẮC KỶ"],
+    "tkcx": ["tkcx", "tri kỷ", "Tri Kỷ", "tri Kỷ", "Tri kỷ", "tri kỷ cảm xúc", "Tri kỷ cảm xúc", "Tri Kỷ Cảm Xúc", "TRI KỶ CẢM XÚC"],
+    "xd": ["xd", "xây dựng", "Xây dựng", "xây Dựng", "XÂY DỰNG", "nghề xây dựng"],
+    "audio": ["audio", "truyện đọc", "nghe truyện", "kể chuyện", "nghe kể truyện"],
 }
 
 @app.get("/feed_soundcloud")
