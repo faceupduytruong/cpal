@@ -131,7 +131,7 @@ sample_playlists = {
     "hanoi": [
         "https://soundcloud.com/mrhapham/sets/quoc-trung-duong-xa-van-dam-the-road-to-infinity",
         "https://soundcloud.com/1stbst/sets/suoi-va-co-nguyen-thao",
-	    "https://soundcloud.com/d-ng-xit-xa-xay/sets/copy-of-don-moen-songs"
+		"https://soundcloud.com/d-ng-xit-xa-xay/sets/copy-of-don-moen-songs"
     ],
     "dalat": [
         "https://soundcloud.com/nhanhlaxanh/sets/dl2",
@@ -308,27 +308,27 @@ sample_playlists = {
         "https://soundcloud.com/trikycamxuc/sets/t-m-s-kinh-doanh-web5ngay",
         "https://soundcloud.com/user-497407594/sets/tri-k-c-m-x-c",
         "https://soundcloud.com/user-214793012/sets/t-m-s-kinh-doanh-web5ngay",
-    	"https://soundcloud.com/hey-iamsalem/sets/lemnlife",
-	    "https://soundcloud.com/gusvie-761004526/sets/greens-podcast"
+		"https://soundcloud.com/hey-iamsalem/sets/lemnlife",
+		"https://soundcloud.com/gusvie-761004526/sets/greens-podcast"
     ],
     "xd": [
         "https://soundcloud.com/ki-n-nguy-n-ch-306626288/sets/tinh-th-n-x-y-d-ng",
-    	"https://soundcloud.com/h-nh-v-672592290/sets/b-i-ca-x-y-d-ng",
-	    "https://soundcloud.com/phuongbte/sets/bi-quyet-xay-dung-nhom-lam",
-    	"https://soundcloud.com/user-948212987/sets/k-n-ng-kinh-doanh-x-y-d-ng-h",
-    	"https://soundcloud.com/nuviet/sets/kinh-nghi-m-x-y-d-ng-h-th-ng",
-    	"https://soundcloud.com/sang-huynh-834491688/sets/b-quy-t-x-y-d-ng-c-nghi-p-b-c",
-        "https://soundcloud.com/nguy-n-th-o-31/sets/english-xay-dung",
-    	"https://soundcloud.com/nguyen-nam-428622813/sets/ti-ng-anh-x-y-d-ng",
-    	"https://soundcloud.com/ti-ng-anh-x-y-d-ng/sets/english-for-construction-pq"     
+		"https://soundcloud.com/h-nh-v-672592290/sets/b-i-ca-x-y-d-ng",
+		"https://soundcloud.com/phuongbte/sets/bi-quyet-xay-dung-nhom-lam",
+		"https://soundcloud.com/user-948212987/sets/k-n-ng-kinh-doanh-x-y-d-ng-h",
+		"https://soundcloud.com/nuviet/sets/kinh-nghi-m-x-y-d-ng-h-th-ng",
+		"https://soundcloud.com/sang-huynh-834491688/sets/b-quy-t-x-y-d-ng-c-nghi-p-b-c",
+		"https://soundcloud.com/nguy-n-th-o-31/sets/english-xay-dung",
+		"https://soundcloud.com/nguyen-nam-428622813/sets/ti-ng-anh-x-y-d-ng",
+		"https://soundcloud.com/ti-ng-anh-x-y-d-ng/sets/english-for-construction-pq"     
     ],
     "audio": [
         "https://soundcloud.com/radioonlinevietnam/sets/radioplusvn-truyen-trang-quynh-trang-lon",
-	    "https://soundcloud.com/user-380097984/sets/day-con-lam-giau-tap-12-xay-dung-con-thuyen-tai-chinh-cua-ban",
+		"https://soundcloud.com/user-380097984/sets/day-con-lam-giau-tap-12-xay-dung-con-thuyen-tai-chinh-cua-ban",
         "https://soundcloud.com/sach-noi-phuong-hoa/sets/gi-n-th-ch-nh-t-h-nh",
-	    "https://soundcloud.com/sach-noi-phuong-hoa/sets/t-m-b-nh-y-n-trong-gia-nh-th",
-	    "https://soundcloud.com/sach-noi-phuong-hoa/sets/h-nh-ph-c-c-m-tay-th-ch-nh-t-h",
-    	"https://soundcloud.com/ncavn/sets/audio-book-van-hoa-va-con-nguoi"	
+		"https://soundcloud.com/sach-noi-phuong-hoa/sets/t-m-b-nh-y-n-trong-gia-nh-th",
+		"https://soundcloud.com/sach-noi-phuong-hoa/sets/h-nh-ph-c-c-m-tay-th-ch-nh-t-h",
+		"https://soundcloud.com/ncavn/sets/audio-book-van-hoa-va-con-nguoi"	
     ],
 }
 
