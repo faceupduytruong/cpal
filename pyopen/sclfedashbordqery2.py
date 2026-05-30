@@ -54,7 +54,7 @@ sample_playlists = {
         "https://soundcloud.com/trending-music-vn/sets/techno",
         "https://soundcloud.com/trending-music-vn/sets/rock-metal-punk"
     ],
-    "fr": [
+    "france": [
         "https://soundcloud.com/trending-music-fr/sets/soundcloud",
         "https://soundcloud.com/trending-music-fr/sets/pop",
         "https://soundcloud.com/trending-music-fr/sets/r-b",
@@ -71,7 +71,7 @@ sample_playlists = {
         "https://soundcloud.com/trending-music-fr/sets/rock-metal-punk",
         "https://soundcloud.com/trending-music-fr/sets/techno"
     ],
-    "ca": [
+    "canada": [
         "https://soundcloud.com/trending-music-ca/sets/soundcloud",
         "https://soundcloud.com/trending-music-ca/sets/pop",
         "https://soundcloud.com/trending-music-ca/sets/r-b",
@@ -88,7 +88,7 @@ sample_playlists = {
         "https://soundcloud.com/trending-music-ca/sets/rock-metal-punk",
         "https://soundcloud.com/trending-music-ca/sets/techno"
     ],
-    "de": [
+    "denmark": [
         "https://soundcloud.com/trending-music-de/sets/soundcloud",
         "https://soundcloud.com/trending-music-de/sets/pop",
         "https://soundcloud.com/trending-music-de/sets/r-b",
@@ -105,7 +105,7 @@ sample_playlists = {
         "https://soundcloud.com/trending-music-de/sets/rock-metal-punk",
         "https://soundcloud.com/trending-music-de/sets/techno"
     ],
-    "af": [
+    "africa": [
         "https://soundcloud.com/nhanhlaxanh/sets/td1",
         "https://soundcloud.com/nhanhlaxanh/sets/se2",
         "https://soundcloud.com/nhanhlaxanh/sets/se1"
@@ -336,20 +336,22 @@ sample_playlists = {
 aliases = {
     "us": ["us", "US", "US-UK", "US-uk", "us-UK", "us-uk", "US_UK", "us_uk",  "nhạc âu mỹ", "nhạc tây", "nhạc nước ngoài", "nhạc mới nước ngoài", "Mỹ", "mỹ"],
     "vn": ["vn", "VN", "nhạc việt nam", "nhạc trong nước", "nhạc mới trong nước", "Việt Nam", "việt nam", "Việt nam", "việt Nam"],
-    "fr": ["fr", "france", "France","pháp", "Pháp", "nhạc pháp", "Nhạc Pháp", "nhạc Pháp"],
-    "ca": ["ca", "nhạc canada", "Canada"],
-    "af": ["af", "Africa", "africa", "nhạc châu phi", "nhạc Châu Phi", "Nhạc Châu Phi", "nhạc Châu phi", "nhạc châu Phi"],
+    "france": ["fr", "france", "France","pháp", "Pháp", "nhạc pháp", "Nhạc Pháp", "nhạc Pháp"],
+    "canada": ["canada", "nhạc canada", "Canada"],
+    "denmark": ["denmark", "nhạc đan mạch", "Đan Mạch", "Đan mạch", "đan Mạch"],
+    "africa": ["africa", "Africa", "nhạc châu phi", "nhạc Châu Phi", "Nhạc Châu Phi", "nhạc Châu phi", "nhạc châu Phi"],
     "world": ["world", "thế giới", "nhạc thế giới"],
-    "de": ["de", "nhạc đan mạch", "Đan Mạch", "Đan mạch", "đan Mạch"],
     "buzzing": ["buzzing", "nhạc khám phá", "nhạc nóng", "hàng nóng"],
     "soul": ["soul", "giới trẻ", "genz", "câu hỏi", "tự vấn", "an ủi", "nhạc tâm hồn", "tâm hồn"],
     "dance": ["dance", "nhạc dance", "nhảy", "nhạc nhảy", "bar", "quán bar"],
     "r&b": ["r&b", "R&B", "nhạc r&b", "nhạc luyến láy", "nhạc người da đen", "da đen"],
     "pop": ["pop", "nhạc phổ thông", "nhạc đại chúng"],
+    "rock": ["rock"],
     "sleep": ["sleep", "ngủ", "nhạc ngủ", "nhạc làm dịu tinh thần", "nhạc không lời"],
     "bolero": ["bolero", "country", "trữ tình", "nhạc trữ tình", "quê hương"],
     "inspiration": ["inspiration", "nguồn cảm hứng", "đam mê của tôi", "đam mê", "nhạc dân tộc", "nhạc chiết trung"],
     "christmas": ["christmas", "Christmas", "giáng sinh", "Giáng Sinh", "giáng Sinh", "Giáng sinh", "Noel", "noel"],
+    "xuân": ["xuân", "xuan", "mùa xuân", "mua xuan", "tet"],
     "love": ["love", "tình yêu", "yêu thương", "romantic", "nhạc tình yêu", "nhạc lãng mạn"],
     "coffee": ["coffee", "heaven", "shop", "heaven coffee", "coffee shop", "heaven coffee shop"],
     "saigon": ["saigon", "sài gòn", "sài thành", "sg", "Sài Gòn", "sài Gòn", "Sài gòn", "SÀI GÒN", "tphcm", "TpHCM", "TPHCM", "miền nam", "Miền Nam", "miền Nam", "Miền nam", "Phía Nam", "Phía nam", "phía Nam", "PHÍA NAM"],
