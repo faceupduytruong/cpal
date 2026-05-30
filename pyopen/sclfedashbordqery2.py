@@ -336,7 +336,7 @@ sample_playlists = {
 aliases = {
     "us": ["us", "US", "US-UK", "US-uk", "us-UK", "us-uk", "US_UK", "us_uk",  "nhạc âu mỹ", "nhạc tây", "nhạc nước ngoài", "nhạc mới nước ngoài", "Mỹ", "mỹ"],
     "vn": ["vn", "VN", "nhạc việt nam", "nhạc trong nước", "nhạc mới trong nước", "Việt Nam", "việt nam", "Việt nam", "việt Nam"],
-    "france": ["fr", "france", "France","pháp", "Pháp", "nhạc pháp", "Nhạc Pháp", "nhạc Pháp"],
+    "france": ["france", "France","pháp", "Pháp", "nhạc pháp", "Nhạc Pháp", "nhạc Pháp"],
     "canada": ["canada", "nhạc canada", "Canada"],
     "denmark": ["denmark", "nhạc đan mạch", "Đan Mạch", "Đan mạch", "đan Mạch"],
     "africa": ["africa", "Africa", "nhạc châu phi", "nhạc Châu Phi", "Nhạc Châu Phi", "nhạc Châu phi", "nhạc châu Phi"],
