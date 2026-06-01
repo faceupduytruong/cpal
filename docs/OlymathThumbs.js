@@ -13,7 +13,7 @@ const folders = {
 'Function': ['Kiểm tra nghiệm thực của phương trình.png', 'Đinh lý Vi-ét.png'],
 'Integer': ['Tìm số nguyên thỏa mãn hệ phương trình.png'],
 'Probability': ['Tổ hợp chập k-n.png'],
-'Sequence': ['Chỉnh hợp chập k-n.png', 'Số nguyên tố, số nguyên và số tự nhiên.png', 'Tách phân số.png', 'Tổng cấp số cộng và cấp số nhân.png', 'Đạo hàm hàm số.png'],
+'Sequence': ['Chỉnh hợp chập k-n.png', 'Dãy đơn điệu giảm và đơn điệu tăng.png', 'Số nguyên tố, số nguyên và số tự nhiên.png', 'Tách phân số.png', 'Tổng cấp số cộng và cấp số nhân.png', 'Xác định số hạng tổng quát.png', 'Đạo hàm hàm số.png'],
 'Trigonometry': ['Phương trình lượng giác sinX = sinY.png'],
 'Vector': ['Tâm tỉ cự.png'],
 // thêm các mục khác nếu cần
