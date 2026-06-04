@@ -645,6 +645,13 @@ body.dark-mode .popup-content h3 {
   border-radius: 0px;
 }
 
+.glass-bg1 {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background-color 0.5s ease, backdrop-filter 0.5s ease;
+  border-radius: 10px;
+}
+
 .glowing-text {
   font-weight: bold;
   font-size: 2.7rem;
