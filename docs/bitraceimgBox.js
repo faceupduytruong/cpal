@@ -525,6 +525,16 @@ container.innerHTML = `
 </div>
         <div class="caption">BIM Hà Nội (Autodesk Civil 3D)</div>
       </div>
+
+    <!-- Hàng thứ 15 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Cơ học xây dựng</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@MechanicalEngineeringCorner/playlists', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/vu12zcfflgqlcodrbffqr/Mechanical-Engineering-Corner.png?rlkey=814eib59ugkyquoxhsy0z43wx&st=601li8d4&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Mechanical Engineering Corner (Phần mềm)</div>
+      </div>
           
 </div>
 
