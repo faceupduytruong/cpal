@@ -36,5 +36,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@tuyenpham29792/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/h87z2yni22z168litndio/Ph-m-M-nh-Tuy-n.jpg?rlkey=ae75na1ro7t02z0kmk0bdzhp7&st=00vqs84e&raw=1'
   },
+ 'Toán Thú Vị': {
+    url: 'https://www.youtube.com/@To%C3%A1nTh%C3%BAV%E1%BB%8B/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vaspqxgpmu1tka0g2voed/To-n-Th-V.jpg?rlkey=acl3w97uwequ1jwgtjemyci3t&st=rd23nghz&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
