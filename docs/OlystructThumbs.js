@@ -28,5 +28,5 @@ const folderLinks = {
   },
   'NPT Training Center': {
     url: 'https://www.youtube.com/@NPTTrainingCenter/courses',
-    thumbnail: 'https://www.dropbox.com/scl/fi/siicirqbcn4eyvtkft382/NPT-Training-Center.jpg?rlkey=fbexm6zzrvkqozclpu2pei28i&st=ejubin57&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/siicirqbcn4eyvtkft382/NPT-Training-Center.jpg?rlkey=fbexm6zzrvkqozclpu2pei28i&st=ejubin57&raw=1',
   },
