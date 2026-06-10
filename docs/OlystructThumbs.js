@@ -24,7 +24,7 @@ const folderLinks = {
   },
   'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xxcu48l8mq0daw943cpki/Google-Translate.png?rlkey=h3btnzpi3dz9jq8wpphebcr48&st=cla53s88&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/xxcu48l8mq0daw943cpki/Google-Translate.png?rlkey=h3btnzpi3dz9jq8wpphebcr48&st=cla53s88&raw=1',
   },
   'NPT Training Center': {
     url: 'https://www.youtube.com/@NPTTrainingCenter/courses',
