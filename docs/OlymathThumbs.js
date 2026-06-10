@@ -1,7 +1,7 @@
 const customThumbnails = {
    'Bất đẳng thức': 'https://www.dropbox.com/scl/fi/rd4b7oqa7is9flq3rvz9z/B-t-ng-th-c.jpg?rlkey=lvujqjjkq8z24mpr6hpt7p24c&st=g5cy0y6s&raw=1',
    'Chuỗi số': 'https://www.dropbox.com/scl/fi/n5hlv9d21bc1tffrrw0kj/Chu-i-s.jpg?rlkey=dkx4uej2ofhyvkvr01rip422r&st=pgs0mt7i&raw=1',
-   'Giải phương trình': 'https://www.dropbox.com/scl/fi/9dxjn23hpocnwnrja2pc5/Gi-i-ph-ng-tr-nh.webp?rlkey=3vsavzi4es8eswqoff7aigyap&st=iguaw3ii&raw=1'
+   'Giải phương trình': 'https://www.dropbox.com/scl/fi/9dxjn23hpocnwnrja2pc5/Gi-i-ph-ng-tr-nh.webp?rlkey=3vsavzi4es8eswqoff7aigyap&st=iguaw3ii&raw=1',
    'Hàm số': 'https://www.dropbox.com/scl/fi/rxytqn1kfi49n0nz480kv/Function.webp?rlkey=8zmfz2tndgqjifhwgumtuagu8&st=njmd77uv&raw=1',
    'Lượng giác': 'https://www.dropbox.com/scl/fi/wip9zsbx50rfmxn8gwthh/L-ng-gi-c.jpeg?rlkey=jjeby05ggp6fkltngclttuodo&st=6ncjb8of&raw=1',
    'Số nguyên': 'https://www.dropbox.com/scl/fi/e205t3mi73kh4q015vcjb/Integer.png?rlkey=d2clzsyh3ikao314yn6kambc7&st=e6bnhuta&raw=1',
