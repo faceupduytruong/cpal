@@ -1,21 +1,25 @@
 const customThumbnails = {
-   Function: 'https://www.dropbox.com/scl/fi/rxytqn1kfi49n0nz480kv/Function.webp?rlkey=8zmfz2tndgqjifhwgumtuagu8&st=njmd77uv&raw=1',
-   Integer: 'https://www.dropbox.com/scl/fi/e205t3mi73kh4q015vcjb/Integer.png?rlkey=d2clzsyh3ikao314yn6kambc7&st=e6bnhuta&raw=1',
-   Probability: 'https://www.dropbox.com/scl/fi/bwrkn63ndnzgcvelht6ru/Probability.jpg?rlkey=i6dg8g0iyd8gn4nyulwvgom1n&st=4ue8j96f&raw=1',
-   Sequence: 'https://www.dropbox.com/scl/fi/n5hlv9d21bc1tffrrw0kj/Sequence.jpg?rlkey=dkx4uej2ofhyvkvr01rip422r&st=ol2346sz&raw=1',
-   Trigonometry: 'https://www.dropbox.com/scl/fi/wip9zsbx50rfmxn8gwthh/Trigonometry.jpeg?rlkey=jjeby05ggp6fkltngclttuodo&st=2abyohx4&raw=1',
-   Vector: 'https://www.dropbox.com/scl/fi/55wwh7eqh4w2xtj0g7189/Vector.jpg?rlkey=fgfmd4m46vnfdfja264vjuqd2&st=3594jubd&raw=1',
+   'Bất đẳng thức': 'https://www.dropbox.com/scl/fi/rd4b7oqa7is9flq3rvz9z/B-t-ng-th-c.jpg?rlkey=lvujqjjkq8z24mpr6hpt7p24c&st=g5cy0y6s&raw=1',
+   'Chuỗi số': 'https://www.dropbox.com/scl/fi/n5hlv9d21bc1tffrrw0kj/Chu-i-s.jpg?rlkey=dkx4uej2ofhyvkvr01rip422r&st=pgs0mt7i&raw=1',
+   'Giải phương trình': 'https://www.dropbox.com/scl/fi/9dxjn23hpocnwnrja2pc5/Gi-i-ph-ng-tr-nh.webp?rlkey=3vsavzi4es8eswqoff7aigyap&st=iguaw3ii&raw=1'
+   'Hàm số': 'https://www.dropbox.com/scl/fi/rxytqn1kfi49n0nz480kv/Function.webp?rlkey=8zmfz2tndgqjifhwgumtuagu8&st=njmd77uv&raw=1',
+   'Lượng giác': 'https://www.dropbox.com/scl/fi/wip9zsbx50rfmxn8gwthh/L-ng-gi-c.jpeg?rlkey=jjeby05ggp6fkltngclttuodo&st=6ncjb8of&raw=1',
+   'Số nguyên': 'https://www.dropbox.com/scl/fi/e205t3mi73kh4q015vcjb/Integer.png?rlkey=d2clzsyh3ikao314yn6kambc7&st=e6bnhuta&raw=1',
+   'Vector': 'https://www.dropbox.com/scl/fi/55wwh7eqh4w2xtj0g7189/Vector.jpg?rlkey=fgfmd4m46vnfdfja264vjuqd2&st=3594jubd&raw=1',
+   'Xác suất': 'https://www.dropbox.com/scl/fi/bwrkn63ndnzgcvelht6ru/Probability.jpg?rlkey=i6dg8g0iyd8gn4nyulwvgom1n&st=4ue8j96f&raw=1',
    // thêm các mục khác nếu cần
 };
 
 // Danh sách thư mục và số lượng ảnh trong mỗi thư mục
 const folders = {
-   'Function': ['Kiểm tra nghiệm thực của phương trình.png', 'Đinh lý Vi-ét.png'],
-   'Integer': ['Tìm số nguyên thỏa mãn hệ phương trình.png'],
-   'Probability': ['Tổ hợp chập k-n.png'],
-   'Sequence': ['Chỉnh hợp chập k-n.png', 'Dãy đơn điệu giảm và đơn điệu tăng.png', 'Số nguyên tố, số nguyên và số tự nhiên.png', 'Tách phân số.png', 'Tổng cấp số cộng và cấp số nhân.png', 'Xác định số hạng tổng quát.png', 'Đạo hàm hàm số.png'],
-   'Trigonometry': ['Phương trình lượng giác sinX = sinY.png'],
+   'Bất đẳng thức': ['Bất đẳng thức Bunhiacopxki.png', 'Tìm giá trị nhỏ nhất của biểu thức.png'],
+   'Chuỗi số': ['Chỉnh hợp chập k-n.png', 'Chứng minh chuỗi số lớn hơn một số nào đó.png', 'Chứng minh dãy là một cấp số nhân.png', 'Dãy đơn điệu giảm và đơn điệu tăng.png', 'Số nguyên tố, số nguyên và số tự nhiên.png', 'Tách phân số.png', 'Tính tổng dãy số thông minh.png', 'Tổng cấp số cộng và cấp số nhân.png', 'Xác định số hạng tổng quát.png'],
+   'Giải phương trình': ['Rút gọn biểu thức, Giải phương trình.png'],
+   'Hàm số': ['Giải phương trình bằng vẽ hàm số đạo hàm.png', 'Kiểm tra nghiệm thực của phương trình.png', 'Tìm số thực để lim tồn tại hữu hạn.png', 'Đinh lý Vi-ét.png', 'Đạo hàm của hàm hợp.png'],
+   'Lượng giác': ['Phương trình lượng giác sinX = sinY.png'],
+   'Số nguyên': ['Số nguyên tố cùng nhau.png', 'Tìm số nguyên thỏa mãn hệ phương trình.png'],
    'Vector': ['Tâm tỉ cự.png'],
+   'Xác suất': ['Tổ hợp chập k-n.png'],
    // thêm các mục khác nếu cần
 };
 
