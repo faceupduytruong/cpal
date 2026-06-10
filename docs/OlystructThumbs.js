@@ -16,3 +16,17 @@ const folders = {
   'Sức bền vật liệu': ['Biểu đồ momen uốn có tiếp tuyến nằm ngang.png', 'Dầm có thể tích nhỏ nhất.png'],
   // thêm các mục khác nếu cần
 };
+
+const folderLinks = {
+  'Sách Kể Chuyện': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Story/index.htm',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mzn88e97lpg5o4wgqw3cx/S-ch-K-Chuy-n.webp?rlkey=71udzkkrr0jw2plf77s72ebxg&st=zbnf1h9g&raw=1',
+  },
+  'Google Translate': {
+    url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xxcu48l8mq0daw943cpki/Google-Translate.png?rlkey=h3btnzpi3dz9jq8wpphebcr48&st=cla53s88&raw=1'
+  },
+  'NPT Training Center': {
+    url: 'https://www.youtube.com/@NPTTrainingCenter/courses',
+    thumbnail: 'https://www.dropbox.com/scl/fi/siicirqbcn4eyvtkft382/NPT-Training-Center.jpg?rlkey=fbexm6zzrvkqozclpu2pei28i&st=ejubin57&raw=1'
+  },
