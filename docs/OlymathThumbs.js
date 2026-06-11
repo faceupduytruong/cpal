@@ -44,5 +44,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@To%C3%A1nTh%C3%BAV%E1%BB%8B/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vaspqxgpmu1tka0g2voed/To-n-Th-V.jpg?rlkey=acl3w97uwequ1jwgtjemyci3t&st=rd23nghz&raw=1'
   },
+ 'Video Giải Violympic Toán': {
+    url: 'https://www.youtube.com/@videogiaiviolympictoan5795/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0co4riq28fj1dvtejzazp/Video-Gi-i-Violympic-To-n.png?rlkey=2s5g9hjyfxtkqc8jocdeyk104&st=1r262h0p&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
