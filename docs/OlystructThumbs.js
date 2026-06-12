@@ -30,5 +30,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@NPTTrainingCenter/courses',
     thumbnail: 'https://www.dropbox.com/scl/fi/siicirqbcn4eyvtkft382/NPT-Training-Center.jpg?rlkey=fbexm6zzrvkqozclpu2pei28i&st=ejubin57&raw=1',
   },
+  'Xây Dựng Hay': {
+    url: 'https://www.youtube.com/@kysuxuankhoi/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nmvp7shbyeadw6kgedfvc/X-y-D-ng-Hay.jpg?rlkey=h5ygiuoy1gjp6xba7fz5s25va&st=9mmwsznr&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
