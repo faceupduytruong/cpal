@@ -5,7 +5,7 @@ const customThumbnails = {
   'Cơ lý thuyết': 'https://www.dropbox.com/scl/fi/aur6rvlfwokic8xsmehps/C-l-thuy-t.jpg?rlkey=jfgnxy4trypp90waux2or1w9f&st=ajxs4kjh&raw=1',
   'SAP2000':'https://www.dropbox.com/scl/fi/cogy2bdcbmcxwknoh32ve/SAP2000.jpeg?rlkey=lbnj8iaajgmc3tuv69vazcepv&st=fg490uut&raw=1',
   'Sức bền vật liệu': 'https://www.dropbox.com/scl/fi/frkkofntaej4d8lbfhecp/S-c-b-n-v-t-li-u.PNG?rlkey=mkahbwuh748416txdjhhbi3le&st=i4v1xhz8&raw=1',
- / thêm các mục khác nếu cần
+  // thêm các mục khác nếu cần
 };
 
 // Danh sách thư mục và số lượng ảnh trong mỗi thư mục
