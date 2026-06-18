@@ -187,6 +187,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Làm Chủ Thiết Kế Autocad</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61554854386992&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/gvv9vigmquot2697dbj2n/T-H-c-Autocad-T-i-Nh.webp?rlkey=97xf6uh6pxvlxsmxfvv6ilyzf&st=728gv0ul&raw=1">
+</div>
+        <div class="caption">Tự Học Autocad Tại Nhà</div>
+      </div>
      
 </div>
 
