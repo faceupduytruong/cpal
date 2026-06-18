@@ -130,14 +130,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/TKBooks.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2xfs6mszfzta4v277h2ci/TKBooks-C-c-M-n-H-c.jpg?rlkey=yf9cv58ink6uj46ht41puzrtm&st=9owsvd48&raw=1'
   },
- 'GlassBox AI': {
-    url: 'https://www.facebook.com/profile.php?id=61576693687932&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/sifdxv1ht763x2nel7g4o/GlassBox-AI.gif?rlkey=rbilphq4w3r6y0f7am2lacs3b&st=mr9tl1dp&raw=1'
-  },
- 'Phạm Mạnh Tuyến': {
-    url: 'https://www.youtube.com/@tuyenpham29792/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/h87z2yni22z168litndio/Ph-m-M-nh-Tuy-n.jpg?rlkey=ae75na1ro7t02z0kmk0bdzhp7&st=00vqs84e&raw=1'
-  },
   'Tủ truyện tranh đọc xuôi 199x': {
     url: 'https://www.facebook.com/truyentranhdocxuoi199x/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/x2vrsguq32p07k9mvqnru/T-truy-n-tranh-c-xu-i-199x.gif?rlkey=ya0yye9qll2g37d3d245aksgo&st=boir6zy8&raw=1'
@@ -189,6 +181,18 @@ const folderLinks = {
  'Bàn học thông minh BSUC Hải Phòng': {
     url: 'https://www.facebook.com/BSUCDOSON/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/zv8jdhz16byll3c882i3v/B-n-h-c-th-ng-minh-BSUC-H-i-Ph-ng.gif?rlkey=kuiqsw88unx1lxx711hwvetv8&st=fkbqj4nq&raw=1'
+  },
+ 'Bàn học thông minh BSUC Hải Phòng': {
+    url: 'https://www.facebook.com/BSUCDOSON/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zv8jdhz16byll3c882i3v/B-n-h-c-th-ng-minh-BSUC-H-i-Ph-ng.gif?rlkey=kuiqsw88unx1lxx711hwvetv8&st=fkbqj4nq&raw=1'
+  },
+ 'Bàn học thông minh BSUC Hải Phòng': {
+    url: 'https://www.facebook.com/BSUCDOSON/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zv8jdhz16byll3c882i3v/B-n-h-c-th-ng-minh-BSUC-H-i-Ph-ng.gif?rlkey=kuiqsw88unx1lxx711hwvetv8&st=fkbqj4nq&raw=1'
+  },
+ 'Học liệu mẹ Tiền - Phương Okuda': {
+    url: 'https://www.facebook.com/PhuongOkuda/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gjo4dolzvcrirlp2wimbk/H-c-li-u-m-Ti-n-Ph-ng-Okuda.gif?rlkey=w9w6jqw2znas1ea4p2h9vv5d3&st=eee7c8gz&raw=1'
   },
   // thêm các mục khác nếu cần
 };
