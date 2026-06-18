@@ -134,6 +134,10 @@ const folderLinks = {
     url: 'https://quantrimang.com/khoa-hoc/khoa-hoc-vu-tru',
     thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/Qu-n-Tr-M-ng-V-Tr.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=rvxcg180&raw=1',
   },
+  'Bản Chất Khoa Học': {
+    url: 'https://www.facebook.com/banchatkhoahoc/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/j17slhok9711fx3n7cqqj/B-n-Ch-t-Khoa-H-c.jpg?rlkey=g71blenqhypiph2l7eylwejtx&st=kgx1a1en&raw=1',
+  },
   'Yêu Khoa Học': {
     url: 'https://www.facebook.com/profile.php?id=100090017247326&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/sp8m5tihikkwfz9o7372p/Y-u-Khoa-H-c.png?rlkey=51ilo00ssfk39ysqzff1ie6sv&st=ja2ksryx&raw=1',
