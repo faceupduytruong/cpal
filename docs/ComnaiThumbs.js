@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tranbaotan/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/x3fbjdr1su23h0fxv1wtu/Tr-n-B-o-T-n-English-teacher.jpg?rlkey=gs09q4n8lk9eyljbjysv4oql1&st=wk75bxkh&raw=1'
   },
+  'Huỳnh Thế Phi': {
+    url: 'https://www.facebook.com/profile.php?id=100063867441774&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/91cdnocm9xwhxgjbp4dx5/Hu-nh-Th-Phi.jpg?rlkey=9ulhk5u50pb7tlhc9dlkhqn3j&st=hdm8qrke&raw=1'
+  },
   'G’rilla Books - Học tiếng Anh theo quy luật': {
     url: 'https://www.facebook.com/grillabooks/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/v5rep3xiqgt36iq1uul3h/G-rilla-Books-H-c-ti-ng-Anh-theo-quy-lu-t.png?rlkey=een657p8tftce64oqsmecz7pi&st=8sdlsw68&raw=1'
