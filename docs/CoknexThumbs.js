@@ -136,7 +136,7 @@ const folderLinks = {
   },
   'Bản Chất Khoa Học': {
     url: 'https://www.facebook.com/banchatkhoahoc/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/j17slhok9711fx3n7cqqj/B-n-Ch-t-Khoa-H-c.jpg?rlkey=g71blenqhypiph2l7eylwejtx&st=kgx1a1en&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ibggick9dithbvbdac87t/B-n-Ch-t-Khoa-H-c.jpg?rlkey=xm0sxaj62bsve5k2ev4517bgk&st=2k1qqkmm&raw=1',
   },
   'Yêu Khoa Học': {
     url: 'https://www.facebook.com/profile.php?id=100090017247326&sk=reels_tab',
