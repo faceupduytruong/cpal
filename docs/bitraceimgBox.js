@@ -180,6 +180,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Autolisp - Thật là đơn giản</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090731145618&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/oc6w70omc2kc66m7g35ek/L-m-Ch-Thi-t-K-Autocad.jpg?rlkey=bqan6utr28ekjs92v8j3prmu4&st=xco3zazm&raw=1">
+</div>
+        <div class="caption">Làm Chủ Thiết Kế Autocad</div>
+      </div>
      
 </div>
 
@@ -314,7 +321,6 @@ container.innerHTML = `
       </div>
       
 </div>
-
 
     <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
