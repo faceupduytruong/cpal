@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100063867441774&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/91cdnocm9xwhxgjbp4dx5/Hu-nh-Th-Phi.jpg?rlkey=9ulhk5u50pb7tlhc9dlkhqn3j&st=hdm8qrke&raw=1'
   },
+  'Xài Tiếng Anh': {
+    url: 'https://www.facebook.com/xaitienganh/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7f3ffwz8h2z5a29a2it5q/X-i-Ti-ng-Anh.webp?rlkey=5tzukb1s4r2jdn3bjupg75dgy&st=10nso7t2&raw=1'
+  },
   'G’rilla Books - Học tiếng Anh theo quy luật': {
     url: 'https://www.facebook.com/grillabooks/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/v5rep3xiqgt36iq1uul3h/G-rilla-Books-H-c-ti-ng-Anh-theo-quy-lu-t.png?rlkey=een657p8tftce64oqsmecz7pi&st=8sdlsw68&raw=1'
