@@ -32,29 +32,37 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1',
   },
- 'GlassBox AI': {
-    url: 'https://www.facebook.com/profile.php?id=61576693687932&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/sifdxv1ht763x2nel7g4o/GlassBox-AI.gif?rlkey=rbilphq4w3r6y0f7am2lacs3b&st=mr9tl1dp&raw=1',
-  },
- 'Phạm Mạnh Tuyến': {
-    url: 'https://www.youtube.com/@tuyenpham29792/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/h87z2yni22z168litndio/Ph-m-M-nh-Tuy-n.jpg?rlkey=ae75na1ro7t02z0kmk0bdzhp7&st=00vqs84e&raw=1',
-  },
- 'Toán Thú Vị': {
-    url: 'https://www.youtube.com/@To%C3%A1nTh%C3%BAV%E1%BB%8B/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/vaspqxgpmu1tka0g2voed/To-n-Th-V.jpg?rlkey=acl3w97uwequ1jwgtjemyci3t&st=rd23nghz&raw=1',
-  },
- 'BinRiMath': {
-    url: 'https://www.youtube.com/@binrimath/shorts',
-    thumbnail: 'https://www.dropbox.com/scl/fi/0y523oldbxarb1gx9z12x/BinRiMath.webp?rlkey=klchkeb49rjw7hvbrdzh8e0s6&st=qkiiyuo7&raw=1',
-  },
- 'Video Giải Violympic Toán': {
+  'Video Giải Violympic Toán': {
     url: 'https://www.youtube.com/@videogiaiviolympictoan5795/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/0co4riq28fj1dvtejzazp/Video-Gi-i-Violympic-To-n.png?rlkey=2s5g9hjyfxtkqc8jocdeyk104&st=1r262h0p&raw=1',
   },
- 'Tuyensinh247 - Học trực tuyến': {
+  'Học Toán cùng Thầy Thắng': {
+    url: 'https://www.youtube.com/@ThayThangTV/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zztanlh8yjk71puywl1jj/H-c-To-n-c-ng-Th-y-Th-ng.jpg?rlkey=mxlki3n0cuf64gi9uey5uytz4&st=ej35j2hh&raw=1',
+  },
+  'Tuyensinh247 - Học trực tuyến': {
     url: 'https://www.youtube.com/@tuyensinh247tv/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/s5lwtmmuib5xt95fn5w8u/Tuyensinh247-H-c-tr-c-tuy-n.png?rlkey=9z5ld8vi3ik71ohb8vaw5twla&st=sqxf4yr9&raw=1',
+  },
+  'Toán Thú Vị': {
+    url: 'https://www.youtube.com/@To%C3%A1nTh%C3%BAV%E1%BB%8B/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vaspqxgpmu1tka0g2voed/To-n-Th-V.jpg?rlkey=acl3w97uwequ1jwgtjemyci3t&st=rd23nghz&raw=1',
+  },
+  'Phạm Mạnh Tuyến': {
+    url: 'https://www.youtube.com/@tuyenpham29792/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h87z2yni22z168litndio/Ph-m-M-nh-Tuy-n.jpg?rlkey=ae75na1ro7t02z0kmk0bdzhp7&st=00vqs84e&raw=1',
+  },
+  'GlassBox AI': {
+    url: 'https://www.facebook.com/profile.php?id=61576693687932&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/sifdxv1ht763x2nel7g4o/GlassBox-AI.gif?rlkey=rbilphq4w3r6y0f7am2lacs3b&st=mr9tl1dp&raw=1',
+  },
+  'median': {
+    url: 'https://www.youtube.com/@median-0/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qv0a35xb9yz0ufvoajw6r/median.jpg?rlkey=6e7o5s9yg8tb3ugvk30uwgd1w&st=k08tinsy&raw=1',
+  },
+  'BinRiMath': {
+    url: 'https://www.youtube.com/@binrimath/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0y523oldbxarb1gx9z12x/BinRiMath.webp?rlkey=klchkeb49rjw7hvbrdzh8e0s6&st=qkiiyuo7&raw=1',
   },
   // thêm các mục khác nếu cần
 };
