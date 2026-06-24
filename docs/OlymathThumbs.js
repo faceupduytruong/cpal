@@ -52,5 +52,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@videogiaiviolympictoan5795/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/0co4riq28fj1dvtejzazp/Video-Gi-i-Violympic-To-n.png?rlkey=2s5g9hjyfxtkqc8jocdeyk104&st=1r262h0p&raw=1'
   },
+ 'Tuyensinh247 - Học trực tuyến': {
+    url: 'https://www.youtube.com/@tuyensinh247tv/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s5lwtmmuib5xt95fn5w8u/Tuyensinh247-H-c-tr-c-tuy-n.png?rlkey=9z5ld8vi3ik71ohb8vaw5twla&st=sqxf4yr9&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
