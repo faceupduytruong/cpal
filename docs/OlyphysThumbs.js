@@ -23,7 +23,7 @@ const folderLinks = {
   },
   'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xxcu48l8mq0daw943cpki/Google-Translate.png?rlkey=h3btnzpi3dz9jq8wpphebcr48&st=cla53s88&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4w6m80ygbcnpi5it1otu5/Google-Translate.png?rlkey=ls0rsbuttkpwzjg46ia74ddoo&st=92pxrn8f&raw=1',
   },
   'Thầy Nguyễn Phú Thắng': {
     url: 'https://www.youtube.com/@thaynguyenphuthang/videos',
