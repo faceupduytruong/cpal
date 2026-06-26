@@ -29,3 +29,5 @@ const folderLinks = {
     url: 'https://www.youtube.com/@thaynguyenphuthang/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/02s0c7dj5lr0bva114kgr/Th-y-Nguy-n-Ph-Th-ng.jpg?rlkey=v5febc1blb02y38hh4jv0uonx&st=6luw9mm3&raw=1',
   },
+  // thêm các mục khác nếu cần
+};
