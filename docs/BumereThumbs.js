@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/MinhThuyVuOfficial/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/s6vs8pbn2rhzumqhwkihp/V-Minh-Th-y.jpg?rlkey=tqdpvi9qz35loc54g2d9xgivm&st=ssdi44ic&raw=1',
   },
+  'Cosmic Writer': {
+    url: 'https://www.facebook.com/thecosmicwriter/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8l1tlwtlggemmf87m1zq3/Cosmic-Writer.gif?rlkey=1uq170gkue5dxc90hc2xvsbjb&st=ca6fnv6h&raw=1',
+  },
   'Mr. CoBy': {
     url: 'https://www.youtube.com/@mrcoby79/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/otolpyow4x66e5o6y2o91/Mr.-CoBy.jpg?rlkey=jv4mdxuc7lhhjo7wl160sothh&st=ow2qa99q&raw=1',
