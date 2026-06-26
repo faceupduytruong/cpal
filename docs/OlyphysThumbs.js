@@ -15,3 +15,17 @@ const folders = {
   'Ròng rọc': ['Chuyển động của hệ vật qua ròng rọc (1).png', 'Chuyển động của hệ vật qua ròng rọc (2).png'],
   'Vật chuyển động': ['Gia tốc vật chuyển động (1).png', 'Gia tốc vật chuyển động (2).png', 'Phương trình tọa độ chuyển động nhanh dần đều.png'],// thêm các mục khác nếu cần
 };
+
+const folderLinks = {
+  'Sách Kể Chuyện': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Story/index.htm',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mzn88e97lpg5o4wgqw3cx/S-ch-K-Chuy-n.webp?rlkey=71udzkkrr0jw2plf77s72ebxg&st=zbnf1h9g&raw=1',
+  },
+  'Google Translate': {
+    url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xxcu48l8mq0daw943cpki/Google-Translate.png?rlkey=h3btnzpi3dz9jq8wpphebcr48&st=cla53s88&raw=1',
+  },
+  'Thầy Nguyễn Phú Thắng': {
+    url: 'https://www.youtube.com/@thaynguyenphuthang/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/02s0c7dj5lr0bva114kgr/Th-y-Nguy-n-Ph-Th-ng.jpg?rlkey=v5febc1blb02y38hh4jv0uonx&st=6luw9mm3&raw=1',
+  },
