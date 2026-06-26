@@ -112,5 +112,17 @@ const folderLinks = {
     url: 'https://www.facebook.com/vuchinese1990/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ypo0mvnx17hhiggo1stko/V-Chinese.jpeg?rlkey=9cqzi769ardr68tqs06w4umil&st=rwr6wde0&raw=1'
   },
+  'Nhung học tiếng Trung': {
+    url: 'https://www.facebook.com/profile.php?id=61559953618926&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xyeneuzo525dyzh30zguj/Nhung-h-c-ti-ng-Trung.webp?rlkey=7me5dis4eckkj5uw1s5tnozar&st=0ujncdic&raw=1'
+  },
+  'Mỗi Ngày Vài Câu Tiếng Trung': {
+    url: 'https://www.facebook.com/nh.hu1990/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gxuyuwcfzzuiissirj33h/M-i-Ng-y-V-i-C-u-Ti-ng-Trung.jpg?rlkey=tpwavewf9npp28alrec0ny8gf&st=7s6y55bx&raw=1'
+  },
+  'Vương Tuấn Chinese': {
+    url: 'https://www.facebook.com/lai.wong.chun.2025/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/36qkntbxiwi0k50xr6qv2/V-ng-Tu-n-Chinese.jpg?rlkey=qun4hd62psb3ogjo3wg4krkky&st=f6rrake5&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
