@@ -194,6 +194,20 @@ container.innerHTML = `
 </div>
         <div class="caption">Tự Học Autocad Tại Nhà</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61555304877690&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/acxyjrt72qsqbajhiwsdc/S-ch-AutoCad-Xu-t-B-n-Ch-nh-H-ng.webp?rlkey=cm6tfvsb3br4wax2tuo92xgjc&st=em9t8edu&raw=1">
+</div>
+        <div class="caption">Sách AutoCad Xuất Bản Chính Hãng</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090990423632&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/qnbrsjtc8grzolfxnpgv7/Th-nh-Th-o-V-Autocad-Sau-21-Ng-y.webp?rlkey=xifgcwnifnvc4awpsk3hqynef&st=swtfoofj&raw=1">
+</div>
+        <div class="caption">Thành Thạo Vẽ Autocad Sau 21 Ngày</div>
+      </div>
      
 </div>
 
