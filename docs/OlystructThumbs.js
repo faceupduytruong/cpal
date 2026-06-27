@@ -26,7 +26,7 @@ const folderLinks = {
   },
   'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xxcu48l8mq0daw943cpki/Google-Translate.png?rlkey=h3btnzpi3dz9jq8wpphebcr48&st=cla53s88&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gk8w85hcfp28onhadww0l/Google-Translate.jpg?rlkey=c6h4rivear25k3rmp38unrw6e&st=2t2xzydd&raw=1',
   },
   'NPT Training Center (BTCT)': {
     url: 'https://www.youtube.com/@NPTTrainingCenter/courses',
@@ -34,7 +34,7 @@ const folderLinks = {
   },
   'Kết Cấu Thép - HCMUTE': {
     url: 'https://www.youtube.com/@HuynhThanhHuy-HCMUTE/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/gk8w85hcfp28onhadww0l/Google-Translate.jpg?rlkey=c6h4rivear25k3rmp38unrw6e&st=2t2xzydd&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7qjrj1nu42fa5syaieb36/K-t-C-u-Th-p-HCMUTE.png?rlkey=z24hfg8cu5pufgxjxgqhmlg6s&st=9jrqss81&raw=1',
   },
   'Le Tuan Tu 1915 (SAP2000)': {
     url: 'https://www.youtube.com/@letuantu1915/videos',
