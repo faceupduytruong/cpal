@@ -62,6 +62,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61589255736317&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/2a67cc3euu7bzuol5bah3/Ti-ng-Anh-C-ng-Bi.jpg?rlkey=vuim96udm6qt4sr9wztbpjis7&st=jnqqegl&raw=1'
   },
+  'Tiếng Anh với Tom & Em': {
+    url: 'https://www.facebook.com/profile.php?id=61587670676211&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5xzzlu2f6w8kp4q8uxxew/Ti-ng-Anh-v-i-Tom-Em.jpg?rlkey=9dbvzz4w27py3fczjn88yq7ww&st=zyz1hnnc&raw=1'
+  },
   'Trung tâm ngoại ngữ Thần Tốc': {
     url: 'https://www.facebook.com/profile.php?id=100091225930364&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/093g9qiichbywvg4zb0oa/Trung-t-m-ngo-i-ng-Th-n-T-c.jpg?rlkey=cev78dq7bb89xa8baslwnnarx&st=e9htq24b&raw=1'
