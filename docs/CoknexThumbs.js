@@ -126,6 +126,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/sieuquay.nhok.927758/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/lmg0urtgoqjwjixzelhmn/An.jpg?rlkey=tp26v9fo2sa30tjtmwnzhjxup&st=04q57ilu&raw=1',
   },
+  'KagaLad': {
+    url: 'https://www.youtube.com/@KagaLad',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qswkr9oojcba09i9svzoz/KagaLad.png?rlkey=q1ift58i0tvfezz0kaqotfl6u&st=z52m4ybf&raw=1',
+  },
   'Đột Phá Tri Thức': {
     url: 'https://www.youtube.com/@dotphatrithuc/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/t-Ph-Tri-Th-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=x9ui7pat&raw=1',
@@ -218,7 +222,7 @@ const folderLinks = {
     url: 'https://www.youtube.com/@HungKngu/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uswga63uh6z1aq803ruyq/H-ng-Kh-ng-Ngu.png?rlkey=i61xr4tz9lz68dbwl7bpdakt1&st=tr7f7gae&raw=1',
   },
-  'TÒ MÒ': {
+  'Tò Mò': {
     url: 'https://www.youtube.com/@tomovakhampha/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/3j3xtzo7bmghf6fjmpmi1/T-M.jpg?rlkey=1j6pc33t1mkb14gz2kekjv7z7&st=aeaeo2uu&raw=1',
   },
