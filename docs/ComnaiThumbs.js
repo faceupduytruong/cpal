@@ -38,6 +38,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/xaitienganh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7f3ffwz8h2z5a29a2it5q/X-i-Ti-ng-Anh.webp?rlkey=5tzukb1s4r2jdn3bjupg75dgy&st=10nso7t2&raw=1'
   },
+  'Tiếng anh 60 phút': {
+    url: 'https://www.facebook.com/tienganh60phut/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/p9i6c9g5lmxfzt5d18hjv/Ti-ng-anh-60-ph-t.jpg?rlkey=2xixjrma8xu5mvduhscqfslbp&st=zpoxe3jf&raw=1'
+  },
   'G’rilla Books - Học tiếng Anh theo quy luật': {
     url: 'https://www.facebook.com/grillabooks/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/v5rep3xiqgt36iq1uul3h/G-rilla-Books-H-c-ti-ng-Anh-theo-quy-lu-t.png?rlkey=een657p8tftce64oqsmecz7pi&st=8sdlsw68&raw=1'
