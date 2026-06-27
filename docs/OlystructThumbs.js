@@ -32,6 +32,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@NPTTrainingCenter/courses',
     thumbnail: 'https://www.dropbox.com/scl/fi/siicirqbcn4eyvtkft382/NPT-Training-Center.jpg?rlkey=fbexm6zzrvkqozclpu2pei28i&st=ejubin57&raw=1',
   },
+  'Kết Cấu Thép - HCMUTE': {
+    url: 'https://www.youtube.com/@HuynhThanhHuy-HCMUTE/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7qjrj1nu42fa5syaieb36/K-t-C-u-Th-p-HCMUTE.png?rlkey=z24hfg8cu5pufgxjxgqhmlg6s&st=amjsdnan&raw=1',
+  },
   'Le Tuan Tu 1915 (SAP2000)': {
     url: 'https://www.youtube.com/@letuantu1915/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/wge86lmy6gonxm2ovzeo2/Le-Tuan-Tu-1915-SAP2000.jpg?rlkey=2rqc4f0gosbwtqurjrmeux8ih&st=xv4rvfo3&raw=1',
