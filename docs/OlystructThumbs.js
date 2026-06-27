@@ -34,7 +34,7 @@ const folderLinks = {
   },
   'Kết Cấu Thép - HCMUTE': {
     url: 'https://www.youtube.com/@HuynhThanhHuy-HCMUTE/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/7qjrj1nu42fa5syaieb36/K-t-C-u-Th-p-HCMUTE.png?rlkey=z24hfg8cu5pufgxjxgqhmlg6s&st=amjsdnan&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gk8w85hcfp28onhadww0l/Google-Translate.jpg?rlkey=c6h4rivear25k3rmp38unrw6e&st=2t2xzydd&raw=1',
   },
   'Le Tuan Tu 1915 (SAP2000)': {
     url: 'https://www.youtube.com/@letuantu1915/videos',
