@@ -50,6 +50,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/TusachMinhtrietphuongDongSbooks/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/q0xl6suz9v624mkg1vr8p/Minh-tri-t-ph-ng-ng.png?rlkey=j2xbnh869fh9zhxy5bat5haq4&st=7jx9ftpy&raw=1',
   },
+  'Tư Duy Ngược - Boss Thiên Mã': {
+    url: 'https://www.facebook.com/profile.php?id=100066903589758&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/t3n7da9jax0thumpelb3t/T-Duy-Ng-c-Boss-Thi-n-M.jpg?rlkey=0z59zfaken95tq74lbgkv9hx4&st=8idd2jpv&raw=1',
+  },
   'Người Trí Thức': {
     url: 'https://www.facebook.com/nguoitrithuc.sbooks/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/h1bkcz9l65j023svp0xjg/Ng-i-Tr-Th-c.png?rlkey=lqu7v7erydrrkm24dzm1fwwru&st=1prp8cry&raw=1',
