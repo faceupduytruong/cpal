@@ -12,11 +12,11 @@ const folders = {
 const folderLinks = {
   'Tuyển Tập Thơ': {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Poetry/index.htm',
-    thumbnail: 'https://www.dropbox.com/scl/fi/19dd6mnknl2swyaq0xqki/Tuy-n-T-p-Th.jpg?rlkey=xqbxtib9bcfuzrm28xirq3ldv&st=ajddhvc1&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/19dd6mnknl2swyaq0xqki/Tuy-n-T-p-Th.jpg?rlkey=xqbxtib9bcfuzrm28xirq3ldv&st=ajddhvc1&raw=1',
   },
   'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1',
   },
   'Tâm Thái Điềm Tĩnh': {
     url: 'https://www.facebook.com/tamthaidiemtinh/photos',
