@@ -38,6 +38,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@mrcoby79/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/otolpyow4x66e5o6y2o91/Mr.-CoBy.jpg?rlkey=jv4mdxuc7lhhjo7wl160sothh&st=ow2qa99q&raw=1',
   },
+  'Duy Hoang Nguyen': {
+    url: 'https://www.facebook.com/anthony.wong91/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dr2lwyltij4rlygz721e8/Duy-Hoang-Nguyen.gif?rlkey=3befwyhytbcr6ftr68hyt2cen&st=iva92weh&raw=1',
+  },
   'Tâm Lý Học Đám Đông': {
     url: 'https://www.facebook.com/tamlihocdamdong',
     thumbnail: 'https://www.dropbox.com/scl/fi/i1p1bk9w210ke1iyydo40/T-m-l-h-c-m-ng.jpg?rlkey=dwfa2ntgdi1c3z27jeog85wg8&st=g024u8u2&raw=1',
