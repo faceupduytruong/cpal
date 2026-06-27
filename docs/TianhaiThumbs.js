@@ -38,9 +38,21 @@ const folderLinks = {
     url: 'https://www.facebook.com/dvdhoctienganhtreem/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/z2g6lp4uk0yvtgwfmbkh6/Video-h-c-Ti-ng-Anh-tr-em.jpg?rlkey=m3tm080f8uqz2sfwllwc4d5bn&st=vj9ggbkp&raw=1'
   },
+  'Chang Kids English': {
+    url: 'https://www.facebook.com/profile.php?id=61591068244763&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zbu3x7efdiatum59hiakc/Chang-Kids-English.jpg?rlkey=lnq74iryryvj4xwrmdhy628g2&st=19e2qas3&raw=1'
+  },
+  'Song ngữ cùng Ni&Na': {
+    url: 'https://www.facebook.com/songngucungNiNa/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9cy8y5v7g6lq7d2kg1x08/Song-ng-c-ng-Ni-Na.jpg?rlkey=bhgf3mf1txtxaoxhd9wfbf539&st=p6lyc1nr&raw=1'
+  },
   'Tiếng Anh siêu dễ': {
     url: 'https://www.facebook.com/profile.php?id=61586650697495&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/w4femudb77m3qyhazadd8/Ti-ng-Anh-si-u-d.webp?rlkey=opjyfifu4kacg7lghtxlukf0v&st=ygg7jyrp&raw=1'
+  },
+  'FireBloom English': {
+    url: 'https://www.facebook.com/FireBloomEnglish/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/58x8nb04i6d315o0or4am/FireBloom-English.jpg?rlkey=f5fvpix3p6im581xmzemk1lf3&st=wq0b8ukq&raw=1'
   },
   'Tiếng Anh Cùng Bi': {
     url: 'https://www.facebook.com/profile.php?id=61589255736317&sk=reels_tab',
