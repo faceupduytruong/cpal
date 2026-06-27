@@ -14,7 +14,7 @@ const folderLinks = {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Traveling/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/ri7ard0iy4hyu9n987n7o/S-ch-Kh-m-Ph-B-n.jpg?rlkey=ln731vw27wb0m97w71wy9nf3z&st=q59bg052&raw=1'
   },
-  'Google': {
+  'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/go7hgrxhqjdlc8twaob54/Google.webp?rlkey=re0z5hmanpo8rp4xts7m24xck&st=riwgh2gl&raw=1'
   },
