@@ -108,5 +108,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/TramhocNOI/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/nz1uy23n0lgvh0o6ttffx/Tr-m-h-c-N-I.png?rlkey=z61pu0doxsixrnls7t6o0pn0h&st=wn00gwlx&raw=1',
   },
+  'Life Tips Daily': {
+    url: 'https://www.facebook.com/profile.php?id=61589215133125&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/kjyx9c1f7wm6j1vp3mlx4/Life-Tips-Daily.png?rlkey=g0ceau7oc55v69t6a1tdo3mso&st=sjii537g&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
