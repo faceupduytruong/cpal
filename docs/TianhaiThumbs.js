@@ -42,6 +42,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61591068244763&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/zbu3x7efdiatum59hiakc/Chang-Kids-English.jpg?rlkey=lnq74iryryvj4xwrmdhy628g2&st=19e2qas3&raw=1'
   },
+  'Vườn Từ Vựng Tiếng Anh': {
+    url: 'https://www.facebook.com/vuontuvungtienganh/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/x1ami924whnriwvby7eja/V-n-T-V-ng-Ti-ng-Anh.jpg?rlkey=ba5xorphxypiosaenw9r7672y&st=ab6db5qn&raw=1'
+  },
   'Song ngữ cùng Ni&Na': {
     url: 'https://www.facebook.com/songngucungNiNa/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9cy8y5v7g6lq7d2kg1x08/Song-ng-c-ng-Ni-Na.jpg?rlkey=bhgf3mf1txtxaoxhd9wfbf539&st=p6lyc1nr&raw=1'
