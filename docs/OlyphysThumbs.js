@@ -29,6 +29,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@thaynguyenphuthang/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/02s0c7dj5lr0bva114kgr/Th-y-Nguy-n-Ph-Th-ng.jpg?rlkey=v5febc1blb02y38hh4jv0uonx&st=6luw9mm3&raw=1',
   },
+  'Việt Lê Siêu Nhân': {
+    url: 'https://www.youtube.com/@vlsnvv/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tzzyujss5l227bnqxizw7/Vi-t-L-Si-u-Nh-n.jpg?rlkey=lskmgo52fvdl99nafj9t0gstg&st=cpwl16s6&raw=1',
+  },
   'Vật Lý Chill': {
     url: 'https://www.youtube.com/@VatLyChill/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7kymo6yn065gzo09pl6c3/V-t-L-Chill.jpg?rlkey=m8o3we3inpczu0irp19kgor3r&st=2hcztbyw&raw=1',
