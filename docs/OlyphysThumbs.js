@@ -33,9 +33,21 @@ const folderLinks = {
     url: 'https://www.youtube.com/@thayvnachuyenluyenthivatly/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/8befyg6fa343vpy0jhi8f/Th-y-V-Ng-c-Anh-Chuy-n-luy-n-thi-V-t-L.webp?rlkey=561hcl437dixbhz3q2lhoyfh4&st=be3cqgwm&raw=1',
   },
+  'Thầy Phạm Quốc Toản': {
+    url: 'https://www.youtube.com/@Th%E1%BA%A7yPh%E1%BA%A1mQu%E1%BB%91cTo%E1%BA%A3n/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7h8kx8wmp04u9ahhndpzo/Th-y-Ph-m-Qu-c-To-n.jpg?rlkey=hxgix4n1joz7gli392o9bc9t3&st=zgb89xkz&raw=1',
+  },
   'Thầy Tiển Toán Lý': {
     url: 'https://www.youtube.com/@ThayTienToanLy/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/muxr29w4oesac1pkbr476/Th-y-Ti-n-To-n-L.jpg?rlkey=9epp6c592enqc1hnm0jdg1kru&st=jlofqy25&raw=1',
+  },
+  'Trunk Yee Phạm': {
+    url: 'https://www.youtube.com/@TRUNKYEEPH%E1%BA%A0M/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/f133lgrlxqv03v69cz3fg/Trunk-Yee-Ph-m.jpg?rlkey=c320ri0sy0dkg49mholvyw7lu&st=9o4er6l7&raw=1',
+  },
+  'Khôi Cao Minh - Vật Lý': {
+    url: 'https://www.youtube.com/@khoicaominh/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qq7abvn93ffbz8zeu3lla/Kh-i-Cao-Minh-V-t-L.jpg?rlkey=zy6xlrhhx5pgb321j9vt8hvg0&st=2x5eivua&raw=1',
   },
   'Việt Lê Siêu Nhân': {
     url: 'https://www.youtube.com/@vlsnvv/videos',
