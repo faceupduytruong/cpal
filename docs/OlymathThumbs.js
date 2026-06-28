@@ -64,5 +64,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@binrimath/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/0y523oldbxarb1gx9z12x/BinRiMath.webp?rlkey=klchkeb49rjw7hvbrdzh8e0s6&st=qkiiyuo7&raw=1',
   },
+  'Học viện AMURA': {
+    url: 'https://www.youtube.com/@hocvienamura/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wfv666x3sdhvom2i4wgkl/H-c-vi-n-AMURA.jpg?rlkey=uhuo83nb32inptvmimwwyujfg&st=amchfya3&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
