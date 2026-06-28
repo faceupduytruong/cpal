@@ -29,7 +29,7 @@ const folderLinks = {
     url: 'https://www.youtube.com/@thaynguyenphuthang/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/02s0c7dj5lr0bva114kgr/Th-y-Nguy-n-Ph-Th-ng.jpg?rlkey=v5febc1blb02y38hh4jv0uonx&st=6luw9mm3&raw=1',
   },
-  'Thầy Vũ Ngọc Anh - Chuyên luyện thi Vật Lý': {
+  'Thầy Vũ Ngọc Anh': {
     url: 'https://www.youtube.com/@thayvnachuyenluyenthivatly/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/8befyg6fa343vpy0jhi8f/Th-y-V-Ng-c-Anh-Chuy-n-luy-n-thi-V-t-L.webp?rlkey=561hcl437dixbhz3q2lhoyfh4&st=be3cqgwm&raw=1',
   },
