@@ -29,6 +29,14 @@ const folderLinks = {
     url: 'https://www.youtube.com/@thaynguyenphuthang/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/02s0c7dj5lr0bva114kgr/Th-y-Nguy-n-Ph-Th-ng.jpg?rlkey=v5febc1blb02y38hh4jv0uonx&st=6luw9mm3&raw=1',
   },
+  'Thầy Vũ Ngọc Anh - Chuyên luyện thi Vật Lý': {
+    url: 'https://www.youtube.com/@thayvnachuyenluyenthivatly/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8befyg6fa343vpy0jhi8f/Th-y-V-Ng-c-Anh-Chuy-n-luy-n-thi-V-t-L.webp?rlkey=561hcl437dixbhz3q2lhoyfh4&st=be3cqgwm&raw=1',
+  },
+  'Thầy Tiển Toán Lý': {
+    url: 'https://www.youtube.com/@ThayTienToanLy/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/muxr29w4oesac1pkbr476/Th-y-Ti-n-To-n-L.jpg?rlkey=9epp6c592enqc1hnm0jdg1kru&st=jlofqy25&raw=1',
+  },
   'Việt Lê Siêu Nhân': {
     url: 'https://www.youtube.com/@vlsnvv/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/tzzyujss5l227bnqxizw7/Vi-t-L-Si-u-Nh-n.jpg?rlkey=lskmgo52fvdl99nafj9t0gstg&st=cpwl16s6&raw=1',
