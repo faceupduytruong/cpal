@@ -28,7 +28,11 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/gk8w85hcfp28onhadww0l/Google-Translate.jpg?rlkey=c6h4rivear25k3rmp38unrw6e&st=2t2xzydd&raw=1',
   },
-  'Hướng dẫn Xây dựng': {
+  'Lê Bảo Quỳnh (Sức bền vật liệu)': {
+    url: 'https://www.youtube.com/@QuynhLeBao/courses',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ntzc73ms8hiqpyeevqese/L-B-o-Qu-nh-S-c-b-n-v-t-li-u.jpg?rlkey=a0rjnrbaqx7hu9ziubvb45trg&st=ysn95rhc&raw=1',
+  },
+  'Hướng dẫn xây dựng (Cơ học kết cấu)': {
     url: 'https://www.youtube.com/@Lamkhaimtu/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/pmmwwv1lezp008htxg63u/H-ng-d-n-X-y-d-ng.png?rlkey=cdkp4yp7qli2q92km5rwq9bmu&st=rwqffl1w&raw=1',
   },
