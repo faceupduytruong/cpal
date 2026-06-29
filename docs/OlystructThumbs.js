@@ -20,13 +20,17 @@ const folders = {
 };
 
 const folderLinks = {
-  'Sách Kể Chuyện': {
-    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Story/index.htm',
-    thumbnail: 'https://www.dropbox.com/scl/fi/mzn88e97lpg5o4wgqw3cx/S-ch-K-Chuy-n.webp?rlkey=71udzkkrr0jw2plf77s72ebxg&st=zbnf1h9g&raw=1',
+  'Sách Khám Phá Bí Ẩn': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Traveling/index.htm',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ri7ard0iy4hyu9n987n7o/S-ch-Kh-m-Ph-B-n.jpg?rlkey=ln731vw27wb0m97w71wy9nf3z&st=q59bg052&raw=1'
   },
   'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/gk8w85hcfp28onhadww0l/Google-Translate.jpg?rlkey=c6h4rivear25k3rmp38unrw6e&st=2t2xzydd&raw=1',
+  },
+  'Hướng dẫn Xây dựng': {
+    url: 'https://www.youtube.com/@Lamkhaimtu/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pmmwwv1lezp008htxg63u/H-ng-d-n-X-y-d-ng.png?rlkey=cdkp4yp7qli2q92km5rwq9bmu&st=rwqffl1w&raw=1',
   },
   'NPT Training Center (BTCT)': {
     url: 'https://www.youtube.com/@NPTTrainingCenter/courses',
