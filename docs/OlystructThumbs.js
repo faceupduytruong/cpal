@@ -32,7 +32,7 @@ const folderLinks = {
     url: 'https://www.youtube.com/@QuynhLeBao/courses',
     thumbnail: 'https://www.dropbox.com/scl/fi/ntzc73ms8hiqpyeevqese/L-B-o-Qu-nh-S-c-b-n-v-t-li-u.jpg?rlkey=a0rjnrbaqx7hu9ziubvb45trg&st=ysn95rhc&raw=1',
   },
-  'Hướng dẫn xây dựng (Cơ học kết cấu)': {
+  'HD xây dựng (Cơ học kết cấu)': {
     url: 'https://www.youtube.com/@Lamkhaimtu/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/pmmwwv1lezp008htxg63u/H-ng-d-n-X-y-d-ng.png?rlkey=cdkp4yp7qli2q92km5rwq9bmu&st=rwqffl1w&raw=1',
   },
