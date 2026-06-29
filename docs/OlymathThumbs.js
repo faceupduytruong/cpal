@@ -72,5 +72,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@hocvienamura/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/wfv666x3sdhvom2i4wgkl/H-c-vi-n-AMURA.jpg?rlkey=uhuo83nb32inptvmimwwyujfg&st=amchfya3&raw=1',
   },
+  'Nuôi Dạy Con Thông Minh': {
+    url: 'https://www.youtube.com/@nuoidayconthongminh/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/48n5dz3f7j2s0dh4wknar/Nu-i-D-y-Con-Th-ng-Minh.webp?rlkey=atebjqqphr4mwdluldtnb1a57&st=m1bulln7&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
