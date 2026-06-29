@@ -773,8 +773,8 @@ li:hover .rainbow-text {
   -webkit-backdrop-filter: blur(1px) brightness(1.2);
   border-radius: 10px;
   box-shadow: 0 0 30px rgba(0,0,0,0.3);
-  overflow-y: hidden; /* Cho phép cuộn dọc */
-  height: 99vh;
+  overflow-y: auto; /* Cho phép cuộn dọc */
+  height: 100vh;
   max-height: 100vh; /* Giới hạn chiều cao bằng chiều cao màn hình */
 }
 
