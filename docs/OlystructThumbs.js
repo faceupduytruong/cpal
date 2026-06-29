@@ -36,6 +36,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Lamkhaimtu/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/pmmwwv1lezp008htxg63u/H-ng-d-n-X-y-d-ng.png?rlkey=cdkp4yp7qli2q92km5rwq9bmu&st=rwqffl1w&raw=1',
   },
+  'Lê Quang Tiếp (Đại cương)': {
+    url: 'https://www.youtube.com/@L%C3%AAQuangTi%E1%BA%BFp-v8z/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/u91k9fu6gpgek9u3q4ho3/L-Quang-Ti-p-i-c-ng.jpg?rlkey=x4lv761zs19m6y16dp1eoyjzg&st=bgfocxfy&raw=1',
+  },
   'NPT Training Center (BTCT)': {
     url: 'https://www.youtube.com/@NPTTrainingCenter/courses',
     thumbnail: 'https://www.dropbox.com/scl/fi/siicirqbcn4eyvtkft382/NPT-Training-Center.jpg?rlkey=fbexm6zzrvkqozclpu2pei28i&st=ejubin57&raw=1',
