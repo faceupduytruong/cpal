@@ -25,6 +25,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/4w6m80ygbcnpi5it1otu5/Google-Translate.png?rlkey=ls0rsbuttkpwzjg46ia74ddoo&st=92pxrn8f&raw=1',
   },
+  'Si Ha - Vật Lí Thầy Sĩ Official': {
+    url: 'https://www.youtube.com/@vatlithaysi/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rk7tgls5nkn7hzi2nn19p/Si-Ha-V-t-L-Th-y-S-Official.jpg?rlkey=9qf9vmlgboxcra9vhs3sh0btu&st=xrgpgu34&raw=1',
+  },
   'Thầy Nguyễn Phú Thắng': {
     url: 'https://www.youtube.com/@thaynguyenphuthang/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/02s0c7dj5lr0bva114kgr/Th-y-Nguy-n-Ph-Th-ng.jpg?rlkey=v5febc1blb02y38hh4jv0uonx&st=6luw9mm3&raw=1',
