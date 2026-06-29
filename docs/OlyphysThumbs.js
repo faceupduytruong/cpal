@@ -57,6 +57,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@vlsnvv/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/tzzyujss5l227bnqxizw7/Vi-t-L-Si-u-Nh-n.jpg?rlkey=lskmgo52fvdl99nafj9t0gstg&st=cpwl16s6&raw=1',
   },
+  'Huỳnh Nghĩa Teacher': {
+    url: 'https://www.youtube.com/@huynhnghiateacher0399/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8m5zh4zdyteqq0bf2goqh/Hu-nh-Ngh-a-Teacher.jpg?rlkey=0ia1honqrusvauwnn8m0x166g&st=0jx69z6v&raw=1',
+  },
   'Vật Lý Chill': {
     url: 'https://www.youtube.com/@VatLyChill/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7kymo6yn065gzo09pl6c3/V-t-L-Chill.jpg?rlkey=m8o3we3inpczu0irp19kgor3r&st=2hcztbyw&raw=1',
