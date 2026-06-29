@@ -48,6 +48,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@tuyensinh247tv/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/s5lwtmmuib5xt95fn5w8u/Tuyensinh247-H-c-tr-c-tuy-n.png?rlkey=9z5ld8vi3ik71ohb8vaw5twla&st=sqxf4yr9&raw=1',
   },
+  'CLB Bồi dưỡng Toán VietMath': {
+    url: 'https://www.youtube.com/@CLBVietMath/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lthniaii0xi48o0e2qpm8/CLB-B-i-d-ng-To-n-VietMath.jpg?rlkey=4mt1lu2earqzioypxm6sf0xyo&st=1qi6n218&raw=1',
+  },
   'Toán Thú Vị': {
     url: 'https://www.youtube.com/@To%C3%A1nTh%C3%BAV%E1%BB%8B/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vaspqxgpmu1tka0g2voed/To-n-Th-V.jpg?rlkey=acl3w97uwequ1jwgtjemyci3t&st=rd23nghz&raw=1',
