@@ -752,7 +752,8 @@ li:hover .rainbow-text {
   align-items: center;
   justify-content: center;
   width: 94.1%;
-  padding: 40px 38px 10px 39px; /* top right bottom left */
+  margin: 0 auto; /* tự động căn giữa trái/phải */
+  padding: 40px 0 10px 0; /* top right bottom left */
 }
 
 .folder-grid {
