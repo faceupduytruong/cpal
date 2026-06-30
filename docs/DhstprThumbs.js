@@ -46,7 +46,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61584242907915&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/mj68eeedu3d3exkx2b7sr/Ho-ng-C-m-T.webp?rlkey=7ljqdf8wpjsoh6kmgv5794yz0&st=kcm9y6bp&raw=1',
   },
-  'Nguyễn Minh Chính (Vạn Sự Tùy Duyên)': {
+  'Nguyễn Minh Chính (VS Tùy Duyên)': {
     url: 'https://www.facebook.com/chinh.nguyenminh.5074/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/oozx6uo3jp9vomzuuowqd/Nguy-n-Minh-Ch-nh-V-n-S-T-y-Duy-n.jpg?rlkey=kr7vl6d38tml6nc68swb49zo4&st=f8sihl4b&raw=1',
   },
