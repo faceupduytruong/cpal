@@ -90,7 +90,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/150329723634212/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ixx3i0mc5209ld5eudd3r/P-v-HAY.jpg?rlkey=jrl21g8ubcyql11ka9fq4u0lw&st=scxkxva9&raw=1',
   },
-  'Tiên Phong Books - Sách Tham Khảo': {
+  'Tiên Phong - Sách Tham Khảo': {
     url: 'https://www.facebook.com/tienphongbookssachthamkhao/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/291dr2so6z6sbb23tx9h5/Ti-n-Phong-Books-S-ch-Tham-Kh-o.webp?rlkey=g2s5aez6xgu2xqiklhjv8okps&st=epxczx49&raw=1',
   },
