@@ -94,6 +94,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/giaotiepgiadinh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ag2w3aeocvnnhbtpaquwn/Giao-ti-p-gia-nh.jpg?rlkey=e18ym5xh3z1c5vymhhjp9ll6k&st=pm5nji3x&raw=1'
   },
+  'Lương Văn Tuyển': {
+    url: 'https://www.facebook.com/luong.van.tuyen.26688/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/khcf1o8gn1b06lcwcn2yq/L-ng-V-n-Tuy-n.png?rlkey=450j5ja9q0bjs0xzmsvwps310&st=cd6cn6wz&raw=1'
+  },
   'English Speaking Practice': {
     url: 'https://www.facebook.com/groups/5688211251275040/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/i1eoqcn831eizxqa2s304/English-Speaking-practice.jpg?rlkey=ro51xu5ou06fi0y6xb782a4nx&st=w63rl9pq&raw=1'
