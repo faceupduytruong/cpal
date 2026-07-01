@@ -68,7 +68,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/dacnhanhoangu/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/nkro54xhp7zr9gbuxm705/Hoa-Ng-c-Nh-n.webp?rlkey=je35ivpdg6rw223zey9yng1g6&st=vm5xvy39&raw=1'
   },
-  'Tiếng Trung Xin Chào (Hoa Ngữ NiHao)': {
+  'Hoa Ngữ NiHao Xin Chào': {
     url: 'https://www.facebook.com/tiengtrungxinchaovn/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/umwk4y6pqwnvfmt2stvqb/Ti-ng-Trung-Xin-Ch-o-Hoa-Ng-NiHao.jpg?rlkey=4mw24y8d6gh1ihi59qehvltza&st=8h29dp1q&raw=1'
   },
@@ -76,11 +76,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/mcbooksvn/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/uy5gswlcrq8gfpdwjwuzz/Mcbooksvn.jpg?rlkey=5094eeqsf5jaw4y3szlwz88wn&st=xfhlfajj&raw=1'
   },
-  'Tiếng Trung Yixin - Tư duy phản xạ': {
+  'Yixin - Tư duy phản xạ': {
     url: 'https://www.facebook.com/tiengtrungyixin/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/fciq8nvhpckw53kcpvs31/Ti-ng-Trung-Yixin-T-duy-ph-n-x.png?rlkey=t07c1rjerx78fjsean8b3eb3v&st=io0qzgpk&raw=1'
   },
-  'Ni Hao Ma - Mandarin Learning Lab': {
+  'Mandarin Learning Lab': {
     url: 'https://www.facebook.com/NiHaoMaVietnam/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/981695tjqa3dpfk9rggxf/Ni-Hao-Ma-Mandarin-Learning-Lab-Vietnam.jpg?rlkey=iuwcpggxqu57gyk96el6e9ek3&st=ki0sr564&raw=1'
   },
@@ -92,7 +92,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/tiengtrungnghenoinihao/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/lcrw3nq9a5iwp45kgfpv9/Ti-ng-Trung-Ni-Hao.jpg?rlkey=jmkruh1bz9nwk1lcabl6ys5i4&st=o4nrr3jm&raw=1'
   },
-  'Nhớ Hán Tự Thông Qua Chiết Tự Chữ Hán': {
+  'Chiết Tự Chữ Hán': {
     url: 'https://www.facebook.com/NhoHanTu/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/705b71kcuux49jeymc8uv/Nh-H-n-T-Th-ng-Qua-Chi-t-T-Ch-H-n.jpg?rlkey=1b1kow72uwv211py52ceavxz3&st=4p228lot&raw=1'
   },
