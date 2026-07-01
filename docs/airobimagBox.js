@@ -1478,7 +1478,7 @@ container.innerHTML = `
         <div class="caption">Ngọc Nam (Nam Hệ Thống)</div>
       </div>
 
-  <div class="image-box">
+            <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/caovuong', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/su0ptg55hk74dd4gaw2f7/Cao-Vuong.png?rlkey=z62kz3a5gie7e2j22xymuld80&st=6roftjf9&raw=1">
 </div>
@@ -1490,6 +1490,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/r3ep495itj3lewrd6igxa/Nguy-n-Th-nh-Rainmaker.webp?rlkey=vfpw01f29rpftd3w1xbe73ft3&st=g0rjogbf&raw=1">
 </div>
         <div class="caption">Nguyễn Thành Rainmaker</div>
+      </div>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/SuDaoTaoAI/reels/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/e3zc4zio6e758shpev90n/S-AI.webp?rlkey=lyilgcnn6ikuh2h226dvbgerf&st=4yrlikt5&raw=1">
+</div>
+        <div class="caption">Sự AI</div>
       </div>
 
 </div>
