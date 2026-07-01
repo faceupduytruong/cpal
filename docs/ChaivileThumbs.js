@@ -128,5 +128,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61576422743593&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/xwb4slcy1mg2bzl53s3v6/Ti-ng-Trung-theo-ch.png?rlkey=81kufzyispoonchobdipiajco&st=e0zlx3wt&raw=1'
   },
+  'Tiếng Trung theo chủ đề': {
+    url: 'https://www.facebook.com/profile.php?id=61576422743593&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hv2f1fcjajyqf2jnsmq78/Ti-ng-Trung-theo-ch.jpg?rlkey=tfhcb730924cvhrnylgq9v296&st=9pbsnuyw&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
