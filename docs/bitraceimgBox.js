@@ -208,6 +208,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Thành Thạo Vẽ Autocad Sau 21 Ngày</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/lispcad/files/files' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/y1x3430lnv5l6d7kjhvns/C-ng-h-c-AutoCad.webp?rlkey=mp88s9w3t0nx2go8cly89k1vo&st=ksg72hi9&raw=1">
+</div>
+        <div class="caption">Cùng học AutoCad</div>
+      </div>
      
 </div>
 
