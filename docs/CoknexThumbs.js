@@ -130,6 +130,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@KagaLad',
     thumbnail: 'https://www.dropbox.com/scl/fi/qswkr9oojcba09i9svzoz/KagaLad.png?rlkey=q1ift58i0tvfezz0kaqotfl6u&st=z52m4ybf&raw=1',
   },
+  'S P Λ C Ξ': {
+    url: 'https://www.facebook.com/88spacex88/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7vmisze9i9cnxazjeaqrk/S-P-C.jpg?rlkey=i2qrvqw2q82twy20e2pm78ujp&st=k4ak11n9&raw=1',
+  },
   'Đột Phá Tri Thức': {
     url: 'https://www.youtube.com/@dotphatrithuc/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vmnp8ue1y9zu0zducpuot/t-Ph-Tri-Th-c.webp?rlkey=w7mvgopuomu05ps2p5tnvup22&st=x9ui7pat&raw=1',
