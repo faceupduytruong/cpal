@@ -413,6 +413,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Phạm Thanh Truyền (KTS Nông Dân)</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/lavishmaison/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/w82etmkdc9xu4v55gaa4r/LavishMaison.vn.webp?rlkey=4t626ai3gc6jvfizfj358ymxc&st=hpyy1kog&raw=1">
+</div>
+        <div class="caption">LavishMaison.vn</div>
+      </div>      
             
 </div>
 
