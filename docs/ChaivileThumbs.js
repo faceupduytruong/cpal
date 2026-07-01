@@ -124,5 +124,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/lai.wong.chun.2025/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/36qkntbxiwi0k50xr6qv2/V-ng-Tu-n-Chinese.jpg?rlkey=qun4hd62psb3ogjo3wg4krkky&st=f6rrake5&raw=1'
   },
+  'Tiếng Trung theo chủ đề': {
+    url: 'https://www.facebook.com/profile.php?id=61576422743593&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xwb4slcy1mg2bzl53s3v6/Ti-ng-Trung-theo-ch.png?rlkey=81kufzyispoonchobdipiajco&st=e0zlx3wt&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
