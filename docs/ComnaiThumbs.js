@@ -98,6 +98,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/luong.van.tuyen.26688/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/khcf1o8gn1b06lcwcn2yq/L-ng-V-n-Tuy-n.png?rlkey=450j5ja9q0bjs0xzmsvwps310&st=cd6cn6wz&raw=1'
   },
+  'Trần Quốc Nam (Thầy Nam)': {
+    url: 'https://www.facebook.com/tran.nam.524934/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8n888wwnnu53ig87rhngp/Tr-n-Qu-c-Nam-Th-y-Nam.jpeg?rlkey=s065ryjaovqk4sjtmm7dx14fb&st=hj9du7zz&raw=1'
+  },
   'English Speaking Practice': {
     url: 'https://www.facebook.com/groups/5688211251275040/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/i1eoqcn831eizxqa2s304/English-Speaking-practice.jpg?rlkey=ro51xu5ou06fi0y6xb782a4nx&st=w63rl9pq&raw=1'
