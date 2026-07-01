@@ -416,7 +416,7 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/lavishmaison/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/w82etmkdc9xu4v55gaa4r/LavishMaison.vn.webp?rlkey=4t626ai3gc6jvfizfj358ymxc&st=hpyy1kog&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/fncuk8ng25i8eeka2kfap/LavishMaison.vn.png?rlkey=bk46ygekmtakz8h5676n2f3p4&st=ops0toqb&raw=1">
 </div>
         <div class="caption">LavishMaison.vn</div>
       </div>      
