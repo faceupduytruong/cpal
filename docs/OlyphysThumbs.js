@@ -29,6 +29,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@vatlithaysi/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/rk7tgls5nkn7hzi2nn19p/Si-Ha-V-t-L-Th-y-S-Official.jpg?rlkey=9qf9vmlgboxcra9vhs3sh0btu&st=xrgpgu34&raw=1',
   },
+  'Thầy Hiếu Lí-CBH': {
+    url: 'https://www.youtube.com/@Th%E1%BA%A7yHi%E1%BA%BFuL%C3%AD-CBH/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/prjz8vz66u2mowfkt7d3f/Th-y-Hi-u-L-CBH.webp?rlkey=snxmvxfyf8adwroiflrk33kov&st=cny7i1s3&raw=1',
+  },
   'Thầy Nguyễn Phú Thắng': {
     url: 'https://www.youtube.com/@thaynguyenphuthang/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/02s0c7dj5lr0bva114kgr/Th-y-Nguy-n-Ph-Th-ng.jpg?rlkey=v5febc1blb02y38hh4jv0uonx&st=6luw9mm3&raw=1',
