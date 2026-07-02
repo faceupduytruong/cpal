@@ -76,9 +76,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@binrimath/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/0y523oldbxarb1gx9z12x/BinRiMath.webp?rlkey=klchkeb49rjw7hvbrdzh8e0s6&st=qkiiyuo7&raw=1',
   },
-  'Học Toán 29 điểm đại học': {
+  'Học Toán với 29 điểm đại học': {
     url: 'https://www.youtube.com/@29diem.daihoc/shorts',
-    thumbnail: 'https://www.dropbox.com/scl/fi/wfv666x3sdhvom2i4wgkl/H-c-vi-n-AMURA.jpg?rlkey=uhuo83nb32inptvmimwwyujfg&st=amchfya3&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/osqeu0eb4bb6484bjmamc/H-c-To-n-v-i-29-i-m-i-h-c.webp?rlkey=9w696y71gwokljsc2pus0oycp&st=x8qb9yzo&raw=1',
   },
   'Học viện AMURA': {
     url: 'https://www.youtube.com/@hocvienamura/videos',
