@@ -128,9 +128,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61576422743593&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/xwb4slcy1mg2bzl53s3v6/Ti-ng-Trung-theo-ch.png?rlkey=81kufzyispoonchobdipiajco&st=e0zlx3wt&raw=1'
   },
-  'Tiếng Trung theo chủ đề': {
-    url: 'https://www.facebook.com/profile.php?id=61576422743593&sk=photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/hv2f1fcjajyqf2jnsmq78/Ti-ng-Trung-theo-ch.jpg?rlkey=tfhcb730924cvhrnylgq9v296&st=9pbsnuyw&raw=1'
+  'Tiếng Trung - XinLaoshi': {
+    url: 'https://www.facebook.com/profile.php?id=61590907081326&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fm7ril9w6eqzwpmbso14s/XinLaoshi-Ti-ng-Trung-n-Gi-n-cho-ng-i-Vi-t.jpg?rlkey=fnubzq65p5r2i1lgva1m6p8uf&st=waz5v3p1&raw=1'
   },
   // thêm các mục khác nếu cần
 };
