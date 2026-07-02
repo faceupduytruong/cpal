@@ -447,6 +447,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61579475257540&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/jizm4xm7un0f9dpamznwl/M-Ph-m-Gia-D-ng-M-V-B.png?rlkey=kjy480443hdnx5lwyujtzsje8&st=rmriyr8k&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Mỹ Phẩm - Gia Dụng - Mẹ Và Bé</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/c.storeeee/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/cm538j9f93sl9ir4kis5s/C-Store.png?rlkey=lmaesmm9fhro50ebb073wtype&st=k8y9yfwn&raw=1" alt="Ảnh 1">
 </div>
