@@ -66,13 +66,17 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61587670676211&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/5xzzlu2f6w8kp4q8uxxew/Ti-ng-Anh-v-i-Tom-Em.jpg?rlkey=9dbvzz4w27py3fczjn88yq7ww&st=zyz1hnnc&raw=1'
   },
-  'Trung tâm ngoại ngữ Thần Tốc': {
-    url: 'https://www.facebook.com/profile.php?id=100091225930364&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/093g9qiichbywvg4zb0oa/Trung-t-m-ngo-i-ng-Th-n-T-c.jpg?rlkey=cev78dq7bb89xa8baslwnnarx&st=e9htq24b&raw=1'
-  },
   'Học Tiếng Anh cùng Capu': {
     url: 'https://www.facebook.com/tienganhCapu/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/bvw8wa2jtkbblekyz6sxq/H-c-Ti-ng-Anh-c-ng-Capu.jpg?rlkey=k6z6wwucs9oml3bd8rhc35f6j&st=34pdphdt&raw=1'
+  },
+  'Thế Giới Anh Ngữ Của Bé': {
+    url: 'https://www.facebook.com/profile.php?id=61578459320975&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5r4zlpthidq20xv7d4l26/Th-Gi-i-Anh-Ng-C-a-B.jpg?rlkey=28wfy14l7rycbaekr82m6bxab&st=m7hzih3w&raw=1'
+  },
+  'Trung tâm ngoại ngữ Thần Tốc': {
+    url: 'https://www.facebook.com/profile.php?id=100091225930364&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/093g9qiichbywvg4zb0oa/Trung-t-m-ngo-i-ng-Th-n-T-c.jpg?rlkey=cev78dq7bb89xa8baslwnnarx&st=e9htq24b&raw=1'
   },
   'Bứt Phá Tiếng Anh Cùng Gia Sư Vuihoc': {
     url: 'https://www.facebook.com/giasuvuihoc.butphatienganh/reels/',
