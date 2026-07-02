@@ -52,6 +52,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@CLBVietMath/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/lthniaii0xi48o0e2qpm8/CLB-B-i-d-ng-To-n-VietMath.jpg?rlkey=4mt1lu2earqzioypxm6sf0xyo&st=1qi6n218&raw=1',
   },
+  'Thầy Hoàng Toán': {
+    url: 'https://www.youtube.com/@Toanthayhoang6789',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gqqmoc0nuvgvdhp6udckj/Th-y-Ho-ng-To-n.jpg?rlkey=gpebq30imf9sm0rjdeil8yfxk&st=chzdsnq8&raw=1',
+  },
   'Toán Thú Vị': {
     url: 'https://www.youtube.com/@To%C3%A1nTh%C3%BAV%E1%BB%8B/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vaspqxgpmu1tka0g2voed/To-n-Th-V.jpg?rlkey=acl3w97uwequ1jwgtjemyci3t&st=rd23nghz&raw=1',
@@ -71,6 +75,10 @@ const folderLinks = {
   'BinRiMath': {
     url: 'https://www.youtube.com/@binrimath/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/0y523oldbxarb1gx9z12x/BinRiMath.webp?rlkey=klchkeb49rjw7hvbrdzh8e0s6&st=qkiiyuo7&raw=1',
+  },
+  'Học Toán 29 điểm đại học': {
+    url: 'https://www.youtube.com/@29diem.daihoc/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wfv666x3sdhvom2i4wgkl/H-c-vi-n-AMURA.jpg?rlkey=uhuo83nb32inptvmimwwyujfg&st=amchfya3&raw=1',
   },
   'Học viện AMURA': {
     url: 'https://www.youtube.com/@hocvienamura/videos',
