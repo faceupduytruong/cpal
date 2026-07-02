@@ -133,6 +133,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Hoang Nguyen (Anh Giáo Hoàng)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100063450834729' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/83npym7ld97scad5dvfis/H-c-l-p-tr-nh-cho-ng-i-m-i-b-t-u.png?rlkey=i1xix01v5bbybzzax51yrxhij&st=kfo6isk5&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Học lập trình cho người mới bắt đầu</div>
+      </div>
       
 </div>
 
