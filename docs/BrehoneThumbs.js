@@ -58,7 +58,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/tran.tommy.7334/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/gy6xey079unn1a9vr1c6u/Nguy-n-Hu-nh-L-c.webp?rlkey=ezkwd9416u2zr6gu8bpulp5cx&st=qekpo4jq&raw=1',
   },
-  'Nguyễn Lê Vương  (Tám tận lương tâm)': {
+  'Tám tận lương tâm': {
     url: 'https://www.facebook.com/tran.mi.529840/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/khee895wxuuvmydzbmbem/Nguy-n-L-V-ng-T-m-t-n-l-ng-t-m.jpg?rlkey=0xeb292weetirt4f9s7yyyx1q&st=rqocswz8&raw=1',
   },
