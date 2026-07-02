@@ -517,7 +517,7 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/tknet.equip/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/v3l21wevaidnfgcfjgltv/TKNET.webp?rlkey=l62cfcsygulcz821pxnutg4i0&st=14u3osj4&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/02fyztxzugxu6te0sx5kd/TKNET.webp?rlkey=wlwi7xq253lxixjrchzj5voux&st=ebkv3tkg&raw=1">
 </div>
         <div class="caption">TKNET</div>
       </div>
