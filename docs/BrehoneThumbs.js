@@ -118,6 +118,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/hai.trong.169/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/38y4q35egqj6lamjjjqw4/Nguy-n-Tr-ng-H-i.jpg?rlkey=ou0adghuz5t07ngv0m5p3ueio&st=nabhbre1&raw=1',
   },
+  'Trà Anh Phi': {
+    url: 'https://www.facebook.com/Traanhphi',
+    thumbnail: 'https://www.dropbox.com/scl/fi/x6rfeohzyfqhm0j03pgp9/Tr-Anh-Phi.webp?rlkey=e31cdragy4fe5z4hk7vei9kjc&st=w9thu929&raw=1',
+  },
   'Thoại Nhân Official': {
     url: 'https://www.facebook.com/thoainhanofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/39j63qxuvj4kfplnng7eo/Tho-i-Nh-n-Official.jpg?rlkey=zbv7bpxsajlgcqu0ljva7n2r9&st=zlnv6qzy&raw=1',
