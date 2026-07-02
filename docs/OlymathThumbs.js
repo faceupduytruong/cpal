@@ -56,6 +56,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Toanthayhoang6789',
     thumbnail: 'https://www.dropbox.com/scl/fi/gqqmoc0nuvgvdhp6udckj/Th-y-Ho-ng-To-n.jpg?rlkey=gpebq30imf9sm0rjdeil8yfxk&st=chzdsnq8&raw=1',
   },
+  'Thầy Hoàng ơi!': {
+    url: 'https://www.youtube.com/@ThayHoangoi/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/whgsr1oq8dve6aekamdtu/Th-y-Ho-ng-i.jpeg?rlkey=7uy6ngblsj4s1h2c7u0b6m2bp&st=2gufls9x&raw=1',
+  },
   'MS. T-L-A': {
     url: 'https://www.youtube.com/@iloveokmanhotboy85/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/s98niw9g4wosa3fcxm9fq/MS.-T-L-A.webp?rlkey=xpk6zg659g2mt6e2euc6ylxsr&st=18xurhvw&raw=1',
