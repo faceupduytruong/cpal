@@ -65,5 +65,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@VatLyChill/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7kymo6yn065gzo09pl6c3/V-t-L-Chill.jpg?rlkey=m8o3we3inpczu0irp19kgor3r&st=2hcztbyw&raw=1',
   },
+  'Ôn Thi Đại Học Cấp Tốc': {
+    url: 'https://www.youtube.com/@%C3%94nThi%C4%90%E1%BA%A1iH%E1%BB%8DcC%E1%BA%A5pT%E1%BB%91c/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/f4qeyx0pqjhttwxlmbrtn/n-Thi-i-H-c-C-p-T-c.jpg?rlkey=ewjzb5cuslavfziydw4ileqoc&st=ydicflb3&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
