@@ -225,7 +225,7 @@ container.innerHTML = `
 
   <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/lispcad/files/files' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/y1x3430lnv5l6d7kjhvns/C-ng-h-c-AutoCad.webp?rlkey=mp88s9w3t0nx2go8cly89k1vo&st=ksg72hi9&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/8yjsr7lbmwmzgjy1jt8xp/C-ng-h-c-AutoCad.png?rlkey=so7r2s01qve8lgq4k6ogewd42&st=2963ggy1&raw=1">
 </div>
         <div class="caption">Cùng học AutoCad</div>
       </div>
