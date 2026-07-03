@@ -62,7 +62,11 @@ const folderLinks = {
   },
   'MS. T-L-A': {
     url: 'https://www.youtube.com/@iloveokmanhotboy85/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/s98niw9g4wosa3fcxm9fq/MS.-T-L-A.webp?rlkey=xpk6zg659g2mt6e2euc6ylxsr&st=18xurhvw&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/me5mv1hh42y7adoly09za/MS.-T-L-A.webp?rlkey=39qi8d4i612zie91ygd7v5i2l&st=bnw9kwmr&raw=1',
+  },
+  'Vinastudy - Trường liên cấp': {
+    url: 'https://www.youtube.com/@Vinastudy-Tr%C6%B0%E1%BB%9Dngh%E1%BB%8DcTo%C3%A1ntr%E1%BB%B1ctuy/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s98niw9g4wosa3fcxm9fq/Vinastudy-Tr-ng-li-n-c-p.webp?rlkey=xpk6zg659g2mt6e2euc6ylxsr&st=9qvg6flp&raw=1',
   },
   'Toán Thú Vị': {
     url: 'https://www.youtube.com/@To%C3%A1nTh%C3%BAV%E1%BB%8B/videos',
