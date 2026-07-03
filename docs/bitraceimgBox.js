@@ -68,6 +68,20 @@ container.innerHTML = `
         <div class="caption">Vietnam Construction Forum</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://civilaxis.com/tools', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/hye38bywoevepy5dn3aqx/CivilAxis-Web.jpg?rlkey=mb4t9av510ry0wktu8jtwpopr&st=ut0pm05f&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">CivilAxis (Web)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/civilaxisofficial', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/tk3y5or5quh0pmfzyx8yg/CivilAxis-Facebook.jpg?rlkey=5h2a4bsriyjpo2ifjyq890xfz&st=l5w2btmr&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">CivilAxis (Facebook)</div>
+      </div>
+
 </div>
 
       <!-- Hàng thứ 2 -->
