@@ -1504,6 +1504,21 @@ container.innerHTML = `
          <!-- Hàng thứ 36 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Study Skills For Using AI (Forum)</h2>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/928731596477469', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/8uqy2jjr3ncsprnifuixw/Google-NotebookLM-Vi-t-Nam.png?rlkey=eurnjwr75rc13q0ga9nb6c5ua&st=65jqtwbe&raw=1">
+</div>
+        <div class="caption">Google NotebookLM Việt Nam</div>
+      </div>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/928731596477469', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/g38hnjs7a84oer831z6tu/ng-d-ng-NotebookLM-v-Gemini.jpg?rlkey=20hhi745pj19oji6vixr6sh1o&st=ina35dti&raw=1">
+</div>
+        <div class="caption">Ứng dụng NotebookLM và Gemini</div>
+      </div>
+    
             <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/967840744069261/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/f3ma4e01mr6t1d3es9t3j/AI-TH-T-D-C-NG-NG-AI-VI-T-NAM.png?rlkey=ed8qvm7ry8e1r7170x57qrfzd&st=9txcmayo&raw=1">
@@ -1551,13 +1566,6 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/gog08btqlvdt4wt8uvb06/C-m-AI-lo.png?rlkey=su6sxkskswgl8go8jybnc6hvo&st=dgsaszoa&raw=1">
 </div>
         <div class="caption">Cơm AI lo</div>
-      </div>
-
-            <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/928731596477469', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/g38hnjs7a84oer831z6tu/ng-d-ng-NotebookLM-v-Gemini.jpg?rlkey=20hhi745pj19oji6vixr6sh1o&st=ina35dti&raw=1">
-</div>
-        <div class="caption">Ứng dụng NotebookLM và Gemini</div>
       </div>
 
 </div>
