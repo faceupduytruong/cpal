@@ -133,7 +133,7 @@ h2 {
   -webkit-backdrop-filter: blur(12px);  /* hỗ trợ Safari */
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3); /* ✅ viền trắng mờ */
-  padding: 16px;    /* Thu gọn phần nhô ra 2 bên của background mờ phía sau */
+  padding: 37px;    /* Thu gọn phần nhô ra 2 bên của background mờ phía sau */
   padding-bottom: 50px;    /* Chỉnh phần dưới của background trong mờ phía dưới ảnh */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* bóng tối nhẹ */
   justify-content: center;     /* ✅ Căn giữa ảnh */
