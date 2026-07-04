@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: rgba(0, 0, 0, 0.4); /* đen nhạt trong suốt */
+  overflow: auto; /* OK */
+  /* Không nên có thuộc tính như scrollbar-color hoặc ::-webkit-scrollbar nếu muốn extension kiểm soát */
+}
+
+/* Chrome, Edge */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(30, 30, 30, 0.3);
+  backdrop-filter: blur(10px);
+}
+body::-webkit-scrollbar-thumb {
+  box-shadow: 0 4px 30px rgba(0, 128, 0, 0.3);
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.4),
+    rgba(173, 255, 47, 0.6),
+    rgba(60, 179, 113, 0.8),
+    rgba(0, 128, 0, 1)
+  );
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px); /* thêm vào đây */
+}
+
+h1 {
+  display: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 125px;
+  margin-bottom: 55px;
+  margin-top: 0px;
+}
+
+@keyframes glowPulse {
+  0% {
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 1;
+  }
+  50% {
+    text-shadow: 0 0 2px #660000, 0 0 4px #660000;
+    opacity: 0.5;
+  }
+  100% {
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 1;
+  }
+}
+
+@font-face {
+  font-family: 'FC Coldwell Bridges Regular';
+  src: url('https://raw.githubusercontent.com/faceupduytruong/cpal/main/fonts/FCColdwellBridges-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.glowing-text {
+  font-family: 'FC Coldwell Bridges Regular', sans-serif;
+  font-weight: bold;
+  font-size: 2.7rem;
+  animation: glowPulse 7s infinite;
+  color: white;
+  text-shadow: 2px 2px 0 white, -2px -2px 0 white;
+}
+
+h2 {
+  margin: -60 auto -30px auto; /* căn giữa và tạo khoảng cách dưới */
+  margin-top: 20px;
+}
+
+.section {
+  margin-bottom: 0px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  /* color: #333; ← xóa hoặc thay bằng dòng dưới */
+  color: white;
+}
+
+.image-box {
+  width: 109px; /* nhỏ hơn để vừa nhiều ảnh hơn */
+  flex-shrink: 0; /* không bị co lại khi cuộn ngang */
+  text-align: center;
+  align-items: center;
+  margin-bottom: -15px;  /* Khoảng cách của các ảnh */
+}
+
+.image-box img {
+  width: 108px;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.3); /* ánh sáng trắng mờ */
+  filter: drop-shadow(0 0 12px rgba(0, 0, 0, 0.8));
+  filter: brightness(1.2);
+}
+
+.image-box img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.4);
+  box-shadow: 0 0 35px rgba(255, 255, 255, 0.6); /* ánh sáng trắng rõ hơn */
+  transition: transform 0.3s ease;
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 17px;
+  font-family: 'Quicksand', cursive;
+  color: white;
+}
+
+.image-row-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* căn giữa hàng ảnh */
+  margin-bottom: -40px; /* tạo khoảng cách giữa các khối */
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;               /* giữ ảnh trên một hàng */
+  gap:40px;
+  background: rgba(255, 255, 255, 0.08); /* nền trắng mờ */
+  backdrop-filter: blur(12px);          /* làm mờ nền phía sau */
+  -webkit-backdrop-filter: blur(12px);  /* hỗ trợ Safari */
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* ✅ viền trắng mờ */
+  padding: 16px;    /* Thu gọn phần nhô ra 2 bên của background mờ phía sau */
+  padding-bottom: 50px;    /* Chỉnh phần dưới của background trong mờ phía dưới ảnh */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* bóng tối nhẹ */
+  justify-content: center;     /* ✅ Căn giữa ảnh */
+  overflow-x: visible;         /* bật cuộn ngang */
+  max-width: 900px;               /* ✅ Giới hạn chiều rộng để ảnh không tràn */
+  margin: 0 auto 24px auto;        /* ✅ Căn giữa khối ảnh */
+  transition: background-color 0.5s ease;
+}
+
+@media (max-width: 600px) {
+  .image-row {
+    gap: 0px;
+    padding: 36px;
+  }
+  .image-row-wrapper {
+    margin-bottom: 8px;
+  }
+  .image-box img {
+    width: 100px;
+  }
+}
+.row-title {
+  font-size: 34px;   /* Chỉnh font chữ của Structual System ... */
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  white-space: normal;       /* Cho phép ngắt dòng */
+  word-break: break-word;    /* Ngắt từ nếu quá dài */
+  text-align: center;        /* Căn giữa nếu cần */
+}
+
+.glass-bg {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background-color 0.5s ease, backdrop-filter 0.5s ease;
+  border-radius: 12px;
+}
+
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
