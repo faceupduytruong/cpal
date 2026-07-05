@@ -537,6 +537,13 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@TruongPhiPhap/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/aqh3227yf2hrmm2xx1tn1/Tr-ng-Phi-Ph-p.jpg?rlkey=l64q43hsr3wc7mt4tjzz4b4z1&st=m46sek5i&raw=1">
+</div>
+        <div class="caption">Trương Phi Pháp</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/tknet.equip/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/02fyztxzugxu6te0sx5kd/TKNET.webp?rlkey=wlwi7xq253lxixjrchzj5voux&st=ebkv3tkg&raw=1">
 </div>
