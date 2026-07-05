@@ -196,6 +196,13 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://ksxd.vn/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/9sbk3kn5ne1gc6tz7y0m0/KSXD-VN.webp?rlkey=vxh3gc47yyty67pxd3sf0opzm&st=np4uz1uv&raw=1">
+</div>
+        <div class="caption">KSXD VN</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100090731145618&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/oc6w70omc2kc66m7g35ek/L-m-Ch-Thi-t-K-Autocad.jpg?rlkey=bqan6utr28ekjs92v8j3prmu4&st=xco3zazm&raw=1">
 </div>
