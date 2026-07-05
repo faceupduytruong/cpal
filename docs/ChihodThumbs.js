@@ -130,6 +130,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/TKBooks.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2xfs6mszfzta4v277h2ci/TKBooks-C-c-M-n-H-c.jpg?rlkey=yf9cv58ink6uj46ht41puzrtm&st=9owsvd48&raw=1'
   },
+ 'Rì Viu Sách Hay Cho Bé': {
+    url: 'https://www.facebook.com/profile.php?id=61574636025868&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nrhcgpwb3la4e7cop7jp4/R-Viu-S-ch-Hay-Cho-B.png?rlkey=kjadg24y9wbxmc9ysk40ntsgy&st=ywng6i0q&raw=1'
+  },
  'I Can Read HN': {
     url: 'https://www.facebook.com/icanread.edu.hanoi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/r9xbk1jqvhbky6vahzx1i/I-Can-Read-HN.jpg?rlkey=vxaif541ldfeiekld1yhh4pbh&st=73zaddfm&raw=1'
