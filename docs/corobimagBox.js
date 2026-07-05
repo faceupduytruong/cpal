@@ -340,6 +340,18 @@ container.innerHTML = `
 
      <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
+    <h2 class="row-title">Setup My Desk</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/Lutix.co' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/zlpdmlceff62qoqhocqzb/Lutix.jpg?rlkey=k7xmdhbrs4g76d2969g4nahgj&st=nl9p014i&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Lutix</div>
+      </div>
+
+</div>
+
+     <!-- Hàng thứ 9 -->
+    <div class="image-row glass-bg">
     <h2 class="row-title">Smart Tech Toys</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61581631336524&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
