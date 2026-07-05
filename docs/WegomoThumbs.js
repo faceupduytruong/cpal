@@ -78,6 +78,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61590747182934&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/mrd55r7jxg1ldm6dsm3d1/c-Gi-u-H-n.gif?rlkey=cfo2p8whm77o4p0t04qjzi4di&st=vzaw5lbz&raw=1',
   },
+  'Tiến sĩ Tô Nhật': {
+    url: 'https://www.facebook.com/Doanhnhan.ToNhat/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/sl1tee10jpg5u087ksuos/Ti-n-s-T-Nh-t.gif?rlkey=uofv94o86mhoi24oizafl5qpo&st=amr5j4zj&raw=1',
+  },
   'Bài học ý nghĩa cuộc sống': {
     url: 'https://www.facebook.com/profile.php?id=61551444937998&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/hbjmy4idl8zklbnjbtdai/B-i-h-c-ngh-a-cu-c-s-ng.png?rlkey=uwgy9w7fg0b3f8r17h6fqm8er&st=j0xd98b5&raw=1',
