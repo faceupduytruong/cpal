@@ -74,6 +74,18 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61578459320975&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/5r4zlpthidq20xv7d4l26/Th-Gi-i-Anh-Ng-C-a-B.jpg?rlkey=28wfy14l7rycbaekr82m6bxab&st=m7hzih3w&raw=1'
   },
+  'Bố Cùng Con Học Tiếng Anh': {
+    url: 'https://www.facebook.com/profile.php?id=61590263083967&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0ehfannnmkyetlgvp3r5r/B-C-ng-Con-H-c-Ti-ng-Anh.jpg?rlkey=gypcon7cw5asf41eyic6lzwwo&st=nkyhk24s&raw=1'
+  },
+  'Trạm Tiếng Anh Nhí': {
+    url: 'https://www.facebook.com/profile.php?id=61591279779526&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/j1c7x7koutbwi3vg7db3w/Tr-m-Ti-ng-Anh-Nh.jpg?rlkey=iho6cavdxxc62dfu9k95cegbm&st=cy64qm3h&raw=1'
+  },
+  'Thế Giới Anh Ngữ Của Bé': {
+    url: 'https://www.facebook.com/profile.php?id=61588053111535&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5r4zlpthidq20xv7d4l26/Th-Gi-i-Anh-Ng-C-a-B.jpg?rlkey=28wfy14l7rycbaekr82m6bxab&st=gqgrzswn&raw=1'
+  },
   'Trung tâm ngoại ngữ Thần Tốc': {
     url: 'https://www.facebook.com/profile.php?id=100091225930364&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/093g9qiichbywvg4zb0oa/Trung-t-m-ngo-i-ng-Th-n-T-c.jpg?rlkey=cev78dq7bb89xa8baslwnnarx&st=e9htq24b&raw=1'
