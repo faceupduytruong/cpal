@@ -100,5 +100,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@nuoidayconthongminh/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/48n5dz3f7j2s0dh4wknar/Nu-i-D-y-Con-Th-ng-Minh.webp?rlkey=atebjqqphr4mwdluldtnb1a57&st=m1bulln7&raw=1',
   },
+  'Nuôi con thiên tài ': {
+    url: 'https://www.facebook.com/profile.php?id=61579642148739',
+    thumbnail: 'https://www.dropbox.com/scl/fi/f9aw5bp3sjuwbvy0ka3y5/Nu-i-con-thi-n-t-i.png?rlkey=rru2ndgtm7s7sdueow28ol8iv&st=oiecr8y9&raw=1',
+  },   
   // thêm các mục khác nếu cần
 };
