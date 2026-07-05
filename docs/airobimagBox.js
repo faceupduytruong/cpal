@@ -1513,6 +1513,13 @@ container.innerHTML = `
       </div>
 
             <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/883633534000509/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/cywrx2wwnqhpk3sv9e3zi/C-ng-ng-NotebookLM-Vi-t-Nam.webp?rlkey=v5kpqetwii1pjq2qclkzz7w72&st=3lrb2iry&raw=1">
+</div>
+        <div class="caption">Cộng đồng NotebookLM Việt Nam</div>
+      </div>
+
+            <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/928731596477469', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/g38hnjs7a84oer831z6tu/ng-d-ng-NotebookLM-v-Gemini.jpg?rlkey=20hhi745pj19oji6vixr6sh1o&st=ina35dti&raw=1">
 </div>
