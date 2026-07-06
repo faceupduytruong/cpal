@@ -15,9 +15,9 @@ const customThumbnails = {
 const folders = {
    'Bất đẳng thức': ['Bất đẳng thức Bunhiacopxki.png', 'Chứng minh bất đẳng thức Young bằng Định lý giá trị trung bình Lagrange.png', 'Tìm giá trị nhỏ nhất của biểu thức dùng BĐT.png'],
    'Chuỗi số': ['Chỉnh hợp chập k-n.png', 'Chứng minh chuỗi số lớn hơn một số nào đó.png', 'Chứng minh dãy là một cấp số nhân.png', 'Dãy đơn điệu giảm và đơn điệu tăng.png', 'Số nguyên tố, số nguyên và số tự nhiên.png', 'Tách phân số.png', 'Tính tổng biểu thức chứa lũy thừa.png', 'Tổng cấp số cộng và cấp số nhân.png', 'Xác định số hạng tổng quát.png'],
-   'Giải phương trình': ['Chứng minh phương trình có hai nghiệm phân biệt.png', 'Kiểm tra nghiệm thực của phương trình.png', 'Rút gọn biểu thức, Giải phương trình.png', 'Tìm nghiệm của biểu thức phức tạp.png', 'Tìm nhiều ẩn số chỉ với 1 phương trình.png'],
+   'Giải phương trình': ['Chứng minh phương trình có hai nghiệm phân biệt.png', 'Kiểm tra nghiệm thực của phương trình.png', 'Rút gọn biểu thức, Giải phương trình.png', 'Tìm nghiệm của biểu thức phức tạp.png', 'Tìm nhiều ẩn số chỉ với 1 phương trình.png', 'Đinh lý Vi-ét.png'],
    'Giới hạn': ['Tính lim khi x tiến tới vô cực.png'],
-   'Hàm số': ['Biết đặc tính của hàm f(x) để tìm hàm f(x).png', 'Giải phương trình bằng vẽ hàm số đạo hàm.png', 'Tìm số thực để lim tồn tại hữu hạn.png', 'Đinh lý Vi-ét.png', 'Đạo hàm của hàm hợp.png'],
+   'Hàm số': ['Biết đặc tính của hàm f(x) để tìm hàm f(x).png', 'Giải phương trình bằng vẽ hàm số đạo hàm.png', 'Tìm số thực để lim tồn tại hữu hạn.png', 'Đạo hàm của hàm hợp.png'],
    'Lượng giác': ['Phương trình lượng giác sinX = sinY.png'],
    'Số nguyên': ['Chứng minh một số là số nguyên tố.png', 'Số nguyên tố cùng nhau.png', 'Tính bình phương và căn bậc hai nhanh không cần máy tính.png'],
    'Vector': ['Tâm tỉ cự.png'],
