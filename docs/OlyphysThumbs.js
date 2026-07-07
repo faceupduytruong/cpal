@@ -3,6 +3,7 @@ const customThumbnails = {
   'Mạch điện': 'https://www.dropbox.com/scl/fi/qags4k3nib5t0r41jxs3k/Circuit.jpg?rlkey=mt77hpxvofpolg79fno2g8i0y&st=21c9r5xy&raw=1',
   'Năng lượng': 'https://www.dropbox.com/scl/fi/a4iulf3y7nhtxvpc6qnxh/Efficiency.jpg?rlkey=8vqik1f5o1t2l76chdblyhcia&st=1fep6r1x&raw=1',
   'Ròng rọc': 'https://www.dropbox.com/scl/fi/ysa6zsjtytytl9xkw8351/R-ng-r-c.jpg?rlkey=qw49u2qjzlvrrwshxliir1sug&st=cx0sl9kq&raw=1',
+  'Vật cân bằng': 'https://www.dropbox.com/scl/fi/8gjvfa2z5byk6n19xqeo4/V-t-c-n-b-ng.jpg?rlkey=2dvaklsdikl8tzb4gy6ese62w&st=ezwtqvp5&raw=1',
   'Vật chuyển động': 'https://www.dropbox.com/scl/fi/drcsq6pa2u2qenw7y74kk/Transportation.jpg?rlkey=lkb66j0nsfhrr31yju9qchskl&st=yoxbv8tp&raw=1',
   // thêm các mục khác nếu cần
 };
@@ -73,9 +74,13 @@ const folderLinks = {
     url: 'https://www.youtube.com/@%C3%94nThi%C4%90%E1%BA%A1iH%E1%BB%8DcC%E1%BA%A5pT%E1%BB%91c/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/f4qeyx0pqjhttwxlmbrtn/n-Thi-i-H-c-C-p-T-c.jpg?rlkey=ewjzb5cuslavfziydw4ileqoc&st=ydicflb3&raw=1',
   },
-  'Cùng con chinh phục chuyên KHTN ': {
+  'Cùng con chinh phục chuyên KHTN': {
     url: 'https://www.facebook.com/profile.php?id=61590953829660',
     thumbnail: 'https://www.dropbox.com/scl/fi/0hvnz7qb39eplab8pccxo/ng-h-nh-c-ng-con-chinh-ph-c-chuy-n-KHTN.jpg?rlkey=hghnp6skg4gp5r9buf6vjy9oz&st=ldy8zm13&raw=1',
+  },
+  'Interactive Physics Simulations': {
+    url: 'https://physion.net/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mzqc6jkibvitl6h3ua2jc/Interactive-Physics-Simulations.jpg?rlkey=whi0j6s5jo7nru99lv1jmw4ug&st=3fnztrvz&raw=1',
   },
   // thêm các mục khác nếu cần
 };
