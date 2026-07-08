@@ -500,6 +500,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Gemini</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.google.com/webhp?hl=vi&ictx=0&sa=X&ved=0ahUKEwjt1onfx8KVAxWbyTgGHZkgK-MQPAgH&zx=1783495863195', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/1tq9081ckoxdo7o4421li/Google-AI.png?rlkey=ve4ilk0qzgwta8ixh5wnd2j75&st=de8jscb9&raw=1">
+</div>
+        <div class="caption">Google AI</div>
+      </div>
       
         <div class="image-box">
   <div onclick="openRightHalfPopup('https://chatgpt.com/', 'SmartApp Popup', window.innerWidth, 745)">
