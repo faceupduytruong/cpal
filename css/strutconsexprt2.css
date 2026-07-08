@@ -616,7 +616,7 @@ body.dark-mode .popup-content h3 {
   justify-content: center;     /* ✅ Căn giữa ảnh */
   overflow-x: visible;         /* bật cuộn ngang */
   max-width: 612px;               /* ✅ Giới hạn chiều rộng để ảnh không tràn */
-  margin: 0 auto; /* tự động căn giữa trái/phải */
+  margin: 0 auto 8px auto;        /* ✅ Căn giữa khối ảnh */
   margin-top: 0;
   transition: background-color 0.5s ease;
 
