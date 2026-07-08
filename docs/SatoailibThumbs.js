@@ -14,3 +14,18 @@ const folders = {
   'Mindmap': ['Vẽ Mindmap màu sắc cho con nít.png'],
   // thêm các mục khác nếu cần
 };
+
+const folderLinks = {
+  'Sách Computer': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Computer/index.htm',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jfjsw8ypzvzz1s0ewt5ec/Computer.jpg?rlkey=5319cdpl0tdkrli33tuy787da&st=796i5wv3&raw=1'
+  },
+  'Google Translate': {
+    url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
+    thumbnail: 'https://www.dropbox.com/scl/fi/35acdxhtejtdlm7me2v3q/Google-Translate.png?rlkey=h98f3i8mutkm97rvwvap1ej0o&st=g3bs8t3c&raw=1'
+  },
+  'Học Giải Thuật Cùng HPN': {
+    url: 'https://www.youtube.com/@hocgiaithuatcunghpn_official',
+    thumbnail: 'https://www.dropbox.com/scl/fi/bxu89y4nxgb2rsfu4fr2u/H-c-Gi-i-Thu-t-C-ng-HPN.jpg?rlkey=wdqacp2al8mhk74kyzi8h2pcc&st=x8buta20&raw=1'
+  },
+};
