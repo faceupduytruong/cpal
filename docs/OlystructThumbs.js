@@ -52,7 +52,7 @@ const folderLinks = {
     url: 'https://www.youtube.com/@HuynhThanhHuy-HCMUTE/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7qjrj1nu42fa5syaieb36/K-t-C-u-Th-p-HCMUTE.png?rlkey=z24hfg8cu5pufgxjxgqhmlg6s&st=9jrqss81&raw=1',
   },
-  'Hỗ Trợ Đồ Án DA Ngành KTXD': {
+  'Hỗ Trợ Đồ Án Ngành KTXD': {
     url: 'https://www.youtube.com/@HotrodoankythuatxaydungKSV/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vcxc0zk9sk6zm0uadx22z/H-Tr-DA-Ng-nh-K-Thu-t-X-y-D-ng-Trung-t-m-KSV.jpg?rlkey=hv1f9yljcsf4pf4wnzoao8w3p&st=zs35gwkv&raw=1',
   },
