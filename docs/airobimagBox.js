@@ -502,7 +502,7 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.google.com/webhp?hl=vi&ictx=0&sa=X&ved=0ahUKEwjt1onfx8KVAxWbyTgGHZkgK-MQPAgH&zx=1783495863195', 'SmartApp Popup', window.innerWidth, 745)">
+  <div onclick="openRightHalfPopup('https://www.google.com/search?sca_esv=de0a3a168aa7f33a&hl=vi&sxsrf=APpeQnsd7HJ7e8K6IAZxGXxNnB75FKHLag%3A1783495857830&source=hp&ei=sfxNasSiL5D1juMPxJy_WA&iflsig=ABILxe8AAAAAak4KwWevpSTWFUCAm27GcSBYCnk1cfM1&ved=2ahUKEwjikvTT6MKVAxUHRCoJHYhECscQoo4PegYIAggBEAU&uact=5&oq=T%C3%ACm+gi%C3%B9m+t%C3%B4i+h%C3%ACnh+%E1%BA%A3nh+gi%E1%BB%91ng+m%C3%B4+t%E1%BA%A3+c%E1%BB%A7a+b%C3%A0i+to%C3%A1n+n%C3%A0&gs_lp=Egdnd3Mtd2l6IkFUw6xtIGdpw7ltIHTDtGkgaMOsbmgg4bqjbmggZ2nhu5FuZyBtw7QgdOG6oyBj4bunYSBiw6BpIHRvw6FuIG7DoEj-911Q5phbWOeSXXAAeKwBkAEAmAGsCaAB2Q2qAQkzLjMtMS43LTG4AQPIAQD4AQL4AQGYAgOgAqUEqAIAwgIREAAYygYYngYY8AUY6gIYtAKYA_YCkgcFMi4zLTGgB5cIsgcFMi4zLTG4B6UEwgcFMi0xLjLIByCACAE&sclient=gws-wiz&lsessionid=xmgwrOJOV1M-gFK5BmGgpMv6nh0rmDxbXJJsiWrMa_8pNVSEZiN15w&cs=0&mtid=ugJOapuyJsO2vr0PifnVoQM&udm=50&atvm=1&zs=1', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/1tq9081ckoxdo7o4421li/Google-AI.png?rlkey=ve4ilk0qzgwta8ixh5wnd2j75&st=de8jscb9&raw=1">
 </div>
         <div class="caption">Google AI</div>
