@@ -619,6 +619,7 @@ body.dark-mode .popup-content h3 {
   margin: 0 auto 8px auto;        /* ✅ Căn giữa khối ảnh */
   margin-top: 0;
   transition: background-color 0.5s ease;
+}
 
 @media (max-width: 600px) {
   .image-row {
