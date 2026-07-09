@@ -12,3 +12,19 @@ const folders = {
 'Số mole': ['Sản xuất bánh xà phòng.png'],
 // thêm các mục khác nếu cần
 };
+
+const folderLinks = {
+  'Sách Kể Chuyện': {
+    url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Story/index.htm',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mzn88e97lpg5o4wgqw3cx/S-ch-K-Chuy-n.webp?rlkey=71udzkkrr0jw2plf77s72ebxg&st=zbnf1h9g&raw=1',
+  },
+  'Google Translate': {
+    url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1',
+  },
+  'Thầy Hải - Dạy Hóa Online': {
+    url: 'https://www.youtube.com/@Th%E1%BA%A7yH%E1%BA%A3i-D%E1%BA%A1yH%C3%B3aOnline/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qodpiknfts7yg0t0hi9cp/Th-y-H-i-D-y-H-a-Online.jpg?rlkey=42cgvwtj5xa6bzdu6usl8icgk&st=gt0e0d21&raw=1',
+  },
+  // thêm các mục khác nếu cần
+};
