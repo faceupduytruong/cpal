@@ -46,6 +46,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@ThayThangTV/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/zztanlh8yjk71puywl1jj/H-c-To-n-c-ng-Th-y-Th-ng.jpg?rlkey=mxlki3n0cuf64gi9uey5uytz4&st=ej35j2hh&raw=1',
   },
+  'Thầy Nguyễn Phan Tiến': {
+    url: 'https://www.youtube.com/@Thay.NguyenPhanTien/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hmhjjvcr2ave6a6p98aqo/Th-y-Nguy-n-Phan-Ti-n.jpg?rlkey=kdnvd9oo70jszvf0a5m3uj2qi&st=7ez2kl3o&raw=1',
+  },
   'Tuyensinh247 - Học trực tuyến': {
     url: 'https://www.youtube.com/@tuyensinh247tv/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/s5lwtmmuib5xt95fn5w8u/Tuyensinh247-H-c-tr-c-tuy-n.png?rlkey=9z5ld8vi3ik71ohb8vaw5twla&st=sqxf4yr9&raw=1',
@@ -61,6 +65,10 @@ const folderLinks = {
   'Thầy Hoàng ơi!': {
     url: 'https://www.youtube.com/@ThayHoangoi/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/whgsr1oq8dve6aekamdtu/Th-y-Ho-ng-i.jpeg?rlkey=7uy6ngblsj4s1h2c7u0b6m2bp&st=2gufls9x&raw=1',
+  },
+  'tmttuan official': {
+    url: 'https://www.youtube.com/@tmttuanofficial/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fw34hijhwbj6rsnohei57/tmttuan-official.jpg?rlkey=hukrcymxeo9q38k8rj0c1zmqh&st=4rjxs564&raw=1',
   },
   'MS. T-L-A': {
     url: 'https://www.youtube.com/@iloveokmanhotboy85/videos',
