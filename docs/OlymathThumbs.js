@@ -78,6 +78,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@iloveokmanhotboy85/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/me5mv1hh42y7adoly09za/MS.-T-L-A.webp?rlkey=39qi8d4i612zie91ygd7v5i2l&st=bnw9kwmr&raw=1',
   },
+  'Toán Học Mỗi Ngày': {
+    url: 'https://www.youtube.com/@toanhocmoingay/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/68tgjpakweqzhh2ookz4k/To-n-H-c-M-i-Ng-y.jpg?rlkey=2dj9ve75dmoj2k0i86lnipv8c&st=gkixq9jo&raw=1',
+  },
   'Vinastudy - Trường liên cấp': {
     url: 'https://www.youtube.com/@Vinastudy-Tr%C6%B0%E1%BB%9Dngh%E1%BB%8DcTo%C3%A1ntr%E1%BB%B1ctuy/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/s98niw9g4wosa3fcxm9fq/Vinastudy-Tr-ng-li-n-c-p.webp?rlkey=xpk6zg659g2mt6e2euc6ylxsr&st=9qvg6flp&raw=1',
