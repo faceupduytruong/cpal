@@ -48,6 +48,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@dothikimoanh86/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/k6wh352mba2ejme6lqxnj/Th-Kim-Oanh-BTCT.jpg?rlkey=c956g5l61zruex1b7n3wkjyqd&st=m3if61t3&raw=1',
   },
+  'Leo Phạm Official (BTCT)': {
+    url: 'https://www.youtube.com/@leophamofficial2512/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nbzfqcoiomdd6lsz3suty/Leo-Ph-m-Official.jpg?rlkey=2ux5gb9ru78lf2hw7xyg1p79j&st=x251alb2&raw=1',
+  },
   'Kết Cấu Thép - HCMUTE': {
     url: 'https://www.youtube.com/@HuynhThanhHuy-HCMUTE/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7qjrj1nu42fa5syaieb36/K-t-C-u-Th-p-HCMUTE.png?rlkey=z24hfg8cu5pufgxjxgqhmlg6s&st=9jrqss81&raw=1',
