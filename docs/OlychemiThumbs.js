@@ -26,5 +26,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Th%E1%BA%A7yH%E1%BA%A3i-D%E1%BA%A1yH%C3%B3aOnline/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/qodpiknfts7yg0t0hi9cp/Th-y-H-i-D-y-H-a-Online.jpg?rlkey=42cgvwtj5xa6bzdu6usl8icgk&st=gt0e0d21&raw=1',
   },
+  'elm zai chị Nguyệt': {
+    url: 'https://www.youtube.com/@Elmzaich%E1%BB%8BNguy%E1%BB%87t',
+    thumbnail: 'https://www.dropbox.com/scl/fi/bqsrrtgdesb4t4fpk8g30/elm-zai-ch-Nguy-t.webp?rlkey=juf4mik4f00lvjxog92sqro3o&st=topvsj7x&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
