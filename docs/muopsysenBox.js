@@ -684,7 +684,7 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/Khanglv6366/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/Khanglv.official/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/f6zrnguoxsde7dxmz6a53/Khangg-Lv-khang-Tin-H-c.png?rlkey=rnmikvnqpxbhj4mdgof2bdrlh&st=jyj1836s&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Khangg Lv (khang Tin Học)</div>
