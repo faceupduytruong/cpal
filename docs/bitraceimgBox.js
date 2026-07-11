@@ -387,6 +387,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Khánh Nguyễn</div>
       </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61560724785714&sk=reels_tab', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/728x47eom8as33gpnz4sn/Ki-n-tr-c-s-i.webp?rlkey=kq1d3hr10fq8f32kh13v9qsa4&st=6leqp9wb&raw=1">
+</div>
+        <div class="caption">Kiến trúc sư Ơi</div>
+      </div>
       
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/815479533482926/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
