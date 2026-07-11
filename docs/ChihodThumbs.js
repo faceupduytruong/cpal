@@ -130,6 +130,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/TKBooks.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2xfs6mszfzta4v277h2ci/TKBooks-C-c-M-n-H-c.jpg?rlkey=yf9cv58ink6uj46ht41puzrtm&st=9owsvd48&raw=1'
   },
+ 'Cùng con học tiểu học': {
+    url: 'https://www.facebook.com/groups/574496647195306/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o32hx4r859f134u3tdpy4/C-ng-con-h-c-ti-u-h-c.gif?rlkey=9uw4rsp909c23ckrot0kx9p6y&st=l17lj598&raw=1'
+  },
  'Rì Viu Sách Hay Cho Bé': {
     url: 'https://www.facebook.com/profile.php?id=61574636025868&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/nrhcgpwb3la4e7cop7jp4/R-Viu-S-ch-Hay-Cho-B.png?rlkey=kjadg24y9wbxmc9ysk40ntsgy&st=ywng6i0q&raw=1'
