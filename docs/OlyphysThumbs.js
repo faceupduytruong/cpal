@@ -66,10 +66,6 @@ const folderLinks = {
     url: 'https://www.youtube.com/@huynhnghiateacher0399/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/8m5zh4zdyteqq0bf2goqh/Hu-nh-Ngh-a-Teacher.jpg?rlkey=0ia1honqrusvauwnn8m0x166g&st=0jx69z6v&raw=1',
   },
-  'Vật Lý Chill': {
-    url: 'https://www.youtube.com/@VatLyChill/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/7kymo6yn065gzo09pl6c3/V-t-L-Chill.jpg?rlkey=m8o3we3inpczu0irp19kgor3r&st=2hcztbyw&raw=1',
-  },
   'Ôn Thi Đại Học Cấp Tốc': {
     url: 'https://www.youtube.com/@%C3%94nThi%C4%90%E1%BA%A1iH%E1%BB%8DcC%E1%BA%A5pT%E1%BB%91c/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/f4qeyx0pqjhttwxlmbrtn/n-Thi-i-H-c-C-p-T-c.jpg?rlkey=ewjzb5cuslavfziydw4ileqoc&st=ydicflb3&raw=1',
@@ -77,6 +73,14 @@ const folderLinks = {
   'Bụi Phấn TV': {
     url: 'https://www.youtube.com/@chuminh/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/yvmxurt07laom7vnc4eoc/B-i-Ph-n-TV.jpg?rlkey=46bp6gv7k4k2n9g3qpkayyfk3&st=kxx227a4&raw=1',
+  },
+  'Thầy Lê Tùng Ưng': {
+    url: 'https://www.youtube.com/@thayletungung/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/d1l3dlfptfqmfxr3jpzp6/Th-y-L-T-ng-ng.jpg?rlkey=ggnyunb7xlkwzbx9tc1r70a6b&st=9xx08kwj&raw=1',
+  },
+  'Vật Lý Chill': {
+    url: 'https://www.youtube.com/@VatLyChill/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7kymo6yn065gzo09pl6c3/V-t-L-Chill.jpg?rlkey=m8o3we3inpczu0irp19kgor3r&st=2hcztbyw&raw=1',
   },
   'Cùng con chinh phục chuyên KHTN': {
     url: 'https://www.facebook.com/profile.php?id=61590953829660',
