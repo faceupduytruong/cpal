@@ -1,7 +1,3 @@
-// 👉 Chèn CSS vào DOM
-const style = document.createElement('style');
-style.textContent = `
-
     html, body {
       height: 100%;
       margin: 0;
@@ -37,7 +33,5 @@ style.textContent = `
       border: 1px solid rgba(255, 255, 255, 0.2);
       backdrop-filter: blur(12px); /* thêm vào đây */
     }
-
-`;
 
 document.head.appendChild(style);
