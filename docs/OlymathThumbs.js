@@ -74,6 +74,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@monghust/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/fh9ux054ie2ke6ncaq811/Th-y-MONG-To-n.avif?rlkey=1ucn4qs7rpilpe0fb9qr2ibio&st=sqhaudmn&raw=1',
   },
+  'Phạm Trường Giang': {
+    url: 'https://www.youtube.com/@Pham-Truong-Giang/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/v59qm89570dl6ygl9olg5/Ph-m-Tr-ng-Giang.jpg?rlkey=8vaoouimgtaowes4tgwr1jyun&st=gradosyi&raw=1',
+  },
   'MS. T-L-A': {
     url: 'https://www.youtube.com/@iloveokmanhotboy85/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/me5mv1hh42y7adoly09za/MS.-T-L-A.webp?rlkey=39qi8d4i612zie91ygd7v5i2l&st=bnw9kwmr&raw=1',
