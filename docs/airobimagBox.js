@@ -1506,6 +1506,13 @@ container.innerHTML = `
         <div class="caption">Sự AI</div>
       </div>
 
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@thanhcong-superlearning/videos', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/5enkrz95zhm74ovue7q3r/Th-nh-C-ng-Super-Learning.webp?rlkey=aiqfgoi3k7juhg3vzq9catlp1&st=ltt8ul3z&raw=1">
+</div>
+        <div class="caption">Thành Công - Super Learning</div>
+      </div>
+
 </div>
 
          <!-- Hàng thứ 36 -->
