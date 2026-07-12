@@ -18,5 +18,9 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1',
   },
+  'Van Tuan Nguyen': {
+    url: 'https://www.youtube.com/@vantuannguyen/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/z0g2nud5ve6j9o30tc37p/Van-Tuan-Nguyen.gif?rlkey=ry0ji1oqj0vlxzrq1shnk517g&st=5309drcf&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
