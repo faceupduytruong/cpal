@@ -140,6 +140,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Học lập trình cho người mới bắt đầu</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@dunglailaptrinh/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/b0dmd2yh8ta45ptf85deg/D-ng-L-i-L-p-Tr-nh.png?rlkey=1jhu96vi4er2d2vx7zeuowk96&st=t83ff76g&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Dũng Lại Lập Trình</div>
+      </div>
       
 </div>
 
