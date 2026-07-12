@@ -28,6 +28,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/gk8w85hcfp28onhadww0l/Google-Translate.jpg?rlkey=c6h4rivear25k3rmp38unrw6e&st=2t2xzydd&raw=1',
   },
+  'Lê Quang Tiếp (Đại cương)': {
+    url: 'https://www.youtube.com/@L%C3%AAQuangTi%E1%BA%BFp-v8z/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/u91k9fu6gpgek9u3q4ho3/L-Quang-Ti-p-i-c-ng.jpg?rlkey=x4lv761zs19m6y16dp1eoyjzg&st=bgfocxfy&raw=1',
+  },
   'Lê Bảo Quỳnh (Sức bền vật liệu)': {
     url: 'https://www.youtube.com/@QuynhLeBao/courses',
     thumbnail: 'https://www.dropbox.com/scl/fi/ntzc73ms8hiqpyeevqese/L-B-o-Qu-nh-S-c-b-n-v-t-li-u.jpg?rlkey=a0rjnrbaqx7hu9ziubvb45trg&st=ysn95rhc&raw=1',
@@ -36,9 +40,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Lamkhaimtu/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/pmmwwv1lezp008htxg63u/H-ng-d-n-X-y-d-ng.png?rlkey=cdkp4yp7qli2q92km5rwq9bmu&st=rwqffl1w&raw=1',
   },
-  'Lê Quang Tiếp (Đại cương)': {
-    url: 'https://www.youtube.com/@L%C3%AAQuangTi%E1%BA%BFp-v8z/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/u91k9fu6gpgek9u3q4ho3/L-Quang-Ti-p-i-c-ng.jpg?rlkey=x4lv761zs19m6y16dp1eoyjzg&st=bgfocxfy&raw=1',
+  'Khải Nguyễn (Cơ học kết cấu)': {
+    url: 'https://www.youtube.com/@KhaiNguyen55252/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6xliyhvl0gdqrxja4o2c5/Kh-i-Nguy-n-C-h-c-k-t-c-u.png?rlkey=juui2fhtzp9g882hvy317q8oj&st=upi44oyc&raw=1',
   },
   'NPT Training Center (BTCT)': {
     url: 'https://www.youtube.com/@NPTTrainingCenter/courses',
