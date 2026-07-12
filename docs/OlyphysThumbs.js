@@ -74,6 +74,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@%C3%94nThi%C4%90%E1%BA%A1iH%E1%BB%8DcC%E1%BA%A5pT%E1%BB%91c/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/f4qeyx0pqjhttwxlmbrtn/n-Thi-i-H-c-C-p-T-c.jpg?rlkey=ewjzb5cuslavfziydw4ileqoc&st=ydicflb3&raw=1',
   },
+  'Bụi Phấn TV': {
+    url: 'https://www.youtube.com/@chuminh/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yvmxurt07laom7vnc4eoc/B-i-Ph-n-TV.jpg?rlkey=46bp6gv7k4k2n9g3qpkayyfk3&st=kxx227a4&raw=1',
+  },
   'Cùng con chinh phục chuyên KHTN': {
     url: 'https://www.facebook.com/profile.php?id=61590953829660',
     thumbnail: 'https://www.dropbox.com/scl/fi/0hvnz7qb39eplab8pccxo/ng-h-nh-c-ng-con-chinh-ph-c-chuy-n-KHTN.jpg?rlkey=hghnp6skg4gp5r9buf6vjy9oz&st=ldy8zm13&raw=1',
