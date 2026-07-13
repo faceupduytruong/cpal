@@ -78,6 +78,14 @@ const folderLinks = {
     url: 'https://www.youtube.com/@thayletungung/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/d1l3dlfptfqmfxr3jpzp6/Th-y-L-T-ng-ng.jpg?rlkey=ggnyunb7xlkwzbx9tc1r70a6b&st=9xx08kwj&raw=1',
   },
+  'Your Faith': {
+    url: 'https://www.youtube.com/@yourfaith35/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rob70uwdghmx9gnfi3fcm/Your-Faith.jpg?rlkey=dd6zops3srnzqc8a59y3cfmj7&st=fdgvoa57&raw=1',
+  },
+  'Bài giảng TV': {
+    url: 'https://www.youtube.com/@baigiangtv/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8dail2s82x2n9v09u9rxj/B-i-gi-ng-TV.jpg?rlkey=9114i6s88upltk733kfzr026h&st=delxne5w&raw=1',
+  },
   'Vật Lý Chill': {
     url: 'https://www.youtube.com/@VatLyChill/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7kymo6yn065gzo09pl6c3/V-t-L-Chill.jpg?rlkey=m8o3we3inpczu0irp19kgor3r&st=2hcztbyw&raw=1',
