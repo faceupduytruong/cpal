@@ -98,6 +98,14 @@ const folderLinks = {
     url: 'https://www.youtube.com/@tuyenpham29792/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/h87z2yni22z168litndio/Ph-m-M-nh-Tuy-n.jpg?rlkey=ae75na1ro7t02z0kmk0bdzhp7&st=00vqs84e&raw=1',
   },
+  'Học Toán với 29 điểm đại học': {
+    url: 'https://www.youtube.com/@29diem.daihoc/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/osqeu0eb4bb6484bjmamc/H-c-To-n-v-i-29-i-m-i-h-c.webp?rlkey=9w696y71gwokljsc2pus0oycp&st=x8qb9yzo&raw=1',
+  },
+  'Học viện AMURA': {
+    url: 'https://www.youtube.com/@hocvienamura/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wfv666x3sdhvom2i4wgkl/H-c-vi-n-AMURA.jpg?rlkey=uhuo83nb32inptvmimwwyujfg&st=amchfya3&raw=1',
+  },
   'GlassBox AI': {
     url: 'https://www.facebook.com/profile.php?id=61576693687932&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/sifdxv1ht763x2nel7g4o/GlassBox-AI.gif?rlkey=rbilphq4w3r6y0f7am2lacs3b&st=mr9tl1dp&raw=1',
@@ -106,17 +114,13 @@ const folderLinks = {
     url: 'https://www.youtube.com/@median-0/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/qv0a35xb9yz0ufvoajw6r/median.jpg?rlkey=6e7o5s9yg8tb3ugvk30uwgd1w&st=k08tinsy&raw=1',
   },
+  'Học thêm toán': {
+    url: 'https://www.youtube.com/@stech7462/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/c63zb59djyjcg9jf87ged/H-c-th-m-to-n.webp?rlkey=nhbp2l4vizzd3xl2df2zq7j0t&st=b8g3o5lv&raw=1',
+  },
   'BinRiMath': {
     url: 'https://www.youtube.com/@binrimath/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/0y523oldbxarb1gx9z12x/BinRiMath.webp?rlkey=klchkeb49rjw7hvbrdzh8e0s6&st=qkiiyuo7&raw=1',
-  },
-  'Học Toán với 29 điểm đại học': {
-    url: 'https://www.youtube.com/@29diem.daihoc/shorts',
-    thumbnail: 'https://www.dropbox.com/scl/fi/osqeu0eb4bb6484bjmamc/H-c-To-n-v-i-29-i-m-i-h-c.webp?rlkey=9w696y71gwokljsc2pus0oycp&st=x8qb9yzo&raw=1',
-  },
-  'Học viện AMURA': {
-    url: 'https://www.youtube.com/@hocvienamura/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/wfv666x3sdhvom2i4wgkl/H-c-vi-n-AMURA.jpg?rlkey=uhuo83nb32inptvmimwwyujfg&st=amchfya3&raw=1',
   },
   'Nuôi Dạy Con Thông Minh': {
     url: 'https://www.youtube.com/@nuoidayconthongminh/videos',
