@@ -551,6 +551,13 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/ngoa.long.733' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/cr90kovd4wwqkfu2ort11/Master-Cao.avif?rlkey=1knh8w7pn9khezudg7lgl2kta&st=cue5sy9r&raw=1">
+</div>
+        <div class="caption">Master Cao</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.youtube.com/@TruongPhiPhap/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/aqh3227yf2hrmm2xx1tn1/Tr-ng-Phi-Ph-p.jpg?rlkey=l64q43hsr3wc7mt4tjzz4b4z1&st=m46sek5i&raw=1">
 </div>
