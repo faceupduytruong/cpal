@@ -142,10 +142,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/icanread.edu.hanoi/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/r9xbk1jqvhbky6vahzx1i/I-Can-Read-HN.jpg?rlkey=vxaif541ldfeiekld1yhh4pbh&st=73zaddfm&raw=1'
   },
-  'Tủ truyện tranh đọc xuôi 199x': {
-    url: 'https://www.facebook.com/truyentranhdocxuoi199x',
-    thumbnail: 'https://www.dropbox.com/scl/fi/x2vrsguq32p07k9mvqnru/T-truy-n-tranh-c-xu-i-199x.gif?rlkey=ya0yye9qll2g37d3d245aksgo&st=boir6zy8&raw=1'
-  },
   'Trí Đức Education': {
     url: 'https://www.facebook.com/profile.php?id=61570498768064&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/40e3hp0u7j5dldkqjy1tw/Tr-c-Education.jpg?rlkey=onmmqahhhyst4sckkp9b8ql4f&st=uk01btzd&raw=1'
