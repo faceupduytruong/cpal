@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100063867441774&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/91cdnocm9xwhxgjbp4dx5/Hu-nh-Th-Phi.jpg?rlkey=9ulhk5u50pb7tlhc9dlkhqn3j&st=hdm8qrke&raw=1'
   },
+  'Tiến Đoàn (Tommy)': {
+    url: 'https://www.facebook.com/tommytiendoan/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7cpmd8j3dhrlrrwxycr7z/Ti-n-o-n-Tommy.jpg?rlkey=343q97yxcbtghx9qomdz9i36g&st=2kvug1b9&raw=1'
+  },
   'Xài Tiếng Anh': {
     url: 'https://www.facebook.com/xaitienganh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7f3ffwz8h2z5a29a2it5q/X-i-Ti-ng-Anh.webp?rlkey=5tzukb1s4r2jdn3bjupg75dgy&st=10nso7t2&raw=1'
