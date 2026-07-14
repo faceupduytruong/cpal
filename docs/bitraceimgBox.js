@@ -128,6 +128,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Khóa Học Online Cho Người Đi Làm</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/841672940545521/', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/szy0gbepbmtvjlhtvp7ya/Tips-K-t-C-u.webp?rlkey=54sh35clpxnxopu3zc0ia6mu2&st=5qxud0cx&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tips Kết Cấu</div>
+      </div>
     
 </div>
 
