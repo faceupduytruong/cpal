@@ -1444,6 +1444,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/phandonggiang0612', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/5m2id10jilr4aytfg5qn2/Phan-ng-Giang-Chuy-n-Review-AI.ico?rlkey=wd0uy7jlbk27ibxth90b4gq83&st=wogauadp&raw=1">
+</div>
+        <div class="caption">Phan Đông Giang (Chuyên Review AI)</div>
+      </div>
+
+      <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/thuychibint/reels/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/bvsv0cpqxv8fo0vyuujzk/Thu-Nguy-n.jpg?rlkey=cd6bwgdkggfgrxnm1a992g02l&st=lzqzcgxr&raw=1">
 </div>
