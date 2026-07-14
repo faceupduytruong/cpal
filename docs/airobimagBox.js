@@ -1527,6 +1527,13 @@ container.innerHTML = `
         <div class="caption">Thành Công - Super Learning</div>
       </div>
 
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/nhatduong.vn', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/4gfs6kw737tpfyh8nft3m/Nh-t-D-ng-Xo-m-AI.png?rlkey=dls0gwcfvv4ayihb2ezgb24yp&st=4rtvosd5&raw=1">
+</div>
+        <div class="caption">Nhật Dương (Xoá mù AI)</div>
+      </div>
+
 </div>
 
          <!-- Hàng thứ 36 -->
