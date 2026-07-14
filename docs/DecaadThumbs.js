@@ -17,7 +17,7 @@ const folderLinks = {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Story/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/mzn88e97lpg5o4wgqw3cx/S-ch-K-Chuy-n.webp?rlkey=71udzkkrr0jw2plf77s72ebxg&st=zbnf1h9g&raw=1',
   },
-  'Google': {
+  'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1'
   },
@@ -141,9 +141,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61556239504023&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/2pu8yk1nbtivka7hmlgww/Th-vi-n-ebook.webp?rlkey=cqj6gdka37w0jesbk5m0vyeul&st=0t4crhr2&raw=1'
   },
- 'Winter Wonder Shop - Mua, Bán truyện tranh đủ bộ': {
+ 'Mua, Bán truyện tranh đủ bộ': {
     url: 'https://www.facebook.com/winterwondershop/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4obkuo6hlqsn7guajyxiz/Winter-Wonder-Shop-Mua-B-n-truy-n-tranh-b.jpg?rlkey=yw17fvaa5gcf3ttnabdurnnim&st=1q2b37oh&raw=1'
+  },
+ 'Truyện Tuổi Thơ': {
+    url: 'https://www.facebook.com/profile.php?id=61558217604993&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tq518w86buhwvlgqv75pw/Truy-n-Tu-i-Th.webp?rlkey=f8p0d0vvbdzrem9eu2gz8eyey&st=06z20jpo&raw=1'
   },
   // thêm các mục khác nếu cần
 };
