@@ -26,5 +26,13 @@ const folderLinks = {
     url: 'https://www.youtube.com/@ph_thanhtam/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/58fsofo99nynb0rd7ex2m/Thanh-T-m.gif?rlkey=g1rf9popyx706yngnok8l1a97&st=9lbxbjiz&raw=1',
   },
+ 'Trạm văn': {
+    url: 'https://www.facebook.com/tramvan.thcs',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lfz20t38dke6k2auajohy/Tr-m-v-n.jpg?rlkey=h89xxykwa4a7kyp4o5htb68ox&st=07mo9i4f&raw=1'
+  },
+  'Tủ truyện tranh đọc xuôi 199x': {
+    url: 'https://www.facebook.com/truyentranhdocxuoi199x',
+    thumbnail: 'https://www.dropbox.com/scl/fi/x2vrsguq32p07k9mvqnru/T-truy-n-tranh-c-xu-i-199x.gif?rlkey=ya0yye9qll2g37d3d245aksgo&st=boir6zy8&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
