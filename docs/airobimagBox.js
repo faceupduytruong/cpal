@@ -1462,13 +1462,6 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/du55zmd2mgt29oei3etp5/Ng-H-u-Th-ng.png?rlkey=4daw6vl6s1funmy3zikmzamqt&st=lf91l63j&raw=1">
 </div>
         <div class="caption">Ngô Hữu Thống</div>
-      </div>  
-      
-      <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.facebook.com/cuonghoaai/photos/', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/wawbuuqtvifnu36mjoaco/C-ng-H-a-AI.png?rlkey=nvzww8vjc53qa1hlyoogimobm&st=lmjqyo0e&raw=1">
-</div>
-        <div class="caption">Cường hóa AI</div>
       </div>
 
       <div class="image-box">
@@ -1476,6 +1469,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/65y5ghnt6k7euyih9212i/C-ng-M-AI.avif?rlkey=019d0q75kgzfpm16h12wkcmta&st=8cyitw42&raw=1">
 </div>
         <div class="caption">Cường Mê AI</div>
+      </div>
+      
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/cuonghoaai/photos/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/wawbuuqtvifnu36mjoaco/C-ng-H-a-AI.png?rlkey=nvzww8vjc53qa1hlyoogimobm&st=lmjqyo0e&raw=1">
+</div>
+        <div class="caption">Cường hóa AI</div>
       </div>
 
             <div class="image-box">
@@ -1490,6 +1490,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/qsd50mi09454brlpfyw1h/Nh-t-D-ng-Xo-m-AI.webp?rlkey=hdl25nmcfu7oetpd4xto4orgw&st=g9rfjcup&raw=1">
 </div>
         <div class="caption">Nhật Dương (Xoá mù AI)</div>
+      </div>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.youtube.com/@thanhcong-superlearning/videos', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/5enkrz95zhm74ovue7q3r/Th-nh-C-ng-Super-Learning.webp?rlkey=aiqfgoi3k7juhg3vzq9catlp1&st=ltt8ul3z&raw=1">
+</div>
+        <div class="caption">Thành Công - Super Learning</div>
       </div>
 
             <div class="image-box">
@@ -1518,13 +1525,6 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/e3zc4zio6e758shpev90n/S-AI.webp?rlkey=lyilgcnn6ikuh2h226dvbgerf&st=4yrlikt5&raw=1">
 </div>
         <div class="caption">Sự AI</div>
-      </div>
-
-            <div class="image-box">
-  <div onclick="openRightHalfPopup('https://www.youtube.com/@thanhcong-superlearning/videos', 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/5enkrz95zhm74ovue7q3r/Th-nh-C-ng-Super-Learning.webp?rlkey=aiqfgoi3k7juhg3vzq9catlp1&st=ltt8ul3z&raw=1">
-</div>
-        <div class="caption">Thành Công - Super Learning</div>
       </div>
 
             <div class="image-box">
