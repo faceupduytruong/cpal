@@ -57,7 +57,7 @@ const folderLinks = {
     url: 'https://www.youtube.com/@NMTSensei/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/yrelvy5bmpa6bblvcwcvk/NMT-Sensei.webp?rlkey=a3q65x8kb00d4285nbdpafa9m&st=0753kf2c&raw=1'
   },
- 'MenmaGameX (Naruto Characters)': {
+ 'MenmaGameX': {
     url: 'https://www.youtube.com/@MenmaGameX/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/lx800wx4q6dxiknodhgfg/MenmaGameX-Naruto-Characters.webp?rlkey=7h86q7415fkzc4ipc7kvuc08b&st=mlh3xtzy&raw=1'
   },
