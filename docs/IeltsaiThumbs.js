@@ -180,5 +180,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/IELTSAITest/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/4talpzq51xepl13402q9b/IELTS-AI-Test.jpg?rlkey=96iazkw3osbvt821uk1bwf0l9&st=p3qyf96i&raw=1'
   },
+  'Thanh Vi (Vspeak)': {
+    url: 'https://www.facebook.com/thanhviphatam',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8u20lwq8pkwtn0vvb57a3/Thanh-Vi-Vspeak.jpg?rlkey=rex417suh56ixnwhwa992ppan&st=en059gpa&raw=1'
+  },
+  'Vspeak Asia': {
+    url: 'https://vspeak.asia/shadowing/speaking',
+    thumbnail: 'https://www.dropbox.com/scl/fi/l3y155ql6da44qb83jlub/Vspeak.jpg?rlkey=qijc41ns1jljquj8wp0pq2cks&st=57gz439h&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
