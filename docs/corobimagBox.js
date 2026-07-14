@@ -397,7 +397,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61562074662333&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/hdzgwysz42hmy7nizoty5/G-c-Chill.webp?rlkey=7ba7crhw8rrit86ee46uqjnbx&st=5xry9nmo&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/d82lnytyn0th9xm0n0024/G-c-Chill.png?rlkey=aqlx9g8qgih1fe8w9d5xd77oo&st=xby34uv3&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Góc Chill</div>
       </div>
@@ -491,6 +491,13 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/w8xtw704z7o7yb2ijc9kh/i-H-i-Reviewjpg?rlkey=z1g3yqiuwjuqtqioqqhjmaygf&st=32wob89g&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Đại Hội Review</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/thanhriviu.shp/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/hdzgwysz42hmy7nizoty5/Th-nh-r-viuuu.webp?rlkey=7ba7crhw8rrit86ee46uqjnbx&st=q4na8ucp&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Thánh rì viuuu</div>
       </div>
 
 </div>
