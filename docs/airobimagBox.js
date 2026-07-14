@@ -507,6 +507,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Google AI</div>
       </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://claude.ai/new', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/4xjcfq0kkr92gdk6dhfmu/Claude-AI.png?rlkey=kxjg6q1sik2395vboqzkbk2wk&st=vq1kqyzn&raw=1">
+</div>
+        <div class="caption">Claude AI</div>
+      </div>
       
         <div class="image-box">
   <div onclick="openRightHalfPopup('https://chatgpt.com/', 'SmartApp Popup', window.innerWidth, 745)">
