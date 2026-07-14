@@ -654,7 +654,7 @@ container.innerHTML = `
 
      <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
-    <h2 class="row-title">Office</h2>
+    <h2 class="row-title">Microsoft Office</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://quantrimang.com/cong-nghe/tin-hoc-van-phong' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/suwsbtbeu731sub9r94a0/Qu-n-Tr-M-ng-Office.ico?rlkey=s29z5wola30g12r8wxldxyxi1&st=dtfnzkkf&raw=1" alt="Ảnh 1">
@@ -786,6 +786,18 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/cwir1858l2sy4mxilt8h5/UnicaBookstore-Shortcut-Office.jpg?rlkey=jcoaxlf218ujhj9vdchhaj7h5&st=xw3cx6xf&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">UnicaBookstore (Shortcut)</div>
+      </div>
+          
+</div>
+
+     <!-- Hàng thứ 10 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Google Office</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://gsheets.vn/template/?orderby=price' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/w23acet36a7h5j8z77qne/16.png?rlkey=ewq6gbxbyag73ewaczkhb91d3&st=96o2q4tr&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Gsheets.vn</div>
       </div>
           
 </div>
