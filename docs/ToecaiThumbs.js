@@ -48,7 +48,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/517057750992723/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/ddxynilb840p80jr6gr6z/C-ng-ng-t-h-c-TOEIC-tr-n-STUDY4.webp?rlkey=q7k4gycc34tfksg6g3vv06g4c&st=pet1zw9i&raw=1',
   },
- 'TOEIC Ứng Dụng - Toeicungdung.vn': {
+ 'TOEIC Ứng Dụng': {
     url: 'https://www.facebook.com/toeicungdung/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/q5is8ank2q6gj2pq24hqq/TOEIC-ng-D-ng-Toeicungdung.vn.png?rlkey=6eerfpdi07xt126rimh5uu6fz&st=khu9lwhu&raw=1',
   },
