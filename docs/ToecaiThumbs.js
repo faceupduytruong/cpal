@@ -44,7 +44,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/phadaotoeic990/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/q0e1z7xsimu0fe10u754g/Chia-s-kinh-nghi-m-t-h-c-TOEIC-4-K-N-ng.jpg?rlkey=qilxaw7nr6ft947gxmq5d21ee&st=4k8cf2dk&raw=1',
   },
- 'Cộng đồng tự học TOEIC trên STUDY4': {
+ 'Cộng đồng tự học TOEIC': {
     url: 'https://www.facebook.com/groups/517057750992723/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/ddxynilb840p80jr6gr6z/C-ng-ng-t-h-c-TOEIC-tr-n-STUDY4.webp?rlkey=q7k4gycc34tfksg6g3vv06g4c&st=pet1zw9i&raw=1',
   },
@@ -60,7 +60,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/vutrutailieutoeic/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/2potc3k57bqdn29bp1n2j/V-TR-T-I-LI-U-TOEIC.jpg?rlkey=9dm0oeowqvoeivotal02aryjp&st=969g3y1s&raw=1',
   },
-  'Estudyme - Practice for TOEIC Test Pro': {
+  'Estudyme - Practice for TOEIC': {
     url: 'https://www.facebook.com/toeictestonline/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/wk0slgeljoddphaugwp5g/Estudyme-Practice-for-TOEIC-Test-Pro.png?rlkey=q9xpwgl5phsifzo2o4klrzv12&st=1qjwu0lk&raw=1',
   },
@@ -76,7 +76,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/infongocanhle',
     thumbnail: 'https://www.dropbox.com/scl/fi/gxpu9bs5tbneehts9rhxc/Ng-c-Anh-Quicklish.png?rlkey=83qlwxwt5gv79krouvvn01fjl&st=92x09rsp&raw=1',
   },
-  'Luyện đề thi thử TOEIC online miễn phí': {
+  'Luyện đề thi thử TOEIC online': {
     url: 'https://estudyme.com/test/toeic-test/',
     thumbnail: 'https://taec.edu.vn/wp-content/uploads/2023/08/1-Luyen-Thi-toeic-onl-01.jpg',
   },
