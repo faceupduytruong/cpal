@@ -136,5 +136,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61590907081326&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/fm7ril9w6eqzwpmbso14s/XinLaoshi-Ti-ng-Trung-n-Gi-n-cho-ng-i-Vi-t.jpg?rlkey=fnubzq65p5r2i1lgva1m6p8uf&st=waz5v3p1&raw=1'
   },
+  'HuaMei Chinese (Web)': {
+    url: 'https://hoctrung.com/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/synrju7gms9nic1ro1ow2/Hoctrung.com.webp?rlkey=apychhnvo3pu6r1629nvam0z5&st=2rgb6ai6&raw=1'
+  },
+  'HuaMei Chinese (Facebook)': {
+    url: 'https://www.facebook.com/profile.php?id=61592109802092',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0ahewjq5nc40qeci4id25/HuaMei-Chinese.jpg?rlkey=5dx6m21cn21qif7y0wurylmod&st=wozn6ge6&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
