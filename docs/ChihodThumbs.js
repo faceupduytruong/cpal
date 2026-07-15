@@ -190,7 +190,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/BSUCDOSON/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/zv8jdhz16byll3c882i3v/B-n-h-c-th-ng-minh-BSUC-H-i-Ph-ng.gif?rlkey=kuiqsw88unx1lxx711hwvetv8&st=fkbqj4nq&raw=1'
   },
- 'Bàn học thông minh BSUC Hải Phòng': {
+ 'Bàn học thông minh BSUC': {
     url: 'https://www.facebook.com/BSUCDOSON/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/zv8jdhz16byll3c882i3v/B-n-h-c-th-ng-minh-BSUC-H-i-Ph-ng.gif?rlkey=kuiqsw88unx1lxx711hwvetv8&st=fkbqj4nq&raw=1'
   },
