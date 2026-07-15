@@ -670,6 +670,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/lekieugiang2012/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/5886a6gjk3gpwd88zlon0/L-Ki-u-Giang.png?rlkey=b1c0pxjwpk5u5mspvqvqxtwfb&st=lv9ewuyw&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Lê Kiều Giang</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61556563833906&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/z3fj399hnf4gie5bht66i/H-o-Tin-H-c.jpg?rlkey=v522uv9m32w3ix7y5wqfwutlx&st=gwg03ek1&raw=1" alt="Ảnh 1">
 </div>
