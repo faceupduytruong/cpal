@@ -20,6 +20,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/ghr6z9a8jq4v62ir7e9yo/Google-Translate.webp?rlkey=akonaabgl62h1tcovkfduh9ie&st=fd0zik9q&raw=1'
   },
+  'Học Tiếng Trung Cùng Nhà Bé 2D': {
+    url: 'https://www.facebook.com/hoctiengtrung2d',
+    thumbnail: 'https://www.dropbox.com/scl/fi/57eada9huu79feasl6lzo/H-c-Ti-ng-Trung-C-ng-Nh-B-2D.png?rlkey=ezychj3zykqja956dl5u02gt1&st=bs2kq1w9&raw=1'
+  },
   'Tự học tiếng Trung': {
     url: 'https://www.facebook.com/tuhoctiengtrungcaptoc/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4czup6mjv5zcg9sv8mm6q/T-h-c-ti-ng-Trung.jpg?rlkey=5f1ungkhqcmyf72ajf21ftf70&st=prvo1nr1&raw=1'
