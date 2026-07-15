@@ -18,6 +18,14 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/d6uofipr89ll2pq3bpf11/Google-Translate.webp?rlkey=abj9tq2jo343jrzp2f6m9ud4k&st=bicdftgm&raw=1'
   },
+  'Bach Minh Hue': {
+    url: 'https://www.facebook.com/bach.minhhue',
+    thumbnail: 'https://www.dropbox.com/scl/fi/kcj90yl2u2lvm04tp89td/Bach-Minh-Hue.jpg?rlkey=5ssjg23ke3f8xhiti7qgsze9o&st=n7qtqbje&raw=1',
+  },
+  'Sophia Lê Hồng Nhung': {
+    url: 'https://www.facebook.com/sophia.le.hong.nhung/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/g8q1arug047ew31y0o4bi/Sophia-L-H-ng-Nhung.jpg?rlkey=0j1y0msnkhnhei4xjq17i5k2h&st=jq8bh0yb&raw=1',
+  },
   'Hoa Quỳnh Nở 00.00': {
     url: 'https://www.facebook.com/hoaquynh000/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9nd3odqdgbmcom0uujl8m/Hoa-Qu-nh-N-00.00.jpg?rlkey=751211t1clnhbv5qg2aifgl64&st=9toq6h5r&raw=1',
