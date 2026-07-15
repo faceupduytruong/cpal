@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/KenhPhuNuPhamNgoc/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uibt8yvfg1uav75omxo7v/Ph-m-Ng-c.jpg?rlkey=pinpbjl7clls25u8tz6ouv7jb&st=7y2ovna5&raw=1',
   },
+  'Minh Ho': {
+    url: 'https://www.facebook.com/minh.ho.16121/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/t4xsfstlkymcyipsf2nge/Minh-Ho.gif?rlkey=09dbpy7prreynuv6sifp1bhaf&st=0vux69yb&raw=1',
+  },
  'Future Me': {
     url: 'https://www.facebook.com/futuremeV/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/bv2eqs9zbuo49fx1giu6k/Future-Me.png?rlkey=xjyb7413oa4vbfj7wkp6t4qgt&st=1w20jca3&raw=1'
