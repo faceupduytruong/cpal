@@ -180,6 +180,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/IELTSAITest/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/4talpzq51xepl13402q9b/IELTS-AI-Test.jpg?rlkey=96iazkw3osbvt821uk1bwf0l9&st=p3qyf96i&raw=1'
   },
+  'Nexusvocab': {
+    url: 'https://nexusvocab.com/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vrtq1gsfwhi2e7at6g0qm/5.webp?rlkey=55iqa1apiqhizk6io35wi5mv6&st=5t3fvyll&raw=1'
+  },
   'Thanh Vi (Vspeak)': {
     url: 'https://www.facebook.com/thanhviphatam',
     thumbnail: 'https://www.dropbox.com/scl/fi/8u20lwq8pkwtn0vvb57a3/Thanh-Vi-Vspeak.jpg?rlkey=rex417suh56ixnwhwa992ppan&st=en059gpa&raw=1'
