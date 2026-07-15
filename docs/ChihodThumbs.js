@@ -194,10 +194,6 @@ const folderLinks = {
     url: 'https://www.facebook.com/BSUCDOSON/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/zv8jdhz16byll3c882i3v/B-n-h-c-th-ng-minh-BSUC-H-i-Ph-ng.gif?rlkey=kuiqsw88unx1lxx711hwvetv8&st=fkbqj4nq&raw=1'
   },
- 'Bàn học thông minh BSUC': {
-    url: 'https://www.facebook.com/BSUCDOSON/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/zv8jdhz16byll3c882i3v/B-n-h-c-th-ng-minh-BSUC-H-i-Ph-ng.gif?rlkey=kuiqsw88unx1lxx711hwvetv8&st=fkbqj4nq&raw=1'
-  },
  'Học liệu mẹ Tiền - Phương Okuda': {
     url: 'https://www.facebook.com/PhuongOkuda/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/gjo4dolzvcrirlp2wimbk/H-c-li-u-m-Ti-n-Ph-ng-Okuda.gif?rlkey=w9w6jqw2znas1ea4p2h9vv5d3&st=eee7c8gz&raw=1'
