@@ -40,7 +40,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/TOEICMasterKit.byEdmicro/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2581snxed7hzp92ho5x35/Edmicro-TOEIC.jpg?rlkey=46c04xs7ygit0s1tjwcj12ybk&st=525ynfqe&raw=1',
   },
-  'Kinh nghiệm tự học TOEIC 4 Kỹ Năng': {
+  'Kinh nghiệm TOEIC 4 Kỹ Năng': {
     url: 'https://www.facebook.com/groups/phadaotoeic990/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/q0e1z7xsimu0fe10u754g/Chia-s-kinh-nghi-m-t-h-c-TOEIC-4-K-N-ng.jpg?rlkey=qilxaw7nr6ft947gxmq5d21ee&st=4k8cf2dk&raw=1',
   },
