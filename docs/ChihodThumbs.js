@@ -66,7 +66,7 @@ const folderLinks = {
     url: 'https://www.youtube.com/@dsdaiminh88/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/gn0edpxb5zk7pl10rkqrw/D-c-S-i-Minh.jpg?rlkey=0hyzegspdwupvccy0sfw9bmxq&st=eo91n1z5&raw=1'
   },
- 'Sức khỏe Tinh thần Tích hợp Vinmec': {
+ 'Sức khỏe Tinh thần Vinmec': {
     url: 'https://www.facebook.com/ttsuckhoetinhthantichhopvinmec/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/v38c70lqn85ov9pdtx4w0/Vinmec-Integrated-Mental-Health-Center-S-c-kh-e-Tinh-th-n-T-ch-h-p-Vinmec.jpg?rlkey=g9us95xdamnv8gc4bv8b6wamh&st=5915v0w2&raw=1'
   },
@@ -94,19 +94,19 @@ const folderLinks = {
     url: 'https://www.facebook.com/dinhtibooks.vn/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/1zyk8a2c68uw6v8lenzm0/inh-T-Books.jpg?rlkey=ve8cu0a03gdw6h6z3zj47cz0f&st=l24nabqg&raw=1',
   },
-  'Đinh Tị Books - Sách tương tác thông minh': {
+  'Đinh Tị - Sách tương tác thông minh': {
     url: 'https://www.facebook.com/Sachtuongtacthongminh/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/l2c0tzbzvq17zxwig5ahc/inh-T-Books-S-ch-t-ng-t-c-th-ng-minh.jpg?rlkey=k7qhbze63bok7h7dpwse7fond&st=orlulsri&raw=1',
   },
-  'Bunny Kidbooks - Sách thiếu nhi thuần Việt': {
+  'Bunny Kidbooks - Sách thiếu nhi': {
     url: 'https://www.facebook.com/bunnykidbooks/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/noimnbdwevmb533b0y7yl/Bunny-Kidbooks-S-ch-thi-u-nhi-thu-n-Vi-t.png?rlkey=as3mhvxo1xdf63rhvd9cns4ik&st=c3ge8di4&raw=1',
   },
-  'Tân Việt Books - Đồng hành cùng con': {
+  'Tân Việt - Đồng hành cùng con': {
     url: 'https://www.facebook.com/tanvietbookshn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/35ra27giupnf963frxkzy/T-n-Vi-t-Books-ng-h-nh-c-ng-con-tr-n-h-nh-tr-nh-tr-ng-th-nh.jpg?rlkey=xhh971bs16bwcdkukvvqh7jur&st=pcsllnvz&raw=1',
   },
-  'HG Books - Tiệm sách song ngữ thiếu nhi': {
+  'Tiệm sách song ngữ thiếu nhi': {
     url: 'https://www.facebook.com/HGBooksShop/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vajv8eh3cnj6c3svt67wa/HG-Books-Ti-m-s-ch-song-ng-thi-u-nhi.png?rlkey=loh4qwuqfoxo8vdxk1yedgy1y&st=0q2i0l2e&raw=1',
   },
@@ -114,7 +114,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/BerryBooks.az/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/a9oyii9uc769gr3lg73ni/BerryBooks.jpg?rlkey=8i6claszqxu6ilthl6pis5lqd&st=6p86ana2&raw=1'
   },
- 'Kitten Loves Books - Tiệm sách Mèo nhỏ': {
+ 'Tiệm sách Mèo nhỏ': {
     url: 'https://www.facebook.com/profile.php?id=61554016051268&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/0wxkmd2pcwo9a48su8ydk/Kitten-Loves-Books-Ti-m-s-ch-M-o-nh.jpg?rlkey=9fbv7dcr1c6oqhv2zc8k2699l&st=vdefr5at&raw=1'
   },
@@ -126,11 +126,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/cungcondoclap/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4ze216b7mswgu1amn3mdj/Qu-nh-Ch-u-C-ng-Con-c-L-p.jpg?rlkey=nf2x484u4uqib1w5ivnr41f3t&st=mtcdwxfe&raw=1'
   },
- 'Einstein Books - Sách hay cho gia đình': {
+ 'Einstein Books - Sách cho gia đình': {
     url: 'https://www.facebook.com/einstein.sachhaychomevabe/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8rzuqdkfhtwlxu99ak3wk/Einstein-Books-S-ch-hay-cho-gia-nh.jpg?rlkey=dauy6rn27qcricg5ovbczlrlv&st=yuqix6u3&raw=1'
   },
- 'Quản Trị Mạng (Học nhanh nhớ lâu)': {
+ 'Quản Trị Mạng (Học nhanh)': {
     url: 'https://quantrimang.com/cuoc-song/giao-duc-hoc-tap',
     thumbnail: 'https://www.dropbox.com/scl/fi/xxsmae1ulapbv267o48ze/H-c-nhanh-nh-l-u.jpg?rlkey=gnelwypsu35316dt94orn40v5&st=lhfgjcv9&raw=1'
   },
@@ -178,7 +178,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61583464679809',
     thumbnail: 'https://www.dropbox.com/scl/fi/j5nkiy6o1sogpi19zt9xf/Kids-Story.png?rlkey=nhupswcggk5tz96qani55bp0m&st=29880fh9&raw=1'
   },
- 'Winny - Máy Tính Bảng Thông Minh': {
+ 'Máy Tính Bảng Thông Minh': {
     url: 'https://www.facebook.com/profile.php?id=61563897182619&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/xv2qtjegvmlpv0cb7wleh/Winny-M-y-T-nh-B-ng-Th-ng-Minh.jpg?rlkey=2lqft2ibyoq7fif6sgmnwo41v&st=t6iz3wxm&raw=1'
   },
@@ -194,7 +194,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/BSUCDOSON/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/zv8jdhz16byll3c882i3v/B-n-h-c-th-ng-minh-BSUC-H-i-Ph-ng.gif?rlkey=kuiqsw88unx1lxx711hwvetv8&st=fkbqj4nq&raw=1'
   },
- 'Bàn học thông minh BSUC Hải Phòng': {
+ 'Bàn học thông minh BSUC': {
     url: 'https://www.facebook.com/BSUCDOSON/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/zv8jdhz16byll3c882i3v/B-n-h-c-th-ng-minh-BSUC-H-i-Ph-ng.gif?rlkey=kuiqsw88unx1lxx711hwvetv8&st=fkbqj4nq&raw=1'
   },
