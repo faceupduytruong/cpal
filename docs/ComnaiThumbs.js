@@ -106,6 +106,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tran.nam.524934/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/8n888wwnnu53ig87rhngp/Tr-n-Qu-c-Nam-Th-y-Nam.jpeg?rlkey=s065ryjaovqk4sjtmm7dx14fb&st=hj9du7zz&raw=1'
   },
+  'Tiếng Anh Giao Tiếp - Ms. Mai Lan': {
+    url: 'https://www.facebook.com/mailanenglish/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hdnz6xrl0q6sw5bevgnvh/Ti-ng-Anh-Giao-Ti-p-Ms.-Mai-Lan.jpg?rlkey=7jqg2po2enos4pcriks27i6tv&st=uvznglpi&raw=1'
+  },
   'English Speaking Practice': {
     url: 'https://www.facebook.com/groups/5688211251275040/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/i1eoqcn831eizxqa2s304/English-Speaking-practice.jpg?rlkey=ro51xu5ou06fi0y6xb782a4nx&st=w63rl9pq&raw=1'
