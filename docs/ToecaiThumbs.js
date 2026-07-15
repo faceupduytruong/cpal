@@ -72,6 +72,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/toeicthuytrang',
     thumbnail: 'https://www.dropbox.com/scl/fi/0n1zf29cxq82qqen2rrra/TOEIC-Th-y-Trang.png?rlkey=tky8qmu2uuod22k0fqret9dtg&st=bokz9js6&raw=1',
   },
+  'Ngọc Anh Quicklish': {
+    url: 'https://www.facebook.com/infongocanhle',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gxpu9bs5tbneehts9rhxc/Ng-c-Anh-Quicklish.png?rlkey=83qlwxwt5gv79krouvvn01fjl&st=92x09rsp&raw=1',
+  },
   'Luyện đề thi thử TOEIC online miễn phí': {
     url: 'https://estudyme.com/test/toeic-test/',
     thumbnail: 'https://taec.edu.vn/wp-content/uploads/2023/08/1-Luyen-Thi-toeic-onl-01.jpg',
