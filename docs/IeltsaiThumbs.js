@@ -185,7 +185,7 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/vrtq1gsfwhi2e7at6g0qm/5.webp?rlkey=55iqa1apiqhizk6io35wi5mv6&st=5t3fvyll&raw=1'
   },
   'Learn my words (Web)': {
-    url: 'https://learnmywords.com/helps',
+    url: 'https://learnmywords.com/helps/tag/vocabulary',
     thumbnail: 'https://www.dropbox.com/scl/fi/eqbfkdwv418cuha6gyf14/Learn-my-words-Web.gif?rlkey=3mvxp3t6ut0u0g0ojmr9bx7mj&st=thrkdlk5&raw=1'
   },
   'Learn my words (Facebook)': {
