@@ -14,7 +14,7 @@ const folders = {
   'Cơ học kết cấu': ['Nội lực hệ khung 3 khớp (1).png', 'Nội lực hệ khung 3 khớp (2).png'],
   'Cơ học đất': ['Tính các đại lượng vật lý của một mẫu đất ngoài hiện trường.png', 'Tính lún của nền đất dưới đáy móng.png', 'Vẽ biểu đồ ứng suất nén của đất và móng.png', 'Đánh giá trạng thái lớp đất đó.png'],
   'Cơ lý thuyết': ['Nội lực hệ khung 3 khớp (1).png', 'Tính toán mômen lực dựa vào phương trình cân bằng.png'],
-  'SAP2000': ['Vẽ biểu đồ nội lực dầm siêu tĩnh có khớp ở giữa bằng SAP2000.png', 'Vẽ biểu đồ nội lực dầm siêu tĩnh có kể TLBT bằng SAP2000.png', 'Vẽ biểu đồ nội lực dầm siêu tĩnh không kể TLBT bằng SAP2000.png'],
+  'SAP2000': ['Vẽ biểu đồ nội lực dầm siêu tĩnh có khớp ở giữa bằng SAP2000.png', 'Vẽ biểu đồ nội lực dầm siêu tĩnh có kể TLBT bằng SAP2000.webp', 'Vẽ biểu đồ nội lực dầm siêu tĩnh không kể TLBT bằng SAP2000.webp'],
   'Sức bền vật liệu': ['Biểu đồ momen uốn có tiếp tuyến nằm ngang.png', 'Dầm có thể tích nhỏ nhất.png'],
   // thêm các mục khác nếu cần
 };
