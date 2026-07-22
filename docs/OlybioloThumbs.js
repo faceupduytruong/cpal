@@ -30,5 +30,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@SinhthayTuan/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/jtxzc49p9u51qucdgybv6/Sinh-th-y-Tu-n.jpg?rlkey=7bregpzm3u0l3u2fxkz9tpjke&st=vd8dcpo2&raw=1',
   },
+  'Cô Lê Ngọc Hiếu': {
+    url: 'https://www.youtube.com/@sinhhoconline594/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zaf5c9nh3m70vfy6zj7ty/C-L-Ng-c-Hi-u.jpg?rlkey=bk6z3914sj247y8e28wkyx5c7&st=ec5pu5hj&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
