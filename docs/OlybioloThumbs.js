@@ -30,3 +30,5 @@ const folderLinks = {
     url: 'https://www.youtube.com/@SinhthayTuan/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/jtxzc49p9u51qucdgybv6/Sinh-th-y-Tu-n.jpg?rlkey=7bregpzm3u0l3u2fxkz9tpjke&st=vd8dcpo2&raw=1',
   },
+  // thêm các mục khác nếu cần
+};
