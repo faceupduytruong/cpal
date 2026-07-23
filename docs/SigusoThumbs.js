@@ -22,6 +22,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/bach.minhhue',
     thumbnail: 'https://www.dropbox.com/scl/fi/kcj90yl2u2lvm04tp89td/Bach-Minh-Hue.jpg?rlkey=5ssjg23ke3f8xhiti7qgsze9o&st=n7qtqbje&raw=1',
   },
+  'Huong Dang': {
+    url: 'https://www.facebook.com/huong.dang.351756/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tbt170tz2x1xzfy2uh3b8/Huong-Dang.avif?rlkey=ozguiuh1lp920loaecn5wr2o0&st=3ti3go5j&raw=1',
+  },
+  'Thao Nguyen': {
+    url: 'https://www.facebook.com/lunglinh.nang/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4smk4w9w5939whl00ea89/Thao-Nguyen.gif?rlkey=iefzh60sgpoiym50qch75x30e&st=163xt78b&raw=1',
+  },
   'Sophia Lê Hồng Nhung': {
     url: 'https://www.facebook.com/sophia.le.hong.nhung/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/g8q1arug047ew31y0o4bi/Sophia-L-H-ng-Nhung.jpg?rlkey=0j1y0msnkhnhei4xjq17i5k2h&st=jq8bh0yb&raw=1',
