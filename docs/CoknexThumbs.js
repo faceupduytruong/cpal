@@ -270,6 +270,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/davoslingo/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/mnud3wbitzic3lktv60i7/Davo-s-Lingo.jpg?rlkey=bewf69o557hrsbv8c115nfqes&st=kcojjatq&raw=1',
   },
+  'Hoang M. Phuc (The Geo Medic)': {
+    url: 'https://www.facebook.com/thegeomedic/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9dreydj4wiugi8fl0dk26/Hoang-M.-Phuc-The-Geo-Medic.gif?rlkey=20qtof94or6p0b24k7qle43n0&st=sscd3153&raw=1',
+  },
   "Lại Ngứa Chân": {
     url: 'https://www.facebook.com/Lainguachanofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/kp7z954qys1jd5c9re9cp/L-i-Ng-a-Ch-n.jpg?rlkey=01vfb4yieb9idfijn3rd8wlb4&st=5yv9z6hi&raw=1',
