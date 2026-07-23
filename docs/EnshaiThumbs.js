@@ -50,7 +50,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/learningtreasure5/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/yc8bp8rr4aw9qhc73zqqo/Learning-Treasure.gif?rlkey=etap6i4mv3t3g0ra78crqlli7&st=tkhwphv2&raw=1'
   },
-  'Effortless English Center (Free Posts)': {
+  'Effortless English Center': {
     url: 'https://www.facebook.com/groups/effortlessenglishcenter/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/ohezz7nu2v4zarzq51q38/Effortless-English-Center-FREE-Posts.jpg?rlkey=bkset48a2d68n2lajex8nvrli&st=8jeqkskg&raw=1'
   },
@@ -106,7 +106,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61572409659045&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/rz3w3t1anm032pzgmyxzd/Fluently-AI-English-Tutor.jpg?rlkey=s854tp8d2fbywqvdwbzp49ufw&st=smfjo9r8&raw=1'
   },
-  'Practical English Grammar Idioms Group': {
+  'English Grammar Idioms Group': {
     url: 'https://www.facebook.com/groups/450969245668882/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/2ntfanvt013wdso5udc33/Practical-English-Grammar-Idioms-Group.jpg?rlkey=6o6srvgiy7cnojtd3zlc085qa&st=irudmd48&raw=1'
   },
@@ -146,7 +146,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/503186386034982/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uecd9uzbnvjxz0ninljs7/English-Worksheet.gif?rlkey=m2rjrp5n6lxtx09sy9v7bav6t&st=lypjmhp0&raw=1',
   },
-  'Kids Edu - Alphabet, Numbers & More': {
+  'Kids - Alphabet, Numbers & More': {
     url: 'https://www.facebook.com/profile.php?id=100094537200262&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vtfhtqx897sd8if9ggc8j/Kids-Education-Alphabet-Numbers-More.png?rlkey=r24n87hjp7nti14oqtq5mwnln&st=lw4ql4wf&raw=1',
   },
