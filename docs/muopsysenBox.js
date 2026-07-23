@@ -62,6 +62,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100088172931665&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/u8v0bnyyp31jgz2100b6b/RTC-Tutorials.png?rlkey=c7gml4cptvsxhc8e3wkbx48c7&st=1wzhz5ua&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">RTC Tutorials</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/motngaymoitasetrolai/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/8kw8jmudpyisf4vzapux1/Anh-Nam-C-i-Win.png?rlkey=hezjgfuikt9gkvktdp659tis5&st=j3fzw265&raw=1" alt="Ảnh 1">
 </div>
@@ -802,7 +809,7 @@ container.innerHTML = `
     <h2 class="row-title">Google Office</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://gsheets.vn/template/?orderby=price' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/w23acet36a7h5j8z77qne/16.png?rlkey=ewq6gbxbyag73ewaczkhb91d3&st=96o2q4tr&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/ni1jmoqt2a23mtjuk97aw/Gsheets.vn.png?rlkey=rl58xj0iu35ixce1hurd86nx4&st=8zcxkk34&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Gsheets.vn</div>
       </div>
