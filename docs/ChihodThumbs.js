@@ -94,7 +94,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/dinhtibooks.vn/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/1zyk8a2c68uw6v8lenzm0/inh-T-Books.jpg?rlkey=ve8cu0a03gdw6h6z3zj47cz0f&st=l24nabqg&raw=1',
   },
-  'Đinh Tị - Sách tương tác thông minh': {
+  'Đinh Tị - Sách thông minh': {
     url: 'https://www.facebook.com/Sachtuongtacthongminh/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/l2c0tzbzvq17zxwig5ahc/inh-T-Books-S-ch-t-ng-t-c-th-ng-minh.jpg?rlkey=k7qhbze63bok7h7dpwse7fond&st=orlulsri&raw=1',
   },
@@ -178,7 +178,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61583464679809',
     thumbnail: 'https://www.dropbox.com/scl/fi/j5nkiy6o1sogpi19zt9xf/Kids-Story.png?rlkey=nhupswcggk5tz96qani55bp0m&st=29880fh9&raw=1'
   },
- 'DunoKids - Đồ chơi thông minh cho bé': {
+ 'DunoKids - Đồ chơi cho bé': {
     url: 'https://www.facebook.com/profile.php?id=61591636784094&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/znhi5r917gfgsvgxhqkil/DunoKids-ch-i-th-ng-minh-cho-b.jpg?rlkey=hnqiafbm7k7rq43kokh4t92o0&st=ofk2qhwo&raw=1'
   },
