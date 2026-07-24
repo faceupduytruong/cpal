@@ -82,6 +82,20 @@ container.innerHTML = `
         <div class="caption">CivilAxis (Facebook)</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/ThanhLuan.Nguyen.PVshipyard/', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/oiitrgpiypvn2j12x77cq/Nguy-n-Th-nh-Lu-n.webp?rlkey=na0kwh8uju7t8aoo9sryoxr94&st=zqm9h56x&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Nguyễn Thành Luân</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/ThanhLuan.Nguyen.PVshipyard/', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/oiitrgpiypvn2j12x77cq/Nguy-n-Th-nh-Lu-n.webp?rlkey=na0kwh8uju7t8aoo9sryoxr94&st=zqm9h56x&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption"></div>
+      </div>
+
 </div>
 
       <!-- Hàng thứ 2 -->
