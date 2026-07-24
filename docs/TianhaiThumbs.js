@@ -262,9 +262,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/tramnguyenenglish/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/tsjz7uxg2ztyduja504re/Tram-Nguyen-English.jpg?rlkey=cmnewnlzbrqls3t2kvvinqtp3&st=mphrfqpi&raw=1'
   },
-  'Learn My Words': {
-    url: 'https://www.facebook.com/profile.php?id=61585454649657&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/o4r4g4hmn4v4768agng6v/Learn-My-Words.png?rlkey=5pluji7i2o8rktewu2a9lxcuo&st=8ei2i4cz&raw=1'
+  'Learn My Words (Facebook)': {
+    url: 'https://www.facebook.com/profile.php?id=61585454649657',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o4r4g4hmn4v4768agng6v/Learn-My-Words-Facebook.png?rlkey=5pluji7i2o8rktewu2a9lxcuo&st=3faai8jr&raw=1'
+  },
+  'Learn My Words (App)': {
+    url: 'https://learnmywords.com/home',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o2myl62n0ouz5tfhdj8di/Learn-My-Words-App.webp?rlkey=mkc1ey25k6c255tsqrol4ooum&st=md5u67xh&raw=1'
   },
   'Một ngày một từ vựng mới': {
     url: 'https://www.facebook.com/messages/t/24023058223959054',
