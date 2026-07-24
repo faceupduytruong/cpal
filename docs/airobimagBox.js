@@ -11,6 +11,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Chiến AI</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/xaydungai' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/4lscxydeui7yq1j4fus8q/AI-X-y-D-ng.avif?rlkey=8wu1wdb7l2kxb6gwin51w5ttb&st=vt3xbq96&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">AI Xây Dựng</div>
+      </div>
     
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://g2w4om.smartapps.baidu.com/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
