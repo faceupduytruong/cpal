@@ -144,5 +144,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61592109802092',
     thumbnail: 'https://www.dropbox.com/scl/fi/0ahewjq5nc40qeci4id25/HuaMei-Chinese.jpg?rlkey=5dx6m21cn21qif7y0wurylmod&st=wozn6ge6&raw=1'
   },
+  'Hack Não 3000 Chữ Hán': {
+    url: 'https://www.facebook.com/hacknao3000chuhan/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/a6yh7vm9dg9ykcc0owc1i/Hack-N-o-3000-Ch-H-n.jpg?rlkey=hg9p24nxribgona365cqtl5yj&st=ptdf6so5&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
