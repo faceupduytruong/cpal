@@ -10,11 +10,13 @@ const customThumbnails = {
 
 // Danh sách thư mục và số lượng ảnh trong mỗi thư mục
 const folders = {
-  'Lò xo': ['Chuyển động con lắc lò xo.png'],
+  'Lò xo': ['Chuyển động con lắc lò xo.png', 'Dao động điều hòa của một chất điểm.png'],
   'Mạch điện': ['Tính toán mạch điện.png'],
   'Năng lượng': ['Công suất giải phóng nhiệt làm nước bay hơi.png', 'Nhiệt lượng giúp chất lỏng hóa hơi hoàn toàn.png', 'Phương trình cân bằng nhiệt.png'],
   'Ròng rọc': ['Chuyển động của hệ vật qua ròng rọc (1).png', 'Chuyển động của hệ vật qua ròng rọc (2).png'],
-  'Vật chuyển động': ['Gia tốc vật chuyển động (1).png', 'Gia tốc vật chuyển động (2).png', 'Phương trình tọa độ chuyển động nhanh dần đều.png'],// thêm các mục khác nếu cần
+  'Vật chuyển động': ['Gia tốc vật chuyển động theo phương ngang.png', 'Gia tốc vật chuyển động theo phương nghiêng.png', 'Gia tốc vật chuyển động theo phương đứng.png', 'Phương trình tọa độ chuyển động nhanh dần đều theo phương ngang.png', 'Quãng đường từ Trái Đất đến sao α Centauri.png', 'Vận tốc đạn trước và sau khi bắn trúng con chim.png'],
+  'Vật cân bằng': ['Các lực tác dụng lên thanh nằm cân bằng.png'],
+  // thêm các mục khác nếu cần
 };
 
 const folderLinks = {
