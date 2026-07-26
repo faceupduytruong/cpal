@@ -88,5 +88,9 @@ const folderLinks = {
     url: 'https://vocaprep.com/vi/lessons',
     thumbnail: 'https://www.dropbox.com/scl/fi/wrmv4roxbv0naosxd00cs/Vocaprep-TOEIC.jpg?rlkey=2yo44d50078ygzkpruib1saom&st=3y7f32f0&raw=1',
   },
+  'Luyentu.com': {
+    url: 'https://luyentu.com/home',
+    thumbnail: 'https://www.dropbox.com/scl/fi/hu9srlui4vrgx9bj6xm56/Luyentu.com.avif?rlkey=39rfjpeva04pfgi3bv8exof47&st=v9pyf40y&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
