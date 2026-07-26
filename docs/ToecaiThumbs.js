@@ -81,7 +81,7 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/r7236r0vai58f3744h2qi/Luy-n-thi-th-TOEIC-online.jpg?rlkey=algy0m7xdfdxno7n7hbot5dev&st=iznftf5q&raw=1',
   },
   'Vocabulary.com': {
-    url: 'https://www.vocabulary.com/vocabtrainer/',
+    url: 'https://www.vocabulary.com/learner/',
     thumbnail: 'https://www.dropbox.com/scl/fi/yep99p43v8ide8ogvrhq5/Vocabulary.com.avif?rlkey=za5rl68612ji02ba61nxfl8pn&st=qbj7sg51&raw=1',
   },
   'Vocaprep (TOEIC)': {
