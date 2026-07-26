@@ -148,5 +148,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/hacknao3000chuhan/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/a6yh7vm9dg9ykcc0owc1i/Hack-N-o-3000-Ch-H-n.jpg?rlkey=hg9p24nxribgona365cqtl5yj&st=ptdf6so5&raw=1'
   },
+  'Vocapy.com (Tiếng Trung-Nhật-Hàn)': {
+    url: 'https://vocapy.com/home',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qw1lg41dtaeoxdqb8iwnq/Vocapy.com.png?rlkey=nlfd9bz67obq259qg7nyekkdq&st=lqa50ual&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
