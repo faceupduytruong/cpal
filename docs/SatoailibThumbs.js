@@ -2,7 +2,10 @@ const customThumbnails = {
   'AI Extension': 'https://www.dropbox.com/scl/fi/l086p2ipn9zm7iks0yxzk/AI-Extension.png?rlkey=vvmrt81ovv1shwsrg5vatdqh8&st=453ng8bj&raw=1',
   'AI Website': 'https://www.dropbox.com/scl/fi/6ay2bqz4byaa30ktyxtkk/AI-Website.png?rlkey=c6yjq1oes8dewiwjue4dq8zrb&st=jaklocnb&raw=1',
   'Chuyên gia AI': 'https://www.dropbox.com/scl/fi/cyu8nrpb3rvmgrosk34us/Chuy-n-gia-AI.webp?rlkey=4ckjh4nf1zwvsqnd27ijuyaz2&st=nroxkvng&raw=1',
-  'Mindmap': 'https://www.dropbox.com/scl/fi/ob4i4d00nm7xtm3ay495q/Mindmap.png?rlkey=c1rff4vc0t6d13v2ng363cj7s&st=b4cdv1xn&raw=1', 
+  'Gia sư AI': 'https://www.dropbox.com/scl/fi/lkl8u7s8c9zh7lw6l362y/Gia-s-AI.jpg?rlkey=0zpxe6af4hww1kzeyayok2fy0&st=p2scdv1d&raw=1',
+  'Mindmap': 'https://www.dropbox.com/scl/fi/ob4i4d00nm7xtm3ay495q/Mindmap.png?rlkey=c1rff4vc0t6d13v2ng363cj7s&st=b4cdv1xn&raw=1',
+  'Phân tích video': 'https://www.dropbox.com/scl/fi/pdsjg2qk1j5jgvyaqx1en/Ph-n-t-ch-video.png?rlkey=d83c4fu8jrdo539oeuhx4m7i5&st=4ksrr898&raw=1', 
+  'Slide thuyết trình': 'https://www.dropbox.com/scl/fi/gtb6axo15p8sksbhszs38/Slide-thuy-t-tr-nh.png?rlkey=tzxmnwm6wefjo5o8rvkxjiinm&st=wwmu0mm8&raw=1', 
   // thêm các mục khác nếu cần
 };
 
@@ -10,8 +13,11 @@ const customThumbnails = {
 const folders = {
   'AI Extension': ['Everything to Notebook extension.png'],
   'AI Website': ['Baidu AI Agent Builder.png'],
-  'Chuyên gia AI': ['Prompt chuyên gia chiến lược nghiên cứu của tôi.jpg', 'Prompt người sáng tác truyện tranh trẻ em.jpg', 'Prompt study guide toàn diện.png'],
+  'Chuyên gia AI': ['Prompt chuyên gia chiến lược nghiên cứu của tôi.jpg', 'Prompt người sáng tác truyện tranh trẻ em.jpg'],
+  'Gia sư AI': ['Prompt study guide toàn diện.png', 'Áp dụng phương pháp FeynMan trong NotebookLM.jpg'],
   'Mindmap': ['Vẽ Mindmap màu sắc cho con nít.png'],
+  'Phân tích video': ['Phân tích Video Youtube bằng NoteBookLM.jpg'],
+  'Slide thuyết trình': ['Chỉnh sửa slide ảnh thành slide có thể chỉnh được với Canva.jpg', 'Tạo slide trên NoteBookLM.jpg'],
   // thêm các mục khác nếu cần
 };
 
