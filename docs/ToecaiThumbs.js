@@ -18,7 +18,7 @@ const folderLinks = {
   },
   'Google Translate': {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
-    thumbnail: 'https://www.cnet.com/a/img/resize/bb3309731c72de8eed76bce93bb319a95a5c077f/hub/2023/02/08/2d11bc90-7f23-4347-a07a-1b3e251aea4c/gettyimages-1245835347.jpg?auto=webp&fit=crop&height=675&width=1200',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o3cvmvrmj4xw8vanlsqs3/Google-Translate.webp?rlkey=bcj20lkp8hqedg3lcugc4sl5z&st=q7a1so7q&raw=1',
   },
  'Lazy TOEIC': {
     url: 'https://www.facebook.com/profile.php?id=61585961584773&sk=reels_tab',
