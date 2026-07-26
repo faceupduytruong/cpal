@@ -234,8 +234,13 @@ sample_playlists = {
         "https://soundcloud.com/nguy-n-c-b-c-675906594/sets/nhac-xuan-bat-hu"
     ],
     "love": [
-        "https://soundcloud.com/nhanhlaxanh/sets/dcng",
         "https://soundcloud.com/nhanhlaxanh/sets/vtby",
+        "https://soundcloud.com/nhanhlaxanh/sets/ecdd",
+        "https://soundcloud.com/nhanhlaxanh/sets/mtkotc4",
+        "https://soundcloud.com/nhanhlaxanh/sets/mtkotc3",
+        "https://soundcloud.com/nhanhlaxanh/sets/mtkotc2",
+        "https://soundcloud.com/nhanhlaxanh/sets/mtkotc1",
+        "https://soundcloud.com/nhanhlaxanh/sets/dcng",
         "https://soundcloud.com/nhanhlaxanh/sets/mgltb",
         "https://soundcloud.com/nhanhlaxanh/sets/tcnn",
         "https://soundcloud.com/nhanhlaxanh/sets/nmbn",
