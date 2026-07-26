@@ -122,5 +122,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100083296070350&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/dh0zcvbm9p4p5q2a7sl85/Spoken-English-and-Vocabulary.jpg?rlkey=cci21a001m2z7oqass702e1lz&st=5vfkn3ux&raw=1'
   },
+  'Vocaprep (Giao tiếp)': {
+    url: 'https://vocaprep.com/vi/lessons',
+    thumbnail: 'https://www.dropbox.com/scl/fi/n0gg0i6qzixdb9apueqqa/Vocaprep-Giao-ti-p.png?rlkey=kby76styrgiwe1mw1ekbch9l3&st=3pisn4p4&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
