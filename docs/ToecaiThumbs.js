@@ -78,7 +78,15 @@ const folderLinks = {
   },
   'Luyện đề thi thử TOEIC online': {
     url: 'https://estudyme.com/test/toeic-test/',
-    thumbnail: 'https://taec.edu.vn/wp-content/uploads/2023/08/1-Luyen-Thi-toeic-onl-01.jpg',
+    thumbnail: 'https://www.dropbox.com/scl/fi/r7236r0vai58f3744h2qi/Luy-n-thi-th-TOEIC-online.jpg?rlkey=algy0m7xdfdxno7n7hbot5dev&st=iznftf5q&raw=1',
+  },
+  'Vocabulary.com': {
+    url: 'https://www.vocabulary.com/vocabtrainer/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yep99p43v8ide8ogvrhq5/Vocabulary.com.avif?rlkey=za5rl68612ji02ba61nxfl8pn&st=qbj7sg51&raw=1',
+  },
+  'Vocaprep (TOEIC)': {
+    url: 'https://vocaprep.com/vi/lessons',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wrmv4roxbv0naosxd00cs/Vocaprep-TOEIC.jpg?rlkey=2yo44d50078ygzkpruib1saom&st=3y7f32f0&raw=1',
   },
   // thêm các mục khác nếu cần
 };
