@@ -38,5 +38,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@sinhhoconline594/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/zaf5c9nh3m70vfy6zj7ty/C-L-Ng-c-Hi-u.jpg?rlkey=bk6z3914sj247y8e28wkyx5c7&st=ec5pu5hj&raw=1',
   },
+  'Thầy Quang': {
+    url: 'https://www.youtube.com/@TH%E1%BA%A6YQUANG/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ue2twfebcsbnb8fwiz893/Th-y-Quang.jpg?rlkey=2yjl89q8hv8rw3lok47j7bftj&st=q8laf4r3&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
