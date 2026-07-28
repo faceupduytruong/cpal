@@ -34,4 +34,8 @@ const folderLinks = {
     url: 'https://www.youtube.com/@hocgiaithuatcunghpn_official',
     thumbnail: 'https://www.dropbox.com/scl/fi/bxu89y4nxgb2rsfu4fr2u/H-c-Gi-i-Thu-t-C-ng-HPN.jpg?rlkey=wdqacp2al8mhk74kyzi8h2pcc&st=x8buta20&raw=1'
   },
+  'Flash Bytes': {
+    url: 'https://www.youtube.com/@FlashBytesYT/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yy7f3hqoi9wk8yy0uftz5/Flash-Bytes.jpg?rlkey=21zhspod27ni525056gqeavhp&st=2k4tn6qr&raw=1'
+  },
 };
