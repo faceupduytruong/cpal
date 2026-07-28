@@ -242,6 +242,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@vaimeohay.9/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/9yyggcj6nzjqnd4vtso1e/V-i-M-o-Hay.jpg?rlkey=v3nw4roiqisbth1dm2mzyg1w9&st=v5nj9trj&raw=1',
   },
+  'Ôn Thi Đại Học Cấp Tốc': {
+    url: 'https://www.youtube.com/@%C3%94nThi%C4%90%E1%BA%A1iH%E1%BB%8DcC%E1%BA%A5pT%E1%BB%91c/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/meigx7xabrhgfzkg6fgbx/n-Thi-i-H-c-C-p-T-c.gif?rlkey=hfwuwiuzoyqg8v8alkceioau3&st=0rkrcdbc&raw=1',
+  },
   'Quản Trị Mạng (Mẹo Vặt)': {
     url: 'https://quantrimang.com/cuoc-song/meo-vat',
     thumbnail: 'https://www.dropbox.com/scl/fi/nuqlob3w0u61ll9lq6d9k/Qu-n-Tr-M-ng-M-o-V-t.jpg?rlkey=j50x1bbk0v6pg7n390vddcle1&st=8t7va661&raw=1',
