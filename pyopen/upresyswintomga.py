@@ -4,6 +4,19 @@ import zipfile
 import requests
 import subprocess
 import stat
+import sys
+
+def check_internet():
+    try:
+        requests.get("https://www.google.com", timeout=5)
+        return True
+    except requests.RequestException:
+        return False
+
+# --- Kiểm tra mạng trước khi chạy ---
+if not check_internet():
+    print("⚠️ Kết nối mạng trước khi thực hiện lệnh giùm tôi")
+    sys.exit(1)
 
 def remove_readonly(func, path, excinfo):
     try:
