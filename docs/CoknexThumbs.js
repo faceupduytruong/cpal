@@ -162,6 +162,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1lqc62ak5egssjxe8pyax/1-Ph-t-Khoa-H-c.jpg?rlkey=amr5lcq3ismu9j5otk5x4g4xz&st=cz8z4477&raw=1',
   },
+  'Lăng Kính Vũ Trụ': {
+    url: 'https://www.facebook.com/profile.php?id=61591404804705&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xfxzvlefqw31t82gqe4b7/L-ng-K-nh-V-Tr.png?rlkey=agwc7dnoifqrljvs8czituozi&st=p9hnx085&raw=1',
+  },
   'Đi Khám Phá - M97': {
     url: 'https://www.facebook.com/dikhampham97/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/aoary35htyjdoer7rcl09/i-Kh-m-Ph-M97.png?rlkey=qz5luqj42dkh8yjwotcwucytx&st=6t5qy7fw&raw=1',
