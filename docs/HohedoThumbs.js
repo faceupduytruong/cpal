@@ -14,6 +14,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/dj0svsar3s2uob8bu6dbp/Google-Translate.avif?rlkey=z8zm0i2bc74s8fdeuebthk2ne&st=ggpsod4e&raw=1'
   },
+  'Airuidu Vietnam': {
+    url: 'https://www.facebook.com/AiruiduVietnam',
+    thumbnail: 'https://www.dropbox.com/scl/fi/35qx88kegg2p5m41icba3/Airuidu-Vietnam.png?rlkey=1xi03qclc0sm743302tr2tgp8&st=rvrhfc6m&raw=1',
+  },
   'Tỉnh táo lên (Sức khỏe tổng thể)': {
     url: 'https://www.youtube.com/@tinhtaolen19/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/esc3906wover22o8s9iy1/T-nh-t-o-l-n.jpg?rlkey=snfl686wxd110yvn9ti9kqe24&st=vrjevd8r&raw=1',
