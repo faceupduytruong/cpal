@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/vsdtfowuya104x8nojqnw/Google-Translate.gif?rlkey=l97fdx41s83ld0v8ul6383u8n&st=7rgce54l&raw=1'
   },
+  'Alhaz Ahmed': {
+    url: 'https://www.facebook.com/AlhazAhmed24',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0b8v16b8k6ljs1579ccmk/Alhaz-Ahmed.jpg?rlkey=hcwmfzxl4j01ijwyxcmi8d8ao&st=047b74er&raw=1'
+  },
   'Daily Glowwords': {
     url: 'https://www.facebook.com/profile.php?id=61585035023693&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/sm8c8r80115ya6q45b9b5/Daily-Glowwords.jpg?rlkey=13by2fjadl9afp2iacee2d5xs&st=uevj2ajl&raw=1'
