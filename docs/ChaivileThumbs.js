@@ -24,6 +24,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/hoctiengtrung2d',
     thumbnail: 'https://www.dropbox.com/scl/fi/57eada9huu79feasl6lzo/H-c-Ti-ng-Trung-C-ng-Nh-B-2D.png?rlkey=ezychj3zykqja956dl5u02gt1&st=bs2kq1w9&raw=1'
   },
+  'Rougai Chinese Education': {
+    url: 'https://www.facebook.com/rougaichinese',
+    thumbnail: 'https://www.dropbox.com/scl/fi/t3hm8mo846r0mbwr0lg8e/Rougai-Chinese-Education.jpg?rlkey=4f26m8wg8y8u1bvx1ert9avvb&st=labt29vb&raw=1'
+  },
   'Tự học tiếng Trung': {
     url: 'https://www.facebook.com/tuhoctiengtrungcaptoc/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4czup6mjv5zcg9sv8mm6q/T-h-c-ti-ng-Trung.jpg?rlkey=5f1ungkhqcmyf72ajf21ftf70&st=prvo1nr1&raw=1'
