@@ -18,6 +18,18 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1'
   },
+  'Đi Cùng Con': {
+    url: 'https://www.facebook.com/dicungcon.official',
+    thumbnail: 'https://www.dropbox.com/scl/fi/kwsmchjvg4168vbx7mrx9/i-C-ng-Con.jpg?rlkey=9ofem2ljl3jlf7iyr1uiu141x&st=t2813j7h&raw=1',
+  },
+  'The Joy Map': {
+    url: 'https://www.facebook.com/TheJoyMapp',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ntx3v8ee0bmcsq21ht5eo/The-Joy-Map.jpg?rlkey=5vl3uzxk34dy4b6ebqikvkzvq&st=ua4hzbcc&raw=1',
+  },
+  'Wiki chăm con': {
+    url: 'https://www.facebook.com/groups/1742372216254449/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/q2q3k3aj886aooza45fly/WIKI-CH-M-CON-by-Quynh-Anh-Pham.jpg?rlkey=c7asmtn5mnkzyl1bkukzvu5yx&st=nuk3q3wo&raw=1',
+  },
   'Nam Khánh': {
     url: 'https://www.facebook.com/namkhanh1003asd/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4bx4scdl908i34ghbxzbc/Nam-Kh-nh.gif?rlkey=x1gypfs00jg8ngotnu49gj1ah&st=f64u4fbt&raw=1'
