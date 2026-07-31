@@ -70,6 +70,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/trinh.viet.trinh.265984/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/smsq7va4ee4gcnfrqxget/Tr-nh-Vi-t-Trinh.jpg?rlkey=5lsqdyqtxfir65hol8xzrljdv&st=pxetvhrg&raw=1',
   },
+  'Mẹ Yêu Bé Khỏe': {
+    url: 'https://www.facebook.com/meyeubekhoe2026',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7m06xobefsl5bfzdouh77/M-Y-u-B-Kh-e.png?rlkey=o62c4u644znt3d3npi6gq1vxb&st=8amrq9a4&raw=1',
+  },
  'Sức khỏe học đường': {
     url: 'https://www.facebook.com/suckhoehocduong/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/2sfnmarujjctojj4ktp4t/S-c-kh-e-h-c-ng.jpg?rlkey=fq6trymkn1eyxib4l1k6aw62j&st=f7ygmgca&raw=1'
