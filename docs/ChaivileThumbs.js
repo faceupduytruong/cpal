@@ -20,9 +20,17 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/ghr6z9a8jq4v62ir7e9yo/Google-Translate.webp?rlkey=akonaabgl62h1tcovkfduh9ie&st=fd0zik9q&raw=1'
   },
+  'Tiếng Trung Cùng Bé': {
+    url: 'https://www.facebook.com/profile.php?id=61592723755158&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0jcrwtzvmzoab7l91hnqj/Ti-ng-Trung-C-ng-B.jpg?rlkey=n4gi1dmq6uvlxjdsjcnmxdbug&st=eiaou97l&raw=1'
+  },
   'Học Tiếng Trung Cùng Nhà Bé 2D': {
     url: 'https://www.facebook.com/hoctiengtrung2d',
     thumbnail: 'https://www.dropbox.com/scl/fi/57eada9huu79feasl6lzo/H-c-Ti-ng-Trung-C-ng-Nh-B-2D.png?rlkey=ezychj3zykqja956dl5u02gt1&st=bs2kq1w9&raw=1'
+  },
+  'ISC - Tiếng Trung Ứng Dụng': {
+    url: 'https://www.facebook.com/profile.php?id=61574824210657',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8s13a4xd7t429heyv7vuv/ISC-Ti-ng-Trung-ng-D-ng.jpg?rlkey=tyqf199hnkfxg6mq077jngs2w&st=ciwhuz55&raw=1'
   },
   'Rougai Chinese Education': {
     url: 'https://www.facebook.com/rougaichinese',
@@ -139,6 +147,18 @@ const folderLinks = {
   'Tiếng Trung - XinLaoshi': {
     url: 'https://www.facebook.com/profile.php?id=61590907081326&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/fm7ril9w6eqzwpmbso14s/XinLaoshi-Ti-ng-Trung-n-Gi-n-cho-ng-i-Vi-t.jpg?rlkey=fnubzq65p5r2i1lgva1m6p8uf&st=waz5v3p1&raw=1'
+  },
+  'CAS Chinese - tiếng Trung quận 7': {
+    url: 'https://www.facebook.com/caschinese',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0j5bjd6t1fvl3kd49mj8i/CAS-Chinese-ti-ng-Trung-qu-n-7.jpg?rlkey=b16tk3qbkp8512lzhrkc3phh3&st=fszyu9vp&raw=1'
+  },
+  'Tiếng Trung Minh Việt': {
+    url: 'https://www.facebook.com/tiengtrungminhviet/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ysq6g60b8wgp5fz8knm4c/Ti-ng-Trung-Minh-Vi-t.png?rlkey=30ljsbp89gzd5tix0gwt8wjty&st=ecmc5d73&raw=1'
+  },
+  'Học Tiếng Trung Miễn Phí': {
+    url: 'https://www.facebook.com/groups/358562858431257/media',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h8a65yqoattlk6h804aow/H-c-Ti-ng-Trung-Mi-n-Ph.jpg?rlkey=h8qn2qandoq1nvyfhz0ytamfo&st=3kzofd3f&raw=1'
   },
   'HuaMei Chinese (Web)': {
     url: 'https://hoctrung.com/',
