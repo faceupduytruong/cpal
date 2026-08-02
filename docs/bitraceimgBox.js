@@ -89,6 +89,13 @@ container.innerHTML = `
         <div class="caption">Nguyễn Thành Luân</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/groups/519735264066153/', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/m1q4nfcn6noql84rj2pej/L-p-tr-nh-T-ng-h-a-Chuy-n-i-s-ng-nh-X-y-D-ng.webp?rlkey=15q2p3tolldjrqokrbp41zwxl&st=a89dlwc1&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Lập trình - Tự động hóa - Chuyển đổi số ngành Xây Dựng</div>
+      </div>
+
 </div>
 
       <!-- Hàng thứ 2 -->
@@ -249,6 +256,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/8yjsr7lbmwmzgjy1jt8xp/C-ng-h-c-AutoCad.png?rlkey=so7r2s01qve8lgq4k6ogewd42&st=2963ggy1&raw=1">
 </div>
         <div class="caption">Cùng học AutoCad</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/phanmemVinaCAD' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/njles9whugiapy8t3hfcp/VinaCAD.jpg?rlkey=dwwogjelyef1vn15an26mbkrx&st=rumhaj35&raw=1">
+</div>
+        <div class="caption">VinaCAD</div>
       </div>
      
 </div>
@@ -604,6 +618,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/b465v9urib7xggxlnzkpy/T-i-l-K-s-Esuhai.jpg?rlkey=fwrz98hr74vzaa9ao7g0xm6a7&st=s4nxrx3q&raw=1">
 </div>
         <div class="caption">Tôi là Kỹ sư Esuhai</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/idemyfanpage' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/2okd4w7l6n42jl2c2249v/IDEMY-K-Thu-t-i-n-T-ng-H-a-PLC.webp?rlkey=af1t6v1t2x1od83n6lhooa8sh&st=1q87erov&raw=1">
+</div>
+        <div class="caption">IDEMY (Kỹ Thuật Điện - Tự Động Hóa - PLC)</div>
       </div>
          
 </div>
