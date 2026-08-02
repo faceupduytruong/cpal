@@ -26,6 +26,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/TheJoyMapp',
     thumbnail: 'https://www.dropbox.com/scl/fi/ntx3v8ee0bmcsq21ht5eo/The-Joy-Map.jpg?rlkey=5vl3uzxk34dy4b6ebqikvkzvq&st=ua4hzbcc&raw=1',
   },
+  'Drisla Vietnam': {
+    url: 'https://www.facebook.com/DrislaVietnam',
+    thumbnail: 'https://www.dropbox.com/scl/fi/sd8t2ssqnpsiy257mex4b/Drisla-Vietnam.jpg?rlkey=565msszwjerpq3n8gluidjcrl&st=duzmas6d&raw=1',
+  },
+  'Mẹ Chọn Cho Con': {
+    url: 'https://www.facebook.com/profile.php?id=61586032916334',
+    thumbnail: 'https://www.dropbox.com/scl/fi/60alfx7ywjiu3dv8b8ckp/M-Ch-n-Cho-Con.jpg?rlkey=emi81h7p1oa3cpck1ukee9nx4&st=rzqbm47j&raw=1',
+  },
   'Wiki chăm con': {
     url: 'https://www.facebook.com/groups/1742372216254449/',
     thumbnail: 'https://www.dropbox.com/scl/fi/q2q3k3aj886aooza45fly/WIKI-CH-M-CON-by-Quynh-Anh-Pham.jpg?rlkey=c7asmtn5mnkzyl1bkukzvu5yx&st=nuk3q3wo&raw=1',
