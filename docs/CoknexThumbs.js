@@ -146,6 +146,10 @@ const folderLinks = {
     url: 'https://quantrimang.com/khoa-hoc/khoa-hoc-vu-tru',
     thumbnail: 'https://www.dropbox.com/scl/fi/xmiai8sn6xt1infuil1yw/Qu-n-Tr-M-ng-V-Tr.jpg?rlkey=lyqnq7jegtswxhcjynynwhdtd&st=rvxcg180&raw=1',
   },
+  'Lăng Kính Vũ Trụ': {
+    url: 'https://www.facebook.com/profile.php?id=61591404804705&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xfxzvlefqw31t82gqe4b7/L-ng-K-nh-V-Tr.png?rlkey=agwc7dnoifqrljvs8czituozi&st=p9hnx085&raw=1',
+  },
   'Bản Chất Khoa Học': {
     url: 'https://www.facebook.com/banchatkhoahoc/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ibggick9dithbvbdac87t/B-n-Ch-t-Khoa-H-c.jpg?rlkey=xm0sxaj62bsve5k2ev4517bgk&st=2k1qqkmm&raw=1',
@@ -162,9 +166,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@1phutkhoahoc/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1lqc62ak5egssjxe8pyax/1-Ph-t-Khoa-H-c.jpg?rlkey=amr5lcq3ismu9j5otk5x4g4xz&st=cz8z4477&raw=1',
   },
-  'Lăng Kính Vũ Trụ': {
-    url: 'https://www.facebook.com/profile.php?id=61591404804705&sk=reels_tab',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xfxzvlefqw31t82gqe4b7/L-ng-K-nh-V-Tr.png?rlkey=agwc7dnoifqrljvs8czituozi&st=p9hnx085&raw=1',
+  'Tik Xanh Khoa Học': {
+    url: 'https://www.facebook.com/TikXanhKhoaHoc',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2cgubfi3xojtr486qv9oz/Tik-Xanh-Khoa-H-c.jpg?rlkey=d12mg7pimc88tu90i7e64356v&st=dxyji7j1&raw=1',
   },
   'Đi Khám Phá - M97': {
     url: 'https://www.facebook.com/dikhampham97/reels/',
@@ -205,6 +209,14 @@ const folderLinks = {
   'Huyền Biết Tuốt': {
     url: 'https://www.youtube.com/@huyenbiettuot/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/mknfihqgjukatwbvmxeh7/Huy-n-Bi-t-Tu-t.webp?rlkey=byuhedv3o420qavgswkog1xxs&st=xoa8it3u&raw=1',
+  },
+  'Trạng Quỳnh Biết Tuốt': {
+    url: 'https://www.facebook.com/trangquynhbiettuot/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/egsjxh5c8ztgooqql1uk7/Tr-ng-Qu-nh-Bi-t-Tu-t.jpg?rlkey=cqtdi23cgfhthrxywt1mruvi4&st=fvb285sl&raw=1',
+  },
+  'Rin Biết Tuốt': {
+    url: 'https://www.facebook.com/profile.php?id=61592459041718',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wf33t41vgvdviq8999ffu/Rin-Bi-t-Tu-t.jpg?rlkey=jrnf9tbr2p64g5ynzy023fov8&st=cksa00lx&raw=1',
   },
   'Khám Phá Thế Giới 410': {
     url: 'https://www.youtube.com/@khamphathegioi410/shorts/',
