@@ -18,9 +18,17 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1'
   },
+  'Aquakids': {
+    url: 'https://www.facebook.com/aquakidsvietnam',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8i6phy3w13q8ycbsxepv3/Aquakids.jpg?rlkey=ccwt4byd5ovixau7urxbq35j2&st=vyxtpios&raw=1',
+  },
   'Đi Cùng Con': {
     url: 'https://www.facebook.com/dicungcon.official',
     thumbnail: 'https://www.dropbox.com/scl/fi/kwsmchjvg4168vbx7mrx9/i-C-ng-Con.jpg?rlkey=9ofem2ljl3jlf7iyr1uiu141x&st=t2813j7h&raw=1',
+  },
+  'HYPPO Kids': {
+    url: 'https://www.facebook.com/HYPPOforkids',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fb7u0djjfehak1cj9e4gj/HYPPO-Kids.png?rlkey=jvoxgy2xkycjd28qh3wsue8ye&st=9rm1vyd3&raw=1',
   },
   'The Joy Map': {
     url: 'https://www.facebook.com/TheJoyMapp',
@@ -33,6 +41,10 @@ const folderLinks = {
   'Mẹ Chọn Cho Con': {
     url: 'https://www.facebook.com/profile.php?id=61586032916334',
     thumbnail: 'https://www.dropbox.com/scl/fi/60alfx7ywjiu3dv8b8ckp/M-Ch-n-Cho-Con.jpg?rlkey=emi81h7p1oa3cpck1ukee9nx4&st=rzqbm47j&raw=1',
+  },
+  'Cùng con học tiểu học': {
+    url: 'https://www.facebook.com/groups/574496647195306/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/cvj6wldribxi36oa5slm1/C-ng-con-h-c-ti-u-h-c.jpg?rlkey=q6lrers5jhxyw9xmssse7sx6x&st=29om82i2&raw=1',
   },
   'Wiki chăm con': {
     url: 'https://www.facebook.com/groups/1742372216254449/',
@@ -61,6 +73,14 @@ const folderLinks = {
   'Minh Ho': {
     url: 'https://www.facebook.com/minh.ho.16121/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/t4xsfstlkymcyipsf2nge/Minh-Ho.gif?rlkey=09dbpy7prreynuv6sifp1bhaf&st=0vux69yb&raw=1',
+  },
+  'Mai Mai': {
+    url: 'https://www.facebook.com/quynhmaialex/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xw4ztp4t06nutr5ugdofc/Mai-Mai.png?rlkey=x1ipxt8ytn2oozafa7yeniben&st=m477bykl&raw=1',
+  },
+  'Lê Văn Thịnh': {
+    url: 'https://www.facebook.com/lethinh.dt',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vqws00bhmrw9xy4fwe8h5/L-V-n-Th-nh.gif?rlkey=h446897vmd093jafa6qpcliuy&st=9g8riner&raw=1',
   },
  'Future Me': {
     url: 'https://www.facebook.com/futuremeV/reels/',
