@@ -24,6 +24,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61592723755158&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/0jcrwtzvmzoab7l91hnqj/Ti-ng-Trung-C-ng-B.jpg?rlkey=n4gi1dmq6uvlxjdsjcnmxdbug&st=eiaou97l&raw=1'
   },
+  'Học Tiếng Trung cùng Bé': {
+    url: 'https://www.facebook.com/profile.php?id=61587670097125&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/bc48m7hpxbbn7h0euqkas/H-c-Ti-ng-Trung-c-ng-B.jpg?rlkey=kl677iah18v0ksepliw1gxmfb&st=h69imwld&raw=1'
+  },
   'Học Tiếng Trung Cùng Nhà Bé 2D': {
     url: 'https://www.facebook.com/hoctiengtrung2d',
     thumbnail: 'https://www.dropbox.com/scl/fi/57eada9huu79feasl6lzo/H-c-Ti-ng-Trung-C-ng-Nh-B-2D.png?rlkey=ezychj3zykqja956dl5u02gt1&st=bs2kq1w9&raw=1'
@@ -112,9 +116,17 @@ const folderLinks = {
     url: 'https://www.facebook.com/NhoHanTu/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/705b71kcuux49jeymc8uv/Nh-H-n-T-Th-ng-Qua-Chi-t-T-Ch-H-n.jpg?rlkey=1b1kow72uwv211py52ceavxz3&st=4p228lot&raw=1'
   },
-  'Tiếng Trung 21 Ngày': {
+  'Tiếng Trung 21 Ngày (396K)': {
     url: 'https://www.facebook.com/tiengtrung21ngay/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/nqvldquwbpzmm0h8xadd8/Ti-ng-Trung-21-Ng-y.avif?rlkey=jgkguna634ph0czleqsr6w8nb&st=a0uwyhfo&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/nqvldquwbpzmm0h8xadd8/Ti-ng-Trung-21-Ng-y-396K.avif?rlkey=jgkguna634ph0czleqsr6w8nb&st=abplrhhi&raw=1'
+  },
+  'Tiếng Trung 21 Ngày (464K)': {
+    url: 'https://www.facebook.com/tiengtrung21ngay1/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/kxscr65uknmtd4zp6xzq0/Ti-ng-Trung-21-Ng-y-464K.png?rlkey=87e80hjyqqihxbmsa1tju6ght&st=utu296t9&raw=1'
+  },
+  'Tiếng Trung 30 Ngày': {
+    url: 'https://www.facebook.com/profile.php?id=61583718543870&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/plakuh5ech632pa2rh567/Ti-ng-Trung-30-Ng-y.jpg?rlkey=6iy4arpwhvh31sfexg8ztejic&st=b36zx7hm&raw=1'
   },
   'Tiếng Trung You Can - Quận 6': {
     url: 'https://www.facebook.com/trungtamtiengtrungquan6/photos',
@@ -159,6 +171,10 @@ const folderLinks = {
   'Học Tiếng Trung Miễn Phí': {
     url: 'https://www.facebook.com/groups/358562858431257/media',
     thumbnail: 'https://www.dropbox.com/scl/fi/h8a65yqoattlk6h804aow/H-c-Ti-ng-Trung-Mi-n-Ph.jpg?rlkey=h8qn2qandoq1nvyfhz0ytamfo&st=3kzofd3f&raw=1'
+  },
+  'Học tiếng Trung cùng Shanzhu': {
+    url: 'https://www.facebook.com/profile.php?id=61592413448744',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vpd9uhwi16braox5v56lo/H-c-ti-ng-Trung-c-ng-Shanzhu.jpg?rlkey=ra0oi0b0pe0fyptwva326jigq&st=zv075jmc&raw=1'
   },
   'HuaMei Chinese (Web)': {
     url: 'https://hoctrung.com/',
