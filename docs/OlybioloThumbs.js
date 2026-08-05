@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@SinhthayTuan/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/jtxzc49p9u51qucdgybv6/Sinh-th-y-Tu-n.jpg?rlkey=7bregpzm3u0l3u2fxkz9tpjke&st=vd8dcpo2&raw=1',
   },
+  'Chuyên Sinh': {
+    url: 'https://www.youtube.com/@chuyensinhhoc/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/10s405h9e4r29r6erwvsg/Chuy-n-Sinh.png?rlkey=p6x9vgn5n1dprwx1iujfk63az&st=131bcsqh&raw=1',
+  },
   'Cô Lê Ngọc Hiếu': {
     url: 'https://www.youtube.com/@sinhhoconline594/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/zaf5c9nh3m70vfy6zj7ty/C-L-Ng-c-Hi-u.jpg?rlkey=bk6z3914sj247y8e28wkyx5c7&st=ec5pu5hj&raw=1',
@@ -41,6 +45,18 @@ const folderLinks = {
   'Thầy Quang': {
     url: 'https://www.youtube.com/@TH%E1%BA%A6YQUANG/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ue2twfebcsbnb8fwiz893/Th-y-Quang.jpg?rlkey=2yjl89q8hv8rw3lok47j7bftj&st=q8laf4r3&raw=1',
+  },
+  'Thầy Phan Khắc Nghệ': {
+    url: 'https://www.youtube.com/@thayphankhacnghe/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/t8z383qpjudqtvhtc4a14/Th-y-Phan-Kh-c-Ngh.jpg?rlkey=wgh96w3d9314xrtngrmut2hda&st=9gssn0sk&raw=1',
+  },
+  'Thầy Công dạy Sinh': {
+    url: 'https://www.youtube.com/@thaycongdaysinh/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7if63za2jygy894q849wu/Th-y-C-ng-d-y-Sinh.jpg?rlkey=bo8kszzgztysg6x8dim1tiiew&st=xlbahvbf&raw=1',
+  },
+  'Tri Dang family': {
+    url: 'https://www.youtube.com/@tridangfamily301/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yrpkrkxlx47v8febthhqy/Tri-Dang-family.webp?rlkey=qb09kj9wgn0vx9n9vwfmvkzfq&st=orja3vb3&raw=1',
   },
   // thêm các mục khác nếu cần
 };
