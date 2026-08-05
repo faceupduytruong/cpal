@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/tramvan.thcs',
     thumbnail: 'https://www.dropbox.com/scl/fi/lfz20t38dke6k2auajohy/Tr-m-v-n.jpg?rlkey=h89xxykwa4a7kyp4o5htb68ox&st=07mo9i4f&raw=1'
   },
+ 'VietJack THPT Official': {
+    url: 'https://www.youtube.com/@vietjackthptofficial5597/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/t6it61b6fujtsgz7ix1t3/VietJack-THPT-Official.gif?rlkey=an1il9lgnsmxrz7mfhw169ydx&st=gbqgfm0t&raw=1'
+  },
   'Tủ truyện tranh đọc xuôi 199x': {
     url: 'https://www.facebook.com/truyentranhdocxuoi199x',
     thumbnail: 'https://www.dropbox.com/scl/fi/x2vrsguq32p07k9mvqnru/T-truy-n-tranh-c-xu-i-199x.gif?rlkey=ya0yye9qll2g37d3d245aksgo&st=boir6zy8&raw=1'
