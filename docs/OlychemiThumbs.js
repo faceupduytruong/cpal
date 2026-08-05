@@ -26,6 +26,46 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Th%E1%BA%A7yH%E1%BA%A3i-D%E1%BA%A1yH%C3%B3aOnline/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/qodpiknfts7yg0t0hi9cp/Th-y-H-i-D-y-H-a-Online.jpg?rlkey=42cgvwtj5xa6bzdu6usl8icgk&st=gt0e0d21&raw=1',
   },
+  'Cô Bích Ngọc Hóa học': {
+    url: 'https://www.youtube.com/@bichngoc2130/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/k5g4mrpuun3krak4d1pue/C-B-ch-Ng-c-H-a-h-c.jpg?rlkey=fa1cpd4fv9dq79dk647vrqon5&st=lux4rhv2&raw=1',
+  },
+  'Môn hóa Online MHT': {
+    url: 'https://www.youtube.com/@monhoaonlinemhtchemprogift2232/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wn01syf80vduru8xz0gpx/M-n-h-a-Online-MHT.png?rlkey=s67i3nl6mbtxy81d5y1z7gko9&st=fflxdvkc&raw=1',
+  },
+  'Thầy Hà Văn Luận': {
+    url: 'https://www.youtube.com/@Th%E1%BA%A7yH%C3%A0V%C4%83nLu%E1%BA%ADn/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2hnn6nnui041flxwoe39t/Th-y-H-V-n-Lu-n.jpg?rlkey=w3kvgxxty6dziydko2ein3gq4&st=im9v2mow&raw=1',
+  },
+  'Hóa học THCS 89': {
+    url: 'https://www.youtube.com/@H%C3%B3ah%E1%BB%8DcTHCS89/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/aaqa1lg3xvfb7gd2401eh/H-a-h-c-THCS-89.png?rlkey=uqhlgd8nj4jmroaq8uscbpq3h&st=quiwsyys&raw=1',
+  },
+  'Hóa THCS': {
+    url: 'https://www.youtube.com/@hoathcs1083/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/615aj1lc0i57z9x3opdp1/H-a-THCS.jpg?rlkey=l3wgkj6f9m0vqntjr40n5g02x&st=i0xrdnjb&raw=1',
+  },
+  'Pham Van Trong': {
+    url: 'https://www.youtube.com/@phamvantrong8277/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/n9cade0h5qo7gclvpc17h/Pham-Van-Trong.png?rlkey=20tzxmbkfxohtzc5g4g6ky8fe&st=pzfiiim4&raw=1',
+  },
+  'Thầy Lâm Mạnh Cường': {
+    url: 'https://www.youtube.com/@LamManhCuong/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o9qcynbz8mp5hepzr4p10/Th-y-L-m-M-nh-C-ng.png?rlkey=wldbw8ttpa6ol4aa1qh19ordt&st=cxfy1a9i&raw=1',
+  },
+  'Thầy Quang': {
+    url: 'https://www.youtube.com/@TH%E1%BA%A6YQUANG/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9r7ad51r1t07kyrbsumoe/Th-y-Quang.jpg?rlkey=2jpbtmbg9uybw06t30cl9wh4e&st=rea13azz&raw=1',
+  },
+  'Học Hóa Youtube': {
+    url: 'https://www.youtube.com/@H%E1%BB%8DcH%C3%B3aYoutube/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xbd4ybm14aqe3ry2elv8u/H-c-H-a-Youtube.jpg?rlkey=hikxgo7fkqv5s72ixq9ye246e&st=xj1dz5h4&raw=1',
+  },
+  'Hóa Học Anh Kay': {
+    url: 'https://www.youtube.com/@hoahocanhkay/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rwhc8y441asdesblvjy8f/H-a-H-c-Anh-Kay.jpg?rlkey=h5voizo3988y06qif92kh28fi&st=pfbydcz6&raw=1',
+  },
   'elm zai chị Nguyệt': {
     url: 'https://www.youtube.com/@Elmzaich%E1%BB%8BNguy%E1%BB%87t',
     thumbnail: 'https://www.dropbox.com/scl/fi/bqsrrtgdesb4t4fpk8g30/elm-zai-ch-Nguy-t.webp?rlkey=juf4mik4f00lvjxog92sqro3o&st=topvsj7x&raw=1',
