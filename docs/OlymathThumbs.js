@@ -86,6 +86,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@toanhocmoingay/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/68tgjpakweqzhh2ookz4k/To-n-H-c-M-i-Ng-y.jpg?rlkey=2dj9ve75dmoj2k0i86lnipv8c&st=gkixq9jo&raw=1',
   },
+  'Epsilon với Toán Thường Thức': {
+    url: 'https://www.youtube.com/@akile/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/rqlqjh4wkoug1yfh8rg4q/Epsilon-v-i-To-n-Th-ng-Th-c.jpg?rlkey=efjj1ygqr7loc52vzzzavpnqt&st=tt9kddn7&raw=1',
+  },
   'Vinastudy - Trường liên cấp': {
     url: 'https://www.youtube.com/@Vinastudy-Tr%C6%B0%E1%BB%9Dngh%E1%BB%8DcTo%C3%A1ntr%E1%BB%B1ctuy/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/s98niw9g4wosa3fcxm9fq/Vinastudy-Tr-ng-li-n-c-p.webp?rlkey=xpk6zg659g2mt6e2euc6ylxsr&st=9qvg6flp&raw=1',
