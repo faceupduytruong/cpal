@@ -32,7 +32,7 @@ const folderLinks = {
     url: 'https://www.youtube.com/@L%C3%AAQuangTi%E1%BA%BFp-v8z/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/u91k9fu6gpgek9u3q4ho3/L-Quang-Ti-p-i-c-ng.jpg?rlkey=x4lv761zs19m6y16dp1eoyjzg&st=bgfocxfy&raw=1',
   },
-  'Lê Bảo Quỳnh (Sức bền vật liệu)': {
+  'Lê Bảo Quỳnh (SBVL)': {
     url: 'https://www.youtube.com/@QuynhLeBao/courses',
     thumbnail: 'https://www.dropbox.com/scl/fi/ntzc73ms8hiqpyeevqese/L-B-o-Qu-nh-S-c-b-n-v-t-li-u.jpg?rlkey=a0rjnrbaqx7hu9ziubvb45trg&st=ysn95rhc&raw=1',
   },
