@@ -38,6 +38,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Th%E1%BA%A7yH%C3%A0V%C4%83nLu%E1%BA%ADn/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/2hnn6nnui041flxwoe39t/Th-y-H-V-n-Lu-n.jpg?rlkey=w3kvgxxty6dziydko2ein3gq4&st=im9v2mow&raw=1',
   },
+  'Thầy Ngọc Anh Hóa': {
+    url: 'https://www.youtube.com/@thayngocanhhoahoc/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mrwy4v2r4i97bnftwa07m/Th-y-Ng-c-Anh-Luy-n-Thi-H-a-10-11-12.jpg?rlkey=y0yvfqohv9vkd4ldxk1k0f0ft&st=jdn3yxdf&raw=1',
+  },
   'Hóa học THCS 89': {
     url: 'https://www.youtube.com/@H%C3%B3ah%E1%BB%8DcTHCS89/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/aaqa1lg3xvfb7gd2401eh/H-a-h-c-THCS-89.png?rlkey=uqhlgd8nj4jmroaq8uscbpq3h&st=quiwsyys&raw=1',
