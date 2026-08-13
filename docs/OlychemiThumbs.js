@@ -1,5 +1,6 @@
 const customThumbnails = {
   'Cấu tạo': 'https://www.dropbox.com/scl/fi/ubkw2njw5uht0z8uazoe8/Composition.avif?rlkey=fviqt5b9m7pu2gxr5cer2l9d9&st=9h9qmams&raw=1',
+  'Chất hóa học': 'https://www.dropbox.com/scl/fi/swqhj3eohxpl61c263vh6/Ch-t-h-a-h-c.jpeg?rlkey=r5s1cfaeoj576g2vmodyyx3ud&st=gktwmzt7&raw=1',
   'Oxy hóa': 'https://www.dropbox.com/scl/fi/3eg4ym9xjitiuxqwrgf5z/Moles.jpg?rlkey=35jmqmrmfs09rgokzzea3ykvx&st=8g9xky6u&raw=1',
   'Phản ứng': 'https://www.dropbox.com/scl/fi/9wwtwl6xyho9ky60cna69/Ph-n-ng.gif?rlkey=r1qopm71nfhg74k0x3i17mi9v&st=i6k5w653&raw=1',
   'Sản phẩm': 'https://www.dropbox.com/scl/fi/vx6zksyqhyqxl9jb840tp/S-n-ph-m.png?rlkey=53x9xvymjzf319hdjm3l7kvoj&st=dy6t50sa&raw=1',
@@ -9,6 +10,7 @@ const customThumbnails = {
 
 // Danh sách thư mục và số lượng ảnh trong mỗi thư mục
 const folders = {
+'Chất hóa học': ['Tất tần tật về H2SO4 (Sulphuric Acid).jpg'],
 'Cấu tạo': ['Công thức cấu tạo của Ethylhexyl palmitate.png'],
 'Oxy hóa': ['Chất oxi hóa trong quá trình chuyển hóa glucose thành acetic acid.png', 'Quá trình Oxi hóa Nitrogen.png'],
 'Phản ứng': ['Phản ứng của các chất hóa học vô cơ lớp 11.webp'],
