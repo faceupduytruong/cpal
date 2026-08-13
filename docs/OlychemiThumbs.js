@@ -1,6 +1,8 @@
 const customThumbnails = {
   'Cấu tạo': 'https://www.dropbox.com/scl/fi/ubkw2njw5uht0z8uazoe8/Composition.avif?rlkey=fviqt5b9m7pu2gxr5cer2l9d9&st=9h9qmams&raw=1',
   'Oxy hóa': 'https://www.dropbox.com/scl/fi/3eg4ym9xjitiuxqwrgf5z/Moles.jpg?rlkey=35jmqmrmfs09rgokzzea3ykvx&st=8g9xky6u&raw=1',
+  'Phản ứng': 'https://www.dropbox.com/scl/fi/9wwtwl6xyho9ky60cna69/Ph-n-ng.gif?rlkey=r1qopm71nfhg74k0x3i17mi9v&st=i6k5w653&raw=1',
+  'Sản phẩm': 'https://www.dropbox.com/scl/fi/vx6zksyqhyqxl9jb840tp/S-n-ph-m.png?rlkey=53x9xvymjzf319hdjm3l7kvoj&st=dy6t50sa&raw=1',
   'Số mole': 'https://www.dropbox.com/scl/fi/g0o2nt9v66qckw3wamjfr/Oxidation.jpg?rlkey=oh3v3il427b9yo9asw0t410xm&st=zns13onm&raw=1',
   // thêm các mục khác nếu cần
 };
@@ -9,6 +11,8 @@ const customThumbnails = {
 const folders = {
 'Cấu tạo': ['Công thức cấu tạo của Ethylhexyl palmitate.png'],
 'Oxy hóa': ['Chất oxi hóa trong quá trình chuyển hóa glucose thành acetic acid.png', 'Quá trình Oxi hóa Nitrogen.png'],
+'Phản ứng': ['Phản ứng của các chất hóa học vô cơ lớp 11.webp'],
+'Sản phẩm': ['Các sản phẩm hóa học trong đời sống.webp'],
 'Số mole': ['Sản xuất bánh xà phòng.png'],
 // thêm các mục khác nếu cần
 };
