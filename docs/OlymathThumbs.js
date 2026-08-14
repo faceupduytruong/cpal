@@ -110,6 +110,14 @@ const folderLinks = {
     url: 'https://www.youtube.com/@hocvienamura/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/wfv666x3sdhvom2i4wgkl/H-c-vi-n-AMURA.jpg?rlkey=uhuo83nb32inptvmimwwyujfg&st=amchfya3&raw=1',
   },
+  'Thầy Giang - Học Toán Không Khó': {
+    url: 'https://www.youtube.com/@thayGianghoctoankhongkho/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/lgy56nvd14umjp2xkdsfl/Th-y-Giang-H-c-To-n-Kh-ng-Kh.jpg?rlkey=st3k6mbsltjv9n0qccv5bzkor&st=wqplhkvy&raw=1',
+  },
+  'Toán Pro - 84K': {
+    url: 'https://www.youtube.com/@yt84k_thanhnienky/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/o5nccdgkk7rvqjkrxwnak/To-n-Pro-84K.jpg?rlkey=je0vv02eue52o0g8zsdgocl7q&st=fgz7uqo0&raw=1',
+  },
   'GlassBox AI': {
     url: 'https://www.facebook.com/profile.php?id=61576693687932&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/sifdxv1ht763x2nel7g4o/GlassBox-AI.gif?rlkey=rbilphq4w3r6y0f7am2lacs3b&st=mr9tl1dp&raw=1',
