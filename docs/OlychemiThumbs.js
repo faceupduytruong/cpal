@@ -10,11 +10,11 @@ const customThumbnails = {
 
 // Danh sách thư mục và số lượng ảnh trong mỗi thư mục
 const folders = {
-'Chất hóa học': ['Tất tần tật về H2SO4 (Sulphuric Acid).jpg'],
+'Chất hóa học': ['Tất tần tật về H2SO4 (Sulphuric Acid).webp'],
 'Cấu tạo': ['Công thức cấu tạo của Ethylhexyl palmitate.png'],
 'Oxy hóa': ['Chất oxi hóa trong quá trình chuyển hóa glucose thành acetic acid.png', 'Quá trình Oxi hóa Nitrogen.png'],
 'Phản ứng': ['Phản ứng của các chất hóa học vô cơ lớp 11.webp'],
-'Sản phẩm': ['Các sản phẩm hóa học trong đời sống.webp'],
+'Sản phẩm': ['Chất và các sản phẩm hóa học trong đời sống.webp'],
 'Số mole': ['Sản xuất bánh xà phòng.png'],
 // thêm các mục khác nếu cần
 };
