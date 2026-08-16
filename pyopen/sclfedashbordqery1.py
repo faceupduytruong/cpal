@@ -212,12 +212,14 @@ sample_playlists = {
         "https://soundcloud.com/nhanhlaxanh/sets/bc1"
     ],
     "inspiration": [
+        "https://soundcloud.com/nhanhlaxanh/sets/dcctn",
         "https://soundcloud.com/nhanhlaxanh/sets/nkm",
         "https://soundcloud.com/nhanhlaxanh/sets/sbh",
         "https://soundcloud.com/nhanhlaxanh/sets/wpl",
         "https://soundcloud.com/nhanhlaxanh/sets/dhm2",
         "https://soundcloud.com/nhanhlaxanh/sets/ms2",
         "https://soundcloud.com/nhanhlaxanh/sets/dhm1",
+        "https://soundcloud.com/nhanhlaxanh/sets/ms1",
         "https://soundcloud.com/nhanhlaxanh/sets/cd2",
         "https://soundcloud.com/nhanhlaxanh/sets/cd1",
         "https://soundcloud.com/nhanhlaxanh/sets/mars",
