@@ -62,10 +62,24 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/vietnamconstructionforum/photos', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/b00wbwqkfuherlbak6zdy/Vietnam-Construction-Forum.webp?rlkey=f7b6h524n1qguy2my4zvzr9q6&st=qnoyg9vj&raw=1" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/ThanhLuan.Nguyen.PVshipyard/', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/oiitrgpiypvn2j12x77cq/Nguy-n-Th-nh-Lu-n.webp?rlkey=na0kwh8uju7t8aoo9sryoxr94&st=zqm9h56x&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Vietnam Construction Forum</div>
+        <div class="caption">Nguyễn Thành Luân</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.vietcons.edu.vn/kien-thuc', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/m4dm3y1uw3injebjgt8v1/Vietcons.webp?rlkey=q2hubl80wm7xo4vrawldbk2b4&st=nta1ufcp&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Vietcons</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.cic.com.vn/tin-chuyen-nganh-cn8.html', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/jvnwxi46tlb401bl5kfwk/CIC.webp?rlkey=ulontt23jnmmjfdoue26j578e&st=1a0bvvqk&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">CIC</div>
       </div>
 
       <div class="image-box">
@@ -83,10 +97,10 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/ThanhLuan.Nguyen.PVshipyard/', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/oiitrgpiypvn2j12x77cq/Nguy-n-Th-nh-Lu-n.webp?rlkey=na0kwh8uju7t8aoo9sryoxr94&st=zqm9h56x&raw=1" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/vietnamconstructionforum/photos', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/b00wbwqkfuherlbak6zdy/Vietnam-Construction-Forum.webp?rlkey=f7b6h524n1qguy2my4zvzr9q6&st=qnoyg9vj&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Nguyễn Thành Luân</div>
+        <div class="caption">Vietnam Construction Forum</div>
       </div>
 
       <div class="image-box">
@@ -94,20 +108,6 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/m1q4nfcn6noql84rj2pej/L-p-tr-nh-T-ng-h-a-Chuy-n-i-s-ng-nh-X-y-D-ng.webp?rlkey=15q2p3tolldjrqokrbp41zwxl&st=a89dlwc1&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Lập trình - Tự động hóa - Chuyển đổi số ngành Xây Dựng</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.vietcons.edu.vn/kien-thuc', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/m4dm3y1uw3injebjgt8v1/Vietcons.webp?rlkey=q2hubl80wm7xo4vrawldbk2b4&st=nta1ufcp&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Vietcons</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.cic.com.vn/tin-chuyen-nganh-cn8.html', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/jvnwxi46tlb401bl5kfwk/CIC.webp?rlkey=ulontt23jnmmjfdoue26j578e&st=1a0bvvqk&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">CIC</div>
       </div>
 
 </div>
