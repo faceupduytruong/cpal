@@ -96,6 +96,20 @@ container.innerHTML = `
         <div class="caption">Lập trình - Tự động hóa - Chuyển đổi số ngành Xây Dựng</div>
       </div>
 
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.vietcons.edu.vn/kien-thuc', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/m4dm3y1uw3injebjgt8v1/Vietcons.webp?rlkey=q2hubl80wm7xo4vrawldbk2b4&st=nta1ufcp&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Vietcons</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.cic.com.vn/tin-chuyen-nganh-cn8.html', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/jvnwxi46tlb401bl5kfwk/CIC.webp?rlkey=ulontt23jnmmjfdoue26j578e&st=1a0bvvqk&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">CIC</div>
+      </div>
+
 </div>
 
       <!-- Hàng thứ 2 -->
