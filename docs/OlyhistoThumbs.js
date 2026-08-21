@@ -34,5 +34,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@TCT968/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/gb2a5jn9rww2de3312c4n/C-Chi.jpg?rlkey=6jtktoia89mhwzv1bezdhcfoo&st=30h5m5va&raw=1',
   },
+  'Sử ta và họ - chuyện xưa kể lại': {
+    url: 'https://www.facebook.com/profile.php?id=61583850062328&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/am4qlpg87pvus55x1afwm/S-ta-v-h-chuy-n-x-a-k-l-i.jpg?rlkey=zs4ajgnk7k96xtsyhz44f3etc&st=25kg1n2z&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
