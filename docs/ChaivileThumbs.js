@@ -36,6 +36,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61574824210657',
     thumbnail: 'https://www.dropbox.com/scl/fi/8s13a4xd7t429heyv7vuv/ISC-Ti-ng-Trung-ng-D-ng.jpg?rlkey=tyqf199hnkfxg6mq077jngs2w&st=ciwhuz55&raw=1'
   },
+  'Tiếng Trung thú vị': {
+    url: 'https://www.facebook.com/profile.php?id=100063744480387&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h9ac0gv8mb0wuc8a5y1wn/Ti-ng-Trung-th-v.jpg?rlkey=g1ga5cvmntzor0mhxr195s33y&st=qnk34zqe&raw=1'
+  },
   'Nhung nói tiếng Trung': {
     url: 'https://www.facebook.com/nhungnoitiengtrung/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4ys8aqwtmrbu8r4fypfa5/Nhung-n-i-ti-ng-Trung.jpg?rlkey=oi3645ifiynyflhm1aukkvmb7&st=7lnnfvuw&raw=1'
@@ -191,6 +195,10 @@ const folderLinks = {
   'Hán Ngữ Yuzhou': {
     url: 'https://www.facebook.com/hannguYuZhou/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ygcmbwp06yl1rlslbvtat/H-n-Ng-Yuzhou.png?rlkey=inq7pfk2d56rdywtsoglyk1zz&st=5z4vqc9n&raw=1'
+  },
+  'Học tiếng Trung cùng Shanzhu': {
+    url: 'https://www.facebook.com/profile.php?id=61592413448744',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vpd9uhwi16braox5v56lo/H-c-ti-ng-Trung-c-ng-Shanzhu.jpg?rlkey=ra0oi0b0pe0fyptwva326jigq&st=zv075jmc&raw=1'
   },
   'HuaMei Chinese (Web)': {
     url: 'https://hoctrung.com/',
