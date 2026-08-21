@@ -200,6 +200,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61592413448744',
     thumbnail: 'https://www.dropbox.com/scl/fi/vpd9uhwi16braox5v56lo/H-c-ti-ng-Trung-c-ng-Shanzhu.jpg?rlkey=ra0oi0b0pe0fyptwva326jigq&st=zv075jmc&raw=1'
   },
+  'Tiếng Trung SongSong-松松课': {
+    url: 'https://www.facebook.com/profile.php?id=61593061277244',
+    thumbnail: 'https://www.dropbox.com/scl/fi/oyfx30q9ha9skf5m9g0vc/Ti-ng-Trung-SongSong.png?rlkey=s8rica85vjc5jeiuijjozhgon&st=6jm4lv7c&raw=1'
+  },
   'HuaMei Chinese (Web)': {
     url: 'https://hoctrung.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/synrju7gms9nic1ro1ow2/Hoctrung.com.webp?rlkey=apychhnvo3pu6r1629nvam0z5&st=2rgb6ai6&raw=1'
