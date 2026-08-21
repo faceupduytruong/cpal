@@ -134,6 +134,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@binrimath/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/0y523oldbxarb1gx9z12x/BinRiMath.webp?rlkey=klchkeb49rjw7hvbrdzh8e0s6&st=qkiiyuo7&raw=1',
   },
+  'Học toán vui mà hiểu sâu': {
+    url: 'https://www.youtube.com/@toanhocvuihieusau/shorts',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2up02k3bavztjgxaqh2qo/H-c-to-n-vui-m-hi-u-s-u.jpg?rlkey=t3povt2ytm14mvy2v9orjwnon&st=jxeqdg28&raw=1',
+  },
   'Nuôi Dạy Con Thông Minh': {
     url: 'https://www.youtube.com/@nuoidayconthongminh/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/48n5dz3f7j2s0dh4wknar/Nu-i-D-y-Con-Th-ng-Minh.webp?rlkey=atebjqqphr4mwdluldtnb1a57&st=m1bulln7&raw=1',
