@@ -204,9 +204,25 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61593061277244',
     thumbnail: 'https://www.dropbox.com/scl/fi/oyfx30q9ha9skf5m9g0vc/Ti-ng-Trung-SongSong.png?rlkey=s8rica85vjc5jeiuijjozhgon&st=6jm4lv7c&raw=1'
   },
+  'Tiếng Trung Cho Người Đi Làm': {
+    url: 'https://www.facebook.com/profile.php?id=61578690981785&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/liegdnm0el1c82wbsi8v8/Ti-ng-Trung-Cho-Ng-i-i-L-m.jpg?rlkey=djg3wipfxlaw3r46quyk5d63o&st=whdt79cv&raw=1'
+  },
   'Hán ngữ Hóng Yīn': {
     url: 'https://www.facebook.com/profile.php?id=61574291655914',
     thumbnail: 'https://www.dropbox.com/scl/fi/772m350j9fck0lx66p1rc/H-n-ng-H-ng-Y-n.png?rlkey=q2rr4i9mhyx36g7ntjqbnx8ur&st=u63336sj&raw=1'
+  },
+  'Tiếng Trung Toki': {
+    url: 'https://www.facebook.com/tiengtrungtoki/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ppnwa47o8zd69hegknebd/Ti-ng-Trung-Toki.jpg?rlkey=jj8nmlep81hxa5fosj3f0p5j6&st=s7ucwe7d&raw=1'
+  },
+  'Tiếng Trung Hán Tinh': {
+    url: 'https://www.facebook.com/profile.php?id=61580813669542&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/uke1j5w8gb3z5f0vcta1r/Ti-ng-Trung-H-n-Tinh.jpg?rlkey=ilvwwouu8ipi8nspqnsbdzo1e&st=idmss9sx&raw=1'
+  },
+  'Hsk tiếng trung': {
+    url: 'https://www.facebook.com/profile.php?id=61593050194921&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jn6z26aqgvt9gktby1nwn/Hsk-ti-ng-trung.jpg?rlkey=zzx3ltltoai7lzzusm6wnoasy&st=botlcdth&raw=1'
   },
   'HuaMei Chinese (Web)': {
     url: 'https://hoctrung.com/',
