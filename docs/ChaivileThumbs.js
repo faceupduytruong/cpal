@@ -20,6 +20,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/ghr6z9a8jq4v62ir7e9yo/Google-Translate.webp?rlkey=akonaabgl62h1tcovkfduh9ie&st=fd0zik9q&raw=1'
   },
+  'Tiểu Bảo': {
+    url: 'https://www.facebook.com/profile.php?id=61591222604133&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s66rlw7j7r34aojs7tdh4/Ti-u-B-o.png?rlkey=5wyh8gqvxmqbb6qog54rkrtjy&st=nj3s2s2w&raw=1'
+  },
   'Tiếng Trung Cùng Bé': {
     url: 'https://www.facebook.com/profile.php?id=61592723755158&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/0jcrwtzvmzoab7l91hnqj/Ti-ng-Trung-C-ng-B.jpg?rlkey=n4gi1dmq6uvlxjdsjcnmxdbug&st=eiaou97l&raw=1'
@@ -170,7 +174,7 @@ const folderLinks = {
   },
   'Tiếng Trung theo chủ đề': {
     url: 'https://www.facebook.com/profile.php?id=61576422743593&sk=photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xwb4slcy1mg2bzl53s3v6/Ti-ng-Trung-theo-ch.png?rlkey=81kufzyispoonchobdipiajco&st=e0zlx3wt&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/xwb4slcy1mg2bzl53s3v6/Ti-ng-Trung-theo-ch.png?rlkey=81kufzyispoonchobdipiajco&st=fpciubns&raw=1'
   },
   'Tiếng Trung - XinLaoshi': {
     url: 'https://www.facebook.com/profile.php?id=61590907081326&sk=reels_tab',
@@ -196,13 +200,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/hannguYuZhou/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ygcmbwp06yl1rlslbvtat/H-n-Ng-Yuzhou.png?rlkey=inq7pfk2d56rdywtsoglyk1zz&st=5z4vqc9n&raw=1'
   },
-  'Học tiếng Trung cùng Shanzhu': {
-    url: 'https://www.facebook.com/profile.php?id=61592413448744',
-    thumbnail: 'https://www.dropbox.com/scl/fi/vpd9uhwi16braox5v56lo/H-c-ti-ng-Trung-c-ng-Shanzhu.jpg?rlkey=ra0oi0b0pe0fyptwva326jigq&st=zv075jmc&raw=1'
-  },
   'Tiếng Trung SongSong-松松课': {
     url: 'https://www.facebook.com/profile.php?id=61593061277244',
     thumbnail: 'https://www.dropbox.com/scl/fi/oyfx30q9ha9skf5m9g0vc/Ti-ng-Trung-SongSong.png?rlkey=s8rica85vjc5jeiuijjozhgon&st=6jm4lv7c&raw=1'
+  },
+  'Hán ngữ Hóng Yīn': {
+    url: 'https://www.facebook.com/profile.php?id=61574291655914',
+    thumbnail: 'https://www.dropbox.com/scl/fi/772m350j9fck0lx66p1rc/H-n-ng-H-ng-Y-n.png?rlkey=q2rr4i9mhyx36g7ntjqbnx8ur&st=u63336sj&raw=1'
   },
   'HuaMei Chinese (Web)': {
     url: 'https://hoctrung.com/',
