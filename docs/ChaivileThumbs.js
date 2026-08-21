@@ -66,7 +66,7 @@ const folderLinks = {
   },
   'Tiếng Trung Long Vũ': {
     url: 'https://www.facebook.com/profile.php?id=61579962517312&sk=photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jn6z26aqgvt9gktby1nwn/Ti-ng-Trung-Long-V.jpg?rlkey=zzx3ltltoai7lzzusm6wnoasy&st=42zu91mt&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/d1cdrvlt1ndq49h978s96/Ti-ng-Trung-Long-V.png?rlkey=74fttctvfy8woe4h6934yg3ks&st=i0j5f7er&raw=1'
   },
   'Tiếng Trung Kim Oanh': {
     url: 'https://www.facebook.com/tiengtrungkimoanh/reels/',
