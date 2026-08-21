@@ -36,6 +36,18 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61574824210657',
     thumbnail: 'https://www.dropbox.com/scl/fi/8s13a4xd7t429heyv7vuv/ISC-Ti-ng-Trung-ng-D-ng.jpg?rlkey=tyqf199hnkfxg6mq077jngs2w&st=ciwhuz55&raw=1'
   },
+  'Nhung nói tiếng Trung': {
+    url: 'https://www.facebook.com/nhungnoitiengtrung/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4ys8aqwtmrbu8r4fypfa5/Nhung-n-i-ti-ng-Trung.jpg?rlkey=oi3645ifiynyflhm1aukkvmb7&st=7lnnfvuw&raw=1'
+  },
+  'Thảo nói tiếng zhong': {
+    url: 'https://www.facebook.com/Thaotq85/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/c484vssn2xornjas9d4bh/Th-o-n-i-ti-ng-zhong.png?rlkey=uwdua670vos183yx3pmknwbp6&st=y73ac6ao&raw=1'
+  },
+  'Zane Yang': {
+    url: 'https://www.facebook.com/profile.php?id=100082233734551&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3rhmut7v0b3pfg3oz03wz/Zane-Yang.jpg?rlkey=51agse73jurv6g8p47yyj06xj&st=zrqauedo&raw=1'
+  },
   'Rougai Chinese Education': {
     url: 'https://www.facebook.com/rougaichinese',
     thumbnail: 'https://www.dropbox.com/scl/fi/t3hm8mo846r0mbwr0lg8e/Rougai-Chinese-Education.jpg?rlkey=4f26m8wg8y8u1bvx1ert9avvb&st=labt29vb&raw=1'
