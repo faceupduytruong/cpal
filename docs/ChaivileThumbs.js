@@ -176,6 +176,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61592413448744',
     thumbnail: 'https://www.dropbox.com/scl/fi/vpd9uhwi16braox5v56lo/H-c-ti-ng-Trung-c-ng-Shanzhu.jpg?rlkey=ra0oi0b0pe0fyptwva326jigq&st=zv075jmc&raw=1'
   },
+  'Hán Ngữ Yuzhou': {
+    url: 'https://www.facebook.com/hannguYuZhou/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ygcmbwp06yl1rlslbvtat/H-n-Ng-Yuzhou.png?rlkey=inq7pfk2d56rdywtsoglyk1zz&st=5z4vqc9n&raw=1'
+  },
   'HuaMei Chinese (Web)': {
     url: 'https://hoctrung.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/synrju7gms9nic1ro1ow2/Hoctrung.com.webp?rlkey=apychhnvo3pu6r1629nvam0z5&st=2rgb6ai6&raw=1'
