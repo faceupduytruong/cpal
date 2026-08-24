@@ -194,6 +194,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/574496647195306/',
     thumbnail: 'https://www.dropbox.com/scl/fi/o32hx4r859f134u3tdpy4/C-ng-con-h-c-ti-u-h-c.gif?rlkey=9uw4rsp909c23ckrot0kx9p6y&st=l17lj598&raw=1'
   },
+ 'Bố Đạt - Đi cùng Mía': {
+    url: 'https://www.facebook.com/Conlamia10/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nkwaziqyhio1io4harx8z/B-t-i-c-ng-M-a.webp?rlkey=xrtzadiauxxncqq9io07a5de8&st=oplvq234&raw=1'
+  },
  'Rì Viu Sách Hay Cho Bé': {
     url: 'https://www.facebook.com/profile.php?id=61574636025868&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/nrhcgpwb3la4e7cop7jp4/R-Viu-S-ch-Hay-Cho-B.png?rlkey=kjadg24y9wbxmc9ysk40ntsgy&st=ywng6i0q&raw=1'
