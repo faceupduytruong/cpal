@@ -166,6 +166,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/conmeoleo/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/34hzn6qnktwghedj0uq80/Con-M-o-L-o.jpg?rlkey=el7mrqxu4ajqsopbeg9v71p4z&st=2wh0klta&raw=1'
   },
+ 'Bánh Mì Phô Mai': {
+    url: 'https://www.facebook.com/banhmiphomai050604',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ae0prc2tmq077u04v4cvi/B-nh-M-Ph-Mai.png?rlkey=w6utut6q3ny5tf4q2ch0surou&st=00oxkpqd&raw=1'
+  },
  'Ehomebooks': {
     url: 'https://www.facebook.com/ehomebooks/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/yv9ugaf3tare6er4s2swr/Ehomebooks.png?rlkey=g6ezei11150m1bzvqobtlu6ka&st=sbjt624f&raw=1'
@@ -245,6 +249,10 @@ const folderLinks = {
  'Học liệu mẹ Tiền - Phương Okuda': {
     url: 'https://www.facebook.com/PhuongOkuda/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/gjo4dolzvcrirlp2wimbk/H-c-li-u-m-Ti-n-Ph-ng-Okuda.gif?rlkey=w9w6jqw2znas1ea4p2h9vv5d3&st=eee7c8gz&raw=1'
+  },
+ 'Ba bà cháu nhà Bo': {
+    url: 'https://www.facebook.com/profile.php?id=61587013716220',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1x1yskuritiwypwqisckk/Ba-b-ch-u-nh-Bo.gif?rlkey=ovj6b9rpapdl7jz3sglb3rn19&st=f275i4wn&raw=1'
   },
   // thêm các mục khác nếu cần
 };
