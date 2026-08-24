@@ -46,6 +46,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/574496647195306/',
     thumbnail: 'https://www.dropbox.com/scl/fi/cvj6wldribxi36oa5slm1/C-ng-con-h-c-ti-u-h-c.jpg?rlkey=q6lrers5jhxyw9xmssse7sx6x&st=29om82i2&raw=1',
   },
+  'Bố Đạt - Đi cùng Mía': {
+    url: 'https://www.facebook.com/Conlamia10/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nkwaziqyhio1io4harx8z/B-t-i-c-ng-M-a.webp?rlkey=xrtzadiauxxncqq9io07a5de8&st=oplvq234&raw=1'
+  },
   'Wiki chăm con': {
     url: 'https://www.facebook.com/groups/1742372216254449/',
     thumbnail: 'https://www.dropbox.com/scl/fi/q2q3k3aj886aooza45fly/WIKI-CH-M-CON-by-Quynh-Anh-Pham.jpg?rlkey=c7asmtn5mnkzyl1bkukzvu5yx&st=nuk3q3wo&raw=1',
@@ -189,14 +193,6 @@ const folderLinks = {
  'TKBooks (Các Môn Học)': {
     url: 'https://www.facebook.com/TKBooks.vn/photos/',
     thumbnail: 'https://www.dropbox.com/scl/fi/2xfs6mszfzta4v277h2ci/TKBooks-C-c-M-n-H-c.jpg?rlkey=yf9cv58ink6uj46ht41puzrtm&st=9owsvd48&raw=1'
-  },
- 'Cùng con học tiểu học': {
-    url: 'https://www.facebook.com/groups/574496647195306/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/o32hx4r859f134u3tdpy4/C-ng-con-h-c-ti-u-h-c.gif?rlkey=9uw4rsp909c23ckrot0kx9p6y&st=l17lj598&raw=1'
-  },
- 'Bố Đạt - Đi cùng Mía': {
-    url: 'https://www.facebook.com/Conlamia10/reels/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/nkwaziqyhio1io4harx8z/B-t-i-c-ng-M-a.webp?rlkey=xrtzadiauxxncqq9io07a5de8&st=oplvq234&raw=1'
   },
  'Rì Viu Sách Hay Cho Bé': {
     url: 'https://www.facebook.com/profile.php?id=61574636025868&sk=photos',
