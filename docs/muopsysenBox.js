@@ -698,6 +698,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/hanhtinhoc83/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/3j8zvvqbmnnjxge3djhem/H-nh-Tin-h-c.avif?rlkey=e34v0m0aj87xnvn7qhb5dsitn&st=bn8pfoh1&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hạnh Tin học</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/Khanglv.official/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/f6zrnguoxsde7dxmz6a53/Khangg-Lv-khang-Tin-H-c.png?rlkey=rnmikvnqpxbhj4mdgof2bdrlh&st=jyj1836s&raw=1" alt="Ảnh 1">
 </div>
