@@ -642,6 +642,13 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100064574296545' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/a140195ru86e4wumj3cmp/Anh-K-S-VN.png?rlkey=0571oy6gi52brtqiynuem1ctb&st=tbqk8wp0&raw=1">
+</div>
+        <div class="caption">Anh Kỹ Sư VN</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/idemyfanpage' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/2okd4w7l6n42jl2c2249v/IDEMY-K-Thu-t-i-n-T-ng-H-a-PLC.webp?rlkey=af1t6v1t2x1od83n6lhooa8sh&st=1q87erov&raw=1">
 </div>
