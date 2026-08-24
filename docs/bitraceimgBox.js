@@ -273,6 +273,13 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.cadmind.io.vn/vi' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/346gu3g6km17dujr837rz/Cadmind.io.png?rlkey=gjfr2n2vcv46qfll5bn4x98wf&st=5kh4sb8q&raw=1">
+</div>
+        <div class="caption">Cadmind.io</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/phanmemVinaCAD' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/njles9whugiapy8t3hfcp/VinaCAD.jpg?rlkey=dwwogjelyef1vn15an26mbkrx&st=rumhaj35&raw=1">
 </div>
