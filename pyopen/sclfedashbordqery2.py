@@ -134,6 +134,7 @@ sample_playlists = {
         "https://soundcloud.com/d-ng-xit-xa-xay/sets/copy-of-don-moen-songs"
     ],
     "dalat": [
+        "https://soundcloud.com/nhanhlaxanh/sets/dl3",
         "https://soundcloud.com/nhanhlaxanh/sets/dl2",
         "https://soundcloud.com/nhanhlaxanh/sets/dl1"
     ],
