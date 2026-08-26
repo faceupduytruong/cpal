@@ -697,6 +697,16 @@ container.innerHTML = `
 </div>
         <div class="caption">BIM Hà Nội (Autodesk Civil 3D)</div>
       </div>
+
+    <!-- Hàng thứ 16 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Dự toán</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://tools.xaydung.ai/tools/cam-nang-tra-cuu-dinh-muc-tt38/run', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/aur78soq0zmgeuhn1fu48/Tools-X-y-D-ng.webp?rlkey=xh4qmx68tsrro6qv4xkl3m4v8&st=6ecya82m&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tools Xây Dựng</div>
+      </div>
           
 </div>
 
