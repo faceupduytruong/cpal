@@ -80,5 +80,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Elmzaich%E1%BB%8BNguy%E1%BB%87t',
     thumbnail: 'https://www.dropbox.com/scl/fi/bqsrrtgdesb4t4fpk8g30/elm-zai-ch-Nguy-t.webp?rlkey=juf4mik4f00lvjxog92sqro3o&st=topvsj7x&raw=1',
   },
+  'Tôi Yêu Hóa Học': {
+    url: 'https://www.facebook.com/hoctothoahoc/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8wzdmlrkmfoihepai1203/T-i-Y-u-H-a-H-c.gif?rlkey=f5lmv0p8nf0i7szt6lbnj64nq&st=hywfrbde&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
