@@ -28,6 +28,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/buqauxhpri0953ogvexs1/Google-Translate.jpeg?rlkey=i3mfo5s50l7cjsl33jgcudy21&st=92wvxb20&raw=1'
   },
+  'Yennie Ielts': {
+    url: 'https://www.facebook.com/Yennie47',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9625wftfrgd4y4ssok1qy/Yennie-Ielts.png?rlkey=iujpqijfdr515xf8s2t2q4m73&st=1qczrjq5&raw=1'
+  },
   'LY PHAM (Learnatlim)': {
     url: 'https://www.facebook.com/learnwithlypham/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/hw5ufll477cwpssw1y5vq/LY-PHAM-Learnatlim.png?rlkey=1w85i3yl2i8obwr6ksoch7cjq&st=vlnqdf6&raw=1'
@@ -203,6 +207,10 @@ const folderLinks = {
   'Vspeak Asia (App)': {
     url: 'https://vspeak.asia/shadowing/speaking',
     thumbnail: 'https://www.dropbox.com/scl/fi/l3y155ql6da44qb83jlub/Vspeak.jpg?rlkey=qijc41ns1jljquj8wp0pq2cks&st=57gz439h&raw=1'
+  },
+  'Readlang (App)': {
+    url: 'https://readlang.com/en/library',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zf3gls9n7pfgaegrt9lso/Readlang.webp?rlkey=b79ntrmyk5b4jiayju6ekiabk&st=aeo7qkv6&raw=1'
   },
   // thêm các mục khác nếu cần
 };
