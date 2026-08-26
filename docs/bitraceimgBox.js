@@ -697,6 +697,8 @@ container.innerHTML = `
 </div>
         <div class="caption">BIM Hà Nội (Autodesk Civil 3D)</div>
       </div>
+          
+</div>
 
     <!-- Hàng thứ 16 -->
     <div class="image-row glass-bg">
