@@ -84,5 +84,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/hoctothoahoc/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/8wzdmlrkmfoihepai1203/T-i-Y-u-H-a-H-c.gif?rlkey=f5lmv0p8nf0i7szt6lbnj64nq&st=hywfrbde&raw=1',
   },
+  'Hồ Minh Tùng': {
+    url: 'https://www.facebook.com/ho.minh.tung.988449',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nik6csoy3jj6j7mcfvuab/H-Minh-T-ng.png?rlkey=10rkk116ru6qvwnq815q8fezx&st=pwlbf71g&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
