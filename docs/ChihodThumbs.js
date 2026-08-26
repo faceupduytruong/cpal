@@ -170,6 +170,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/conmeoleo/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/34hzn6qnktwghedj0uq80/Con-M-o-L-o.jpg?rlkey=el7mrqxu4ajqsopbeg9v71p4z&st=2wh0klta&raw=1'
   },
+ 'Méo Cào & Còn Đan': {
+    url: 'https://www.facebook.com/profile.php?id=61593352114877',
+    thumbnail: 'https://www.dropbox.com/scl/fi/75el566t7jifczw10sgbe/M-o-C-o-C-n-an.png?rlkey=vgp3byo8ep8pd6cyj3pe2xwju&st=ldehyu05&raw=1'
+  },
  'Lão Lâm': {
     url: 'https://www.facebook.com/profile.php?id=61560981701482',
     thumbnail: 'https://www.dropbox.com/scl/fi/focxbvcfuf5s11xs8u8u0/L-o-L-m.png?rlkey=w3hu4azpcz20q59c12fdxq45l&st=wa7bb8p2&raw=1'
