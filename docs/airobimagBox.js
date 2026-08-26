@@ -1541,6 +1541,13 @@ container.innerHTML = `
         <div class="caption">Nhật Dương (Xoá mù AI)</div>
       </div>
 
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/vuuxuanhaoai', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/yq4w60t85br12t6jtm02d/V-u-Xu-n-H-o.webp?rlkey=lmi0py3jzabwodqpalio5lqri&st=s8fxwi9p&raw=1">
+</div>
+        <div class="caption">Vưu Xuân Hào</div>
+      </div>
+
 </div>
 
          <!-- Hàng thứ 36 -->
