@@ -47,7 +47,7 @@ h2 {
   margin-bottom: 2vh;
 }
 
-h3 {
+h3a {
   font-family: 'Quicksand', cursive;
   font-weight: bold;
   font-size: 1.1rem;
@@ -59,7 +59,19 @@ h3 {
   animation: greenPulse 17s ease-in-out infinite;
 }
 
-h4 {
+h3b {
+  font-family: 'Quicksand', cursive;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  animation: glowPulse 17s ease-in-out infinite;
+}
+
+h4a {
   font-family: 'Quicksand', cursive;
   font-weight: bold;
   font-size: 1.1rem;
@@ -69,6 +81,18 @@ h4 {
   margin-top: -10vh;
   margin-bottom: 2.5vh;
   animation: bluePulse 17s ease-in-out infinite;
+}
+
+h4b {
+  font-family: 'Quicksand', cursive;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
+  margin-top: -10vh;
+  margin-bottom: 2.5vh;
+  animation: pulseGlow 17s ease-in-out infinite;
 }
 
 #feed {
