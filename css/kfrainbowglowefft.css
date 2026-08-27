@@ -41,6 +41,14 @@
       }
 
 @keyframes glowPulse100 {
+  0% {
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 1;
+  }
+  50% {
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 1;
+  }
   100% {
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
     opacity: 1;
@@ -69,6 +77,14 @@
 }
 
 @keyframes greenPulse100 {
+  0% {
+    text-shadow: 0 0 5px #7CFC00, 0 0 10px #32CD32, 0 0 20px #228B22;
+    opacity: 1;
+  }
+  50% {
+    text-shadow: 0 0 5px #7CFC00, 0 0 10px #32CD32, 0 0 20px #228B22;
+    opacity: 1;
+  }
   100% {
     text-shadow: 0 0 5px #7CFC00, 0 0 10px #32CD32, 0 0 20px #228B22;
     opacity: 1;
@@ -91,6 +107,14 @@
 }
 
 @keyframes yellowPulse100 {
+  0% {
+    text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff33, 0 0 20px #ffcc00;
+    opacity: 1;
+  }
+  50% {
+    text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff33, 0 0 20px #ffcc00;
+    opacity: 1;
+  }
   100% {
     text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff33, 0 0 20px #ffcc00;
     opacity: 1;
@@ -113,6 +137,16 @@
 }
 
 @keyframes bluePulse100 {
+  0% {
+    color: #ffffff; /* Trắng hoàn toàn đậm */ 
+    text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;  /* Trắng hoàn toàn đậm */
+    opacity: 1;
+  }
+  50% {
+    color: #ffffff; /* Trắng hoàn toàn đậm */ 
+    text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;  /* Trắng hoàn toàn đậm */
+    opacity: 1;
+  }
   100% {
     color: #ffffff; /* Trắng hoàn toàn đậm */ 
     text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;  /* Trắng hoàn toàn đậm */
