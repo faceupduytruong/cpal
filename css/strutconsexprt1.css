@@ -56,7 +56,7 @@ h3a {
   text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
   margin-top: 2vh;
   margin-bottom: 2vh;
-  animation: greenPulse 7s ease-in-out infinite;
+  animation: greenPulse100 7s ease-in-out infinite;
 }
 
 h3b {
@@ -68,7 +68,7 @@ h3b {
   text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
   margin-top: 2vh;
   margin-bottom: 2vh;
-  animation: glowPulse 7s ease-in-out infinite;
+  animation: glowPulse100 7s ease-in-out infinite;
 }
 
 h4a {
@@ -80,7 +80,7 @@ h4a {
   text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
   margin-top: -10vh;
   margin-bottom: 2.5vh;
-  animation: bluePulse 7s ease-in-out infinite;
+  animation: bluePulse100 7s ease-in-out infinite;
 }
 
 h4b {
@@ -92,7 +92,7 @@ h4b {
   text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
   margin-top: -10vh;
   margin-bottom: 2.5vh;
-  animation: yellowPulse 7s ease-in-out infinite;
+  animation: yellowPulse100 7s ease-in-out infinite;
 }
 
 #feed {
