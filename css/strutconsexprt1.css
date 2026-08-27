@@ -92,7 +92,7 @@ h4b {
   text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
   margin-top: -10vh;
   margin-bottom: 2.5vh;
-  animation: redGlow 17s ease-in-out infinite;
+  animation: yellowPulse 17s ease-in-out infinite;
 }
 
 #feed {
