@@ -679,7 +679,7 @@ body.dark-mode .popup-content h3 {
 .glowing-text {
   font-weight: bold;
   font-size: 2.7rem;
-  animation: glowPulse 7s infinite;
+  animation: glowPulse100 7s infinite;
   color: white;
   text-shadow: 2px 2px 0 white, -2px -2px 0 white;
 }
