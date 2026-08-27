@@ -6,6 +6,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Triển khai kết cấu</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://thuvienketcau.com/category/ket-cau-be-tong-cot-thep/', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/zfearqa6juwpzn9ly54xe/Th-Vi-n-K-t-C-u.jpg?rlkey=gljx13t9ve8bmjjskubmss3r7&st=w3ftmf91&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Thư Viện Kết Cấu</div>
+      </div>
+    
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/DbimConstructionSoftware/reels/', 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/yc4tpmm5tzeaey39zbo40/DBim-Ph-n-m-m-h-tr-t-nh-to-n-tri-n-khai-K-t-C-u.png?rlkey=bxydub84rwreroomascep5t75&st=juqwtuhb&raw=1" alt="Ảnh 1">
 </div>
