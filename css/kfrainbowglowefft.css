@@ -40,6 +40,13 @@
         100% { background-position: 0% 50%; }
       }
 
+@keyframes glowPulse100 {
+  100% {
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    opacity: 1;
+  }
+}
+
 @keyframes glowPulse {
   0% {
     text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
@@ -61,6 +68,13 @@
   100% { box-shadow: 0 0 40px rgba(255, 0, 0, 0.8), 0 0 80px rgba(255, 0, 0, 0.5); }
 }
 
+@keyframes greenPulse100 {
+  100% {
+    text-shadow: 0 0 5px #7CFC00, 0 0 10px #32CD32, 0 0 20px #228B22;
+    opacity: 1;
+  }
+}
+
 @keyframes greenPulse {
   0% {
     text-shadow: 0 0 5px #7CFC00, 0 0 10px #32CD32, 0 0 20px #228B22;   /* Màu nhấp chớp của Music Station */
@@ -76,6 +90,13 @@
   }
 }
 
+@keyframes yellowPulse100 {
+  100% {
+    text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff33, 0 0 20px #ffcc00;
+    opacity: 1;
+  }
+}
+
 @keyframes yellowPulse {
   0% {
     text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff33, 0 0 20px #ffcc00; /* vàng rực */
@@ -87,6 +108,14 @@
   }
   100% {
     text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff33, 0 0 20px #ffcc00;
+    opacity: 1;
+  }
+}
+
+@keyframes bluePulse100 {
+  100% {
+    color: #ffffff; /* Trắng hoàn toàn đậm */ 
+    text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;  /* Trắng hoàn toàn đậm */
     opacity: 1;
   }
 }
