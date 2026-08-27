@@ -48,7 +48,7 @@ h2 {
   animation: redGlow 20s infinite;
 }
 
-h3 {
+h3a {
   font-family: 'Quicksand', cursive;
   font-weight: bold;
   font-size: 1.1rem;
@@ -57,10 +57,22 @@ h3 {
   text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
   margin-top: 2vh;
   margin-bottom: 2vh;
-  animation: greenPulse 17s ease-in-out infinite;
+  animation: greenPulse100 17s ease-in-out infinite;
 }
 
-h4 {
+h3b {
+  font-family: 'Quicksand', cursive;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  animation: glowPulse100 17s ease-in-out infinite;
+}
+
+h4a {
   font-family: 'Quicksand', cursive;
   font-weight: bold;
   font-size: 1.1rem;
@@ -69,7 +81,19 @@ h4 {
   text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
   margin-top: -10vh;
   margin-bottom: 2.5vh;
-  animation: bluePulse 17s ease-in-out infinite;
+  animation: bluePulse100 17s ease-in-out infinite;
+}
+
+h4b {
+  font-family: 'Quicksand', cursive;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
+  margin-top: -10vh;
+  margin-bottom: 2.5vh;
+  animation: yellowPulse100 17s ease-in-out infinite;
 }
 
 #feed {
@@ -657,7 +681,7 @@ body.dark-mode .popup-content h3 {
 .glowing-text {
   font-weight: bold;
   font-size: 2.7rem;
-  animation: glowPulse 7s infinite;
+  animation: glowPulse100 7s infinite;
   color: white;
   text-shadow: 2px 2px 0 white, -2px -2px 0 white;
 }
@@ -665,7 +689,7 @@ body.dark-mode .popup-content h3 {
 .yellow-text {
   font-weight: bold;
   font-size: 2.7rem;
-  animation: yellowPulse 7s infinite;
+  animation: yellowPulse100 7s infinite;
   color: white;
   text-shadow: 2px 2px 0 white, -2px -2px 0 white;
 }
