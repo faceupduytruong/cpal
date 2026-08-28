@@ -94,6 +94,14 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Vinastudy-Tr%C6%B0%E1%BB%9Dngh%E1%BB%8DcTo%C3%A1ntr%E1%BB%B1ctuy/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/s98niw9g4wosa3fcxm9fq/Vinastudy-Tr-ng-li-n-c-p.webp?rlkey=xpk6zg659g2mt6e2euc6ylxsr&st=9qvg6flp&raw=1',
   },
+  'Teacher2kkk - Học toán cùng GenZ': {
+    url: 'https://www.facebook.com/GenZvsMath',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7hwqi3qnninvphumn2fiy/Teacher2kkk-H-c-to-n-c-ng-GenZ.png?rlkey=jchq6wgg7rz89fw7uahoixrog&st=3h7mxg4x&raw=1',
+  },
+  'Cùng con chinh phục chuyên KHTN': {
+    url: 'https://www.facebook.com/profile.php?id=61590953829660',
+    thumbnail: 'https://www.dropbox.com/scl/fi/iy2f52vzi51o4vpv5ta8v/C-ng-con-chinh-ph-c-chuy-n-KHTN.jpg?rlkey=9fblog8jbbc2ouogy7ae8i5aq&st=8ze90b2c&raw=1',
+  },
   'Toán Thú Vị': {
     url: 'https://www.youtube.com/@To%C3%A1nTh%C3%BAV%E1%BB%8B/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vaspqxgpmu1tka0g2voed/To-n-Th-V.jpg?rlkey=acl3w97uwequ1jwgtjemyci3t&st=rd23nghz&raw=1',
