@@ -149,9 +149,9 @@ sample_playlists = {
         "https://soundcloud.com/buzzing-playlists/sets/buzzing-metal"
     ],
     "soul": [
-        "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts1",
+        "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts3",
         "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts2",
-        "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts3"
+        "https://soundcloud.com/nhanhlaxanh/sets/ncdnkrrts1"
     ],
     "dance": [
         "https://soundcloud.com/nhanhlaxanh/sets/msgldt1",
