@@ -50,4 +50,5 @@ const folderLinks = {
     url: 'https://www.youtube.com/@HocLichSuThoichuyendoiso/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/w5cdpbra6yvfnukx6ntk0/H-c-L-ch-S-Th-i-4.0.jpg?rlkey=p3ombatkpruxjj41etvlkr8uu&st=gkb8q8x5&raw=1',
   },
-  // thêm các mục khác nếu cần};
+  // thêm các mục khác nếu cần
+};
