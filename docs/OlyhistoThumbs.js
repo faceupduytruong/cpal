@@ -30,6 +30,14 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1',
   },
+  'Lớp sử Thầy Phương': {
+    url: 'https://www.youtube.com/@lopsuthayphuong/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/zwyfmcazdoz2e5xcl4zaz/L-p-s-Th-y-Ph-ng.jpg?rlkey=u3s8khe6d6pbp1a3u8nqivveo&st=qsn654zg&raw=1',
+  },
+  'Lịch sử cô Hương': {
+    url: 'https://www.youtube.com/@lichsucohuong9897/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wxiw7m4iec0som3t5kd2c/L-ch-s-c-H-ng.jpg?rlkey=gnluj0y9qhq2y8ik4ltphwg56&st=trpgj9ld&raw=1',
+  },
   'Cô Chi': {
     url: 'https://www.youtube.com/@TCT968/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/gb2a5jn9rww2de3312c4n/C-Chi.jpg?rlkey=6jtktoia89mhwzv1bezdhcfoo&st=30h5m5va&raw=1',
@@ -38,5 +46,8 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61583850062328&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/am4qlpg87pvus55x1afwm/S-ta-v-h-chuy-n-x-a-k-l-i.jpg?rlkey=zs4ajgnk7k96xtsyhz44f3etc&st=25kg1n2z&raw=1',
   },
-  // thêm các mục khác nếu cần
-};
+  'Học Lịch Sử Thời 4.0': {
+    url: 'https://www.youtube.com/@HocLichSuThoichuyendoiso/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/w5cdpbra6yvfnukx6ntk0/H-c-L-ch-S-Th-i-4.0.jpg?rlkey=p3ombatkpruxjj41etvlkr8uu&st=gkb8q8x5&raw=1',
+  },
+  // thêm các mục khác nếu cần};
