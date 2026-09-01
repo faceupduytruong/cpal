@@ -38,6 +38,14 @@ const folderLinks = {
     url: 'https://www.youtube.com/@xinchaotoilavanvo/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/q7a3wldzx0m6frsna4w3g/V-n-V.jpg?rlkey=73fh1zj42vdpd9rzxt2jfhrl3&st=xrel0i5h&raw=1'
   },
+  'Duy Trần': {
+    url: 'https://www.youtube.com/@duytranblogchuyenvan/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/022b8kqfinv74kycscqiy/Duy-Tr-n.gif?rlkey=gqgpsllwm1lualvxr6fv6xaik&st=y9vtethy&raw=1'
+  },
+  'Học Văn Cô Sương Mai': {
+    url: 'https://www.youtube.com/@suongmaiqanda/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8so75ff93plitxb5sqt9a/H-c-V-n-C-S-ng-Mai.gif?rlkey=avqlifmcov86dgf1fnen3epjm&st=nqmb0oic&raw=1'
+  },
   'Tủ truyện tranh đọc xuôi 199x': {
     url: 'https://www.facebook.com/truyentranhdocxuoi199x',
     thumbnail: 'https://www.dropbox.com/scl/fi/x2vrsguq32p07k9mvqnru/T-truy-n-tranh-c-xu-i-199x.gif?rlkey=ya0yye9qll2g37d3d245aksgo&st=boir6zy8&raw=1'
