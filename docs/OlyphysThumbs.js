@@ -52,6 +52,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@ThayTienToanLy/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/muxr29w4oesac1pkbr476/Th-y-Ti-n-To-n-L.jpg?rlkey=9epp6c592enqc1hnm0jdg1kru&st=jlofqy25&raw=1',
   },
+  'Thầy Hà Văn Luận': {
+    url: 'https://www.youtube.com/@Th%E1%BA%A7yH%C3%A0V%C4%83nLu%E1%BA%ADn/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ur20axsgg70ehc8roj2mn/Th-y-H-V-n-Lu-n.jpg?rlkey=ensyq112yopqtoa0wbiem0cdh&st=kzvyv336&raw=1',
+  },
   'Trunk Yee Phạm': {
     url: 'https://www.youtube.com/@TRUNKYEEPH%E1%BA%A0M/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/f133lgrlxqv03v69cz3fg/Trunk-Yee-Ph-m.jpg?rlkey=c320ri0sy0dkg49mholvyw7lu&st=9o4er6l7&raw=1',
