@@ -110,6 +110,16 @@ sample_playlists = {
         "https://soundcloud.com/nhanhlaxanh/sets/se2",
         "https://soundcloud.com/nhanhlaxanh/sets/se1"
     ],
+    "china": [
+        "https://soundcloud.com/nhanhlaxanh/sets/hmvc",
+        "https://soundcloud.com/nhanhlaxanh/sets/atc2",
+        "https://soundcloud.com/nhanhlaxanh/sets/atc1",
+        "https://soundcloud.com/nhanhlaxanh/sets/999r2",
+        "https://soundcloud.com/nhanhlaxanh/sets/999r1",
+        "https://soundcloud.com/nhanhlaxanh/sets/ntgnl2",
+        "https://soundcloud.com/nhanhlaxanh/sets/ntgnl1",
+        "https://soundcloud.com/nhanhlaxanh/sets/poc"
+    ],
     "world": [
         "https://soundcloud.com/nhanhlaxanh/sets/lit",
         "https://soundcloud.com/nhanhlaxanh/sets/lip",
