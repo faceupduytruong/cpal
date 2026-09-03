@@ -355,6 +355,7 @@ aliases = {
     "canada": ["canada", "nhạc canada", "Canada"],
     "denmark": ["denmark", "nhạc đan mạch", "Đan Mạch", "Đan mạch", "đan Mạch"],
     "africa": ["africa", "Africa", "nhạc châu phi", "nhạc Châu Phi", "Nhạc Châu Phi", "nhạc Châu phi", "nhạc châu Phi"],
+    "china": ["china", "China", "Trung Quốc", "trung quốc", "nhạc trung", "nhạc Trung", "nhạc Hoa", "Nhạc Hoa"],
     "world": ["world", "thế giới", "nhạc thế giới"],
     "buzzing": ["buzzing", "nhạc khám phá", "nhạc nóng", "hàng nóng"],
     "soul": ["soul", "giới trẻ", "genz", "câu hỏi", "tự vấn", "an ủi", "nhạc tâm hồn", "tâm hồn"],
