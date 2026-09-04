@@ -68,6 +68,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@letuantu1915/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/wge86lmy6gonxm2ovzeo2/Le-Tuan-Tu-1915-SAP2000.jpg?rlkey=2rqc4f0gosbwtqurjrmeux8ih&st=xv4rvfo3&raw=1',
   },
+  'Đào Đắc Lý': {
+    url: 'https://www.youtube.com/@AOACLY/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8a60h7t14374io5nmw24n/o-c-L.jpg?rlkey=rpvc743fc2cwcdnd5qf1p5jlw&st=fmnr7sui&raw=1',
+  },
   'Xây Dựng Hay (Nhà Phố)': {
     url: 'https://www.youtube.com/@kysuxuankhoi/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/nmvp7shbyeadw6kgedfvc/X-y-D-ng-Hay.jpg?rlkey=h5ygiuoy1gjp6xba7fz5s25va&st=9mmwsznr&raw=1',
