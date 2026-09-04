@@ -68,7 +68,11 @@ const folderLinks = {
     url: 'https://www.youtube.com/@letuantu1915/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/wge86lmy6gonxm2ovzeo2/Le-Tuan-Tu-1915-SAP2000.jpg?rlkey=2rqc4f0gosbwtqurjrmeux8ih&st=xv4rvfo3&raw=1',
   },
-  'Đào Đắc Lý': {
+  'Lê Tuấn Tú (SAP2000)': {
+    url: 'https://www.youtube.com/@letuantu1580/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mdktpp6fxyre3spy6pkbz/L-Tu-n-T-SAP2000.jpg?rlkey=qcoa2papiookf03yf42ic5jd3&st=abv38e18&raw=1',
+  },
+  'Đào Đắc Lý (SAP2000)': {
     url: 'https://www.youtube.com/@AOACLY/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/8a60h7t14374io5nmw24n/o-c-L.jpg?rlkey=rpvc743fc2cwcdnd5qf1p5jlw&st=fmnr7sui&raw=1',
   },
