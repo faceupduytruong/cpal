@@ -13,15 +13,15 @@ const customThumbnails = {
 
 // Danh sách thư mục và số lượng ảnh trong mỗi thư mục
 const folders = {
-  'Bất đẳng thức': ['Bất đẳng thức Bunhiacopxki.png', 'Chứng minh bất đẳng thức Young bằng Định lý giá trị trung bình Lagrange.png', 'Tìm giá trị nhỏ nhất của biểu thức dùng BĐT.png'],
-  'Chuỗi số': ['Chỉnh hợp chập k-n.png', 'Chứng minh chuỗi số lớn hơn một số nào đó.png', 'Chứng minh dãy là một cấp số nhân.png', 'Dãy đơn điệu giảm và đơn điệu tăng.png', 'Số nguyên tố, số nguyên và số tự nhiên.png', 'Tách phân số.png', 'Tính tổng biểu thức chứa lũy thừa.png', 'Tổng cấp số cộng và cấp số nhân.png', 'Xác định số hạng tổng quát.png'],
-  'Giải phương trình': ['Chứng minh phương trình có hai nghiệm phân biệt.png', 'Kiểm tra nghiệm thực của phương trình.png', 'Rút gọn biểu thức, Giải phương trình.png', 'Toán chuyển động siêu hay.png', 'Tìm nghiệm của biểu thức phức tạp.png', 'Tìm nhiều ẩn số chỉ với 1 phương trình.png', 'Đinh lý Vi-ét.png'],
-  'Giới hạn': ['Tính lim khi x tiến tới vô cực.png'],
-  'Hàm số': ['Biết đặc tính của hàm f(x) để tìm hàm f(x).png', 'Giải phương trình bằng vẽ hàm số đạo hàm.png', 'Tìm số thực để lim tồn tại hữu hạn.png', 'Đạo hàm của hàm hợp.png'],
-  'Lượng giác': ['Phương trình lượng giác sinX = sinY.png', 'Tính tích phân của một đa thức lượng giác.png'],
-  'Số nguyên': ['Chứng minh một số là số nguyên tố.png', 'Số nguyên tố cùng nhau.png', 'Tính bình phương và căn bậc hai nhanh không cần máy tính.png'],
-  'Vector': ['Tâm tỉ cự.png'],
-  'Xác suất': ['Tổ hợp chập k-n.png'],
+'Bất đẳng thức': ['Bất đẳng thức Bunhiacopxki.webp', 'Chứng minh bất đẳng thức Young bằng Định lý giá trị trung bình Lagrange.webp', 'Tìm giá trị nhỏ nhất của biểu thức dùng BĐT.webp'],
+'Chuỗi số': ['Chỉnh hợp chập k-n.png', 'Chứng minh chuỗi số lớn hơn một số nào đó.png', 'Chứng minh dãy là một cấp số nhân.webp', 'Dãy đơn điệu giảm và đơn điệu tăng.webp', 'Số nguyên tố, số nguyên và số tự nhiên.webp', 'Tách phân số.webp', 'Tính tổng biểu thức chứa lũy thừa.webp', 'Tổng cấp số cộng và cấp số nhân.png', 'Xác định số hạng tổng quát.png'],
+'Giải phương trình': ['Chứng minh phương trình có hai nghiệm phân biệt.webp', 'Giải hệ phương trình nhiều ẩn số.webp', 'Rút gọn biểu thức, Giải phương trình.webp', 'Toán chuyển động siêu hay.webp', 'Tìm nghiệm của biểu thức phức tạp.webp', 'Tìm nhiều ẩn số chỉ với 1 phương trình.webp', 'Đinh lý Vi-ét.webp'],
+'Giới hạn': ['Tính lim khi x tiến tới vô cực.png'],
+'Hàm số': ['Biết đặc tính của hàm f(x) để tìm hàm f(x).webp', 'Giải phương trình bằng vẽ hàm số đạo hàm.webp', 'Tìm số thực để lim tồn tại hữu hạn.webp', 'Đạo hàm của hàm hợp.webp'],
+'Lượng giác': ['Phương trình lượng giác sinX = sinY.webp', 'Tính tích phân của một đa thức lượng giác.webp'],
+'Số nguyên': ['Chứng minh một số là số nguyên tố.webp', 'Số nguyên tố cùng nhau.webp', 'Tính bình phương và căn bậc hai nhanh không cần máy tính.webp'],
+'Vector': ['Tâm tỉ cự.webp'],
+'Xác suất': ['Tổ hợp chập k-n.webp'],
    // thêm các mục khác nếu cần
 };
 
