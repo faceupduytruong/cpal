@@ -11,13 +11,13 @@ const customThumbnails = {
 
 // Danh sách thư mục và số lượng ảnh trong mỗi thư mục
 const folders = {
-  'Chọn lọc tự nhiên': ['Kích thước mỏ giảm của chim sẻ Geospiza Fortis.png'],
-  'Các loài động vật': ['Cảm ứng ở động vật.png'],
-  'Phân chia tế bào': ['Tái bản phân tử DNA của vi khuẩn.png'],
-  'Phối giống di truyền': ['Số loại giao tử gene.png', 'Tương tác gene của chuột nhảy Meriones Unguiculatus.png', 'Tần số allele qua các thế hệ của loài thực vật lưỡng bội.png'],
-  'Thí nghiệm sinh học': ['Tạo DNA tái tổ hợp có dấu phóng xạ.png'],
-  'Thực vật cây trồng': ['Quang hợp và năng suất cây trồng.png'],
-  'Tiến hóa loài': ['Thí nghiệm cóc độc và rắn không độc.png'],
+'Chọn lọc tự nhiên': ['Kích thước mỏ giảm của chim sẻ Geospiza Fortis.webp'],
+'Các loài động vật': ['Cảm ứng ở động vật.webp'],
+'Phân chia tế bào': ['Tái bản phân tử DNA của vi khuẩn.webp'],
+'Phối giống di truyền': ['Số loại giao tử gene.webp', 'Tương tác gene của chuột nhảy Meriones Unguiculatus.webp', 'Tần số allele qua các thế hệ của loài thực vật lưỡng bội.webp'],
+'Thí nghiệm sinh học': ['Tạo DNA tái tổ hợp có dấu phóng xạ.webp'],
+'Thực vật cây trồng': ['Cấu tạo của tế bào thực vật.webp', 'Quang hợp và năng suất cây trồng.webp'],
+'Tiến hóa loài': ['Thí nghiệm cóc độc và rắn không độc.webp'],
   // thêm các mục khác nếu cần
 };
 
