@@ -10,12 +10,12 @@ const customThumbnails = {
 
 // Danh sách thư mục và số lượng ảnh trong mỗi thư mục
 const folders = {
-  'Bê tông cốt thép': ['Tính cốt thép As cho dầm.png', 'Tính nhanh nội lực của dầm nhiều nhịp liên tục theo tiêu chuẩn Mỹ ACI 318.png', 'Vẽ biểu đồ bao mô ment của dầm nhiều nhịp liên tục.png'],
-  'Cơ học kết cấu': ['Nội lực hệ khung 3 khớp (1).png', 'Nội lực hệ khung 3 khớp (2).png'],
-  'Cơ học đất': ['Tính các đại lượng vật lý của một mẫu đất ngoài hiện trường.png', 'Tính lún của nền đất dưới đáy móng.png', 'Vẽ biểu đồ ứng suất nén của đất và móng.png', 'Đánh giá trạng thái lớp đất đó.png'],
-  'Cơ lý thuyết': ['Nội lực hệ khung 3 khớp (1).png', 'Tính toán mômen lực dựa vào phương trình cân bằng.png'],
-  'SAP2000': ['Vẽ biểu đồ nội lực dầm siêu tĩnh có khớp ở giữa bằng SAP2000.webp', 'Vẽ biểu đồ nội lực dầm siêu tĩnh có kể TLBT bằng SAP2000.webp', 'Vẽ biểu đồ nội lực dầm siêu tĩnh không kể TLBT bằng SAP2000.webp'],
-  'Sức bền vật liệu': ['Biểu đồ momen uốn có tiếp tuyến nằm ngang.png', 'Dầm có thể tích nhỏ nhất.png'],
+'Bê tông cốt thép': ['Tính cốt thép As cho dầm.webp', 'Tính nhanh nội lực của dầm nhiều nhịp liên tục theo tiêu chuẩn Mỹ ACI 318.webp', 'Vẽ biểu đồ bao mô ment của dầm nhiều nhịp liên tục.webp'],
+'Cơ học kết cấu': ['Nội lực hệ khung 3 khớp.webp'],
+'Cơ học đất': ['Tính các đại lượng vật lý của một mẫu đất ngoài hiện trường.webp', 'Tính lún của nền đất dưới đáy móng.webp', 'Vẽ biểu đồ ứng suất nén của đất và móng.webp', 'Đánh giá trạng thái lớp đất đó.webp'],
+'Cơ lý thuyết': ['Tính toán mômen lực dựa vào phương trình cân bằng.webp'],
+'SAP2000': ['Kiến thức tổng quát về kết cấu.webp', 'Mô hình 3D khung không gian bằng SAP2000.webp', 'Vẽ biểu đồ nội lực dầm siêu tĩnh có khớp ở giữa bằng SAP2000.webp', 'Vẽ biểu đồ nội lực dầm siêu tĩnh có kể TLBT bằng SAP2000.webp', 'Vẽ biểu đồ nội lực dầm siêu tĩnh không kể TLBT bằng SAP2000.webp'],
+'Sức bền vật liệu': ['Biểu đồ momen uốn có tiếp tuyến nằm ngang.webp', 'Dầm có thể tích nhỏ nhất.webp'],
   // thêm các mục khác nếu cần
 };
 
