@@ -56,6 +56,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@leophamofficial2512/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/nbzfqcoiomdd6lsz3suty/Leo-Ph-m-Official.jpg?rlkey=2ux5gb9ru78lf2hw7xyg1p79j&st=x251alb2&raw=1',
   },
+  'Kết cấu Blue (BTCT)': {
+    url: 'https://www.youtube.com/@K%E1%BA%BETC%E1%BA%A4UBLUE/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/sox383vs18bxhp5sg4vrf/K-t-c-u-Blue.webp?rlkey=5yilctylno991aqo1twz8vo7y&st=tw5fux34&raw=1',
+  },
   'Kết Cấu Thép - HCMUTE': {
     url: 'https://www.youtube.com/@HuynhThanhHuy-HCMUTE/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7qjrj1nu42fa5syaieb36/K-t-C-u-Th-p-HCMUTE.png?rlkey=z24hfg8cu5pufgxjxgqhmlg6s&st=9jrqss81&raw=1',
@@ -75,6 +79,14 @@ const folderLinks = {
   'Đào Đắc Lý (SAP2000)': {
     url: 'https://www.youtube.com/@AOACLY/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/8a60h7t14374io5nmw24n/o-c-L.jpg?rlkey=rpvc743fc2cwcdnd5qf1p5jlw&st=fmnr7sui&raw=1',
+  },
+  'Nhà và cuộc sống (SAP2000)': {
+    url: 'https://www.youtube.com/@nhavacuocsong7191/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mrnb5ql48yn7qf4ia5i31/Nh-v-cu-c-s-ng.png?rlkey=qajv608jz5r0nvlnb2av4qx5i&st=cfmaxn1c&raw=1',
+  },
+  'eRSVN (SAP2000)': {
+    url: 'https://www.youtube.com/@ersvnofficial/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ln8jil7ukjnaubzles4hy/eRSVN-SAP2000.webp?rlkey=jdzd0gjfs30ytx177qv45s1vp&st=fyuw464j&raw=1',
   },
   'Xây Dựng Hay (Nhà Phố)': {
     url: 'https://www.youtube.com/@kysuxuankhoi/videos',
