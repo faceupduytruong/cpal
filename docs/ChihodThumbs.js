@@ -22,6 +22,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/aquakidsvietnam',
     thumbnail: 'https://www.dropbox.com/scl/fi/8i6phy3w13q8ycbsxepv3/Aquakids.jpg?rlkey=ccwt4byd5ovixau7urxbq35j2&st=vyxtpios&raw=1',
   },
+  'Nourish - Làm cha mẹ': {
+    url: 'https://www.facebook.com/nourishparents',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0u1gn92rfiivkfy7im0zm/Nourish-L-m-cha-m.jpg?rlkey=hfboixq88doftx4xki82zyphf&st=l04eoh3t&raw=1',
+  },
   'Đi Cùng Con': {
     url: 'https://www.facebook.com/dicungcon.official',
     thumbnail: 'https://www.dropbox.com/scl/fi/kwsmchjvg4168vbx7mrx9/i-C-ng-Con.jpg?rlkey=9ofem2ljl3jlf7iyr1uiu141x&st=t2813j7h&raw=1',
@@ -37,6 +41,10 @@ const folderLinks = {
   'Drisla Vietnam': {
     url: 'https://www.facebook.com/DrislaVietnam',
     thumbnail: 'https://www.dropbox.com/scl/fi/sd8t2ssqnpsiy257mex4b/Drisla-Vietnam.jpg?rlkey=565msszwjerpq3n8gluidjcrl&st=duzmas6d&raw=1',
+  },
+  'Dinh dưỡng học đường': {
+    url: 'https://www.facebook.com/profile.php?id=61590448148362',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ttlba45bq2if03yq7udxq/Dinh-d-ng-h-c-ng.jpg?rlkey=nu8nq6b155k2nt2wmr6xuw5lz&st=segkxod7&raw=1',
   },
   'Mẹ Chọn Cho Con': {
     url: 'https://www.facebook.com/profile.php?id=61586032916334',
