@@ -254,6 +254,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61583464679809',
     thumbnail: 'https://www.dropbox.com/scl/fi/j5nkiy6o1sogpi19zt9xf/Kids-Story.png?rlkey=nhupswcggk5tz96qani55bp0m&st=29880fh9&raw=1'
   },
+ 'Mẹ & Bé Chính Hãng': {
+    url: 'https://www.facebook.com/MeBeChinhHang01',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wil45vryzvik4opvdemog/M-B-Ch-nh-H-ng.jpg?rlkey=j0qhey9dbi60pdw5c6k5l8mbn&st=d8ixumvy&raw=1'
+  },
  'DunoKids - Đồ chơi cho bé': {
     url: 'https://www.facebook.com/profile.php?id=61591636784094&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/znhi5r917gfgsvgxhqkil/DunoKids-ch-i-th-ng-minh-cho-b.jpg?rlkey=hnqiafbm7k7rq43kokh4t92o0&st=ofk2qhwo&raw=1'
