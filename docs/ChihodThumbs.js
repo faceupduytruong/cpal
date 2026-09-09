@@ -156,7 +156,7 @@ const folderLinks = {
   },
   'Đinh Tị - Sách thông minh': {
     url: 'https://www.facebook.com/Sachtuongtacthongminh/photos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/l2c0tzbzvq17zxwig5ahc/inh-T-Books-S-ch-t-ng-t-c-th-ng-minh.jpg?rlkey=k7qhbze63bok7h7dpwse7fond&st=orlulsri&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xklw7mqa00o9i2q1uwgyc/inh-T-S-ch-th-ng-minh.png?rlkey=8mubahnc9u8ecwk5yjqqfrfmh&st=movgra0a&raw=1',
   },
   'Bunny Kidbooks - Sách thiếu nhi': {
     url: 'https://www.facebook.com/bunnykidbooks/photos/',
