@@ -94,7 +94,7 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Vinastudy-Tr%C6%B0%E1%BB%9Dngh%E1%BB%8DcTo%C3%A1ntr%E1%BB%B1ctuy/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/s98niw9g4wosa3fcxm9fq/Vinastudy-Tr-ng-li-n-c-p.webp?rlkey=xpk6zg659g2mt6e2euc6ylxsr&st=9qvg6flp&raw=1',
   },
-  'Teacher2kkk - Học toán cùng GenZ': {
+  'Teacher2kkk - Học Toán cùng GenZ': {
     url: 'https://www.facebook.com/GenZvsMath',
     thumbnail: 'https://www.dropbox.com/scl/fi/7hwqi3qnninvphumn2fiy/Teacher2kkk-H-c-to-n-c-ng-GenZ.png?rlkey=jchq6wgg7rz89fw7uahoixrog&st=3h7mxg4x&raw=1',
   },
@@ -142,7 +142,7 @@ const folderLinks = {
     url: 'https://www.youtube.com/@binrimath/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/0y523oldbxarb1gx9z12x/BinRiMath.webp?rlkey=klchkeb49rjw7hvbrdzh8e0s6&st=qkiiyuo7&raw=1',
   },
-  'Học toán vui mà hiểu sâu': {
+  'Học Toán vui mà hiểu sâu': {
     url: 'https://www.youtube.com/@toanhocvuihieusau/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/2up02k3bavztjgxaqh2qo/H-c-to-n-vui-m-hi-u-s-u.jpg?rlkey=t3povt2ytm14mvy2v9orjwnon&st=jxeqdg28&raw=1',
   },
@@ -154,7 +154,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61579642148739',
     thumbnail: 'https://www.dropbox.com/scl/fi/f9aw5bp3sjuwbvy0ka3y5/Nu-i-con-thi-n-t-i.png?rlkey=rru2ndgtm7s7sdueow28ol8iv&st=oiecr8y9&raw=1',
   },
-  'Tài liệu môn toán': {
+  'Tài liệu môn Toán': {
     url: 'https://tailieumontoan.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0ddtzpt8x6vr5vhthhi0y/T-i-li-u-m-n-to-n.avif?rlkey=h7t58hkejai8yic3aqrbgv7qc&st=yi5c79q5&raw=1',
   },
