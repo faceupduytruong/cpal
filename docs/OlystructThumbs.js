@@ -88,6 +88,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@ersvnofficial/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/ln8jil7ukjnaubzles4hy/eRSVN-SAP2000.webp?rlkey=jdzd0gjfs30ytx177qv45s1vp&st=fyuw464j&raw=1',
   },
+  'Nguyễn Quốc Tới (NM - Plaxis)': {
+    url: 'https://www.youtube.com/@NGUY%E1%BB%84NQU%E1%BB%90CT%E1%BB%9AI/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/k43ou0ownztf3dsg398o6/Nguy-n-Qu-c-T-i-NM-Plaxis.png?rlkey=r16q471437ercu5q9cxcvqlyp&st=5iv1tm7r&raw=1',
+  },
   'Xây Dựng Hay (Nhà Phố)': {
     url: 'https://www.youtube.com/@kysuxuankhoi/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/nmvp7shbyeadw6kgedfvc/X-y-D-ng-Hay.jpg?rlkey=h5ygiuoy1gjp6xba7fz5s25va&st=9mmwsznr&raw=1',
