@@ -26,7 +26,7 @@ const folders = {
 };
 
 const folderLinks = {
-  'Sách Kể Chuyện': {
+  'Sách kể chuyện': {
     url: 'https://lighthearted-mediafire-ebook-d0d92e.netlify.app/Story/index.htm',
     thumbnail: 'https://www.dropbox.com/scl/fi/mzn88e97lpg5o4wgqw3cx/S-ch-K-Chuy-n.webp?rlkey=71udzkkrr0jw2plf77s72ebxg&st=zbnf1h9g&raw=1',
   },
@@ -34,7 +34,7 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1',
   },
-  'Olympic Toán Giải Tích': {
+  'Olympic Toán giải tích': {
     url: 'https://www.youtube.com/@toangiaitich/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/mqguudgg05g1m3mpkwcfw/Olympic-To-n-Gi-i-T-ch.jpg?rlkey=i4kmvo42276dwq2vjrukyu3kn&st=wwvqcvhz&raw=1',
   },
@@ -82,11 +82,11 @@ const folderLinks = {
     url: 'https://www.youtube.com/@iloveokmanhotboy85/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/me5mv1hh42y7adoly09za/MS.-T-L-A.webp?rlkey=39qi8d4i612zie91ygd7v5i2l&st=bnw9kwmr&raw=1',
   },
-  'Toán Học Mỗi Ngày': {
+  'Toán học mỗi ngày': {
     url: 'https://www.youtube.com/@toanhocmoingay/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/68tgjpakweqzhh2ookz4k/To-n-H-c-M-i-Ng-y.jpg?rlkey=2dj9ve75dmoj2k0i86lnipv8c&st=gkixq9jo&raw=1',
   },
-  'Epsilon với Toán Thường Thức': {
+  'Epsilon với Toán thường thức': {
     url: 'https://www.youtube.com/@akile/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/rqlqjh4wkoug1yfh8rg4q/Epsilon-v-i-To-n-Th-ng-Th-c.jpg?rlkey=efjj1ygqr7loc52vzzzavpnqt&st=tt9kddn7&raw=1',
   },
@@ -102,7 +102,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61590953829660',
     thumbnail: 'https://www.dropbox.com/scl/fi/iy2f52vzi51o4vpv5ta8v/C-ng-con-chinh-ph-c-chuy-n-KHTN.jpg?rlkey=9fblog8jbbc2ouogy7ae8i5aq&st=8ze90b2c&raw=1',
   },
-  'Toán Thú Vị': {
+  'Toán thú vị': {
     url: 'https://www.youtube.com/@To%C3%A1nTh%C3%BAV%E1%BB%8B/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vaspqxgpmu1tka0g2voed/To-n-Th-V.jpg?rlkey=acl3w97uwequ1jwgtjemyci3t&st=rd23nghz&raw=1',
   },
@@ -118,7 +118,7 @@ const folderLinks = {
     url: 'https://www.youtube.com/@hocvienamura/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/wfv666x3sdhvom2i4wgkl/H-c-vi-n-AMURA.jpg?rlkey=uhuo83nb32inptvmimwwyujfg&st=amchfya3&raw=1',
   },
-  'Thầy Giang - Học Toán Không Khó': {
+  'Thầy Giang - Học Toán không khó': {
     url: 'https://www.youtube.com/@thayGianghoctoankhongkho/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/lgy56nvd14umjp2xkdsfl/Th-y-Giang-H-c-To-n-Kh-ng-Kh.jpg?rlkey=st3k6mbsltjv9n0qccv5bzkor&st=wqplhkvy&raw=1',
   },
@@ -130,11 +130,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61576693687932&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/sifdxv1ht763x2nel7g4o/GlassBox-AI.gif?rlkey=rbilphq4w3r6y0f7am2lacs3b&st=mr9tl1dp&raw=1',
   },
-  'median': {
+  'Median': {
     url: 'https://www.youtube.com/@median-0/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/qv0a35xb9yz0ufvoajw6r/median.jpg?rlkey=6e7o5s9yg8tb3ugvk30uwgd1w&st=k08tinsy&raw=1',
   },
-  'Học thêm toán': {
+  'Học thêm Toán': {
     url: 'https://www.youtube.com/@stech7462/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/c63zb59djyjcg9jf87ged/H-c-th-m-to-n.webp?rlkey=nhbp2l4vizzd3xl2df2zq7j0t&st=b8g3o5lv&raw=1',
   },
@@ -146,7 +146,7 @@ const folderLinks = {
     url: 'https://www.youtube.com/@toanhocvuihieusau/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/2up02k3bavztjgxaqh2qo/H-c-to-n-vui-m-hi-u-s-u.jpg?rlkey=t3povt2ytm14mvy2v9orjwnon&st=jxeqdg28&raw=1',
   },
-  'Nuôi Dạy Con Thông Minh': {
+  'Nuôi dạy con thông minh': {
     url: 'https://www.youtube.com/@nuoidayconthongminh/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/48n5dz3f7j2s0dh4wknar/Nu-i-D-y-Con-Th-ng-Minh.webp?rlkey=atebjqqphr4mwdluldtnb1a57&st=m1bulln7&raw=1',
   },
@@ -158,11 +158,11 @@ const folderLinks = {
     url: 'https://tailieumontoan.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0ddtzpt8x6vr5vhthhi0y/T-i-li-u-m-n-to-n.avif?rlkey=h7t58hkejai8yic3aqrbgv7qc&st=yi5c79q5&raw=1',
   },
-  'Ươm Mầm Toán (Web)': {
+  'Ươm mầm Toán (Web)': {
     url: 'https://uommamtoan.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/m6cqg7ikdhxdn9kqytw4o/m-M-m-To-n.jpg?rlkey=ctjril30c34tv5bupm53spvg1&st=jn5zdgdp&raw=1',
   },   
-  'Ươm Mầm Toán (Facebook)': {
+  'Ươm mầm Toán (Facebook)': {
     url: 'https://www.facebook.com/uommamtoan',
     thumbnail: 'https://www.dropbox.com/scl/fi/ohi82mrd995uyup8p6maq/m-M-m-To-n.png?rlkey=xjylukj08kwtfqt1sk30xwu53&st=wiq0kszg&raw=1',
   },   
