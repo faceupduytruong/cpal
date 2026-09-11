@@ -154,6 +154,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61579642148739',
     thumbnail: 'https://www.dropbox.com/scl/fi/f9aw5bp3sjuwbvy0ka3y5/Nu-i-con-thi-n-t-i.png?rlkey=rru2ndgtm7s7sdueow28ol8iv&st=oiecr8y9&raw=1',
   },
+  'Tài liệu môn toán': {
+    url: 'https://tailieumontoan.com/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0ddtzpt8x6vr5vhthhi0y/T-i-li-u-m-n-to-n.avif?rlkey=h7t58hkejai8yic3aqrbgv7qc&st=yi5c79q5&raw=1',
+  },
   'Ươm Mầm Toán (Web)': {
     url: 'https://uommamtoan.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/m6cqg7ikdhxdn9kqytw4o/m-M-m-To-n.jpg?rlkey=ctjril30c34tv5bupm53spvg1&st=jn5zdgdp&raw=1',
