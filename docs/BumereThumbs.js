@@ -46,6 +46,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/anthony.wong91/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/dr2lwyltij4rlygz721e8/Duy-Hoang-Nguyen.gif?rlkey=3befwyhytbcr6ftr68hyt2cen&st=iva92weh&raw=1',
   },
+  'Đồn Như Lời': {
+    url: 'https://www.youtube.com/@donnhuloi1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/atw0sixudywfznhwax3r2/n-Nh-L-i.gif?rlkey=0i10k1ax92673mvst96u31f6m&st=968pnx3m&raw=1',
+  },
   'Tâm Lý Học Đám Đông': {
     url: 'https://www.facebook.com/tamlihocdamdong',
     thumbnail: 'https://www.dropbox.com/scl/fi/i1p1bk9w210ke1iyydo40/T-m-l-h-c-m-ng.jpg?rlkey=dwfa2ntgdi1c3z27jeog85wg8&st=g024u8u2&raw=1',
