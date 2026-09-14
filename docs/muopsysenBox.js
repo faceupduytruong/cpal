@@ -766,6 +766,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Excel</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/MsHuyenFinance' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/yh84t52flk7wc0yru19nr/Nguy-n-Th-Thu-Huy-n-Excel.png?rlkey=xbqpaxf7kz1tn7ywvgp5l1sje&st=t88i6fo7&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Nguyễn Thị Thu Huyền Excel</div>
+      </div>
+      
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/tothuhoanblog/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/0zo04yw1a5hn98f94af23/T-Thu-Ho-n.png?rlkey=3sihwar62b002t7wt91bo0mvr&st=uteo4pb8&raw=1" alt="Ảnh 1">
 </div>
