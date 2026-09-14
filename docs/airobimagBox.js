@@ -1555,6 +1555,20 @@ container.innerHTML = `
         <div class="caption">Vưu Xuân Hào</div>
       </div>
 
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/vuongnguyenbinh88', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/nl1lg0mmrxwxtilghxvi2/V-ng-Nguy-n-B-nh-Simple-but-Optimal.webp?rlkey=hgpbwr1tt27vxw5yws1wvj7ly&st=323y37px&raw=1">
+</div>
+        <div class="caption">Vương Nguyên Bình (Simple but Optimal)</div>
+      </div>
+
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/HoangChironCTO/reels/', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/91fw7bb6o7dkyszi5t1tq/Nguy-n-H-u-Ho-ng-Hoang-Chiron.webp?rlkey=m8pt8rce6sfwqdma2856v23ho&st=sask529t&raw=1">
+</div>
+        <div class="caption">Nguyễn Hữu Hoàng (Hoang Chiron)</div>
+      </div>
+
 </div>
 
          <!-- Hàng thứ 36 -->
