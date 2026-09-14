@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/AdaptedEnglishBooks/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7vlelwwj2m2sme9d8ecuu/Adapted-Books.png?rlkey=sp06euq68jdgctb9z60ds0b34&st=8p029ftg&raw=1'
   },
+  'BetterSpeak': {
+    url: 'https://www.facebook.com/profile.php?id=61578857345477&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s5avswgfnnvn7ac1546vj/BetterSpeak.jpg?rlkey=7ncveoi6zrz7e6ti7ml91oqhi&st=on3hmm9f&raw=1'
+  },
   'Alhaz Ahmed': {
     url: 'https://www.facebook.com/AlhazAhmed24',
     thumbnail: 'https://www.dropbox.com/scl/fi/0b8v16b8k6ljs1579ccmk/Alhaz-Ahmed.jpg?rlkey=hcwmfzxl4j01ijwyxcmi8d8ao&st=047b74er&raw=1'
