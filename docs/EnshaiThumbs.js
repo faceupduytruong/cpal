@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/vsdtfowuya104x8nojqnw/Google-Translate.gif?rlkey=l97fdx41s83ld0v8ul6383u8n&st=7rgce54l&raw=1'
   },
+  'Adapted Books': {
+    url: 'https://www.facebook.com/AdaptedEnglishBooks/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7vlelwwj2m2sme9d8ecuu/Adapted-Books.png?rlkey=sp06euq68jdgctb9z60ds0b34&st=8p029ftg&raw=1'
+  },
   'Alhaz Ahmed': {
     url: 'https://www.facebook.com/AlhazAhmed24',
     thumbnail: 'https://www.dropbox.com/scl/fi/0b8v16b8k6ljs1579ccmk/Alhaz-Ahmed.jpg?rlkey=hcwmfzxl4j01ijwyxcmi8d8ao&st=047b74er&raw=1'
