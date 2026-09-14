@@ -280,6 +280,12 @@ sample_playlists = {
         "https://soundcloud.com/nhanhlaxanh/sets/reflection",
         "https://soundcloud.com/nhanhlaxanh/sets/fullmoon"
     ],
+    "khóc": [
+        "https://soundcloud.com/nhanhlaxanh/sets/mtkotc4",
+        "https://soundcloud.com/nhanhlaxanh/sets/mtkotc3",
+        "https://soundcloud.com/nhanhlaxanh/sets/mtkotc2",
+        "https://soundcloud.com/nhanhlaxanh/sets/mtkotc1"
+    ],
     "karaoke": [
         "https://soundcloud.com/nhanhlaxanh/sets/karaoke"
     ],
@@ -378,6 +384,7 @@ aliases = {
     "hanoi": ["hanoi", "hà nội", "hn", "Hà Nội", "Hà nội", "hà Nội", "HÀ NỘI", "miền bắc", "miền Bắc", "Miền bắc", "Miền Bắc", "Phía Bắc", "Phía bắc", "phía Bắc", "PHÍA BẮC"],
     "dalat": ["dalat", "da lat", "đà lạt", "Đà Lạt", "đà Lạt"],
     "moon": ["moon", "Moon", "mặt trăng", "Mặt trăng", "mặt Trăng", "Mặt Trăng"],
+    "khóc": ["khóc", "cry", "sad", "khoc", "mệt", "met"],
     "karaoke": ["karaoke", "tự hát", "hát hay không bằng hay hát", "tự sướng"],
     "la": ["la", "chữ a", "playlist a", "A"],
     "stories": ["stories", "Stories", "soundcloud", "Soundcloud", "souncloud stories", "Souncloud stories", "Souncloud Stories", "playlist of soundcloud", "soundcloud playlist", "Soundcloud playlist", "Soundcloud Playlist"],
