@@ -733,10 +733,43 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/onlyoffice.starter.vn/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/hi7votdmevlqtrv5m6akb/OnlyOffice-Starter-VN.png?rlkey=jbvqu77nus3fu9ld27ubtqold&st=1l7fsygf&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">OnlyOffice Starter VN</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/9slide.edu/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/cmslfhvwrr37vmhnyhms7/9Slide-Kh-a-h-c-thi-t-k-Powerpoint-d-nh-cho-Thuy-t-tr-nh-v-Truy-n-th-ng.png?rlkey=fswnerjqypeiq2upbk9hi3uly&st=19nbyzun&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">9Slide - Khóa học thiết kế Powerpoint dành cho Thuyết trình và Truyền thông</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.damtaicap.net/search/label/Microsoft%20Project' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/7eibootqhb0snxhsvehtk/m-T-i-Cap-Microsoft-Project.jpg?rlkey=ffll5mnvg01bcqog8a52jcfdt&st=ksml921g&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Đàm Tài Cap (Microsoft Project)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/UnicaBookstore/photos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/cwir1858l2sy4mxilt8h5/UnicaBookstore-Shortcut-Office.jpg?rlkey=jcoaxlf218ujhj9vdchhaj7h5&st=xw3cx6xf&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">UnicaBookstore (Shortcut)</div>
+      </div>
+          
+</div>
+
+     <!-- Hàng thứ 10 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Excel</h2>
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/tothuhoanblog/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/0zo04yw1a5hn98f94af23/T-Thu-Ho-n.png?rlkey=3sihwar62b002t7wt91bo0mvr&st=uteo4pb8&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Tô Thu Hoàn</div>
+        <div class="caption">Tô Thu Hoàn Excel</div>
       </div>
 
       <div class="image-box">
@@ -778,7 +811,7 @@ container.innerHTML = `
        <div onclick="openRightHalfPopup('https://www.facebook.com/viet.nguyenvan.988/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/hutx9hy86jyco7obwp0lz/Viet-Nguyen-Van.png?rlkey=s08yqt9tadqizux5rb580he0u&st=qz401dvs&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Nguyễn Văn Việt</div>
+        <div class="caption">Nguyễn Văn Việt Excel</div>
       </div>
 
       <div class="image-box">
@@ -787,31 +820,10 @@ container.innerHTML = `
 </div>
         <div class="caption">Đàm Tài Cap (Excel)</div>
       </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/9slide.edu/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/cmslfhvwrr37vmhnyhms7/9Slide-Kh-a-h-c-thi-t-k-Powerpoint-d-nh-cho-Thuy-t-tr-nh-v-Truy-n-th-ng.png?rlkey=fswnerjqypeiq2upbk9hi3uly&st=19nbyzun&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">9Slide - Khóa học thiết kế Powerpoint dành cho Thuyết trình và Truyền thông</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.damtaicap.net/search/label/Microsoft%20Project' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/7eibootqhb0snxhsvehtk/m-T-i-Cap-Microsoft-Project.jpg?rlkey=ffll5mnvg01bcqog8a52jcfdt&st=ksml921g&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Đàm Tài Cap (Microsoft Project)</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/UnicaBookstore/photos/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/cwir1858l2sy4mxilt8h5/UnicaBookstore-Shortcut-Office.jpg?rlkey=jcoaxlf218ujhj9vdchhaj7h5&st=xw3cx6xf&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">UnicaBookstore (Shortcut)</div>
-      </div>
-          
+      
 </div>
 
-     <!-- Hàng thứ 10 -->
+     <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Google Office</h2>
       <div class="image-box">
