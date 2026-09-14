@@ -30,6 +30,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/dicungcon.official',
     thumbnail: 'https://www.dropbox.com/scl/fi/kwsmchjvg4168vbx7mrx9/i-C-ng-Con.jpg?rlkey=9ofem2ljl3jlf7iyr1uiu141x&st=t2813j7h&raw=1',
   },
+  'Tâm Tình Của Cha Mẹ': {
+    url: 'https://www.facebook.com/profile.php?id=61593747398941',
+    thumbnail: 'https://www.dropbox.com/scl/fi/apjtyucmyu2x9rf90txpr/T-m-T-nh-C-a-Cha-M.jpg?rlkey=3z6bkkssek1jyhb06dkkutr5a&st=apobukfv&raw=1',
+  },
   'Kidsup': {
     url: 'https://www.kidsup.net/blog/ba-me-nuoi-day-con/',
     thumbnail: 'https://www.dropbox.com/scl/fi/wb6dg5qo4ud5cmo6sm56u/Kidsup.jpeg?rlkey=xqor04ecikgcees1g2hp653yf&st=6wj00a35&raw=1',
