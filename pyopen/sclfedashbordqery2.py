@@ -226,6 +226,7 @@ sample_playlists = {
         "https://soundcloud.com/nhanhlaxanh/sets/bc1"
     ],
     "inspiration": [
+        "https://soundcloud.com/nhanhlaxanh/sets/chtam",
         "https://soundcloud.com/nhanhlaxanh/sets/dcctn",
         "https://soundcloud.com/nhanhlaxanh/sets/nkm",
         "https://soundcloud.com/nhanhlaxanh/sets/sbh",
