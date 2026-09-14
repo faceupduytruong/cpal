@@ -222,6 +222,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61592459041718',
     thumbnail: 'https://www.dropbox.com/scl/fi/wf33t41vgvdviq8999ffu/Rin-Bi-t-Tu-t.jpg?rlkey=jrnf9tbr2p64g5ynzy023fov8&st=cksa00lx&raw=1',
   },
+  'LỐP phó học tập': {
+    url: 'https://www.facebook.com/profile.php?id=61592320954755',
+    thumbnail: 'https://www.dropbox.com/scl/fi/n554dvlesh1ul72p3gly2/L-P-ph-h-c-t-p.jpg?rlkey=1jb123vczdc63xstk8xev3886&st=l7en47xy&raw=1',
+  },
   'Khám Phá Thế Giới 410': {
     url: 'https://www.youtube.com/@khamphathegioi410/shorts/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uywrn9x520t8pq86bt944/Kh-m-ph-th-gi-i-410.jpg?rlkey=6nc70yru54q71g03rt5fezyp1&st=2i62rn6z&raw=1',
