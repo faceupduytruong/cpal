@@ -172,7 +172,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61559953618926&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/xyeneuzo525dyzh30zguj/Nhung-h-c-ti-ng-Trung.webp?rlkey=7me5dis4eckkj5uw1s5tnozar&st=0ujncdic&raw=1'
   },
-  'Mỗi Ngày Vài Câu Tiếng Trung': {
+  'Mỗi ngày vài câu tiếng Trung': {
     url: 'https://www.facebook.com/nh.hu1990/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/gxuyuwcfzzuiissirj33h/M-i-Ng-y-V-i-C-u-Ti-ng-Trung.jpg?rlkey=tpwavewf9npp28alrec0ny8gf&st=7s6y55bx&raw=1'
   },
@@ -228,7 +228,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61580813669542&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/uke1j5w8gb3z5f0vcta1r/Ti-ng-Trung-H-n-Tinh.jpg?rlkey=ilvwwouu8ipi8nspqnsbdzo1e&st=idmss9sx&raw=1'
   },
-  'Hsk tiếng trung': {
+  'Hsk tiếng Trung': {
     url: 'https://www.facebook.com/profile.php?id=61593050194921&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/jn6z26aqgvt9gktby1nwn/Hsk-ti-ng-trung.jpg?rlkey=zzx3ltltoai7lzzusm6wnoasy&st=botlcdth&raw=1'
   },
