@@ -114,11 +114,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/tuanshock121/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5n7c6r73j24pk8sd8pxq8/Thomas-Lee.jpg?rlkey=2jp11g1vw81yfmxbuk66wafr4&st=hb1txtao&raw=1',
   },
-  'Khoa Nguyễn (Láu)': {
+  'Khoa Nguyễn (Công chức)': {
     url: 'https://www.facebook.com/KhoaNguyenLau/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/gm633d8iyfmpnv3iw7hch/Khoa-Nguy-n-L-u.jpg?rlkey=s45a8gf2axplzj8tjnxvo3lpr&st=bo4ygpnq&raw=1',
   },
-  'Trà Anh Phi': {
+  'Trà Anh Phi (Khám phá RG)': {
     url: 'https://www.facebook.com/Traanhphi',
     thumbnail: 'https://www.dropbox.com/scl/fi/x6rfeohzyfqhm0j03pgp9/Tr-Anh-Phi.webp?rlkey=e31cdragy4fe5z4hk7vei9kjc&st=w9thu929&raw=1',
   },
@@ -126,11 +126,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/hai.trong.169/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/38y4q35egqj6lamjjjqw4/Nguy-n-Tr-ng-H-i.jpg?rlkey=ou0adghuz5t07ngv0m5p3ueio&st=nabhbre1&raw=1',
   },
-  'Thoại Nhân Official': {
+  'Thoại Nhân Official (Bolero)': {
     url: 'https://www.facebook.com/thoainhanofficial/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/39j63qxuvj4kfplnng7eo/Tho-i-Nh-n-Official.jpg?rlkey=zbv7bpxsajlgcqu0ljva7n2r9&st=zlnv6qzy&raw=1',
   },
-  'Thầy Dương 9x': {
+  'Thầy Dương 9x (Bolero English)': {
     url: 'https://www.facebook.com/thayduong9x/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0bncrueubln1bvxg2osg6/Th-y-D-ng-9x.png?rlkey=3u6tt1d5ob2vo5hbr7az9h0zc&st=y3u9unv0&raw=1',
   },
