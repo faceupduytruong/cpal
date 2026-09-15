@@ -94,5 +94,25 @@ const folderLinks = {
     url: 'https://www.facebook.com/swan.black.370/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xbp4s0qne2a9usdjskz1v/Thanh-t-Skyland-Dolls.jpg?rlkey=b644cvyrvbo0m4ad2k3hpzk6u&st=be80n080&raw=1',
   },
+  'Duy Trương': {
+    url: 'https://www.facebook.com/hi.thanhduy/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0l38hvo6xd60kb4qa1gjc/Duy-Tr-ng.jpg?rlkey=567zdckes23t9fqq3obyd8fjz&st=hjwivc7e&raw=1',
+  },
+  'Nguyễn Thành Đông (KS về hưu)': {
+    url: 'https://www.facebook.com/tran.dong.5059601',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dk41kk28dgorxddatmfw2/Nguy-n-Th-nh-ng-KSXD-v-h-u.jpg?rlkey=bmjy8c1u6c9i87st4t4n6205w&st=za6t8aul&raw=1',
+  },
+  'Thomas Lee (Gymer trẻ)': {
+    url: 'https://www.facebook.com/tuanshock121/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5n7c6r73j24pk8sd8pxq8/Thomas-Lee.jpg?rlkey=2jp11g1vw81yfmxbuk66wafr4&st=hb1txtao&raw=1',
+  },
+  'Khoa Nguyễn (Công chức)': {
+    url: 'https://www.facebook.com/KhoaNguyenLau/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/gm633d8iyfmpnv3iw7hch/Khoa-Nguy-n-L-u.jpg?rlkey=s45a8gf2axplzj8tjnxvo3lpr&st=bo4ygpnq&raw=1',
+  },
+  'Trà Anh Phi (Khám phá RG)': {
+    url: 'https://www.facebook.com/Traanhphi',
+    thumbnail: 'https://www.dropbox.com/scl/fi/x6rfeohzyfqhm0j03pgp9/Tr-Anh-Phi.webp?rlkey=e31cdragy4fe5z4hk7vei9kjc&st=w9thu929&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
