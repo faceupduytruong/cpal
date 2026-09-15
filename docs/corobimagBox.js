@@ -431,10 +431,10 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61584600707805&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/rp7l5i9sziinkpzkdjptd/Kho-Gia-D-ng-Online.png?rlkey=ykmsk8e7giczius1zovx27p4t&st=y7j4tt9i&raw=1" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/c.storeeee/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/cm538j9f93sl9ir4kis5s/C-Store.png?rlkey=lmaesmm9fhro50ebb073wtype&st=k8y9yfwn&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Kho Gia Dụng Online</div>
+        <div class="caption">C-Store</div>
       </div>
 
       <div class="image-box">
@@ -452,13 +452,6 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61555826375309&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/upc1hnl6gqwjhh5j99rts/T-ng-kho-Gia-d-ng-VN.png?rlkey=dgp0z7eo3tfv39c0zhzku5hth&st=tq87ihhy&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Tổng kho Gia dụng VN</div>
-      </div>
-
-      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/renhucholuon/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/h4a002r7jts4443ee9bak/R-Nh-Cho.png?rlkey=vafu8dh9p58vrp9bg0w4dn3ag&st=jikcccu2&raw=1" alt="Ảnh 1">
 </div>
@@ -473,26 +466,24 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61579475257540&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/jizm4xm7un0f9dpamznwl/M-Ph-m-Gia-D-ng-M-V-B.png?rlkey=kjy480443hdnx5lwyujtzsje8&st=rmriyr8k&raw=1" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/thanhriviu.shp/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/hdzgwysz42hmy7nizoty5/Th-nh-r-viuuu.webp?rlkey=7ba7crhw8rrit86ee46uqjnbx&st=q4na8ucp&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Mỹ Phẩm - Gia Dụng - Mẹ Và Bé</div>
+        <div class="caption">Thánh rì viuuu</div>
       </div>
 
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/c.storeeee/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/cm538j9f93sl9ir4kis5s/C-Store.png?rlkey=lmaesmm9fhro50ebb073wtype&st=k8y9yfwn&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">C-Store</div>
-      </div>
 
+     <!-- Hàng thứ 10 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Essentials for daily life</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61582495706290&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/osk6wmcf2ya4943qn0gq6/Anh-Giai-Tri-Th-c.png?rlkey=1mawls6yh23r02aixpe4cvrr3&st=olxuesn0&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Anh Giai Tri Thức</div>
       </div>
-
+    
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/review.daihoi' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/w8xtw704z7o7yb2ijc9kh/i-H-i-Reviewjpg?rlkey=z1g3yqiuwjuqtqioqqhjmaygf&st=32wob89g&raw=1" alt="Ảnh 1">
@@ -501,10 +492,24 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/thanhriviu.shp/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/hdzgwysz42hmy7nizoty5/Th-nh-r-viuuu.webp?rlkey=7ba7crhw8rrit86ee46uqjnbx&st=q4na8ucp&raw=1" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61579475257540&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/jizm4xm7un0f9dpamznwl/M-Ph-m-Gia-D-ng-M-V-B.png?rlkey=kjy480443hdnx5lwyujtzsje8&st=rmriyr8k&raw=1" alt="Ảnh 1">
 </div>
-        <div class="caption">Thánh rì viuuu</div>
+        <div class="caption">Mỹ Phẩm - Gia Dụng - Mẹ Và Bé</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61555826375309&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/upc1hnl6gqwjhh5j99rts/T-ng-kho-Gia-d-ng-VN.png?rlkey=dgp0z7eo3tfv39c0zhzku5hth&st=tq87ihhy&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tổng kho Gia dụng VN</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61584600707805&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/rp7l5i9sziinkpzkdjptd/Kho-Gia-D-ng-Online.png?rlkey=ykmsk8e7giczius1zovx27p4t&st=y7j4tt9i&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Kho Gia Dụng Online</div>
       </div>
 
 </div>
