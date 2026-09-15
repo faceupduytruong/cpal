@@ -368,6 +368,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/xaigixin' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/7dhjwn5b7t35e7432s48o/X-i-G-X-n.webp?rlkey=7ztg57gsch5z9d4r4iiiop9ns&st=mnm6pfvp&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Xài Gì Xịn</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/dergo.vietnam/photos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/w1cj6ujbcdn2hey62i62m/DERGO-Kh-ng-gian-S-ng-Kho.png?rlkey=qyl2ktpgfoqe0aajhz1d75ycn&st=lfm9h4y6&raw=1" alt="Ảnh 1">
 </div>
