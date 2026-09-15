@@ -106,7 +106,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/hi.thanhduy/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0l38hvo6xd60kb4qa1gjc/Duy-Tr-ng.jpg?rlkey=567zdckes23t9fqq3obyd8fjz&st=hjwivc7e&raw=1',
   },
-  'Thomas Lee': {
+  'Nguyễn Thành Đông (KSXD về hưu)': {
+    url: 'https://www.facebook.com/tran.dong.5059601',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dk41kk28dgorxddatmfw2/Nguy-n-Th-nh-ng-KSXD-v-h-u.jpg?rlkey=bmjy8c1u6c9i87st4t4n6205w&st=za6t8aul&raw=1',
+  },
+  'Thomas Lee (Gymer trẻ)': {
     url: 'https://www.facebook.com/tuanshock121/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/5n7c6r73j24pk8sd8pxq8/Thomas-Lee.jpg?rlkey=2jp11g1vw81yfmxbuk66wafr4&st=hb1txtao&raw=1',
   },
