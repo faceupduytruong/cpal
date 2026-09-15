@@ -36,6 +36,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/hoctiengtrung2d',
     thumbnail: 'https://www.dropbox.com/scl/fi/57eada9huu79feasl6lzo/H-c-Ti-ng-Trung-C-ng-Nh-B-2D.png?rlkey=ezychj3zykqja956dl5u02gt1&st=bs2kq1w9&raw=1'
   },
+  'Tiếng Trung Cấp Tốc': {
+    url: 'https://www.facebook.com/profile.php?id=61591229341822&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/agbteeha5c6giuk1wnqkr/Ti-ng-Trung-C-p-T-c.jpg?rlkey=b2flmp95j2wc8mfnoiozh3mql&st=0aiqifb5&raw=1'
+  },
   'ISC - Tiếng Trung Ứng Dụng': {
     url: 'https://www.facebook.com/profile.php?id=61574824210657',
     thumbnail: 'https://www.dropbox.com/scl/fi/8s13a4xd7t429heyv7vuv/ISC-Ti-ng-Trung-ng-D-ng.jpg?rlkey=tyqf199hnkfxg6mq077jngs2w&st=ciwhuz55&raw=1'
