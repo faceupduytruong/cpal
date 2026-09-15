@@ -40,6 +40,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61591229341822&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/agbteeha5c6giuk1wnqkr/Ti-ng-Trung-C-p-T-c.jpg?rlkey=b2flmp95j2wc8mfnoiozh3mql&st=0aiqifb5&raw=1'
   },
+  'Tiếng Trung Ánh Dương': {
+    url: 'https://www.facebook.com/tiengtrunganhduong',
+    thumbnail: 'https://www.dropbox.com/scl/fi/fkbumtqk0h0f6u471ojyh/Ti-ng-Trung-nh-D-ng.jpg?rlkey=rv06r0k3ls36kwmbxdfo5h7e3&st=49p92ydv&raw=1'
+  },
   'ISC - Tiếng Trung Ứng Dụng': {
     url: 'https://www.facebook.com/profile.php?id=61574824210657',
     thumbnail: 'https://www.dropbox.com/scl/fi/8s13a4xd7t429heyv7vuv/ISC-Ti-ng-Trung-ng-D-ng.jpg?rlkey=tyqf199hnkfxg6mq077jngs2w&st=ciwhuz55&raw=1'
