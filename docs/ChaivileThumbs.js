@@ -232,6 +232,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61593050194921&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/jn6z26aqgvt9gktby1nwn/Hsk-ti-ng-trung.jpg?rlkey=zzx3ltltoai7lzzusm6wnoasy&st=botlcdth&raw=1'
   },
+  'Tiếng Trung Hà Thanh': {
+    url: 'https://www.facebook.com/hoctiengtrungmoingay68/reels/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/2py7xoz1e6z6sgprv769o/Ti-ng-Trung-H-Thanh.png?rlkey=dp7pj8radutbflg8yyfmxzdfb&st=sx1o27oy&raw=1'
+  },
   'HuaMei Chinese (Web)': {
     url: 'https://hoctrung.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/synrju7gms9nic1ro1ow2/Hoctrung.com.webp?rlkey=apychhnvo3pu6r1629nvam0z5&st=2rgb6ai6&raw=1'
