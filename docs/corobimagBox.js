@@ -389,13 +389,6 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/conmangnhen' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/3m26bvkrn2nycozz6nxn6/M-ng-Nh-n.jpg?rlkey=qz7vyft4lwn7y1dgex9di22sm&st=xb53jozu&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Mạng Nhện</div>
-      </div>
-
-      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61555607258581&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/udmen7s205zjn0pwm234j/Ti-m-Cute-X-u.png?rlkey=plp6agu8u1noj3sqd8hones3r&st=79cw3h0f&raw=1" alt="Ảnh 1">
 </div>
@@ -414,13 +407,6 @@ container.innerHTML = `
        <img src="https://www.dropbox.com/scl/fi/jvgult0093jw8de8h5hvf/Tech-Decor.png?rlkey=fzcldq6d38n6o2c7b7mx1bu5q&st=ghekwhgi&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Tech Decor</div>
-      </div>
-
-      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://www.facebook.com/gocdammeforever/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/sgv28q9dj36yxhwa5hoyr/G-c-am-m.png?rlkey=a93g8lvktfdbi3pt8mkd3hf4w&st=leel8td0&raw=1" alt="Ảnh 1">
-</div>
-        <div class="caption">Góc đam mê</div>
       </div>
 
       <div class="image-box">
@@ -477,6 +463,20 @@ container.innerHTML = `
      <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Essentials for daily life</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/conmangnhen' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/3m26bvkrn2nycozz6nxn6/M-ng-Nh-n.jpg?rlkey=qz7vyft4lwn7y1dgex9di22sm&st=xb53jozu&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Mạng Nhện</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/gocdammeforever/reels/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/sgv28q9dj36yxhwa5hoyr/G-c-am-m.png?rlkey=a93g8lvktfdbi3pt8mkd3hf4w&st=leel8td0&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Góc đam mê</div>
+      </div>
+    
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61582495706290&sk=reels_tab' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/osk6wmcf2ya4943qn0gq6/Anh-Giai-Tri-Th-c.png?rlkey=1mawls6yh23r02aixpe4cvrr3&st=olxuesn0&raw=1" alt="Ảnh 1">
