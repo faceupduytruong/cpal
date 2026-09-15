@@ -78,7 +78,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/onelifetolive69/',
     thumbnail: 'https://www.dropbox.com/scl/fi/qjl3xjcdaonbzkpt933wa/DonDon-Lee.png?rlkey=s88qddakxttieecdt8rnhme9v&st=f72ru45e&raw=1',
   },
-  'Dũng Phan': {
+  'Dũng Phan (Viết sách bóng đá)': {
     url: 'https://www.facebook.com/dung.phan.77/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/ad7353cbexl2tupfwwj43/D-ng-Phan.webp?rlkey=5lee9a1krasfj160tp581mp3p&st=2bf2i69o&raw=1',
   },
@@ -122,7 +122,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/Traanhphi',
     thumbnail: 'https://www.dropbox.com/scl/fi/x6rfeohzyfqhm0j03pgp9/Tr-Anh-Phi.webp?rlkey=e31cdragy4fe5z4hk7vei9kjc&st=w9thu929&raw=1',
   },
-  'Nguyễn Trọng Hải': {
+  'Nguyễn Trọng Hải (Bolero)': {
     url: 'https://www.facebook.com/hai.trong.169/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/38y4q35egqj6lamjjjqw4/Nguy-n-Tr-ng-H-i.jpg?rlkey=ou0adghuz5t07ngv0m5p3ueio&st=nabhbre1&raw=1',
   },
