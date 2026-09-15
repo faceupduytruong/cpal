@@ -106,7 +106,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/hi.thanhduy/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0l38hvo6xd60kb4qa1gjc/Duy-Tr-ng.jpg?rlkey=567zdckes23t9fqq3obyd8fjz&st=hjwivc7e&raw=1',
   },
-  'Nguyễn Thành Đông (KSXD về hưu)': {
+  'Nguyễn Thành Đông (KS về hưu)': {
     url: 'https://www.facebook.com/tran.dong.5059601',
     thumbnail: 'https://www.dropbox.com/scl/fi/dk41kk28dgorxddatmfw2/Nguy-n-Th-nh-ng-KSXD-v-h-u.jpg?rlkey=bmjy8c1u6c9i87st4t4n6205w&st=za6t8aul&raw=1',
   },
