@@ -66,7 +66,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61580057953318&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/dmgge9n5jmwg6wc24z1we/T-In4.jpg?rlkey=ydvcb10p4ko21bp3e8w43rfij&st=9w8g68f8&raw=1',
   },
-  'BIZbooks - Sách dành cho doanh nhân': {
+  'BIZbooks - Sách cho doanh nhân': {
     url: 'https://www.facebook.com/sachbizbooks/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/dolgwkiqf0h79xq2012ep/BIZbooks-S-ch-d-nh-cho-doanh-nh-n.png?rlkey=rfe9qegq64hnuzppldyt8npa8&st=mli7kgpe&raw=1',
   },
