@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61593747398941',
     thumbnail: 'https://www.dropbox.com/scl/fi/apjtyucmyu2x9rf90txpr/T-m-T-nh-C-a-Cha-M.jpg?rlkey=3z6bkkssek1jyhb06dkkutr5a&st=apobukfv&raw=1',
   },
+  'Giữa Muôn Lời': {
+    url: 'https://www.facebook.com/profile.php?id=61590689675120&sk=reels_tab',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tw5vx9kk9oewxmbz0desi/Gi-a-Mu-n-L-i.jpg?rlkey=nwvhy6nmkutfmyc48fiwzxrr8&st=vsbkfuia&raw=1',
+  },
   'Kidsup': {
     url: 'https://www.kidsup.net/blog/ba-me-nuoi-day-con/',
     thumbnail: 'https://www.dropbox.com/scl/fi/wb6dg5qo4ud5cmo6sm56u/Kidsup.jpeg?rlkey=xqor04ecikgcees1g2hp653yf&st=6wj00a35&raw=1',
