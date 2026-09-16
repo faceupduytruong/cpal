@@ -161,14 +161,14 @@ container.innerHTML = `
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/12/xep-gach/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2019/12/28/xep-gach-200.jpg" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://i.gamevui.vn/web/2026/08/xep-gach/?gid=1341&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDI2LzA4L3hlcC1nYWNoIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL3hlcC1nYWNoL2dhbWUiLCJnaWQiOiIxMzQxIiwicmF0ZWRhZ2VzIjoiMCIsImV4cCI6MTc4OTU4NzQ2NCwiaWF0IjoxNzg5NTUxNDY0fQ.PDEEzhLvCsZGRk5xgi-eQUBzFGzDbHeVvylqXR0ubMo', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2026/07/27/xep-gach-512.png" alt="Ảnh 1">
 </div>
         <div class="caption">Xếp gạch</div>
       </div>
 
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2018/05/xep-gach-3d/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <div onclick="openRightHalfPopup('https://i.gamevui.vn/web/2018/05/xep-gach-3d/?gid=17821&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE4LzA1L3hlcC1nYWNoLTNkIiwicmV0dXJudXJsIjoiaHR0cHM6Ly9nYW1ldnVpLnZuL3hlcC1nYWNoLTNkL2dhbWUiLCJnaWQiOiIxNzgyMSIsInJhdGVkYWdlcyI6IjAiLCJleHAiOjE3ODk1ODc2NDQsImlhdCI6MTc4OTU1MTY0NH0.JJxTfe4fJFCxx4vD9D62WLXvVEX5trg2EmlZVEAe7MY', 'SmartApp Popup', window.innerWidth*2+45, 745)">
        <img src="https://st.gamevui.vn/images/image/2018/05/09/xep-gach-3d-200.jpg" alt="Ảnh 1">
 </div>
         <div class="caption">Xếp gạch 3D</div>
