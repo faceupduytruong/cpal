@@ -22,5 +22,21 @@ const folderLinks = {
     url: 'https://www.facebook.com/myhappytown',
     thumbnail: 'https://www.dropbox.com/scl/fi/csit81dpuu4yfmyxhohfv/Happy-Town.png?rlkey=whemuinjunx1hd8tnu3q311mg&st=4x6axchm&raw=1',
   },
+  'Trạm game 1 (MSN)': {
+    url: 'https://www.msn.com/en-us/play?cgfrom=cg_dsb_seeMore&cgdsbut=a&ocid=winpsearchboxexpcta2&cvid=29f698d2763f47bcaedbe41fe3eac233&nclid=C454E3BDEBC302605749250B25E31342&ts=1774102755469&nclidts=1774102755&tsms=469&PC=WSBDSB',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4w2xxfqr20e1t6mu2i69c/Tr-m-Game-1-MSN.png?rlkey=vkxdu1wca3ljpvxirm0put79u&st=ocjmo65o&raw=1',
+  },
+  'Trạm game 2 (Y8 Games)': {
+    url: 'https://www.y8.com/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qsveqacu4m198midpc3kd/Tr-m-Game-2-Y8-Games.webp?rlkey=509ohvqszj8h57i5o431ssouy&st=q1ocavi2&raw=1',
+  },
+  'Trạm game 3 (Gameflare)': {
+    url: 'https://www.gameflare.com/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xdbvsf43lbmld7km43tqh/Tr-m-Game-3-360-Games.webp?rlkey=qzs0vijn164zl58ueeaiwcj8b&st=09yqb1ds&raw=1',
+  },
+  'Trạm game 4 (Game vui)': {
+    url: 'https://gamevui.vn/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/enl69sscfuizkg8xpynyf/Tr-m-Game-4-360-Games.png?rlkey=seqnl4ajx2noji0c8qkccsd0s&st=z3xdu9h1&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
