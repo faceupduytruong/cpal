@@ -178,7 +178,7 @@ container.innerHTML = `
     <h2 class="row-title">Cơ học xây dựng</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.youtube.com/@MechanicalEngineeringCorner/playlists', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/vu12zcfflgqlcodrbffqr/Mechanical-Engineering-Corner.png?rlkey=814eib59ugkyquoxhsy0z43wx&st=601li8d4&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/fanwkxc7h7zgxe4gc3vvz/Mechanical-Engineering-Corner-Ph-n-m-m.webp?rlkey=9n9oajk1yw14lrn5mmylhz2le&st=x2be3h78&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">Mechanical Engineering Corner (Phần mềm)</div>
       </div>
@@ -450,6 +450,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Kiến trúc sư Ơi</div>
       </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/vu.l.quang' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/msihav5r8aozvt4bx516m/Vu-Linh-Quang.jpg?rlkey=1qylih36wlp69341necichekh&st=srgjzwsm&raw=1">
+</div>
+        <div class="caption">Vu Linh Quang</div>
+      </div>
       
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/815479533482926/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -667,6 +674,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/2okd4w7l6n42jl2c2249v/IDEMY-K-Thu-t-i-n-T-ng-H-a-PLC.webp?rlkey=af1t6v1t2x1od83n6lhooa8sh&st=1q87erov&raw=1">
 </div>
         <div class="caption">IDEMY (Kỹ Thuật Điện - Tự Động Hóa - PLC)</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/groups/1079263538751249/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/3g4tp11qb1ixi5pvnesqp/Kinh-Nghi-m-L-m-X-y-D-ng.jpg?rlkey=1zwp8h8zhd74b2y3kxj0afxbv&st=l0pva79i&raw=1">
+</div>
+        <div class="caption">Kinh Nghiệm Làm Xây Dựng</div>
       </div>
          
 </div>
