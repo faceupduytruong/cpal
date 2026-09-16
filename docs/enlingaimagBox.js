@@ -140,12 +140,24 @@ container.innerHTML = `
 
         <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
+    <h2 class="row-title">Build A Farm</h2>
+     <div class="image-box">
+       <div onclick="openRightHalfPopup('https://myhappy.town/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://www.dropbox.com/scl/fi/dfz8o9y54h71hqpek7xml/My-happy-town.jpg?rlkey=gxwhkoqzvpbw43khunhez02qk&st=qh10vumy&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">My happy town</div>
+      </div>
+
+</div>
+
+        <!-- Hàng thứ 4 -->
+    <div class="image-row glass-bg">
     <h2 class="row-title">Puzzle Game</h2>
      <div class="image-box">
-       <div onclick="openRightHalfPopup('https://e.gamevui.vn/web/2019/05/xep-ngoc/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
-       <img src="https://st.gamevui.vn/images/image/2019/05/16/xep-ngoc-200.jpg" alt="Ảnh 1">
+       <div onclick="openRightHalfPopup('https://i.gamevui.vn/web/2019/09/xep-ngoc-2/?gid=20267&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOiIxMDc0MDA3IiwidXNlcm5hbWUiOiIwOTc4ODE2ODYzIiwiZ2FtZXVybCI6Imh0dHBzOi8vZS5nYW1ldnVpLnZuL3dlYi8yMDE5LzA5L3hlcC1uZ29jLTIiLCJyZXR1cm51cmwiOiJodHRwczovL2dhbWV2dWkudm4veGVwLW5nb2MtMi9nYW1lIiwiZ2lkIjoiMjAyNjciLCJyYXRlZGFnZXMiOiIwIiwiZXhwIjoxNzg5NTc5ODE3LCJpYXQiOjE3ODk1NDM4MTd9.S1jMkwHEDuDhM3XKAc_QVBw00STMINDQrfdJbM_9K6Q', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+       <img src="https://st.gamevui.vn/images/image/2026/08/14/xep-ngoc-2-512-size-136x136-znd.png" alt="Ảnh 1">
 </div>
-        <div class="caption">Xếp ngọc</div>
+        <div class="caption">Xếp ngọc 2</div>
       </div>
 
      <div class="image-box">
@@ -276,7 +288,7 @@ container.innerHTML = `
 
  </div>
 
-        <!-- Hàng thứ 4 -->
+        <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Deep Sea Survival</h2>
      <div class="image-box">
@@ -330,7 +342,7 @@ container.innerHTML = `
       
  </div>
 
-        <!-- Hàng thứ 5 -->
+        <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Plants & Zoombie</h2>
       <div class="image-box">
@@ -370,7 +382,7 @@ container.innerHTML = `
      
  </div>
 
-       <!-- Hàng thứ 6 -->
+       <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Arcade Racer</h2>
       <div class="image-box">
@@ -438,7 +450,7 @@ container.innerHTML = `
       
  </div>
 
-       <!-- Hàng thứ 7 -->
+       <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Playing Shooters</h2>
       <div class="image-box">
@@ -534,7 +546,7 @@ container.innerHTML = `
 
  </div>
 
-       <!-- Hàng thứ 8 -->
+       <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Stickman Revival</h2>
 
@@ -575,7 +587,7 @@ container.innerHTML = `
 
 </div>
  
-      <!-- Hàng thứ 9 -->
+      <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Battle Game</h2>
       <div class="image-box">
@@ -650,7 +662,7 @@ container.innerHTML = `
       
  </div>
 
-       <!-- Hàng thứ 10 -->
+       <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Role-playing Games</h2>
       <div class="image-box">
@@ -683,7 +695,7 @@ container.innerHTML = `
       
  </div>
 
-      <!-- Hàng thứ 11 -->
+      <!-- Hàng thứ 12 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Intellectual Games</h2>
       <div class="image-box">
@@ -786,7 +798,7 @@ container.innerHTML = `
       
  </div>
 
-      <!-- Hàng thứ 12 -->
+      <!-- Hàng thứ 13 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Word Connection</h2>
       <div class="image-box">
@@ -805,7 +817,7 @@ container.innerHTML = `
       
  </div>
  
-      <!-- Hàng thứ 13 -->
+      <!-- Hàng thứ 14 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Two-player Game</h2>
       <div class="image-box">
@@ -817,7 +829,7 @@ container.innerHTML = `
       
  </div>
 
-    <!-- Hàng thứ 14 -->
+    <!-- Hàng thứ 15 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Gaming Station</h2>
       <div class="image-box">
