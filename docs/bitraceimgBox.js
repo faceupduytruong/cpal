@@ -711,6 +711,13 @@ container.innerHTML = `
 </div>
         <div class="caption">BIM Hà Nội (Autodesk Civil 3D)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/hung.tran.1397', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/e72ue1h0dajxr19f891ww/Hung-Tran-Tr-c-a-c-ng-tr-nh.webp?rlkey=o5aiuo1qer5zfxb270o0qgwi9&st=cbpr2dcm&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Hung Tran (Trắc địa công trình)</div>
+      </div>
           
 </div>
 
