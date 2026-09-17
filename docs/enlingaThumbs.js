@@ -24,11 +24,11 @@ const folderLinks = {
   },
   'Piggy Town - Nuôi Heo (Facebook)': {
     url: 'https://www.facebook.com/piggytown.funtap',
-    thumbnail: 'https://www.dropbox.com/scl/fi/dmyd3zmho8ydi4townawz/Piggy-Town-Nu-i-Heo-Facebook.jpg?rlkey=jmep1dwjysmng0ea3abmbhh1o&st=3fq3iaiz&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/bimrozn2yu47fhjaux2n4/Piggy-Town-Nu-i-Heo-Facebook.jpg?rlkey=x5zdw9do17upfuoc6iol3mlpw&st=b51acqcs&raw=1',
   },
   'Piggy Town - Nuôi Heo (Forum)': {
     url: 'https://www.facebook.com/groups/piggytown.funtap',
-    thumbnail: 'https://www.dropbox.com/scl/fi/w2kuz5qc5xhf0quxr6mm2/Piggy-Town-Nu-i-Heo-Forum.jpg?rlkey=z07apumjq9rpc1avngc9wnpsc&st=p551joch&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s289jok5rfu6yojrnqtjs/Piggy-Town-Nu-i-Heo-Forum.jpg?rlkey=nq45pp9fsso2sj6dy205h76xk&st=d181nfxj&raw=1',
   },
   'Trạm game 1 (MSN)': {
     url: 'https://www.msn.com/en-us/play?cgfrom=cg_dsb_seeMore&cgdsbut=a&ocid=winpsearchboxexpcta2&cvid=29f698d2763f47bcaedbe41fe3eac233&nclid=C454E3BDEBC302605749250B25E31342&ts=1774102755469&nclidts=1774102755&tsms=469&PC=WSBDSB',
