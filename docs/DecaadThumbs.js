@@ -37,6 +37,18 @@ const folderLinks = {
     url: 'https://www.youtube.com/@popskids/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/k5vwt19rtxzipnf577ufi/POPS-Kids.webp?rlkey=876s6wubtglp6gsfqyl52usmi&st=ov8rzgf3&raw=1'
   },
+ 'Anime Hoài Cổ': {
+    url: 'https://www.youtube.com/@Animehoaico/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yy97x5l6k9ef97czpg40f/Anime-Ho-i-C.gif?rlkey=vxzb8mwxhw64dpzppmnzye9wt&st=5d5nnwbo&raw=1'
+  },
+ 'Mèo Gầy Review': {
+    url: 'https://www.youtube.com/@meogayreview/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ep9jn75gzs9zj1g4ncneg/M-o-G-y-Review.gif?rlkey=yuvrfg90eobl5s3vtsvl9rf1h&st=4uqn5jwh&raw=1'
+  },
+ 'Tiên Misaki Studio': {
+    url: 'https://www.youtube.com/@studiotienmisaki/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/g7rtaowygsdrx0ko6r4aj/Ti-n-Misaki-Studio.gif?rlkey=wiw3wvluirqnmmurffz9zwrct&st=1wiubl83&raw=1'
+  },
  'Anime Rewind': {
     url: 'https://www.youtube.com/@AnimeRewind.Official/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/6f6gxe4foro1r2gl6y4ki/Anime-Rewind.jpg?rlkey=y0idj0wo19h1icghjzoizjkfr&st=12jbktrj&raw=1'
@@ -132,6 +144,14 @@ const folderLinks = {
  'Poke Life': {
     url: 'https://www.youtube.com/@PokeLifeNews',
     thumbnail: 'https://www.dropbox.com/scl/fi/jyyq7mz4a3rjukq4fuw6l/Poke-Life.jpg?rlkey=ib62ah854air0utvq5xqo8832&st=1gy2lgiu&raw=1'
+  },
+ 'Gấu Xàm Anime': {
+    url: 'https://www.youtube.com/@gauxamreview/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vdma43qj5b4aj3cs5vt1x/G-u-X-m-Anime.gif?rlkey=n7jegedrla670mz41csgxfb4z&st=nq2mt6qq&raw=1'
+  },
+ 'Zap Review': {
+    url: 'https://www.youtube.com/@zapreview/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qmk38r9q2onbi1vtrnasp/Zap-Review.gif?rlkey=w571bq45vib9lmilo8nn05tui&st=1wudpifa&raw=1'
   },
  'Hồi ức truyện tranh 199x': {
     url: 'https://www.facebook.com/truyentranhtuoith0/photos/',
