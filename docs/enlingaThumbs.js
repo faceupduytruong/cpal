@@ -22,6 +22,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/myhappytown',
     thumbnail: 'https://www.dropbox.com/scl/fi/csit81dpuu4yfmyxhohfv/Happy-Town.png?rlkey=whemuinjunx1hd8tnu3q311mg&st=4x6axchm&raw=1',
   },
+  'Piggy Town - Nuôi Heo (Facebook)': {
+    url: 'https://www.facebook.com/piggytown.funtap',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dmyd3zmho8ydi4townawz/Piggy-Town-Nu-i-Heo-Facebook.jpg?rlkey=jmep1dwjysmng0ea3abmbhh1o&st=3fq3iaiz&raw=1',
+  },
+  'Piggy Town - Nuôi Heo (Forum)': {
+    url: 'https://www.facebook.com/groups/piggytown.funtap',
+    thumbnail: 'https://www.dropbox.com/scl/fi/w2kuz5qc5xhf0quxr6mm2/Piggy-Town-Nu-i-Heo-Forum.jpg?rlkey=z07apumjq9rpc1avngc9wnpsc&st=p551joch&raw=1',
+  },
   'Trạm game 1 (MSN)': {
     url: 'https://www.msn.com/en-us/play?cgfrom=cg_dsb_seeMore&cgdsbut=a&ocid=winpsearchboxexpcta2&cvid=29f698d2763f47bcaedbe41fe3eac233&nclid=C454E3BDEBC302605749250B25E31342&ts=1774102755469&nclidts=1774102755&tsms=469&PC=WSBDSB',
     thumbnail: 'https://www.dropbox.com/scl/fi/4w2xxfqr20e1t6mu2i69c/Tr-m-Game-1-MSN.png?rlkey=vkxdu1wca3ljpvxirm0put79u&st=ocjmo65o&raw=1',
