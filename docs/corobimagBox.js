@@ -121,6 +121,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Programmer</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@hocgiaithuatcunghpn_official/playlists' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/2ugp3dukw4bvkwse2ch3q/H-c-Gi-i-Thu-t-C-ng-HPN.png?rlkey=u2ndsynlkfioie9lrxx0k5l54&st=notvcx16&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Học Giải Thuật Cùng HPN</div>
+      </div>
+    
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.youtube.com/@toiicodedaoblog/videos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/gxl9nzy8t9h3x94hbp536/Ph-m-Huy-Ho-ng.png?rlkey=dx0sd277zonee3xzkjokrdh4j&st=mp6bpxsu&raw=1" alt="Ảnh 1">
 </div>
