@@ -101,25 +101,25 @@ const folderLinks = {
     url: 'https://www.youtube.com/@wibuclub1812/shorts',
     thumbnail: 'https://www.dropbox.com/scl/fi/fpryf402q8w0fyc4n394y/WIBU-Club.jpg?rlkey=v5k2vb8lkbafblrem7fid83f2&st=q1nqtumb&raw=1'
   },
- 'Susi mod (Pokémon Geography)': {
-    url: 'https://www.youtube.com/@Susimod-g5c/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/s5g3alc6yuy3dewz1v4cy/Susi-mod-Pok-mon-Geography.jpg?rlkey=53ypos4dje2beyo21zx82tt0a&st=5dkhpza7&raw=1'
+ 'Pokémon Files': {
+    url: 'https://www.youtube.com/@Pok%C3%A9monFiles-w3c/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s5g3alc6yuy3dewz1v4cy/Pok-mon-Files.jpg?rlkey=53ypos4dje2beyo21zx82tt0a&st=tjq6fgo3&raw=1'
   },
- 'Pokémon Wildlife Documentary': {
-    url: 'https://www.youtube.com/@Pok%C3%A9monWildlifeDocumentary',
-    thumbnail: 'https://www.dropbox.com/scl/fi/8tmwdknlyci5g3max9p89/Pok-mon-Wildlife-Documentary.avif?rlkey=3cc4lfqc37esiul9em36tuqag&st=4d0fxipw&raw=1'
+ 'Professor Oak Files': {
+    url: 'https://www.youtube.com/@OakFiles',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8tmwdknlyci5g3max9p89/Professor-Oak-Files.avif?rlkey=3cc4lfqc37esiul9em36tuqag&st=arj17jxy&raw=1'
   },
- 'Pokemon Geographic Planet': {
-    url: 'https://www.youtube.com/@PokemonGeographicPlanet',
-    thumbnail: 'https://www.dropbox.com/scl/fi/ywoj2tijf80ucsctm2ohk/Pokemon-Geographic-Planet.jpg?rlkey=1ce05n5u414yyo6p7q9qbupxp&st=yjajbetf&raw=1'
+ 'Planet Of Pokémon': {
+    url: 'https://www.youtube.com/@PlanetOfPokemonOfficial/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ywoj2tijf80ucsctm2ohk/Planet-Of-Pok-mon.jpg?rlkey=1ce05n5u414yyo6p7q9qbupxp&st=io0deqit&raw=1'
   },
- 'NatGeo Pocket': {
-    url: 'https://www.youtube.com/@NatGeoPocket/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/vsu6aowrcstc1rchmah11/NatGeo-Pocket.jpg?rlkey=88cg2u1xo121k1o7a8z4y31e2&st=b64rebpm&raw=1'
+ 'The Living Dex': {
+    url: 'https://www.youtube.com/@TheLivingDex-yt',
+    thumbnail: 'https://www.dropbox.com/scl/fi/vsu6aowrcstc1rchmah11/The-Living-Dex.jpg?rlkey=88cg2u1xo121k1o7a8z4y31e2&st=b1gopbtj&raw=1'
   },
- 'Pokémon-NatGeo': {
-    url: 'https://www.youtube.com/@Pok%C3%A9mon-NatGeo/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/yg0fuuk113w7nnmyad7ip/Pok-mon-NatGeo.jpg?rlkey=mcqhp9aar0bzpbcna52e81dax&st=dehjv0qz&raw=1'
+ 'Pokemon Stories': {
+    url: 'https://www.youtube.com/@Pokemon_Stories_AI',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yg0fuuk113w7nnmyad7ip/Pokemon-Stories.jpg?rlkey=mcqhp9aar0bzpbcna52e81dax&st=s33u2vjd&raw=1'
   },
  'MonBiology': {
     url: 'https://www.youtube.com/@MonBiology',
