@@ -125,13 +125,13 @@ const folderLinks = {
     url: 'https://www.youtube.com/@MonBiology',
     thumbnail: 'https://www.dropbox.com/scl/fi/73nufrnj3nltn2g23rnz6/MonBiology.jpg?rlkey=xjkf5qpm9vbv79iw39eibwyzy&st=33igvsg3&raw=1'
   },
- 'UndergroundAI Creative': {
-    url: 'https://www.youtube.com/@UndergroundAI_Creative/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/xndopjcbgdk6aoh7p4lrw/UndergroundAI-Creative.jpg?rlkey=61xj7yh2tqlj7pt7qvddh9f3k&st=2tohef5k&raw=1'
+ 'VisualStory Fax': {
+    url: 'https://www.youtube.com/@visualstory_fax/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xndopjcbgdk6aoh7p4lrw/VisualStory-Fax.jpg?rlkey=61xj7yh2tqlj7pt7qvddh9f3k&st=pp5vt0ky&raw=1'
   },
- 'GeoMon Atlas': {
-    url: 'https://www.youtube.com/@Geomon92',
-    thumbnail: 'https://www.dropbox.com/scl/fi/jyyq7mz4a3rjukq4fuw6l/GeoMon-Atlas.jpg?rlkey=ib62ah854air0utvq5xqo8832&st=zb0mp342&raw=1'
+ 'Poke Life': {
+    url: 'https://www.youtube.com/@PokeLifeNews',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jyyq7mz4a3rjukq4fuw6l/Poke-Life.jpg?rlkey=ib62ah854air0utvq5xqo8832&st=1gy2lgiu&raw=1'
   },
  'Hồi ức truyện tranh 199x': {
     url: 'https://www.facebook.com/truyentranhtuoith0/photos/',
