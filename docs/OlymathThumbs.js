@@ -134,6 +134,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@median-0/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/qv0a35xb9yz0ufvoajw6r/median.jpg?rlkey=6e7o5s9yg8tb3ugvk30uwgd1w&st=k08tinsy&raw=1',
   },
+  'Tech Hôm Nay': {
+    url: 'https://www.youtube.com/@TechH%C3%B4mNay',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xs6rewjhn59iun6q30og2/Tech-H-m-Nay.webp?rlkey=8tzrbdok9z7dzbqezlizu94yu&st=mypbjky6&raw=1',
+  },
   'Học thêm Toán': {
     url: 'https://www.youtube.com/@stech7462/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/c63zb59djyjcg9jf87ged/H-c-th-m-to-n.webp?rlkey=nhbp2l4vizzd3xl2df2zq7j0t&st=b8g3o5lv&raw=1',
