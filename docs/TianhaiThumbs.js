@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100076216793607&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/rqdh5ubphgnrvoia2ng80/Disney-Vietsub.jpg?rlkey=04hsq6g2rwq9xtf4ucw6wmf5n&st=d4b45ezk&raw=1'
   },
+  'Học Ánh Bớt Khổ': {
+    url: 'https://www.facebook.com/hocanhbotkho',
+    thumbnail: 'https://www.dropbox.com/scl/fi/my9h7bwza87q2tld6vekb/H-c-nh-B-t-Kh.jpg?rlkey=iqhobj2a3szpp9tulotttn4ud&st=jknwe6he&raw=1'
+  },
   'Video Học Tiếng Anh Trẻ Em': {
     url: 'https://www.facebook.com/dvdhoctienganhtreem/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/z2g6lp4uk0yvtgwfmbkh6/Video-h-c-Ti-ng-Anh-tr-em.jpg?rlkey=m3tm080f8uqz2sfwllwc4d5bn&st=vj9ggbkp&raw=1'
@@ -261,6 +265,10 @@ const folderLinks = {
   'Tram Nguyen English': {
     url: 'https://www.facebook.com/tramnguyenenglish/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/tsjz7uxg2ztyduja504re/Tram-Nguyen-English.jpg?rlkey=cmnewnlzbrqls3t2kvvinqtp3&st=mphrfqpi&raw=1'
+  },
+  'Mai Hồng': {
+    url: 'https://www.facebook.com/maihongvu1810',
+    thumbnail: 'https://www.dropbox.com/scl/fi/7ep1gaj1y33dbrmjf1zct/Mai-H-ng.webp?rlkey=jn2zafn0uhl6y23gqsma1m7dl&st=81qqrfdo&raw=1'
   },
   'Learn My Words (Facebook)': {
     url: 'https://www.facebook.com/profile.php?id=61585454649657',
