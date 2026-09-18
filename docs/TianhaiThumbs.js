@@ -94,7 +94,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100091225930364&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/093g9qiichbywvg4zb0oa/Trung-t-m-ngo-i-ng-Th-n-T-c.jpg?rlkey=cev78dq7bb89xa8baslwnnarx&st=e9htq24b&raw=1'
   },
-  'Bứt Phá Tiếng Anh Cùng Gia Sư Vuihoc': {
+  'Bứt Phá Tiếng Anh Cùng Gia Sư': {
     url: 'https://www.facebook.com/giasuvuihoc.butphatienganh/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/ktdgz1obklbgfk4wwnr7j/B-t-Ph-Ti-ng-Anh-C-ng-Gia-S-Vuihoc.png?rlkey=snjp3gufh1h23igd3o358z34x&st=604pdbwi&raw=1'
   },
@@ -126,7 +126,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/tassenglish/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/56w0jhri3z7gr4efaiflz/TASS-English.png?rlkey=ga3io78tw168mhbiya1hf32ek&st=s6czye17&raw=1'
   },
-  'Trần Gia Thông - Huấn luyện viên tiếng Anh': {
+  'Trần Gia Thông - Huấn luyện viên': {
     url: 'https://www.facebook.com/TranGiaThong.Coach/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/tqiyn285gn5ttxfc2a2t1/Tr-n-Gia-Th-ng-Hu-n-luy-n-vi-n-ti-ng-Anh.jpg?rlkey=av5qfizatk0ui1smqrj8s3ca2&st=z1gnno5l&raw=1'
   },
@@ -142,11 +142,11 @@ const folderLinks = {
     url: 'https://www.facebook.com/dustinducng/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/e5ioymb1zy88wxhxkohfo/Dustin-Talkin-English.jpg?rlkey=dt6jm4slfd4410w03q7omvucm&st=qvi5tros&raw=1'
   },
-  'Nguyễn Trung Đức (Dustin Duc Nguyen)': {
+  'Nguyễn Trung Đức': {
     url: 'https://www.facebook.com/dustin.talkin.english/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/awubtdaee4om4g8ypy82n/Nguy-n-Trung-c-Dustin-Duc-Nguyen.jpg?rlkey=as3rhm2d8dp5zrtjs4dadreo5&st=6147e9dv&raw=1'
   },
-  'Huỳnh Vũ Thuỷ Tiên (Cô Tiên Tinker)': {
+  'Huỳnh Vũ Thuỷ Tiên': {
     url: 'https://www.facebook.com/cotien.tinker/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vtel1uc7pzfn22adq25p1/Hu-nh-V-Thu-Ti-n-C-Ti-n-Tinker.jpg?rlkey=qwwcflpumkdzwm6okpwsjzy7r&st=819jfc5r&raw=1'
   },
