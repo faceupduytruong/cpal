@@ -206,7 +206,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/HoctienganhcoThuOanh/photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/aann4sowm8weqroeq39wy/H-c-Ti-ng-Anh-c-Thu-Oanh.png?rlkey=joliybexn7w4861aggmi367wv&st=jern2bvc&raw=1'
   },
-  'Hệ Thống Trực Tuyến Talkin English': {
+  'Hệ Thống Trực Tuyến Talkin': {
     url: 'https://www.facebook.com/anhngutalkinenglish/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0yyulolj7pehnsrwo17bw/H-Th-ng-Anh-Ng-Tr-c-Tuy-n-Talkin-English.png?rlkey=wbejl36mab5fx6p4uaamsveb5&st=l8jlm3gr&raw=1'
   },
