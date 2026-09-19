@@ -1,4 +1,4 @@
-import { resSources } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/resSources.js';
+import { resSources } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/move/resSources.js';
 
 // 👉 Chèn CSS vào DOM
 const style = document.createElement('style');
