@@ -503,7 +503,7 @@ document.getElementById("btn-wave").addEventListener("click", () => {
 window.loadRandomPlaylist = loadRandomPlaylist;
 window.loadPlaylist = loadPlaylist;
 
-import { createStationPopup } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@08edc7a/docs/mustationpop.js';
+import { createStationPopup } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/mustationpop.js';
 
 document.addEventListener("DOMContentLoaded", () => {
   // tạo popup
