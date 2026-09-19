@@ -63,9 +63,3 @@ const albumLinks = [
   "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oYAnAetzGBCRLAla5HIDhVEbDCGEe6fARxzFtF~c5_375x375.jpg",
   "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o08tfAFDnEDKLiAC9NAgfME1oPEvZavADA0yLB~c5_375x375.jpg"
 ];
-
-
-
-
-
-
