@@ -1,8 +1,8 @@
 // 👉 Nhúng dữ liệu từ các file JS trên GitHub
-import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@8edee09/docs/mxktSources.js';
-import { chineseArtists } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@ad3a146/docs/chiengartlist.js';
-import { artisticFonts } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@a3bb5ff/docs/artisticfonlist2.js';
-import { colors } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@6adac98/docs/coloarramodif.js';
+import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/mxktSources.js';
+import { chineseArtists } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/chiengartlist.js';
+import { artisticFonts } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/artisticfonlist2.js';
+import { colors } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/coloarramodif.js';
 
 let currentIndex = 0;
 let isUsingUrl1 = true;
