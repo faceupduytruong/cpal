@@ -2,7 +2,7 @@
 import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/move/mxktSources.js';
 import { chineseArtists } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/chiengartlist.js';
 import { artisticFonts } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/artisticfonlist2.js';
-import { colors } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/coloarramodif.js';
+import { colors } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/move/coloarramodif.js';
 
 let currentIndex = 0;
 let isUsingUrl1 = true;
