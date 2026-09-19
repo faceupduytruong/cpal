@@ -1,4 +1,4 @@
-import colors from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal@dd39995/docs/coloarramodif.js';
+import colors from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/move/coloarramodif.js';
 
 const glassElements = document.querySelectorAll(".glass-bg");
 const searchInput = document.getElementById("searchInput");
