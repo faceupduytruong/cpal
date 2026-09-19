@@ -1,5 +1,5 @@
   // 👉 Nhúng file JS danh sách video wallpaper
-  import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/mxktSources.js';
+  import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/move/mxktSources.js';
   import { chineseArtists } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/chiengartlist.js';
   import { artisticFonts } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/artisticfonlist1.js';
   // 👉 Nhúng js các loại bubble gif vào html
