@@ -1,5 +1,5 @@
 // 👉 Nhúng dữ liệu từ các file JS trên GitHub
-import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/mxktSources.js';
+import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/move/mxktSources.js';
 import { chineseArtists } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/chiengartlist.js';
 import { artisticFonts } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/artisticfonlist2.js';
 import { colors } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/coloarramodif.js';
