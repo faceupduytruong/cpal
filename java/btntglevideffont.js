@@ -1,9 +1,9 @@
   // 👉 Nhúng file JS danh sách video wallpaper
   import { bgVideos } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/move/mxktSources.js';
-  import { chineseArtists } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/chiengartlist.js';
-  import { artisticFonts } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/artisticfonlist1.js';
+  import { chineseArtists } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/move/chiengartlist.js';
+  import { artisticFonts } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/move/artisticfonlist1.js';
   // 👉 Nhúng js các loại bubble gif vào html
-  import { bubbleEffects } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/docs/bubbeffgifimg.js';
+  import { bubbleEffects } from 'https://cdn.jsdelivr.net/gh/faceupduytruong/cpal/move/bubbeffgifimg.js';
 
   // 👉 Viết toàn bộ logic xử lý ở đây
 document.getElementById("homeBtn").addEventListener("click", function () {
