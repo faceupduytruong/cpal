@@ -78,6 +78,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Pham-Truong-Giang/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/v59qm89570dl6ygl9olg5/Ph-m-Tr-ng-Giang.jpg?rlkey=8vaoouimgtaowes4tgwr1jyun&st=gradosyi&raw=1',
   },
+  'Tuấn Đỗ Hữu': {
+    url: 'https://www.youtube.com/@tuanohuu775/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/3ch0xkklekzuy51uu4htm/Tu-n-H-u.jpg?rlkey=kbes5gmhijo5ka7p019yknj01&st=ula2ce41&raw=1',
+  },
   'MS. T-L-A': {
     url: 'https://www.youtube.com/@iloveokmanhotboy85/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/me5mv1hh42y7adoly09za/MS.-T-L-A.webp?rlkey=39qi8d4i612zie91ygd7v5i2l&st=bnw9kwmr&raw=1',
