@@ -703,6 +703,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Create AI-Generated Videos</h2>
     <div class="image-box">
+    <div onclick="openRightHalfPopup('https://www.youtube.com/@deaitinh/videos', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/jygfonisigx6w3le3htw5/AI-t-nh.png?rlkey=arhn0w68akmozur2z9gwocc97&st=a3jv09vr&raw=1">
+</div>
+        <div class="caption">Để AI tính</div>
+      </div>
+      
+    <div class="image-box">
     <div onclick="openRightHalfPopup('https://www.creati.studio/', 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPkgwyOgCkOdKDU14j-M6aFFuzIdXpN204yA&s">
 </div>
