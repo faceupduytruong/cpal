@@ -36,7 +36,7 @@ const folderLinks = {
   },
   'Audiobooks AZ Việt Nam': {
     url: 'https://www.youtube.com/@AudiobooksAZVietNam/videos',
-    thumbnail: 'https://www.dropbox.com/scl/fi/sic2551quicwwsshkx02d/Audiobooks-AZ-Vi-t-Nam.png?rlkey=arxgks383xpv9glxpeb1ondss&st=dtj2m90n&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dzajgautja4hxodm2o7zg/Audiobooks-AZ-Vi-t-Nam.jpg?rlkey=xo306kq9ulzjespcxxul60zq4&st=viw812n7&raw=1',
   },
   'Tư duy và sách': {
     url: 'https://www.youtube.com/@TUDUYVASACH/videos',
