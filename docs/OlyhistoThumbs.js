@@ -54,5 +54,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@suluoc/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/x6venwwaekn4viiry600w/S-L-c-T-m-T-t-L-ch-S.jpg?rlkey=qb9qq8k7cd5xfthk4exb6p4vr&st=0f2s6nfo&raw=1',
   },
+  'Spiderum': {
+    url: 'https://www.youtube.com/@Spiderum/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8ha7jw01mhgtcbwy6ow2g/Spiderum.jpg?rlkey=vre5lrehim5nnlfow776pcqi9&st=kuhcq36z&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
