@@ -134,6 +134,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@median-0/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/qv0a35xb9yz0ufvoajw6r/median.jpg?rlkey=6e7o5s9yg8tb3ugvk30uwgd1w&st=k08tinsy&raw=1',
   },
+  'Math4Life': {
+    url: 'https://www.youtube.com/@Math4Life_LTS',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xye05jtx4ym7rtdu5fjtr/Math4Life.avif?rlkey=cuioecr1kvxq0nwx3x86y815z&st=kio8ypvb&raw=1',
+  },
   'Tech hôm nay': {
     url: 'https://www.youtube.com/@TechH%C3%B4mNay',
     thumbnail: 'https://www.dropbox.com/scl/fi/xs6rewjhn59iun6q30og2/Tech-H-m-Nay.webp?rlkey=8tzrbdok9z7dzbqezlizu94yu&st=mypbjky6&raw=1',
