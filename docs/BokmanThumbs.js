@@ -50,5 +50,25 @@ const folderLinks = {
     url: 'https://www.youtube.com/@growon_channel/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/yi0caivi0539rtj4ukz6n/Grow-On-c-M-i-Ng-y.jpg?rlkey=6p37dkeagxnbmkhis1fz12wct&st=gg16hn2u&raw=1',
   },
+  'Bizbooks cho doanh nhân': {
+    url: 'https://www.youtube.com/@Bizbooks-sachdanhchodoanhnhan/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ulx4jbit2nra1tjne7pn7/Bizbooks-cho-doanh-nh-n.avif?rlkey=s7nwgjbwq0utn4oau1gx8j2rl&st=qaaclb4e&raw=1',
+  },
+  'Voiz FM - Sách nói & Podcast': {
+    url: 'https://www.youtube.com/@VoizFM/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/imrjrvq9iknxnldes860g/Voiz-FM-S-ch-n-i-Podcast.webp?rlkey=egrdykjkvsmdvyg8kwwij9bu6&st=ojsx05zw&raw=1',
+  },
+  'Little Mood Mook': {
+    url: 'https://www.youtube.com/@LittleMoodMook/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/08x55f9is9e87phtlzntc/Little-Mood-Mook.jpg?rlkey=31scc1eoti7yp1tv39557cbug&st=yj34y8b7&raw=1',
+  },
+  'Sách nói tri thức': {
+    url: 'https://www.youtube.com/@Sachnoitrithuc2025',
+    thumbnail: 'https://www.dropbox.com/scl/fi/abgct701o2etbeqsie5m8/S-ch-n-i-tri-th-c.jpg?rlkey=v796ppc87kf7klw543wj0qp6w&st=nv1wmpsb&raw=1',
+  },
+  'Sách Nói Việt Nam': {
+    url: 'https://www.youtube.com/@sachnoivietnam15/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pzgh1mrecpo7pvek5sq02/S-ch-N-i-Vi-t-Nam.jpg?rlkey=l19qap4775624ycn873xne397&st=1hlsalzu&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
