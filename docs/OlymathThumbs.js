@@ -166,6 +166,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61579642148739',
     thumbnail: 'https://www.dropbox.com/scl/fi/f9aw5bp3sjuwbvy0ka3y5/Nu-i-con-thi-n-t-i.png?rlkey=rru2ndgtm7s7sdueow28ol8iv&st=oiecr8y9&raw=1',
   },
+  'Đăng Huy Education': {
+    url: 'https://www.facebook.com/danghuyeducation/photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6vyup848judvxu569wxav/ng-Huy-Education.png?rlkey=8tq5mhwnzb1wdlj23y7c40b92&st=dcoab3mi&raw=1',
+  },
   'Tài liệu môn Toán': {
     url: 'https://tailieumontoan.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0ddtzpt8x6vr5vhthhi0y/T-i-li-u-m-n-to-n.avif?rlkey=h7t58hkejai8yic3aqrbgv7qc&st=yi5c79q5&raw=1',
@@ -177,6 +181,14 @@ const folderLinks = {
   'Ươm mầm Toán (Facebook)': {
     url: 'https://www.facebook.com/uommamtoan',
     thumbnail: 'https://www.dropbox.com/scl/fi/ohi82mrd995uyup8p6maq/m-M-m-To-n.png?rlkey=xjylukj08kwtfqt1sk30xwu53&st=wiq0kszg&raw=1',
+  },   
+  'Playtoan.com (Web)': {
+    url: 'https://www.playtoan.com/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/dsf6hcxr44x9v1zzf3t2i/Playtoan.com.jpeg?rlkey=popjds6rcgllkziwh4zur50v4&st=n4g71n3n&raw=1',
+  },
+  'Playtoan.com (Facebook)': {
+    url: 'https://www.facebook.com/profile.php?id=61594718217749',
+    thumbnail: 'https://www.dropbox.com/scl/fi/q0m76ha9ybwzek71yvksq/PlayTo-n.com.png?rlkey=lu10izgbu4li1au2s2014n0n1&st=xutojn8b&raw=1',
   },   
   // thêm các mục khác nếu cần
 };
