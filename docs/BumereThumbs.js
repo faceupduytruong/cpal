@@ -46,9 +46,21 @@ const folderLinks = {
     url: 'https://www.facebook.com/anthony.wong91/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/dr2lwyltij4rlygz721e8/Duy-Hoang-Nguyen.gif?rlkey=3befwyhytbcr6ftr68hyt2cen&st=iva92weh&raw=1',
   },
+  'Nguyễn Nhất Long': {
+    url: 'https://www.facebook.com/longnhat2405',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ttccvxx5ejcdsalsy2i5v/Nguy-n-Nh-t-Long.webp?rlkey=fvqrfbyy99hwio1t0spsqrnfd&st=0n087dpb&raw=1',
+  },
   'Đồn Như Lời': {
     url: 'https://www.youtube.com/@donnhuloi1',
     thumbnail: 'https://www.dropbox.com/scl/fi/atw0sixudywfznhwax3r2/n-Nh-L-i.gif?rlkey=0i10k1ax92673mvst96u31f6m&st=968pnx3m&raw=1',
+  },
+  'Kynangsong': {
+    url: 'https://www.facebook.com/profile.php?id=61594186840759',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0za3jsq96h4mihd6lv2gq/Kynangsong.gif?rlkey=xi6d32nwup4tvr30kq9cuu5di&st=5cp00aya&raw=1',
+  },
+  'Kỹ năng sống sau tuổi 40': {
+    url: 'https://www.facebook.com/Kynangsongsau40tuoi',
+    thumbnail: 'https://www.dropbox.com/scl/fi/6uvtufocetzfej75nlrvv/K-n-ng-s-ng-sau-tu-i-40.webp?rlkey=2fpu2yc8zhrkeqj0sfprkvx37&st=iimddmmm&raw=1',
   },
   'Tâm Lý Học Đám Đông': {
     url: 'https://www.facebook.com/tamlihocdamdong',
