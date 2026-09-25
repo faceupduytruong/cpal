@@ -457,6 +457,20 @@ container.innerHTML = `
 </div>
         <div class="caption">Vu Linh Quang</div>
       </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/syen.vn' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/x6bj7i7sv14vgn8joip8v/SYEN-Architects.jpg?rlkey=i2hefp0b7fot9yl3znsddaxz0&st=e9vsaqe7&raw=1">
+</div>
+        <div class="caption">SYEN Architects</div>
+      </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/ardorarch' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/d9l9y41b0ffjaftrmlva2/ARDOR-Architects.jpg?rlkey=9txmmd3bs2vx8vv6sdypazxsj&st=1xtcsmcg&raw=1">
+</div>
+        <div class="caption">ARDOR Architects</div>
+      </div>
       
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/815479533482926/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
