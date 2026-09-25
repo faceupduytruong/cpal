@@ -42,6 +42,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=100066520522185&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/72656bytd4xjmtkh2yo98/Nguy-n-Qu-c-Huy-L-nh-o-Tr-Ng-i-T-L-p.jpg?rlkey=nfwp3zrhv66pspdvqcpmrz49e&st=9egld7en&raw=1',
   },
+  'Leo Vo Thai Lam': {
+    url: 'https://www.facebook.com/profile.php?id=61593154353100',
+    thumbnail: 'https://www.dropbox.com/scl/fi/klekmf5ftr5br6msx75wp/Leo-Vo-Thai-Lam.jpg?rlkey=cvzwfwi25a23u48x3l7h29wvr&st=7f94zlru&raw=1',
+  },
   'Nguyễn Thanh Hải': {
     url: 'https://www.facebook.com/thanhhaiathenco/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/1tahv7m0z42somh8lqiza/Nguy-n-Thanh-H-i.png?rlkey=z6jbulsle0h2kcl0tskqnsghk&st=x1jm791u&raw=1',
