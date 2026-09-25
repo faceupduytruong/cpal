@@ -84,7 +84,7 @@ container.innerHTML = `
 
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.cic.com.vn/tin-chuyen-nganh-cn8.html', 'SmartApp Popup', window.innerWidth, 745)">
-       <img src="https://www.dropbox.com/scl/fi/jvnwxi46tlb401bl5kfwk/CIC.webp?rlkey=ulontt23jnmmjfdoue26j578e&st=1a0bvvqk&raw=1" alt="Ảnh 1">
+       <img src="https://www.dropbox.com/scl/fi/x6bj7i7sv14vgn8joip8v/CIC.jpg?rlkey=i2hefp0b7fot9yl3znsddaxz0&st=we0yxhab&raw=1" alt="Ảnh 1">
 </div>
         <div class="caption">CIC</div>
       </div>
@@ -460,7 +460,7 @@ container.innerHTML = `
 
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/syen.vn' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
-          <img src="https://www.dropbox.com/scl/fi/x6bj7i7sv14vgn8joip8v/SYEN-Architects.jpg?rlkey=i2hefp0b7fot9yl3znsddaxz0&st=e9vsaqe7&raw=1">
+          <img src="https://www.dropbox.com/scl/fi/jvnwxi46tlb401bl5kfwk/SYEN-Architects.webp?rlkey=ulontt23jnmmjfdoue26j578e&st=k3v2vzw1&raw=1">
 </div>
         <div class="caption">SYEN Architects</div>
       </div>
