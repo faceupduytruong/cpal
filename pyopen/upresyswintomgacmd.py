@@ -137,11 +137,12 @@ print("Đang upload lên Mega.nz...")
 mega_login_bat = r"C:\Users\Admin\AppData\Local\MEGAcmd\mega-login.bat"
 mega_put_bat   = r"C:\Users\Admin\AppData\Local\MEGAcmd\mega-put.bat"
 mega_target    = "/Root/Luu/Windows/Ứng dụng làm đẹp/Giả Full Transparent"
+mega_rm_bat = r"C:\Program Files\MEGAcmd\mega-rm.bat"
 
 # Đăng nhập MegaCMD
-subprocess.run([mega_login_bat, MEGA_USER, MEGA_PASS], shell=True)
+subprocess.run([mega_rm_bat, mega_target + "/Reset System Windows (Fullscreen).zip"], shell=True)
 
 # Upload file mới, ghi đè nếu đã tồn tại
-subprocess.run([mega_put_bat, desktop_zip, mega_target, "--force"], shell=True)
+subprocess.run([mega_put_bat, desktop_zip, mega_target], shell=True)
 
 print("Upload hoàn tất!")
