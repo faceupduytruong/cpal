@@ -135,7 +135,7 @@ for item in os.listdir(download_dir):
 print("Đang upload lên Mega.nz...")
 
 megatools_exe = r"C:\ProgramData\chocolatey\bin\megatools.exe"
-mega_target = "/Root/Luu/Windows/Ứng dụng làm đẹp/Giả Full Transparent"
+mega_target = "/Luu/Windows/Ứng dụng làm đẹp/Giả Full Transparent"
 
 # Xóa file cũ
 subprocess.run([
