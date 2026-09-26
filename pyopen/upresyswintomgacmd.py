@@ -134,17 +134,14 @@ for item in os.listdir(download_dir):
 # 7. Upload lên Mega.nz bằng MegaCMD
 print("Đang upload lên Mega.nz...")
 
-mega_target = "/Root/Luu/Windows/Ứng dụng làm đẹp/Giả Full Transparent"
+mega_login_exe = r"C:\Users\Admin\AppData\Local\MEGAcmd\mega-login.exe"
+mega_put_exe   = r"C:\Users\Admin\AppData\Local\MEGAcmd\mega-put.exe"
+mega_target    = "/Root/Luu/Windows/Ứng dụng làm đẹp/Giả Full Transparent"
 
-mega_exe = r"C:\Users\Admin\AppData\Local\MEGAcmd\mega-login.exe"
-
-# Đăng nhập MegaCMD (nếu chưa login trước đó)
-subprocess.run([mega_exe, MEGA_USER, MEGA_PASS])
+# Đăng nhập MegaCMD
+subprocess.run([mega_login_exe, MEGA_USER, MEGA_PASS])
 
 # Upload file mới, ghi đè nếu đã tồn tại
-subprocess.run([r"C:\Users\Admin\AppData\Local\MEGAcmd\mega-put.exe",
-                desktop_zip,
-                mega_target,
-                "--force"])
+subprocess.run([mega_put_exe, desktop_zip, mega_target, "--force"])
 
 print("Upload hoàn tất!")
