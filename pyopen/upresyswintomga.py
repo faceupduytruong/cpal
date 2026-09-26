@@ -137,7 +137,7 @@ print("Đang upload lên Mega.nz...")
 megatools_exe = r"C:\ProgramData\chocolatey\bin\megatools.exe"
 mega_target = "/Root/Luu/Windows/Ứng dụng làm đẹp/Giả Full Transparent"
 
-# Xóa file cũ nếu có
+# Xóa file cũ
 subprocess.run([
     megatools_exe, "rm",
     "--username", MEGA_USER,
@@ -145,7 +145,7 @@ subprocess.run([
     mega_target + "/Reset System Windows (Fullscreen).zip"
 ])
 
-# Upload file mới
+# Upload file mới (không có --force)
 subprocess.run([
     megatools_exe, "put",
     "--username", MEGA_USER,
