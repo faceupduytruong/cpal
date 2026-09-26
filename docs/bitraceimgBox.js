@@ -483,6 +483,13 @@ container.innerHTML = `
 </div>
         <div class="caption">ARDOR Architects</div>
       </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/VHLArchitects' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/j6xgmfqjb1hvcemmwz3x3/Vo-Huu-Linh-Architects.jpg?rlkey=flcc8dgwzlr82r4bfxl69pmmn&st=az0ayz55&raw=1">
+</div>
+        <div class="caption">Vo Huu Linh Architects</div>
+      </div>
       
       <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/groups/815479533482926/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
@@ -529,6 +536,13 @@ container.innerHTML = `
           <img src="https://www.dropbox.com/scl/fi/pp72fv9b6dbgrvw2qn3i2/Ph-m-Thanh-Truy-n-KTS-N-ng-D-n.webp?rlkey=xh5jc3kpf936a19r5yii0ogh5&st=sh4xoj42&raw=1">
 </div>
         <div class="caption">Phạm Thanh Truyền (KTS Nông Dân)</div>
+      </div>
+
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/catmocgroup04' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/f81gftfmpav70q14twp26/Ph-m-Thanh-Truy-n-C-t-M-c-Group.png?rlkey=lsimxiqqrl9tmfar5zcfhf2jh&st=n3ak9dzq&raw=1">
+</div>
+        <div class="caption">Phạm Thanh Truyền (Cát Mộc Group)</div>
       </div>
 
   <div class="image-box">
@@ -725,6 +739,18 @@ container.innerHTML = `
 
     <!-- Hàng thứ 15 -->
     <div class="image-row glass-bg">
+    <h2 class="row-title">SolidWorks</h2>
+  <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61593794676941' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/dzt2s56aw5pgxg0lsn13x/L-m-K-S.png?rlkey=a3u4im5hn5yywq72wcz8vmmde&st=iu56rk6w&raw=1">
+</div>
+        <div class="caption">Làm Kỹ Sư</div>
+      </div>
+          
+</div>
+
+    <!-- Hàng thứ 16 -->
+    <div class="image-row glass-bg">
     <h2 class="row-title">Tải xuống tài liệu BIM</h2>
       <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/tailieunganhxaydung', 'SmartApp Popup', window.innerWidth, 745)">
@@ -742,7 +768,7 @@ container.innerHTML = `
           
 </div>
 
-    <!-- Hàng thứ 16 -->
+    <!-- Hàng thứ 17 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Hạ tầng kỹ thuật</h2>
       <div class="image-box">
@@ -761,7 +787,7 @@ container.innerHTML = `
           
 </div>
 
-    <!-- Hàng thứ 17 -->
+    <!-- Hàng thứ 18 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Dự toán</h2>
       <div class="image-box">
