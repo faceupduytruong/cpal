@@ -142,6 +142,6 @@ mega_target  = "/Luu/Windows/Ứng dụng làm đẹp/Giả Full Transparent"
 subprocess.run([mega_rm_bat, mega_target + "/Reset System Windows (Fullscreen).zip"], shell=True)
 
 # Upload file mới, tạo thư mục nếu chưa có (-c)
-subprocess.run([mega_put_bat, "-c", desktop_zip, mega_target], shell=True)
+subprocess.run([mega_put_bat, "-c", desktop_zip, mega_target + "/Reset System Windows (Fullscreen).zip"], shell=True)
 
 print("Upload hoàn tất!")
