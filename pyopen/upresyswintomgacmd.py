@@ -1,0 +1,150 @@
+import os
+import shutil
+import zipfile
+import requests
+import subprocess
+import stat
+import sys
+
+def check_internet():
+    try:
+        requests.get("https://www.google.com", timeout=5)
+        return True
+    except requests.RequestException:
+        return False
+
+# --- Kiểm tra mạng trước khi chạy ---
+if not check_internet():
+    print("⚠️ Kết nối mạng trước khi thực hiện lệnh giùm tôi")
+    sys.exit(1)
+
+def remove_readonly(func, path, excinfo):
+    try:
+        os.chmod(path, stat.S_IWRITE)
+        func(path)
+    except PermissionError:
+        print(f"⚠️ Không thể xóa {path}, bỏ qua...")
+
+def clear_folder(path):
+    """Xóa toàn bộ nội dung bên trong thư mục, giữ nguyên thư mục gốc"""
+    if os.path.exists(path):
+        for item in os.listdir(path):
+            item_path = os.path.join(path, item)
+            try:
+                if os.path.isdir(item_path):
+                    shutil.rmtree(item_path, onerror=remove_readonly)
+                else:
+                    os.remove(item_path)
+            except PermissionError:
+                print(f"⚠️ Không thể xóa {item_path}, bỏ qua...")
+        print(f"✅ Đã dọn sạch nội dung trong {path}")
+    else:
+        print(f"ℹ️ Thư mục {path} không tồn tại, bỏ qua.")
+
+def load_env(path):
+    """Đọc file config.env và set biến môi trường"""
+    if not os.path.exists(path):
+        raise FileNotFoundError(f"Không tìm thấy file cấu hình: {path}")
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            if "=" in line:
+                key, value = line.strip().split("=", 1)
+                os.environ[key] = value
+
+# Luôn tìm config.env nằm cạnh file .py
+script_dir = os.path.dirname(os.path.abspath(__file__))
+config_path = os.path.join(script_dir, "config.env")
+load_env(config_path)
+
+MEGA_USER = os.getenv("MEGA_USER1")
+MEGA_PASS = os.getenv("MEGA_PASS1")
+
+if not MEGA_USER or not MEGA_PASS:
+    raise ValueError("Thiếu MEGA_USER hoặc MEGA_PASS trong config.env")
+
+# 0. Xóa nội dung trong thư mục đích
+dst_folder = r"C:\Users\Admin\OneDrive\Documents\Reset System Windows\Music Playlist\Support Create Web\JavaScript GitHub"
+print("Đang xóa nội dung trong thư mục đích...")
+clear_folder(dst_folder)
+
+# 1. Tải file ZIP từ GitHub
+url = "https://github.com/faceupduytruong/cpal/archive/refs/heads/main.zip"
+download_dir = r"C:\Users\Admin\Downloads\Compressed"
+zip_path = os.path.join(download_dir, "cpal-main.zip")
+
+print("Đang tải repo từ GitHub...")
+response = requests.get(url)
+with open(zip_path, "wb") as f:
+    f.write(response.content)
+
+# 2. Giải nén
+extract_folder = "cpal-main"
+print("Đang giải nén...")
+with zipfile.ZipFile(zip_path, "r") as zip_ref:
+    zip_ref.extractall(download_dir)
+
+# 3. Dọn sạch thư mục đích (lặp lại)
+print("Đang xóa nội dung trong thư mục đích...")
+clear_folder(dst_folder)
+
+# 4. Copy nội dung repo sang thư mục đích
+src_folder = os.path.join(download_dir, extract_folder)
+print("Đang copy nội dung...")
+shutil.copytree(src_folder, dst_folder, dirs_exist_ok=True)
+
+# 5. Nén toàn bộ thư mục gốc với tên mới trong ZIP và di chuyển sang Desktop
+root_folder = r"C:\Users\Admin\OneDrive\Documents\Reset System Windows"
+zip_name = "Reset System Windows (Fullscreen)"
+zip_output = zip_name + ".zip"
+
+print("Đang nén toàn bộ thư mục...")
+temp_dir = os.path.join(download_dir, "temp_zip")
+clear_folder(temp_dir)
+os.makedirs(temp_dir, exist_ok=True)
+
+new_root = os.path.join(temp_dir, zip_name)
+shutil.copytree(root_folder, new_root, dirs_exist_ok=True)
+
+shutil.make_archive(zip_name, 'zip', temp_dir, zip_name)
+
+desktop_zip = r"C:\Users\Admin\OneDrive\Desktop\Reset System Windows (Fullscreen).zip"
+if os.path.exists(desktop_zip):
+    os.remove(desktop_zip)
+
+shutil.move(zip_output, desktop_zip)
+print("Đã tạo và di chuyển file ZIP tới Desktop:", desktop_zip)
+
+# 6. Xóa các file/thư mục cpal-* và temp_zip trong thư mục Compressed
+print("Đang xóa các file/thư mục cpal-* và temp_zip trong thư mục Compressed...")
+for item in os.listdir(download_dir):
+    if item.startswith("cpal-") or item == "temp_zip":
+        item_path = os.path.join(download_dir, item)
+        if os.path.isdir(item_path):
+            clear_folder(item_path)
+            try:
+                os.rmdir(item_path)
+            except OSError:
+                pass
+        else:
+            try:
+                os.remove(item_path)
+            except PermissionError:
+                print(f"⚠️ Không thể xóa file {item_path}, bỏ qua...")
+
+# 7. Upload lên Mega.nz bằng MegaCMD
+print("Đang upload lên Mega.nz...")
+
+mega_target = "/Root/Luu/Windows/Ứng dụng làm đẹp/Giả Full Transparent"
+
+# Đăng nhập MegaCMD (nếu chưa login trước đó)
+subprocess.run(["mega-login", MEGA_USER, MEGA_PASS])
+
+# Upload file mới, ghi đè nếu đã tồn tại
+subprocess.run([
+    "mega-put",
+    desktop_zip,
+    mega_target,
+    "--force"
+])
+
+print("Upload hoàn tất!")
