@@ -136,7 +136,7 @@ print("Đang upload lên Mega.nz...")
 
 mega_put_bat = r"C:\Users\Admin\AppData\Local\MEGAcmd\mega-put.bat"
 mega_rm_bat  = r"C:\Users\Admin\AppData\Local\MEGAcmd\mega-rm.bat"
-mega_target  = "/Luu/Windows/Ứng dụng làm đẹp/Giả Full Transparent"
+mega_target  = "/Root/Luu/Windows/Ứng dụng làm đẹp/Giả Full Transparent"
 
 # Xóa file cũ nếu tồn tại (không sao nếu báo lỗi ENOENT)
 subprocess.run([mega_rm_bat, mega_target + "/Reset System Windows (Fullscreen).zip"], shell=True)
