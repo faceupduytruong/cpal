@@ -119,7 +119,19 @@ container.innerHTML = `
 
 </div>
 
-      <!-- Hàng thứ 2 -->
+     <!-- Hàng thứ 2 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Thiết kế kết cấu thép</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/thietkeketcauthepzamin', 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/t4d7xf0h89k9lobfso39n/Tinhketcau.com.webp?rlkey=zpuyejbgho2hrlig6wlfetnnc&st=7m1yl7l3&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Tinhketcau.com</div>
+      </div>
+
+</div>
+
+      <!-- Hàng thứ 3 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Khóa học kết cấu</h2>
       <div class="image-box">
@@ -173,7 +185,7 @@ container.innerHTML = `
     
 </div>
 
-    <!-- Hàng thứ 3 -->
+    <!-- Hàng thứ 4 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Cơ học xây dựng</h2>
       <div class="image-box">
@@ -185,7 +197,7 @@ container.innerHTML = `
 
 </div>
 
-      <!-- Hàng thứ 4 -->
+      <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">AutoCAD</h2>
   <div class="image-box">
@@ -295,7 +307,7 @@ container.innerHTML = `
      
 </div>
 
-     <!-- Hàng thứ 5 -->
+     <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit AI</h2>
       <div class="image-box">
@@ -307,7 +319,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 6 -->
+     <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Structure</h2>
       <div class="image-box">
@@ -375,7 +387,7 @@ container.innerHTML = `
  
 </div>
 
-    <!-- Hàng thứ 7 -->
+    <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Architecture</h2>
   <div class="image-box">
@@ -408,7 +420,7 @@ container.innerHTML = `
     
 </div>
 
-    <!-- Hàng thứ 8 -->
+    <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Models</h2>
   <div class="image-box">
@@ -427,7 +439,7 @@ container.innerHTML = `
       
 </div>
 
-    <!-- Hàng thứ 9 -->
+    <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Architecture Design</h2>
       <div class="image-box">
@@ -488,7 +500,7 @@ container.innerHTML = `
       
 </div>
 
-    <!-- Hàng thứ 10 -->
+    <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Building Home</h2>
   <div class="image-box">
@@ -528,7 +540,7 @@ container.innerHTML = `
             
 </div>
 
-    <!-- Hàng thứ 11 -->
+    <!-- Hàng thứ 12 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Decor</h2>
   <div class="image-box">
@@ -603,7 +615,7 @@ container.innerHTML = `
     
 </div>
 
-    <!-- Hàng thứ 12 -->
+    <!-- Hàng thứ 13 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Quản lý dự án</h2>
   <div class="image-box">
@@ -699,7 +711,7 @@ container.innerHTML = `
          
 </div>
 
-    <!-- Hàng thứ 13 -->
+    <!-- Hàng thứ 14 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Kiến thức BIM</h2>
   <div class="image-box">
@@ -711,7 +723,7 @@ container.innerHTML = `
           
 </div>
 
-    <!-- Hàng thứ 14 -->
+    <!-- Hàng thứ 15 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Tải xuống tài liệu BIM</h2>
       <div class="image-box">
@@ -730,7 +742,7 @@ container.innerHTML = `
           
 </div>
 
-    <!-- Hàng thứ 15 -->
+    <!-- Hàng thứ 16 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Hạ tầng kỹ thuật</h2>
       <div class="image-box">
@@ -749,7 +761,7 @@ container.innerHTML = `
           
 </div>
 
-    <!-- Hàng thứ 16 -->
+    <!-- Hàng thứ 17 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Dự toán</h2>
       <div class="image-box">
