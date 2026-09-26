@@ -136,15 +136,15 @@ print("Đang upload lên Mega.nz...")
 
 mega_target = "/Root/Luu/Windows/Ứng dụng làm đẹp/Giả Full Transparent"
 
+mega_exe = r"C:\Users\Admin\AppData\Local\MEGAcmd\mega-login.exe"
+
 # Đăng nhập MegaCMD (nếu chưa login trước đó)
-subprocess.run(["mega-login", MEGA_USER, MEGA_PASS])
+subprocess.run([mega_exe, MEGA_USER, MEGA_PASS])
 
 # Upload file mới, ghi đè nếu đã tồn tại
-subprocess.run([
-    "mega-put",
-    desktop_zip,
-    mega_target,
-    "--force"
-])
+subprocess.run([r"C:\Users\Admin\AppData\Local\MEGAcmd\mega-put.exe",
+                desktop_zip,
+                mega_target,
+                "--force"])
 
 print("Upload hoàn tất!")
