@@ -96,9 +96,10 @@ document.getElementById("google-btn").addEventListener("click", () => {
 });
 
 // Khi click vào AI Playlist thì hiện nhóm công cụ
-  document.getElementById("ai-tools").addEventListener("click", function() {
-    this.parentElement.classList.toggle("show");
-  });
+document.getElementById("ai-btn").addEventListener("click", () => {
+  const toolsPanel = document.getElementById("ai-tools");
+  toolsPanel.style.display = toolsPanel.style.display === "none" ? "block" : "none";
+});
 
 // Hàm mở công cụ tương ứng
 async function openTool(toolName) {
