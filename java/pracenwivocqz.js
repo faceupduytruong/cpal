@@ -84,14 +84,14 @@ document.getElementById("translateBtn").addEventListener("click", async () => {
   }
 });
 
-// 👉 Nút Google: tìm trên Google với vocabulary + vietnamese + query
+// 👉 Nút Google: tìm trên Google với dịch + nghĩa + của + từ + query
 document.getElementById("search-btn").addEventListener("click", () => {
   const queryValue = document.getElementById("query").value.trim();
   if (!queryValue) {
     alert("Vui lòng nhập cụm từ cần tìm");
     return;
   }
-  const searchUrl = `https://www.bing.com/copilotsearch?q=vietnamese+${encodeURIComponent(queryValue)}&FORM=CSSCOP`;
+  const searchUrl = `https://www.bing.com/copilotsearch?q=dịch+nghĩa+của+từ+${encodeURIComponent(queryValue)}&FORM=CSSCOP`;
   window.open(searchUrl, "_blank");
 });
 
