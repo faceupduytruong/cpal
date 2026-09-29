@@ -345,4 +345,4 @@
            alert("❌ Sai.\nTừ: " + item.word + "\nĐáp án đúng: " + item.meaning);
          }
         };
-    }    
+    }
