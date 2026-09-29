@@ -84,7 +84,18 @@ document.getElementById("translateBtn").addEventListener("click", async () => {
   }
 });
 
-// 👉 Nút Google: tìm trên Google với soundcloud.com + query
+// 👉 Nút Google: tìm trên Google với vocabulary + vietnamese + query
+document.getElementById("search-btn").addEventListener("click", () => {
+  const queryValue = document.getElementById("query").value.trim();
+  if (!queryValue) {
+    alert("Vui lòng nhập cụm từ cần tìm");
+    return;
+  }
+  const searchUrl = `https://www.bing.com/copilotsearch?q=vietnamese+${encodeURIComponent(queryValue)}&FORM=CSSCOP`;
+  window.open(searchUrl, "_blank");
+});
+
+// 👉 Nút Google: tìm trên Google với vocabulary + vietnamese + query
 document.getElementById("google-btn").addEventListener("click", () => {
   const queryValue = document.getElementById("query").value.trim();
   if (!queryValue) {
