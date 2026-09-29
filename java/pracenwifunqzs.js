@@ -549,7 +549,7 @@ function startAntonymBattle() {
   });
 }
 
-// Trò chơi Quick Translation Race 
+// Trò chơi Quick Translation Race (Đua dịch nhanh)
 function startQuickTranslationRace() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length === 0) {
