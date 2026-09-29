@@ -35,6 +35,7 @@
     }
     .controls {
       display: flex;
+      flex-wrap: wrap; /* Cho phép xuống dòng */
       gap: 10px;              /* khoảng cách giữa nút Choose File và Start Quiz */
       justify-content: center;
     }
