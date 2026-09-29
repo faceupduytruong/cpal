@@ -455,7 +455,7 @@ function startWordScramble() {
   const scrambled = item.word.split("").sort(() => 0.5 - Math.random()).join("");
 
   const container = document.getElementById("game");
-  container.innerHTML = `<h2>Word Scramble</h2><p>${scrambled}</p><input id="ans"><button id="check">Check</button>`;
+  container.innerHTML = `<h2>Word Scramble</h2><p>${scrambled}</p><input id="ans" class="text-area2"><button2 id="check">Check</button2>`;
 
   document.getElementById("check").onclick = () => {
     const ans = document.getElementById("ans").value.trim();
@@ -476,9 +476,9 @@ function startSpellingBee() {
   container.innerHTML = `
     <h2>Spelling Bee</h2>
     <p>Nghe phát âm và gõ lại chính xác từ tiếng Anh</p>
-    <button id="play">🔊 Nghe từ</button>
-    <input id="ans" placeholder="Nhập từ tiếng Anh">
-    <button id="check">Check</button>
+    <button2 id="play">🔊 Nghe từ</button2>
+    <input id="ans" class="text-area2" placeholder="Nhập từ tiếng Anh">
+    <button2 id="check">Check</button2>
     <p id="result"></p>
   `;
 
@@ -579,9 +579,9 @@ function startQuickTranslationRace() {
     const quizArea = document.getElementById("quizArea");
     quizArea.innerHTML = `
       <p><b>${item.word}</b> (${item.type || ""})</p>
-      <input type="text" id="answer" placeholder="Nghĩa tiếng Việt">
-      <button id="checkBtn">Check</button>
-      <p id="timer">⏳ 5</p>
+      <input type="text" id="answer" class="text-area2" placeholder="Nghĩa tiếng Việt">
+      <button2 id="checkBtn">Check</button2>
+      <p id="timer">⏳ 20</p>
     `;
     document.getElementById("progress").textContent = `Câu ${index+1}/10`;
 
