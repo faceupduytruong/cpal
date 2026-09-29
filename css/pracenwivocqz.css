@@ -63,6 +63,65 @@
       margin-top: 4.0vh;
       margin-bottom: 1.9vh;
     }
+
+    h2 {
+      font-family: 'Gwendolyn', cursive;
+      font-weight: bold;
+      font-size: 2.2rem;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 15px 0px 25px rgba(0,0,0,1.5);
+      margin-top: 2vh;
+      margin-bottom: 2vh;
+    }
+    
+    h3a {
+      font-family: 'Quicksand', cursive;
+      font-weight: bold;
+      font-size: 1.1rem;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
+      margin-top: 2vh;
+      margin-bottom: 2vh;
+      animation: greenPulse100 17s ease-in-out infinite;
+    }
+    
+    h3b {
+      font-family: 'Quicksand', cursive;
+      font-weight: bold;
+      font-size: 1.1rem;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
+      margin-top: 2vh;
+      margin-bottom: 2vh;
+      animation: glowPulse100 17s ease-in-out infinite;
+    }
+    
+    h4a {
+      font-family: 'Quicksand', cursive;
+      font-weight: bold;
+      font-size: 1.1rem;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
+      margin-top: -10vh;
+      margin-bottom: 2.5vh;
+      animation: bluePulse100 17s ease-in-out infinite;
+    }
+    
+    h4b {
+      font-family: 'Quicksand', cursive;
+      font-weight: bold;
+      font-size: 1.1rem;
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 15px 4px 25px rgba(0,0,0,1.5);
+      margin-top: -10vh;
+      margin-bottom: 2.5vh;
+      animation: yellowPulse100 17s ease-in-out infinite;
+    }
        
     .card {
       background: rgba(255, 255, 255, 0.6); /* nền trắng trong suốt 60% */
