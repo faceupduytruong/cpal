@@ -556,7 +556,7 @@ function startAntonymBattle() {
 
   const optionsDiv = document.getElementById("options");
   options.forEach(opt => {
-    const btn = document.createElement("button");
+    const btn = document.createElement("button2");
     btn.textContent = opt;
     btn.style.margin = "5px";
     btn.onclick = () => {
