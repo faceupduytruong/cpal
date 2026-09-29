@@ -14,6 +14,7 @@
     reader.readAsText(file);
   });
 
+// Trò chơi Quiz (Nghĩa tiếng Việt)
 function startQuiz() {
   if (words.length === 0) {
     alert("⚠️ Bạn chưa nhập file JSON!");
@@ -57,6 +58,7 @@ function startQuiz() {
   });
 }
 
+// Trò chơi Quiz Multiple Choice (Trắc nghiệm)
 function startQuizMultipleChoice() {
   const validWords = words.filter(item => item.word && item.meaning);
   const shuffled = validWords.sort(() => 0.5 - Math.random());
@@ -98,6 +100,7 @@ function startQuizMultipleChoice() {
   });
 }
 
+// Trò chơi Quiz Fill Blank (Điền chỗ trống)
 function startQuizFillBlank() {
   const validWords = words.filter(item => item.word && item.example);
   const shuffled = validWords.sort(() => 0.5 - Math.random());
@@ -128,6 +131,7 @@ function startQuizFillBlank() {
   });
 }
 
+// Trò chơi Flashcards (Flashcards)
 function startFlashcards() {
   const validWords = words.filter(item => item.word && item.meaning);
   const shuffled = validWords.sort(() => 0.5 - Math.random());
@@ -149,6 +153,7 @@ function startFlashcards() {
   });
 }
 
+// Trò chơi Matching (Ghép đôi)
 function startMatching() {
   const validWords = words.filter(item => item.word && item.meaning);
   const shuffled = validWords.sort(() => 0.5 - Math.random()).slice(0, 6);
@@ -183,6 +188,7 @@ function startMatching() {
   });
 }
 
+// Trò chơi Speed Quiz (Đua thời gia)
 function startSpeedQuiz() {
   const validWords = words.filter(item => item.word && item.meaning);
   let score = 0, index = 0, timer;
@@ -231,6 +237,7 @@ function startSpeedQuiz() {
   nextQuestion();
 }
 
+// Trò chơi Hangman (Đoán chữ)
 function startHangman() {
   const validWords = words.filter(item => item.word && item.meaning);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
@@ -263,6 +270,7 @@ function startHangman() {
   };
 }
 
+// Trò chơi Sentence Builder (Xây dựng câu)
 function startSentenceBuilder() {
   const validWords = words.filter(item => item.word && item.example);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
@@ -283,6 +291,7 @@ function startSentenceBuilder() {
   });
 }
 
+// Trò chơi Memory Cards (Lật thẻ)
 function startMemoryCards() {
   const validWords = words.filter(item => item.word && item.meaning).slice(0, 4);
   const pairs = validWords.flatMap(item => [
@@ -318,6 +327,7 @@ function startMemoryCards() {
   }
 }
 
+// Trò chơi Listening Quiz (Nghe và đoán)
 function startListeningQuiz() {
   const validWords = words.filter(item => item.word && item.meaning);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
@@ -347,6 +357,7 @@ function startListeningQuiz() {
     };
 }
 
+// Trò chơi Category Sort (Phân loại từ)
 function startCategorySort() {
   const validWords = words.filter(item => item.word && item.type && item.meaning);
   const selected = validWords.sort(() => 0.5 - Math.random()).slice(0, 6);
@@ -419,6 +430,7 @@ function startCategorySort() {
   setupDrop("adjBox", "adj");
 }
 
+// Trò chơi Synonym Challenge (Thử thách từ đồng nghĩa)
 function startSynonymChallenge() {
   const validWords = words.filter(item => item.word && item.synonym);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
@@ -437,6 +449,7 @@ function startSynonymChallenge() {
   });
 }
 
+// Trò chơi Word Scramble (Xếp chữ)
 function startWordScramble() {
   const item = words[Math.floor(Math.random() * words.length)];
   const scrambled = item.word.split("").sort(() => 0.5 - Math.random()).join("");
@@ -454,6 +467,7 @@ function startWordScramble() {
   };
 }
 
+// Trò chơi Spelling Bee (Đánh vần)
 function startSpellingBee() {
   const validWords = words.filter(item => item.word);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
@@ -533,4 +547,69 @@ function startAntonymBattle() {
     };
     optionsDiv.appendChild(btn);
   });
+}
+
+// Trò chơi Quick Translation Race 
+function startQuickTranslationRace() {
+  const validWords = words.filter(item => item.word && item.meaning);
+  if (validWords.length === 0) {
+    alert("⚠️ Không có dữ liệu hợp lệ trong file JSON!");
+    return;
+  }
+
+  let score = 0;
+  let index = 0;
+  let timer;
+  let timeLeft = 5;
+
+  const container = document.getElementById("game");
+  container.innerHTML = `
+    <h2>Quick Translation Race</h2>
+    <div id="quizArea"></div>
+    <p id="progress"></p>
+  `;
+
+  function nextQuestion() {
+    if (index >= 10) {
+      alert("🏁 Kết thúc cuộc đua!\nĐiểm số của bạn: " + score + "/10");
+      return;
+    }
+
+    const item = validWords[Math.floor(Math.random() * validWords.length)];
+    const quizArea = document.getElementById("quizArea");
+    quizArea.innerHTML = `
+      <p><b>${item.word}</b> (${item.type || ""})</p>
+      <input type="text" id="answer" placeholder="Nghĩa tiếng Việt">
+      <button id="checkBtn">Check</button>
+      <p id="timer">⏳ 5</p>
+    `;
+    document.getElementById("progress").textContent = `Câu ${index+1}/10`;
+
+    timeLeft = 5;
+    timer = setInterval(() => {
+      timeLeft--;
+      document.getElementById("timer").textContent = "⏳ " + timeLeft;
+      if (timeLeft <= 0) {
+        clearInterval(timer);
+        alert("❌ Hết giờ! Đáp án: " + item.meaning);
+        index++;
+        nextQuestion();
+      }
+    }, 1000);
+
+    document.getElementById("checkBtn").onclick = () => {
+      clearInterval(timer);
+      const ans = document.getElementById("answer").value.trim();
+      if (ans === item.meaning) {
+        score++;
+        alert("✅ Chính xác!\nTừ: " + item.word + "\nNghĩa: " + item.meaning);
+      } else {
+        alert("❌ Sai!\nTừ: " + item.word + "\nĐáp án đúng: " + item.meaning);
+      }
+      index++;
+      nextQuestion();
+    };
+  }
+
+  nextQuestion();
 }
