@@ -432,20 +432,44 @@ function startCategorySort() {
 
 // Trò chơi Synonym Challenge (Thử thách từ đồng nghĩa)
 function startSynonymChallenge() {
-  const validWords = words.filter(item => item.word && item.synonym);
-  const item = validWords[Math.floor(Math.random() * validWords.length)];
-  const options = [item.synonym, ...validWords.slice(0,3).map(w => w.word)].sort(() => 0.5 - Math.random());
+  const validWords = words.filter(item => item.word);
+  if (validWords.length < 4) {
+    alert("⚠️ Cần ít nhất 4 từ trong file JSON để chơi!");
+    return;
+  }
 
+  // Chọn ngẫu nhiên một từ làm câu hỏi
+  const item = validWords[Math.floor(Math.random() * validWords.length)];
+
+  // Tạo 3 lựa chọn sai ngẫu nhiên
+  const wrongOptions = validWords
+    .filter(w => w.word !== item.word)
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 3)
+    .map(w => w.word);
+
+  // Ghép đáp án đúng + sai rồi xáo trộn
+  const options = [item.word, ...wrongOptions].sort(() => 0.5 - Math.random());
+
+  // Hiển thị giao diện
   const container = document.getElementById("game");
-  container.innerHTML = `<h2>Synonym Challenge</h2><p>Từ: ${item.word}</p>`;
+  container.innerHTML = `<h2>Word Recognition Challenge</h2>
+                         <p>Chọn đúng từ đã cho: <b>${item.word}</b></p>
+                         <div id="options"></div>`;
+
+  const optionsDiv = document.getElementById("options");
   options.forEach(opt => {
     const btn = document.createElement("button");
     btn.textContent = opt;
+    btn.style.margin = "5px";
     btn.onclick = () => {
-      if (opt === item.synonym) alert("✅ Chính xác! Đồng nghĩa: " + item.synonym);
-      else alert("❌ Sai. Đáp án: " + item.synonym);
+      if (opt === item.word) {
+        alert("✅ Chính xác! Từ: " + item.word);
+      } else {
+        alert("❌ Sai! Đáp án đúng: " + item.word);
+      }
     };
-    container.appendChild(btn);
+    optionsDiv.appendChild(btn);
   });
 }
 
