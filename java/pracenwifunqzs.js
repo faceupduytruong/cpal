@@ -656,4 +656,3 @@ function startQuizMultipleChoice2() {
     optionsDiv.appendChild(btn);
   });
 }
-</script>
