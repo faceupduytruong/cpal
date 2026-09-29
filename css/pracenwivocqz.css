@@ -63,14 +63,7 @@
       margin-top: 4.0vh;
       margin-bottom: 1.9vh;
     }
-    
-    #feed {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-      gap: 1rem;
-      padding: 1rem;
-    }
-    
+       
     .card {
       background: rgba(255, 255, 255, 0.6); /* nền trắng trong suốt 60% */
       padding: 1rem;
