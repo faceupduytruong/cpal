@@ -395,18 +395,7 @@ function startListeningQuiz() {
 // Trò chơi Category Sort (Phân loại từ)
 function startCategorySort() {
   const validWords = words.filter(item => item.word && item.type && item.meaning);
-
-  // Chọn 1 từ đúng duy nhất
-  const correctItem = validWords[Math.floor(Math.random() * validWords.length)];
-
-  // Chọn thêm các từ mồi nhử (có thể cùng loại hoặc khác loại, nhưng không phải từ đúng)
-  const distractors = validWords
-    .filter(w => w.word !== correctItem.word)
-    .sort(() => 0.5 - Math.random())
-    .slice(0, 5);
-
-  // Danh sách hiển thị gồm từ đúng + mồi nhử
-  const selected = [correctItem, ...distractors].sort(() => 0.5 - Math.random());
+  const selected = validWords.sort(() => 0.5 - Math.random()).slice(0, 6);
 
   const container = document.getElementById("game");
   container.innerHTML = `
@@ -438,17 +427,14 @@ function startCategorySort() {
     wordEl.style.border = "1px solid #333";
     wordEl.style.margin = "5px";
     wordEl.style.padding = "5px";
-
-    wordEl.dataset.types = item.type.toLowerCase();
+    wordEl.dataset.type = item.type.toLowerCase();
     wordEl.dataset.meaning = item.meaning;
-    wordEl.dataset.correct = (item.word === correctItem.word); // đánh dấu từ đúng
 
     wordEl.ondragstart = e => {
       e.dataTransfer.setData("text/plain", JSON.stringify({
         word: item.word,
-        types: item.type.toLowerCase(),
-        meaning: item.meaning,
-        correct: wordEl.dataset.correct
+        type: item.type.toLowerCase(),
+        meaning: item.meaning
       }));
     };
 
@@ -462,8 +448,12 @@ function startCategorySort() {
     box.ondrop = e => {
       e.preventDefault();
       const data = JSON.parse(e.dataTransfer.getData("text/plain"));
+      if (data.type === type) {
+        const el = document.createElement("div");
+        el.textContent = `${data.word} → ${data.meaning}`;
+        el.style.color = "green";
+        box.appendChild(el);
 
-      if (data.correct === "true" && data.types.includes(type)) {
         alert("✅ Đúng! " + data.word + " là từ duy nhất cần tìm kiếm");
 
         // Phát âm từ đúng
@@ -471,7 +461,7 @@ function startCategorySort() {
         utter.lang = "en-US";
         speechSynthesis.speak(utter);
 
-        // Sau khi phát âm xong thì chuyển sang bài tiếp theo
+        // Sau khi phát âm xong thì mở câu tiếp theo
         utter.onend = () => {
           startCategorySort();
         };
