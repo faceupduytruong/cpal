@@ -353,19 +353,23 @@ function startHangman() {
 function startSentenceBuilder() {
   const validWords = words.filter(item => item.word && item.example && item.meaning);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
-  const sentence = item.example.replace(item.word, "_____");
+  
+  // Tạo câu có chỗ trống
+  const sentenceWithBlank = item.example.replace(item.word, "_____");
 
   const container = document.getElementById("game");
-  container.innerHTML = `<h2>Sentence Builder</h2><p id="sentence">${sentence}</p>`;
+  container.innerHTML = `<h2>Sentence Builder</h2><p id="sentence">${sentenceWithBlank}</p>`;
 
+  // Tạo danh sách lựa chọn (1 đúng + vài sai)
   const options = [item.word, ...validWords.slice(0,3).map(w => w.word)].sort(() => 0.5 - Math.random());
+
   options.forEach(opt => {
     const btn = document.createElement("button2");
     btn.textContent = opt;
     btn.onclick = () => {
       const sentenceEl = document.getElementById("sentence");
       if (opt === item.word) {
-        // Điền từ đúng vào câu
+        // Khi chọn đúng: điền từ vào câu
         sentenceEl.textContent = item.example;
 
         // Hiện nghĩa tiếng Việt của từ
@@ -381,7 +385,7 @@ function startSentenceBuilder() {
           startSentenceBuilder();
         };
       } else {
-        // Tìm nghĩa của từ sai
+        // Khi chọn sai: hiện nghĩa của từ sai
         const wrongItem = validWords.find(w => w.word === opt);
         const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
         alert("❌ Sai! Nghĩa của \"" + opt + "\" là: " + meaning);
