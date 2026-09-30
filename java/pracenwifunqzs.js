@@ -397,6 +397,8 @@ function startCategorySort() {
   const validWords = words.filter(item => item.word && item.type && item.meaning);
   const selected = validWords.sort(() => 0.5 - Math.random()).slice(0, 6);
 
+  let wrongCount = 0; // đếm số lần sai
+
   const container = document.getElementById("game");
   container.innerHTML = `
     <h2>Category Sort</h2>
@@ -466,7 +468,14 @@ function startCategorySort() {
           startCategorySort();
         };
       } else {
-        alert("❌ Sai! " + data.word + " không phải là từ duy nhất cần tìm trong danh sách");
+        wrongCount++;
+        alert("❌ Sai! " + data.word + " (" + data.meaning + ") không phải là từ duy nhất cần tìm trong danh sách");
+
+        // Nếu sai 18 lần thì tự động chuyển sang câu tiếp theo
+        if (wrongCount >= 18) {
+          alert("⚠️ Bạn đã sai 18 lần, chuyển sang câu tiếp theo!");
+          startCategorySort();
+        }
       }
     };
   }
