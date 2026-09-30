@@ -21,7 +21,6 @@ function startQuiz() {
     return;
   }
 
-  // Lọc bỏ những từ không hợp lệ (không có word hoặc meaning)
   const validWords = words.filter(item => item.word && item.meaning);
 
   if (validWords.length === 0) {
@@ -29,7 +28,6 @@ function startQuiz() {
     return;
   }
 
-  // Lấy ngẫu nhiên 20 từ (hoặc ít hơn nếu dữ liệu < 20)
   const shuffled = validWords.sort(() => 0.5 - Math.random());
   const selected = shuffled.slice(0, 20);
 
@@ -47,13 +45,29 @@ function startQuiz() {
     `;
     const input = card.querySelector("input");
     const btn = card.querySelector("button2");
+
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
         alert("✅ Chính xác!");
       } else {
         alert("❌ Sai. Đáp án: " + item.meaning);
       }
+
+      // Phát âm từ
+      if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
+        const utterWord = new SpeechSynthesisUtterance(item.word);
+        utterWord.lang = "en-US";
+        speechSynthesis.speak(utterWord);
+      }
+
+      // Phát âm câu ví dụ nếu có
+      if (item.example) {
+        const utterExample = new SpeechSynthesisUtterance(item.example);
+        utterExample.lang = "en-US";
+        speechSynthesis.speak(utterExample);
+      }
     };
+
     container.appendChild(card);
   });
 }
@@ -146,9 +160,19 @@ function startFlashcards() {
     card.innerHTML = `<p><b>${item.word}</b></p><p class="hidden">${item.meaning}</p>`;
     const hidden = card.querySelector(".hidden");
     hidden.style.display = "none";
+
     card.onclick = () => {
+      // Hiện/ẩn nghĩa
       hidden.style.display = hidden.style.display === "none" ? "block" : "none";
+
+      // Phát âm từ nếu là tiếng Anh
+      if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
+        const utter = new SpeechSynthesisUtterance(item.word);
+        utter.lang = "en-US";
+        speechSynthesis.speak(utter);
+      }
     };
+
     container.appendChild(card);
   });
 }
