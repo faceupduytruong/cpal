@@ -707,6 +707,22 @@ function startQuizMultipleChoice2() {
       } else {
         alert("❌ Sai!\nCâu hỏi: " + questionText + "\nĐáp án đúng: " + correctAnswer);
       }
+
+      // Phát âm tiếng Anh nếu có
+      // Nếu câu hỏi hoặc đáp án là tiếng Anh thì phát âm
+      let speakText = null;
+      if (askEnglish) {
+        // Câu hỏi là tiếng Anh
+        speakText = item.word;
+      } else {
+        // Đáp án là tiếng Anh
+        speakText = item.word;
+      }
+      if (speakText) {
+        const utter = new SpeechSynthesisUtterance(speakText);
+        utter.lang = "en-US";
+        speechSynthesis.speak(utter);
+      }
     };
     optionsDiv.appendChild(btn);
   });
