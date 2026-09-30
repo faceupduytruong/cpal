@@ -392,13 +392,14 @@ function startCategorySort() {
     wordEl.style.border = "1px solid #333";
     wordEl.style.margin = "5px";
     wordEl.style.padding = "5px";
-    wordEl.dataset.type = item.type.toLowerCase(); // lưu loại từ
+    // Cho phép nhiều loại từ, ví dụ "noun, adj"
+    wordEl.dataset.types = item.type.toLowerCase();
     wordEl.dataset.meaning = item.meaning;
 
     wordEl.ondragstart = e => {
       e.dataTransfer.setData("text/plain", JSON.stringify({
         word: item.word,
-        type: item.type.toLowerCase(),
+        types: item.type.toLowerCase(),
         meaning: item.meaning
       }));
     };
@@ -413,12 +414,14 @@ function startCategorySort() {
     box.ondrop = e => {
       e.preventDefault();
       const data = JSON.parse(e.dataTransfer.getData("text/plain"));
-      if (data.type === type) {
+      // Kiểm tra nếu type nằm trong danh sách types (có thể nhiều loại)
+      const types = data.types.split(",").map(t => t.trim());
+      if (types.includes(type)) {
         const el = document.createElement("div");
         el.textContent = `${data.word} → ${data.meaning}`;
         el.style.color = "green";
         box.appendChild(el);
-        alert("✅ Đúng! " + data.word + " là " + type);
+        alert("✅ Đúng! " + data.word + " có thể là " + type);
       } else {
         alert("❌ Sai! " + data.word + " không phải " + type);
       }
