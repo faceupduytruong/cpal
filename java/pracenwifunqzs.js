@@ -490,20 +490,23 @@ function startWordScramble() {
 
 // Trò chơi Spelling Bee (Đánh vần)
 function startSpellingBee() {
-  const validWords = words.filter(item => item.word);
+  const validWords = words.filter(item => item.word && item.meaning);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
+
+  // Quyết định hỏi tiếng Anh hay tiếng Việt
+  const askEnglish = Math.random() < 0.5; // 50% hỏi tiếng Anh, 50% hỏi tiếng Việt
 
   const container = document.getElementById("game");
   container.innerHTML = `
     <h2>Spelling Bee</h2>
-    <p>Nghe phát âm và gõ lại chính xác từ tiếng Anh</p>
+    <p>${askEnglish ? "Nghe phát âm và gõ lại chính xác từ tiếng Anh" : "Gõ lại chính xác nghĩa tiếng Việt"}</p>
     <button2 id="play">🔊 Nghe từ</button2>
-    <input id="ans" class="text-area2" placeholder="Nhập từ tiếng Anh">
+    <input id="ans" class="text-area2" placeholder="${askEnglish ? "Nhập từ tiếng Anh" : "Nhập nghĩa tiếng Việt"}">
     <button2 id="check">Check</button2>
     <p id="result"></p>
   `;
 
-  // Phát âm từ
+  // Phát âm từ (luôn phát âm tiếng Anh)
   document.getElementById("play").onclick = () => {
     const utter = new SpeechSynthesisUtterance(item.word);
     utter.lang = "en-US";
@@ -514,12 +517,25 @@ function startSpellingBee() {
   document.getElementById("check").onclick = () => {
     const ans = document.getElementById("ans").value.trim();
     const result = document.getElementById("result");
-    if (ans.toLowerCase() === item.word.toLowerCase()) {
-      result.textContent = "✅ Chính xác! Từ: " + item.word;
-      result.style.color = "green";
+
+    if (askEnglish) {
+      // Người chơi phải gõ lại từ tiếng Anh
+      if (ans.toLowerCase() === item.word.toLowerCase()) {
+        result.textContent = "✅ Chính xác! Từ: " + item.word + " → Nghĩa: " + item.meaning;
+        result.style.color = "green";
+      } else {
+        result.textContent = "❌ Sai. Đáp án đúng: " + item.word + " → Nghĩa: " + item.meaning;
+        result.style.color = "red";
+      }
     } else {
-      result.textContent = "❌ Sai. Đáp án đúng: " + item.word;
-      result.style.color = "red";
+      // Người chơi phải gõ lại nghĩa tiếng Việt
+      if (ans === item.meaning) {
+        result.textContent = "✅ Chính xác! Nghĩa: " + item.meaning + " ← Từ: " + item.word;
+        result.style.color = "green";
+      } else {
+        result.textContent = "❌ Sai. Đáp án đúng: " + item.meaning + " ← Từ: " + item.word;
+        result.style.color = "red";
+      }
     }
   };
 }
