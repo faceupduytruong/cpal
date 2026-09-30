@@ -351,7 +351,7 @@ function startHangman() {
 
 // Trò chơi Sentence Builder (Xây dựng câu)
 function startSentenceBuilder() {
-  const validWords = words.filter(item => item.word && item.example && item.meaning);
+  const validWords = words.filter(item => item.word && item.example && item.meaning && item.sentenceMeaning);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
   const sentence = item.example.replace(item.word, "_____");
 
@@ -368,8 +368,9 @@ function startSentenceBuilder() {
         // Điền từ đúng vào câu
         sentenceEl.textContent = item.example;
 
-        // Thông báo kết quả
-        alert("✅ Chính xác!");
+        // Hiện nghĩa tiếng Việt của từ và câu
+        alert("✅ Chính xác!\nTừ: " + item.word + " → " + item.meaning +
+              "\nCâu: " + item.example + " → " + item.sentenceMeaning);
 
         // Phát âm cả câu ví dụ (đã điền từ đúng)
         const utter = new SpeechSynthesisUtterance(item.example);
