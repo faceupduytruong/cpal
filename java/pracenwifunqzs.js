@@ -138,36 +138,44 @@ function startQuizFillBlank() {
   container.innerHTML = "";
 
   selected.forEach(item => {
-    const sentence = item.example.replace(item.word, "_____");
+    const sentenceWithBlank = item.example.replace(item.word, "_____");
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
-      <p>${sentence}</p>
+      <p class="sentence">${sentenceWithBlank}</p>
       <input type="text" placeholder="Điền từ tiếng Anh">
       <button2>Check</button2>
     `;
     const input = card.querySelector("input");
     const btn = card.querySelector("button2");
+    const sentenceEl = card.querySelector(".sentence");
 
     btn.onclick = () => {
       if (input.value.trim().toLowerCase() === item.word.toLowerCase()) {
         alert("✅ Chính xác!");
-      } else {
-        alert("❌ Sai. Đáp án: " + item.word);
-      }
+        // Điền từ vào chỗ trống
+        sentenceEl.textContent = item.example;
 
-      // Phát âm từ
-      if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
-        const utterWord = new SpeechSynthesisUtterance(item.word);
-        utterWord.lang = "en-US";
-        speechSynthesis.speak(utterWord);
-      }
-
-      // Phát âm câu ví dụ nếu có
-      if (item.example) {
+        // Phát âm cả câu ví dụ
         const utterExample = new SpeechSynthesisUtterance(item.example);
         utterExample.lang = "en-US";
         speechSynthesis.speak(utterExample);
+      } else {
+        alert("❌ Sai. Đáp án: " + item.word);
+
+        // Phát âm từ sai (từ đúng cần điền)
+        if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
+          const utterWord = new SpeechSynthesisUtterance(item.word);
+          utterWord.lang = "en-US";
+          speechSynthesis.speak(utterWord);
+        }
+
+        // Phát âm câu ví dụ nếu có
+        if (item.example) {
+          const utterExample = new SpeechSynthesisUtterance(item.example);
+          utterExample.lang = "en-US";
+          speechSynthesis.speak(utterExample);
+        }
       }
     };
 
