@@ -392,6 +392,7 @@ function startCategorySort() {
     wordEl.style.border = "1px solid #333";
     wordEl.style.margin = "5px";
     wordEl.style.padding = "5px";
+
     // Cho phép nhiều loại từ, ví dụ "noun, adj"
     wordEl.dataset.types = item.type.toLowerCase();
     wordEl.dataset.meaning = item.meaning;
@@ -414,8 +415,8 @@ function startCategorySort() {
     box.ondrop = e => {
       e.preventDefault();
       const data = JSON.parse(e.dataTransfer.getData("text/plain"));
-      // Kiểm tra nếu type nằm trong danh sách types (có thể nhiều loại)
-      const types = data.types.split(",").map(t => t.trim());
+      // Tách nhiều loại từ
+      const types = data.types.split(",").map(t => t.trim().toLowerCase());
       if (types.includes(type)) {
         const el = document.createElement("div");
         el.textContent = `${data.word} → ${data.meaning}`;
