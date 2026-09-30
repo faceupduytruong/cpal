@@ -709,19 +709,28 @@ function startQuizMultipleChoice2() {
       }
 
       // Phát âm tiếng Anh nếu có
-      // Nếu câu hỏi hoặc đáp án là tiếng Anh thì phát âm
       let speakText = null;
       if (askEnglish) {
-        // Câu hỏi là tiếng Anh
-        speakText = item.word;
+        speakText = item.word; // câu hỏi là tiếng Anh
       } else {
-        // Đáp án là tiếng Anh
-        speakText = item.word;
+        speakText = item.word; // đáp án là tiếng Anh
       }
       if (speakText) {
         const utter = new SpeechSynthesisUtterance(speakText);
         utter.lang = "en-US";
         speechSynthesis.speak(utter);
+
+        // Sau khi phát âm xong, nếu trả lời đúng thì hiện câu hỏi mới
+        utter.onend = () => {
+          if (opt === correctAnswer) {
+            startQuizMultipleChoice2();
+          }
+        };
+      } else {
+        // Nếu không có phát âm, vẫn hiện câu hỏi mới nếu đúng
+        if (opt === correctAnswer) {
+          startQuizMultipleChoice2();
+        }
       }
     };
     optionsDiv.appendChild(btn);
