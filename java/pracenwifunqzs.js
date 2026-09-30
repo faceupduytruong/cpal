@@ -309,8 +309,8 @@ function startSentenceBuilder() {
         // Thông báo kết quả
         alert("✅ Chính xác!");
 
-        // Phát âm từ đúng nếu là tiếng Anh
-        const utter = new SpeechSynthesisUtterance(item.word);
+        // Phát âm cả câu ví dụ (đã điền từ đúng)
+        const utter = new SpeechSynthesisUtterance(item.example);
         utter.lang = "en-US";
         speechSynthesis.speak(utter);
 
@@ -395,7 +395,18 @@ function startListeningQuiz() {
 // Trò chơi Category Sort (Phân loại từ)
 function startCategorySort() {
   const validWords = words.filter(item => item.word && item.type && item.meaning);
-  let selected = validWords.sort(() => 0.5 - Math.random()).slice(0, 6);
+
+  // Chọn 1 từ đúng duy nhất
+  const correctItem = validWords[Math.floor(Math.random() * validWords.length)];
+
+  // Chọn thêm các từ sai (không cùng loại với từ đúng)
+  const distractors = validWords
+    .filter(w => w.word !== correctItem.word) // loại bỏ từ đúng
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 5); // lấy thêm 5 từ mồi nhử
+
+  // Danh sách hiển thị gồm từ đúng + mồi nhử
+  const selected = [correctItem, ...distractors];
 
   const container = document.getElementById("game");
   container.innerHTML = `
@@ -419,17 +430,8 @@ function startCategorySort() {
     box.style.minHeight = "150px";
   });
 
-  // Hàm hiển thị từ tiếp theo
-  function showNextWord() {
-    const wordList = document.getElementById("wordList");
-    wordList.innerHTML = "<h3>Từ vựng</h3>"; // reset danh sách
-
-    if (selected.length === 0) {
-      wordList.innerHTML += "<p>🎉 Hoàn thành tất cả từ!</p>";
-      return;
-    }
-
-    const item = selected.shift(); // lấy từ đầu tiên
+  // Thêm từ vào danh sách
+  selected.forEach(item => {
     const wordEl = document.createElement("div");
     wordEl.textContent = item.word;
     wordEl.draggable = true;
@@ -439,17 +441,19 @@ function startCategorySort() {
 
     wordEl.dataset.types = item.type.toLowerCase();
     wordEl.dataset.meaning = item.meaning;
+    wordEl.dataset.correct = (item.word === correctItem.word); // đánh dấu từ đúng
 
     wordEl.ondragstart = e => {
       e.dataTransfer.setData("text/plain", JSON.stringify({
         word: item.word,
         types: item.type.toLowerCase(),
-        meaning: item.meaning
+        meaning: item.meaning,
+        correct: wordEl.dataset.correct
       }));
     };
 
-    wordList.appendChild(wordEl);
-  }
+    document.getElementById("wordList").appendChild(wordEl);
+  });
 
   // Hàm xử lý drop
   function setupDrop(boxId, type) {
@@ -458,19 +462,18 @@ function startCategorySort() {
     box.ondrop = e => {
       e.preventDefault();
       const data = JSON.parse(e.dataTransfer.getData("text/plain"));
-      const types = data.types.split(",").map(t => t.trim().toLowerCase());
 
-      if (types.includes(type)) {
+      if (data.correct === "true" && data.types.includes(type)) {
         alert("✅ Đúng! " + data.word + " là từ duy nhất cần tìm kiếm");
 
-        // Phát âm nếu là tiếng Anh (word)
+        // Phát âm từ đúng
         const utter = new SpeechSynthesisUtterance(data.word);
         utter.lang = "en-US";
         speechSynthesis.speak(utter);
 
-        // Sau khi phát âm xong thì chuyển sang từ tiếp theo
+        // Sau khi phát âm xong thì chuyển sang bài tiếp theo
         utter.onend = () => {
-          showNextWord();
+          startCategorySort();
         };
       } else {
         alert("❌ Sai! " + data.word + " không phải là từ duy nhất cần tìm trong danh sách");
@@ -481,9 +484,6 @@ function startCategorySort() {
   setupDrop("nounBox", "noun");
   setupDrop("verbBox", "verb");
   setupDrop("adjBox", "adj");
-
-  // Bắt đầu với từ đầu tiên
-  showNextWord();
 }
 
 // Trò chơi Synonym Challenge (Thử thách từ đồng nghĩa)
