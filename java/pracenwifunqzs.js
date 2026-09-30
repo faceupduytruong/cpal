@@ -579,6 +579,21 @@ function startSynonymChallenge() {
     btn.onclick = () => {
       if (opt === item.synonym) {
         alert("✅ Chính xác!\nTừ: " + item.word + "\nĐồng nghĩa: " + item.synonym);
+
+        // Phát âm từ gốc nếu là tiếng Anh
+        if (/^[a-zA-Z\s]+$/.test(item.word)) {
+          const utterWord = new SpeechSynthesisUtterance(item.word);
+          utterWord.lang = "en-US";
+          speechSynthesis.speak(utterWord);
+        }
+
+        // Phát âm từ đồng nghĩa nếu là tiếng Anh
+        if (/^[a-zA-Z\s]+$/.test(item.synonym)) {
+          const utterSyn = new SpeechSynthesisUtterance(item.synonym);
+          utterSyn.lang = "en-US";
+          speechSynthesis.speak(utterSyn);
+        }
+
       } else {
         alert("❌ Sai!\nTừ: " + item.word + "\nĐáp án đúng: " + item.synonym);
       }
