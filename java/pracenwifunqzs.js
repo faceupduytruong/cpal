@@ -526,8 +526,8 @@ function startSpellingBee() {
 
 // Trò chơi Antonym Battle (Đoán từ trái nghĩa)
 function startAntonymBattle() {
-  // Lọc dữ liệu có word, meaning và antonym
-  const validWords = words.filter(item => item.word && item.meaning && item.antonym);
+  // Lọc dữ liệu có word, meaning, antonym và antonymMeaning
+  const validWords = words.filter(item => item.word && item.meaning && item.antonym && item.antonymMeaning);
   if (validWords.length === 0) {
     alert("⚠️ Không có dữ liệu từ trái nghĩa trong file JSON!");
     return;
@@ -561,9 +561,9 @@ function startAntonymBattle() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === item.antonym) {
-        alert("✅ Chính xác!\nTừ: " + item.word + "\nTrái nghĩa: " + item.antonym);
+        alert("✅ Chính xác!\nTừ: " + item.word + "\nTrái nghĩa: " + item.antonym + "\nNghĩa trái nghĩa: " + item.antonymMeaning);
       } else {
-        alert("❌ Sai!\nTừ: " + item.word + "\nTrái nghĩa đúng: " + item.antonym);
+        alert("❌ Sai!\nTừ: " + item.word + "\nTrái nghĩa đúng: " + item.antonym + "\nNghĩa trái nghĩa: " + item.antonymMeaning);
       }
     };
     optionsDiv.appendChild(btn);
