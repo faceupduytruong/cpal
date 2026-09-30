@@ -418,11 +418,9 @@ function startCategorySort() {
       // Tách nhiều loại từ
       const types = data.types.split(",").map(t => t.trim().toLowerCase());
       if (types.includes(type)) {
-        const el = document.createElement("div");
-        el.textContent = `${data.word} → ${data.meaning}`;
-        el.style.color = "green";
-        box.appendChild(el);
         alert("✅ Đúng! " + data.word + " có thể là " + type);
+        // Reset lại trò chơi sau khi chọn đúng
+        startCategorySort();
       } else {
         alert("❌ Sai! " + data.word + " không phải " + type);
       }
