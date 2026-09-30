@@ -351,7 +351,7 @@ function startHangman() {
 
 // Trò chơi Sentence Builder (Xây dựng câu)
 function startSentenceBuilder() {
-  const validWords = words.filter(item => item.word && item.example);
+  const validWords = words.filter(item => item.word && item.example && item.meaning);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
   const sentence = item.example.replace(item.word, "_____");
 
@@ -381,7 +381,10 @@ function startSentenceBuilder() {
           startSentenceBuilder();
         };
       } else {
-        alert("❌ Sai. Đáp án: " + item.word);
+        // Tìm nghĩa của từ sai
+        const wrongItem = validWords.find(w => w.word === opt);
+        const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
+        alert("❌ Sai! Nghĩa của \"" + opt + "\" là: " + meaning);
       }
     };
     container.appendChild(btn);
