@@ -519,12 +519,14 @@ function startCategorySort() {
     box.ondrop = e => {
       e.preventDefault();
       const data = JSON.parse(e.dataTransfer.getData("text/plain"));
-      if (data.type === type) {
-        const el = document.createElement("div");
-        el.textContent = `${data.word} → ${data.meaning}`;
-        el.style.color = "green";
-        box.appendChild(el);
 
+      // Luôn thêm từ vào box
+      const el = document.createElement("div");
+      el.textContent = `${data.word} → ${data.meaning}`;
+      box.appendChild(el);
+
+      if (data.type === type) {
+        el.style.color = "green";
         alert("✅ Đúng! " + data.word + " là từ duy nhất cần tìm kiếm");
 
         // Phát âm từ đúng
@@ -537,6 +539,7 @@ function startCategorySort() {
           startCategorySort();
         };
       } else {
+        el.style.color = "red";
         wrongCount++;
         alert("❌ Sai! " + data.word + " (" + data.meaning + ") không phải là từ duy nhất cần tìm trong danh sách");
 
@@ -556,7 +559,7 @@ function startCategorySort() {
 
 // Trò chơi Synonym Challenge (Thử thách từ đồng nghĩa)
 function startSynonymChallenge() {
-  const validWords = words.filter(item => item.word && item.synonym);
+  const validWords = words.filter(item => item.word && item.synonym && item.meaning);
   if (validWords.length < 4) {
     alert("⚠️ Cần ít nhất 4 từ có synonym để chơi!");
     return;
@@ -585,16 +588,17 @@ function startSynonymChallenge() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === item.synonym) {
-        alert("✅ Chính xác!\nTừ: " + item.word + "\nĐồng nghĩa: " + item.synonym);
+        alert("✅ Chính xác!\nTừ: " + item.word + " → " + item.meaning +
+              "\nĐồng nghĩa: " + item.synonym);
 
-        // Phát âm từ gốc nếu là tiếng Anh
+        // Phát âm từ gốc
         if (/^[a-zA-Z\s]+$/.test(item.word)) {
           const utterWord = new SpeechSynthesisUtterance(item.word);
           utterWord.lang = "en-US";
           speechSynthesis.speak(utterWord);
         }
 
-        // Phát âm từ đồng nghĩa nếu là tiếng Anh
+        // Phát âm từ đồng nghĩa
         if (/^[a-zA-Z\s]+$/.test(item.synonym)) {
           const utterSyn = new SpeechSynthesisUtterance(item.synonym);
           utterSyn.lang = "en-US";
@@ -602,7 +606,17 @@ function startSynonymChallenge() {
         }
 
       } else {
-        alert("❌ Sai!\nTừ: " + item.word + "\nĐáp án đúng: " + item.synonym);
+        // Tìm nghĩa của từ sai
+        const wrongItem = validWords.find(w => w.word === opt);
+        const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
+        alert("❌ Sai!\nBạn chọn: " + opt + " → " + meaning);
+
+        // Phát âm từ sai
+        if (/^[a-zA-Z\s]+$/.test(opt)) {
+          const utterWrong = new SpeechSynthesisUtterance(opt);
+          utterWrong.lang = "en-US";
+          speechSynthesis.speak(utterWrong);
+        }
       }
     };
     container.appendChild(btn);
