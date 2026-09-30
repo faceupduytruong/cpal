@@ -399,14 +399,14 @@ function startCategorySort() {
   // Chọn 1 từ đúng duy nhất
   const correctItem = validWords[Math.floor(Math.random() * validWords.length)];
 
-  // Chọn thêm các từ sai (không cùng loại với từ đúng)
+  // Chọn thêm các từ mồi nhử (có thể cùng loại hoặc khác loại, nhưng không phải từ đúng)
   const distractors = validWords
-    .filter(w => w.word !== correctItem.word) // loại bỏ từ đúng
+    .filter(w => w.word !== correctItem.word)
     .sort(() => 0.5 - Math.random())
-    .slice(0, 5); // lấy thêm 5 từ mồi nhử
+    .slice(0, 5);
 
   // Danh sách hiển thị gồm từ đúng + mồi nhử
-  const selected = [correctItem, ...distractors];
+  const selected = [correctItem, ...distractors].sort(() => 0.5 - Math.random());
 
   const container = document.getElementById("game");
   container.innerHTML = `
