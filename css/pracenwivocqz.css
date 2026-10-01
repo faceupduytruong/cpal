@@ -9,7 +9,6 @@
     body.dark-mode {
       background-color: #121212;
       color: #ffffff;
-      text-shadow:2px 2px 4px white;
     }
     
     @font-face {
@@ -407,6 +406,10 @@
     body.dark-mode #btn-station {
       background-color: rgba(0, 0, 0, 0.3);
       color: #fff;
+    }
+
+    body.dark-mode #scoreBoard {
+      text-shadow:2px 2px 4px white;
     }
     
     /* Nút Discover - mặc định (light mode) */
