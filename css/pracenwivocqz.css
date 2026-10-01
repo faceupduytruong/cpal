@@ -39,6 +39,9 @@
       gap: 10px;              /* khoảng cách giữa nút Choose File và Start Quiz */
       justify-content: center;
     }
+    .controls button { 
+      margin: 5px; 
+    }
     #game {
       margin-top: 20px;
       display: flex;
@@ -376,6 +379,7 @@
     /* Nút Mode 🥭 và Tools 🍉 giống nhau */
     #toggleTheme,
     #toolsBtn,
+    #showprogress,
     #btn-station {
       font-family: 'Quicksand', sans-serif;
       font-size: 18px;
@@ -398,6 +402,7 @@
     /* Khi click (dark mode) */
     body.dark-mode #toggleTheme,
     body.dark-mode #toolsBtn,
+    body.dark-mode #showprogress,
     body.dark-mode #btn-station {
       background-color: rgba(0, 0, 0, 0.3);
       color: #fff;
@@ -527,7 +532,8 @@
     }
     
     .file-btn {
-      background-color: rgba(70, 130, 180, 0.5); /* SteelBlue mờ 50% */
+      background: rgba(70, 130, 180, 0.5); /* SteelBlue mờ 50% */  
+      background-color: rgba(255, 192, 203, 0.5); /* Pink mờ 50% */
       border: 1px solid rgba(255, 255, 255, 0.3);
       color: #fff;
       font-weight: bold;
