@@ -49,7 +49,7 @@ function startQuiz() {
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
         alert("✅ Chính xác!");
-        addPoint(); // 👉 cộng điểm ngay khi đúng
+        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
       } else {
         alert("❌ Sai. Đáp án: " + item.meaning);
       }
@@ -105,7 +105,7 @@ function startQuizMultipleChoice() {
       btn.onclick = () => {
         if (btn.textContent === item.meaning) {
           alert("✅ Chính xác!");
-          addPoint(); // 👉 cộng điểm ngay khi đúng
+          addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
         } else {
           alert("❌ Sai. Đáp án: " + item.meaning);
         }
@@ -155,7 +155,7 @@ function startQuizFillBlank() {
     btn.onclick = () => {
       if (input.value.trim().toLowerCase() === item.word.toLowerCase()) {
         alert("✅ Chính xác!");
-        addPoint(); // 👉 cộng điểm ngay khi đúng
+        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
         // Điền từ vào chỗ trống
         sentenceEl.textContent = item.example;
 
@@ -292,7 +292,7 @@ function startSpeedQuiz() {
       if (ans === item.meaning) {
         score++;
         alert("✅ Chính xác!");
-        addPoint(); // 👉 cộng điểm ngay khi đúng
+        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
       } else {
         alert("❌ Sai. Đáp án: " + item.meaning);
       }
@@ -378,7 +378,7 @@ function startSentenceBuilder() {
 
         // Hiện nghĩa tiếng Việt của từ
         alert("✅ Chính xác!\nTừ: " + item.word + " → " + item.meaning);
-        addPoint(); // 👉 cộng điểm ngay khi đúng
+        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
 
         // Phát âm cả câu ví dụ (đã điền từ đúng)
         const utter = new SpeechSynthesisUtterance(item.example);
@@ -460,7 +460,7 @@ function startListeningQuiz() {
     const ans = document.getElementById("ans").value.trim();
     if (ans === item.meaning) {
        alert("✅ Chính xác!\nTừ: " + item.word + "\nNghĩa: " + item.meaning);
-       addPoint(); // 👉 cộng điểm ngay khi đúng
+       addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
      } else {
        alert("❌ Sai.\nTừ: " + item.word + "\nĐáp án đúng: " + item.meaning);
      }
@@ -596,7 +596,7 @@ function startSynonymChallenge() {
       if (opt === item.synonym) {
         alert("✅ Chính xác!\nTừ: " + item.word + " → " + item.meaning +
               "\nĐồng nghĩa: " + item.synonym);
-        addPoint(); // 👉 cộng điểm ngay khi đúng
+        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
 
         // Phát âm từ gốc
         if (/^[a-zA-Z\s]+$/.test(item.word)) {
@@ -642,7 +642,7 @@ function startWordScramble() {
     const ans = document.getElementById("ans").value.trim();
     if (ans.toLowerCase() === item.word.toLowerCase()) {
       alert("✅ Chính xác! Từ: " + item.word);
-      addPoint(); // 👉 cộng điểm ngay khi đúng
+      addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
     } else {
       alert("❌ Sai. Đáp án: " + item.word);
     }
@@ -739,7 +739,7 @@ function startAntonymBattle() {
     btn.onclick = () => {
       if (opt === item.antonym) {
         alert("✅ Chính xác!\nTừ: " + item.word + "\nTrái nghĩa: " + item.antonym + "\nNghĩa trái nghĩa: " + item.antonymMeaning);
-        addPoint(); // 👉 cộng điểm ngay khi đúng
+        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
       } else {
         alert("❌ Sai!\nTừ: " + item.word + "\nTrái nghĩa đúng: " + item.antonym + "\nNghĩa trái nghĩa: " + item.antonymMeaning);
       }
@@ -802,7 +802,7 @@ function startQuickTranslationRace() {
       if (ans === item.meaning) {
         score++;
         alert("✅ Chính xác!\nTừ: " + item.word + "\nNghĩa: " + item.meaning);
-        addPoint(); // 👉 cộng điểm ngay khi đúng
+        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
       } else {
         alert("❌ Sai!\nTừ: " + item.word + "\nĐáp án đúng: " + item.meaning);
       }
@@ -867,7 +867,7 @@ function startQuizMultipleChoice2() {
     btn.onclick = () => {
       if (opt === correctAnswer) {
         alert("✅ Chính xác!\nCâu hỏi: " + questionText + "\nĐáp án: " + correctAnswer);
-        addPoint(); // 👉 cộng điểm ngay khi đúng
+        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
       } else {
         alert("❌ Sai!\nCâu hỏi: " + questionText + "\nĐáp án đúng: " + correctAnswer);
       }
