@@ -547,7 +547,7 @@
       justify-content: center;
     }
     .file-btn:hover {
-      background-color: rgba(255, 192, 203, 0.5); /* Pink mờ 50% */
+      background-color: rgba(70, 130, 180, 0.5); /* SteelBlue mờ 50% */  
       transform: scale(1.05);
     }
     
