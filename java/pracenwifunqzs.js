@@ -15,7 +15,7 @@
   });
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
-let currentUtter = null; // biến lưu câu đang phát âm
+let currentUtter = null; // lưu câu đang phát âm
 
 function startQuiz() {
   if (words.length === 0) {
@@ -43,24 +43,21 @@ function startQuiz() {
       <p><i>${item.example || ""}</i></p>
       <input type="text" placeholder="Nghĩa tiếng Việt ?">
       <button2>Check</button2>
-      <div class="result"></div>
     `;
     const input = card.querySelector("input");
     const btn = card.querySelector("button2");
-    const resultDiv = card.querySelector(".result");
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
-        alert("✅ Chính xác!");
+        // Thông báo chính xác kèm nghĩa từ và dịch câu ví dụ
+        alert(
+          "✅ Chính xác!\n" +
+          "Nghĩa từ: " + item.meaning + "\n" +
+          "Dịch câu ví dụ: " + (item.translation || "(chưa có dịch)")
+        );
         addPoint(item.word);
 
-        // Hiển thị nghĩa của từ và dịch câu ví dụ
-        resultDiv.innerHTML = `
-          <p><b>Nghĩa từ:</b> ${item.meaning}</p>
-          <p><b>Dịch câu ví dụ:</b> ${item.translation || "(chưa có dịch nghĩa)"}</p>
-        `;
-
-        // Dừng phát âm trước đó nếu có
+        // Dừng phát âm trước đó
         if (currentUtter) {
           speechSynthesis.cancel();
           currentUtter = null;
@@ -87,6 +84,7 @@ function startQuiz() {
 
     container.appendChild(card);
   });
+}
 
 // Trò chơi Quiz Multiple Choice (Trắc nghiệm)
 function startQuizMultipleChoice() {
