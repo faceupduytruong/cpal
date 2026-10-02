@@ -51,14 +51,13 @@ function startQuiz() {
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
-        // Thông báo chính xác
         alert("✅ Chính xác!");
         addPoint(item.word);
 
-        // Hiển thị nghĩa của từ và nghĩa câu ví dụ
+        // Hiển thị nghĩa của từ và dịch câu ví dụ
         resultDiv.innerHTML = `
           <p><b>Nghĩa từ:</b> ${item.meaning}</p>
-          <p><b>Dịch câu ví dụ:</b> ${translateExample(item.example)}</p>
+          <p><b>Dịch câu ví dụ:</b> ${item.translation || "(chưa có dịch nghĩa)"}</p>
         `;
 
         // Dừng phát âm trước đó nếu có
@@ -88,14 +87,6 @@ function startQuiz() {
 
     container.appendChild(card);
   });
-}
-
-// Hàm dịch câu ví dụ (ở đây demo đơn giản, bạn có thể thay bằng API dịch)
-function translateExample(example) {
-  // Tạm thời chỉ trả về câu tiếng Anh kèm chú thích
-  // Bạn có thể tích hợp Google Translate API hoặc dịch thủ công trong JSON
-  return "(dịch nghĩa câu ví dụ cần thêm vào dữ liệu JSON hoặc API)";
-}
 
 // Trò chơi Quiz Multiple Choice (Trắc nghiệm)
 function startQuizMultipleChoice() {
