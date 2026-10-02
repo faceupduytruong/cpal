@@ -19,7 +19,7 @@ let currentUtter = null;
 
 function showCustomAlert(item) {
   const content = `
-    <p>Từ: <b style="font-size:4em;">${item.word}</b><b style="font-size:2em;color:blue;">(${item.pinyin || "chưa có pinyin"})</b></p>
+    <p>Từ: <b style="font-size:4em;">${item.word}</b><b style="font-size:2em;color:cyan;">(${item.pinyin || "chưa có pinyin"})</b></p>
     <p>Nghĩa từ: ${item.meaning}</p>
     <p>Câu ví dụ: <b style="font-size:4em;">${item.example}</b><br><b style="font-size:2em;color:cyan;">(${item.examplePinyin || "chưa có pinyin"})</b></p>
     <p>Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
