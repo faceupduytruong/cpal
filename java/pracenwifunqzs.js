@@ -396,8 +396,12 @@ function startSentenceBuilder() {
         // Khi chọn đúng: điền từ vào câu
         sentenceEl.textContent = item.example;
 
-        // Hiện nghĩa tiếng Việt của từ
-        alert("✅ Chính xác!\nTừ: " + item.word + " → " + item.meaning);
+        // Hiện nghĩa tiếng Việt của từ + nghĩa câu
+        alert(
+          "✅ Chính xác!\n" +
+          "Từ: " + item.word + " → " + item.meaning + "\n" +
+          "Nghĩa câu: " + (item.translation || "(chưa có dịch)")
+        );
         addPoint(item.word);
 
         // Phát âm cả câu ví dụ (đã điền từ đúng)
