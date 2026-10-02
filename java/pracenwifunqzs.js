@@ -377,8 +377,15 @@ function startSentenceBuilder() {
   const container = document.getElementById("game");
   container.innerHTML = `<h2>Sentence Builder</h2><p id="sentence">${sentenceWithBlank}</p>`;
 
-  // Tạo danh sách lựa chọn (1 đúng + vài sai)
-  const options = [item.word, ...validWords.slice(0,3).map(w => w.word)].sort(() => 0.5 - Math.random());
+  // Lấy ngẫu nhiên 3 từ sai khác từ đúng
+  const wrongOptions = validWords
+    .filter(w => w.word !== item.word) // loại bỏ từ đúng
+    .sort(() => 0.5 - Math.random())   // xáo trộn
+    .slice(0, 3)                       // lấy 3 từ sai
+    .map(w => w.word);
+
+  // Gộp từ đúng + sai rồi xáo trộn
+  const options = [item.word, ...wrongOptions].sort(() => 0.5 - Math.random());
 
   options.forEach(opt => {
     const btn = document.createElement("button2");
@@ -391,7 +398,7 @@ function startSentenceBuilder() {
 
         // Hiện nghĩa tiếng Việt của từ
         alert("✅ Chính xác!\nTừ: " + item.word + " → " + item.meaning);
-        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
+        addPoint(item.word);
 
         // Phát âm cả câu ví dụ (đã điền từ đúng)
         const utter = new SpeechSynthesisUtterance(item.example);
