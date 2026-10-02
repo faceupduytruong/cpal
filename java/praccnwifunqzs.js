@@ -15,9 +15,11 @@
   });
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
-let currentUtter = null; // lưu câu đang phát âm
+let currentItem = null;   // lưu item hiện tại
+let currentUtter = null;  // lưu câu đang phát âm
 
 function showCustomAlert(item) {
+  currentItem = item; // lưu lại item để dùng cho "Nói lại"
   const content = `
     <div style="text-align:center;">
       <p>
@@ -40,11 +42,26 @@ function closeAlert() {
   document.getElementById("alertBox").style.display = "none";
 }
 
-// Hàm nói lại câu ví dụ hiện tại
+// Hàm nói lại: nói từ trước, rồi nói câu
 function repeatUtter() {
-  if (currentUtter) {
+  if (currentItem) {
     speechSynthesis.cancel(); // dừng nếu đang nói
-    speechSynthesis.speak(currentUtter); // phát lại câu hiện tại
+
+    // Phát âm từ
+    if (currentItem.word) {
+      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+      utterWord.lang = "zh-CN";
+      speechSynthesis.speak(utterWord);
+
+      // Sau khi nói từ xong thì nói câu
+      utterWord.onend = () => {
+        if (currentItem.example) {
+          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+          currentUtter.lang = "zh-CN";
+          speechSynthesis.speak(currentUtter);
+        }
+      };
+    }
   }
 }
 
