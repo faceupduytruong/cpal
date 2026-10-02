@@ -49,10 +49,12 @@ function startQuiz() {
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
-        // Thông báo chính xác kèm nghĩa từ và dịch câu ví dụ
+        // Thông báo chính xác kèm nghĩa từ, dịch câu, pinyin
         alert(
           "✅ Chính xác!\n" +
+          "Từ: " + item.word + " (" + (item.pinyin || "chưa có pinyin") + ")\n" +
           "Nghĩa từ: " + item.meaning + "\n" +
+          "Câu ví dụ: " + item.example + " (" + (item.examplePinyin || "chưa có pinyin") + ")\n" +
           "Dịch câu ví dụ: " + (item.translation || "(chưa có dịch)")
         );
         addPoint(item.word);
@@ -66,14 +68,14 @@ function startQuiz() {
         // Phát âm từ bằng tiếng Trung
         if (item.word) {
           const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "zh-CN"; // 👉 đổi sang tiếng Trung
+          utterWord.lang = "zh-CN";
           speechSynthesis.speak(utterWord);
         }
 
         // Phát âm câu ví dụ bằng tiếng Trung
         if (item.example) {
           currentUtter = new SpeechSynthesisUtterance(item.example);
-          currentUtter.lang = "zh-CN"; // 👉 đổi sang tiếng Trung
+          currentUtter.lang = "zh-CN";
           speechSynthesis.speak(currentUtter);
         }
 
