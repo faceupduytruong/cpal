@@ -64,7 +64,7 @@ function startQuiz() {
     card.innerHTML = `
       <p><b>${item.word}</b> (${item.type || ""})</p>
       <p><i>${item.example || ""}</i></p>
-      <input type="text" class="text-area" placeholder="Nghĩa tiếng Việt ?">
+      <input type="text" placeholder="Nghĩa tiếng Việt ?">
       <button2>Check</button2>
     `;
     const input = card.querySelector("input");
@@ -176,7 +176,7 @@ function startQuizFillBlank() {
     card.className = "card";
     card.innerHTML = `
       <p class="sentence">${sentenceWithBlank}</p>
-      <input type="text" class="text-area" placeholder="Điền từ tiếng Trung">
+      <input type="text" placeholder="Điền từ tiếng Trung">
       <button2>Check</button2>
     `;
     const input = card.querySelector("input");
