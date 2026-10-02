@@ -15,7 +15,7 @@
   });
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
-let currentUtter = null;
+let currentUtter = null; // lưu câu đang phát âm
 
 function showCustomAlert(item) {
   const content = `
@@ -38,6 +38,14 @@ function showCustomAlert(item) {
 
 function closeAlert() {
   document.getElementById("alertBox").style.display = "none";
+}
+
+// Hàm nói lại câu ví dụ hiện tại
+function repeatUtter() {
+  if (currentUtter) {
+    speechSynthesis.cancel(); // dừng nếu đang nói
+    speechSynthesis.speak(currentUtter); // phát lại câu hiện tại
+  }
 }
 
 function startQuiz() {
@@ -72,7 +80,7 @@ function startQuiz() {
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
-        showCustomAlert(item); // 👉 dùng popup tuỳ chỉnh thay vì alert
+        showCustomAlert(item);
         addPoint(item.word);
 
         // Dừng phát âm trước đó
