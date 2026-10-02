@@ -176,7 +176,7 @@ function startQuizFillBlank() {
     card.className = "card";
     card.innerHTML = `
       <p class="sentence">${sentenceWithBlank}</p>
-      <input type="text" placeholder="Điền từ tiếng Anh">
+      <input type="text" class="text-area" placeholder="Điền từ tiếng Trung">
       <button2>Check</button2>
     `;
     const input = card.querySelector("input");
