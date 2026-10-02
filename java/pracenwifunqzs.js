@@ -15,7 +15,55 @@
   });
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
-let currentUtter = null; // lưu câu đang phát âm
+let currentItem = null;   // lưu item hiện tại
+let currentUtter = null;  // lưu câu đang phát âm
+
+function showCustomAlert(item) {
+  currentItem = item; // lưu lại item để dùng cho "Nói lại"
+  const content = `
+    <div style="text-align:center;">
+      <p>
+        Từ: <b style="font-size:4em;">${item.word}</b>
+        <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+      </p>
+      <p>Nghĩa từ: ${item.meaning}</p>
+      <p>
+        Câu ví dụ: <b style="font-size:4em;">${item.example}</b><br>
+        <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+      </p>
+      <p>Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+    </div>
+  `;
+  document.getElementById("alertContent").innerHTML = content;
+  document.getElementById("alertBox").style.display = "block";
+}
+
+function closeAlert() {
+  document.getElementById("alertBox").style.display = "none";
+}
+
+// Hàm nói lại: nói từ trước, rồi nói câu
+function repeatUtter() {
+  if (currentItem) {
+    speechSynthesis.cancel(); // dừng nếu đang nói
+
+    // Phát âm từ bằng tiếng Anh
+    if (currentItem.word) {
+      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+      utterWord.lang = "en-US"; // đổi sang tiếng Anh
+      speechSynthesis.speak(utterWord);
+
+      // Sau khi nói từ xong thì nói câu
+      utterWord.onend = () => {
+        if (currentItem.example) {
+          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+          currentUtter.lang = "en-US"; // đổi sang tiếng Anh
+          speechSynthesis.speak(currentUtter);
+        }
+      };
+    }
+  }
+}
 
 function startQuiz() {
   if (words.length === 0) {
@@ -49,12 +97,7 @@ function startQuiz() {
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
-        // Thông báo chính xác kèm nghĩa từ và dịch câu ví dụ
-        alert(
-          "✅ Chính xác!\n" +
-          "Nghĩa từ: " + item.meaning + "\n" +
-          "Dịch câu ví dụ: " + (item.translation || "(chưa có dịch)")
-        );
+        showCustomAlert(item);
         addPoint(item.word);
 
         // Dừng phát âm trước đó
@@ -63,17 +106,17 @@ function startQuiz() {
           currentUtter = null;
         }
 
-        // Phát âm từ
-        if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
+        // Phát âm từ bằng tiếng Anh
+        if (item.word) {
           const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "en-US";
+          utterWord.lang = "en-US"; // đổi sang tiếng Anh
           speechSynthesis.speak(utterWord);
         }
 
-        // Phát âm câu ví dụ
+        // Phát âm câu ví dụ bằng tiếng Anh
         if (item.example) {
           currentUtter = new SpeechSynthesisUtterance(item.example);
-          currentUtter.lang = "en-US";
+          currentUtter.lang = "en-US"; // đổi sang tiếng Anh
           speechSynthesis.speak(currentUtter);
         }
 
