@@ -15,6 +15,8 @@
   });
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
+let currentUtter = null; // biến lưu câu đang phát âm
+
 function startQuiz() {
   if (words.length === 0) {
     alert("⚠️ Bạn chưa nhập file JSON!");
@@ -22,7 +24,6 @@ function startQuiz() {
   }
 
   const validWords = words.filter(item => item.word && item.meaning);
-
   if (validWords.length === 0) {
     alert("⚠️ Không có dữ liệu hợp lệ trong file JSON!");
     return;
@@ -42,35 +43,58 @@ function startQuiz() {
       <p><i>${item.example || ""}</i></p>
       <input type="text" placeholder="Nghĩa tiếng Việt ?">
       <button2>Check</button2>
+      <div class="result"></div>
     `;
     const input = card.querySelector("input");
     const btn = card.querySelector("button2");
+    const resultDiv = card.querySelector(".result");
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
+        // Thông báo chính xác
         alert("✅ Chính xác!");
-        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
+        addPoint(item.word);
+
+        // Hiển thị nghĩa của từ và nghĩa câu ví dụ
+        resultDiv.innerHTML = `
+          <p><b>Nghĩa từ:</b> ${item.meaning}</p>
+          <p><b>Dịch câu ví dụ:</b> ${translateExample(item.example)}</p>
+        `;
+
+        // Dừng phát âm trước đó nếu có
+        if (currentUtter) {
+          speechSynthesis.cancel();
+          currentUtter = null;
+        }
+
+        // Phát âm từ
+        if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
+          const utterWord = new SpeechSynthesisUtterance(item.word);
+          utterWord.lang = "en-US";
+          speechSynthesis.speak(utterWord);
+        }
+
+        // Phát âm câu ví dụ
+        if (item.example) {
+          currentUtter = new SpeechSynthesisUtterance(item.example);
+          currentUtter.lang = "en-US";
+          speechSynthesis.speak(currentUtter);
+        }
+
       } else {
         alert("❌ Sai. Đáp án: " + item.meaning);
-      }
-
-      // Phát âm từ
-      if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
-        const utterWord = new SpeechSynthesisUtterance(item.word);
-        utterWord.lang = "en-US";
-        speechSynthesis.speak(utterWord);
-      }
-
-      // Phát âm câu ví dụ nếu có
-      if (item.example) {
-        const utterExample = new SpeechSynthesisUtterance(item.example);
-        utterExample.lang = "en-US";
-        speechSynthesis.speak(utterExample);
       }
     };
 
     container.appendChild(card);
   });
+}
+
+// Hàm dịch câu ví dụ (ở đây demo đơn giản, bạn có thể thay bằng API dịch)
+function translateExample(example) {
+  // Tạm thời chỉ trả về câu tiếng Anh kèm chú thích
+  // Bạn có thể tích hợp Google Translate API hoặc dịch thủ công trong JSON
+  return "(dịch nghĩa câu ví dụ cần thêm vào dữ liệu JSON hoặc API)";
 }
 
 // Trò chơi Quiz Multiple Choice (Trắc nghiệm)
