@@ -15,7 +15,22 @@
   });
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
-let currentUtter = null; // lưu câu đang phát âm
+let currentUtter = null;
+
+function showCustomAlert(item) {
+  const content = `
+    <p><b style="font-size:2em;">Từ: ${item.word}</b> (${item.pinyin || "chưa có pinyin"})</p>
+    <p>Nghĩa từ: ${item.meaning}</p>
+    <p><b style="font-size:2em;">Câu ví dụ: ${item.example}</b> (${item.examplePinyin || "chưa có pinyin"})</p>
+    <p>Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+  `;
+  document.getElementById("alertContent").innerHTML = content;
+  document.getElementById("alertBox").style.display = "block";
+}
+
+function closeAlert() {
+  document.getElementById("alertBox").style.display = "none";
+}
 
 function startQuiz() {
   if (words.length === 0) {
@@ -49,14 +64,7 @@ function startQuiz() {
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
-        // Thông báo chính xác kèm nghĩa từ, dịch câu, pinyin
-        alert(
-          "✅ Chính xác!\n" +
-          "Từ: " + item.word + " (" + (item.pinyin || "chưa có pinyin") + ")\n" +
-          "Nghĩa từ: " + item.meaning + "\n" +
-          "Câu ví dụ: " + item.example + " (" + (item.examplePinyin || "chưa có pinyin") + ")\n" +
-          "Dịch câu ví dụ: " + (item.translation || "(chưa có dịch)")
-        );
+        showCustomAlert(item); // 👉 dùng popup tuỳ chỉnh thay vì alert
         addPoint(item.word);
 
         // Dừng phát âm trước đó
