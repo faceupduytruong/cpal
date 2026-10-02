@@ -237,10 +237,6 @@
       outline: none; /* bỏ viền mặc định */
       animation: rainbowGlow 20s infinite;
     }
-
-    .card {
-      height: 183px;          /* cố định chiều cao */
-    }
     
     .text-area2  {
       font-family: 'Quicksand', sans-serif;
