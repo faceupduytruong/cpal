@@ -19,9 +19,9 @@ let currentUtter = null;
 
 function showCustomAlert(item) {
   const content = `
-    <p>Từ: <b style="font-size:3em;">${item.word}</b> (${item.pinyin || "chưa có pinyin"})</p>
+    <p>Từ: <b style="font-size:4em;">${item.word}</b><b style="color:blue;">(${item.pinyin || "chưa có pinyin"})</b></p>
     <p>Nghĩa từ: ${item.meaning}</p>
-    <p>Câu ví dụ: <b style="font-size:3em;">${item.example} (${item.examplePinyin || "chưa có pinyin"})</b></p>
+    <p>Câu ví dụ: <b style="font-size:4em;">${item.example}</b><b style="color:blue;">(${item.examplePinyin || "chưa có pinyin"})</b></p>
     <p>Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
   `;
   document.getElementById("alertContent").innerHTML = content;
