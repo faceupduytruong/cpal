@@ -94,7 +94,7 @@ function startQuiz() {
       <button2>Check</button2>
     `;
     const input = card.querySelector("input");
-    const btn = card.querySelector("button");
+    const btn = card.querySelector("button2");
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
