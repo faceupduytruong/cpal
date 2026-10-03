@@ -47,44 +47,47 @@ function startQuiz() {
     const input = card.querySelector("input");
     const btn = card.querySelector("button2");
 
-    btn.onclick = () => {
-      if (input.value.trim() === item.meaning) {
-        // Thông báo chính xác kèm đầy đủ thông tin từ JSON
-        alert(
-          "✅ Chính xác!\n" +
-          "Từ: " + item.word + "\n" +
-          "Phát âm: " + (item.pronounce || "(chưa có)") + "\n" +
-          "Nghĩa từ: " + item.meaning + "\n" +
-          "Câu ví dụ: " + item.example + "\n" +
-          "Phát âm câu: " + (item.examplePronounce || "(chưa có)") + "\n" +
-          "Nghĩa câu: " + (item.translation || "(chưa có dịch)")
-        );
-        addPoint(item.word);
+btn.onclick = () => {
+  if (input.value.trim() === item.meaning) {
+    // Thay alert bằng hiển thị trong container với font chữ lớn
+    const message = `
+      <div style="background:#fff; padding:20px; border:2px solid #333; text-align:center; font-size:2.5em; line-height:1.5;">
+        <p><b>Từ:</b> ${item.word}</p>
+        <p><b>Phát âm:</b> ${item.pronounce || "(chưa có)"}</p>
+        <p><b>Nghĩa từ:</b> ${item.meaning}</p>
+        <p><b>Câu ví dụ:</b> ${item.example}</p>
+        <p><b>Phát âm câu:</b> ${item.examplePronounce || "(chưa có)"}</p>
+        <p><b>Nghĩa câu:</b> ${item.translation || "(chưa có dịch)"}</p>
+      </div>
+    `;
+    document.getElementById("game").innerHTML = message;
 
-        // Dừng phát âm trước đó
-        if (currentUtter) {
-          speechSynthesis.cancel();
-          currentUtter = null;
-        }
+    addPoint(item.word);
 
-        // Phát âm từ bằng tiếng Anh
-        if (item.word) {
-          const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "en-US";
-          speechSynthesis.speak(utterWord);
-        }
+    // Dừng phát âm trước đó
+    if (currentUtter) {
+      speechSynthesis.cancel();
+      currentUtter = null;
+    }
 
-        // Phát âm câu ví dụ bằng tiếng Anh
-        if (item.example) {
-          currentUtter = new SpeechSynthesisUtterance(item.example);
-          currentUtter.lang = "en-US";
-          speechSynthesis.speak(currentUtter);
-        }
+    // Phát âm từ
+    if (item.word) {
+      const utterWord = new SpeechSynthesisUtterance(item.word);
+      utterWord.lang = "en-US";
+      speechSynthesis.speak(utterWord);
+    }
 
-      } else {
-        alert("❌ Sai. Đáp án: " + item.meaning);
-      }
-    };
+    // Phát âm câu ví dụ
+    if (item.example) {
+      currentUtter = new SpeechSynthesisUtterance(item.example);
+      currentUtter.lang = "en-US";
+      speechSynthesis.speak(currentUtter);
+    }
+
+  } else {
+    alert("❌ Sai. Đáp án: " + item.meaning);
+  }
+};
 
     container.appendChild(card);
   });
