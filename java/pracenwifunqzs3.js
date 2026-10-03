@@ -24,15 +24,15 @@ function showMessage(item) {
 
   const container = document.getElementById("game");
   container.innerHTML = `
-    <div style="padding:20px; border:2px solid #333; text-align:center; font-size:2.5em; line-height:1.5;">
-      <p>Từ: <b><span style="font-size:4em; color:cyan;">${item.word}</span></b></p>
-      <p>Phát âm: <b>${item.pronounce || "(chưa có)"}</b></p>
+    <div class="card" style="padding:20px; border:2px solid #333; text-align:center; font-size:2.5em; line-height:1.2;">
+      <p>Từ: <b><span style="font-size:2.5em;">${item.word}</span></b></p>
+      <p>Phát âm: <b><span style="color:cyan;">${item.pronounce || "(chưa có)"}</span></b></p>
       <p>Nghĩa từ: <b>${item.meaning}</b></p>
-      <p>Câu ví dụ: <b><span style="font-size:3em; color:cyan;">${item.example}</span></b></p>
-      <p>Phát âm câu: <b>${item.examplePronounce || "(chưa có)"}</b></p>
+      <p>Câu ví dụ: <b><span style="font-size:2.5em;">${item.example}</span></b></p>
+      <p>Phát âm câu: <b><span style="color:cyan;">${item.examplePronounce || "(chưa có)"}</span></b></p>
       <p>Nghĩa câu: <b>${item.translation || "(chưa có dịch)"}</b></p>
-      <button onclick="closeMessage()">Đóng</button>
-      <button onclick="repeatUtter()">Nói lại</button>
+      <button2 onclick="closeMessage()">Đóng</button2>
+      <button2 onclick="repeatUtter()">Nói lại</button2>
     </div>
   `;
 }
