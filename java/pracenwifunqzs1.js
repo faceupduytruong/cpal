@@ -34,19 +34,17 @@ function showCustomAlert(item) {
       <p>Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
     </div>
   `;
-  document.getElementById("alertContent").innerHTML = content;
-  document.getElementById("alertBox").style.display = "block";
 }
 
 function showAlert(contentHtml) {
   document.getElementById("alertContent").innerHTML = contentHtml;
-  document.getElementById("overlay").style.display = "block";
-  document.getElementById("alertBox").style.display = "block";
+  document.getElementById("overlay").style.display = "block"; // hiện overlay
+  document.getElementById("alertBox").style.display = "block"; // hiện box
 }
 
 function closeAlert() {
-  document.getElementById("overlay").style.display = "none";
-  document.getElementById("alertBox").style.display = "none";
+  document.getElementById("overlay").style.display = "none"; // ẩn overlay
+  document.getElementById("alertBox").style.display = "none"; // ẩn box
 }
 
 // Hàm nói lại: nói từ trước, rồi nói câu
