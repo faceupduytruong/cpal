@@ -22,13 +22,13 @@ function showMessage(item) {
   currentItem = item;
   const box = document.getElementById("messageBox");
   box.innerHTML = `
-    <p><b>Từ:</b> <span style="font-size:3.5em; color:blue;">${item.word}</span></p>
+    <p><b>Từ:</b> <span style="font-size:2.5em; color:blue;">${item.word}</span></p>
     <p><b>Phát âm:</b> ${item.pronounce || "(chưa có)"}</p>
     <p><b>Nghĩa từ:</b> ${item.meaning}</p>
-    <p><b>Câu ví dụ:</b> <span style="font-size:3em; color:green;">${item.example}</span></p>
+    <p><b>Câu ví dụ:</b> <span style="font-size:2.5em; color:green;">${item.example}</span></p>
     <p><b>Phát âm câu:</b> ${item.examplePronounce || "(chưa có)"}</p>
     <p><b>Nghĩa câu:</b> ${item.translation || "(chưa có dịch)"}</p>
-    <button2 onclick="closeMessage()">Đóng</button22>
+    <button2 onclick="closeMessage()">Đóng</button2>
     <button2 onclick="repeatUtter()">Nói lại</button2>
   `;
   box.style.display = "block";
