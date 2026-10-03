@@ -71,22 +71,23 @@ function repeatUtter() {
   }
 
   // Nếu từ/câu là tiếng Trung
-  if (currentItem.word) {
-    const utterWord = new SpeechSynthesisUtterance(currentItem.word);
-    utterWord.lang = "zh-CN"; // mặc định tiếng Trung
-    utterWord.voice = getFemaleVoice("zh-CN");
-    speechSynthesis.speak(utterWord);
+  if (currentItem.lang === "zh") {
+    if (currentItem.word) {
+      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+      utterWord.lang = "zh-CN";
+      utterWord.voice = getVoiceByName("Kangkang"); // ép giọng Kangkang
+      speechSynthesis.speak(utterWord);
 
-    utterWord.onend = () => {
-      if (currentItem.example) {
-        currentUtter = new SpeechSynthesisUtterance(currentItem.example);
-        currentUtter.lang = "zh-CN";
-        currentUtter.voice = getFemaleVoice("zh-CN");
-        speechSynthesis.speak(currentUtter);
-      }
-    };
+      utterWord.onend = () => {
+        if (currentItem.example) {
+          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+          currentUtter.lang = "zh-CN";
+          currentUtter.voice = getVoiceByName("Kangkang");
+          speechSynthesis.speak(currentUtter);
+        }
+      };
+    }
   }
- }
 }
 
 function startQuiz() {
