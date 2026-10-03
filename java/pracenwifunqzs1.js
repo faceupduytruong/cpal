@@ -69,7 +69,6 @@ function repeatUtter() {
       };
     }
   }
-}
 
   // Nếu từ/câu là tiếng Trung
   if (currentItem.lang === "zh") {
@@ -89,6 +88,7 @@ function repeatUtter() {
       };
     }
   }
+}
 
 function startQuiz() {
   if (words.length === 0) {
