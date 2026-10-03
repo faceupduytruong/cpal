@@ -38,7 +38,14 @@ function showCustomAlert(item) {
   document.getElementById("alertBox").style.display = "block";
 }
 
+function showAlert(itemHtml) {
+  document.getElementById("alertContent").innerHTML = itemHtml;
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("alertBox").style.display = "block";
+}
+
 function closeAlert() {
+  document.getElementById("overlay").style.display = "none";
   document.getElementById("alertBox").style.display = "none";
 }
 
