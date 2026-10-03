@@ -24,15 +24,15 @@ function showMessage(item) {
 
   const container = document.getElementById("game");
   container.innerHTML = `
-    <div style="background:#fff; padding:20px; border:2px solid #333; text-align:center; font-size:2.5em; line-height:1.5;">
+    <div class="card" style="padding:20px; border:2px solid #333; text-align:center; font-size:2.5em; line-height:1.5;">
       <p><b>Từ:</b> <span style="font-size:4em; color:blue;">${item.word}</span></p>
       <p><b>Phát âm:</b> ${item.pronounce || "(chưa có)"}</p>
       <p><b>Nghĩa từ:</b> ${item.meaning}</p>
       <p><b>Câu ví dụ:</b> <span style="font-size:3em; color:green;">${item.example}</span></p>
       <p><b>Phát âm câu:</b> ${item.examplePronounce || "(chưa có)"}</p>
       <p><b>Nghĩa câu:</b> ${item.translation || "(chưa có dịch)"}</p>
-      <button onclick="closeMessage()">Đóng</button>
-      <button onclick="repeatUtter()">Nói lại</button>
+      <button2 onclick="closeMessage()">Đóng</button2>
+      <button2 onclick="repeatUtter()">Nói lại</button2>
     </div>
   `;
 }
