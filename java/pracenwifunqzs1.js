@@ -38,8 +38,8 @@ function showCustomAlert(item) {
   document.getElementById("alertBox").style.display = "block";
 }
 
-function showAlert(itemHtml) {
-  document.getElementById("alertContent").innerHTML = itemHtml;
+function showAlert(contentHtml) {
+  document.getElementById("alertContent").innerHTML = contentHtml;
   document.getElementById("overlay").style.display = "block";
   document.getElementById("alertBox").style.display = "block";
 }
