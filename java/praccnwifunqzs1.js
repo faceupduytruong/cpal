@@ -151,6 +151,66 @@ function startQuiz() {
   });
 }
 
+// Trò chơi Quiz Multiple Choice (Trắc nghiệm)
+function startQuizMultipleChoice() {
+  const validWords = words.filter(item => item.word && item.meaning);
+  const shuffled = validWords.sort(() => 0.5 - Math.random());
+  const selected = shuffled.slice(0, 10); // 10 câu trắc nghiệm
+
+  const container = document.getElementById("game");
+  container.innerHTML = "";
+
+  selected.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    // tạo 3 nghĩa sai ngẫu nhiên
+    const wrongOptions = validWords
+      .filter(w => w.meaning !== item.meaning)
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 3)
+      .map(w => w.meaning);
+
+    const options = [item.meaning, ...wrongOptions].sort(() => 0.5 - Math.random());
+
+    card.innerHTML = `
+      <p><b>${item.word}</b> (${item.type || ""})</p>
+      <p><i>${item.example || ""}</i></p>
+      ${options.map(opt => `<button class="option">${opt}</button>`).join("")}
+    `;
+
+    card.querySelectorAll(".option").forEach(btn => {
+      btn.onclick = () => {
+        if (btn.textContent === item.meaning) {
+          // Nếu đúng thì hiện AlertBox với nội dung chi tiết
+          showCustomAlert(item);
+          addPoint(item.word);
+
+          // Phát âm từ
+          if (item.word) {
+            const utterWord = new SpeechSynthesisUtterance(item.word);
+            utterWord.lang = "zh-CN"; // hoặc zh-CN tùy dữ liệu
+            speechSynthesis.speak(utterWord);
+          }
+
+          // Phát âm câu ví dụ nếu có
+          if (item.example) {
+            const utterExample = new SpeechSynthesisUtterance(item.example);
+            utterExample.lang = "zh-CN"; // hoặc zh-CN tùy dữ liệu
+            speechSynthesis.speak(utterExample);
+          }
+
+        } else {
+          // Nếu sai thì chỉ báo cần chọn lại, không gợi ý đáp án
+          alert("❌ Sai. Cần phải chọn lại từ khác !");
+        }
+      };
+    });
+
+    container.appendChild(card);
+  });
+}
+
 // Trò chơi Quiz Fill Blank (Điền chỗ trống)
 function startQuizFillBlank() {
   const validWords = words.filter(item => item.word && item.example);
