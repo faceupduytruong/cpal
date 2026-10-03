@@ -17,6 +17,21 @@
 // Trò chơi Quiz (Nghĩa tiếng Việt)
 let currentItem = null;   // lưu item hiện tại
 let currentUtter = null;  // lưu câu đang phát âm
+let voices = [];
+
+// Lấy danh sách giọng khi trình duyệt load
+speechSynthesis.onvoiceschanged = () => {
+  voices = speechSynthesis.getVoices();
+};
+
+// Hàm chọn giọng nam theo ngôn ngữ
+function getMaleVoice(langCode) {
+  // Tìm giọng có ngôn ngữ đúng và tên chứa "Male" hoặc "男"
+  return voices.find(v => v.lang === langCode && (
+    v.name.toLowerCase().includes("male") ||
+    v.name.includes("男") // một số hệ thống ghi tiếng Trung là 男声
+  )) || voices.find(v => v.lang === langCode); // fallback nếu không có giọng nam
+}
 
 function showCustomAlert(item) {
   currentItem = item;
@@ -51,14 +66,18 @@ function closeAlert() {
 function repeatUtter() {
   if (currentItem) {
     speechSynthesis.cancel();
+
     if (currentItem.word) {
       const utterWord = new SpeechSynthesisUtterance(currentItem.word);
       utterWord.lang = "en-US";
+      utterWord.voice = getMaleVoice("en-US"); // giọng nam tiếng Anh
       speechSynthesis.speak(utterWord);
+
       utterWord.onend = () => {
         if (currentItem.example) {
           currentUtter = new SpeechSynthesisUtterance(currentItem.example);
           currentUtter.lang = "en-US";
+          currentUtter.voice = getMaleVoice("en-US"); // giọng nam tiếng Anh
           speechSynthesis.speak(currentUtter);
         }
       };
@@ -91,10 +110,10 @@ function startQuiz() {
       <p><b>${item.word}</b> (${item.type || ""})</p>
       <p><i>${item.example || ""}</i></p>
       <input type="text" placeholder="Nghĩa tiếng Việt ?">
-      <button2>Check</button2>
+      <button>Check</button>
     `;
     const input = card.querySelector("input");
-    const btn = card.querySelector("button2");
+    const btn = card.querySelector("button");
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
@@ -106,15 +125,19 @@ function startQuiz() {
           currentUtter = null;
         }
 
+        // Phát âm từ bằng tiếng Trung với giọng nam
         if (item.word) {
           const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "en-US";
+          utterWord.lang = "zh-CN";
+          utterWord.voice = getMaleVoice("zh-CN"); // giọng nam tiếng Trung
           speechSynthesis.speak(utterWord);
         }
 
+        // Phát âm câu ví dụ bằng tiếng Trung với giọng nam
         if (item.example) {
           currentUtter = new SpeechSynthesisUtterance(item.example);
-          currentUtter.lang = "en-US";
+          currentUtter.lang = "zh-CN";
+          currentUtter.voice = getMaleVoice("zh-CN"); // giọng nam tiếng Trung
           speechSynthesis.speak(currentUtter);
         }
 
