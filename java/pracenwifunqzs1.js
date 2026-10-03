@@ -85,18 +85,16 @@ function repeatUtter() {
   }
 
   // Nếu từ/câu là tiếng Anh
-  if (currentItem.lang === "en") {
+  if (currentItem) {
+    speechSynthesis.cancel();
     if (currentItem.word) {
       const utterWord = new SpeechSynthesisUtterance(currentItem.word);
       utterWord.lang = "en-US";
-      utterWord.voice = getVoiceByName("Microsoft David") || getVoiceByName("Google US English");
       speechSynthesis.speak(utterWord);
-
       utterWord.onend = () => {
         if (currentItem.example) {
           currentUtter = new SpeechSynthesisUtterance(currentItem.example);
           currentUtter.lang = "en-US";
-          currentUtter.voice = getVoiceByName("Microsoft David") || getVoiceByName("Google US English");
           speechSynthesis.speak(currentUtter);
         }
       };
