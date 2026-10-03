@@ -24,7 +24,7 @@ function showMessage(item) {
 
   const container = document.getElementById("game");
   container.innerHTML = `
-    <div class="card" style="padding:20px; border:2px solid #333; text-align:center; font-size:2.5em; line-height:1.2; height: 585px; width: 1250px; z-index:999;">
+    <div class="card" style="padding:20px; border:2px solid #333; text-align:center; font-size:2.5em; line-height:1.2; height: 585px; width: 1250px;">
       <p>Từ: <b><span style="font-size:2.5em;">${item.word}</span></b></p>
       <p>Phát âm: <b><span style="color:cyan;">${item.pronounce || "(chưa có)"}</span></b></p>
       <p>Nghĩa từ: <b>${item.meaning}</b></p>
