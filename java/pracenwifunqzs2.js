@@ -49,11 +49,15 @@ function startQuiz() {
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
-        // Thông báo chính xác kèm nghĩa từ và dịch câu ví dụ
+        // Thông báo chính xác kèm đầy đủ thông tin từ JSON
         alert(
           "✅ Chính xác!\n" +
+          "Từ: " + item.word + "\n" +
+          "Phát âm: " + (item.pronounce || "(chưa có)") + "\n" +
           "Nghĩa từ: " + item.meaning + "\n" +
-          "Dịch câu ví dụ: " + (item.translation || "(chưa có dịch)")
+          "Câu ví dụ: " + item.example + "\n" +
+          "Phát âm câu: " + (item.examplePronounce || "(chưa có)") + "\n" +
+          "Nghĩa câu: " + (item.translation || "(chưa có dịch)")
         );
         addPoint(item.word);
 
@@ -63,14 +67,14 @@ function startQuiz() {
           currentUtter = null;
         }
 
-        // Phát âm từ
-        if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
+        // Phát âm từ bằng tiếng Anh
+        if (item.word) {
           const utterWord = new SpeechSynthesisUtterance(item.word);
           utterWord.lang = "en-US";
           speechSynthesis.speak(utterWord);
         }
 
-        // Phát âm câu ví dụ
+        // Phát âm câu ví dụ bằng tiếng Anh
         if (item.example) {
           currentUtter = new SpeechSynthesisUtterance(item.example);
           currentUtter.lang = "en-US";
