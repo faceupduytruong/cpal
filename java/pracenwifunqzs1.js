@@ -91,7 +91,7 @@ function startQuiz() {
       <p><b>${item.word}</b> (${item.type || ""})</p>
       <p><i>${item.example || ""}</i></p>
       <input type="text" placeholder="Nghĩa tiếng Việt ?">
-      <button>Check</button>
+      <button2>Check</button2>
     `;
     const input = card.querySelector("input");
     const btn = card.querySelector("button");
