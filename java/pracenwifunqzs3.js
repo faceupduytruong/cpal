@@ -24,11 +24,11 @@ function showMessage(item) {
 
   const container = document.getElementById("game");
   container.innerHTML = `
-    <div class="card" style="margin-top: 1px; border:2px solid #333; text-align:center; font-size:2em; height: 1090px; width: 1250px;">
-      <p>Từ: <b><span style="font-size:2.5em;">${item.word}</span></b></p>
+    <div class="card" style="margin-top: 1px; border:2px solid #333; text-align:center; font-size:2em; height: 880px; width: 1250px;">
+      <p>Từ: <b><span style="font-size:2em;">${item.word}</span></b></p>
       <p>Phát âm: <b><span style="color:cyan;">${item.pronounce || "(chưa có)"}</span></b></p>
       <p>Nghĩa từ: <b>${item.meaning}</b></p>
-      <p>Câu ví dụ: <b><span style="font-size:2.5em;">${item.example}</span></b></p>
+      <p>Câu ví dụ: <b><span style="font-size:2em;">${item.example}</span></b></p>
       <p>Phát âm câu: <b><span style="color:cyan;">${item.examplePronounce || "(chưa có)"}</span></b></p>
       <p>Nghĩa câu: <b>${item.translation || "(chưa có dịch)"}</b></p>
       <button2 onclick="closeMessage()">Đóng</button2>
