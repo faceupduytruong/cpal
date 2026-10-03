@@ -17,17 +17,6 @@
 // Trò chơi Quiz (Nghĩa tiếng Việt)
 let currentItem = null;   // lưu item hiện tại
 let currentUtter = null;  // lưu câu đang phát âm
-let voices = [];
-
-// Lấy danh sách giọng khi trình duyệt load
-speechSynthesis.onvoiceschanged = () => {
-  voices = speechSynthesis.getVoices();
-};
-
-// Hàm chọn giọng theo tên
-function getVoiceByName(name) {
-  return voices.find(v => v.name.includes(name));
-}
 
 function showCustomAlert(item) {
   currentItem = item;
@@ -50,20 +39,37 @@ function showCustomAlert(item) {
 
 function showAlert(contentHtml) {
   document.getElementById("alertContent").innerHTML = contentHtml;
-  document.getElementById("overlay").style.display = "block";
-  document.getElementById("alertBox").style.display = "block";
+  document.getElementById("overlay").style.display = "block"; // hiện overlay
+  document.getElementById("alertBox").style.display = "block"; // hiện box
 }
 
 function closeAlert() {
-  document.getElementById("overlay").style.display = "none";
-  document.getElementById("alertBox").style.display = "none";
+  document.getElementById("overlay").style.display = "none"; // ẩn overlay
+  document.getElementById("alertBox").style.display = "none"; // ẩn box
 }
 
-// Hàm Nói lại: phát âm lại từ và câu
 function repeatUtter() {
+
   if (!currentItem) return;
 
   speechSynthesis.cancel();
+
+  if (currentItem) {
+    speechSynthesis.cancel();
+    if (currentItem.word) {
+      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+      utterWord.lang = "en-US";
+      speechSynthesis.speak(utterWord);
+      utterWord.onend = () => {
+        if (currentItem.example) {
+          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+          currentUtter.lang = "en-US";
+          speechSynthesis.speak(currentUtter);
+        }
+      };
+    }
+  }
+}
 
   // Nếu từ/câu là tiếng Trung
   if (currentItem.lang === "zh") {
@@ -83,24 +89,6 @@ function repeatUtter() {
       };
     }
   }
-
-  // Nếu từ/câu là tiếng Anh
-  if (currentItem) {
-    speechSynthesis.cancel();
-    if (currentItem.word) {
-      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
-      utterWord.lang = "en-US";
-      speechSynthesis.speak(utterWord);
-      utterWord.onend = () => {
-        if (currentItem.example) {
-          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
-          currentUtter.lang = "en-US";
-          speechSynthesis.speak(currentUtter);
-        }
-      };
-    }
-  }
-}
 
 function startQuiz() {
   if (words.length === 0) {
@@ -134,7 +122,6 @@ function startQuiz() {
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
-        item.lang = item.lang || "zh"; // mặc định tiếng Trung
         showCustomAlert(item);
         addPoint(item.word);
 
@@ -143,17 +130,15 @@ function startQuiz() {
           currentUtter = null;
         }
 
-        // Phát âm từ
-        const utterWord = new SpeechSynthesisUtterance(item.word);
-        utterWord.lang = item.lang === "en" ? "en-US" : "zh-CN";
-        utterWord.voice = item.lang === "en" ? getVoiceByName("Microsoft David") : getVoiceByName("Kangkang");
-        speechSynthesis.speak(utterWord);
+        if (item.word) {
+          const utterWord = new SpeechSynthesisUtterance(item.word);
+          utterWord.lang = "en-US";
+          speechSynthesis.speak(utterWord);
+        }
 
-        // Phát âm câu ví dụ
         if (item.example) {
           currentUtter = new SpeechSynthesisUtterance(item.example);
-          currentUtter.lang = item.lang === "en" ? "en-US" : "zh-CN";
-          currentUtter.voice = item.lang === "en" ? getVoiceByName("Microsoft David") : getVoiceByName("Kangkang");
+          currentUtter.lang = "en-US";
           speechSynthesis.speak(currentUtter);
         }
 
