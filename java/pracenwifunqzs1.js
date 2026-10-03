@@ -15,8 +15,8 @@
   });
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
-let currentItem = null;
-let currentUtter = null;
+let currentItem = null;   // lưu item hiện tại
+let currentUtter = null;  // lưu câu đang phát âm
 let voices = [];
 
 // Lấy danh sách giọng khi trình duyệt load
@@ -65,7 +65,7 @@ function repeatUtter() {
 
   speechSynthesis.cancel();
 
-  // Ví dụ: tiếng Trung với giọng Kangkang
+  // Nếu từ/câu là tiếng Trung
   if (currentItem.lang === "zh") {
     if (currentItem.word) {
       const utterWord = new SpeechSynthesisUtterance(currentItem.word);
@@ -84,12 +84,12 @@ function repeatUtter() {
     }
   }
 
-  // Ví dụ: tiếng Anh với giọng nam (nếu có)
+  // Nếu từ/câu là tiếng Anh
   if (currentItem.lang === "en") {
     if (currentItem.word) {
       const utterWord = new SpeechSynthesisUtterance(currentItem.word);
       utterWord.lang = "en-US";
-      utterWord.voice = getVoiceByName("Microsoft David") || getVoiceByName("Google US English"); 
+      utterWord.voice = getVoiceByName("Microsoft David") || getVoiceByName("Google US English");
       speechSynthesis.speak(utterWord);
 
       utterWord.onend = () => {
