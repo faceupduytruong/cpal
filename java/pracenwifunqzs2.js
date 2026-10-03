@@ -15,7 +15,53 @@
   });
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
-let currentUtter = null; // lưu câu đang phát âm
+let currentUtter = null;   // lưu câu đang phát âm
+let currentItem = null;    // lưu item hiện tại để "Nói lại"
+
+// Hàm hiển thị thông báo
+function showMessage(item) {
+  currentItem = item;
+
+  const container = document.getElementById("game");
+  container.innerHTML = `
+    <div style="background:#fff; padding:20px; border:2px solid #333; text-align:center; font-size:2.5em; line-height:1.5;">
+      <p><b>Từ:</b> <span style="font-size:4em; color:blue;">${item.word}</span></p>
+      <p><b>Phát âm:</b> ${item.pronounce || "(chưa có)"}</p>
+      <p><b>Nghĩa từ:</b> ${item.meaning}</p>
+      <p><b>Câu ví dụ:</b> <span style="font-size:3em; color:green;">${item.example}</span></p>
+      <p><b>Phát âm câu:</b> ${item.examplePronounce || "(chưa có)"}</p>
+      <p><b>Nghĩa câu:</b> ${item.translation || "(chưa có dịch)"}</p>
+      <button onclick="closeMessage()">Đóng</button>
+      <button onclick="repeatUtter()">Nói lại</button>
+    </div>
+  `;
+}
+
+// Hàm đóng thông báo và quay lại quiz
+function closeMessage() {
+  startQuiz();
+}
+
+// Hàm nói lại: nói từ trước, rồi nói câu
+function repeatUtter() {
+  if (currentItem) {
+    speechSynthesis.cancel();
+
+    if (currentItem.word) {
+      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+      utterWord.lang = "en-US";
+      speechSynthesis.speak(utterWord);
+
+      utterWord.onend = () => {
+        if (currentItem.example) {
+          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+          currentUtter.lang = "en-US";
+          speechSynthesis.speak(currentUtter);
+        }
+      };
+    }
+  }
+}
 
 function startQuiz() {
   if (words.length === 0) {
@@ -47,47 +93,35 @@ function startQuiz() {
     const input = card.querySelector("input");
     const btn = card.querySelector("button2");
 
-btn.onclick = () => {
-  if (input.value.trim() === item.meaning) {
-    // Thay alert bằng hiển thị trong container với font chữ lớn
-    const message = `
-      <div style="background:#fff; padding:20px; border:2px solid #333; text-align:center; font-size:2.5em; line-height:1.5;">
-        <p><b>Từ:</b> ${item.word}</p>
-        <p><b>Phát âm:</b> ${item.pronounce || "(chưa có)"}</p>
-        <p><b>Nghĩa từ:</b> ${item.meaning}</p>
-        <p><b>Câu ví dụ:</b> ${item.example}</p>
-        <p><b>Phát âm câu:</b> ${item.examplePronounce || "(chưa có)"}</p>
-        <p><b>Nghĩa câu:</b> ${item.translation || "(chưa có dịch)"}</p>
-      </div>
-    `;
-    document.getElementById("game").innerHTML = message;
+    btn.onclick = () => {
+      if (input.value.trim() === item.meaning) {
+        showMessage(item); // 👉 hiển thị thông báo màu trắng
+        addPoint(item.word);
 
-    addPoint(item.word);
+        // Dừng phát âm trước đó
+        if (currentUtter) {
+          speechSynthesis.cancel();
+          currentUtter = null;
+        }
 
-    // Dừng phát âm trước đó
-    if (currentUtter) {
-      speechSynthesis.cancel();
-      currentUtter = null;
-    }
+        // Phát âm từ
+        if (item.word) {
+          const utterWord = new SpeechSynthesisUtterance(item.word);
+          utterWord.lang = "en-US";
+          speechSynthesis.speak(utterWord);
+        }
 
-    // Phát âm từ
-    if (item.word) {
-      const utterWord = new SpeechSynthesisUtterance(item.word);
-      utterWord.lang = "en-US";
-      speechSynthesis.speak(utterWord);
-    }
+        // Phát âm câu ví dụ
+        if (item.example) {
+          currentUtter = new SpeechSynthesisUtterance(item.example);
+          currentUtter.lang = "en-US";
+          speechSynthesis.speak(currentUtter);
+        }
 
-    // Phát âm câu ví dụ
-    if (item.example) {
-      currentUtter = new SpeechSynthesisUtterance(item.example);
-      currentUtter.lang = "en-US";
-      speechSynthesis.speak(currentUtter);
-    }
-
-  } else {
-    alert("❌ Sai. Đáp án: " + item.meaning);
-  }
-};
+      } else {
+        alert("❌ Sai. Đáp án: " + item.meaning);
+      }
+    };
 
     container.appendChild(card);
   });
