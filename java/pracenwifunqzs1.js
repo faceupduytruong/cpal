@@ -26,11 +26,10 @@ speechSynthesis.onvoiceschanged = () => {
 
 // Hàm chọn giọng nam theo ngôn ngữ
 function getMaleVoice(langCode) {
-  // Tìm giọng có ngôn ngữ đúng và tên chứa "Male" hoặc "男"
   return voices.find(v => v.lang === langCode && (
     v.name.toLowerCase().includes("male") ||
-    v.name.includes("男") // một số hệ thống ghi tiếng Trung là 男声
-  )) || voices.find(v => v.lang === langCode); // fallback nếu không có giọng nam
+    v.name.includes("男")
+  )) || voices.find(v => v.lang === langCode);
 }
 
 function showCustomAlert(item) {
@@ -54,30 +53,53 @@ function showCustomAlert(item) {
 
 function showAlert(contentHtml) {
   document.getElementById("alertContent").innerHTML = contentHtml;
-  document.getElementById("overlay").style.display = "block"; // hiện overlay
-  document.getElementById("alertBox").style.display = "block"; // hiện box
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("alertBox").style.display = "block";
 }
 
 function closeAlert() {
-  document.getElementById("overlay").style.display = "none"; // ẩn overlay
-  document.getElementById("alertBox").style.display = "none"; // ẩn box
+  document.getElementById("overlay").style.display = "none";
+  document.getElementById("alertBox").style.display = "none";
 }
 
+// Hàm Nói lại: phát âm lại từ và câu theo ngôn ngữ đã dùng
 function repeatUtter() {
-  if (currentItem) {
-    speechSynthesis.cancel();
+  if (!currentItem) return;
 
+  speechSynthesis.cancel();
+
+  // Nếu từ/câu là tiếng Anh
+  if (currentItem.lang === "en") {
     if (currentItem.word) {
       const utterWord = new SpeechSynthesisUtterance(currentItem.word);
       utterWord.lang = "en-US";
-      utterWord.voice = getMaleVoice("en-US"); // giọng nam tiếng Anh
+      utterWord.voice = getMaleVoice("en-US");
       speechSynthesis.speak(utterWord);
 
       utterWord.onend = () => {
         if (currentItem.example) {
           currentUtter = new SpeechSynthesisUtterance(currentItem.example);
           currentUtter.lang = "en-US";
-          currentUtter.voice = getMaleVoice("en-US"); // giọng nam tiếng Anh
+          currentUtter.voice = getMaleVoice("en-US");
+          speechSynthesis.speak(currentUtter);
+        }
+      };
+    }
+  }
+
+  // Nếu từ/câu là tiếng Trung
+  if (currentItem.lang === "zh") {
+    if (currentItem.word) {
+      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+      utterWord.lang = "zh-CN";
+      utterWord.voice = getMaleVoice("zh-CN");
+      speechSynthesis.speak(utterWord);
+
+      utterWord.onend = () => {
+        if (currentItem.example) {
+          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+          currentUtter.lang = "zh-CN";
+          currentUtter.voice = getMaleVoice("zh-CN");
           speechSynthesis.speak(currentUtter);
         }
       };
@@ -117,6 +139,8 @@ function startQuiz() {
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
+        // Gắn ngôn ngữ cho item (ví dụ: en hoặc zh)
+        item.lang = item.lang || "zh"; // mặc định tiếng Trung, bạn có thể chỉnh theo dữ liệu
         showCustomAlert(item);
         addPoint(item.word);
 
@@ -125,19 +149,17 @@ function startQuiz() {
           currentUtter = null;
         }
 
-        // Phát âm từ bằng tiếng Trung với giọng nam
-        if (item.word) {
-          const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "zh-CN";
-          utterWord.voice = getMaleVoice("zh-CN"); // giọng nam tiếng Trung
-          speechSynthesis.speak(utterWord);
-        }
+        // Phát âm từ
+        const utterWord = new SpeechSynthesisUtterance(item.word);
+        utterWord.lang = item.lang === "en" ? "en-US" : "zh-CN";
+        utterWord.voice = getMaleVoice(utterWord.lang);
+        speechSynthesis.speak(utterWord);
 
-        // Phát âm câu ví dụ bằng tiếng Trung với giọng nam
+        // Phát âm câu ví dụ
         if (item.example) {
           currentUtter = new SpeechSynthesisUtterance(item.example);
-          currentUtter.lang = "zh-CN";
-          currentUtter.voice = getMaleVoice("zh-CN"); // giọng nam tiếng Trung
+          currentUtter.lang = item.lang === "en" ? "en-US" : "zh-CN";
+          currentUtter.voice = getMaleVoice(currentUtter.lang);
           speechSynthesis.speak(currentUtter);
         }
 
