@@ -22,12 +22,12 @@ function showMessage(item) {
   currentItem = item;
   const box = document.getElementById("messageBox");
   box.innerHTML = `
-    <p><b>Từ:</b> <span style="font-size:2.5em;">${item.word}</span></p>
-    <p><b>Phát âm:</b> <span style="color:cyan;">${item.pronounce || "(chưa có)"}</span></p>
-    <p><b>Nghĩa từ:</b> ${item.meaning}</p>
-    <p><b>Câu ví dụ:</b> <span style="font-size:2.5em;">${item.example}</span></p>
-    <p><b>Phát âm câu:</b> <span style="color:cyan;">${item.examplePronounce || "(chưa có)"}</span></p>
-    <p><b>Nghĩa câu:</b> ${item.translation || "(chưa có dịch)"}</p>
+    <p>Từ: <b><span style="font-size:3em;">${item.word}</span></b></p>
+    <p>Phát âm: <b><span style="color:cyan;">${item.pronounce || "(chưa có)"}</span></b></p>
+    <p>Nghĩa từ: <b>${item.meaning}</b></p>
+    <p>Câu ví dụ: <b><span style="font-size:3em;">${item.example}</span></b></p>
+    <p>Phát âm câu: <b><span style="color:cyan;">${item.examplePronounce || "(chưa có)"}</span></b></p>
+    <p>Nghĩa câu: <b>${item.translation || "(chưa có dịch)"}</b></p>
     <button2 onclick="closeMessage()">Đóng</button2>
     <button2 onclick="repeatUtter()">Nói lại</button2>
   `;
