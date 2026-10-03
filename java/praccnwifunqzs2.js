@@ -28,8 +28,8 @@ function showMessage(item) {
     <p>Câu ví dụ: <b><span style="font-size:3em;">${item.example}</span></b></p>
     <p>Phát âm câu: <b><span style="color:cyan;">${item.examplePronounce || "(chưa có)"}</span></b></p>
     <p>Nghĩa câu: <b>${item.translation || "(chưa có dịch)"}</b></p>
-    <button2 onclick="closeMessage()">Đóng</button2>
     <button2 onclick="repeatUtter()">Nói lại</button2>
+    <button2 onclick="closeMessage()">Đóng</button2>
   `;
   box.style.display = "block";
 }
