@@ -148,21 +148,21 @@ function startQuizMultipleChoice() {
     card.querySelectorAll(".option").forEach(btn => {
       btn.onclick = () => {
         if (btn.textContent === item.meaning) {
-          // Nếu đúng thì hiện AlertBox với nội dung chi tiết
-          showCustomAlert(item);
+          // Nếu đúng thì hiện messageBox
+          showMessage(item);
           addPoint(item.word);
 
           // Phát âm từ
           if (item.word) {
             const utterWord = new SpeechSynthesisUtterance(item.word);
-            utterWord.lang = "zh-CN"; // hoặc zh-CN tùy dữ liệu
+            utterWord.lang = "en-US"; // hoặc "zh-CN" tùy dữ liệu
             speechSynthesis.speak(utterWord);
           }
 
           // Phát âm câu ví dụ nếu có
           if (item.example) {
             const utterExample = new SpeechSynthesisUtterance(item.example);
-            utterExample.lang = "zh-CN"; // hoặc zh-CN tùy dữ liệu
+            utterExample.lang = "en-US"; // hoặc "zh-CN" tùy dữ liệu
             speechSynthesis.speak(utterExample);
           }
 
