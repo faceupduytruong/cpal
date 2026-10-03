@@ -15,43 +15,36 @@
   });
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
-let currentUtter = null;   // lưu câu đang phát âm
-let currentItem = null;    // lưu item hiện tại để "Nói lại"
+let currentUtter = null;
+let currentItem = null;
 
-// Hàm hiển thị thông báo
 function showMessage(item) {
   currentItem = item;
-
-  const container = document.getElementById("game");
-  container.innerHTML = `
-    <div class="card" style="padding:20px; border:2px solid #333; text-align:center; font-size:2.5em; line-height:1.5;">
-      <p><b>Từ:</b> <span style="font-size:4em; color:blue;">${item.word}</span></p>
-      <p><b>Phát âm:</b> ${item.pronounce || "(chưa có)"}</p>
-      <p><b>Nghĩa từ:</b> ${item.meaning}</p>
-      <p><b>Câu ví dụ:</b> <span style="font-size:3em; color:green;">${item.example}</span></p>
-      <p><b>Phát âm câu:</b> ${item.examplePronounce || "(chưa có)"}</p>
-      <p><b>Nghĩa câu:</b> ${item.translation || "(chưa có dịch)"}</p>
-      <button2 onclick="closeMessage()">Đóng</button2>
-      <button2 onclick="repeatUtter()">Nói lại</button2>
-    </div>
+  const box = document.getElementById("messageBox");
+  box.innerHTML = `
+    <p><b>Từ:</b> <span style="font-size:4em; color:blue;">${item.word}</span></p>
+    <p><b>Phát âm:</b> ${item.pronounce || "(chưa có)"}</p>
+    <p><b>Nghĩa từ:</b> ${item.meaning}</p>
+    <p><b>Câu ví dụ:</b> <span style="font-size:3em; color:green;">${item.example}</span></p>
+    <p><b>Phát âm câu:</b> ${item.examplePronounce || "(chưa có)"}</p>
+    <p><b>Nghĩa câu:</b> ${item.translation || "(chưa có dịch)"}</p>
+    <button onclick="closeMessage()">Đóng</button>
+    <button onclick="repeatUtter()">Nói lại</button>
   `;
+  box.style.display = "block";
 }
 
-// Hàm đóng thông báo và quay lại quiz
 function closeMessage() {
-  startQuiz();
+  document.getElementById("messageBox").style.display = "none";
 }
 
-// Hàm nói lại: nói từ trước, rồi nói câu
 function repeatUtter() {
   if (currentItem) {
     speechSynthesis.cancel();
-
     if (currentItem.word) {
       const utterWord = new SpeechSynthesisUtterance(currentItem.word);
       utterWord.lang = "en-US";
       speechSynthesis.speak(utterWord);
-
       utterWord.onend = () => {
         if (currentItem.example) {
           currentUtter = new SpeechSynthesisUtterance(currentItem.example);
@@ -95,23 +88,20 @@ function startQuiz() {
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
-        showMessage(item); // 👉 hiển thị thông báo màu trắng
+        showMessage(item); // 👉 hiển thị thông báo nổi
         addPoint(item.word);
 
-        // Dừng phát âm trước đó
         if (currentUtter) {
           speechSynthesis.cancel();
           currentUtter = null;
         }
 
-        // Phát âm từ
         if (item.word) {
           const utterWord = new SpeechSynthesisUtterance(item.word);
           utterWord.lang = "en-US";
           speechSynthesis.speak(utterWord);
         }
 
-        // Phát âm câu ví dụ
         if (item.example) {
           currentUtter = new SpeechSynthesisUtterance(item.example);
           currentUtter.lang = "en-US";
