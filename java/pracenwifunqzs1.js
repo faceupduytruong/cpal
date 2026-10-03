@@ -19,21 +19,22 @@ let currentItem = null;   // lưu item hiện tại
 let currentUtter = null;  // lưu câu đang phát âm
 
 function showCustomAlert(item) {
-  currentItem = item; // lưu lại item để dùng cho "Nói lại"
+  currentItem = item;
   const content = `
     <div style="text-align:center;">
-      <p>
+      <p style="margin:5px 0;">
         Từ: <b style="font-size:4em;">${item.word}</b>
         <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
       </p>
-      <p>Nghĩa từ: ${item.meaning}</p>
-      <p>
-        Câu ví dụ: <b style="font-size:4em;">${item.example}</b><br>
+      <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
+      <p style="margin:5px 0;">
+        Câu ví dụ: <b style="font-size:3em;">${item.example}</b><br>
         <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
       </p>
-      <p>Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+      <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
     </div>
   `;
+  showAlert(content);
 }
 
 function showAlert(contentHtml) {
@@ -47,22 +48,17 @@ function closeAlert() {
   document.getElementById("alertBox").style.display = "none"; // ẩn box
 }
 
-// Hàm nói lại: nói từ trước, rồi nói câu
 function repeatUtter() {
   if (currentItem) {
-    speechSynthesis.cancel(); // dừng nếu đang nói
-
-    // Phát âm từ bằng tiếng Anh
+    speechSynthesis.cancel();
     if (currentItem.word) {
       const utterWord = new SpeechSynthesisUtterance(currentItem.word);
-      utterWord.lang = "en-US"; // đổi sang tiếng Anh
+      utterWord.lang = "en-US";
       speechSynthesis.speak(utterWord);
-
-      // Sau khi nói từ xong thì nói câu
       utterWord.onend = () => {
         if (currentItem.example) {
           currentUtter = new SpeechSynthesisUtterance(currentItem.example);
-          currentUtter.lang = "en-US"; // đổi sang tiếng Anh
+          currentUtter.lang = "en-US";
           speechSynthesis.speak(currentUtter);
         }
       };
@@ -95,33 +91,30 @@ function startQuiz() {
       <p><b>${item.word}</b> (${item.type || ""})</p>
       <p><i>${item.example || ""}</i></p>
       <input type="text" placeholder="Nghĩa tiếng Việt ?">
-      <button2>Check</button2>
+      <button>Check</button>
     `;
     const input = card.querySelector("input");
-    const btn = card.querySelector("button2");
+    const btn = card.querySelector("button");
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
         showCustomAlert(item);
         addPoint(item.word);
 
-        // Dừng phát âm trước đó
         if (currentUtter) {
           speechSynthesis.cancel();
           currentUtter = null;
         }
 
-        // Phát âm từ bằng tiếng Anh
         if (item.word) {
           const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "en-US"; // đổi sang tiếng Anh
+          utterWord.lang = "en-US";
           speechSynthesis.speak(utterWord);
         }
 
-        // Phát âm câu ví dụ bằng tiếng Anh
         if (item.example) {
           currentUtter = new SpeechSynthesisUtterance(item.example);
-          currentUtter.lang = "en-US"; // đổi sang tiếng Anh
+          currentUtter.lang = "en-US";
           speechSynthesis.speak(currentUtter);
         }
 
