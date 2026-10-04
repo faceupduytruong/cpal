@@ -704,8 +704,9 @@ function startSynonymChallenge() {
         showAlert(content);
         addPoint(item.word);
 
-        // Phát âm từ gốc, synonym và example
+        // Phát âm chuẩn (word + synonym + example)
         speakResult(item);
+        currentItem = { ...item, resultType: "correct" };
       } else {
         // ❌ Sai
         const wrongItem = validWords.find(w => w.word === opt);
@@ -720,9 +721,8 @@ function startSynonymChallenge() {
 
         // Phát âm từ sai mà người chơi chọn
         speakText(opt);
+        currentItem = { ...item, resultType: "wrong", wrongChoice: opt };
       }
-
-      currentItem = item; // để nút "Nói lại" dùng lại
     };
     container.appendChild(btn);
   });
@@ -737,7 +737,7 @@ function speakText(text) {
   }
 }
 
-// Hàm phát âm word, synonym và example
+// Hàm phát âm word, synonym và example (chuẩn khi đúng)
 function speakResult(item) {
   speakText(item.word);
   speakText(item.synonym);
@@ -747,7 +747,13 @@ function speakResult(item) {
 // Hàm cho nút "Nói lại"
 function repeatUtter() {
   if (currentItem) {
-    speakResult(currentItem);
+    if (currentItem.resultType === "correct") {
+      // Nếu kết quả đúng → phát âm lại chuẩn
+      speakResult(currentItem);
+    } else if (currentItem.resultType === "wrong" && currentItem.wrongChoice) {
+      // Nếu kết quả sai → phát âm lại từ sai đã chọn
+      speakText(currentItem.wrongChoice);
+    }
   }
 }
 
