@@ -718,7 +718,7 @@ function startSynonymChallenge() {
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai</p>
-            <p style="margin:5px 0;">Bạn chọn: <b>${opt}</b> → ${meaning}</p>
+            <p style="margin:5px 0;font-size:1em;">Bạn chọn: <b>${opt}</b> → ${meaning}</p>
           </div>
         `;
         showAlert(content);
