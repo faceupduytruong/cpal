@@ -35,6 +35,12 @@ function showCustomAlert(item) {
     </div>
   `;
   showAlert(content);
+
+  // gắn sự kiện cho nút "Nói lại" đã có sẵn trong alertBox
+  const repeatBtn = document.getElementById("repeatBtn");
+  if (repeatBtn) {
+    repeatBtn.onclick = () => repeatUtter();
+  }
 }
 
 function showAlert(contentHtml) {
