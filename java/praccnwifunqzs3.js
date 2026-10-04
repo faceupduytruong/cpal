@@ -158,24 +158,27 @@ function startQuizMultipleChoice() {
     card.querySelectorAll(".option").forEach(btn => {
       btn.onclick = () => {
         if (btn.textContent === item.meaning) {
-          alert("✅ Chính xác!");
-          addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
+          // Nếu đúng thì hiện messageBox thay vì alert
+          showMessage(item);
+          addPoint(item.word);
+
+          // Phát âm từ
+          if (item.word) {
+            const utterWord = new SpeechSynthesisUtterance(item.word);
+            utterWord.lang = "zh-CN"; // hoặc "en-US" tùy dữ liệu
+            speechSynthesis.speak(utterWord);
+          }
+
+          // Phát âm câu ví dụ nếu có
+          if (item.example) {
+            const utterExample = new SpeechSynthesisUtterance(item.example);
+            utterExample.lang = "zh-CN"; // hoặc "en-US" tùy dữ liệu
+            speechSynthesis.speak(utterExample);
+          }
+
         } else {
-          alert("❌ Sai. Đáp án: " + item.meaning);
-        }
-
-        // Phát âm từ
-        if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
-          const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "zh-CN";
-          speechSynthesis.speak(utterWord);
-        }
-
-        // Phát âm câu ví dụ nếu có
-        if (item.example) {
-          const utterExample = new SpeechSynthesisUtterance(item.example);
-          utterExample.lang = "zh-CN";
-          speechSynthesis.speak(utterExample);
+          // Nếu sai thì chỉ báo cần chọn lại, không gợi ý đáp án
+          alert("❌ Sai ! Cần phải chọn lại từ khác !");
         }
       };
     });
