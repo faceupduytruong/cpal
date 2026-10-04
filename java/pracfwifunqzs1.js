@@ -235,9 +235,9 @@ function startQuizFillBlank() {
 
     btn.onclick = () => {
       if (input.value.trim().toLowerCase() === item.word.toLowerCase()) {
-        alert("✅ Chính xác!");
-        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Trung làm ID
-        // Điền từ vào chỗ trống
+        // ✅ Đúng thì hiển thị popup bằng showCustomAlert
+        showCustomAlert(item);
+        addPoint(item.word); // cộng điểm ngay khi đúng
         sentenceEl.textContent = item.example;
 
         // Phát âm cả câu ví dụ
@@ -245,16 +245,23 @@ function startQuizFillBlank() {
         utterExample.lang = "zh-CN";
         speechSynthesis.speak(utterExample);
       } else {
-        alert("❌ Sai. Đáp án: " + item.word);
+        // ❌ Sai thì hiển thị popup bằng showAlert
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;font-size:2em;color:red;">❌ Sai</p>
+            <p style="margin:5px 0;">Đáp án đúng: <b>${item.word}</b></p>
+          </div>
+        `;
+        showAlert(content);
 
-        // Phát âm từ sai (từ đúng cần điền)
+        // Phát âm từ đúng
         if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
           const utterWord = new SpeechSynthesisUtterance(item.word);
           utterWord.lang = "zh-CN";
           speechSynthesis.speak(utterWord);
         }
 
-        // Phát âm câu ví dụ nếu có
+        // Phát âm câu ví dụ
         if (item.example) {
           const utterExample = new SpeechSynthesisUtterance(item.example);
           utterExample.lang = "zh-CN";
