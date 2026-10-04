@@ -233,9 +233,9 @@ function startQuizFillBlank() {
 
     btn.onclick = () => {
       if (input.value.trim().toLowerCase() === item.word.toLowerCase()) {
-        alert("✅ Chính xác!");
-        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
-        // Điền từ vào chỗ trống
+        // ✅ Đúng thì gọi lại showCustomAlert
+        showCustomAlert(item);
+        addPoint(item.word); 
         sentenceEl.textContent = item.example;
 
         // Phát âm cả câu ví dụ
@@ -243,16 +243,23 @@ function startQuizFillBlank() {
         utterExample.lang = "en-US";
         speechSynthesis.speak(utterExample);
       } else {
-        alert("❌ Sai. Đáp án: " + item.word);
+        // ❌ Sai thì tạo nội dung riêng và gọi showAlert
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai</p>
+            <p style="margin:5px 0;">Đáp án đúng: <b>${item.word}</b></p>
+          </div>
+        `;
+        showAlert(content);
 
-        // Phát âm từ sai (từ đúng cần điền)
+        // Phát âm từ đúng
         if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
           const utterWord = new SpeechSynthesisUtterance(item.word);
           utterWord.lang = "en-US";
           speechSynthesis.speak(utterWord);
         }
 
-        // Phát âm câu ví dụ nếu có
+        // Phát âm câu ví dụ
         if (item.example) {
           const utterExample = new SpeechSynthesisUtterance(item.example);
           utterExample.lang = "en-US";
