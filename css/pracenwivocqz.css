@@ -697,23 +697,27 @@
   #messageBox {
     display: none;
     position: fixed;
-    top: 7%;
+    top: 6%;
     left: 50%;
     transform: translateX(-50%);
-    border: 2px solid #333;
+    border-radius: 8px;
+    border: 2px solid rgba(255,255,255,0.4);
     padding: 20px;
     z-index: 999;
     text-align: center;
     font-size: 2em;
     line-height: 1.2;
+    height: 585px;
+    width: 1250px;
     max-height: 150%;       /* giới hạn chiều cao */
     max-width: 200%;       /* giới hạn chiều cao */
     overflow-y: auto;      /* cho phép cuộn */
+    z-index:999;
   }
     #messageBox p {
       margin-top: 1px;   /* giảm khoảng trống phía trên */
       margin-bottom: 5px; /* giảm khoảng trống phía dưới */
-    }
+  }
   #messageBox button {
     font-size: 1.5em;
     margin: 10px;
