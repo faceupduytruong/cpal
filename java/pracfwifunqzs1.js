@@ -32,7 +32,6 @@ function showCustomAlert(item) {
         <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
-      <button onclick="repeatUtter()" style="margin-top:10px;">🔊 Nói lại</button>
     </div>
   `;
   showAlert(content);
