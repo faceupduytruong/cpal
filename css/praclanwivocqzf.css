@@ -719,3 +719,8 @@
     font-size: 1.5em;
     margin: 10px;
   }
+
+  .quiz-input {
+    height: 33px;
+    font-size: 20px;
+  }
