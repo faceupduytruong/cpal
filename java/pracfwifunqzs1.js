@@ -737,21 +737,31 @@ function speakText(text) {
   }
 }
 
-// Hàm phát âm word, synonym và example (chuẩn khi đúng)
+// Hàm phát âm word, synonym và example theo thứ tự
 function speakResult(item) {
-  speakText(item.word);
-  speakText(item.synonym);
-  speakText(item.example);
+  const queue = [item.word, item.synonym, item.example].filter(Boolean);
+  let idx = 0;
+
+  function speakNext() {
+    if (idx < queue.length) {
+      const utter = new SpeechSynthesisUtterance(queue[idx]);
+      utter.lang = "zh-CN";
+      utter.onend = () => {
+        idx++;
+        speakNext();
+      };
+      speechSynthesis.speak(utter);
+    }
+  }
+  speakNext();
 }
 
 // Hàm cho nút "Nói lại"
 function repeatUtter() {
   if (currentItem) {
     if (currentItem.resultType === "correct") {
-      // Nếu kết quả đúng → phát âm lại chuẩn
       speakResult(currentItem);
     } else if (currentItem.resultType === "wrong" && currentItem.wrongChoice) {
-      // Nếu kết quả sai → phát âm lại từ sai đã chọn
       speakText(currentItem.wrongChoice);
     }
   }
