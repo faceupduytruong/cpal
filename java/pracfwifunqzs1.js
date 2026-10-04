@@ -176,7 +176,7 @@ function startQuizMultipleChoice() {
     card.innerHTML = `
       <p><b>${item.word}</b> (${item.type || ""})</p>
       <p><i>${item.example || ""}</i></p>
-      ${options.map(opt => `<button class="option">${opt}</button>`).join("")}
+      ${options.map(opt => `<button2 class="option">${opt}</button2>`).join("")}
     `;
 
     card.querySelectorAll(".option").forEach(btn => {
