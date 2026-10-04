@@ -39,37 +39,40 @@ function showCustomAlert(item) {
 
 function showAlert(contentHtml) {
   document.getElementById("alertContent").innerHTML = contentHtml;
-  document.getElementById("overlay").style.display = "block"; // hiện overlay
-  document.getElementById("alertBox").style.display = "block"; // hiện box
+  document.getElementById("overlay").style.display = "block"; 
+  document.getElementById("alertBox").style.display = "block"; 
 }
 
 function closeAlert() {
-  document.getElementById("overlay").style.display = "none"; // ẩn overlay
-  document.getElementById("alertBox").style.display = "none"; // ẩn box
+  document.getElementById("overlay").style.display = "none"; 
+  document.getElementById("alertBox").style.display = "none"; 
 }
 
-function repeatUtter() {
-
-  if (!currentItem) return;
-
+// Phát âm tuần tự word → example
+function speakWordAndExample(item) {
   speechSynthesis.cancel();
 
-  // Nếu từ/câu là tiếng Trung
-  if (currentItem) {
-    speechSynthesis.cancel();
-    if (currentItem.word) {
-      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
-      utterWord.lang = "zh-CN";
-      speechSynthesis.speak(utterWord);
-      utterWord.onend = () => {
-        if (currentItem.example) {
-          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
-          currentUtter.lang = "zh-CN";
-          speechSynthesis.speak(currentUtter);
-        }
-      };
-    }
+  if (!item) return;
+
+  if (item.word) {
+    const utterWord = new SpeechSynthesisUtterance(item.word);
+    utterWord.lang = "zh-CN";
+    speechSynthesis.speak(utterWord);
+
+    utterWord.onend = () => {
+      if (item.example) {
+        currentUtter = new SpeechSynthesisUtterance(item.example);
+        currentUtter.lang = "zh-CN";
+        speechSynthesis.speak(currentUtter);
+      }
+    };
   }
+}
+
+// Hàm Nói lại
+function repeatUtter() {
+  if (!currentItem) return;
+  speakWordAndExample(currentItem);
 }
 
 function startQuiz() {
@@ -96,7 +99,7 @@ function startQuiz() {
     card.innerHTML = `
       <p><b>${item.word}</b> (${item.type || ""})</p>
       <p><i>${item.example || ""}</i></p>
-      <input type="text" placeholder="Nghĩa tiếng Việt ?">
+      <input type="text" class="quiz-input" placeholder="Nghĩa tiếng Việt ?">
       <button2>Check</button2>
     `;
     const input = card.querySelector("input");
@@ -112,17 +115,8 @@ function startQuiz() {
           currentUtter = null;
         }
 
-        if (item.word) {
-          const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "zh-CN";
-          speechSynthesis.speak(utterWord);
-        }
-
-        if (item.example) {
-          currentUtter = new SpeechSynthesisUtterance(item.example);
-          currentUtter.lang = "zh-CN";
-          speechSynthesis.speak(currentUtter);
-        }
+        // Phát âm từ và câu ví dụ tuần tự
+        speakWordAndExample(item);
 
       } else {
         alert("❌ Sai. Đáp án: " + item.meaning);
@@ -428,49 +422,121 @@ function startHangman() {
 }
 
 // Trò chơi Sentence Builder (Xây dựng câu)
-function startSentenceBuilder() {
-  const validWords = words.filter(item => item.word && item.example && item.meaning);
-  const item = validWords[Math.floor(Math.random() * validWords.length)];
-  
-  // Tạo câu có chỗ trống
-  const sentenceWithBlank = item.example.replace(item.word, "_____");
+let currentItem = null;   // lưu item hiện tại
+let currentUtter = null;  // lưu câu đang phát âm
+
+function showCustomAlert(item) {
+  currentItem = item;
+  const content = `
+    <div style="text-align:center;">
+      <p style="margin:5px 0;">
+        Từ: <b style="font-size:4em;">${item.word}</b>
+        <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+      </p>
+      <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
+      <p style="margin:5px 0;">
+        Câu ví dụ: <b style="font-size:3em;">${item.example}</b><br>
+        <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+      </p>
+      <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+    </div>
+  `;
+  showAlert(content);
+}
+
+function showAlert(contentHtml) {
+  document.getElementById("alertContent").innerHTML = contentHtml;
+  document.getElementById("overlay").style.display = "block"; // hiện overlay
+  document.getElementById("alertBox").style.display = "block"; // hiện box
+}
+
+function closeAlert() {
+  document.getElementById("overlay").style.display = "none"; // ẩn overlay
+  document.getElementById("alertBox").style.display = "none"; // ẩn box
+}
+
+function repeatUtter() {
+
+  if (!currentItem) return;
+
+  speechSynthesis.cancel();
+
+  // Nếu từ/câu là tiếng Trung
+  if (currentItem) {
+    speechSynthesis.cancel();
+    if (currentItem.word) {
+      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+      utterWord.lang = "zh-CN";
+      speechSynthesis.speak(utterWord);
+      utterWord.onend = () => {
+        if (currentItem.example) {
+          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+          currentUtter.lang = "zh-CN";
+          speechSynthesis.speak(currentUtter);
+        }
+      };
+    }
+  }
+}
+
+function startQuiz() {
+  if (words.length === 0) {
+    alert("⚠️ Bạn chưa nhập file JSON!");
+    return;
+  }
+
+  const validWords = words.filter(item => item.word && item.meaning);
+  if (validWords.length === 0) {
+    alert("⚠️ Không có dữ liệu hợp lệ trong file JSON!");
+    return;
+  }
+
+  const shuffled = validWords.sort(() => 0.5 - Math.random());
+  const selected = shuffled.slice(0, 20);
 
   const container = document.getElementById("game");
-  container.innerHTML = `<h2>Sentence Builder</h2><p id="sentence">${sentenceWithBlank}</p>`;
+  container.innerHTML = "";
 
-  // Tạo danh sách lựa chọn (1 đúng + vài sai)
-  const options = [item.word, ...validWords.slice(0,3).map(w => w.word)].sort(() => 0.5 - Math.random());
+  selected.forEach(item => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <p><b>${item.word}</b> (${item.type || ""})</p>
+      <p><i>${item.example || ""}</i></p>
+      <input type="text" class="quiz-input" placeholder="Nghĩa tiếng Việt ?">
+      <button2>Check</button2>
+    `;
+    const input = card.querySelector("input");
+    const btn = card.querySelector("button2");
 
-  options.forEach(opt => {
-    const btn = document.createElement("button2");
-    btn.textContent = opt;
     btn.onclick = () => {
-      const sentenceEl = document.getElementById("sentence");
-      if (opt === item.word) {
-        // Khi chọn đúng: điền từ vào câu
-        sentenceEl.textContent = item.example;
+      if (input.value.trim() === item.meaning) {
+        showCustomAlert(item);
+        addPoint(item.word);
 
-        // Hiện nghĩa tiếng Việt của từ
-        alert("✅ Chính xác!\nTừ: " + item.word + " → " + item.meaning);
-        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Trung làm ID
+        if (currentUtter) {
+          speechSynthesis.cancel();
+          currentUtter = null;
+        }
 
-        // Phát âm cả câu ví dụ (đã điền từ đúng)
-        const utter = new SpeechSynthesisUtterance(item.example);
-        utter.lang = "zh-CN";
-        speechSynthesis.speak(utter);
+        if (item.word) {
+          const utterWord = new SpeechSynthesisUtterance(item.word);
+          utterWord.lang = "zh-CN";
+          speechSynthesis.speak(utterWord);
+        }
 
-        // Sau khi phát âm xong thì chuyển sang câu tiếp theo
-        utter.onend = () => {
-          startSentenceBuilder();
-        };
+        if (item.example) {
+          currentUtter = new SpeechSynthesisUtterance(item.example);
+          currentUtter.lang = "zh-CN";
+          speechSynthesis.speak(currentUtter);
+        }
+
       } else {
-        // Khi chọn sai: hiện nghĩa của từ sai
-        const wrongItem = validWords.find(w => w.word === opt);
-        const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
-        alert("❌ Sai! Nghĩa của \"" + opt + "\" là: " + meaning);
+        alert("❌ Sai. Đáp án: " + item.meaning);
       }
     };
-    container.appendChild(btn);
+
+    container.appendChild(card);
   });
 }
 
