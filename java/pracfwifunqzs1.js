@@ -286,7 +286,11 @@ function startFlashcards() {
   selected.forEach(item => {
     const card = document.createElement("div");
     card.className = "card";
-    card.innerHTML = `<p><b>${item.word}</b></p><p class="hidden">${item.meaning}</p>`;
+    card.innerHTML = `
+      <p><b>${item.word}</b></p>
+      <p style="color:cyan;font-size:1.2em;">(${item.pronounce || "chưa có phiên âm"})</p>
+      <p class="hidden">${item.meaning}</p>
+    `;
     const hidden = card.querySelector(".hidden");
     hidden.style.display = "none";
 
@@ -294,10 +298,10 @@ function startFlashcards() {
       // Hiện/ẩn nghĩa
       hidden.style.display = hidden.style.display === "none" ? "block" : "none";
 
-      // Phát âm từ nếu là tiếng Trung
-      if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
+      // Phát âm từ (tiếng Trung)
+      if (item.word) {
         const utter = new SpeechSynthesisUtterance(item.word);
-        utter.lang = "zh-CN";
+        utter.lang = "zh-CN"; // phát âm tiếng Trung
         speechSynthesis.speak(utter);
       }
     };
