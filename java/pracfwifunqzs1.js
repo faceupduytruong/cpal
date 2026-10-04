@@ -682,10 +682,11 @@ function startSynonymChallenge() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === item.synonym) {
-        // ✅ Đúng thì gọi showCustomAlert với nội dung mở rộng
+        // ✅ Đúng
         const content = `
           <div style="text-align:center;">
-             <p style="margin:5px 0;">
+            <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác!</p>
+            <p style="margin:5px 0;">
               Từ: <b style="font-size:4em;">${item.word}</b>
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
             </p>
@@ -702,22 +703,8 @@ function startSynonymChallenge() {
         `;
         showAlert(content);
         addPoint(item.word);
-
-        // Phát âm từ gốc
-        if (/^[a-zA-Z\s]+$/.test(item.word)) {
-          const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "zh-CN";
-          speechSynthesis.speak(utterWord);
-        }
-
-        // Phát âm từ đồng nghĩa
-        if (/^[a-zA-Z\s]+$/.test(item.synonym)) {
-          const utterSyn = new SpeechSynthesisUtterance(item.synonym);
-          utterSyn.lang = "zh-CN";
-          speechSynthesis.speak(utterSyn);
-        }
-
       } else {
+        // ❌ Sai
         const wrongItem = validWords.find(w => w.word === opt);
         const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
         const content = `
@@ -727,16 +714,39 @@ function startSynonymChallenge() {
           </div>
         `;
         showAlert(content);
-
-        if (/^[a-zA-Z\s]+$/.test(opt)) {
-          const utterWrong = new SpeechSynthesisUtterance(opt);
-          utterWrong.lang = "zh-CN";
-          speechSynthesis.speak(utterWrong);
-        }
       }
+
+      // 👉 Dù đúng hay sai đều phát âm word, synonym và example
+      speakResult(item);
     };
     container.appendChild(btn);
   });
+}
+
+// Hàm phát âm word, synonym và example
+function speakResult(item) {
+  if (item.word) {
+    const utterWord = new SpeechSynthesisUtterance(item.word);
+    utterWord.lang = "zh-CN";
+    speechSynthesis.speak(utterWord);
+  }
+  if (item.synonym) {
+    const utterSyn = new SpeechSynthesisUtterance(item.synonym);
+    utterSyn.lang = "zh-CN";
+    speechSynthesis.speak(utterSyn);
+  }
+  if (item.example) {
+    const utterEx = new SpeechSynthesisUtterance(item.example);
+    utterEx.lang = "zh-CN";
+    speechSynthesis.speak(utterEx);
+  }
+}
+
+// Hàm cho nút "Nói lại"
+function repeatUtter() {
+  if (currentItem) {
+    speakResult(currentItem);
+  }
 }
 
 // Trò chơi Word Scramble (Xếp chữ)
