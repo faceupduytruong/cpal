@@ -684,7 +684,7 @@ function startSynonymChallenge() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === item.synonym) {
-        alert("✅ Chính xác!\nTừ: " + item.word + " → " + item.meaning +
+        alert("Từ: " + item.word + " → " + item.meaning +
               "\nĐồng nghĩa: " + item.synonym);
         addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
 
