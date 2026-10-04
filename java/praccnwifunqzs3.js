@@ -15,117 +15,111 @@
   });
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
-let currentUtter = null;   // lưu câu đang phát âm
-let currentItem = null;    // lưu item hiện tại để "Nói lại"
+  let currentUtter = null;
+  let currentItem = null;
 
-// Hàm hiển thị thông báo
-function showMessage(item) {
-  currentItem = item;
+  function showMessage(item) {
+    currentItem = item;
 
-  const container = document.getElementById("game");
-  container.innerHTML = `
-    <div class="card" style="margin-top: 1px; border:2px solid #333; text-align:center; font-size:2em; height: 840px; width: 1250px;">
-      <p>Từ: <b><span style="font-size:2em;">${item.word}</span></b></p>
-      <p>Phát âm: <b><span style="color:cyan;">${item.pronounce || "(chưa có)"}</span></b></p>
-      <p>Nghĩa từ: <b>${item.meaning}</b></p>
-      <p>Câu ví dụ: <b><span style="font-size:2em;">${item.example}</span></b></p>
-      <p>Phát âm câu: <b><span style="color:cyan;">${item.examplePronounce || "(chưa có)"}</span></b></p>
-      <p>Nghĩa câu: <b>${item.translation || "(chưa có dịch)"}</b></p>
-      <button2 onclick="closeMessage()">Đóng</button2>
-      <button2 onclick="repeatUtter()">Nói lại</button2>
-    </div>
-  `;
-}
+    const container = document.getElementById("game");
+    container.innerHTML = `
+      <div class="card">
+        <p>Từ: <b><span style="font-size:1.5em;">${item.word}</span></b></p>
+        <p>Phát âm: <b><span style="color:cyan;">${item.pronounce || "(chưa có)"}</span></b></p>
+        <p>Nghĩa từ: <b>${item.meaning}</b></p>
+        <p>Câu ví dụ: <b><span style="font-size:1.2em;">${item.example}</span></b></p>
+        <p>Phát âm câu: <b><span style="color:cyan;">${item.examplePronounce || "(chưa có)"}</span></b></p>
+        <p>Nghĩa câu: <b>${item.translation || "(chưa có dịch)"}</b></p>
+        <button2 onclick="closeMessage()">Đóng</button2>
+        <button2 onclick="repeatUtter()">Nói lại</button2>
+      </div>
+    `;
+  }
 
-// Hàm đóng thông báo và quay lại quiz
-function closeMessage() {
-  startQuiz();
-}
+  function closeMessage() {
+    startQuiz();
+  }
 
-// Hàm nói lại: nói từ trước, rồi nói câu
-function repeatUtter() {
-  if (currentItem) {
-    speechSynthesis.cancel();
+  function repeatUtter() {
+    if (currentItem) {
+      speechSynthesis.cancel();
 
-    if (currentItem.word) {
-      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
-      utterWord.lang = "zh-CN";
-      speechSynthesis.speak(utterWord);
+      if (currentItem.word) {
+        const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+        utterWord.lang = "zh-CN";
+        speechSynthesis.speak(utterWord);
 
-      utterWord.onend = () => {
-        if (currentItem.example) {
-          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
-          currentUtter.lang = "zh-CN";
-          speechSynthesis.speak(currentUtter);
-        }
-      };
+        utterWord.onend = () => {
+          if (currentItem.example) {
+            currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+            currentUtter.lang = "zh-CN";
+            speechSynthesis.speak(currentUtter);
+          }
+        };
+      }
     }
   }
-}
 
-function startQuiz() {
-  if (words.length === 0) {
-    alert("⚠️ Bạn chưa nhập file JSON!");
-    return;
+  function startQuiz() {
+    if (words.length === 0) {
+      alert("⚠️ Bạn chưa nhập file JSON!");
+      return;
+    }
+
+    const validWords = words.filter(item => item.word && item.meaning);
+    if (validWords.length === 0) {
+      alert("⚠️ Không có dữ liệu hợp lệ trong file JSON!");
+      return;
+    }
+
+    const shuffled = validWords.sort(() => 0.5 - Math.random());
+    const selected = shuffled.slice(0, 20);
+
+    const container = document.getElementById("game");
+    container.innerHTML = "";
+
+    selected.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <p><b>${item.word}</b> (${item.type || ""})</p>
+        <p><i>${item.example || ""}</i></p>
+        <input type="text" placeholder="Nghĩa tiếng Việt ?">
+        <button2>Check</button2>
+      `;
+      const input = card.querySelector("input");
+      const btn = card.querySelector("button2");
+
+      btn.onclick = () => {
+        if (input.value.trim() === item.meaning) {
+          showMessage(item);
+          addPoint(item.word);
+
+          if (currentUtter) {
+            speechSynthesis.cancel();
+            currentUtter = null;
+          }
+
+          if (item.word) {
+            const utterWord = new SpeechSynthesisUtterance(item.word);
+            utterWord.lang = "zh-CN";
+            speechSynthesis.speak(utterWord);
+          }
+
+          if (item.example) {
+            currentUtter = new SpeechSynthesisUtterance(item.example);
+            currentUtter.lang = "zh-CN";
+            speechSynthesis.speak(currentUtter);
+          }
+
+        } else {
+          alert("❌ Sai. Đáp án: " + item.meaning);
+        }
+      };
+
+      container.appendChild(card);
+    });
   }
-
-  const validWords = words.filter(item => item.word && item.meaning);
-  if (validWords.length === 0) {
-    alert("⚠️ Không có dữ liệu hợp lệ trong file JSON!");
-    return;
-  }
-
-  const shuffled = validWords.sort(() => 0.5 - Math.random());
-  const selected = shuffled.slice(0, 20);
-
-  const container = document.getElementById("game");
-  container.innerHTML = "";
-
-  selected.forEach(item => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-      <p><b>${item.word}</b> (${item.type || ""})</p>
-      <p><i>${item.example || ""}</i></p>
-      <input type="text" placeholder="Nghĩa tiếng Việt ?">
-      <button2>Check</button2>
-    `;
-    const input = card.querySelector("input");
-    const btn = card.querySelector("button2");
-
-    btn.onclick = () => {
-      if (input.value.trim() === item.meaning) {
-        showMessage(item); // 👉 hiển thị thông báo màu trắng
-        addPoint(item.word);
-
-        // Dừng phát âm trước đó
-        if (currentUtter) {
-          speechSynthesis.cancel();
-          currentUtter = null;
-        }
-
-        // Phát âm từ
-        if (item.word) {
-          const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "zh-CN";
-          speechSynthesis.speak(utterWord);
-        }
-
-        // Phát âm câu ví dụ
-        if (item.example) {
-          currentUtter = new SpeechSynthesisUtterance(item.example);
-          currentUtter.lang = "zh-CN";
-          speechSynthesis.speak(currentUtter);
-        }
-
-      } else {
-        alert("❌ Sai. Đáp án: " + item.meaning);
-      }
-    };
-
-    container.appendChild(card);
-  });
-}
 
 // Trò chơi Quiz Multiple Choice (Trắc nghiệm)
 function startQuizMultipleChoice() {
