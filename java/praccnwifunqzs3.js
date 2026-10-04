@@ -203,44 +203,50 @@ function startQuizFillBlank() {
     card.innerHTML = `
       <p class="sentence">${sentenceWithBlank}</p>
       <input type="text" placeholder="Điền từ tiếng Anh">
-      <button2>Check</button2>
+      <button class="check-btn">Check</button>
+      <div class="message-box"></div>
     `;
+
     const input = card.querySelector("input");
-    const btn = card.querySelector("button2");
+    const btn = card.querySelector(".check-btn");
     const sentenceEl = card.querySelector(".sentence");
+    const messageBox = card.querySelector(".message-box");
 
     btn.onclick = () => {
+      messageBox.innerHTML = ""; // xoá thông báo cũ
+
       if (input.value.trim().toLowerCase() === item.word.toLowerCase()) {
-        alert("✅ Chính xác!");
-        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
+        // Nếu đúng
+        showMessage(item); // hiện thông báo đúng
+        addPoint(item.word); // cộng điểm
+
         // Điền từ vào chỗ trống
         sentenceEl.textContent = item.example;
 
         // Phát âm cả câu ví dụ
         const utterExample = new SpeechSynthesisUtterance(item.example);
-        utterExample.lang = "zh-CN";
+        utterExample.lang = "zh-CN"; // hoặc "en-US"
         speechSynthesis.speak(utterExample);
+
       } else {
-        alert("❌ Sai. Đáp án: " + item.word);
-
-        // Phát âm từ sai (từ đúng cần điền)
-        if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
-          const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "zh-CN";
-          speechSynthesis.speak(utterWord);
-        }
-
-        // Phát âm câu ví dụ nếu có
-        if (item.example) {
-          const utterExample = new SpeechSynthesisUtterance(item.example);
-          utterExample.lang = "zh-CN";
-          speechSynthesis.speak(utterExample);
-        }
+        // Nếu sai thì chỉ báo cần chọn lại, không gợi ý đáp án
+        messageBox.textContent = "❌ Sai. Cần phải chọn lại từ khác !";
+        messageBox.style.color = "red";
+        messageBox.style.fontWeight = "bold";
       }
     };
 
     container.appendChild(card);
   });
+}
+
+// Ví dụ hàm showMessage (bạn có thể tuỳ chỉnh thêm giao diện)
+function showMessage(item) {
+  const container = document.getElementById("game");
+  const msg = document.createElement("div");
+  msg.className = "success-message";
+  msg.textContent = "✅ Chính xác! Từ đúng là: " + item.word;
+  container.appendChild(msg);
 }
 
 // Trò chơi Flashcards (Flashcards)
