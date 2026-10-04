@@ -680,7 +680,7 @@
   #alertBox {
     display: none;
     position: fixed;
-    top: 7%; left: 50%;
+    top: 6%; left: 50%;
     margin-top: 10px;
     transform: translateX(-50%);
     border-radius: 8px;
