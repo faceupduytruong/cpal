@@ -121,25 +121,24 @@ function startQuiz() {
         showCustomAlert(item);
         addPoint(item.word);
 
-        if (currentUtter) {
-          speechSynthesis.cancel();
-          currentUtter = null;
-        }
+        speechSynthesis.cancel();
+        currentUtter = null;
 
-        // Phát âm từ bằng tiếng Trung với giọng nữ
+        // Phát âm từ trước
         if (item.word) {
           const utterWord = new SpeechSynthesisUtterance(item.word);
           utterWord.lang = "zh-CN";
           utterWord.voice = getFemaleVoice("zh-CN");
           speechSynthesis.speak(utterWord);
-        }
 
-        // Phát âm câu ví dụ bằng tiếng Trung với giọng nữ
-        if (item.example) {
-          currentUtter = new SpeechSynthesisUtterance(item.example);
-          currentUtter.lang = "zh-CN";
-          currentUtter.voice = getFemaleVoice("zh-CN");
-          speechSynthesis.speak(currentUtter);
+          utterWord.onend = () => {
+            if (item.example) {
+              currentUtter = new SpeechSynthesisUtterance(item.example);
+              currentUtter.lang = "zh-CN";
+              currentUtter.voice = getFemaleVoice("zh-CN");
+              speechSynthesis.speak(currentUtter);
+            }
+          };
         }
 
       } else {
