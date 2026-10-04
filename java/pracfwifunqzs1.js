@@ -691,8 +691,12 @@ function startSynonymChallenge() {
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
             </p>
             <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
-            <p style="margin:5px 0;">Đồng nghĩa: <b>${item.synonym}</b></p>
-            <p style="margin:5px 0;color:cyan;">(${item.synonymPronounce || "chưa có pronounce"})</p>
+            <p style="margin:5px 0;">
+              Đồng nghĩa: <b style="font-size:4em;">${item.synonym}</b>
+            </p>
+            <p style="margin:5px 0;color:cyan;">
+              <b style="font-size:2em;">(${item.synonymPronounce || "chưa có pronounce"})</b>
+            </p>
             <p style="margin:5px 0;">Nghĩa từ đồng nghĩa: ${item.synonymMeaning || "(chưa có nghĩa)"}</p>
             <p style="margin:5px 0;">
               Câu ví dụ: <b style="font-size:3em;">${item.example}</b><br>
@@ -737,7 +741,7 @@ function speakText(text) {
   }
 }
 
-// Hàm phát âm word, synonym và example theo thứ tự
+// Hàm phát âm word, synonym và example theo thứ tự (dùng hàng đợi để không bị nuốt mất)
 function speakResult(item) {
   const queue = [item.word, item.synonym, item.example].filter(Boolean);
   let idx = 0;
@@ -765,25 +769,6 @@ function repeatUtter() {
       speakText(currentItem.wrongChoice);
     }
   }
-}
-
-// Trò chơi Word Scramble (Xếp chữ)
-function startWordScramble() {
-  const item = words[Math.floor(Math.random() * words.length)];
-  const scrambled = item.word.split("").sort(() => 0.5 - Math.random()).join("");
-
-  const container = document.getElementById("game");
-  container.innerHTML = `<h2>Word Scramble</h2><p>${scrambled}</p><input id="ans" class="text-area2"><button2 id="check">Check</button2>`;
-
-  document.getElementById("check").onclick = () => {
-    const ans = document.getElementById("ans").value.trim();
-    if (ans.toLowerCase() === item.word.toLowerCase()) {
-      alert("✅ Chính xác! Từ: " + item.word);
-      addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Trung làm ID
-    } else {
-      alert("❌ Sai. Đáp án: " + item.word);
-    }
-  };
 }
 
 // Trò chơi Spelling Bee (Đánh vần)
