@@ -690,8 +690,37 @@
   height: 600px; 
   width: 1100px;
   z-index: 999; /* cao hơn overlay */
-  /* thêm phần này để cuộn nội dung */
-  overflow-y: auto; 
+  overflow-y: auto; /* cho phép cuộn dọc */
+}
+
+/* Scrollbar cho AlertBox */
+#alertBox::-webkit-scrollbar {
+  width: 8px; /* độ rộng thanh cuộn */
+}
+
+#alertBox::-webkit-scrollbar-track {
+  background: rgba(30, 30, 30, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+#alertBox::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.4),
+    rgba(173, 255, 47, 0.6),
+    rgba(60, 179, 113, 0.8),
+    rgba(0, 128, 0, 1)
+  );
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 128, 0, 0.3);
+}
+
+/* Firefox */
+#alertBox {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,128,0,1) rgba(30,30,30,0.3);
 }
 
   /* Khung thông báo nổi */
