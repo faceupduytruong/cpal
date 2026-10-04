@@ -692,3 +692,29 @@
         0 0 12px #1E90FF,    /* ánh sáng xanh lam sáng hơn (DodgerBlue) */
         1px 1px 4px rgba(0,0,0,0.3); /* bóng nhẹ màu đen */
     }
+
+  /* Khung thông báo nổi */
+  #messageBox {
+    display: none;
+    position: fixed;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #333;
+    padding: 20px;
+    z-index: 999;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.2;
+    max-height: 150%;       /* giới hạn chiều cao */
+    max-width: 200%;       /* giới hạn chiều cao */
+    overflow-y: auto;      /* cho phép cuộn */
+  }
+    #messageBox p {
+      margin-top: 1px;   /* giảm khoảng trống phía trên */
+      margin-bottom: 5px; /* giảm khoảng trống phía dưới */
+    }
+  #messageBox button {
+    font-size: 1.5em;
+    margin: 10px;
+  }
