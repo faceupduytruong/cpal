@@ -738,9 +738,9 @@
     overflow-y: auto;      /* cho phép cuộn */
     z-index:999;
   }
-    #messageBox p {
-      margin-top: 1px;   /* giảm khoảng trống phía trên */
-      margin-bottom: 5px; /* giảm khoảng trống phía dưới */
+  #messageBox p {
+    margin-top: 1px;   /* giảm khoảng trống phía trên */
+    margin-bottom: 5px; /* giảm khoảng trống phía dưới */
   }
   #messageBox button {
     font-size: 1.5em;
