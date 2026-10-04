@@ -138,7 +138,7 @@
       font-size: 1.5em;
       min-height: 240px;
       max-width: 100%;
-      width: 600px; /* bạn có thể chỉnh nhỏ hơn nếu muốn */
+      width: 650px; /* bạn có thể chỉnh nhỏ hơn nếu muốn */
       padding: 20px;
       box-sizing: border-box;
       word-wrap: break-word;   /* cho phép xuống dòng */
