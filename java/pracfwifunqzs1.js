@@ -16,20 +16,7 @@
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
 let currentItem = null;   // lưu item hiện tại
-let voices = [];
-
-// Lấy danh sách giọng khi trình duyệt load
-speechSynthesis.onvoiceschanged = () => {
-  voices = speechSynthesis.getVoices();
-};
-
-// Hàm chọn giọng nữ theo ngôn ngữ
-function getFemaleVoice(langCode) {
-  return voices.find(v => v.lang === langCode && (
-    v.name.toLowerCase().includes("female") ||
-    v.name.includes("女")
-  )) || voices.find(v => v.lang === langCode);
-}
+let currentUtter = null;  // lưu câu đang phát âm
 
 function showCustomAlert(item) {
   currentItem = item;
@@ -53,43 +40,37 @@ function showCustomAlert(item) {
 
 function showAlert(contentHtml) {
   document.getElementById("alertContent").innerHTML = contentHtml;
-  document.getElementById("overlay").style.display = "block"; 
-  document.getElementById("alertBox").style.display = "block"; 
+  document.getElementById("overlay").style.display = "block"; // hiện overlay
+  document.getElementById("alertBox").style.display = "block"; // hiện box
 }
 
 function closeAlert() {
-  document.getElementById("overlay").style.display = "none"; 
-  document.getElementById("alertBox").style.display = "none"; 
+  document.getElementById("overlay").style.display = "none"; // ẩn overlay
+  document.getElementById("alertBox").style.display = "none"; // ẩn box
 }
 
-// Hàm phát âm tuần tự word → example
-function speakWordAndExample(item) {
+function repeatUtter() {
+
+  if (!currentItem) return;
+
   speechSynthesis.cancel();
 
-  const queue = [];
-  if (item.word) queue.push(item.word);
-  if (item.example) queue.push(item.example);
-
-  let idx = 0;
-  function speakNext() {
-    if (idx < queue.length) {
-      const utter = new SpeechSynthesisUtterance(queue[idx]);
-      utter.lang = "zh-CN"; // hoặc "en-US" tùy dữ liệu
-      utter.voice = getFemaleVoice(utter.lang);
-      utter.onend = () => {
-        idx++;
-        speakNext();
+  // Nếu từ/câu là tiếng Trung
+  if (currentItem) {
+    speechSynthesis.cancel();
+    if (currentItem.word) {
+      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+      utterWord.lang = "zh-CN";
+      speechSynthesis.speak(utterWord);
+      utterWord.onend = () => {
+        if (currentItem.example) {
+          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+          currentUtter.lang = "zh-CN";
+          speechSynthesis.speak(currentUtter);
+        }
       };
-      speechSynthesis.speak(utter);
     }
   }
-  speakNext();
-}
-
-// Hàm Nói lại: phát âm lại từ và câu
-function repeatUtter() {
-  if (!currentItem) return;
-  speakWordAndExample(currentItem);
 }
 
 function startQuiz() {
@@ -116,7 +97,7 @@ function startQuiz() {
     card.innerHTML = `
       <p><b>${item.word}</b> (${item.type || ""})</p>
       <p><i>${item.example || ""}</i></p>
-      <input type="text" class="quiz-input" placeholder="Nghĩa tiếng Việt ?">
+      <input type="text" placeholder="Nghĩa tiếng Việt ?">
       <button2>Check</button2>
     `;
     const input = card.querySelector("input");
@@ -127,8 +108,22 @@ function startQuiz() {
         showCustomAlert(item);
         addPoint(item.word);
 
-        // Phát âm từ và câu ví dụ tuần tự
-        speakWordAndExample(item);
+        if (currentUtter) {
+          speechSynthesis.cancel();
+          currentUtter = null;
+        }
+
+        if (item.word) {
+          const utterWord = new SpeechSynthesisUtterance(item.word);
+          utterWord.lang = "zh-CN";
+          speechSynthesis.speak(utterWord);
+        }
+
+        if (item.example) {
+          currentUtter = new SpeechSynthesisUtterance(item.example);
+          currentUtter.lang = "zh-CN";
+          speechSynthesis.speak(currentUtter);
+        }
 
       } else {
         alert("❌ Sai. Đáp án: " + item.meaning);
