@@ -31,11 +31,13 @@ function showMessage(item) {
     <button2 onclick="repeatUtter()">Nói lại</button2>
     <button2 onclick="closeMessage()">Đóng</button2>
   `;
-  box.style.display = "block";
+  document.getElementById("overlay").style.display = "block"; // hiện overlay
+  box.style.display = "block"; // hiện messageBox
 }
 
 function closeMessage() {
-  document.getElementById("messageBox").style.display = "none";
+  document.getElementById("overlay").style.display = "none"; // ẩn overlay
+  document.getElementById("messageBox").style.display = "none"; // ẩn messageBox
 }
 
 function repeatUtter() {
