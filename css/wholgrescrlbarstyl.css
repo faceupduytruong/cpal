@@ -39,7 +39,6 @@ style.textContent = `
       backdrop-filter: blur(12px); /* thêm vào đây */
     }
 
-
 `;
 
 document.head.appendChild(style);
