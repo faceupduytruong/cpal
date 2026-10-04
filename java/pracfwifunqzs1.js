@@ -663,20 +663,16 @@ function startSynonymChallenge() {
     return;
   }
 
-  // Chọn ngẫu nhiên một từ làm câu hỏi
   const item = validWords[Math.floor(Math.random() * validWords.length)];
 
-  // Tạo 3 lựa chọn sai, loại bỏ chính từ đang đố và synonym của nó
   const wrongOptions = validWords
     .filter(w => w.word !== item.word && w.word !== item.synonym)
     .sort(() => 0.5 - Math.random())
     .slice(0, 3)
     .map(w => w.word);
 
-  // Ghép đáp án đúng (synonym) + sai rồi xáo trộn
   const options = [item.synonym, ...wrongOptions].sort(() => 0.5 - Math.random());
 
-  // Hiển thị giao diện
   const container = document.getElementById("game");
   container.innerHTML = `<h2>Synonym Challenge</h2><p>Từ: <b>${item.word}</b></p>`;
 
@@ -686,9 +682,27 @@ function startSynonymChallenge() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === item.synonym) {
-        alert("✅ Chính xác!\nTừ: " + item.word + " → " + item.meaning +
-              "\nĐồng nghĩa: " + item.synonym);
-        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Trung làm ID
+        // ✅ Đúng thì gọi showCustomAlert với nội dung mở rộng
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác!</p>
+            <p style="margin:5px 0;">
+              Từ: <b style="font-size:4em;">${item.word}</b>
+              <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
+            <p style="margin:5px 0;">Đồng nghĩa: <b>${item.synonym}</b></p>
+            <p style="margin:5px 0;color:cyan;">(${item.synonymPronounce || "chưa có pronounce"})</p>
+            <p style="margin:5px 0;">Nghĩa từ đồng nghĩa: ${item.synonymMeaning || "(chưa có nghĩa)"}</p>
+            <p style="margin:5px 0;">
+              Câu ví dụ: <b style="font-size:3em;">${item.example}</b><br>
+              <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+          </div>
+        `;
+        showAlert(content);
+        addPoint(item.word);
 
         // Phát âm từ gốc
         if (/^[a-zA-Z\s]+$/.test(item.word)) {
@@ -705,12 +719,16 @@ function startSynonymChallenge() {
         }
 
       } else {
-        // Tìm nghĩa của từ sai
         const wrongItem = validWords.find(w => w.word === opt);
         const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
-        alert("❌ Sai!\nBạn chọn: " + opt + " → " + meaning);
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai</p>
+            <p style="margin:5px 0;">Bạn chọn: <b>${opt}</b> → ${meaning}</p>
+          </div>
+        `;
+        showAlert(content);
 
-        // Phát âm từ sai
         if (/^[a-zA-Z\s]+$/.test(opt)) {
           const utterWrong = new SpeechSynthesisUtterance(opt);
           utterWrong.lang = "zh-CN";
