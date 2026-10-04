@@ -45,6 +45,7 @@ function showCustomAlert(item) {
         <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+      <button onclick="repeatUtter()" style="margin-top:10px;">🔊 Nói lại</button>
     </div>
   `;
   showAlert(content);
@@ -65,20 +66,24 @@ function closeAlert() {
 function speakWordAndExample(item) {
   speechSynthesis.cancel();
 
-  if (item.word) {
-    const utterWord = new SpeechSynthesisUtterance(item.word);
-    utterWord.lang = "zh-CN";
-    utterWord.voice = getFemaleVoice("zh-CN");
-    utterWord.onend = () => {
-      if (item.example) {
-        const utterEx = new SpeechSynthesisUtterance(item.example);
-        utterEx.lang = "zh-CN";
-        utterEx.voice = getFemaleVoice("zh-CN");
-        speechSynthesis.speak(utterEx);
-      }
-    };
-    speechSynthesis.speak(utterWord);
+  const queue = [];
+  if (item.word) queue.push(item.word);
+  if (item.example) queue.push(item.example);
+
+  let idx = 0;
+  function speakNext() {
+    if (idx < queue.length) {
+      const utter = new SpeechSynthesisUtterance(queue[idx]);
+      utter.lang = "zh-CN";
+      utter.voice = getFemaleVoice("zh-CN");
+      utter.onend = () => {
+        idx++;
+        speakNext();
+      };
+      speechSynthesis.speak(utter);
+    }
   }
+  speakNext();
 }
 
 // Hàm Nói lại: phát âm lại từ và câu bằng giọng nữ
