@@ -243,14 +243,7 @@ function startQuizFillBlank() {
         utterExample.lang = "en-US";
         speechSynthesis.speak(utterExample);
       } else {
-        // ❌ Sai thì tạo nội dung riêng và gọi showAlert
-        const content = `
-          <div style="text-align:center;">
-            <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai</p>
-            <p style="margin:5px 0;">Đáp án đúng: <b>${item.word}</b></p>
-          </div>
-        `;
-        showAlert(content);
+        alert("❌ Sai. Đáp án: " + item.word);
 
         // Phát âm từ đúng
         if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
