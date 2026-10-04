@@ -685,8 +685,7 @@ function startSynonymChallenge() {
         // ✅ Đúng thì gọi showCustomAlert với nội dung mở rộng
         const content = `
           <div style="text-align:center;">
-            <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác!</p>
-            <p style="margin:5px 0;">
+             <p style="margin:5px 0;">
               Từ: <b style="font-size:4em;">${item.word}</b>
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
             </p>
