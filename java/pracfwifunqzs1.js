@@ -36,7 +36,8 @@ function showCustomAlert(item) {
   currentItem = item;
   const content = `
     <div style="text-align:center;">
-      <p style="margin:5px 0;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè\n<
+      <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
+      <p style="margin:5px 0;">
         Từ: <b style="font-size:4em;">${item.word}</b>
         <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
       </p>
