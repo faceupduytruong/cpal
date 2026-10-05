@@ -138,6 +138,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@median-0/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/qv0a35xb9yz0ufvoajw6r/median.jpg?rlkey=6e7o5s9yg8tb3ugvk30uwgd1w&st=k08tinsy&raw=1',
   },
+  'Ratio Studio': {
+    url: 'https://www.youtube.com/@RTIO-0/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/a8mlv8pihxokjbzs2c0sm/Ratio-Studio.jpg?rlkey=v88ril69y4ohihmoe55d9ex2r&st=s0otjpf2&raw=1',
+  },
   'Math4Life': {
     url: 'https://www.youtube.com/@Math4Life_LTS',
     thumbnail: 'https://www.dropbox.com/scl/fi/xye05jtx4ym7rtdu5fjtr/Math4Life.avif?rlkey=cuioecr1kvxq0nwx3x86y815z&st=kio8ypvb&raw=1',
