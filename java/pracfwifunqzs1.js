@@ -193,7 +193,7 @@ function startQuizMultipleChoice() {
           // ✅ Nếu đúng: Hiện AlertBox chi tiết
           const content = `
             <div style="text-align:center;">
-              <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
+              <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
               <p style="margin:5px 0;">
                 Từ: <b style="font-size:4em;">${item.word}</b>
                 <b style="font-size:1.5em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -214,20 +214,34 @@ function startQuizMultipleChoice() {
           currentItem = { ...item, resultType: "correct" };
 
         } else {
-          // ❌ Nếu sai: Hiển thị AlertBox báo sai và thông báo nghĩa của đáp án người chơi chọn
-          const wrongMeaning = btn.textContent; // Nghĩa mà người chơi vừa click nhầm
+          // ❌ Nếu sai: Hiển thị AlertBox báo sai kèm theo Từ tiếng Trung và Phiên âm của nghĩa vừa chọn
+          const wrongMeaning = btn.textContent; // Nghĩa tiếng Việt mà người chơi vừa click nhầm
           
+          // Tìm item trong danh sách có nghĩa trùng với nghĩa người chơi chọn để lấy Từ tiếng Trung và Phiên âm
+          const wrongItem = validWords.find(w => w.meaning === wrongMeaning);
+          const wrongWord = wrongItem ? wrongItem.word : "";
+          const wrongPronounce = wrongItem && wrongItem.pronounce ? wrongItem.pronounce : "chưa có pronounce";
+
           const content = `
             <div style="text-align:center;">
               <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai</p>
-              <p style="margin:5px 0;">Bạn chọn nghĩa: <b style="font-size:2.5em;color:orange;">${wrongMeaning}</b></p>
-              <p style="margin:5px 0;color:gray;font-size:1.1em;">(Hãy thử chọn lại đáp án khác nhé!)</p>
+              <p style="margin:5px 0;">
+                Bạn chọn nghĩa: <b style="font-size:2.5em;">${wrongMeaning}</b>
+              </p>
+              <p style="margin:5px 0;">
+                Từ tương ứng: <b style="font-size:3.5em;">${wrongWord}</b>
+                <b style="font-size:1.5em;color:cyan;">(${wrongPronounce})</b>
+              </p>
+              <p style="margin:5px 0;color:gray;font-size:1.1em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
             </div>
           `;
           showAlert(content);
 
-          // Không phát âm gì hoặc có thể tùy chỉnh trạng thái sai nếu muốn
-          currentItem = { ...item, resultType: "wrong", wrongChoice: null };
+          // Phát âm từ tiếng Trung mà người chơi vừa chọn nhầm
+          speakText(wrongWord);
+          
+          // Lưu trạng thái để nút "Nói lại" có thể phát âm lại đúng từ này
+          currentItem = { ...item, resultType: "wrong", wrongChoice: wrongWord };
         }
       };
     });
