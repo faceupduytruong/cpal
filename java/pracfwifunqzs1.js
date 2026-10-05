@@ -44,7 +44,7 @@ function showCustomAlert(item) {
       <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
       <p style="margin:5px 0;">
         Câu ví dụ: <b style="font-size:3em;">${item.example}</b><br>
-        <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+        <b style="font-size:1.5em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
     </div>
