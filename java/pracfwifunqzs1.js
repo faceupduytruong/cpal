@@ -181,7 +181,7 @@ function startQuizMultipleChoice() {
     const options = [item.meaning, ...wrongOptions].sort(() => 0.5 - Math.random());
 
     card.innerHTML = `
-      <p><b>${item.word}</b> (${item.type || ""})</p>
+      <p>✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè\n<b>${item.word}</b> (${item.type || ""})</p>
       <p><i>${item.example || ""}</i></p>
       ${options.map(opt => `<button2 class="option">${opt}</button2>`).join("")}
     `;
