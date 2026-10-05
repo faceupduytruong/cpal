@@ -39,12 +39,12 @@ function showCustomAlert(item) {
       <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
       <p style="margin:5px 0;">
         Từ: <b style="font-size:3.9em;">${item.word}</b>
-        <b style="font-size:2.1em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+        <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
       <p style="margin:5px 0;">
         Câu ví dụ: <b style="font-size:3em;">${item.example}</b><br>
-        <b style="font-size:2.1em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+        <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
     </div>
@@ -196,12 +196,12 @@ function startQuizMultipleChoice() {
               <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
               <p style="margin:5px 0;">
                 Từ: <b style="font-size:3.9em;">${item.word}</b>
-                <b style="font-size:2.1em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+                <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
               </p>
               <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
               <p style="margin:5px 0;">
                 Câu ví dụ: <b style="font-size:3em;">${item.example || "(chưa có ví dụ)"}</b><br>
-                <b style="font-size:2.1em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+                <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
               </p>
               <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
             </div>
@@ -519,12 +519,12 @@ function startSentenceBuilder() {
             <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
             <p style="margin:5px 0;">
               Từ: <b style="font-size:3.9em;">${item.word}</b>
-              <b style="font-size:2.1em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+              <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
             </p>
             <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
             <p style="margin:5px 0;">
               Câu ví dụ: <b style="font-size:3em;">${item.example || "(chưa có ví dụ)"}</b><br>
-              <b style="font-size:2.1em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+              <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
             </p>
             <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
           </div>
@@ -769,12 +769,12 @@ function startSynonymChallenge() {
               Đồng nghĩa: <b style="font-size:3.9em;">${item.synonym}</b>
             </p>
             <p style="margin:5px 0;color:cyan;">
-              <b style="font-size:2.1em;">(${item.synonymPronounce || "chưa có pronounce"})</b>
+              <b style="font-size:2em;">(${item.synonymPronounce || "chưa có pronounce"})</b>
             </p>
             <p style="margin:5px 0;">Nghĩa từ đồng nghĩa: ${item.synonymMeaning || "(chưa có nghĩa)"}</p>
             <p style="margin:5px 0;">
               Câu ví dụ: <b style="font-size:3em;">${item.example}</b><br>
-              <b style="font-size:2.1em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+              <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
             </p>
             <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
           </div>
