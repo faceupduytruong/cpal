@@ -62,27 +62,35 @@ function closeAlert() {
   document.getElementById("alertBox").style.display = "none"; 
 }
 
-// Hàm Nói lại: phát âm lại từ và câu bằng giọng nữ
+// Hàm Nói lại: phát âm lại từ, từ đồng nghĩa hoặc câu ví dụ dựa trên ngữ cảnh
 function repeatUtter() {
   if (!currentItem) return;
 
   speechSynthesis.cancel();
 
-  // Phát âm từ
-  if (currentItem.word) {
-    const utterWord = new SpeechSynthesisUtterance(currentItem.word);
-    utterWord.lang = "zh-CN"; // mặc định tiếng Trung
-    utterWord.voice = getFemaleVoice("zh-CN");
-    speechSynthesis.speak(utterWord);
-
-    utterWord.onend = () => {
-      if (currentItem.example) {
-        currentUtter = new SpeechSynthesisUtterance(currentItem.example);
-        currentUtter.lang = "zh-CN";
-        currentUtter.voice = getFemaleVoice("zh-CN");
-        speechSynthesis.speak(currentUtter);
-      }
-    };
+  // Nếu là trò chơi Synonym Challenge có phân biệt đúng/sai
+  if (currentItem.resultType === "correct") {
+    speakResult(currentItem);
+  } else if (currentItem.resultType === "wrong" && currentItem.wrongChoice) {
+    speakText(currentItem.wrongChoice);
+  } else {
+    // Mặc định cho các trò chơi khác (Quiz, Trắc nghiệm, Điền từ...): Phát âm Từ -> Sau đó phát âm Câu ví dụ
+    if (currentItem.word) {
+      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+      utterWord.lang = "zh-CN";
+      utterWord.voice = getFemaleVoice("zh-CN");
+      
+      utterWord.onend = () => {
+        if (currentItem.example) {
+          const utterExample = new SpeechSynthesisUtterance(currentItem.example);
+          utterExample.lang = "zh-CN";
+          utterExample.voice = getFemaleVoice("zh-CN");
+          speechSynthesis.speak(utterExample);
+        }
+      };
+      
+      speechSynthesis.speak(utterWord);
+    }
   }
 }
 
@@ -759,13 +767,34 @@ function speakResult(item) {
   speakNext();
 }
 
-// Hàm cho nút "Nói lại"
+// Hàm Nói lại: phát âm lại từ, từ đồng nghĩa hoặc câu ví dụ dựa trên ngữ cảnh
 function repeatUtter() {
-  if (currentItem) {
-    if (currentItem.resultType === "correct") {
-      speakResult(currentItem);
-    } else if (currentItem.resultType === "wrong" && currentItem.wrongChoice) {
-      speakText(currentItem.wrongChoice);
+  if (!currentItem) return;
+
+  speechSynthesis.cancel();
+
+  // Nếu là trò chơi Synonym Challenge có phân biệt đúng/sai
+  if (currentItem.resultType === "correct") {
+    speakResult(currentItem);
+  } else if (currentItem.resultType === "wrong" && currentItem.wrongChoice) {
+    speakText(currentItem.wrongChoice);
+  } else {
+    // Mặc định cho các trò chơi khác (Quiz, Trắc nghiệm, Điền từ...): Phát âm Từ -> Sau đó phát âm Câu ví dụ
+    if (currentItem.word) {
+      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+      utterWord.lang = "zh-CN";
+      utterWord.voice = getFemaleVoice("zh-CN");
+      
+      utterWord.onend = () => {
+        if (currentItem.example) {
+          const utterExample = new SpeechSynthesisUtterance(currentItem.example);
+          utterExample.lang = "zh-CN";
+          utterExample.voice = getFemaleVoice("zh-CN");
+          speechSynthesis.speak(utterExample);
+        }
+      };
+      
+      speechSynthesis.speak(utterWord);
     }
   }
 }
