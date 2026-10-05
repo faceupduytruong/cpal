@@ -88,6 +88,14 @@ const folderLinks = {
     url: 'https://www.youtube.com/@ersvnofficial/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/ln8jil7ukjnaubzles4hy/eRSVN-SAP2000.webp?rlkey=jdzd0gjfs30ytx177qv45s1vp&st=fyuw464j&raw=1',
   },
+  'Võ Bảo Toàn (ETABS)': {
+    url: 'https://www.youtube.com/@vobaotoan9471/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8g7kp1vqol74l5em9dfh1/V-B-o-To-n-ETABS.webp?rlkey=9itltj9qtpevdufuc93u0kus6&st=47j1nufb&raw=1',
+  },
+  'MSc. Nguyễn Tổng (ETABS)': {
+    url: 'https://www.youtube.com/@MSc.Nguy%E1%BB%85nT%E1%BB%95ng/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/mg5bgqngeosp3bei1fey4/MSc.-Nguy-n-T-ng.png?rlkey=pyh1ues4qwyig26mgebyrqwky&st=fvmr6vzi&raw=1',
+  },
   'Nguyễn Quốc Tới (NM - Plaxis)': {
     url: 'https://www.youtube.com/@NGUY%E1%BB%84NQU%E1%BB%90CT%E1%BB%9AI/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/k43ou0ownztf3dsg398o6/Nguy-n-Qu-c-T-i-NM-Plaxis.png?rlkey=r16q471437ercu5q9cxcvqlyp&st=5iv1tm7r&raw=1',
