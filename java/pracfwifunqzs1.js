@@ -201,7 +201,7 @@ function startQuizMultipleChoice() {
               <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
               <p style="margin:5px 0;">
                 Câu ví dụ: <b style="font-size:3em;">${item.example || "(chưa có ví dụ)"}</b><br>
-                <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+                <b style="font-size:1.5em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
               </p>
               <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
             </div>
@@ -232,7 +232,7 @@ function startQuizMultipleChoice() {
                 Từ tương ứng: <b style="font-size:3.5em;">${wrongWord}</b>
                 <b style="font-size:1.5em;color:cyan;">(${wrongPronounce})</b>
               </p>
-              <p style="margin:5px 0;color:gray;font-size:1.1em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
+              <p style="margin:5px 0;color:gray;font-size:2em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
             </div>
           `;
           showAlert(content);
