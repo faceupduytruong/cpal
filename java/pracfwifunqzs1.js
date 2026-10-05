@@ -36,7 +36,7 @@ function showCustomAlert(item) {
   currentItem = item;
   const content = `
     <div style="text-align:center;">
-      <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
+      <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
       <p style="margin:5px 0;">
         Từ: <b style="font-size:4em;">${item.word}</b>
         <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -182,7 +182,7 @@ function startQuizMultipleChoice() {
     const options = [item.meaning, ...wrongOptions].sort(() => 0.5 - Math.random());
 
     card.innerHTML = `
-      <p>b>${item.word}</b> (${item.type || ""})</p>
+      <p><b>${item.word}</b> (${item.type || ""})</p>
       <p><i>${item.example || ""}</i></p>
       ${options.map(opt => `<button2 class="option">${opt}</button2>`).join("")}
     `;
