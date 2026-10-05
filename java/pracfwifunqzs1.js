@@ -487,44 +487,79 @@ function startHangman() {
 // Trò chơi Sentence Builder (Xây dựng câu)
 function startSentenceBuilder() {
   const validWords = words.filter(item => item.word && item.example && item.meaning);
+  if (validWords.length === 0) {
+    alert("⚠️ Không có đủ dữ liệu hợp lệ trong file JSON!");
+    return;
+  }
+  
   const item = validWords[Math.floor(Math.random() * validWords.length)];
   
   // Tạo câu có chỗ trống
   const sentenceWithBlank = item.example.replace(item.word, "_____");
 
   const container = document.getElementById("game");
-  container.innerHTML = `<h2>Sentence Builder</h2><p id="sentence">${sentenceWithBlank}</p>`;
+  container.innerHTML = `<h2>Sentence Builder</h2><p id="sentence" style="font-size:1.5em;margin-bottom:15px;">${sentenceWithBlank}</p>`;
 
   // Tạo danh sách lựa chọn (1 đúng + vài sai)
-  const options = [item.word, ...validWords.slice(0,3).map(w => w.word)].sort(() => 0.5 - Math.random());
+  const options = [item.word, ...validWords.filter(w => w.word !== item.word).slice(0, 3).map(w => w.word)].sort(() => 0.5 - Math.random());
 
   options.forEach(opt => {
     const btn = document.createElement("button2");
     btn.textContent = opt;
+    btn.style.margin = "5px";
     btn.onclick = () => {
       const sentenceEl = document.getElementById("sentence");
+      
       if (opt === item.word) {
-        // Khi chọn đúng: điền từ vào câu
+        // ✅ Khi chọn đúng: Điền từ vào câu và hiện AlertBox chi tiết
         sentenceEl.textContent = item.example;
 
-        // Hiện nghĩa tiếng Việt của từ
-        alert("✅ Chính xác!\nTừ: " + item.word + " → " + item.meaning);
-        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Trung làm ID
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
+            <p style="margin:5px 0;">
+              Từ: <b style="font-size:3.9em;">${item.word}</b>
+              <b style="font-size:2.1em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
+            <p style="margin:5px 0;">
+              Câu ví dụ: <b style="font-size:3em;">${item.example || "(chưa có ví dụ)"}</b><br>
+              <b style="font-size:2.1em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+          </div>
+        `;
+        showAlert(content);
+        addPoint(item.word); // 👉 cộng điểm ngay khi đúng
 
-        // Phát âm cả câu ví dụ (đã điền từ đúng)
-        const utter = new SpeechSynthesisUtterance(item.example);
-        utter.lang = "zh-CN";
-        speechSynthesis.speak(utter);
+        // Phát âm chuẩn (word + example qua hàng đợi)
+        speakResult(item);
+        currentItem = { ...item, resultType: "correct" };
 
-        // Sau khi phát âm xong thì chuyển sang câu tiếp theo
-        utter.onend = () => {
-          startSentenceBuilder();
-        };
       } else {
-        // Khi chọn sai: hiện nghĩa của từ sai
+        // ❌ Khi chọn sai: Hiển thị AlertBox báo sai và thông tin chi tiết của từ bị bấm nhầm
         const wrongItem = validWords.find(w => w.word === opt);
-        const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
-        alert("❌ Sai! Nghĩa của \"" + opt + "\" là: " + meaning);
+        const wrongMeaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
+        const wrongPronounce = wrongItem && wrongItem.pronounce ? wrongItem.pronounce : "chưa có pronounce";
+
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai</p>
+            <p style="margin:5px 0;">
+              Bạn chọn từ: <b style="font-size:3.5em;">${opt}</b>
+              <b style="font-size:2em;color:cyan;">(${wrongPronounce})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa của từ này: <b style="font-size:1.5em;color:orange;">${wrongMeaning}</b></p>
+            <p style="margin:5px 0;font-size:1.2em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
+          </div>
+        `;
+        showAlert(content);
+
+        // Phát âm từ tiếng Trung mà người chơi vừa chọn nhầm
+        speakText(opt);
+        
+        // Lưu trạng thái để nút "Nói lại" đọc đúng từ sai đó
+        currentItem = { ...item, resultType: "wrong", wrongChoice: opt };
       }
     };
     container.appendChild(btn);
