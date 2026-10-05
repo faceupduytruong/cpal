@@ -516,7 +516,7 @@ function startSentenceBuilder() {
 
         const content = `
           <div style="text-align:center;">
-            <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
+            <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
             <p style="margin:5px 0;">
               Từ: <b style="font-size:3.9em;">${item.word}</b>
               <b style="font-size:2.1em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -549,7 +549,7 @@ function startSentenceBuilder() {
               Bạn chọn từ: <b style="font-size:3.5em;">${opt}</b>
               <b style="font-size:2em;color:cyan;">(${wrongPronounce})</b>
             </p>
-            <p style="margin:5px 0;">Nghĩa của từ này: <b style="font-size:1.5em;color:orange;">${wrongMeaning}</b></p>
+            <p style="margin:5px 0;">Nghĩa của từ này: <b style="font-size:1.5em;">${wrongMeaning}</b></p>
             <p style="margin:5px 0;font-size:1.2em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
           </div>
         `;
@@ -759,22 +759,22 @@ function startSynonymChallenge() {
         // ✅ Đúng
         const content = `
           <div style="text-align:center;">
-            <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác!</p>
+            <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
             <p style="margin:5px 0;">
-              Từ: <b style="font-size:4em;">${item.word}</b>
+              Từ: <b style="font-size:3.9em;">${item.word}</b>
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
             </p>
             <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
             <p style="margin:5px 0;">
-              Đồng nghĩa: <b style="font-size:4em;">${item.synonym}</b>
+              Đồng nghĩa: <b style="font-size:3.9em;">${item.synonym}</b>
             </p>
             <p style="margin:5px 0;color:cyan;">
-              <b style="font-size:2em;">(${item.synonymPronounce || "chưa có pronounce"})</b>
+              <b style="font-size:2.1em;">(${item.synonymPronounce || "chưa có pronounce"})</b>
             </p>
             <p style="margin:5px 0;">Nghĩa từ đồng nghĩa: ${item.synonymMeaning || "(chưa có nghĩa)"}</p>
             <p style="margin:5px 0;">
               Câu ví dụ: <b style="font-size:3em;">${item.example}</b><br>
-              <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+              <b style="font-size:2.1em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
             </p>
             <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
           </div>
