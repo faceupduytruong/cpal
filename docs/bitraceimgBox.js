@@ -323,6 +323,13 @@ container.innerHTML = `
     <div class="image-row glass-bg">
     <h2 class="row-title">Revit Structure</h2>
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.youtube.com/@k2ttechnology/playlists' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/bz0u6ua68ofaqd1bjqihk/K2T-Technology.png?rlkey=20bblhai2wtdrfpzg8niudx3s&st=ywoh7z7f&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">K2T Technology</div>
+      </div>
+      
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/groups/239065509920947/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/gbltfjhmku2mcds5jzze6/T-p-h-c-Revit-k-t-c-u.svg?rlkey=kc7b665n6y6p6zyfl2ww0d1bd&st=u4uq24cp&raw=1" alt="Ảnh 1">
 </div>
