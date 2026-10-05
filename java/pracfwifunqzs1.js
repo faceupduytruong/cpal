@@ -38,7 +38,7 @@ function showCustomAlert(item) {
     <div style="text-align:center;">
       <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
       <p style="margin:5px 0;">
-        Từ: <b style="font-size:3.1em;">${item.word}</b>
+        Từ: <b style="font-size:3.9em;">${item.word}</b>
         <b style="font-size:2.1em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
@@ -195,13 +195,13 @@ function startQuizMultipleChoice() {
             <div style="text-align:center;">
               <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
               <p style="margin:5px 0;">
-                Từ: <b style="font-size:3.8em;">${item.word}</b>
-                <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+                Từ: <b style="font-size:3.9em;">${item.word}</b>
+                <b style="font-size:2.1em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
               </p>
               <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
               <p style="margin:5px 0;">
                 Câu ví dụ: <b style="font-size:3em;">${item.example || "(chưa có ví dụ)"}</b><br>
-                <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+                <b style="font-size:2.1em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
               </p>
               <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
             </div>
