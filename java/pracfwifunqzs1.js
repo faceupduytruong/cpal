@@ -190,27 +190,44 @@ function startQuizMultipleChoice() {
     card.querySelectorAll(".option").forEach(btn => {
       btn.onclick = () => {
         if (btn.textContent === item.meaning) {
-          // Nếu đúng thì hiện AlertBox với nội dung chi tiết
-          showCustomAlert(item);
+          // ✅ Nếu đúng: Hiện AlertBox chi tiết
+          const content = `
+            <div style="text-align:center;">
+              <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
+              <p style="margin:5px 0;">
+                Từ: <b style="font-size:4em;">${item.word}</b>
+                <b style="font-size:1.5em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+              </p>
+              <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
+              <p style="margin:5px 0;">
+                Câu ví dụ: <b style="font-size:3em;">${item.example || "(chưa có ví dụ)"}</b><br>
+                <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+              </p>
+              <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+            </div>
+          `;
+          showAlert(content);
           addPoint(item.word);
 
-          // Phát âm từ
-          if (item.word) {
-            const utterWord = new SpeechSynthesisUtterance(item.word);
-            utterWord.lang = "zh-CN"; // hoặc zh-CN tùy dữ liệu
-            speechSynthesis.speak(utterWord);
-          }
-
-          // Phát âm câu ví dụ nếu có
-          if (item.example) {
-            const utterExample = new SpeechSynthesisUtterance(item.example);
-            utterExample.lang = "zh-CN"; // hoặc zh-CN tùy dữ liệu
-            speechSynthesis.speak(utterExample);
-          }
+          // Phát âm chuẩn (word + example qua hàng đợi)
+          speakResult(item);
+          currentItem = { ...item, resultType: "correct" };
 
         } else {
-          // Nếu sai thì chỉ báo cần chọn lại, không gợi ý đáp án
-          alert("❌ Sai. Cần phải chọn lại từ khác !");
+          // ❌ Nếu sai: Hiển thị AlertBox báo sai và thông báo nghĩa của đáp án người chơi chọn
+          const wrongMeaning = btn.textContent; // Nghĩa mà người chơi vừa click nhầm
+          
+          const content = `
+            <div style="text-align:center;">
+              <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai</p>
+              <p style="margin:5px 0;">Bạn chọn nghĩa: <b style="font-size:2.5em;color:orange;">${wrongMeaning}</b></p>
+              <p style="margin:5px 0;color:gray;font-size:1.1em;">(Hãy thử chọn lại đáp án khác nhé!)</p>
+            </div>
+          `;
+          showAlert(content);
+
+          // Không phát âm gì hoặc có thể tùy chỉnh trạng thái sai nếu muốn
+          currentItem = { ...item, resultType: "wrong", wrongChoice: null };
         }
       };
     });
