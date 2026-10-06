@@ -260,7 +260,7 @@ function startQuizMultipleChoice() {
                   <b style="font-size:2.0em;color:cyan;">(${wrongItem.examplePronounce || "chưa có pronounce"})</b>
                 </p>
                 <p style="margin:5px 0;">Dịch câu ví dụ: ${wrongItem.translation || "(chưa có dịch)"}</p>
-                <p style="margin:10px 0;color:gray;font-size:1.1em;">(Hãy thử chọn lại đáp án khác nhé!)</p>
+                <p style="margin:10px 0;color:grey;font-size:2em;">Hãy viết lại nghĩa khác</p>
               </div>
             `;
             showAlert(content);
