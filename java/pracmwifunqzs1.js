@@ -15,7 +15,6 @@
   });
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
-// Trò chơi Quiz (Nghĩa tiếng Việt)
 let currentItem = null;   // lưu item hiện tại
 let currentUtter = null;  // lưu câu đang phát âm
 
@@ -39,7 +38,7 @@ function showCustomAlert(item) {
   showAlert(content);
 }
 
-// ❌ Hàm hiện alertbox khi chọn sai
+// ❌ Hàm hiện alertbox khi chọn sai (giữ nguyên phong cách chi tiết)
 function showWrongAlert(item) {
   currentItem = item;
   const content = `
@@ -55,7 +54,7 @@ function showWrongAlert(item) {
         <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
-      <p style="margin:10px 0;color:gray;font-size:1.1em;">(Bạn có thể bấm "Nói lại" để nghe lại phát âm từ này nhé!)</p>
+      <p style="margin:10px 0;color:gray;font-size:1.1em;">(Bạn có thể bấm nút "Nói lại" để nghe lại phát âm nhé!)</p>
     </div>
   `;
   showAlert(content);
@@ -73,13 +72,12 @@ function closeAlert() {
 }
 
 function repeatUtter() {
-
   if (!currentItem) return;
 
   speechSynthesis.cancel();
 
+  // Phần en-US của bạn
   if (currentItem) {
-    speechSynthesis.cancel();
     if (currentItem.word) {
       const utterWord = new SpeechSynthesisUtterance(currentItem.word);
       utterWord.lang = "en-US";
@@ -94,9 +92,8 @@ function repeatUtter() {
     }
   }
 
-  // Nếu từ/câu là tiếng Trung
+  // Phần zh-CN của bạn (giữ nguyên logic gốc)
   if (currentItem) {
-    speechSynthesis.cancel();
     if (currentItem.word) {
       const utterWord = new SpeechSynthesisUtterance(currentItem.word);
       utterWord.lang = "zh-CN";
@@ -165,8 +162,25 @@ function startQuiz() {
         }
 
       } else {
-        // ❌ Gọi alertBox khi chọn sai thay vì dùng alert() mặc định
+        // ❌ Khi trả lời sai: Gọi alertbox sai thay vì alert() mặc định
         showWrongAlert(item);
+
+        if (currentUtter) {
+          speechSynthesis.cancel();
+          currentUtter = null;
+        }
+
+        if (item.word) {
+          const utterWord = new SpeechSynthesisUtterance(item.word);
+          utterWord.lang = "en-US";
+          speechSynthesis.speak(utterWord);
+        }
+
+        if (item.example) {
+          currentUtter = new SpeechSynthesisUtterance(item.example);
+          currentUtter.lang = "en-US";
+          speechSynthesis.speak(currentUtter);
+        }
       }
     };
 
