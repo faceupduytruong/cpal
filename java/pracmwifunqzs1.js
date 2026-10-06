@@ -22,7 +22,7 @@ function showCustomAlert(item) {
   currentItem = item;
   const content = `
     <div style="text-align:center;">
-      <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! Right, Correct, Exactly! /raɪt/, /kəˈrekt/, /ɪɡˈzæktli/</p>
+      <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! Right!, Correct!, Exactly! /raɪt/, /kəˈrekt/, /ɪɡˈzæktli/</p>
       <p style="margin:5px 0;">
         Từ: <b style="font-size:3.9em;">${item.word}</b>
         <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
