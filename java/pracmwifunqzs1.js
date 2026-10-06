@@ -15,6 +15,7 @@
   });
 
 // Trò chơi Quiz (Nghĩa tiếng Việt)
+// Trò chơi Quiz (Nghĩa tiếng Việt)
 let currentItem = null;   // lưu item hiện tại
 let currentUtter = null;  // lưu câu đang phát âm
 
@@ -38,6 +39,28 @@ function showCustomAlert(item) {
   showAlert(content);
 }
 
+// ❌ Hàm hiện alertbox khi chọn sai
+function showWrongAlert(item) {
+  currentItem = item;
+  const content = `
+    <div style="text-align:center;">
+      <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai rồi! Incorrect! /ˌɪnkəˈrekt/</p>
+      <p style="margin:5px 0;">
+        Đáp án đúng của từ: <b style="font-size:5em;">${item.word}</b>
+        <b style="font-size:2.5em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+      </p>
+      <p style="margin:5px 0;font-size:1.3em;">Nghĩa đúng: <b style="color:orange;">${item.meaning}</b></p>
+      <p style="margin:5px 0;">
+        Câu ví dụ: <b style="font-size:3em;">${item.example || ""}</b><br>
+        <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+      </p>
+      <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+      <p style="margin:10px 0;color:gray;font-size:1.1em;">(Bạn có thể bấm "Nói lại" để nghe lại phát âm từ này nhé!)</p>
+    </div>
+  `;
+  showAlert(content);
+}
+
 function showAlert(contentHtml) {
   document.getElementById("alertContent").innerHTML = contentHtml;
   document.getElementById("overlay").style.display = "block"; // hiện overlay
@@ -50,42 +73,23 @@ function closeAlert() {
 }
 
 function repeatUtter() {
-
   if (!currentItem) return;
 
   speechSynthesis.cancel();
 
-  if (currentItem) {
-    speechSynthesis.cancel();
-    if (currentItem.word) {
-      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
-      utterWord.lang = "en-US";
-      speechSynthesis.speak(utterWord);
-      utterWord.onend = () => {
-        if (currentItem.example) {
-          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
-          currentUtter.lang = "en-US";
-          speechSynthesis.speak(currentUtter);
-        }
-      };
-    }
-  }
-
-  // Nếu từ/câu là tiếng Trung
-  if (currentItem) {
-    speechSynthesis.cancel();
-    if (currentItem.word) {
-      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
-      utterWord.lang = "zh-CN";
-      speechSynthesis.speak(utterWord);
-      utterWord.onend = () => {
-        if (currentItem.example) {
-          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
-          currentUtter.lang = "zh-CN";
-          speechSynthesis.speak(currentUtter);
-        }
-      };
-    }
+  // Phát âm tiếng Trung (hoặc thay đổi lang nếu bạn dùng tiếng Anh)
+  if (currentItem.word) {
+    const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+    utterWord.lang = "zh-CN"; 
+    speechSynthesis.speak(utterWord);
+    
+    utterWord.onend = () => {
+      if (currentItem.example) {
+        currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+        currentUtter.lang = "zh-CN";
+        speechSynthesis.speak(currentUtter);
+      }
+    };
   }
 }
 
@@ -131,18 +135,31 @@ function startQuiz() {
 
         if (item.word) {
           const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "en-US";
+          utterWord.lang = "zh-CN"; // Đã chỉnh sang zh-CN cho đồng bộ dữ liệu tiếng Trung của bạn
           speechSynthesis.speak(utterWord);
         }
 
         if (item.example) {
           currentUtter = new SpeechSynthesisUtterance(item.example);
-          currentUtter.lang = "en-US";
+          currentUtter.lang = "zh-CN";
           speechSynthesis.speak(currentUtter);
         }
 
       } else {
-        alert("❌ Sai. Đáp án: " + item.meaning);
+        // ❌ Gọi alertBox khi chọn sai thay vì dùng alert() mặc định
+        showWrongAlert(item);
+
+        if (currentUtter) {
+          speechSynthesis.cancel();
+          currentUtter = null;
+        }
+
+        // Phát âm từ đúng để người dùng ghi nhớ khi làm sai
+        if (item.word) {
+          const utterWord = new SpeechSynthesisUtterance(item.word);
+          utterWord.lang = "zh-CN";
+          speechSynthesis.speak(utterWord);
+        }
       }
     };
 
