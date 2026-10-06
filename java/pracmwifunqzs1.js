@@ -238,8 +238,50 @@ function startQuizMultipleChoice() {
           }
 
         } else {
-          // Nếu sai thì chỉ báo cần chọn lại, không gợi ý đáp án
-          alert("❌ Sai. Cần phải chọn lại từ khác !");
+          // ❌ Nếu sai: Tìm item tương ứng với nghĩa người chơi vừa chọn nhầm
+          const wrongMeaning = btn.textContent;
+          const wrongItem = validWords.find(w => w.meaning === wrongMeaning);
+
+          if (wrongItem) {
+            // Cập nhật currentItem thành từ sai để nút "Nói lại" (repeatUtter) hiểu và đọc đúng từ này nếu cần
+            currentItem = wrongItem;
+
+            // Hiển thị alertbox thông tin chi tiết của từ/cụm từ bị chọn nhầm
+            const content = `
+              <div style="text-align:center;">
+                <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai rồi! Incorrect! /ˌɪnkəˈrekt/</p>
+                <p style="margin:5px 0;">
+                  Bạn đã chọn nhầm từ: <b style="font-size:5em;">${wrongItem.word}</b>
+                  <b style="font-size:2.5em;color:cyan;">(${wrongItem.pronounce || "chưa có pronounce"})</b>
+                </p>
+                <p style="margin:5px 0;font-size:1.3em;">Nghĩa: <b style="color:orange;">${wrongItem.meaning}</b></p>
+                <p style="margin:5px 0;">
+                  Câu ví dụ của từ này: <b style="font-size:3em;">${wrongItem.example || "(chưa có ví dụ)"}</b><br>
+                  <b style="font-size:2.0em;color:cyan;">(${wrongItem.examplePronounce || "chưa có pronounce"})</b>
+                </p>
+                <p style="margin:5px 0;">Dịch câu ví dụ: ${wrongItem.translation || "(chưa có dịch)"}</p>
+                <p style="margin:10px 0;color:gray;font-size:1.1em;">(Hãy thử chọn lại đáp án khác nhé!)</p>
+              </div>
+            `;
+            showAlert(content);
+
+            // Dừng các đoạn đang phát âm trước đó
+            speechSynthesis.cancel();
+
+            // Phát âm từ bị chọn nhầm
+            if (wrongItem.word) {
+              const utterWord = new SpeechSynthesisUtterance(wrongItem.word);
+              utterWord.lang = "en-US"; // Hoặc "zh-CN" tùy theo định dạng tiếng của bạn
+              speechSynthesis.speak(utterWord);
+            }
+
+            // Phát âm câu ví dụ của từ bị chọn nhầm
+            if (wrongItem.example) {
+              const utterExample = new SpeechSynthesisUtterance(wrongItem.example);
+              utterExample.lang = "en-US";
+              speechSynthesis.speak(utterExample);
+            }
+          }
         }
       };
     });
