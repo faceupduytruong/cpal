@@ -24,12 +24,12 @@ function showCustomAlert(item) {
     <div style="text-align:center;">
       <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác! Right!, Correct!, Exactly! /raɪt/, /kəˈrekt/, /ɪɡˈzæktli/</p>
       <p style="margin:5px 0;">
-        Từ: <b style="font-size:6em;">${item.word}</b>
-        <b style="font-size:3em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+        Đáp án đúng của từ: <b style="font-size:6em;">${item.word}</b>
+        <b style="font-size:2.5em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
       </p>
-      <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
+      <p style="margin:5px 0;font-size:1.3em;">Nghĩa đúng: <b style="color:orange;">${item.meaning}</b></p>
       <p style="margin:5px 0;">
-        Câu ví dụ: <b style="font-size:4em;">${item.example}</b><br>
+        Câu ví dụ: <b style="font-size:4em;">${item.example || ""}</b><br>
         <b style="font-size:3em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
@@ -44,17 +44,7 @@ function showWrongAlert(item) {
   const content = `
     <div style="text-align:center;">
       <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai rồi! Incorrect! /ˌɪnkəˈrekt/</p>
-      <p style="margin:5px 0;">
-        Đáp án đúng của từ: <b style="font-size:5em;">${item.word}</b>
-        <b style="font-size:2.5em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
-      </p>
-      <p style="margin:5px 0;font-size:1.3em;">Nghĩa đúng: <b style="color:orange;">${item.meaning}</b></p>
-      <p style="margin:5px 0;">
-        Câu ví dụ: <b style="font-size:3em;">${item.example || ""}</b><br>
-        <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
-      </p>
-      <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
-      <p style="margin:10px 0;color:gray;font-size:1.1em;">(Bạn có thể bấm nút "Nói lại" để nghe lại phát âm nhé!)</p>
+      <p style="margin:10px 0;font-size:2em;">Hãy viết lại nghĩa khác</p>
     </div>
   `;
   showAlert(content);
