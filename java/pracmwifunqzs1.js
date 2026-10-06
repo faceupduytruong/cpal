@@ -73,23 +73,42 @@ function closeAlert() {
 }
 
 function repeatUtter() {
+
   if (!currentItem) return;
 
   speechSynthesis.cancel();
 
-  // Phát âm tiếng Trung (hoặc thay đổi lang nếu bạn dùng tiếng Anh)
-  if (currentItem.word) {
-    const utterWord = new SpeechSynthesisUtterance(currentItem.word);
-    utterWord.lang = "zh-CN"; 
-    speechSynthesis.speak(utterWord);
-    
-    utterWord.onend = () => {
-      if (currentItem.example) {
-        currentUtter = new SpeechSynthesisUtterance(currentItem.example);
-        currentUtter.lang = "zh-CN";
-        speechSynthesis.speak(currentUtter);
-      }
-    };
+  if (currentItem) {
+    speechSynthesis.cancel();
+    if (currentItem.word) {
+      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+      utterWord.lang = "en-US";
+      speechSynthesis.speak(utterWord);
+      utterWord.onend = () => {
+        if (currentItem.example) {
+          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+          currentUtter.lang = "en-US";
+          speechSynthesis.speak(currentUtter);
+        }
+      };
+    }
+  }
+
+  // Nếu từ/câu là tiếng Trung
+  if (currentItem) {
+    speechSynthesis.cancel();
+    if (currentItem.word) {
+      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+      utterWord.lang = "zh-CN";
+      speechSynthesis.speak(utterWord);
+      utterWord.onend = () => {
+        if (currentItem.example) {
+          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+          currentUtter.lang = "zh-CN";
+          speechSynthesis.speak(currentUtter);
+        }
+      };
+    }
   }
 }
 
@@ -135,31 +154,19 @@ function startQuiz() {
 
         if (item.word) {
           const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "zh-CN"; // Đã chỉnh sang zh-CN cho đồng bộ dữ liệu tiếng Trung của bạn
+          utterWord.lang = "en-US";
           speechSynthesis.speak(utterWord);
         }
 
         if (item.example) {
           currentUtter = new SpeechSynthesisUtterance(item.example);
-          currentUtter.lang = "zh-CN";
+          currentUtter.lang = "en-US";
           speechSynthesis.speak(currentUtter);
         }
 
       } else {
         // ❌ Gọi alertBox khi chọn sai thay vì dùng alert() mặc định
         showWrongAlert(item);
-
-        if (currentUtter) {
-          speechSynthesis.cancel();
-          currentUtter = null;
-        }
-
-        // Phát âm từ đúng để người dùng ghi nhớ khi làm sai
-        if (item.word) {
-          const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "zh-CN";
-          speechSynthesis.speak(utterWord);
-        }
       }
     };
 
