@@ -699,22 +699,19 @@
     z-index: 998; /* thấp hơn AlertBox */
   }
 
-/* AlertBox */
-#alertBox {
-  display: none;
-  position: fixed;
-  top: 6%; 
-  left: 50%;
-  margin-top: 10px;
-  transform: translateX(-50%);
-  border-radius: 8px;
-  border: 2px solid rgba(255,255,255,0.4);
-  padding: 20px;
-  height: 600px; 
-  width: 1100px;
-  z-index: 999; /* cao hơn overlay */
-  overflow-y: auto; /* cho phép cuộn dọc */
-}
+  /* AlertBox */
+  #alertBox {
+    display: none;
+    position: fixed;
+    top: 14%; left: 50%;
+    margin-top: 10px;
+    transform: translateX(-50%);
+    border-radius: 8px;
+    border: 2px solid rgba(255,255,255,0.4);
+    padding: 20px;
+    height: 470px; width: 1100px;
+    z-index: 999; /* cao hơn overlay */
+  }
 
 /* Scrollbar cho AlertBox */
 #alertBox::-webkit-scrollbar {
