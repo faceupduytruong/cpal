@@ -22,13 +22,14 @@ function showCustomAlert(item) {
   currentItem = item;
   const content = `
     <div style="text-align:center;">
+      <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! Right, Correct, Exactly! /raɪt/, /kəˈrekt/, /ɪɡˈzæktli/</p>
       <p style="margin:5px 0;">
-        Từ: <b style="font-size:4.5em;">${item.word}</b>
+        Từ: <b style="font-size:3.9em;">${item.word}</b>
         <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
       <p style="margin:5px 0;">
-        Câu ví dụ: <b style="font-size:3.5em;">${item.example}</b><br>
+        Câu ví dụ: <b style="font-size:3em;">${item.example}</b><br>
         <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
