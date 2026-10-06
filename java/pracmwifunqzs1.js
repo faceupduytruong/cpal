@@ -311,62 +311,6 @@ function startQuizFillBlank() {
   });
 }
 
-// Trò chơi Quiz Fill Blank (Điền chỗ trống)
-function startQuizFillBlank() {
-  const validWords = words.filter(item => item.word && item.example);
-  const shuffled = validWords.sort(() => 0.5 - Math.random());
-  const selected = shuffled.slice(0, 10);
-
-  const container = document.getElementById("game");
-  container.innerHTML = "";
-
-  selected.forEach(item => {
-    const sentenceWithBlank = item.example.replace(item.word, "_____");
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-      <p class="sentence">${sentenceWithBlank}</p>
-      <input type="text" placeholder="Điền từ tiếng Anh">
-      <button2>Check</button2>
-    `;
-    const input = card.querySelector("input");
-    const btn = card.querySelector("button2");
-    const sentenceEl = card.querySelector(".sentence");
-
-    btn.onclick = () => {
-      if (input.value.trim().toLowerCase() === item.word.toLowerCase()) {
-        // ✅ Đúng thì gọi lại showCustomAlert
-        showCustomAlert(item);
-        addPoint(item.word); 
-        sentenceEl.textContent = item.example;
-
-        // Phát âm cả câu ví dụ
-        const utterExample = new SpeechSynthesisUtterance(item.example);
-        utterExample.lang = "en-US";
-        speechSynthesis.speak(utterExample);
-      } else {
-        alert("❌ Sai. Đáp án: " + item.word);
-
-        // Phát âm từ đúng
-        if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
-          const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "en-US";
-          speechSynthesis.speak(utterWord);
-        }
-
-        // Phát âm câu ví dụ
-        if (item.example) {
-          const utterExample = new SpeechSynthesisUtterance(item.example);
-          utterExample.lang = "en-US";
-          speechSynthesis.speak(utterExample);
-        }
-      }
-    };
-
-    container.appendChild(card);
-  });
-}
-
 // Trò chơi Flashcards (Flashcards)
 function startFlashcards() {
   const validWords = words.filter(item => item.word && item.meaning);
