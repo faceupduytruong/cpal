@@ -49,7 +49,12 @@ function showWrongAlert(item) {
         <b style="font-size:2.5em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;font-size:1.3em;">Nghĩa đúng: <b style="color:orange;">${item.meaning}</b></p>
-      <p style="margin:10px 0;font-size:2em;">Hãy viết lại nghĩa khác</p>
+      <p style="margin:5px 0;">
+        Câu ví dụ: <b style="font-size:3em;">${item.example || ""}</b><br>
+        <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+      </p>
+      <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+      <p style="margin:10px 0;color:grey;font-size:2em;">Hãy viết lại nghĩa khác</p>
     </div>
   `;
   showAlert(content);
