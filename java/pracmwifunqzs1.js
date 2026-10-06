@@ -39,7 +39,7 @@ function showCustomAlert(item) {
 }
 
 // ❌ Hàm GỘP CHUNG: Hiển thị AlertBox chi tiết khi trả lời sai ở các trò chơi
-function showWrongAlert(item, customMessage = "Hãy viết lại nghĩa khác") {
+function showWrongAlert(item, customMessage = "Hãy viết lại nghĩa khác!") {
   currentItem = item;
   const content = `
     <div style="text-align:center;">
@@ -288,7 +288,7 @@ function startQuizFillBlank() {
         }
       } else {
         // ❌ Gọi chung hàm showWrongAlert cho phần điền khuyết
-        showWrongAlert(item, "Bạn có thể bấm nút 'Nói lại' để nghe lại phát âm nhé!");
+        showWrongAlert(item, "Hãy viết lại nghĩa khác!");
         sentenceEl.textContent = item.example;
 
         speechSynthesis.cancel();
