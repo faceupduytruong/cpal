@@ -38,11 +38,11 @@ function showCustomAlert(item) {
   showAlert(content);
 }
 
-// ❌ Hàm hiện alertbox khi chọn sai (giữ nguyên phong cách chi tiết)
-function showWrongAlert(item) {
+// ❌ Hàm GỘP CHUNG: Hiển thị AlertBox chi tiết khi trả lời sai ở các trò chơi
+function showWrongAlert(item, customMessage = "Hãy viết lại nghĩa khác") {
   currentItem = item;
   const content = `
-<div style="text-align:center;">
+    <div style="text-align:center;">
       <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai rồi! Incorrect! /ˌɪnkəˈrekt/</p>
       <p style="margin:5px 0;">
         Đáp án đúng của từ: <b style="font-size:5em;">${item.word}</b>
@@ -54,7 +54,7 @@ function showWrongAlert(item) {
         <b style="font-size:2.5em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
-      <p style="margin:10px 0;color:grey;font-size:2em;">Hãy viết lại nghĩa khác</p>
+      <p style="margin:10px 0;color:grey;font-size:2em;">${customMessage}</p>
     </div>
   `;
   showAlert(content);
@@ -77,35 +77,17 @@ function repeatUtter() {
   speechSynthesis.cancel();
 
   // Phần en-US của bạn
-  if (currentItem) {
-    if (currentItem.word) {
-      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
-      utterWord.lang = "en-US";
-      speechSynthesis.speak(utterWord);
-      utterWord.onend = () => {
-        if (currentItem.example) {
-          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
-          currentUtter.lang = "en-US";
-          speechSynthesis.speak(currentUtter);
-        }
-      };
-    }
-  }
-
-  // Phần zh-CN của bạn (giữ nguyên logic gốc)
-  if (currentItem) {
-    if (currentItem.word) {
-      const utterWord = new SpeechSynthesisUtterance(currentItem.word);
-      utterWord.lang = "zh-CN";
-      speechSynthesis.speak(utterWord);
-      utterWord.onend = () => {
-        if (currentItem.example) {
-          currentUtter = new SpeechSynthesisUtterance(currentItem.example);
-          currentUtter.lang = "zh-CN";
-          speechSynthesis.speak(currentUtter);
-        }
-      };
-    }
+  if (currentItem.word) {
+    const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+    utterWord.lang = "en-US";
+    speechSynthesis.speak(utterWord);
+    utterWord.onend = () => {
+      if (currentItem.example) {
+        currentUtter = new SpeechSynthesisUtterance(currentItem.example);
+        currentUtter.lang = "en-US";
+        speechSynthesis.speak(currentUtter);
+      }
+    };
   }
 }
 
@@ -162,8 +144,8 @@ function startQuiz() {
         }
 
       } else {
-        // ❌ Khi trả lời sai: Gọi alertbox sai thay vì alert() mặc định
-        showWrongAlert(item);
+        // ❌ Gọi chung hàm showWrongAlert
+        showWrongAlert(item, "Hãy viết lại nghĩa khác");
 
         if (currentUtter) {
           speechSynthesis.cancel();
@@ -192,7 +174,7 @@ function startQuiz() {
 function startQuizMultipleChoice() {
   const validWords = words.filter(item => item.word && item.meaning);
   const shuffled = validWords.sort(() => 0.5 - Math.random());
-  const selected = shuffled.slice(0, 10); // 10 câu trắc nghiệm
+  const selected = shuffled.slice(0, 10);
 
   const container = document.getElementById("game");
   container.innerHTML = "";
@@ -201,7 +183,6 @@ function startQuizMultipleChoice() {
     const card = document.createElement("div");
     card.className = "card";
 
-    // tạo 3 nghĩa sai ngẫu nhiên
     const wrongOptions = validWords
       .filter(w => w.meaning !== item.meaning)
       .sort(() => 0.5 - Math.random())
@@ -219,63 +200,37 @@ function startQuizMultipleChoice() {
     card.querySelectorAll(".option").forEach(btn => {
       btn.onclick = () => {
         if (btn.textContent === item.meaning) {
-          // Nếu đúng thì hiện AlertBox với nội dung chi tiết
           showCustomAlert(item);
           addPoint(item.word);
 
-          // Phát âm từ
           if (item.word) {
             const utterWord = new SpeechSynthesisUtterance(item.word);
-            utterWord.lang = "en-US"; // hoặc zh-CN tùy dữ liệu
+            utterWord.lang = "en-US";
             speechSynthesis.speak(utterWord);
           }
 
-          // Phát âm câu ví dụ nếu có
           if (item.example) {
             const utterExample = new SpeechSynthesisUtterance(item.example);
-            utterExample.lang = "en-US"; // hoặc zh-CN tùy dữ liệu
+            utterExample.lang = "en-US";
             speechSynthesis.speak(utterExample);
           }
 
         } else {
-          // ❌ Nếu sai: Tìm item tương ứng với nghĩa người chơi vừa chọn nhầm
           const wrongMeaning = btn.textContent;
           const wrongItem = validWords.find(w => w.meaning === wrongMeaning);
 
           if (wrongItem) {
-            // Cập nhật currentItem thành từ sai để nút "Nói lại" (repeatUtter) hiểu và đọc đúng từ này nếu cần
-            currentItem = wrongItem;
+            // ❌ Gọi chung hàm showWrongAlert với từ bị chọn nhầm
+            showWrongAlert(wrongItem, "Hãy thử chọn lại đáp án khác nhé!");
 
-            // Hiển thị alertbox thông tin chi tiết của từ/cụm từ bị chọn nhầm
-            const content = `
-              <div style="text-align:center;">
-                <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai rồi! Incorrect! /ˌɪnkəˈrekt/</p>
-                <p style="margin:5px 0;">
-                  Bạn đã chọn nhầm từ: <b style="font-size:5em;">${wrongItem.word}</b>
-                  <b style="font-size:2.5em;color:cyan;">(${wrongItem.pronounce || "chưa có pronounce"})</b>
-                </p>
-                <p style="margin:5px 0;font-size:1.3em;">Nghĩa: <b style="color:orange;">${wrongItem.meaning}</b></p>
-                <p style="margin:5px 0;">
-                  Câu ví dụ của từ này: <b style="font-size:3em;">${wrongItem.example || "(chưa có ví dụ)"}</b><br>
-                  <b style="font-size:2.5em;color:cyan;">(${wrongItem.examplePronounce || "chưa có pronounce"})</b>
-                </p>
-                <p style="margin:5px 0;">Dịch câu ví dụ: ${wrongItem.translation || "(chưa có dịch)"}</p>
-                <p style="margin:10px 0;color:grey;font-size:2em;">Hãy viết lại nghĩa khác</p>
-              </div>
-            `;
-            showAlert(content);
-
-            // Dừng các đoạn đang phát âm trước đó
             speechSynthesis.cancel();
 
-            // Phát âm từ bị chọn nhầm
             if (wrongItem.word) {
               const utterWord = new SpeechSynthesisUtterance(wrongItem.word);
-              utterWord.lang = "en-US"; // Hoặc "zh-CN" tùy theo định dạng tiếng của bạn
+              utterWord.lang = "en-US";
               speechSynthesis.speak(utterWord);
             }
 
-            // Phát âm câu ví dụ của từ bị chọn nhầm
             if (wrongItem.example) {
               const utterExample = new SpeechSynthesisUtterance(wrongItem.example);
               utterExample.lang = "en-US";
@@ -285,6 +240,72 @@ function startQuizMultipleChoice() {
         }
       };
     });
+
+    container.appendChild(card);
+  });
+}
+
+// Trò chơi Quiz Fill Blank (Điền chỗ trống)
+function startQuizFillBlank() {
+  const validWords = words.filter(item => item.word && item.example);
+  const shuffled = validWords.sort(() => 0.5 - Math.random());
+  const selected = shuffled.slice(0, 10);
+
+  const container = document.getElementById("game");
+  container.innerHTML = "";
+
+  selected.forEach(item => {
+    const sentenceWithBlank = item.example.replace(item.word, "_____");
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <p class="sentence">${sentenceWithBlank}</p>
+      <input type="text" placeholder="Điền từ tiếng Anh">
+      <button2>Check</button2>
+    `;
+    const input = card.querySelector("input");
+    const btn = card.querySelector("button2");
+    const sentenceEl = card.querySelector(".sentence");
+
+    btn.onclick = () => {
+      if (input.value.trim().toLowerCase() === item.word.toLowerCase()) {
+        showCustomAlert(item);
+        addPoint(item.word); 
+        sentenceEl.textContent = item.example;
+
+        speechSynthesis.cancel();
+
+        if (item.word) {
+          const utterWord = new SpeechSynthesisUtterance(item.word);
+          utterWord.lang = "en-US";
+          speechSynthesis.speak(utterWord);
+        }
+
+        if (item.example) {
+          currentUtter = new SpeechSynthesisUtterance(item.example);
+          currentUtter.lang = "en-US";
+          speechSynthesis.speak(currentUtter);
+        }
+      } else {
+        // ❌ Gọi chung hàm showWrongAlert cho phần điền khuyết
+        showWrongAlert(item, "Bạn có thể bấm nút 'Nói lại' để nghe lại phát âm nhé!");
+        sentenceEl.textContent = item.example;
+
+        speechSynthesis.cancel();
+
+        if (item.word) {
+          const utterWord = new SpeechSynthesisUtterance(item.word);
+          utterWord.lang = "en-US";
+          speechSynthesis.speak(utterWord);
+        }
+
+        if (item.example) {
+          currentUtter = new SpeechSynthesisUtterance(item.example);
+          currentUtter.lang = "en-US";
+          speechSynthesis.speak(currentUtter);
+        }
+      }
+    };
 
     container.appendChild(card);
   });
