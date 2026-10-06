@@ -30,7 +30,7 @@ function showCustomAlert(item) {
       <p style="margin:5px 0;font-size:1.3em;">Nghĩa đúng: <b style="color:orange;">${item.meaning}</b></p>
       <p style="margin:5px 0;">
         Câu ví dụ: <b style="font-size:4em;">${item.example || ""}</b><br>
-        <b style="font-size:3em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+        <b style="font-size:2.5em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
     </div>
@@ -51,7 +51,7 @@ function showWrongAlert(item) {
       <p style="margin:5px 0;font-size:1.3em;">Nghĩa đúng: <b style="color:orange;">${item.meaning}</b></p>
       <p style="margin:5px 0;">
         Câu ví dụ: <b style="font-size:3em;">${item.example || ""}</b><br>
-        <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+        <b style="font-size:2.5em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
       <p style="margin:10px 0;color:grey;font-size:2em;">Hãy viết lại nghĩa khác</p>
@@ -257,7 +257,7 @@ function startQuizMultipleChoice() {
                 <p style="margin:5px 0;font-size:1.3em;">Nghĩa: <b style="color:orange;">${wrongItem.meaning}</b></p>
                 <p style="margin:5px 0;">
                   Câu ví dụ của từ này: <b style="font-size:3em;">${wrongItem.example || "(chưa có ví dụ)"}</b><br>
-                  <b style="font-size:2.0em;color:cyan;">(${wrongItem.examplePronounce || "chưa có pronounce"})</b>
+                  <b style="font-size:2.5em;color:cyan;">(${wrongItem.examplePronounce || "chưa có pronounce"})</b>
                 </p>
                 <p style="margin:5px 0;">Dịch câu ví dụ: ${wrongItem.translation || "(chưa có dịch)"}</p>
                 <p style="margin:10px 0;color:grey;font-size:2em;">Hãy viết lại nghĩa khác</p>
