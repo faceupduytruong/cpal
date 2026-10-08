@@ -323,7 +323,14 @@ function startFlashcards() {
   selected.forEach(item => {
     const card = document.createElement("div");
     card.className = "card";
-    card.innerHTML = `<p><b>${item.word}</b></p><p class="hidden">${item.meaning}</p>`;
+    
+    // Thêm dòng hiển thị phiên âm (item.pronounce) ở đây
+    card.innerHTML = `
+      <p><b>${item.word}</b></p>
+      <p style="color:cyan; font-size:0.9em; margin:5px 0;">(${item.pronounce || "chưa có pronounce"})</p>
+      <p class="hidden">${item.meaning}</p>
+    `;
+    
     const hidden = card.querySelector(".hidden");
     hidden.style.display = "none";
 
