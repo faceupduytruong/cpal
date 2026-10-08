@@ -221,7 +221,7 @@ function startQuiz() {
               <b style="font-size:1.8em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
             </p>
             <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
-            <p style="margin:5px 0;font-size:1.7em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
+            <p style="margin:5px 0;font-size:1.7em;color:orange;">(Hãy gõ lại theo đáp án đúng nhé!)</p>
           </div>
         `;
         showAlert(content);
