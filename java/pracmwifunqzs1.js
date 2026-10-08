@@ -777,7 +777,7 @@ function startSynonymChallenge() {
   // Ghép đáp án đúng (synonym) + sai rồi xáo trộn
   const options = [item.synonym, ...wrongOptions].sort(() => 0.5 - Math.random());
 
-  // Hiển thị giao diện có kèm phần Nghĩa và nút Next
+  // Hiển thị giao diện có kèm phần Nghĩa và nút Next nằm cạnh nhau dưới các nút
   const container = document.getElementById("game");
   container.innerHTML = `
     <h2>Synonym Challenge</h2>
