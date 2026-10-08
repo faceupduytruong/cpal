@@ -324,7 +324,6 @@ function startFlashcards() {
     const card = document.createElement("div");
     card.className = "card";
     
-    // Thêm dòng hiển thị phiên âm (item.pronounce) ở đây
     card.innerHTML = `
       <p><b>${item.word}</b></p>
       <p style="color:cyan; font-size:0.9em; margin:5px 0;">(${item.pronounce || "chưa có pronounce"})</p>
@@ -338,8 +337,8 @@ function startFlashcards() {
       // Hiện/ẩn nghĩa
       hidden.style.display = hidden.style.display === "none" ? "block" : "none";
 
-      // Phát âm từ nếu là tiếng Anh
-      if (item.word && /^[a-zA-Z\s]+$/.test(item.word)) {
+      // Phát âm trực tiếp nội dung từ mà không cần kiểm tra ký tự
+      if (item.word) {
         const utter = new SpeechSynthesisUtterance(item.word);
         utter.lang = "en-US";
         speechSynthesis.speak(utter);
