@@ -54,11 +54,11 @@ function closeAlert() {
 // C. HỆ THỐNG PHÁT ÂM CHUNG (QUEUE & REPEAT)
 // ===========================================
 
-// Phát âm một đoạn text đơn lẻ
+// Hàm phát âm một đoạn text đơn lẻ (đã bổ sung cho phép dấu nháy đơn ' và các ký tự cơ bản)
 function speakText(text) {
-  if (text && /^[\u4e00-\u9fffA-Za-z\s]+$/.test(text)) {
+  if (text && /^[\u4e00-\u9fffA-Za-z\s']+$/.test(text)) {
     const utter = new SpeechSynthesisUtterance(text);
-    utter.lang = "zh-CN";
+    utter.lang = "zh-CN"; // Hoặc đổi thành "en-US" nếu đây là học phần tiếng Anh
     utter.voice = getFemaleVoice("zh-CN");
     speechSynthesis.speak(utter);
   }
