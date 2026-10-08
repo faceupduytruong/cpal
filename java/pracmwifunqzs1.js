@@ -644,7 +644,10 @@ function startListeningQuiz() {
     <h2>Listening Quiz</h2>
     <button2 id="play">🔊 Play Word</button2>
     <input id="ans" class="text-area2" placeholder="Nhập nghĩa tiếng Việt">
-    <button2 id="check">Check</button2>
+    <div style="margin-top: 10px; display: flex; align-items: center; gap: 15px;">
+      <button2 id="check">Check</button2>
+      <button1 id="next-btn" onclick="startListeningQuiz()">Next ➡️</button1>
+    </div>
     <p id="result"></p>
   `;
 
@@ -674,7 +677,21 @@ function startListeningQuiz() {
            <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
          </div>
        `;
-       showAlert(content);
+       
+       // Truyền thêm hàm callback khi đóng bảng thông báo để tự động sang câu mới
+       if (typeof showAlert === "function") {
+         // Kiểm tra nếu hệ thống showAlert hỗ trợ callback đóng, ta gọi startListeningQuiz() khi đóng
+         try {
+           showAlert(content, () => {
+             startListeningQuiz();
+           });
+         } catch (e) {
+           showAlert(content);
+         }
+       } else {
+         alert(content);
+       }
+
        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
 
        // Phát âm từ và câu ví dụ theo hàng đợi
