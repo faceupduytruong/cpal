@@ -176,7 +176,7 @@ function startQuiz() {
 
         const content = `
           <div style="text-align:center;">
-            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác!</p>
+            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!</p>
             <p style="margin:5px 0;">
               Từ: <b style="font-size:3.9em;">${item.word}</b>
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -238,7 +238,7 @@ function startQuizMultipleChoice() {
           // ✅ Nếu đúng: Hiện AlertBox chi tiết
           const content = `
             <div style="text-align:center;">
-              <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
+              <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
               <p style="margin:5px 0;">
                 Từ: <b style="font-size:3.9em;">${item.word}</b>
                 <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -467,7 +467,7 @@ function startSpeedQuiz() {
       const ans = document.getElementById("answer").value.trim();
       if (ans === item.meaning) {
         score++;
-        alert("✅ Chính xác!");
+        alert("✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!");
         addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Trung làm ID
       } else {
         alert("❌ Sai. Đáp án: " + item.meaning);
@@ -561,7 +561,7 @@ function startSentenceBuilder() {
 
         const content = `
           <div style="text-align:center;">
-            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
+            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
             <p style="margin:5px 0;">
               Từ: <b style="font-size:3.9em;">${item.word}</b>
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -670,7 +670,7 @@ function startListeningQuiz() {
   document.getElementById("check").onclick = () => {
     const ans = document.getElementById("ans").value.trim();
     if (ans === item.meaning) {
-       alert("✅ Chính xác!\nTừ: " + item.word + "\nNghĩa: " + item.meaning);
+       alert("✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!\nTừ: " + item.word + "\nNghĩa: " + item.meaning);
        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Trung làm ID
      } else {
        alert("❌ Sai.\nTừ: " + item.word + "\nĐáp án đúng: " + item.meaning);
@@ -807,7 +807,7 @@ function startSynonymChallenge() {
         currentItem = { ...item, resultType: "correct" };
         const content = `
           <div style="text-align:center;">
-            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác!</p>
+            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!</p>
             <p style="margin:5px 0;">
               Từ: <b style="font-size:3.9em;">${item.word}</b>
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -840,7 +840,16 @@ function startSynonymChallenge() {
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai</p>
-            <p style="margin:5px 0;">Bạn chọn: <b style="font-size:3em;">${opt}</b> → ${meaning}</p>
+            <p style="margin:5px 0;">
+              Bạn chọn: <b style="font-size:3em;">${opt}</b>
+              <b style="font-size:2em;color:cyan;">(${pronounce})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ: ${meaning}</p>
+            <p style="margin:5px 0;">
+              Câu ví dụ: <b style="font-size:3em;">${example}</b><br>
+              <b style="font-size:2em;color:cyan;">(${examplePronounce})</b>
+            </p>
+            <p style="margin:5px 0;">Dịch câu ví dụ: ${translation}</p>
           </div>
         `;
         showAlert(content);
@@ -862,7 +871,7 @@ function startWordScramble() {
   document.getElementById("check").onclick = () => {
     const ans = document.getElementById("ans").value.trim();
     if (ans.toLowerCase() === item.word.toLowerCase()) {
-      alert("✅ Chính xác! Từ: " + item.word);
+      alert("✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè! Từ: " + item.word);
       addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Trung làm ID
     } else {
       alert("❌ Sai. Đáp án: " + item.word);
@@ -903,7 +912,7 @@ function startSpellingBee() {
     if (askEnglish) {
       // Người chơi phải gõ lại từ tiếng Trung
       if (ans.toLowerCase() === item.word.toLowerCase()) {
-        result.textContent = "✅ Chính xác! Từ: " + item.word + " → Nghĩa: " + item.meaning;
+        result.textContent = "✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè! Từ: " + item.word + " → Nghĩa: " + item.meaning;
         result.style.color = "green";
       } else {
         result.textContent = "❌ Sai. Đáp án đúng: " + item.word + " → Nghĩa: " + item.meaning;
@@ -912,7 +921,7 @@ function startSpellingBee() {
     } else {
       // Người chơi phải gõ lại nghĩa tiếng Việt
       if (ans === item.meaning) {
-        result.textContent = "✅ Chính xác! Nghĩa: " + item.meaning + " ← Từ: " + item.word;
+        result.textContent = "✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè! Nghĩa: " + item.meaning + " ← Từ: " + item.word;
         result.style.color = "green";
       } else {
         result.textContent = "❌ Sai. Đáp án đúng: " + item.meaning + " ← Từ: " + item.word;
@@ -963,7 +972,7 @@ function startAntonymBattle() {
 
         const content = `
           <div style="text-align:center;">
-            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác!</p>
+            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!</p>
             <p style="margin:5px 0;">
               Từ: <b style="font-size:3.9em;">${item.word}</b>
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -1079,7 +1088,7 @@ function startQuickTranslationRace() {
       const ans = document.getElementById("answer").value.trim();
       if (ans === item.meaning) {
         score++;
-        alert("✅ Chính xác!\nTừ: " + item.word + "\nNghĩa: " + item.meaning);
+        alert("✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!\nTừ: " + item.word + "\nNghĩa: " + item.meaning);
         addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Trung làm ID
       } else {
         alert("❌ Sai!\nTừ: " + item.word + "\nĐáp án đúng: " + item.meaning);
@@ -1144,7 +1153,7 @@ function startQuizMultipleChoice2() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === correctAnswer) {
-        alert("✅ Chính xác!\nCâu hỏi: " + questionText + "\nĐáp án: " + correctAnswer);
+        alert("✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!\nCâu hỏi: " + questionText + "\nĐáp án: " + correctAnswer);
         addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Trung làm ID
       } else {
         alert("❌ Sai!\nCâu hỏi: " + questionText + "\nĐáp án đúng: " + correctAnswer);
