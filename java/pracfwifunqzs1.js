@@ -560,7 +560,6 @@ function startHangman() {
 }
 
 // Trò chơi Sentence Builder (Xây dựng câu)
-// Trò chơi Sentence Builder (Xây dựng câu)
 function startSentenceBuilder() {
   const validWords = words.filter(item => item.word && item.example && item.meaning);
   if (validWords.length === 0) {
