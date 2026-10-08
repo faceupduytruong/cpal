@@ -169,7 +169,9 @@ function startQuiz() {
     const btn = card.querySelector("button2");
 
     btn.onclick = () => {
-      if (input.value.trim() === item.meaning) {
+      const userValue = input.value.trim();
+      
+      if (userValue === item.meaning) {
         // Lưu trạng thái đúng cho Quiz
         currentItem = { ...item, resultType: "quiz" };
 
@@ -182,7 +184,7 @@ function startQuiz() {
             </p>
             <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
             <p style="margin:5px 0;">
-              Câu ví dụ: <b style="font-size:3em;">${item.example}</b><br>
+              Câu ví dụ: <b style="font-size:3em;">${item.example || ""}</b><br>
               <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
             </p>
             <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
@@ -192,10 +194,39 @@ function startQuiz() {
         addPoint(item.word);
 
         speechSynthesis.cancel();
-        speakQueue([item.word, item.example]);
+        speakQueue([item.word, item.example || ""]);
 
       } else {
-        alert("❌ Sai! 错误! Cuòwù!, Xo-u-ù!. Đáp án: " + item.meaning);
+        // ❌ Sai! 错误! Cuòwù!, Xo-u-ù!
+        currentItem = { 
+          ...item, 
+          resultType: "quiz_wrong", 
+          wrongChoice: userValue, 
+          wrongExample: item.example || "" 
+        };
+
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai! 错误! Cuòwù!, Xo-u-ù!</p>
+            <p style="margin:5px 0;">
+              Bạn gõ: <b style="font-size:3em;">${userValue || "(trống)"}</b>
+            </p>
+            <p style="margin:5px 0;">Đáp án đúng: <b style="font-size:2em;color:green;">${item.meaning}</b></p>
+            <p style="margin:5px 0;">
+              Từ: <b style="font-size:2.5em;">${item.word}</b>
+              <b style="font-size:1.8em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">
+              Câu ví dụ: <b style="font-size:2.5em;">${item.example || ""}</b><br>
+              <b style="font-size:1.8em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+            <p style="margin:5px 0;font-size:1.7em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
+          </div>
+        `;
+        showAlert(content);
+        speechSynthesis.cancel();
+        speakQueue([userValue, item.example || ""]);
       }
     };
 
@@ -859,6 +890,7 @@ function startSynonymChallenge() {
               <b style="font-size:2em;color:cyan;">(${examplePronounce})</b>
             </p>
             <p style="margin:5px 0;">Dịch câu ví dụ: ${translation}</p>
+            <p style="margin:5px 0;color:gray;font-size:1.7em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
           </div>
         `;
         showAlert(content);
@@ -1034,6 +1066,7 @@ function startAntonymBattle() {
               <b style="font-size:2em;color:cyan;">(${examplePronounce})</b>
             </p>
             <p style="margin:5px 0;">Dịch câu ví dụ: ${translation}</p>
+            <p style="margin:5px 0;color:gray;font-size:1.7em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
           </div>
         `;
         showAlert(content);
