@@ -5,7 +5,7 @@
     const reader = new FileReader();
     reader.onload = function(e) {
       try {
-        words = JSON.parse(e.target.result);
+        words = JSON.parse(e.target.result);a
         alert("✅ Đã tải dữ liệu từ file JSON (" + words.length + " từ)");
       } catch (err) {
         alert("⚠️ File không hợp lệ: " + err.message);
@@ -14,72 +14,131 @@
     reader.readAsText(file);
   });
 
-// ==========================================
-// 0. HÀM TẠO HTML THÔNG BÁO DÙNG CHUNG
-// ==========================================
+// =====================================
+// A. BIẾN TOÀN CỤC & QUẢN LÝ GIỌNG ĐỌC
+// =====================================
+let currentItem = null;   // Lưu thông tin item hiện tại của game đang chơi
+let currentUtter = null;  // Lưu đối tượng phát âm hiện tại
+let voices = [];
 
-// Tạo HTML thông báo ĐÚNG chung cho các trò chơi (có hỗ trợ thêm trường tùy chọn như synonym/antonym)
-function getCorrectContentHtml(item, extraLabel = "", extraWord = "", extraPronounce = "", extraMeaning = "") {
-  let extraHtml = "";
-  if (extraWord) {
-    extraHtml = `
-      <p style="margin:5px 0;">
-        ${extraLabel}: <b style="font-size:3.9em;">${extraWord}</b>
-      </p>
-      <p style="margin:5px 0;color:cyan;">
-        <b style="font-size:2em;">(${extraPronounce || "chưa có pronounce"})</b>
-      </p>
-      <p style="margin:5px 0;">Nghĩa ${extraLabel.toLowerCase()}: ${extraMeaning || "(chưa có nghĩa)"}</p>
-    `;
+// Lấy danh sách giọng đọc của trình duyệt
+speechSynthesis.onvoiceschanged = () => {
+  voices = speechSynthesis.getVoices();
+};
+
+// Hàm chọn giọng nữ theo ngôn ngữ (ưu tiên tiếng Trung)
+function getFemaleVoice(langCode) {
+  return voices.find(v => v.lang === langCode && (
+    v.name.toLowerCase().includes("female") ||
+    v.name.includes("女")
+  )) || voices.find(v => v.lang === langCode);
+}
+
+
+// =============================================
+// B. CÁC HÀM HỖ TRỢ HIỂN THỊ ALERT & GIAO DIỆN
+// =============================================
+function showAlert(contentHtml) {
+  document.getElementById("alertContent").innerHTML = contentHtml;
+  document.getElementById("overlay").style.display = "block"; 
+  document.getElementById("alertBox").style.display = "block"; 
+}
+
+function closeAlert() {
+  document.getElementById("overlay").style.display = "none"; 
+  document.getElementById("alertBox").style.display = "none"; 
+}
+
+
+// ===========================================
+// C. HỆ THỐNG PHÁT ÂM CHUNG (QUEUE & REPEAT)
+// ===========================================
+
+// Phát âm một đoạn text đơn lẻ
+function speakText(text) {
+  if (text && /^[\u4e00-\u9fffA-Za-z\s]+$/.test(text)) {
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = "zh-CN";
+    utter.voice = getFemaleVoice("zh-CN");
+    speechSynthesis.speak(utter);
   }
-
-  return `
-    <div style="text-align:center;">
-      <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác!</p>
-      <p style="margin:5px 0;">
-        Từ: <b style="font-size:3.9em;">${item.word}</b>
-        <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
-      </p>
-      <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
-      ${extraHtml}
-      <p style="margin:5px 0;">
-        Câu ví dụ: <b style="font-size:3em;">${item.example || ""}</b><br>
-        <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
-      </p>
-      <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
-    </div>
-  `;
 }
 
-// Tạo HTML thông báo SAI chung
-function getWrongContentHtml(opt, wrongItem) {
-  const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
-  const pronounce = wrongItem && wrongItem.pronounce ? wrongItem.pronounce : "chưa có pronounce";
-  const example = wrongItem && wrongItem.example ? wrongItem.example : "";
-  const examplePronounce = wrongItem && wrongItem.examplePronounce ? wrongItem.examplePronounce : "chưa có pronounce";
-  const translation = wrongItem && wrongItem.translation ? wrongItem.translation : "(chưa có dịch)";
+// Chạy hàng đợi phát âm nhiều phần tử tuần tự không bị nuốt tiếng
+function speakQueue(list) {
+  const queue = list.filter(Boolean);
+  let idx = 0;
 
-  // Nếu muốn hiển thị đầy đủ chi tiết câu ví dụ khi sai (giống như các bản trước bạn yêu cầu):
-  return `
-    <div style="text-align:center;">
-      <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai</p>
-      <p style="margin:5px 0;">
-        Bạn chọn: <b style="font-size:3em;">${opt}</b>
-        <b style="font-size:2em;color:cyan;">(${pronounce})</b>
-      </p>
-      <p style="margin:5px 0;">Nghĩa từ: ${meaning}</p>
-      <p style="margin:5px 0;">
-        Câu ví dụ: <b style="font-size:3em;">${example}</b><br>
-        <b style="font-size:2em;color:cyan;">(${examplePronounce})</b>
-      </p>
-      <p style="margin:5px 0;">Dịch câu ví dụ: ${translation}</p>
-    </div>
-  `;
+  function speakNext() {
+    if (idx < queue.length) {
+      const utter = new SpeechSynthesisUtterance(queue[idx]);
+      utter.lang = "zh-CN";
+      utter.voice = getFemaleVoice("zh-CN");
+      utter.onend = () => {
+        idx++;
+        speakNext();
+      };
+      speechSynthesis.speak(utter);
+    }
+  }
+  speakNext();
 }
 
-// ==========================================
-// TRÒ CHƠI 1: QUIZ (ĐÃ GÓM DÙNG CHUNG HÀM ALERT)
-// ==========================================
+// Hàm "Nói lại" tổng hợp duy nhất cho mọi trò chơi dựa vào resultType
+function repeatUtter() {
+  if (!currentItem) return;
+
+  speechSynthesis.cancel();
+
+  switch (currentItem.resultType) {
+    // 🟢 Synonym Challenge (Đúng): Từ + Từ đồng nghĩa + Ví dụ
+    case "correct":
+      speakQueue([currentItem.word, currentItem.synonym, currentItem.example]);
+      break;
+
+    // 🔴 Synonym Challenge (Sai): Chỉ đọc từ sai
+    case "wrong":
+      if (currentItem.wrongChoice) {
+        speakText(currentItem.wrongChoice);
+      }
+      break;
+
+    // 🟢 Antonym Battle (Đúng): Từ + Từ trái nghĩa + Ví dụ
+    case "antonym_correct":
+      const antonymExample = currentItem.example || currentItem.antonymExample || "";
+      speakQueue([currentItem.word, currentItem.antonym, antonymExample]);
+      break;
+
+    // 🔴 Antonym Battle (Sai): Từ sai + Câu ví dụ của từ sai
+    case "antonym_wrong":
+      speakQueue([currentItem.wrongChoice, currentItem.wrongExample]);
+      break;
+
+    // 🟡 Quiz / Trắc nghiệm / Mặc định: Từ -> Câu ví dụ
+    case "quiz":
+    default:
+      if (currentItem.word) {
+        const utterWord = new SpeechSynthesisUtterance(currentItem.word);
+        utterWord.lang = "zh-CN";
+        utterWord.voice = getFemaleVoice("zh-CN");
+        
+        utterWord.onend = () => {
+          if (currentItem.example) {
+            const utterExample = new SpeechSynthesisUtterance(currentItem.example);
+            utterExample.lang = "zh-CN";
+            utterExample.voice = getFemaleVoice("zh-CN");
+            speechSynthesis.speak(utterExample);
+          }
+        };
+        speechSynthesis.speak(utterWord);
+      }
+      break;
+  }
+}
+
+// =======================================
+// 1. TRÒ CHƠI 1: QUIZ (NGHĨA TIẾNG VIỆT)
+// =======================================
 function startQuiz() {
   if (words.length === 0) {
     alert("⚠️ Bạn chưa nhập file JSON!");
@@ -112,18 +171,31 @@ function startQuiz() {
 
     btn.onclick = () => {
       if (input.value.trim() === item.meaning) {
-        // ✅ Đúng: Gọi trực tiếp hàm dùng chung getCorrectContentHtml không cần truyền extra
+        // Lưu trạng thái đúng cho Quiz
         currentItem = { ...item, resultType: "quiz" };
-        const content = getCorrectContentHtml(item);
-        
+
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác!</p>
+            <p style="margin:5px 0;">
+              Từ: <b style="font-size:3.9em;">${item.word}</b>
+              <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
+            <p style="margin:5px 0;">
+              Câu ví dụ: <b style="font-size:3em;">${item.example}</b><br>
+              <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+          </div>
+        `;
         showAlert(content);
         addPoint(item.word);
-        
+
         speechSynthesis.cancel();
         speakQueue([item.word, item.example]);
 
       } else {
-        // ❌ Sai (nếu bạn muốn Quiz dùng chung alert đẹp luôn thì gọi getWrongContentHtml, còn không giữ nguyên alert cũ)
         alert("❌ Sai. Đáp án: " + item.meaning);
       }
     };
@@ -703,7 +775,7 @@ function startCategorySort() {
 }
 
 // ==================================================
-// 12. TRÒ CHƠI 12: SYNONYM CHALLENGE (ĐÃ TỐI ƯU GỌN)
+// 12. TRÒ CHƠI 12: SYNONYM CHALLENGE (TỪ ĐỒNG NGHĨA)
 // ==================================================
 function startSynonymChallenge() {
   const validWords = words.filter(item => item.word && item.synonym && item.meaning);
@@ -731,29 +803,48 @@ function startSynonymChallenge() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === item.synonym) {
-        // ✅ Đúng: Gọi hàm dùng chung và truyền thêm thông tin từ đồng nghĩa
+        // ✅ Đúng
         currentItem = { ...item, resultType: "correct" };
-        const content = getCorrectContentHtml(
-          item, 
-          "Đồng nghĩa", 
-          item.synonym, 
-          item.synonymPronounce, 
-          item.synonymMeaning
-        );
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác!</p>
+            <p style="margin:5px 0;">
+              Từ: <b style="font-size:3.9em;">${item.word}</b>
+              <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
+            <p style="margin:5px 0;">
+              Đồng nghĩa: <b style="font-size:3.9em;">${item.synonym}</b>
+            </p>
+            <p style="margin:5px 0;color:cyan;">
+              <b style="font-size:2em;">(${item.synonymPronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ đồng nghĩa: ${item.synonymMeaning || "(chưa có nghĩa)"}</p>
+            <p style="margin:5px 0;">
+              Câu ví dụ: <b style="font-size:3em;">${item.example}</b><br>
+              <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+          </div>
+        `;
         showAlert(content);
         addPoint(item.word);
         speakQueue([item.word, item.synonym, item.example]);
 
       } else {
-        // ❌ Sai: Gọi hàm thông báo sai dùng chung
+        // ❌ Sai
         const wrongItem = validWords.find(w => w.word === opt);
-        const example = wrongItem && wrongItem.example ? wrongItem.example : "";
-        
-        currentItem = { ...item, resultType: "wrong", wrongChoice: opt, wrongExample: example };
-        const content = getWrongContentHtml(opt, wrongItem);
-        
+        const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
+        currentItem = { ...item, resultType: "wrong", wrongChoice: opt };
+
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai</p>
+            <p style="margin:5px 0;">Bạn chọn: <b style="font-size:3em;">${opt}</b> → ${meaning}</p>
+          </div>
+        `;
         showAlert(content);
-        speakQueue([opt, example]);
+        speakText(opt);
       }
     };
     container.appendChild(btn);
@@ -832,7 +923,7 @@ function startSpellingBee() {
 }
 
 // ===============================================
-// 14. TRÒ CHƠI 14: ANTONYM BATTLE (ĐÃ TỐI ƯU GỌN)
+// 15. TRÒ CHƠI 15: ANTONYM BATTLE (TỪ TRÁI NGHĨA)
 // ===============================================
 function startAntonymBattle() {
   const validWords = words.filter(item => item.word && item.meaning && item.antonym && item.antonymMeaning);
@@ -866,34 +957,67 @@ function startAntonymBattle() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === item.antonym) {
-        // ✅ Đúng: Gọi hàm dùng chung và truyền thêm thông tin từ trái nghĩa
+        // ✅ Đúng
         currentItem = { ...item, resultType: "antonym_correct" };
         const antonymExample = item.example || item.antonymExample || "";
-        
-        const content = getCorrectContentHtml(
-          item, 
-          "Trái nghĩa", 
-          item.antonym, 
-          item.antonymPronounce || item.pronounce, 
-          item.antonymMeaning
-        );
+
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác!</p>
+            <p style="margin:5px 0;">
+              Từ: <b style="font-size:3.9em;">${item.word}</b>
+              <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
+            <p style="margin:5px 0;">
+              Trái nghĩa: <b style="font-size:3.9em;">${item.antonym}</b>
+            </p>
+            <p style="margin:5px 0;color:cyan;">
+              <b style="font-size:2em;">(${item.antonymPronounce || item.pronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ trái nghĩa: ${item.antonymMeaning || "(chưa có nghĩa)"}</p>
+            <p style="margin:5px 0;">
+              Câu ví dụ: <b style="font-size:3em;">${antonymExample}</b><br>
+              <b style="font-size:2em;color:cyan;">(${item.examplePronounce || item.antonymExamplePronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || item.antonymTranslation || "(chưa có dịch)"}</p>
+          </div>
+        `;
         showAlert(content);
         addPoint(item.word);
         speakQueue([item.word, item.antonym, antonymExample]);
 
       } else {
-        // ❌ Sai: Gọi hàm thông báo sai dùng chung
+        // ❌ Sai
         const wrongItem = validWords.find(w => w.word === opt);
+        const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
+        const pronounce = wrongItem && wrongItem.pronounce ? wrongItem.pronounce : "chưa có pronounce";
         const example = wrongItem && wrongItem.example ? wrongItem.example : "";
-        
+        const examplePronounce = wrongItem && wrongItem.examplePronounce ? wrongItem.examplePronounce : "chưa có pronounce";
+        const translation = wrongItem && wrongItem.translation ? wrongItem.translation : "(chưa có dịch)";
+
         currentItem = { 
           ...item, 
           resultType: "antonym_wrong", 
           wrongChoice: opt, 
           wrongExample: example 
         };
-        const content = getWrongContentHtml(opt, wrongItem);
 
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai</p>
+            <p style="margin:5px 0;">
+              Bạn chọn: <b style="font-size:3em;">${opt}</b>
+              <b style="font-size:2em;color:cyan;">(${pronounce})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ: ${meaning}</p>
+            <p style="margin:5px 0;">
+              Câu ví dụ: <b style="font-size:3em;">${example}</b><br>
+              <b style="font-size:2em;color:cyan;">(${examplePronounce})</b>
+            </p>
+            <p style="margin:5px 0;">Dịch câu ví dụ: ${translation}</p>
+          </div>
+        `;
         showAlert(content);
         speakQueue([opt, example]);
       }
