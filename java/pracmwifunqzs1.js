@@ -777,9 +777,19 @@ function startSynonymChallenge() {
   // Ghép đáp án đúng (synonym) + sai rồi xáo trộn
   const options = [item.synonym, ...wrongOptions].sort(() => 0.5 - Math.random());
 
-  // Hiển thị giao diện
+  // Hiển thị giao diện có kèm phần Nghĩa và nút Next
   const container = document.getElementById("game");
-  container.innerHTML = `<h2>Synonym Challenge</h2><p>Từ: <b>${item.word}</b></p>`;
+  container.innerHTML = `
+    <h2>Synonym Challenge</h2>
+    <p>Từ: <b>${item.word}</b></p>
+    <div id="options"></div>
+    <div style="margin-top: 10px; display: flex; align-items: center; gap: 15px;">
+      <p style="margin: 0;"><i>Nghĩa: ${item.meaning}</i></p>
+      <button1 id="next-btn" onclick="startSynonymChallenge()">Next ➡️</button1>
+    </div>
+  `;
+
+  const optionsDiv = document.getElementById("options");
 
   options.forEach(opt => {
     const btn = document.createElement("button2");
@@ -789,20 +799,35 @@ function startSynonymChallenge() {
       if (opt === item.synonym) {
         alert("Từ: " + item.word + " → " + item.meaning +
               "\nĐồng nghĩa: " + item.synonym);
-        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
+        addPoint(item.word); // 👉 cộng điểm ngay khi đúng
 
-        // Phát âm từ gốc
-        if (/^[a-zA-Z\s]+$/.test(item.word)) {
-          const utterWord = new SpeechSynthesisUtterance(item.word);
-          utterWord.lang = "en-US";
-          speechSynthesis.speak(utterWord);
+        // Xếp hàng phát âm: từ gốc -> từ đồng nghĩa, sau đó tự động chuyển câu mới
+        speechSynthesis.cancel();
+        
+        const textsToSpeak = [];
+        if (/^[a-zA-Z\s]+$/.test(item.word)) textsToSpeak.push(item.word);
+        if (/^[a-zA-Z\s]+$/.test(item.synonym)) textsToSpeak.push(item.synonym);
+
+        let index = 0;
+        function playNextSpeech() {
+          if (index < textsToSpeak.length) {
+            const utter = new SpeechSynthesisUtterance(textsToSpeak[index]);
+            utter.lang = "en-US";
+            utter.onend = () => {
+              index++;
+              playNextSpeech();
+            };
+            speechSynthesis.speak(utter);
+          } else {
+            // Đã phát âm xong cả hai -> Tự động chuyển câu tiếp theo
+            startSynonymChallenge();
+          }
         }
-
-        // Phát âm từ đồng nghĩa
-        if (/^[a-zA-Z\s]+$/.test(item.synonym)) {
-          const utterSyn = new SpeechSynthesisUtterance(item.synonym);
-          utterSyn.lang = "en-US";
-          speechSynthesis.speak(utterSyn);
+        
+        if (textsToSpeak.length > 0) {
+          playNextSpeech();
+        } else {
+          startSynonymChallenge();
         }
 
       } else {
@@ -819,7 +844,7 @@ function startSynonymChallenge() {
         }
       }
     };
-    container.appendChild(btn);
+    optionsDiv.appendChild(btn);
   });
 }
 
