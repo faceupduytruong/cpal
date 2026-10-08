@@ -54,7 +54,7 @@ function showWrongAlert(item, customMessage = "Hãy viết lại nghĩa khác!")
         <b style="font-size:2.5em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
       </p>
       <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
-      <p style="margin:10px 0;color:grey;font-size:2em;">${customMessage}</p>
+      <p style="margin:10px 0;color:orange;font-size:2em;">${customMessage}</p>
     </div>
   `;
   showAlert(content);
@@ -632,6 +632,11 @@ function startMemoryCards() {
 // Trò chơi Listening Quiz (Nghe và đoán)
 function startListeningQuiz() {
   const validWords = words.filter(item => item.word && item.meaning);
+  if (validWords.length === 0) {
+    alert("⚠️ Không có dữ liệu hợp lệ trong file JSON!");
+    return;
+  }
+  
   const item = validWords[Math.floor(Math.random() * validWords.length)];
 
   const container = document.getElementById("game");
@@ -651,13 +656,70 @@ function startListeningQuiz() {
 
   document.getElementById("check").onclick = () => {
     const ans = document.getElementById("ans").value.trim();
+
     if (ans === item.meaning) {
-       alert("✅ Chính xác!\nTừ: " + item.word + "\nNghĩa: " + item.meaning);
+       // ✅ Trường hợp đúng
+       const content = `
+         <div style="text-align:center;">
+           <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác! Right!, Correct!, Exactly! /raɪt/, /kəˈrekt/, /ɪɡˈzæktli/</p>
+           <p style="margin:5px 0;">
+             Đáp án đúng của từ: <b style="font-size:6em;">${item.word}</b>
+             <b style="font-size:2.5em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+           </p>
+           <p style="margin:5px 0;font-size:1.3em;">Nghĩa đúng: <b style="color:orange;">${item.meaning}</b></p>
+           <p style="margin:5px 0;">
+             Câu ví dụ: <b style="font-size:4em;">${item.example || ""}</b><br>
+             <b style="font-size:2.5em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+           </p>
+           <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+         </div>
+       `;
+       showAlert(content);
        addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
+
+       // Phát âm từ và câu ví dụ theo hàng đợi
+       speechSynthesis.cancel();
+       const textsToSpeak = [];
+       if (/^[a-zA-Z\s]+$/.test(item.word)) textsToSpeak.push(item.word);
+       if (item.example) textsToSpeak.push(item.example);
+
+       let index = 0;
+       function playNextSpeech() {
+         if (index < textsToSpeak.length) {
+           const utter = new SpeechSynthesisUtterance(textsToSpeak[index]);
+           utter.lang = "en-US";
+           utter.onend = () => {
+             index++;
+             playNextSpeech();
+           };
+           speechSynthesis.speak(utter);
+         }
+       }
+       if (textsToSpeak.length > 0) playNextSpeech();
+
      } else {
-       alert("❌ Sai.\nTừ: " + item.word + "\nĐáp án đúng: " + item.meaning);
+       // ❌ Trường hợp sai
+       const content = `
+         <div style="text-align:center;">
+           <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai!</p>
+           <p style="margin:5px 0;">
+             Đáp án đúng là từ: <b style="font-size:6em;">${item.word}</b>
+             <b style="font-size:2.5em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+           </p>
+           <p style="margin:5px 0;font-size:1.3em;">Nghĩa đúng: <b style="color:orange;">${item.meaning}</b></p>
+           <p style="margin:5px 0;color:orange;font-size:1.5em;font-weight:bold;">Hãy gõ lại cho đúng từ đó</p>
+         </div>
+       `;
+       showAlert(content);
+
+       // Phát âm từ đúng để người học nghe lại
+       if (/^[a-zA-Z\s]+$/.test(item.word)) {
+         const utterWrong = new SpeechSynthesisUtterance(item.word);
+         utterWrong.lang = "en-US";
+         speechSynthesis.speak(utterWrong);
+       }
      }
-    };
+  };
 }
 
 // Trò chơi Category Sort (Phân loại từ)
