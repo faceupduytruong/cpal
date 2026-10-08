@@ -807,6 +807,9 @@ function startCategorySort() {
 // ==================================================
 // 12. TRÒ CHƠI 12: SYNONYM CHALLENGE (TỪ ĐỒNG NGHĨA)
 // ==================================================
+// ===============================================
+// TRÒ CHƠI: SYNONYM CHALLENGE (TỪ ĐỒNG NGHĨA)
+// ===============================================
 function startSynonymChallenge() {
   const validWords = words.filter(item => item.word && item.synonym && item.meaning);
   if (validWords.length < 4) {
@@ -825,8 +828,14 @@ function startSynonymChallenge() {
   const options = [item.synonym, ...wrongOptions].sort(() => 0.5 - Math.random());
 
   const container = document.getElementById("game");
-  container.innerHTML = `<h2>Synonym Challenge</h2><p>Từ: <b>${item.word}</b></p>`;
+  container.innerHTML = `
+    <h2>Synonym Challenge</h2>
+    <p>Chọn từ đồng nghĩa với: <b>${item.word}</b></p>
+    <div id="options"></div>
+    <p><i>Nghĩa: ${item.meaning}</i></p>
+  `;
 
+  const optionsDiv = document.getElementById("options");
   options.forEach(opt => {
     const btn = document.createElement("button2");
     btn.textContent = opt;
@@ -897,7 +906,7 @@ function startSynonymChallenge() {
         speakQueue([opt, example]);
       }
     };
-    container.appendChild(btn);
+    optionsDiv.appendChild(btn);
   });
 }
 
