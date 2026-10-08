@@ -560,6 +560,7 @@ function startHangman() {
 }
 
 // Trò chơi Sentence Builder (Xây dựng câu)
+// Trò chơi Sentence Builder (Xây dựng câu)
 function startSentenceBuilder() {
   const validWords = words.filter(item => item.word && item.example && item.meaning);
   if (validWords.length === 0) {
@@ -573,10 +574,26 @@ function startSentenceBuilder() {
   const sentenceWithBlank = item.example.replace(item.word, "_____");
 
   const container = document.getElementById("game");
-  container.innerHTML = `<h2>Sentence Builder</h2><p id="sentence" style="font-size:1.5em;margin-bottom:15px;">${sentenceWithBlank}</p>`;
+  container.innerHTML = `
+    <h2>Sentence Builder</h2>
+    <p id="sentence" style="font-size:1.5em;margin-bottom:15px;">${sentenceWithBlank}</p>
+    <div id="options"></div>
+    <div style="margin-top: 10px; display: flex; align-items: center; gap: 15px;">
+      <p style="margin: 0;"><i>Nghĩa câu: ${item.translation || "(chưa có dịch)"}</i></p>
+      <button1 id="next-btn" onclick="startSentenceBuilder()">Next ➡️</button1>
+    </div>
+  `;
+
+  const optionsDiv = document.getElementById("options");
 
   // Tạo danh sách lựa chọn (1 đúng + vài sai)
-  const options = [item.word, ...validWords.filter(w => w.word !== item.word).slice(0, 3).map(w => w.word)].sort(() => 0.5 - Math.random());
+  const wrongOptions = validWords
+    .filter(w => w.word !== item.word)
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 3)
+    .map(w => w.word);
+
+  const options = [item.word, ...wrongOptions].sort(() => 0.5 - Math.random());
 
   options.forEach(opt => {
     const btn = document.createElement("button2");
@@ -607,9 +624,20 @@ function startSentenceBuilder() {
         showAlert(content);
         addPoint(item.word); // 👉 cộng điểm ngay khi đúng
 
-        // Phát âm chuẩn (word + example qua hàng đợi)
-        speakResult(item);
         currentItem = { ...item, resultType: "correct" };
+
+        // Phát âm chuẩn và tự động chuyển câu mới khi đọc xong
+        if (typeof speakResult === "function") {
+          speakResult(item);
+        } else {
+          speechSynthesis.cancel();
+          const utter = new SpeechSynthesisUtterance(item.example);
+          utter.lang = "en-US";
+          utter.onend = () => {
+            startSentenceBuilder();
+          };
+          speechSynthesis.speak(utter);
+        }
 
       } else {
         // ❌ Khi chọn sai: Hiển thị AlertBox báo sai và thông tin chi tiết của từ bị bấm nhầm
@@ -631,13 +659,19 @@ function startSentenceBuilder() {
         showAlert(content);
 
         // Phát âm từ tiếng Trung mà người chơi vừa chọn nhầm
-        speakText(opt);
+        if (typeof speakText === "function") {
+          speakText(opt);
+        } else {
+          speechSynthesis.cancel();
+          const utter = new SpeechSynthesisUtterance(opt);
+          speechSynthesis.speak(utter);
+        }
         
         // Lưu trạng thái để nút "Nói lại" đọc đúng từ sai đó
         currentItem = { ...item, resultType: "wrong", wrongChoice: opt };
       }
     };
-    container.appendChild(btn);
+    optionsDiv.appendChild(btn);
   });
 }
 
