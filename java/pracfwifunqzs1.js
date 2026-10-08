@@ -34,7 +34,6 @@ function getFemaleVoice(langCode) {
   )) || voices.find(v => v.lang === langCode);
 }
 
-
 // =============================================
 // B. CÁC HÀM HỖ TRỢ HIỂN THỊ ALERT & GIAO DIỆN
 // =============================================
@@ -807,7 +806,7 @@ function startSynonymChallenge() {
         currentItem = { ...item, resultType: "correct" };
         const content = `
           <div style="text-align:center;">
-            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!</p>
+            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác!</p>
             <p style="margin:5px 0;">
               Từ: <b style="font-size:3.9em;">${item.word}</b>
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -832,10 +831,20 @@ function startSynonymChallenge() {
         speakQueue([item.word, item.synonym, item.example]);
 
       } else {
-        // ❌ Sai
+        // ❌ Sai (Hiển thị chi tiết giống Antonym Battle)
         const wrongItem = validWords.find(w => w.word === opt);
         const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
-        currentItem = { ...item, resultType: "wrong", wrongChoice: opt };
+        const pronounce = wrongItem && wrongItem.pronounce ? wrongItem.pronounce : "chưa có pronounce";
+        const example = wrongItem && wrongItem.example ? wrongItem.example : "";
+        const examplePronounce = wrongItem && wrongItem.examplePronounce ? wrongItem.examplePronounce : "chưa có pronounce";
+        const translation = wrongItem && wrongItem.translation ? wrongItem.translation : "(chưa có dịch)";
+
+        currentItem = { 
+          ...item, 
+          resultType: "wrong", 
+          wrongChoice: opt, 
+          wrongExample: example 
+        };
 
         const content = `
           <div style="text-align:center;">
@@ -853,7 +862,7 @@ function startSynonymChallenge() {
           </div>
         `;
         showAlert(content);
-        speakText(opt);
+        speakQueue([opt, example]);
       }
     };
     container.appendChild(btn);
