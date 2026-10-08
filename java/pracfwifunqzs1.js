@@ -845,6 +845,12 @@ function repeatUtter() {
     speakResult(currentItem);
   } else if (currentItem.resultType === "wrong" && currentItem.wrongChoice) {
     speakText(currentItem.wrongChoice);
+  } 
+  // 👉 Bổ sung cho trò chơi Antonym Battle
+  else if (currentItem.resultType === "antonym_correct") {
+    speakAntonymResult(currentItem);
+  } else if (currentItem.resultType === "antonym_wrong" && currentItem.wrongChoice) {
+    speakText(currentItem.wrongChoice);
   } else {
     // Mặc định cho các trò chơi khác (Quiz, Trắc nghiệm, Điền từ...): Phát âm Từ -> Sau đó phát âm Câu ví dụ
     if (currentItem.word) {
@@ -974,14 +980,89 @@ function startAntonymBattle() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === item.antonym) {
-        alert("✅ Chính xác!\nTừ: " + item.word + "\nTrái nghĩa: " + item.antonym + "\nNghĩa trái nghĩa: " + item.antonymMeaning);
+        // ✅ Đúng
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:lime;font-size:1.2em;">✅ Chính xác!</p>
+            <p style="margin:5px 0;">
+              Từ: <b style="font-size:3.9em;">${item.word}</b>
+              <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
+            <p style="margin:5px 0;">
+              Trái nghĩa: <b style="font-size:3.9em;">${item.antonym}</b>
+            </p>
+            <p style="margin:5px 0;color:cyan;">
+              <b style="font-size:2em;">(${item.antonymPronounce || item.pronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ trái nghĩa: ${item.antonymMeaning || "(chưa có nghĩa)"}</p>
+            <p style="margin:5px 0;">
+              Câu ví dụ: <b style="font-size:3em;">${item.example || item.antonymExample || ""}</b><br>
+              <b style="font-size:2em;color:cyan;">(${item.examplePronounce || item.antonymExamplePronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || item.antonymTranslation || "(chưa có dịch)"}</p>
+          </div>
+        `;
+        showAlert(content);
         addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Trung làm ID
+
+        // Phát âm chuẩn (word + antonym + example)
+        speakAntonymResult(item);
+        currentItem = { ...item, resultType: "antonym_correct" };
+
       } else {
-        alert("❌ Sai!\nTừ: " + item.word + "\nTrái nghĩa đúng: " + item.antonym + "\nNghĩa trái nghĩa: " + item.antonymMeaning);
+        // ❌ Sai
+        const wrongItem = validWords.find(w => w.word === opt);
+        const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
+        const pronounce = wrongItem && wrongItem.pronounce ? wrongItem.pronounce : "chưa có pronounce";
+        const example = wrongItem && wrongItem.example ? wrongItem.example : "";
+        const examplePronounce = wrongItem && wrongItem.examplePronounce ? wrongItem.examplePronounce : "chưa có pronounce";
+        const translation = wrongItem && wrongItem.translation ? wrongItem.translation : "(chưa có dịch)";
+
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai</p>
+            <p style="margin:5px 0;">
+              Bạn chọn: <b style="font-size:3em;">${opt}</b>
+              <b style="font-size:2em;color:cyan;">(${pronounce})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ: ${meaning}</p>
+            <p style="margin:5px 0;">
+              Câu ví dụ: <b style="font-size:3em;">${example}</b><br>
+              <b style="font-size:2em;color:cyan;">(${examplePronounce})</b>
+            </p>
+            <p style="margin:5px 0;">Dịch câu ví dụ: ${translation}</p>
+          </div>
+        `;
+        showAlert(content);
+
+        // Phát âm từ sai mà người chơi chọn
+        speakText(opt);
+        currentItem = { ...item, resultType: "antonym_wrong", wrongChoice: opt, wrongItemData: wrongItem };
       }
     };
     optionsDiv.appendChild(btn);
   });
+}
+
+// Hàm phát âm kết quả đúng cho Antonym Battle (word + antonym + example)
+function speakAntonymResult(item) {
+  const exampleText = item.example || item.antonymExample || "";
+  const queue = [item.word, item.antonym, exampleText].filter(Boolean);
+  let idx = 0;
+
+  function speakNext() {
+    if (idx < queue.length) {
+      const utter = new SpeechSynthesisUtterance(queue[idx]);
+      utter.lang = "zh-CN";
+      utter.onend = () => {
+        idx++;
+        speakNext();
+      };
+      speechSynthesis.speak(utter);
+    }
+  }
+  speakNext();
 }
 
 // Trò chơi Quick Translation Race (Đua dịch nhanh)
