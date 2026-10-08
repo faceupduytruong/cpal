@@ -850,7 +850,8 @@ function repeatUtter() {
   else if (currentItem.resultType === "antonym_correct") {
     speakAntonymResult(currentItem);
   } else if (currentItem.resultType === "antonym_wrong" && currentItem.wrongChoice) {
-    speakText(currentItem.wrongChoice);
+    // Gọi hàm phát âm từ sai kèm theo câu ví dụ của từ sai đó
+    speakWrongAntonymResult(currentItem.wrongChoice, currentItem.wrongExample);
   } else {
     // Mặc định cho các trò chơi khác (Quiz, Trắc nghiệm, Điền từ...): Phát âm Từ -> Sau đó phát âm Câu ví dụ
     if (currentItem.word) {
@@ -1036,9 +1037,15 @@ function startAntonymBattle() {
         `;
         showAlert(content);
 
-        // Phát âm từ sai mà người chơi chọn
-        speakText(opt);
-        currentItem = { ...item, resultType: "antonym_wrong", wrongChoice: opt, wrongItemData: wrongItem };
+        // 👉 Phát âm từ sai kèm theo câu ví dụ của từ sai đó
+        speakWrongAntonymResult(opt, example);
+        currentItem = { 
+          ...item, 
+          resultType: "antonym_wrong", 
+          wrongChoice: opt, 
+          wrongExample: example, 
+          wrongItemData: wrongItem 
+        };
       }
     };
     optionsDiv.appendChild(btn);
@@ -1049,6 +1056,25 @@ function startAntonymBattle() {
 function speakAntonymResult(item) {
   const exampleText = item.example || item.antonymExample || "";
   const queue = [item.word, item.antonym, exampleText].filter(Boolean);
+  let idx = 0;
+
+  function speakNext() {
+    if (idx < queue.length) {
+      const utter = new SpeechSynthesisUtterance(queue[idx]);
+      utter.lang = "zh-CN";
+      utter.onend = () => {
+        idx++;
+        speakNext();
+      };
+      speechSynthesis.speak(utter);
+    }
+  }
+  speakNext();
+}
+
+// 👉 Hàm mới: Phát âm khi chọn sai (Từ sai + Câu ví dụ của từ sai)
+function speakWrongAntonymResult(word, example) {
+  const queue = [word, example].filter(Boolean);
   let idx = 0;
 
   function speakNext() {
