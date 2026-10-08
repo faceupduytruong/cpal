@@ -882,16 +882,44 @@ function startSynonymChallenge() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === item.synonym) {
-        alert("Từ: " + item.word + " → " + item.meaning +
-              "\nĐồng nghĩa: " + item.synonym);
+        // ✅ Trường hợp đúng: hiển thị thông báo chi tiết qua showAlert
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác! Right!, Correct!, Exactly! /raɪt/, /kəˈrekt/, /ɪɡˈzæktli/</p>
+            <p style="margin:5px 0;">
+              Từ gốc: <b style="font-size:4em;">${item.word}</b>
+              <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;font-size:1.3em;">Đồng nghĩa: <b style="color:orange;">${item.synonym}</b></p>
+            <p style="margin:5px 0;font-size:1.3em;">Nghĩa đúng: <b style="color:orange;">${item.meaning}</b></p>
+            <p style="margin:5px 0;">
+              Câu ví dụ: <b style="font-size:3em;">${item.example || ""}</b><br>
+              <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+          </div>
+        `;
+
+        if (typeof showAlert === "function") {
+          try {
+            showAlert(content, () => {
+              startSynonymChallenge();
+            });
+          } catch (e) {
+            showAlert(content);
+          }
+        } else {
+          alert(content);
+        }
+
         addPoint(item.word); // 👉 cộng điểm ngay khi đúng
 
         // Xếp hàng phát âm: từ gốc -> từ đồng nghĩa, sau đó tự động chuyển câu mới
         speechSynthesis.cancel();
         
         const textsToSpeak = [];
-        if (/^[a-zA-Z\s]+$/.test(item.word)) textsToSpeak.push(item.word);
-        if (/^[a-zA-Z\s]+$/.test(item.synonym)) textsToSpeak.push(item.synonym);
+        if (item.word) textsToSpeak.push(item.word);
+        if (item.synonym) textsToSpeak.push(item.synonym);
 
         let index = 0;
         function playNextSpeech() {
@@ -918,11 +946,30 @@ function startSynonymChallenge() {
       } else {
         // Tìm nghĩa của từ sai
         const wrongItem = validWords.find(w => w.word === opt);
-        const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
-        alert("❌ Sai!\nBạn chọn: " + opt + " → " + meaning);
+        const wrongMeaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
+        const wrongPronounce = wrongItem ? wrongItem.pronounce : "chưa có pronounce";
+
+        // ❌ Trường hợp sai: hiện thông báo kèm hướng dẫn chọn lại
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai!</p>
+            <p style="margin:5px 0;">
+              Đáp án đúng (Đồng nghĩa): <b style="font-size:4em;">${item.synonym}</b>
+              <b style="font-size:2em;color:cyan;">(${wrongPronounce})</b>
+            </p>
+            <p style="margin:5px 0;font-size:1.3em;">Nghĩa: <b style="color:orange;">${wrongMeaning}</b></p>
+            <p style="margin:5px 0;color:orange;font-size:1.5em;font-weight:bold;">Hãy chọn lại từ khác</p>
+          </div>
+        `;
+
+        if (typeof showAlert === "function") {
+          showAlert(content);
+        } else {
+          alert("❌ Sai!\nĐáp án đúng: " + item.synonym + "\nNghĩa: " + wrongMeaning + "\nHãy chọn lại từ khác");
+        }
 
         // Phát âm từ sai
-        if (/^[a-zA-Z\s]+$/.test(opt)) {
+        if (opt) {
           const utterWrong = new SpeechSynthesisUtterance(opt);
           utterWrong.lang = "en-US";
           speechSynthesis.speak(utterWrong);
