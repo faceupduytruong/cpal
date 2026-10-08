@@ -940,13 +940,16 @@ function startAntonymBattle() {
 
   const options = [item.antonym, ...wrongOptions].sort(() => 0.5 - Math.random());
 
-  // Hiển thị giao diện
+  // Hiển thị giao diện có kèm phần Nghĩa và nút Next nằm cạnh nhau
   const container = document.getElementById("game");
   container.innerHTML = `
     <h2>Antonym Battle</h2>
     <p>Chọn từ trái nghĩa với: <b>${item.word}</b></p>
     <div id="options"></div>
-    <p><i>Nghĩa: ${item.meaning}</i></p>
+    <div style="margin-top: 10px; display: flex; align-items: center; gap: 15px;">
+      <p style="margin: 0;"><i>Nghĩa: ${item.meaning}</i></p>
+      <button1 id="next-btn" onclick="startAntonymBattle()">Next ➡️</button1>
+    </div>
   `;
 
   const optionsDiv = document.getElementById("options");
@@ -958,8 +961,45 @@ function startAntonymBattle() {
       if (opt === item.antonym) {
         alert("✅ Chính xác!\nTừ: " + item.word + "\nTrái nghĩa: " + item.antonym + "\nNghĩa trái nghĩa: " + item.antonymMeaning);
         addPoint(item.word); // 👉 cộng điểm ngay khi đúng, dùng từ tiếng Anh làm ID
+
+        // Xếp hàng phát âm: từ gốc -> từ trái nghĩa, sau đó tự động chuyển câu mới
+        speechSynthesis.cancel();
+        
+        const textsToSpeak = [];
+        if (/^[a-zA-Z\s]+$/.test(item.word)) textsToSpeak.push(item.word);
+        if (/^[a-zA-Z\s]+$/.test(item.antonym)) textsToSpeak.push(item.antonym);
+
+        let index = 0;
+        function playNextSpeech() {
+          if (index < textsToSpeak.length) {
+            const utter = new SpeechSynthesisUtterance(textsToSpeak[index]);
+            utter.lang = "en-US";
+            utter.onend = () => {
+              index++;
+              playNextSpeech();
+            };
+            speechSynthesis.speak(utter);
+          } else {
+            // Đã phát âm xong cả hai -> Tự động chuyển câu tiếp theo
+            startAntonymBattle();
+          }
+        }
+        
+        if (textsToSpeak.length > 0) {
+          playNextSpeech();
+        } else {
+          startAntonymBattle();
+        }
+
       } else {
         alert("❌ Sai!\nTừ: " + item.word + "\nTrái nghĩa đúng: " + item.antonym + "\nNghĩa trái nghĩa: " + item.antonymMeaning);
+
+        // Phát âm từ sai
+        if (/^[a-zA-Z\s]+$/.test(opt)) {
+          const utterWrong = new SpeechSynthesisUtterance(opt);
+          utterWrong.lang = "en-US";
+          speechSynthesis.speak(utterWrong);
+        }
       }
     };
     optionsDiv.appendChild(btn);
