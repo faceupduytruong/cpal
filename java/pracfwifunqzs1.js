@@ -175,7 +175,7 @@ function startQuiz() {
 
         const content = `
           <div style="text-align:center;">
-            <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!</p>
+            <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!</p>
             <p style="margin:5px 0;">
               Từ: <b style="font-size:3em;">${item.word}</b>
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -237,7 +237,7 @@ function startQuizMultipleChoice() {
           // ✅ Nếu đúng: Hiện AlertBox chi tiết
           const content = `
             <div style="text-align:center;">
-              <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
+              <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
               <p style="margin:5px 0;">
                 Từ: <b style="font-size:3em;">${item.word}</b>
                 <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -560,7 +560,7 @@ function startSentenceBuilder() {
 
         const content = `
           <div style="text-align:center;">
-            <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
+            <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè! 正确 Zhèngquè, Châng-chuyê, Châng-chuyè</p>
             <p style="margin:5px 0;">
               Từ: <b style="font-size:3em;">${item.word}</b>
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -806,7 +806,7 @@ function startSynonymChallenge() {
         currentItem = { ...item, resultType: "correct" };
         const content = `
           <div style="text-align:center;">
-            <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!</p>
+            <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!</p>
             <p style="margin:5px 0;">
               Từ: <b style="font-size:3em;">${item.word}</b>
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
@@ -981,7 +981,7 @@ function startAntonymBattle() {
 
         const content = `
           <div style="text-align:center;">
-            <p style="margin:5px 0;color:lime;font-size:2em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!</p>
+            <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!</p>
             <p style="margin:5px 0;">
               Từ: <b style="font-size:3em;">${item.word}</b>
               <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
