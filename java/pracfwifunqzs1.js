@@ -984,6 +984,9 @@ function startSpellingBee() {
 // ===============================================
 // 15. TRÒ CHƠI 15: ANTONYM BATTLE (TỪ TRÁI NGHĨA)
 // ===============================================
+// ===============================================
+// 15. TRÒ CHƠI 15: ANTONYM BATTLE (TỪ TRÁI NGHĨA)
+// ===============================================
 function startAntonymBattle() {
   const validWords = words.filter(item => item.word && item.meaning && item.antonym && item.antonymMeaning);
   if (validWords.length === 0) {
@@ -1006,7 +1009,10 @@ function startAntonymBattle() {
     <h2>Antonym Battle</h2>
     <p>Chọn từ trái nghĩa với: <b>${item.word}</b></p>
     <div id="options"></div>
-    <p><i>Nghĩa: ${item.meaning}</i></p>
+    <div style="margin-top: 10px; display: flex; align-items: center; gap: 15px;">
+      <p style="margin: 0;"><i>Nghĩa: ${item.meaning}</i></p>
+      <button2 id="next-btn" onclick="startAntonymBattle()">Next ➡️</button2>
+    </div>
   `;
 
   const optionsDiv = document.getElementById("options");
