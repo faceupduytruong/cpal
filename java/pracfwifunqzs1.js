@@ -54,9 +54,9 @@ function closeAlert() {
 // C. HỆ THỐNG PHÁT ÂM CHUNG (QUEUE & REPEAT)
 // ===========================================
 
-// Hàm phát âm một đoạn text đơn lẻ (đã bổ sung cho phép dấu nháy đơn ' và các ký tự cơ bản)
+// Hàm phát âm một đoạn text (Đã sửa: chỉ cần text tồn tại là phát âm, không bị chặn bởi dấu câu)
 function speakText(text) {
-  if (text && /^[\u4e00-\u9fffA-Za-z\s']+$/.test(text)) {
+  if (text) {
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = "zh-CN"; // Hoặc đổi thành "en-US" nếu đây là học phần tiếng Anh
     utter.voice = getFemaleVoice("zh-CN");
