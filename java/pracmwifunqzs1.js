@@ -481,58 +481,115 @@ function startHangman() {
 // Trò chơi Sentence Builder (Xây dựng câu)
 function startSentenceBuilder() {
   const validWords = words.filter(item => item.word && item.example && item.meaning);
+  if (validWords.length === 0) {
+    alert("⚠️ Không có đủ dữ liệu hợp lệ trong file JSON!");
+    return;
+  }
+  
   const item = validWords[Math.floor(Math.random() * validWords.length)];
   
   // Tạo câu có chỗ trống
   const sentenceWithBlank = item.example.replace(item.word, "_____");
 
   const container = document.getElementById("game");
-  container.innerHTML = `<h2>Sentence Builder</h2><p id="sentence">${sentenceWithBlank}</p>`;
+  container.innerHTML = `
+    <h2>Sentence Builder</h2>
+    <p id="sentence" style="font-size:1.5em;margin-bottom:15px;">${sentenceWithBlank}</p>
+    <div id="options"></div>
+    <div style="margin-top: 10px; display: flex; align-items: center; gap: 15px;">
+      <p style="margin: 0;"><i>Nghĩa câu: ${item.translation || "(chưa có dịch)"}</i></p>
+      <button1 id="next-btn" onclick="startSentenceBuilder()">Next ➡️</button1>
+    </div>
+  `;
 
-  // Lấy ngẫu nhiên 3 từ sai khác từ đúng
+  const optionsDiv = document.getElementById("options");
+
+  // Tạo danh sách lựa chọn (1 đúng + vài sai)
   const wrongOptions = validWords
-    .filter(w => w.word !== item.word) // loại bỏ từ đúng
-    .sort(() => 0.5 - Math.random())   // xáo trộn
-    .slice(0, 3)                       // lấy 3 từ sai
+    .filter(w => w.word !== item.word)
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 3)
     .map(w => w.word);
 
-  // Gộp từ đúng + sai rồi xáo trộn
   const options = [item.word, ...wrongOptions].sort(() => 0.5 - Math.random());
 
   options.forEach(opt => {
     const btn = document.createElement("button2");
     btn.textContent = opt;
+    btn.style.margin = "5px";
     btn.onclick = () => {
       const sentenceEl = document.getElementById("sentence");
+      
       if (opt === item.word) {
-        // Khi chọn đúng: điền từ vào câu
+        // ✅ Khi chọn đúng: Điền từ vào câu và hiện AlertBox chi tiết
         sentenceEl.textContent = item.example;
 
-        // Hiện nghĩa tiếng Việt của từ + nghĩa câu
-        alert(
-          "✅ Chính xác!\n" +
-          "Từ: " + item.word + " → " + item.meaning + "\n" +
-          "Nghĩa câu: " + (item.translation || "(chưa có dịch)")
-        );
-        addPoint(item.word);
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác! 正确! Zhèngquè!, Châng-chuyê!, Châng-chuyè!</p>
+            <p style="margin:5px 0;">
+              Từ: <b style="font-size:3em;">${item.word}</b>
+              <b style="font-size:2em;color:cyan;">(${item.pronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa từ: ${item.meaning}</p>
+            <p style="margin:5px 0;">
+              Câu ví dụ: <b style="font-size:3em;">${item.example || "(chưa có ví dụ)"}</b><br>
+              <b style="font-size:2em;color:cyan;">(${item.examplePronounce || "chưa có pronounce"})</b>
+            </p>
+            <p style="margin:5px 0;">Dịch câu ví dụ: ${item.translation || "(chưa có dịch)"}</p>
+          </div>
+        `;
+        showAlert(content);
+        addPoint(item.word); // 👉 cộng điểm ngay khi đúng
 
-        // Phát âm cả câu ví dụ (đã điền từ đúng)
-        const utter = new SpeechSynthesisUtterance(item.example);
-        utter.lang = "en-US";
-        speechSynthesis.speak(utter);
+        currentItem = { ...item, resultType: "correct" };
 
-        // Sau khi phát âm xong thì chuyển sang câu tiếp theo
-        utter.onend = () => {
-          startSentenceBuilder();
-        };
+        // Phát âm chuẩn và tự động chuyển câu mới khi đọc xong
+        if (typeof speakResult === "function") {
+          speakResult(item);
+        } else {
+          speechSynthesis.cancel();
+          const utter = new SpeechSynthesisUtterance(item.example);
+          utter.lang = "en-US";
+          utter.onend = () => {
+            startSentenceBuilder();
+          };
+          speechSynthesis.speak(utter);
+        }
+
       } else {
-        // Khi chọn sai: hiện nghĩa của từ sai
+        // ❌ Khi chọn sai: Hiển thị AlertBox báo sai và thông tin chi tiết của từ bị bấm nhầm
         const wrongItem = validWords.find(w => w.word === opt);
-        const meaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
-        alert("❌ Sai! Nghĩa của \"" + opt + "\" là: " + meaning);
+        const wrongMeaning = wrongItem ? wrongItem.meaning : "(không có nghĩa trong dữ liệu)";
+        const wrongPronounce = wrongItem && wrongItem.pronounce ? wrongItem.pronounce : "chưa có pronounce";
+
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai! 错误! Cuòwù!, Xo-u-ù!</p>
+            <p style="margin:5px 0;">
+              Bạn chọn từ: <b style="font-size:3em;">${opt}</b>
+              <b style="font-size:2em;color:cyan;">(${wrongPronounce})</b>
+            </p>
+            <p style="margin:5px 0;">Nghĩa của từ này: <b style="font-size:1.5em;">${wrongMeaning}</b></p>
+            <p style="margin:5px 0;font-size:1.2em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
+          </div>
+        `;
+        showAlert(content);
+
+        // Phát âm từ tiếng Trung mà người chơi vừa chọn nhầm
+        if (typeof speakText === "function") {
+          speakText(opt);
+        } else {
+          speechSynthesis.cancel();
+          const utter = new SpeechSynthesisUtterance(opt);
+          speechSynthesis.speak(utter);
+        }
+        
+        // Lưu trạng thái để nút "Nói lại" đọc đúng từ sai đó
+        currentItem = { ...item, resultType: "wrong", wrongChoice: opt };
       }
     };
-    container.appendChild(btn);
+    optionsDiv.appendChild(btn);
   });
 }
 
