@@ -901,7 +901,26 @@ function startSynonymChallenge() {
         `;
         showAlert(content);
         addPoint(item.word);
-        speakQueue([item.word, item.synonym, item.example]);
+
+        // Phát âm hàng đợi, sau khi đọc xong câu cuối thì tự động chuyển sang câu mới
+        speechSynthesis.cancel();
+        const textsToSpeak = [item.word, item.synonym, item.example];
+        
+        let index = 0;
+        function playNextSpeech() {
+          if (index < textsToSpeak.length) {
+            const utter = new SpeechSynthesisUtterance(textsToSpeak[index]);
+            utter.onend = () => {
+              index++;
+              playNextSpeech();
+            };
+            speechSynthesis.speak(utter);
+          } else {
+            // Đã đọc xong tất cả -> Tự động chuyển câu mới
+            startSynonymChallenge();
+          }
+        }
+        playNextSpeech();
 
       } else {
         // ❌ Sai! 错误! Cuòwù!, Xo-u-ù! (Hiển thị chi tiết giống Antonym Battle)
@@ -1080,7 +1099,26 @@ function startAntonymBattle() {
         `;
         showAlert(content);
         addPoint(item.word);
-        speakQueue([item.word, item.antonym, antonymExample]);
+
+        // Phát âm hàng đợi, sau khi đọc xong tất cả thì tự động chuyển sang câu mới
+        speechSynthesis.cancel();
+        const textsToSpeak = [item.word, item.antonym, antonymExample];
+        
+        let index = 0;
+        function playNextSpeech() {
+          if (index < textsToSpeak.length) {
+            const utter = new SpeechSynthesisUtterance(textsToSpeak[index]);
+            utter.onend = () => {
+              index++;
+              playNextSpeech();
+            };
+            speechSynthesis.speak(utter);
+          } else {
+            // Đã đọc xong -> Tự động chuyển sang câu tiếp theo
+            startAntonymBattle();
+          }
+        }
+        playNextSpeech();
 
       } else {
         // ❌ Sai! 错误! Cuòwù!, Xo-u-ù!
