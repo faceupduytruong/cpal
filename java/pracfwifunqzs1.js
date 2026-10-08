@@ -5,7 +5,7 @@
     const reader = new FileReader();
     reader.onload = function(e) {
       try {
-        words = JSON.parse(e.target.result);a
+        words = JSON.parse(e.target.result);
         alert("✅ Đã tải dữ liệu từ file JSON (" + words.length + " từ)");
       } catch (err) {
         alert("⚠️ File không hợp lệ: " + err.message);
