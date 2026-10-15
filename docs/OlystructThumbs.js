@@ -72,6 +72,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@teacherleo2024/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/yuxgnaj1fnh1rdkxsuh2u/Teacher-Leo-K-t-c-u-th-p.jpg?rlkey=zap8j5b44js8g9zozlfujqbj3&st=qsyvwkn6&raw=1',
   },
+  'PLP BIM (Kết cấu thép)': {
+    url: 'https://www.youtube.com/@plpbim6611/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/opdn99zq0gn0n85xwypyc/PLP-BIM-K-t-c-u-th-p.jpg?rlkey=q81c4r5liiyfcs8zq1p8ywjdq&st=9n34r1ot&raw=1',
+  },
   'Đam Mê Kết Cấu (Kếu cấu thép)': {
     url: 'https://www.youtube.com/@dammeketcau/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/af4g55yqk2x28xmup3078/am-M-K-t-C-u-K-u-c-u-th-p.png?rlkey=7feyssoeiyg95r04r9577v5q2&st=zoe2hrgt&raw=1',
