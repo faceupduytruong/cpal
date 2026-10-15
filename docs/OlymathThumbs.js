@@ -74,6 +74,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@monghust/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/fh9ux054ie2ke6ncaq811/Th-y-MONG-To-n.avif?rlkey=1ucn4qs7rpilpe0fb9qr2ibio&st=sqhaudmn&raw=1',
   },
+  'Thầy Giáo Toán': {
+    url: 'https://www.youtube.com/@thaygiaotoan1980/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/06iszz0scs5hzele9dmir/Th-y-Gi-o-To-n.webp?rlkey=29h9rm7qg1uiyd4dnra9kn483&st=k7dk62uf&raw=1',
+  },
   'Phạm Trường Giang': {
     url: 'https://www.youtube.com/@Pham-Truong-Giang/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/v59qm89570dl6ygl9olg5/Ph-m-Tr-ng-Giang.jpg?rlkey=8vaoouimgtaowes4tgwr1jyun&st=gradosyi&raw=1',
