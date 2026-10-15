@@ -222,6 +222,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61592459041718',
     thumbnail: 'https://www.dropbox.com/scl/fi/wf33t41vgvdviq8999ffu/Rin-Bi-t-Tu-t.jpg?rlkey=jrnf9tbr2p64g5ynzy023fov8&st=cksa00lx&raw=1',
   },
+  'Hóa Ra Là Vậy': {
+    url: 'https://www.youtube.com/@hoaralavay0/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/s0mhl93n258ud79olo6m6/H-a-Ra-L-V-y.jpg?rlkey=omqinbtj8zyejdfw1jycd8vqd&st=v973bwrs&raw=1',
+  },
   'LỐP phó học tập': {
     url: 'https://www.facebook.com/profile.php?id=61592320954755',
     thumbnail: 'https://www.dropbox.com/scl/fi/n554dvlesh1ul72p3gly2/L-P-ph-h-c-t-p.jpg?rlkey=1jb123vczdc63xstk8xev3886&st=l7en47xy&raw=1',
