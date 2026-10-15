@@ -60,9 +60,21 @@ const folderLinks = {
     url: 'https://www.youtube.com/@K%E1%BA%BETC%E1%BA%A4UBLUE/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/sox383vs18bxhp5sg4vrf/K-t-c-u-Blue.webp?rlkey=5yilctylno991aqo1twz8vo7y&st=tw5fux34&raw=1',
   },
-  'Kết Cấu Thép - HCMUTE': {
+  'HCMUTE (Kết cấu thép)': {
     url: 'https://www.youtube.com/@HuynhThanhHuy-HCMUTE/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/7qjrj1nu42fa5syaieb36/K-t-C-u-Th-p-HCMUTE.png?rlkey=z24hfg8cu5pufgxjxgqhmlg6s&st=9jrqss81&raw=1',
+  },
+  'HatteSale (Kết cấu thép)': {
+    url: 'https://www.youtube.com/@Hattesale/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/1rtpddzmmo3q2om50ws84/HatteSale-K-t-c-u-th-p.jpg?rlkey=bkp6kx7h9w6wit7c0y4j94zq8&st=a19lhne4&raw=1',
+  },
+  'Teacher Leo (Kết cấu thép)': {
+    url: 'https://www.youtube.com/@teacherleo2024/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/yuxgnaj1fnh1rdkxsuh2u/Teacher-Leo-K-t-c-u-th-p.jpg?rlkey=zap8j5b44js8g9zozlfujqbj3&st=qsyvwkn6&raw=1',
+  },
+  'Đam Mê Kết Cấu (Kếu cấu thép)': {
+    url: 'https://www.youtube.com/@dammeketcau/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/af4g55yqk2x28xmup3078/am-M-K-t-C-u-K-u-c-u-th-p.png?rlkey=7feyssoeiyg95r04r9577v5q2&st=zoe2hrgt&raw=1',
   },
   'Hỗ Trợ Đồ Án Ngành KTXD': {
     url: 'https://www.youtube.com/@HotrodoankythuatxaydungKSV/videos',
@@ -76,6 +88,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@letuantu1580/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/mdktpp6fxyre3spy6pkbz/L-Tu-n-T-SAP2000.jpg?rlkey=qcoa2papiookf03yf42ic5jd3&st=abv38e18&raw=1',
   },
+  'Dang The Gia (SAP2000)': {
+    url: 'https://www.youtube.com/@DangTheGia/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/pbz6hj0m1vk97p2jcmnme/Dang-The-Gia-SAP2000.png?rlkey=dj87soisj0jsy0buvvm1u57wu&st=nr49q1xb&raw=1',
+  },
   'Đào Đắc Lý (SAP2000)': {
     url: 'https://www.youtube.com/@AOACLY/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/8a60h7t14374io5nmw24n/o-c-L.jpg?rlkey=rpvc743fc2cwcdnd5qf1p5jlw&st=fmnr7sui&raw=1',
@@ -88,13 +104,25 @@ const folderLinks = {
     url: 'https://www.youtube.com/@ersvnofficial/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/ln8jil7ukjnaubzles4hy/eRSVN-SAP2000.webp?rlkey=jdzd0gjfs30ytx177qv45s1vp&st=fyuw464j&raw=1',
   },
+  'Thích Xây Dựng CT (ETABS)': {
+    url: 'https://www.youtube.com/@THICHXAYDUNGCT/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4mqty7jnzi0xqwkpl7fcd/Th-ch-X-y-D-ng-CT-ETABS.png?rlkey=2fct23rnoajubyij5c5hdgt1l&st=lrxli1yw&raw=1',
+  },
   'Võ Bảo Toàn (ETABS)': {
     url: 'https://www.youtube.com/@vobaotoan9471/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/8g7kp1vqol74l5em9dfh1/V-B-o-To-n-ETABS.webp?rlkey=9itltj9qtpevdufuc93u0kus6&st=47j1nufb&raw=1',
   },
+  'Kết cấu Blue (ETABS)': {
+    url: 'https://www.youtube.com/@K%E1%BA%BETC%E1%BA%A4UBLUE/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ktm0e4q857jlgatw82d6o/K-t-c-u-Blue-ETABS.webp?rlkey=4j3ecl40foirhpk27g7lvddkj&st=1vyzi61e&raw=1',
+  },
   'MSc. Nguyễn Tổng (ETABS)': {
     url: 'https://www.youtube.com/@MSc.Nguy%E1%BB%85nT%E1%BB%95ng/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/mg5bgqngeosp3bei1fey4/MSc.-Nguy-n-T-ng.png?rlkey=pyh1ues4qwyig26mgebyrqwky&st=fvmr6vzi&raw=1',
+  },
+  'Cemcons (Robot Structure)': {
+    url: 'https://www.youtube.com/@cemcons/playlists',
+    thumbnail: 'https://www.dropbox.com/scl/fi/913yfe3dppinnyg4cwrpr/Cemcons-Robot-Structure.jpg?rlkey=re5a5jbjph2dvnampwgcegmpa&st=ej4oax30&raw=1',
   },
   'Nguyễn Quốc Tới (NM - Plaxis)': {
     url: 'https://www.youtube.com/@NGUY%E1%BB%84NQU%E1%BB%90CT%E1%BB%9AI/playlists',
