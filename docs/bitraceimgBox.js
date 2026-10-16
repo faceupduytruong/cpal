@@ -668,7 +668,35 @@ container.innerHTML = `
 </div>
         <div class="caption">Nghiện Nhà Đẹp</div>
       </div>
-    
+
+        <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/nhathongminh123' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/fkx62gylpyw5hp8ydmebx/Nh-Th-ng-Minh.png?rlkey=35qne5uw5g0b9e5sgs847avdf&st=hjy8t882&raw=1">
+</div>
+        <div class="caption">Nhà Thông Minh</div>
+      </div>
+      
+        <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/dontiepdesign' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/avr2d36j6i3ypnoy4o2as/n-Ti-p-Design.jpg?rlkey=d40f79t93chxeaquqsv6g7lfd&st=ky7hok2b&raw=1">
+</div>
+        <div class="caption">Đôn Tiệp Design</div>
+      </div>
+
+        <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61590725984798' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/9lqql0jy78p016qla8aj1/Smart-Spaces.jpg?rlkey=d1egtmdwiilqvb88ofbjkgxx3&st=bfszik5f&raw=1">
+</div>
+        <div class="caption">Smart Spaces</div>
+      </div>
+
+        <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61584626482676' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/7d1olz3pe158ou53iqn7d/.png?rlkey=yltd2480b9jez7kea9xgl7kuv&st=5q0a1wxe&raw=1">
+</div>
+        <div class="caption">榮松林</div>
+      </div>
+      
 </div>
 
     <!-- Hàng thứ 13 -->
