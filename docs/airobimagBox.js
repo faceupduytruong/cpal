@@ -1576,6 +1576,13 @@ container.innerHTML = `
         <div class="caption">Nguyễn Hữu Hoàng (Hoang Chiron)</div>
       </div>
 
+            <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/linhthaiofficial', 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/5xtnxmc6qi58d18akalco/Captione.png?rlkey=pqunvsakdz44abqcw4vt1se3w&st=szjtdvxg&raw=1">
+</div>
+        <div class="caption">Thái Vân Linh</div>
+      </div>
+
 </div>
 
          <!-- Hàng thứ 36 -->
