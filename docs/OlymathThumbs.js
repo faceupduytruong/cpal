@@ -154,6 +154,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Math4Life_LTS',
     thumbnail: 'https://www.dropbox.com/scl/fi/xye05jtx4ym7rtdu5fjtr/Math4Life.avif?rlkey=cuioecr1kvxq0nwx3x86y815z&st=kio8ypvb&raw=1',
   },
+  'Chill cùng Toán': {
+    url: 'https://www.youtube.com/@ChillwMath/videos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/okggl6ovkb36j1pqnpl90/Chill-c-ng-To-n.png?rlkey=z6kwr3owqiu0fiwub8g7hhima&st=ydylnw84&raw=1',
+  },
   'Tech hôm nay': {
     url: 'https://www.youtube.com/@TechH%C3%B4mNay',
     thumbnail: 'https://www.dropbox.com/scl/fi/xs6rewjhn59iun6q30og2/Tech-H-m-Nay.webp?rlkey=8tzrbdok9z7dzbqezlizu94yu&st=mypbjky6&raw=1',
@@ -185,6 +189,10 @@ const folderLinks = {
   'Tài liệu môn Toán': {
     url: 'https://tailieumontoan.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0ddtzpt8x6vr5vhthhi0y/T-i-li-u-m-n-to-n.avif?rlkey=h7t58hkejai8yic3aqrbgv7qc&st=yi5c79q5&raw=1',
+  },
+  'Toanmath (Đề thi free)': {
+    url: 'https://toanmath.com/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/wqckjpffva0wmqtwro7sm/Toanmath-thi-free.webp?rlkey=zxsovaf7k6p17cockdfc320jw&st=wzhjqtci&raw=1',
   },
   'Ươm mầm Toán (Web)': {
     url: 'https://uommamtoan.com/',
