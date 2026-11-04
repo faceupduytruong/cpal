@@ -801,6 +801,13 @@ container.innerHTML = `
       </div>
 
       <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/exceltudong' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/fu3v7cjwupclcwp85ugvj/Excel-t-ng.webp?rlkey=ix6qw0la01e6k43jo96iclnxd&st=tl1kcbry&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Excel tự động</div>
+      </div>
+
+      <div class="image-box">
        <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=100093314204817&sk=photos' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
        <img src="https://www.dropbox.com/scl/fi/5cy2ibaw1ceqwimecqc6f/Gi-i-Excel.png?rlkey=2dm9492svhpuix9rj987n8owl&st=ieo168l9&raw=1" alt="Ảnh 1">
 </div>
