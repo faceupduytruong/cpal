@@ -192,6 +192,10 @@ const folderLinks = {
     url: 'https://nexusvocab.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vrtq1gsfwhi2e7at6g0qm/5.webp?rlkey=55iqa1apiqhizk6io35wi5mv6&st=5t3fvyll&raw=1'
   },
+  'The forum center (Game)': {
+    url: 'https://theforumcenter.itch.io/trapwords-forum?fbclid=IwY2xjawVYJQBleHRuA2FlbQIxMABwZG9mBWJyaWQRMWVLZkFHekRIQU9SWm90Um5zcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEfiAZOeCKjl0HcM0dAqiYOLz6q1GGgn_CLgCXJXNrN8mX22Qeg6xV__yslUMQ_aem_ZgcSVIYAm50L05yXaVaz_g',
+    thumbnail: 'https://www.dropbox.com/scl/fi/5ly72rnuui3pqm27994df/The-forum-center-Game.webp?rlkey=xx3gboetdz1jum0x3mdh6ltqh&st=ycjlnkzd&raw=1'
+  },
   'Learn my words (Web)': {
     url: 'https://learnmywords.com/helps/tag/vocabulary',
     thumbnail: 'https://www.dropbox.com/scl/fi/eqbfkdwv418cuha6gyf14/Learn-my-words-Web.gif?rlkey=3mvxp3t6ut0u0g0ojmr9bx7mj&st=thrkdlk5&raw=1'
