@@ -18,6 +18,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/6686b8zwwloagxpcjanql/Google-Translate.jpg?rlkey=62s6qak72385hqbiod8414f1b&st=suqz7c3v&raw=1'
   },
+  'Forgiro': {
+    url: 'https://www.facebook.com/forgiro.org',
+    thumbnail: 'https://www.dropbox.com/scl/fi/r3urnmgzefdmbmhy1ixs1/Forgiro.webp?rlkey=prqsiifkuyvwxsybjs5aujs9f&st=w13q81dw&raw=1',
+  },
   'Happy Town': {
     url: 'https://www.facebook.com/myhappytown',
     thumbnail: 'https://www.dropbox.com/scl/fi/csit81dpuu4yfmyxhohfv/Happy-Town.png?rlkey=whemuinjunx1hd8tnu3q311mg&st=4x6axchm&raw=1',
