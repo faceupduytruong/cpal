@@ -92,5 +92,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/ho.minh.tung.988449',
     thumbnail: 'https://www.dropbox.com/scl/fi/nik6csoy3jj6j7mcfvuab/H-Minh-T-ng.png?rlkey=10rkk116ru6qvwnq815q8fezx&st=pwlbf71g&raw=1',
   },
+  'CHEMUS - Khoa học Hoá học': {
+    url: 'https://www.facebook.com/chemistry.khhh',
+    thumbnail: 'https://www.dropbox.com/scl/fi/73ickutf69r7h3q2r141u/CHEMUS-Khoa-h-c-Ho-h-c.png?rlkey=xwzpmqgrkfd3tfioaf6mkql3u&st=nyt54fqf&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
