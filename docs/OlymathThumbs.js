@@ -194,6 +194,10 @@ const folderLinks = {
     url: 'https://toanmath.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/wqckjpffva0wmqtwro7sm/Toanmath-thi-free.webp?rlkey=zxsovaf7k6p17cockdfc320jw&st=wzhjqtci&raw=1',
   },
+  'Ôn luyện': {
+    url: 'https://www.facebook.com/onluyen.vn',
+    thumbnail: 'https://www.dropbox.com/scl/fi/ibicltd5uis166uvdium1/n-luy-n.jpg?rlkey=5n2qe5fef10hr5vvz86zmjxea&st=9sbphx55&raw=1',
+  },
   'Ươm mầm Toán (Web)': {
     url: 'https://uommamtoan.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/m6cqg7ikdhxdn9kqytw4o/m-M-m-To-n.jpg?rlkey=ctjril30c34tv5bupm53spvg1&st=jn5zdgdp&raw=1',
