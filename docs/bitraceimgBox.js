@@ -731,6 +731,13 @@ container.innerHTML = `
       </div>
 
   <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/inhbaobao.167181' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/l9xlymzvgzanhl75l2uzh/inh-B-o-B-o.png?rlkey=wdsv6x8fyy10cldx7d1e74p86&st=re07xrsn&raw=1">
+</div>
+        <div class="caption">Đinh Bảo Bảo</div>
+      </div>
+
+  <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/ngoa.long.733' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/cr90kovd4wwqkfu2ort11/Master-Cao.avif?rlkey=1knh8w7pn9khezudg7lgl2kta&st=cue5sy9r&raw=1">
 </div>
