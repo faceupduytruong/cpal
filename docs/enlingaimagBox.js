@@ -859,6 +859,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Trạm game 4 (Game vui)</div>
       </div>
+
+      <div class="image-box">
+  <div onclick="openRightHalfPopup('https://game365.io/', 'SmartApp Popup', window.innerWidth*2+45, 745)">
+          <img src="https://www.dropbox.com/scl/fi/b68j4quo75gc73nvjj0xt/Tr-m-game-5-Game365.webp?rlkey=m4btmrh44uc7hygaq4ce9zzpu&st=8hhr5l13&raw=1">
+</div>
+        <div class="caption">Trạm game 5 (Game365)</div>
+      </div>
   
 </div>
 
