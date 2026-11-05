@@ -50,5 +50,9 @@ const folderLinks = {
     url: 'https://gamevui.vn/',
     thumbnail: 'https://www.dropbox.com/scl/fi/enl69sscfuizkg8xpynyf/Tr-m-Game-4-360-Games.png?rlkey=seqnl4ajx2noji0c8qkccsd0s&st=z3xdu9h1&raw=1',
   },
+  'Trạm game 5 (Game365)': {
+    url: 'https://game365.io/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/b68j4quo75gc73nvjj0xt/Tr-m-game-5-Game365.webp?rlkey=m4btmrh44uc7hygaq4ce9zzpu&st=8hhr5l13&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
