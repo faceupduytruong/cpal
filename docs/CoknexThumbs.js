@@ -342,5 +342,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@TheDreamWeaver-m6o/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/j13ghhk924gane1i550sj/The-Dream-Weaver.jpg?rlkey=g9338w00x9y7y4udieeo5p40l&st=m15ciz32&raw=1',
   },
+  'Đường lên đỉnh Olympia (Wiki)': {
+    url: 'https://duong-len-dinh-olympia.fandom.com/vi/wiki/%C4%90%C6%B0%E1%BB%9Dng_l%C3%AAn_%C4%91%E1%BB%89nh_Olympia_Wiki',
+    thumbnail: 'https://www.dropbox.com/scl/fi/33dcezjrsckbnmpth96ga/ng-l-n-nh-Olympia-Wiki.webp?rlkey=8o85bd1178gkflfg61qlxowdm&st=htral0v2&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
