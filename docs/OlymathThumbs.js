@@ -198,6 +198,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/onluyen.vn',
     thumbnail: 'https://www.dropbox.com/scl/fi/ibicltd5uis166uvdium1/n-luy-n.jpg?rlkey=5n2qe5fef10hr5vvz86zmjxea&st=9sbphx55&raw=1',
   },
+  'Giáo viên Việt Nam': {
+    url: 'https://giaovienvietnam.com/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/h8hrtgso1byfkfsn1rz0t/Gi-o-vi-n-Vi-t-Nam.jpeg?rlkey=7lbbcmy6lu37xlnrtd5cuy1zk&st=wh91cwm3&raw=1',
+  },
   'Gamem bài tập 365': {
     url: 'https://gamem.baitap365.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/f296brmypve1yyr7andqq/Gamem-b-i-t-p-365.jpg?rlkey=4gb47t28dnnd5j8vhked951kz&st=pk2ksybj&raw=1',
