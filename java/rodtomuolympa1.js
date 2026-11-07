@@ -1,3 +1,30 @@
+// ================== PHẦN CHẤM ĐIỂM ==================
+let score = 0;
+let progress = JSON.parse(localStorage.getItem("studyProgress")) || {};
+let answeredQuestions = new Set(); // Lưu các câu đã tính điểm để tránh lặp
+
+function addPoint(questionId) {
+  if (!answeredQuestions.has(questionId)) {
+    answeredQuestions.add(questionId);
+    score++;
+    document.getElementById("scoreBoard").textContent = `Điểm hiện tại: ${score}/100`;
+
+    if (score >= 100) {
+      alert("🎉 Bạn đã hoàn thành tiến độ học ngày hôm nay (100/100). Bạn giỏi lắm, cố lên nhé!");
+      startFireworks(); // 👉 gọi hiệu ứng pháo hoa
+
+      const today = new Date();
+      const dateKey = today.toISOString().split("T")[0];
+      progress[dateKey] = score;
+      localStorage.setItem("studyProgress", JSON.stringify(progress));
+
+      score = 0;
+      answeredQuestions.clear();
+      document.getElementById("scoreBoard").textContent = `Điểm hiện tại: ${score}/100`;
+    }
+  }
+}
+
 let words = [];
 
 document.getElementById("fileInput").addEventListener("change", function(event) {
@@ -25,7 +52,6 @@ speechSynthesis.onvoiceschanged = () => {
   voices = speechSynthesis.getVoices();
 };
 
-// Hàm chọn giọng nữ theo ngôn ngữ (Ưu tiên tiếng Việt hoặc tiếng Anh)
 function getFemaleVoice(langCode) {
   return voices.find(v => v.lang.startsWith(langCode) && (
     v.name.toLowerCase().includes("female") ||
@@ -35,14 +61,12 @@ function getFemaleVoice(langCode) {
   )) || voices.find(v => v.lang.startsWith(langCode));
 }
 
-// Hàm kiểm tra xem chuỗi có chứa ký tự tiếng Việt hay không
 function isVietnamese(text) {
   if (!text) return false;
   const vietnameseRegex = /[àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i;
   return vietnameseRegex.test(text);
 }
 
-// Hàm lấy cấu hình lang và voice thông minh dựa trên nội dung text
 function getVoiceConfig(text) {
   if (isVietnamese(text)) {
     return {
@@ -72,10 +96,8 @@ function closeAlert() {
 }
 
 // ===========================================
-// C. HỆ THỐNG PHÁT ÂM CHUNG (QUEUE & REPEAT)
+// C. HỆ THỐNG PHÁT ÂM CHUNG
 // ===========================================
-
-// Hàm phát âm một đoạn text (Đã sửa: chỉ cần text tồn tại là phát âm, không bị chặn bởi dấu câu)
 function speakText(text) {
   if (text) {
     const utter = new SpeechSynthesisUtterance(text);
@@ -86,30 +108,6 @@ function speakText(text) {
   }
 }
 
-// Chạy hàng đợi phát âm nhiều phần tử tuần tự không bị nuốt tiếng
-function speakQueue(list) {
-  const queue = list.filter(Boolean);
-  let idx = 0;
-
-  function speakNext() {
-    if (idx < queue.length) {
-      const text = queue[idx];
-      const utter = new SpeechSynthesisUtterance(text);
-      const config = getVoiceConfig(text);
-      utter.lang = config.lang;
-      if (config.voice) utter.voice = config.voice;
-      
-      utter.onend = () => {
-        idx++;
-        speakNext();
-      };
-      speechSynthesis.speak(utter);
-    }
-  }
-  speakNext();
-}
-
-// Hàm "Nói lại" tổng hợp duy nhất cho mọi trò chơi dựa vào resultType
 function repeatUtter() {
   if (!currentItem) return;
   speechSynthesis.cancel();
@@ -155,6 +153,7 @@ function startQuiz() {
       
       if (userValue.toLowerCase() === item.meaning.toLowerCase()) {
         currentItem = { ...item, resultType: "quiz" };
+        addPoint(item.word); // 👉 Cộng điểm khi đúng
 
         const content = `
           <div style="text-align:center;">
@@ -177,8 +176,8 @@ function startQuiz() {
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai!</p>
-            <p style="margin:5px 0;">Bạn gõ: <b style="font-size:2.5em>${userValue || "(trống)"}</b></p>
-            <p style="margin:5px 0;">Đáp án đúng: <b style="font-size:2.5em;style="color:green;">${item.meaning}</b></p>
+            <p style="margin:5px 0;">Bạn gõ: <b style="font-size:2.5em">${userValue || "(trống)"}</b></p>
+            <p style="margin:5px 0;">Đáp án đúng: <b style="font-size:2.5em;color:green;">${item.meaning}</b></p>
             <p style="margin:5px 0;font-size:2.5em;color:orange;">(Hãy thử lại nhé!)</p>
           </div>
         `;
@@ -227,6 +226,7 @@ function startQuizMultipleChoice() {
     card.querySelectorAll(".option").forEach(btn => {
       btn.onclick = () => {
         if (btn.textContent === item.meaning) {
+          addPoint(item.word); // 👉 Cộng điểm khi đúng
           const content = `
             <div style="text-align:center;">
               <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
@@ -242,8 +242,8 @@ function startQuizMultipleChoice() {
           const content = `
             <div style="text-align:center;">
               <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai!</p>
-              <p style="margin:5px 0;">Bạn chọn: <b style="font-size:2.5em>${wrongMeaning}</b></p>
-              <p style="margin:5px 0;">Đáp án đúng: <b style="font-size:2.5em;style="color:green;">${item.meaning}</b></p>
+              <p style="margin:5px 0;">Bạn chọn: <b style="font-size:2.5em">${wrongMeaning}</b></p>
+              <p style="margin:5px 0;">Đáp án đúng: <b style="font-size:2.5em;color:green;">${item.meaning}</b></p>
             </div>
           `;
           showAlert(content);
@@ -318,6 +318,7 @@ function startMatching() {
   document.querySelectorAll(".match-meaning").forEach(el => {
     el.onclick = () => {
       if (selectedWord === el.dataset.word) {
+        addPoint(selectedWord); // 👉 Cộng điểm khi ghép đúng
         alert("✅ Ghép đúng!");
         el.style.visibility = "hidden";
         document.querySelector(`.match-word[data-word="${selectedWord}"]`).style.visibility = "hidden";
@@ -333,14 +334,14 @@ function startMatching() {
 // =========================================
 function startSpeedQuiz() {
   const validWords = words.filter(item => item.word && item.meaning);
-  let score = 0, index = 0, timer;
+  let scoreLocal = 0, index = 0, timer;
 
   const container = document.getElementById("game");
   container.innerHTML = "<h2>Speed Quiz</h2><div id='quizArea'></div>";
 
   function nextQuestion() {
     if (index >= 5 || index >= validWords.length) {
-      alert("Kết thúc! Điểm số: " + score);
+      alert("Kết thúc! Điểm số: " + scoreLocal);
       return;
     }
     const item = validWords[index];
@@ -367,7 +368,8 @@ function startSpeedQuiz() {
       clearInterval(timer);
       const ans = document.getElementById("answer").value.trim();
       if (ans.toLowerCase() === item.meaning.toLowerCase()) {
-        score++;
+        scoreLocal++;
+        addPoint(item.word); // 👉 Cộng điểm hệ thống
         alert("✅ Chính xác!");
       } else {
         alert("❌ Sai! Đáp án: " + item.meaning);
@@ -380,14 +382,13 @@ function startSpeedQuiz() {
 }
 
 // =========================================
-// 6. TRÒ CHƠI 6: HANGMAN (ĐOÁN TỪ / ĐÁP ÁN)
+// 6. TRÒ CHƠI 6: HANGMAN (ĐOÁN TỪ)
 // =========================================
 function startHangman() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length === 0) return;
   const item = validWords[Math.floor(Math.random() * validWords.length)];
   
-  // Gợi ý là item.word, từ cần đoán (ô trống) là item.meaning
   const target = item.meaning;
   let hidden = target.split("").map(c => c === " " ? " " : "_").join("");
   let lives = 6;
@@ -428,8 +429,8 @@ function startHangman() {
     }
 
     if (hidden.toLowerCase() === target.toLowerCase()) {
+      addPoint(item.word); // 👉 Cộng điểm khi thắng
       alert("✅ Bạn thắng! Đáp án đúng là: " + target);
-      if (typeof showMessage === 'function') showMessage(item);
       if (typeof speakText === 'function') speakText(item.word);
     } else if (lives <= 0) {
       alert("❌ Thua! Đáp án đúng là: " + target);
@@ -452,7 +453,7 @@ function startMemoryCards() {
 
   const container = document.getElementById("game");
   container.innerHTML = "<h2>Memory Cards</h2>";
-  pairs.forEach((p, i) => {
+  pairs.forEach((p) => {
     const card = document.createElement("button2");
     card.textContent = "?";
     card.dataset.pair = p.pair;
@@ -467,6 +468,7 @@ function startMemoryCards() {
     flipped.push(card);
     if (flipped.length === 2) {
       if (flipped[0].dataset.pair === flipped[1].dataset.pair) {
+        addPoint(flipped[0].dataset.pair); // 👉 Cộng điểm khi lật khớp cặp
         alert("✅ Khớp!");
         flipped.forEach(c => c.disabled = true);
       } else {
@@ -502,6 +504,7 @@ function startListeningQuiz() {
   document.getElementById("check").onclick = () => {
     const ans = document.getElementById("ans").value.trim();
     if (ans.toLowerCase() === item.meaning.toLowerCase()) {
+       addPoint(item.word); // 👉 Cộng điểm khi đúng
        alert("✅ Chính xác!\nCâu hỏi: " + item.word + "\nĐáp án: " + item.meaning);
     } else {
        alert("❌ Sai!\nCâu hỏi: " + item.word + "\nĐáp án đúng: " + item.meaning);
@@ -510,7 +513,7 @@ function startListeningQuiz() {
 }
 
 // =================================================================
-// 9. TRÒ CHƠI 9: SYNONYM CHALLENGE (THAY THẾ BẰNG CÂU HỎI / ĐÁP ÁN)
+// 9. TRÒ CHƠI 9: SYNONYM CHALLENGE (ĐỒNG NGHĨA)
 // =================================================================
 function startSynonymChallenge() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -547,6 +550,8 @@ function startSynonymChallenge() {
     btn.onclick = () => {
       if (opt === item.meaning) {
         currentItem = { ...item, resultType: "correct" };
+        addPoint(item.word); // 👉 Cộng điểm khi đúng
+
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
@@ -555,9 +560,7 @@ function startSynonymChallenge() {
           </div>
         `;
         showAlert(content);
-        addPoint(item.word);
 
-        // Phát âm câu hỏi tự động nhận diện ngôn ngữ và tự động chuyển câu mới khi xong
         speechSynthesis.cancel();
         const utter = new SpeechSynthesisUtterance(item.word);
         const config = getVoiceConfig(item.word);
@@ -592,19 +595,17 @@ function startSynonymChallenge() {
 }
 
 // ===============================================
-// 10. TRÒ CHƠI 10: SPELLING BEE (ĐÁNH VẦN / GÕ LẠI)
+// 10. TRÒ CHƠI 10: SPELLING BEE (ĐÁNH VẦN)
 // ===============================================
 function startSpellingBee() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length === 0) return;
   const item = validWords[Math.floor(Math.random() * validWords.length)];
 
-  const askEnglish = Math.random() < 0.5;
-
   const container = document.getElementById("game");
   container.innerHTML = `
     <h2>Spelling Bee</h2>
-    <p>${askEnglish ? "Nghe phát âm hoặc đọc câu hỏi và gõ lại chính xác" : "Gõ lại chính xác đáp án"}</p>
+    <p>Gõ lại chính xác đáp án</p>
     <button2 id="play">🔊 Nghe câu hỏi</button2>
     <input id="ans" class="text-area2" placeholder="Nhập câu trả lời...">
     <button2 id="check">Check</button2>
@@ -620,6 +621,7 @@ function startSpellingBee() {
     const result = document.getElementById("result");
 
     if (ans.toLowerCase() === item.meaning.toLowerCase() || ans.toLowerCase() === item.word.toLowerCase()) {
+      addPoint(item.word); // 👉 Cộng điểm khi đúng
       result.textContent = "✅ Chính xác! Đáp án: " + item.meaning;
       result.style.color = "green";
       speakText(item.meaning);
@@ -631,7 +633,7 @@ function startSpellingBee() {
 }
 
 // ================================================================
-// 11. TRÒ CHƠI 11: ANTONYM BATTLE (THAY THẾ BẰNG THỬ THÁCH ĐỐ VUI)
+// 11. TRÒ CHƠI 11: ANTONYM BATTLE (TRÁI NGHĨA / ĐỐ VUI)
 // ================================================================
 function startAntonymBattle() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -668,6 +670,7 @@ function startAntonymBattle() {
     btn.onclick = () => {
       if (opt === item.meaning) {
         currentItem = { ...item, resultType: "antonym_correct" };
+        addPoint(item.word); // 👉 Cộng điểm khi đúng
 
         const content = `
           <div style="text-align:center;">
@@ -677,7 +680,6 @@ function startAntonymBattle() {
           </div>
         `;
         showAlert(content);
-        addPoint(item.word);
 
         speechSynthesis.cancel();
         const utter = new SpeechSynthesisUtterance(item.word);
@@ -722,7 +724,7 @@ function startQuickTranslationRace() {
     return;
   }
 
-  let score = 0;
+  let localScore = 0; // Biến đếm riêng cho phiên chơi này (nếu cần hiển thị tổng kết phụ)
   let index = 0;
   let timer;
   let timeLeft = 10;
@@ -736,7 +738,7 @@ function startQuickTranslationRace() {
 
   function nextQuestion() {
     if (index >= 10 || index >= validWords.length) {
-      alert("🏁 Kết thúc cuộc đua!\nĐiểm số của bạn: " + score + "/10");
+      alert("🏁 Kết thúc cuộc đua!\nSố câu đúng trong phiên: " + localScore + "/10");
       return;
     }
 
@@ -766,9 +768,9 @@ function startQuickTranslationRace() {
       clearInterval(timer);
       const ans = document.getElementById("answer").value.trim();
       if (ans.toLowerCase() === item.meaning.toLowerCase()) {
-        score++;
+        localScore++;
+        addPoint(item.word); // 👉 Gọi hàm tích điểm hệ thống (chống cộng dồn nếu trùng câu)
         alert("✅ Chính xác!\nĐáp án: " + item.meaning);
-        addPoint(item.word);
         speakText(item.word);
       } else {
         alert("❌ Sai!\nĐáp án đúng: " + item.meaning);
@@ -830,8 +832,8 @@ function startQuizMultipleChoice2() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === correctAnswer) {
+        addPoint(item.word); // 👉 Gọi hàm tích điểm hệ thống (tự động kiểm tra tránh cộng dồn lặp)
         alert("✅ Chính xác!\nĐáp án: " + correctAnswer);
-        addPoint(item.word);
       } else {
         alert("❌ Sai!\nĐáp án đúng: " + correctAnswer);
       }
