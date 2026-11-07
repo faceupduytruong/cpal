@@ -120,7 +120,11 @@ function startQuiz() {
     const btn = card.querySelector("button2");
 
     btn.onclick = () => {
-      if (input.value.trim() === item.meaning) {
+      // Chuẩn hóa chuỗi người dùng nhập và đáp án sang chữ thường để so sánh không phân biệt hoa/thường
+      const userAns = input.value.trim().toLowerCase();
+      const correctAns = item.meaning.trim().toLowerCase();
+
+      if (userAns === correctAns) {
         showMessage(item);
         if (typeof addPoint === 'function') addPoint(item.word);
         speakText(item.word);
