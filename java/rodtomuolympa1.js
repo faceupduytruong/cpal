@@ -155,8 +155,8 @@ function startQuiz() {
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
-            <p style="margin:5px 0;">Câu hỏi: <b style="font-size:1.5em;">${item.word}</b></p>
-            <p style="margin:5px 0;">Đáp án: <b style="font-size:1.5em;color:green;">${item.meaning}</b></p>
+            <p style="margin:5px 0;">Câu hỏi: <b style="font-size:3em;">${item.word}</b></p>
+            <p style="margin:5px 0;">Đáp án: <b style="font-size:3em;color:orange;">${item.meaning}</b></p>
           </div>
         `;
         showAlert(content);
@@ -224,8 +224,8 @@ function startQuizMultipleChoice() {
           const content = `
             <div style="text-align:center;">
               <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
-              <p style="margin:5px 0;">Câu hỏi: <b>${item.word}</b></p>
-              <p style="margin:5px 0;">Đáp án: <b style="color:green;">${item.meaning}</b></p>
+              <p style="margin:5px 0;">Câu hỏi: <b style="font-size:3em;">${item.word}</b></p>
+              <p style="margin:5px 0;">Đáp án: <b style="font-size:3em;style="color:orange;">${item.meaning}</b></p>
             </div>
           `;
           showAlert(content);
@@ -491,8 +491,8 @@ function startSynonymChallenge() {
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
-            <p style="margin:5px 0;">Câu hỏi: <b style="font-size:1.5em;">${item.word}</b></p>
-            <p style="margin:5px 0;">Đáp án: <b style="font-size:1.5em;color:green;">${item.meaning}</b></p>
+            <p style="margin:5px 0;">Câu hỏi: <b style="font-size:3em;">${item.word}</b></p>
+            <p style="margin:5px 0;">Đáp án: <b style="font-size:3em;color:orange;">${item.meaning}</b></p>
           </div>
         `;
         showAlert(content);
