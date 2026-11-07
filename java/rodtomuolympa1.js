@@ -225,7 +225,7 @@ function startQuizMultipleChoice() {
             <div style="text-align:center;">
               <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
               <p style="margin:5px 0;">Câu hỏi: <b style="font-size:2.5em;">${item.word}</b></p>
-              <p style="margin:5px 0;">Đáp án: <b style="font-size:2.5em;style="color:orange;">${item.meaning}</b></p>
+              <p style="margin:5px 0;">Đáp án: <b style="font-size:2.5em;color:orange;">${item.meaning}</b></p>
             </div>
           `;
           showAlert(content);
