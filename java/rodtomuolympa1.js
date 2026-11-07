@@ -387,15 +387,15 @@ function startHangman() {
   if (validWords.length === 0) return;
   const item = validWords[Math.floor(Math.random() * validWords.length)];
   
-  // Đảo ngược: Gợi ý là nghĩa (meaning), từ cần đoán là word
-  const target = item.word;
+  // Gợi ý là item.word, từ cần đoán (ô trống) là item.meaning
+  const target = item.meaning;
   let hidden = target.split("").map(c => c === " " ? " " : "_").join("");
   let lives = 6;
 
   const container = document.getElementById("game");
   container.innerHTML = `
     <h2>Hangman</h2>
-    <p>Gợi ý nghĩa: <b>${item.meaning}</b></p>
+    <p>Gợi ý: <b>${item.word}</b></p>
     <p id="hidden" style="font-size: 2em; letter-spacing: 3px;">${hidden}</p>
     <p id="lives">Lives: ${lives}</p>
     <input id="letter" class="text-area2" maxlength="1" placeholder="Nhập 1 chữ cái">
@@ -428,7 +428,7 @@ function startHangman() {
     }
 
     if (hidden.toLowerCase() === target.toLowerCase()) {
-      alert("✅ Bạn thắng! Từ đúng là: " + target);
+      alert("✅ Bạn thắng! Đáp án đúng là: " + target);
       if (typeof showMessage === 'function') showMessage(item);
       if (typeof speakText === 'function') speakText(item.word);
     } else if (lives <= 0) {
