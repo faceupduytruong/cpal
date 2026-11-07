@@ -435,8 +435,46 @@ function startHangman() {
   };
 }
 
+// =====================================
+// 7. TRÒ CHƠI 7: MEMORY CARDS (LẬT THẺ)
+// =====================================
+function startMemoryCards() {
+  const validWords = words.filter(item => item.word && item.meaning).slice(0, 4);
+  const pairs = validWords.flatMap(item => [
+    {text: item.word, pair: item.word},
+    {text: item.meaning, pair: item.word}
+  ]).sort(() => 0.5 - Math.random());
+
+  const container = document.getElementById("game");
+  container.innerHTML = "<h2>Memory Cards</h2>";
+  pairs.forEach((p, i) => {
+    const card = document.createElement("button2");
+    card.textContent = "?";
+    card.dataset.pair = p.pair;
+    card.dataset.text = p.text;
+    card.onclick = () => flipCard(card);
+    container.appendChild(card);
+  });
+
+  let flipped = [];
+  function flipCard(card) {
+    card.textContent = card.dataset.text;
+    flipped.push(card);
+    if (flipped.length === 2) {
+      if (flipped[0].dataset.pair === flipped[1].dataset.pair) {
+        alert("✅ Khớp!");
+        flipped.forEach(c => c.disabled = true);
+      } else {
+        alert("❌ Sai!");
+        flipped.forEach(c => c.textContent = "?");
+      }
+      flipped = [];
+    }
+  }
+}
+
 // ============================================
-// 7. TRÒ CHƠI 7: LISTENING QUIZ (NGHE VÀ ĐOÁN)
+// 8. TRÒ CHƠI 8: LISTENING QUIZ (NGHE VÀ ĐOÁN)
 // ============================================
 function startListeningQuiz() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -467,7 +505,7 @@ function startListeningQuiz() {
 }
 
 // =================================================================
-// 8. TRÒ CHƠI 8: SYNONYM CHALLENGE (THAY THẾ BẰNG CÂU HỎI / ĐÁP ÁN)
+// 9. TRÒ CHƠI 9: SYNONYM CHALLENGE (THAY THẾ BẰNG CÂU HỎI / ĐÁP ÁN)
 // =================================================================
 function startSynonymChallenge() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -549,7 +587,7 @@ function startSynonymChallenge() {
 }
 
 // ===============================================
-// 9. TRÒ CHƠI 9: SPELLING BEE (ĐÁNH VẦN / GÕ LẠI)
+// 10. TRÒ CHƠI 10: SPELLING BEE (ĐÁNH VẦN / GÕ LẠI)
 // ===============================================
 function startSpellingBee() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -588,7 +626,7 @@ function startSpellingBee() {
 }
 
 // ================================================================
-// 10. TRÒ CHƠI 10: ANTONYM BATTLE (THAY THẾ BẰNG THỬ THÁCH ĐỐ VUI)
+// 11. TRÒ CHƠI 11: ANTONYM BATTLE (THAY THẾ BẰNG THỬ THÁCH ĐỐ VUI)
 // ================================================================
 function startAntonymBattle() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -670,7 +708,7 @@ function startAntonymBattle() {
 }
 
 // ========================================================================
-// 11. TRÒ CHƠI 11: QUICK TRANSLATION RACE (ĐUA DỊCH NHANH / TRẢ LỜI NHANH)
+// 12. TRÒ CHƠI 12: QUICK TRANSLATION RACE (ĐUA DỊCH NHANH / TRẢ LỜI NHANH)
 // ========================================================================
 function startQuickTranslationRace() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -739,7 +777,7 @@ function startQuickTranslationRace() {
 }
 
 // ==============================================================
-// 12. TRÒ CHƠI 12: QUICK MULTIPLE CHOICE 2 (TRẮC NGHIỆM 2 CHIỀU)
+// 13. TRÒ CHƠI 13: QUICK MULTIPLE CHOICE 2 (TRẮC NGHIỆM 2 CHIỀU)
 // ==============================================================
 function startQuizMultipleChoice2() {
   const validWords = words.filter(item => item.word && item.meaning);
