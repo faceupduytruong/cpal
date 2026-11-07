@@ -14,6 +14,10 @@ document.getElementById("fileInput").addEventListener("change", function(event) 
   reader.readAsText(file);
 });
 
+// =====================================
+// A. BIẾN TOÀN CỤC & QUẢN LÝ GIỌNG ĐỌC
+// =====================================
+
 // Hàm hỗ trợ chọn giọng nữ phù hợp với ngôn ngữ (vi-VN hoặc en-US)
 function getFemaleVoice(langCode) {
   const voices = speechSynthesis.getVoices();
@@ -28,6 +32,10 @@ function getFemaleVoice(langCode) {
   
   return voice || langVoices[0] || null;
 }
+
+// ===========================================
+// B. HỆ THỐNG PHÁT ÂM CHUNG (QUEUE & REPEAT)
+// ===========================================
 
 // Hàm phát âm tổng quát: Tự nhận diện tiếng Việt hay tiếng Anh để phát âm giọng nữ
 function speakText(text) {
@@ -53,6 +61,10 @@ function speakText(text) {
 if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !== undefined) {
   speechSynthesis.onvoiceschanged = () => getFemaleVoice('en');
 }
+
+// =============================================
+// C. CÁC HÀM HỖ TRỢ HIỂN THỊ ALERT & GIAO DIỆN
+// =============================================
 
 // Quản lý hiển thị messageBox
 let currentItem = null;
@@ -89,7 +101,9 @@ function repeatUtter() {
   }
 }
 
-// Trò chơi Quiz (Nghĩa tiếng Việt)
+// ==========================================
+// 1. TRÒ CHƠI 1: QUIZ (HỎI ĐÁP / ĐIỀN NGHĨA)
+// ==========================================
 function startQuiz() {
   if (words.length === 0) {
     alert("⚠️ Bạn chưa nhập file JSON!");
@@ -137,7 +151,9 @@ function startQuiz() {
   });
 }
 
-// Trò chơi Quiz Multiple Choice (Trắc nghiệm)
+// =================================================
+// 2. TRÒ CHƠI 2: QUIZ MULTIPLE CHOICE (TRẮC NGHIỆM)
+// =================================================
 function startQuizMultipleChoice() {
   const validWords = words.filter(item => item.word && item.meaning);
   const shuffled = validWords.sort(() => 0.5 - Math.random());
@@ -179,7 +195,9 @@ function startQuizMultipleChoice() {
   });
 }
 
-// Trò chơi Flashcards (Flashcards)
+// ===================================
+// 3. TRÒ CHƠI 3: FLASHCARDS (LẬT THẺ)
+// ===================================
 function startFlashcards() {
   const validWords = words.filter(item => item.word && item.meaning);
   const shuffled = validWords.sort(() => 0.5 - Math.random());
@@ -204,7 +222,9 @@ function startFlashcards() {
   });
 }
 
-// Trò chơi Matching (Ghép đôi)
+// ===========================================
+// 4. TRÒ CHƠI 4: TRÒ CHƠI MATCHING (GHÉP ĐÔI)
+// ===========================================
 function startMatching() {
   const validWords = words.filter(item => item.word && item.meaning);
   const shuffled = validWords.sort(() => 0.5 - Math.random()).slice(0, 6);
@@ -239,7 +259,9 @@ function startMatching() {
   });
 }
 
-// Trò chơi Speed Quiz (Đua thời gian)
+// =========================================
+// 5. TRÒ CHƠI 5: SPEED QUIZ (ĐUA THỜI GIAN)
+// =========================================
 function startSpeedQuiz() {
   const validWords = words.filter(item => item.word && item.meaning);
   let score = 0, index = 0, timer;
@@ -290,7 +312,9 @@ function startSpeedQuiz() {
   nextQuestion();
 }
 
-// Trò chơi Hangman (Đoán chữ)
+// =========================================
+// 6. TRÒ CHƠI 6: HANGMAN (ĐOÁN TỪ / ĐÁP ÁN)
+// =========================================
 function startHangman() {
   const validWords = words.filter(item => item.word && item.meaning);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
@@ -375,7 +399,9 @@ function startMemoryCards() {
   }
 }
 
-// Trò chơi Listening Quiz (Nghe và đoán)
+// ============================================
+// 7. TRÒ CHƠI 7: LISTENING QUIZ (NGHE VÀ ĐOÁN)
+// ============================================
 function startListeningQuiz() {
   const validWords = words.filter(item => item.word && item.meaning);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
@@ -425,7 +451,9 @@ function startWordScramble() {
   };
 }
 
-// Trò chơi Spelling Bee (Đánh vần)
+// ===============================================
+// 9. TRÒ CHƠI 9: SPELLING BEE (ĐÁNH VẦN / GÕ LẠI)
+// ===============================================
 function startSpellingBee() {
   const validWords = words.filter(item => item.word && item.meaning);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
@@ -458,7 +486,9 @@ function startSpellingBee() {
   };
 }
 
-// Trò chơi Word Meaning Match (Đoán ý nghĩa)
+// ================================================================
+// 10. TRÒ CHƠI 10: ANTONYM BATTLE (THAY THẾ BẰNG THỬ THÁCH ĐỐ VUI)
+// ================================================================
 function startAntonymBattle() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length < 4) {
@@ -501,7 +531,9 @@ function startAntonymBattle() {
   });
 }
 
-// Trò chơi Quick Translation Race (Đua dịch nhanh)
+// ========================================================================
+// 11. TRÒ CHƠI 11: QUICK TRANSLATION RACE (ĐUA DỊCH NHANH / TRẢ LỜI NHANH)
+// ========================================================================
 function startQuickTranslationRace() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length === 0) {
@@ -568,7 +600,9 @@ function startQuickTranslationRace() {
   nextQuestion();
 }
 
-// Trò chơi Quiz Multiple Choice 2 (Trắc nghiệm 2)
+// ==============================================================
+// 12. TRÒ CHƠI 12: QUICK MULTIPLE CHOICE 2 (TRẮC NGHIỆM 2 CHIỀU)
+// ==============================================================
 function startQuizMultipleChoice2() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length < 4) {
