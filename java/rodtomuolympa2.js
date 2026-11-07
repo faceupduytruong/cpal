@@ -363,7 +363,9 @@ function startHangman() {
   };
 }
 
-// Trò chơi Memory Cards (Lật thẻ)
+// =====================================
+// 7. TRÒ CHƠI 7: MEMORY CARDS (LẬT THẺ)
+// =====================================
 function startMemoryCards() {
   const validWords = words.filter(item => item.word && item.meaning).slice(0, 4);
   const pairs = validWords.flatMap(item => [
@@ -400,7 +402,7 @@ function startMemoryCards() {
 }
 
 // ============================================
-// 7. TRÒ CHƠI 7: LISTENING QUIZ (NGHE VÀ ĐOÁN)
+// 8. TRÒ CHƠI 8: LISTENING QUIZ (NGHE VÀ ĐOÁN)
 // ============================================
 function startListeningQuiz() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -427,27 +429,6 @@ function startListeningQuiz() {
      } else {
        alert("❌ Sai.\nTừ: " + item.word + "\nĐáp án đúng: " + item.meaning);
      }
-  };
-}
-
-// Trò chơi Word Scramble (Xếp chữ)
-function startWordScramble() {
-  const validWords = words.filter(item => item.word && item.meaning);
-  if (validWords.length === 0) return;
-  const item = validWords[Math.floor(Math.random() * validWords.length)];
-  const scrambled = item.word.split("").sort(() => 0.5 - Math.random()).join("");
-
-  const container = document.getElementById("game");
-  container.innerHTML = `<h2>Word Scramble</h2><p>${scrambled}</p><input id="ans" class="text-area2"><button2 id="check">Check</button2>`;
-
-  document.getElementById("check").onclick = () => {
-    const ans = document.getElementById("ans").value.trim();
-    if (ans.toLowerCase() === item.word.toLowerCase()) {
-      showMessage(item);
-      if (typeof addPoint === 'function') addPoint(item.word);
-    } else {
-      alert("❌ Sai. Đáp án: " + item.word);
-    }
   };
 }
 
