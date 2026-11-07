@@ -532,28 +532,6 @@ function startSynonymChallenge() {
   });
 }
 
-// Trò chơi Word Scramble (Xếp chữ)
-function startWordScramble() {
-  const validWords = words.filter(item => item.word);
-  if (validWords.length === 0) return;
-  const item = validWords[Math.floor(Math.random() * validWords.length)];
-  const scrambled = item.word.split("").sort(() => 0.5 - Math.random()).join("");
-
-  const container = document.getElementById("game");
-  container.innerHTML = `<h2>Word Scramble</h2><p>Gợi ý nghĩa: ${item.meaning}</p><p style="font-size:1.5em; font-weight:bold;">${scrambled}</p><input id="ans" class="text-area2" placeholder="Nhập lại từ đúng..."><button2 id="check">Check</button2>`;
-
-  document.getElementById("check").onclick = () => {
-    const ans = document.getElementById("ans").value.trim();
-    if (ans.toLowerCase() === item.word.toLowerCase()) {
-      alert("✅ Chính xác! Từ: " + item.word);
-      addPoint(item.word);
-      speakText(item.word);
-    } else {
-      alert("❌ Sai! Đáp án đúng: " + item.word);
-    }
-  };
-}
-
 // Trò chơi Spelling Bee (Đánh vần / Gõ lại)
 function startSpellingBee() {
   const validWords = words.filter(item => item.word && item.meaning);
