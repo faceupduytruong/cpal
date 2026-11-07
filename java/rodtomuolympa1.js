@@ -383,17 +383,19 @@ function startSpeedQuiz() {
 // 6. TRÒ CHƠI 6: HANGMAN (ĐOÁN TỪ / ĐÁP ÁN)
 // =========================================
 function startHangman() {
-  const validWords = words.filter(item => item.meaning);
+  const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length === 0) return;
   const item = validWords[Math.floor(Math.random() * validWords.length)];
-  const target = item.meaning;
+  
+  // Đảo ngược: Gợi ý là nghĩa (meaning), từ cần đoán là word
+  const target = item.word;
   let hidden = target.split("").map(c => c === " " ? " " : "_").join("");
   let lives = 6;
 
   const container = document.getElementById("game");
   container.innerHTML = `
     <h2>Hangman</h2>
-    <p>Gợi ý: ${item.word}</p>
+    <p>Gợi ý nghĩa: <b>${item.meaning}</b></p>
     <p id="hidden" style="font-size: 2em; letter-spacing: 3px;">${hidden}</p>
     <p id="lives">Lives: ${lives}</p>
     <input id="letter" class="text-area2" maxlength="1" placeholder="Nhập 1 chữ cái">
@@ -426,12 +428,15 @@ function startHangman() {
     }
 
     if (hidden.toLowerCase() === target.toLowerCase()) {
-      alert("✅ Bạn thắng!");
+      alert("✅ Bạn thắng! Từ đúng là: " + target);
+      if (typeof showMessage === 'function') showMessage(item);
+      if (typeof speakText === 'function') speakText(item.word);
     } else if (lives <= 0) {
       alert("❌ Thua! Đáp án đúng là: " + target);
     }
 
     letterInput.value = "";
+    letterInput.focus();
   };
 }
 
