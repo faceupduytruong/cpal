@@ -560,6 +560,9 @@ function startAntonymBattle() {
     <h2>Word Meaning Match</h2>
     <p>Chọn nghĩa đúng cho từ: <b>${item.word}</b></p>
     <div id="options"></div>
+    <div style="margin-top: 15px; display: flex; align-items: center; gap: 15px;">
+      <button1 id="next-btn" onclick="startAntonymBattle()">Next ➡️</button1>
+    </div>
   `;
 
   const optionsDiv = document.getElementById("options");
@@ -574,6 +577,7 @@ function startAntonymBattle() {
         speakText(item.word);
       } else {
         alert("❌ Sai!\nTừ: " + item.word + "\nNghĩa đúng: " + item.meaning);
+        speakText(opt);
       }
     };
     optionsDiv.appendChild(btn);
