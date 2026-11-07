@@ -63,8 +63,8 @@ function showMessage(item) {
   if (!box) return;
   
   box.innerHTML = `
-    <p>Từ: <b><span style="font-size:3em;">${item.word}</span></b></p>
-    <p>Nghĩa từ: <b>${item.meaning}</b></p>
+    <p>Từ: <b><span style="font-size:2.5em;">${item.word}</span></b></p>
+    <p>Nghĩa từ: <b><span style="font-size:2.5em;color:orange">${item.meaning}</span></b></p>
     <br>
     <button2 onclick="repeatUtter()">Nói lại</button2>
     <button2 onclick="closeMessage()">Đóng</button2>
