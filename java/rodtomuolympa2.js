@@ -557,7 +557,7 @@ function startAntonymBattle() {
 
   const container = document.getElementById("game");
   container.innerHTML = `
-    <h2>Word Meaning Match</h2>
+    <h2>Antonym Challenge</h2>
     <p>Chọn nghĩa đúng cho từ: <b>${item.word}</b></p>
     <div id="options"></div>
     <div style="margin-top: 15px; display: flex; align-items: center; gap: 15px;">
