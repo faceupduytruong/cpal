@@ -155,8 +155,8 @@ function startQuiz() {
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
-            <p style="margin:5px 0;">Câu hỏi: <b style="font-size:3em;">${item.word}</b></p>
-            <p style="margin:5px 0;">Đáp án: <b style="font-size:3em;color:orange;">${item.meaning}</b></p>
+            <p style="margin:5px 0;">Câu hỏi: <b style="font-size:2.5em;">${item.word}</b></p>
+            <p style="margin:5px 0;">Đáp án: <b style="font-size:2.5em;color:orange;">${item.meaning}</b></p>
           </div>
         `;
         showAlert(content);
@@ -173,9 +173,9 @@ function startQuiz() {
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai!</p>
-            <p style="margin:5px 0;">Bạn gõ: <b>${userValue || "(trống)"}</b></p>
-            <p style="margin:5px 0;">Đáp án đúng: <b style="color:green;">${item.meaning}</b></p>
-            <p style="margin:5px 0;color:orange;">(Hãy thử lại nhé!)</p>
+            <p style="margin:5px 0;">Bạn gõ: <b style="font-size:2.5em>${userValue || "(trống)"}</b></p>
+            <p style="margin:5px 0;">Đáp án đúng: <b style="font-size:2.5em;style="color:green;">${item.meaning}</b></p>
+            <p style="margin:5px 0;font-size:2.5em;color:orange;">(Hãy thử lại nhé!)</p>
           </div>
         `;
         showAlert(content);
@@ -224,8 +224,8 @@ function startQuizMultipleChoice() {
           const content = `
             <div style="text-align:center;">
               <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
-              <p style="margin:5px 0;">Câu hỏi: <b style="font-size:3em;">${item.word}</b></p>
-              <p style="margin:5px 0;">Đáp án: <b style="font-size:3em;style="color:orange;">${item.meaning}</b></p>
+              <p style="margin:5px 0;">Câu hỏi: <b style="font-size:2.5em;">${item.word}</b></p>
+              <p style="margin:5px 0;">Đáp án: <b style="font-size:2.5em;style="color:orange;">${item.meaning}</b></p>
             </div>
           `;
           showAlert(content);
@@ -236,8 +236,8 @@ function startQuizMultipleChoice() {
           const content = `
             <div style="text-align:center;">
               <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai!</p>
-              <p style="margin:5px 0;">Bạn chọn: <b>${wrongMeaning}</b></p>
-              <p style="margin:5px 0;">Đáp án đúng: <b style="color:green;">${item.meaning}</b></p>
+              <p style="margin:5px 0;">Bạn chọn: <b style="font-size:2.5em>${wrongMeaning}</b></p>
+              <p style="margin:5px 0;">Đáp án đúng: <b style="font-size:2.5em;style="color:green;">${item.meaning}</b></p>
             </div>
           `;
           showAlert(content);
@@ -491,8 +491,8 @@ function startSynonymChallenge() {
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
-            <p style="margin:5px 0;">Câu hỏi: <b style="font-size:3em;">${item.word}</b></p>
-            <p style="margin:5px 0;">Đáp án: <b style="font-size:3em;color:orange;">${item.meaning}</b></p>
+            <p style="margin:5px 0;">Câu hỏi: <b style="font-size:2.5em;">${item.word}</b></p>
+            <p style="margin:5px 0;">Đáp án: <b style="font-size:2.5em;color:orange;">${item.meaning}</b></p>
           </div>
         `;
         showAlert(content);
@@ -520,8 +520,8 @@ function startSynonymChallenge() {
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai!</p>
-            <p style="margin:5px 0;">Bạn chọn: <b>${opt}</b></p>
-            <p style="margin:5px 0;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
+            <p style="margin:5px 0;">Bạn chọn: <b style="font-size:2.5em>${opt}</b></p>
+            <p style="margin:5px 0;font-size:2.5em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
           </div>
         `;
         showAlert(content);
@@ -611,8 +611,8 @@ function startAntonymBattle() {
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
-            <p style="margin:5px 0;">Câu hỏi: <b style="font-size:1.5em;">${item.word}</b></p>
-            <p style="margin:5px 0;">Đáp án: <b style="font-size:1.5em;color:green;">${item.meaning}</b></p>
+            <p style="margin:5px 0;">Câu hỏi: <b style="font-size:2.5em;">${item.word}</b></p>
+            <p style="margin:5px 0;">Đáp án: <b style="font-size:2.5em;color:green;">${item.meaning}</b></p>
           </div>
         `;
         showAlert(content);
@@ -639,8 +639,8 @@ function startAntonymBattle() {
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai!</p>
-            <p style="margin:5px 0;">Bạn chọn: <b>${opt}</b></p>
-            <p style="margin:5px 0;color:orange;">(Hãy thử lại nhé!)</p>
+            <p style="margin:5px 0;">Bạn chọn: <b style="font-size:2.5em>${opt}</b></p>
+            <p style="margin:5px 0;font-size:2.5em;color:orange;">(Hãy thử lại nhé!)</p>
           </div>
         `;
         showAlert(content);
