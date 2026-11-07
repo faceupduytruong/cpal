@@ -1,30 +1,3 @@
-// ================== PHẦN CHẤM ĐIỂM ==================
-let score = 0;
-let progress = JSON.parse(localStorage.getItem("studyProgress")) || {};
-let answeredQuestions = new Set(); // Lưu các câu đã tính điểm để tránh lặp
-
-function addPoint(questionId) {
-  if (!answeredQuestions.has(questionId)) {
-    answeredQuestions.add(questionId);
-    score++;
-    document.getElementById("scoreBoard").textContent = `Điểm hiện tại: ${score}/100`;
-
-    if (score >= 100) {
-      alert("🎉 Bạn đã hoàn thành tiến độ học ngày hôm nay (100/100). Bạn giỏi lắm, cố lên nhé!");
-      startFireworks(); // 👉 gọi hiệu ứng pháo hoa
-
-      const today = new Date();
-      const dateKey = today.toISOString().split("T")[0];
-      progress[dateKey] = score;
-      localStorage.setItem("studyProgress", JSON.stringify(progress));
-
-      score = 0;
-      answeredQuestions.clear();
-      document.getElementById("scoreBoard").textContent = `Điểm hiện tại: ${score}/100`;
-    }
-  }
-}
-
 let words = [];
 
 document.getElementById("fileInput").addEventListener("change", function(event) {
