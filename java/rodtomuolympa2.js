@@ -312,59 +312,8 @@ function startSpeedQuiz() {
   nextQuestion();
 }
 
-// =========================================
-// 6. TRÒ CHƠI 6: HANGMAN (ĐOÁN TỪ / ĐÁP ÁN)
-// =========================================
-function startHangman() {
-  const validWords = words.filter(item => item.word && item.meaning);
-  const item = validWords[Math.floor(Math.random() * validWords.length)];
-  let hidden = "_".repeat(item.word.length);
-  let lives = 6;
-
-  const container = document.getElementById("game");
-  container.innerHTML = `<h2>Hangman</h2>
-                         <p>Nghĩa: ${item.meaning}</p>
-                         <p id="hidden">${hidden}</p>
-                         <p id="lives">Lives: ${lives}</p>
-                         <input id="letter" class="text-area2" maxlength="1">
-                         <button2 id="guess">Guess</button2>`;
-
-  document.getElementById("guess").onclick = () => {
-    const letterInput = document.getElementById("letter");
-    const letter = letterInput.value.toLowerCase();
-    let newHidden = "";
-    let correct = false;
-
-    for (let i = 0; i < item.word.length; i++) {
-      if (item.word[i].toLowerCase() === letter) {
-        newHidden += item.word[i];
-        correct = true;
-      } else {
-        newHidden += hidden[i];
-      }
-    }
-
-    hidden = newHidden;
-    document.getElementById("hidden").textContent = hidden;
-
-    if (!correct) {
-      lives--;
-      document.getElementById("lives").textContent = "Lives: " + lives;
-    }
-
-    if (hidden === item.word) {
-      showMessage(item);
-    }
-    if (lives <= 0) {
-      alert("❌ Thua! Từ đúng là: " + item.word);
-    }
-
-    letterInput.value = "";
-  };
-}
-
 // =====================================
-// 7. TRÒ CHƠI 7: MEMORY CARDS (LẬT THẺ)
+// 6. TRÒ CHƠI 6: MEMORY CARDS (LẬT THẺ)
 // =====================================
 function startMemoryCards() {
   const validWords = words.filter(item => item.word && item.meaning).slice(0, 4);
@@ -402,7 +351,7 @@ function startMemoryCards() {
 }
 
 // ============================================
-// 8. TRÒ CHƠI 8: LISTENING QUIZ (NGHE VÀ ĐOÁN)
+// 7. TRÒ CHƠI 7: LISTENING QUIZ (NGHE VÀ ĐOÁN)
 // ============================================
 function startListeningQuiz() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -433,7 +382,7 @@ function startListeningQuiz() {
 }
 
 // =================================================================
-// 9. TRÒ CHƠI 9: SYNONYM CHALLENGE (THAY THẾ BẰNG CÂU HỎI / ĐÁP ÁN)
+// 8. TRÒ CHƠI 8: SYNONYM CHALLENGE (THAY THẾ BẰNG CÂU HỎI / ĐÁP ÁN)
 // =================================================================
 function startSynonymChallenge() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -501,7 +450,7 @@ function startSynonymChallenge() {
 }
 
 // ===============================================
-// 10. TRÒ CHƠI 10: SPELLING BEE (ĐÁNH VẦN / GÕ LẠI)
+// 9. TRÒ CHƠI 9: SPELLING BEE (ĐÁNH VẦN / GÕ LẠI)
 // ===============================================
 function startSpellingBee() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -536,7 +485,7 @@ function startSpellingBee() {
 }
 
 // ================================================================
-// 11. TRÒ CHƠI 11: ANTONYM BATTLE (THAY THẾ BẰNG THỬ THÁCH ĐỐ VUI)
+// 10. TRÒ CHƠI 10: ANTONYM BATTLE (THAY THẾ BẰNG THỬ THÁCH ĐỐ VUI)
 // ================================================================
 function startAntonymBattle() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -585,7 +534,7 @@ function startAntonymBattle() {
 }
 
 // ========================================================================
-// 12. TRÒ CHƠI 12: QUICK TRANSLATION RACE (ĐUA DỊCH NHANH / TRẢ LỜI NHANH)
+// 11. TRÒ CHƠI 11: QUICK TRANSLATION RACE (ĐUA DỊCH NHANH / TRẢ LỜI NHANH)
 // ========================================================================
 function startQuickTranslationRace() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -654,7 +603,7 @@ function startQuickTranslationRace() {
 }
 
 // ==============================================================
-// 13. TRÒ CHƠI 13: QUICK MULTIPLE CHOICE 2 (TRẮC NGHIỆM 2 CHIỀU)
+// 12. TRÒ CHƠI 12: QUICK MULTIPLE CHOICE 2 (TRẮC NGHIỆM 2 CHIỀU)
 // ==============================================================
 function startQuizMultipleChoice2() {
   const validWords = words.filter(item => item.word && item.meaning);
