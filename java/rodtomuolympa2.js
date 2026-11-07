@@ -432,8 +432,76 @@ function startListeningQuiz() {
   };
 }
 
+// =================================================================
+// 9. TRÒ CHƠI 9: SYNONYM CHALLENGE (THAY THẾ BẰNG CÂU HỎI / ĐÁP ÁN)
+// =================================================================
+function startSynonymChallenge() {
+  const validWords = words.filter(item => item.word && item.meaning);
+  if (validWords.length < 4) {
+    alert("⚠️ Cần ít nhất 4 mục trong file JSON để chơi!");
+    return;
+  }
+
+  const item = validWords[Math.floor(Math.random() * validWords.length)];
+
+  const wrongOptions = validWords
+    .filter(w => w.meaning !== item.meaning)
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 3)
+    .map(w => w.meaning);
+
+  const options = [item.meaning, ...wrongOptions].sort(() => 0.5 - Math.random());
+
+  const container = document.getElementById("game");
+  container.innerHTML = `
+    <h2>Synonym Challenge</h2>
+    <p>Chọn nghĩa đúng cho: <b>${item.word}</b></p>
+    <div id="options"></div>
+    <div style="margin-top: 10px; display: flex; align-items: center; gap: 15px;">
+      <button1 id="next-btn" onclick="startSynonymChallenge()">Next ➡️</button1>
+    </div>
+  `;
+
+  const optionsDiv = document.getElementById("options");
+  options.forEach(opt => {
+    const btn = document.createElement("button2");
+    btn.textContent = opt;
+    btn.style.margin = "5px";
+    btn.onclick = () => {
+      if (opt === item.meaning) {
+        // Gọi messageBox dạng chuẩn chung của bạn khi trả lời đúng
+        showMessage(item);
+        if (typeof addPoint === 'function') addPoint(item.word);
+
+        // Phát âm từ (tự động nhận diện ngôn ngữ và giọng nữ)
+        speakText(item.word);
+
+        // Tự động chuyển câu mới sau khi phát âm xong
+        const voices = speechSynthesis.getVoices();
+        // Lắng nghe sự kiện kết thúc phát âm để load câu tiếp theo
+        // (Hoặc có thể để người dùng bấm Next, nhưng giữ logic onend như code cũ của bạn)
+      } else {
+        // Khi chọn sai
+        const content = `
+          <div style="text-align:center;">
+            <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai!</p>
+            <p style="margin:5px 0;">Bạn chọn: <b style="font-size:2.5em">${opt}</b></p>
+            <p style="margin:5px 0;font-size:2.5em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
+          </div>
+        `;
+        
+        // Nếu bạn dùng chung một khung thông báo cho cả đúng/sai thì có thể hiển thị tùy ý, 
+        // ở đây dùng lại alert hoặc tuỳ chỉnh theo ý bạn:
+        alert("❌ Sai! Bạn chọn: " + opt + " (Hãy thử chọn lại đáp án khác nhé!)");
+        speakText(opt);
+      }
+    };
+    optionsDiv.appendChild(btn);
+  });
+}
+
 // ===============================================
-// 9. TRÒ CHƠI 9: SPELLING BEE (ĐÁNH VẦN / GÕ LẠI)
+// 10. TRÒ CHƠI 10: SPELLING BEE (ĐÁNH VẦN / GÕ LẠI)
 // ===============================================
 function startSpellingBee() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -468,7 +536,7 @@ function startSpellingBee() {
 }
 
 // ================================================================
-// 10. TRÒ CHƠI 10: ANTONYM BATTLE (THAY THẾ BẰNG THỬ THÁCH ĐỐ VUI)
+// 11. TRÒ CHƠI 11: ANTONYM BATTLE (THAY THẾ BẰNG THỬ THÁCH ĐỐ VUI)
 // ================================================================
 function startAntonymBattle() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -513,7 +581,7 @@ function startAntonymBattle() {
 }
 
 // ========================================================================
-// 11. TRÒ CHƠI 11: QUICK TRANSLATION RACE (ĐUA DỊCH NHANH / TRẢ LỜI NHANH)
+// 12. TRÒ CHƠI 12: QUICK TRANSLATION RACE (ĐUA DỊCH NHANH / TRẢ LỜI NHANH)
 // ========================================================================
 function startQuickTranslationRace() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -582,7 +650,7 @@ function startQuickTranslationRace() {
 }
 
 // ==============================================================
-// 12. TRÒ CHƠI 12: QUICK MULTIPLE CHOICE 2 (TRẮC NGHIỆM 2 CHIỀU)
+// 13. TRÒ CHƠI 13: QUICK MULTIPLE CHOICE 2 (TRẮC NGHIỆM 2 CHIỀU)
 // ==============================================================
 function startQuizMultipleChoice2() {
   const validWords = words.filter(item => item.word && item.meaning);
