@@ -312,8 +312,69 @@ function startSpeedQuiz() {
   nextQuestion();
 }
 
+// =========================================
+// 6. TRÒ CHƠI 6: HANGMAN (ĐOÁN TỪ / ĐÁP ÁN)
+// =========================================
+function startHangman() {
+  const validWords = words.filter(item => item.word && item.meaning);
+  if (validWords.length === 0) return;
+  const item = validWords[Math.floor(Math.random() * validWords.length)];
+  
+  // Đảo ngược: Gợi ý là word, từ cần đoán là meaning
+  const target = item.meaning;
+  let hidden = target.split("").map(c => c === " " ? " " : "_").join("");
+  let lives = 6;
+
+  const container = document.getElementById("game");
+  container.innerHTML = `
+    <h2>Hangman</h2>
+    <p>Gợi ý từ: <b>${item.word}</b></p>
+    <p id="hidden" style="font-size: 2em; letter-spacing: 3px;">${hidden}</p>
+    <p id="lives">Lives: ${lives}</p>
+    <input id="letter" class="text-area2" maxlength="1" placeholder="Nhập 1 chữ cái">
+    <button2 id="guess">Guess</button2>
+  `;
+
+  document.getElementById("guess").onclick = () => {
+    const letterInput = document.getElementById("letter");
+    const letter = letterInput.value.toLowerCase();
+    if (!letter) return;
+    
+    let newHidden = "";
+    let correct = false;
+
+    for (let i = 0; i < target.length; i++) {
+      if (target[i].toLowerCase() === letter) {
+        newHidden += target[i];
+        correct = true;
+      } else {
+        newHidden += hidden[i];
+      }
+    }
+
+    hidden = newHidden;
+    document.getElementById("hidden").textContent = hidden;
+
+    if (!correct) {
+      lives--;
+      document.getElementById("lives").textContent = "Lives: " + lives;
+    }
+
+    if (hidden.toLowerCase() === target.toLowerCase()) {
+      alert("✅ Bạn thắng! Đáp án: " + target);
+      if (typeof showMessage === 'function') showMessage(item);
+      speakText(item.word);
+    } else if (lives <= 0) {
+      alert("❌ Thua! Đáp án đúng là: " + target);
+    }
+
+    letterInput.value = "";
+    letterInput.focus();
+  };
+}
+
 // =====================================
-// 6. TRÒ CHƠI 6: MEMORY CARDS (LẬT THẺ)
+// 7. TRÒ CHƠI 7: MEMORY CARDS (LẬT THẺ)
 // =====================================
 function startMemoryCards() {
   const validWords = words.filter(item => item.word && item.meaning).slice(0, 4);
@@ -351,7 +412,7 @@ function startMemoryCards() {
 }
 
 // ============================================
-// 7. TRÒ CHƠI 7: LISTENING QUIZ (NGHE VÀ ĐOÁN)
+// 8. TRÒ CHƠI 8: LISTENING QUIZ (NGHE VÀ ĐOÁN)
 // ============================================
 function startListeningQuiz() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -382,7 +443,7 @@ function startListeningQuiz() {
 }
 
 // =================================================================
-// 8. TRÒ CHƠI 8: SYNONYM CHALLENGE (THAY THẾ BẰNG CÂU HỎI / ĐÁP ÁN)
+// 9. TRÒ CHƠI 9: SYNONYM CHALLENGE (THAY THẾ BẰNG CÂU HỎI / ĐÁP ÁN)
 // =================================================================
 function startSynonymChallenge() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -450,7 +511,7 @@ function startSynonymChallenge() {
 }
 
 // ===============================================
-// 9. TRÒ CHƠI 9: SPELLING BEE (ĐÁNH VẦN / GÕ LẠI)
+// 10. TRÒ CHƠI 10: SPELLING BEE (ĐÁNH VẦN / GÕ LẠI)
 // ===============================================
 function startSpellingBee() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -485,7 +546,7 @@ function startSpellingBee() {
 }
 
 // ================================================================
-// 10. TRÒ CHƠI 10: ANTONYM BATTLE (THAY THẾ BẰNG THỬ THÁCH ĐỐ VUI)
+// 11. TRÒ CHƠI 11: ANTONYM BATTLE (THAY THẾ BẰNG THỬ THÁCH ĐỐ VUI)
 // ================================================================
 function startAntonymBattle() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -534,7 +595,7 @@ function startAntonymBattle() {
 }
 
 // ========================================================================
-// 11. TRÒ CHƠI 11: QUICK TRANSLATION RACE (ĐUA DỊCH NHANH / TRẢ LỜI NHANH)
+// 12. TRÒ CHƠI 12: QUICK TRANSLATION RACE (ĐUA DỊCH NHANH / TRẢ LỜI NHANH)
 // ========================================================================
 function startQuickTranslationRace() {
   const validWords = words.filter(item => item.word && item.meaning);
@@ -603,7 +664,7 @@ function startQuickTranslationRace() {
 }
 
 // ==============================================================
-// 12. TRÒ CHƠI 12: QUICK MULTIPLE CHOICE 2 (TRẮC NGHIỆM 2 CHIỀU)
+// 13. TRÒ CHƠI 13: QUICK MULTIPLE CHOICE 2 (TRẮC NGHIỆM 2 CHIỀU)
 // ==============================================================
 function startQuizMultipleChoice2() {
   const validWords = words.filter(item => item.word && item.meaning);
