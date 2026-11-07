@@ -81,12 +81,40 @@ function speakText(text) {
   }
 }
 
+// Hàm mới: Phát âm lần lượt word và meaning (có độ trễ ngắn ở giữa)
+function speakWordAndMeaning(word, meaning) {
+  speechSynthesis.cancel();
+  if (word) {
+    const utterWord = new SpeechSynthesisUtterance(word);
+    const configWord = getVoiceConfig(word);
+    utterWord.lang = configWord.lang;
+    if (configWord.voice) utterWord.voice = configWord.voice;
+
+    // Khi đọc xong từ (word), tiếp tục đọc nghĩa (meaning) nếu có
+    if (meaning) {
+      utterWord.onend = () => {
+        // Tạo khoảng dừng ngắn bằng cách dùng setTimeout hoặc gọi trực tiếp
+        setTimeout(() => {
+          const utterMeaning = new SpeechSynthesisUtterance(meaning);
+          const configMeaning = getVoiceConfig(meaning);
+          utterMeaning.lang = configMeaning.lang;
+          if (configMeaning.voice) utterMeaning.voice = configMeaning.voice;
+          speechSynthesis.speak(utterMeaning);
+        }, 300); // Trễ 300ms giữa word và meaning
+      };
+    }
+
+    speechSynthesis.speak(utterWord);
+  } else if (meaning) {
+    speakText(meaning);
+  }
+}
+
 function repeatUtter() {
   if (!currentItem) return;
   speechSynthesis.cancel();
-  if (currentItem.word) {
-    speakText(currentItem.word);
-  }
+  // Khi ấn "Nói lại", phát âm cả word và meaning của currentItem
+  speakWordAndMeaning(currentItem.word, currentItem.meaning);
 }
 
 // ==========================================
@@ -136,8 +164,9 @@ function startQuiz() {
           </div>
         `;
         showAlert(content);
-        speechSynthesis.cancel();
-        speakText(item.word);
+        
+        // 🔄 ĐỌC CẢ WORD VÀ MEANING KHI ĐÚNG
+        speakWordAndMeaning(item.word, item.meaning);
 
       } else {
         currentItem = { 
@@ -208,7 +237,10 @@ function startQuizMultipleChoice() {
             </div>
           `;
           showAlert(content);
-          speakText(item.word);
+          
+          // 🔄 ĐỌC CẢ WORD VÀ MEANING KHI ĐÚNG
+          speakWordAndMeaning(item.word, item.meaning);
+          
           currentItem = { ...item, resultType: "correct" };
         } else {
           const wrongMeaning = btn.textContent;
