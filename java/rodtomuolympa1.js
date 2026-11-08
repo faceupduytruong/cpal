@@ -14,58 +14,64 @@ document.getElementById("fileInput").addEventListener("change", function(event) 
   reader.readAsText(file);
 });
 
-// =====================================
+// ===============================================
 // A. BIẾN TOÀN CỤC & QUẢN LÝ GIỌNG ĐỌC (NAM / NỮ)
-// =====================================
-let currentItem = null;   // Lưu thông tin item hiện tại đang chơi
+// ===============================================
+let currentItem = null;
 let voices = [];
-let selectedGender = "female"; // Mặc định là giọng Nữ ("female" hoặc "male")
+let selectedGender = "female"; // Mặc định là giọng Nữ
 
-// Lấy danh sách giọng đọc của trình duyệt
-speechSynthesis.onvoiceschanged = () => {
-  voices = speechSynthesis.getVoices();
-};
-
-// Hàm tìm giọng Nữ theo mã ngôn ngữ (en hoặc vi)
-function getFemaleVoice(langCode) {
-  return voices.find(v => v.lang.startsWith(langCode) && (
-    v.name.toLowerCase().includes("female") ||
-    v.name.toLowerCase().includes("woman") ||
-    v.name.toLowerCase().includes("hoang") ||
-    v.name.includes("女")
-  )) || voices.find(v => v.lang.startsWith(langCode));
+// Hàm tải danh sách giọng đọc an toàn (hỗ trợ cả các trình duyệt tải chậm)
+function loadVoices() {
+  voices = window.speechSynthesis.getVoices();
 }
 
-// Hàm tìm giọng Nam theo mã ngôn ngữ (en hoặc vi)
-function getMaleVoice(langCode) {
-  return voices.find(v => v.lang.startsWith(langCode) && (
-    v.name.toLowerCase().includes("male") ||
-    v.name.toLowerCase().includes("man") ||
-    v.name.toLowerCase().includes("guy") ||
-    v.name.toLowerCase().includes("david") ||
-    v.name.toLowerCase().includes("mark") ||
-    v.name.toLowerCase().includes("nam")
-  )) || voices.find(v => v.lang.startsWith(langCode));
+loadVoices();
+if (window.speechSynthesis.onvoiceschanged !== undefined) {
+  window.speechSynthesis.onvoiceschanged = loadVoices;
 }
 
+// Hàm kiểm tra tiếng Việt
 function isVietnamese(text) {
   if (!text) return false;
   const vietnameseRegex = /[àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i;
   return vietnameseRegex.test(text);
 }
 
-// Hàm lấy cấu hình giọng đọc dựa trên Ngôn ngữ (Anh/Việt) và Giới tính đang chọn (Nam/Nữ)
+// Cải tiến hàm tìm giọng Nữ/Nam linh hoạt hơn theo ngôn ngữ
+function getSelectedVoice(langCode) {
+  if (voices.length === 0) loadVoices();
+
+  // Lọc tất cả các giọng phù hợp với ngôn ngữ (ví dụ bắt đầu bằng "en" hoặc "vi")
+  const langVoices = voices.filter(v => v.lang.toLowerCase().includes(langCode.toLowerCase()));
+  if (langVoices.length === 0) return null;
+
+  if (selectedGender === "female") {
+    // Ưu tiên tìm các từ khóa chỉ giọng Nữ
+    const femaleKeywords = ["female", "woman", "girl", "zira", "samantha", "victoria", "hoang", "linh", "chi", "hiem", "natural", "google"];
+    let found = langVoices.find(v => femaleKeywords.some(keyword => v.name.toLowerCase().includes(keyword)));
+    if (found) return found;
+    
+    // Nếu không tìm thấy từ khóa Nữ rõ ràng, lấy giọng thứ 2 trong danh sách (thường hệ thống để Nam ở vị trí 0 hoặc Nữ ở vị trí khác)
+    return langVoices[1] || langVoices[0];
+  } else {
+    // Ưu tiên tìm các từ khóa chỉ giọng Nam
+    const maleKeywords = ["male", "man", "boy", "david", "mark", "george", "guy", "james", "brian", "minh"];
+    let found = langVoices.find(v => maleKeywords.some(keyword => v.name.toLowerCase().includes(keyword)));
+    if (found) return found;
+
+    // Nếu không thấy từ khóa Nam, lấy giọng đầu tiên
+    return langVoices[0];
+  }
+}
+
+// Hàm lấy cấu hình giọng đọc
 function getVoiceConfig(text) {
   const isVi = isVietnamese(text);
   const langCode = isVi ? "vi" : "en";
   const fullLang = isVi ? "vi-VN" : "en-US";
 
-  let chosenVoice = null;
-  if (selectedGender === "male") {
-    chosenVoice = getMaleVoice(langCode) || voices.find(v => v.lang.startsWith(langCode));
-  } else {
-    chosenVoice = getFemaleVoice(langCode) || voices.find(v => v.lang.startsWith(langCode));
-  }
+  const chosenVoice = getSelectedVoice(langCode);
 
   return {
     lang: fullLang,
@@ -87,9 +93,9 @@ function closeAlert() {
   document.getElementById("alertBox").style.display = "none"; 
 }
 
-// ===========================================
+// ==========================
 // C. HỆ THỐNG PHÁT ÂM CHUNG
-// ===========================================
+// ==========================
 function speakText(text) {
   if (text) {
     const utter = new SpeechSynthesisUtterance(text);
@@ -100,7 +106,7 @@ function speakText(text) {
   }
 }
 
-// Phát âm lần lượt word và meaning (có độ trễ ngắn ở giữa)
+// Phát âm lần lượt word và meaning
 function speakWordAndMeaning(word, meaning) {
   speechSynthesis.cancel();
   if (word) {
@@ -718,7 +724,7 @@ function startAntonymBattle() {
         const content = `
           <div style="text-align:center;">
             <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai!</p>
-            <p style="margin:5px 0;">Bạn chọn: <b style="font-size:2.5em>${opt}</b></p>
+            <p style="margin:5px 0;">Bạn chọn: <b style="font-size:2.5em">${opt}</b></p>
             <p style="margin:5px 0;font-size:2.5em;color:orange;">(Hãy thử lại nhé!)</p>
           </div>
         `;
@@ -847,7 +853,7 @@ function startQuizMultipleChoice2() {
     btn.onclick = () => {
       if (opt === correctAnswer) {
         addPoint(item.word);
-        alert("✅ Chính xác!\nĐáp án: " + correctAnswer);
+        alert("✅ Chính xác!\nĐáp án: ` + correctAnswer);
       } else {
         alert("❌ Sai!\nĐáp án đúng: " + correctAnswer);
       }
