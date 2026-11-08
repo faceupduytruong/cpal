@@ -14,42 +14,64 @@ document.getElementById("fileInput").addEventListener("change", function(event) 
   reader.readAsText(file);
 });
 
-// =====================================
-// A. BIẾN TOÀN CỤC & QUẢN LÝ GIỌNG ĐỌC
-// =====================================
+// ===============================================
+// A. BIẾN TOÀN CỤC & QUẢN LÝ GIỌNG ĐỌC (NAM / NỮ)
+// ===============================================
+let voices = [];
+let selectedGender = "female"; // Mặc định là giọng Nữ
 
-// Hàm hỗ trợ chọn giọng nữ phù hợp với ngôn ngữ (vi-VN hoặc en-US)
-function getFemaleVoice(langCode) {
-  const voices = speechSynthesis.getVoices();
+// Tải danh sách giọng đọc của trình duyệt
+function loadVoices() {
+  if (typeof speechSynthesis !== 'undefined') {
+    voices = speechSynthesis.getVoices();
+  }
+}
+
+loadVoices();
+if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !== undefined) {
+  speechSynthesis.onvoiceschanged = loadVoices;
+}
+
+// Hàm tìm giọng đọc phù hợp theo ngôn ngữ và giới tính
+function getSelectedVoice(langCode) {
+  if (voices.length === 0) loadVoices();
   const langVoices = voices.filter(v => v.lang.toLowerCase().includes(langCode.toLowerCase()));
-  
-  let voice = langVoices.find(v => 
-    v.name.toLowerCase().includes('female') || 
-    v.name.toLowerCase().includes('zira') || 
-    v.name.toLowerCase().includes('hoai') ||
-    v.name.toLowerCase().includes('google')
-  );
-  
-  return voice || langVoices[0] || null;
+  if (langVoices.length === 0) return null;
+
+  if (selectedGender === "female") {
+    const femaleKeywords = ["female", "woman", "girl", "zira", "samantha", "victoria", "hoai", "hoang", "linh", "chi", "google", "natural"];
+    let found = langVoices.find(v => femaleKeywords.some(kw => v.name.toLowerCase().includes(kw)));
+    return found || langVoices[0];
+  } else {
+    const maleKeywords = ["male", "man", "boy", "david", "mark", "george", "guy", "james", "brian", "minh"];
+    let found = langVoices.find(v => maleKeywords.some(kw => v.name.toLowerCase().includes(kw)));
+    return found || langVoices[0];
+  }
 }
 
 // ===========================================
 // B. HỆ THỐNG PHÁT ÂM CHUNG (QUEUE & REPEAT)
 // ===========================================
 
-// Hàm phát âm tổng quát: Tự nhận diện tiếng Việt hay tiếng Anh để phát âm giọng nữ
 function speakText(text) {
   if (!text) return;
   speechSynthesis.cancel();
   
   const utter = new SpeechSynthesisUtterance(text);
   
-  const isVietnamese = /[àáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữựỳýỷỹỵđ]/i.test(text);
+  const isVietnamese = /[àáảãạăkkằắẳẵặâầấẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i.test(text);
   const langCode = isVietnamese ? "vi" : "en";
   
   utter.lang = isVietnamese ? "vi-VN" : "en-US";
   
-  const voice = getFemaleVoice(langCode);
+  // Tinh chỉnh độ cao giọng (pitch): Nữ giọng cao thanh (1.35), Nam giọng trầm (0.9)
+  if (selectedGender === "female") {
+    utter.pitch = 1.35;
+  } else {
+    utter.pitch = 0.9;
+  }
+
+  const voice = getSelectedVoice(langCode);
   if (voice) {
     utter.voice = voice;
   }
@@ -57,16 +79,10 @@ function speakText(text) {
   speechSynthesis.speak(utter);
 }
 
-// Đảm bảo load trước danh sách giọng đọc của trình duyệt
-if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !== undefined) {
-  speechSynthesis.onvoiceschanged = () => getFemaleVoice('en');
-}
-
 // =============================================
 // C. CÁC HÀM HỖ TRỢ HIỂN THỊ ALERT & GIAO DIỆN
 // =============================================
 
-// Quản lý hiển thị messageBox
 let currentItem = null;
 
 function showMessage(item) {
@@ -134,7 +150,6 @@ function startQuiz() {
     const btn = card.querySelector("button2");
 
     btn.onclick = () => {
-      // Chuẩn hóa chuỗi người dùng nhập và đáp án sang chữ thường để so sánh không phân biệt hoa/thường
       const userAns = input.value.trim().toLowerCase();
       const correctAns = item.meaning.trim().toLowerCase();
 
@@ -320,7 +335,6 @@ function startHangman() {
   if (validWords.length === 0) return;
   const item = validWords[Math.floor(Math.random() * validWords.length)];
   
-  // Đảo ngược: Gợi ý là word, từ cần đoán là meaning
   const target = item.meaning;
   let hidden = target.split("").map(c => c === " " ? " " : "_").join("");
   let lives = 6;
@@ -442,9 +456,9 @@ function startListeningQuiz() {
   };
 }
 
-// =================================================================
-// 9. TRÒ CHƠI 9: SYNONYM CHALLENGE (THAY THẾ BẰNG CÂU HỎI / ĐÁP ÁN)
-// =================================================================
+// ================================
+// 9. TRÒ CHƠI 9: SYNONYM CHALLENGE
+// ================================
 function startSynonymChallenge() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length < 4) {
@@ -479,29 +493,10 @@ function startSynonymChallenge() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === item.meaning) {
-        // Gọi messageBox dạng chuẩn chung của bạn khi trả lời đúng
         showMessage(item);
         if (typeof addPoint === 'function') addPoint(item.word);
-
-        // Phát âm từ (tự động nhận diện ngôn ngữ và giọng nữ)
         speakText(item.word);
-
-        // Tự động chuyển câu mới sau khi phát âm xong
-        const voices = speechSynthesis.getVoices();
-        // Lắng nghe sự kiện kết thúc phát âm để load câu tiếp theo
-        // (Hoặc có thể để người dùng bấm Next, nhưng giữ logic onend như code cũ của bạn)
       } else {
-        // Khi chọn sai
-        const content = `
-          <div style="text-align:center;">
-            <p style="margin:5px 0;color:red;font-size:2em;">❌ Sai!</p>
-            <p style="margin:5px 0;">Bạn chọn: <b style="font-size:2.5em">${opt}</b></p>
-            <p style="margin:5px 0;font-size:2.5em;color:orange;">(Hãy thử chọn lại đáp án khác nhé!)</p>
-          </div>
-        `;
-        
-        // Nếu bạn dùng chung một khung thông báo cho cả đúng/sai thì có thể hiển thị tùy ý, 
-        // ở đây dùng lại alert hoặc tuỳ chỉnh theo ý bạn:
         alert("❌ Sai! Bạn chọn: " + opt + " (Hãy thử chọn lại đáp án khác nhé!)");
         speakText(opt);
       }
@@ -510,9 +505,9 @@ function startSynonymChallenge() {
   });
 }
 
-// ===============================================
+// =================================================
 // 10. TRÒ CHƠI 10: SPELLING BEE (ĐÁNH VẦN / GÕ LẠI)
-// ===============================================
+// =================================================
 function startSpellingBee() {
   const validWords = words.filter(item => item.word && item.meaning);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
@@ -545,9 +540,9 @@ function startSpellingBee() {
   };
 }
 
-// ================================================================
-// 11. TRÒ CHƠI 11: ANTONYM BATTLE (THAY THẾ BẰNG THỬ THÁCH ĐỐ VUI)
-// ================================================================
+// ================================
+// 11. TRÒ CHƠI 11: ANTONYM BATTLE
+// ================================
 function startAntonymBattle() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length < 4) {
@@ -582,7 +577,7 @@ function startAntonymBattle() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === item.meaning) {
-        showMessage(item); // 👉 Hiện messageBox khi đúng
+        showMessage(item);
         if (typeof addPoint === 'function') addPoint(item.word);
         speakText(item.word);
       } else {
@@ -594,9 +589,9 @@ function startAntonymBattle() {
   });
 }
 
-// ========================================================================
-// 12. TRÒ CHƠI 12: QUICK TRANSLATION RACE (ĐUA DỊCH NHANH / TRẢ LỜI NHANH)
-// ========================================================================
+// ========================================
+// 12. TRÒ CHƠI 12: QUICK TRANSLATION RACE
+// ========================================
 function startQuickTranslationRace() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length === 0) {
@@ -607,7 +602,7 @@ function startQuickTranslationRace() {
   let score = 0;
   let index = 0;
   let timer;
-  let timeLeft = 5;
+  let timeLeft = 20;
 
   const container = document.getElementById("game");
   container.innerHTML = `
@@ -649,7 +644,7 @@ function startQuickTranslationRace() {
       const ans = document.getElementById("answer").value.trim();
       if (ans === item.meaning) {
         score++;
-        showMessage(item); // 👉 Hiện messageBox khi đúng
+        showMessage(item);
         if (typeof addPoint === 'function') addPoint(item.word);
         speakText(item.word);
       } else {
@@ -663,9 +658,9 @@ function startQuickTranslationRace() {
   nextQuestion();
 }
 
-// ==============================================================
-// 13. TRÒ CHƠI 13: QUICK MULTIPLE CHOICE 2 (TRẮC NGHIỆM 2 CHIỀU)
-// ==============================================================
+// =========================================
+// 13. TRÒ CHƠI 13: QUICK MULTIPLE CHOICE 2
+// =========================================
 function startQuizMultipleChoice2() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length < 4) {
@@ -710,13 +705,12 @@ function startQuizMultipleChoice2() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === correctAnswer) {
-        showMessage(item); // 👉 Hiện messageBox khi đúng
+        showMessage(item);
         if (typeof addPoint === 'function') addPoint(item.word);
       } else {
         alert("❌ Sai!\nCâu hỏi: " + questionText + "\nĐáp án đúng: " + correctAnswer);
       }
 
-      // Phát âm tự động từ (word) bằng giọng nữ
       speakText(item.word);
 
       if (opt === correctAnswer) {
