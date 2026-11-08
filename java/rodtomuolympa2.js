@@ -14,9 +14,9 @@ document.getElementById("fileInput").addEventListener("change", function(event) 
   reader.readAsText(file);
 });
 
-// ===============================================
+// ================================================
 // A. BIẾN TOÀN CỤC & QUẢN LÝ GIỌNG ĐỌC (NAM / NỮ)
-// ===============================================
+// ================================================
 let voices = [];
 let selectedGender = "female"; // Mặc định là giọng Nữ
 
@@ -30,6 +30,38 @@ function loadVoices() {
 loadVoices();
 if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !== undefined) {
   speechSynthesis.onvoiceschanged = loadVoices;
+}
+
+// 🟢 Hàm xử lý khi ấn nút toggleVoice (🎧) - Gọi trực tiếp hoặc qua sự kiện an toàn
+function toggleVoice() {
+  if (selectedGender === "female") {
+    selectedGender = "male";
+    alert("🎧 Đã chuyển sang: GIỌNG NAM");
+  } else {
+    selectedGender = "female";
+    alert("🎧 Đã chuyển sang: GIỌNG NỮ");
+  }
+}
+
+// Gắn sự kiện click bằng cả 2 cách để chắc chắn nút nhận diện được
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("toggleVoice");
+  if (btn) {
+    btn.onclick = toggleVoice;
+  }
+});
+// Dự phòng trường hợp script chạy sau DOMContentLoaded
+window.onload = () => {
+  const btn = document.getElementById("toggleVoice");
+  if (btn && !btn.onclick) {
+    btn.onclick = toggleVoice;
+  }
+};
+
+// Hàm kiểm tra tiếng Việt
+function isVietnamese(text) {
+  if (!text) return false;
+  return /[àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i.test(text);
 }
 
 // Hàm tìm giọng đọc phù hợp theo ngôn ngữ và giới tính
@@ -50,26 +82,21 @@ function getSelectedVoice(langCode) {
 }
 
 // ===========================================
-// B. HỆ THỐNG PHÁT ÂM CHUNG (QUEUE & REPEAT)
+// B. HỆ THỐNG PHÁT ÂM CHUNG (WORD & MEANING)
 // ===========================================
 
-function speakText(text) {
+// Phát âm một đoạn văn bản đơn lẻ (tự nhận diện Anh/Việt, Nam/Nữ và pitch)
+function speakSingleText(text) {
   if (!text) return;
-  speechSynthesis.cancel();
-  
   const utter = new SpeechSynthesisUtterance(text);
   
-  const isVietnamese = /[àáảãạăkkằắẳẵặâầấẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ]/i.test(text);
-  const langCode = isVietnamese ? "vi" : "en";
+  const isVi = isVietnamese(text);
+  const langCode = isVi ? "vi" : "en";
   
-  utter.lang = isVietnamese ? "vi-VN" : "en-US";
+  utter.lang = isVi ? "vi-VN" : "en-US";
   
   // Tinh chỉnh độ cao giọng (pitch): Nữ giọng cao thanh (1.35), Nam giọng trầm (0.9)
-  if (selectedGender === "female") {
-    utter.pitch = 1.35;
-  } else {
-    utter.pitch = 0.9;
-  }
+  utter.pitch = (selectedGender === "female") ? 1.35 : 0.9;
 
   const voice = getSelectedVoice(langCode);
   if (voice) {
@@ -77,6 +104,47 @@ function speakText(text) {
   }
   
   speechSynthesis.speak(utter);
+}
+
+// 🟢 Hàm mới: Phát âm lần lượt word và meaning (có độ trễ ngắn 300ms ở giữa)
+function speakWordAndMeaning(word, meaning) {
+  if (typeof speechSynthesis !== 'undefined') {
+    speechSynthesis.cancel();
+  }
+
+  if (word) {
+    const utterWord = new SpeechSynthesisUtterance(word);
+    const isViWord = isVietnamese(word);
+    utterWord.lang = isViWord ? "vi-VN" : "en-US";
+    utterWord.pitch = (selectedGender === "female") ? 1.35 : 0.9;
+    const voiceWord = getSelectedVoice(isViWord ? "vi" : "en");
+    if (voiceWord) utterWord.voice = voiceWord;
+
+    // Khi đọc xong word, tiếp tục đọc meaning sau 300ms
+    if (meaning) {
+      utterWord.onend = () => {
+        setTimeout(() => {
+          const utterMeaning = new SpeechSynthesisUtterance(meaning);
+          const isViMeaning = isVietnamese(meaning);
+          utterMeaning.lang = isViMeaning ? "vi-VN" : "en-US";
+          utterMeaning.pitch = (selectedGender === "female") ? 1.35 : 0.9;
+          const voiceMeaning = getSelectedVoice(isViMeaning ? "vi" : "en");
+          if (voiceMeaning) utterMeaning.voice = voiceMeaning;
+          
+          speechSynthesis.speak(utterMeaning);
+        }, 300);
+      };
+    }
+
+    speechSynthesis.speak(utterWord);
+  } else if (meaning) {
+    speakSingleText(meaning);
+  }
+}
+
+// Hàm tương thích ngược nếu các chỗ khác gọi speakText
+function speakText(text) {
+  speakSingleText(text);
 }
 
 // =============================================
@@ -113,7 +181,8 @@ function closeMessage() {
 
 function repeatUtter() {
   if (currentItem && currentItem.word) {
-    speakText(currentItem.word);
+    // Khi bấm "Nói lại", đọc cả word và meaning theo lựa chọn hiện tại
+    speakWordAndMeaning(currentItem.word, currentItem.meaning);
   }
 }
 
@@ -156,7 +225,8 @@ function startQuiz() {
       if (userAns === correctAns) {
         showMessage(item);
         if (typeof addPoint === 'function') addPoint(item.word);
-        speakText(item.word);
+        // 🔄 Đọc cả word và meaning khi đúng
+        speakWordAndMeaning(item.word, item.meaning);
       } else {
         alert("❌ Sai. Đáp án: " + item.meaning);
       }
@@ -199,7 +269,7 @@ function startQuizMultipleChoice() {
         if (btn.textContent === item.meaning) {
           showMessage(item);
           if (typeof addPoint === 'function') addPoint(item.word);
-          speakText(item.word);
+          speakWordAndMeaning(item.word, item.meaning);
         } else {
           alert("❌ Sai. Cần phải chọn lại từ khác !");
         }
@@ -230,7 +300,7 @@ function startFlashcards() {
 
     card.onclick = () => {
       hidden.style.display = hidden.style.display === "none" ? "block" : "none";
-      speakText(item.word);
+      speakWordAndMeaning(item.word, item.meaning);
     };
 
     container.appendChild(card);
@@ -316,7 +386,7 @@ function startSpeedQuiz() {
         score++;
         showMessage(item);
         if (typeof addPoint === 'function') addPoint(item.word);
-        speakText(item.word);
+        speakWordAndMeaning(item.word, item.meaning);
       } else {
         alert("❌ Sai. Đáp án: " + item.meaning);
       }
@@ -377,7 +447,7 @@ function startHangman() {
     if (hidden.toLowerCase() === target.toLowerCase()) {
       alert("✅ Bạn thắng! Đáp án: " + target);
       if (typeof showMessage === 'function') showMessage(item);
-      speakText(item.word);
+      speakWordAndMeaning(item.word, item.meaning);
     } else if (lives <= 0) {
       alert("❌ Thua! Đáp án đúng là: " + target);
     }
@@ -442,7 +512,7 @@ function startListeningQuiz() {
   `;
 
   document.getElementById("play").onclick = () => {
-    speakText(item.word);
+    speakWordAndMeaning(item.word, item.meaning);
   };
 
   document.getElementById("check").onclick = () => {
@@ -456,9 +526,9 @@ function startListeningQuiz() {
   };
 }
 
-// ================================
+// =================================================================
 // 9. TRÒ CHƠI 9: SYNONYM CHALLENGE
-// ================================
+// =================================================================
 function startSynonymChallenge() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length < 4) {
@@ -495,19 +565,19 @@ function startSynonymChallenge() {
       if (opt === item.meaning) {
         showMessage(item);
         if (typeof addPoint === 'function') addPoint(item.word);
-        speakText(item.word);
+        speakWordAndMeaning(item.word, item.meaning);
       } else {
         alert("❌ Sai! Bạn chọn: " + opt + " (Hãy thử chọn lại đáp án khác nhé!)");
-        speakText(opt);
+        speakSingleText(opt);
       }
     };
     optionsDiv.appendChild(btn);
   });
 }
 
-// =================================================
+// ===============================================
 // 10. TRÒ CHƠI 10: SPELLING BEE (ĐÁNH VẦN / GÕ LẠI)
-// =================================================
+// ===============================================
 function startSpellingBee() {
   const validWords = words.filter(item => item.word && item.meaning);
   const item = validWords[Math.floor(Math.random() * validWords.length)];
@@ -523,7 +593,7 @@ function startSpellingBee() {
   `;
 
   document.getElementById("play").onclick = () => {
-    speakText(item.word);
+    speakWordAndMeaning(item.word, item.meaning);
   };
 
   document.getElementById("check").onclick = () => {
@@ -540,9 +610,9 @@ function startSpellingBee() {
   };
 }
 
-// ================================
+// ================================================================
 // 11. TRÒ CHƠI 11: ANTONYM BATTLE
-// ================================
+// ================================================================
 function startAntonymBattle() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length < 4) {
@@ -579,19 +649,19 @@ function startAntonymBattle() {
       if (opt === item.meaning) {
         showMessage(item);
         if (typeof addPoint === 'function') addPoint(item.word);
-        speakText(item.word);
+        speakWordAndMeaning(item.word, item.meaning);
       } else {
         alert("❌ Sai!\nTừ: " + item.word + "\nNghĩa đúng: " + item.meaning);
-        speakText(opt);
+        speakSingleText(opt);
       }
     };
     optionsDiv.appendChild(btn);
   });
 }
 
-// ========================================
+// ========================================================================
 // 12. TRÒ CHƠI 12: QUICK TRANSLATION RACE
-// ========================================
+// ========================================================================
 function startQuickTranslationRace() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length === 0) {
@@ -646,7 +716,7 @@ function startQuickTranslationRace() {
         score++;
         showMessage(item);
         if (typeof addPoint === 'function') addPoint(item.word);
-        speakText(item.word);
+        speakWordAndMeaning(item.word, item.meaning);
       } else {
         alert("❌ Sai!\nTừ: " + item.word + "\nĐáp án đúng: " + item.meaning);
       }
@@ -658,13 +728,13 @@ function startQuickTranslationRace() {
   nextQuestion();
 }
 
-// =========================================
+// ==============================================================
 // 13. TRÒ CHƠI 13: QUICK MULTIPLE CHOICE 2
-// =========================================
+// ==============================================================
 function startQuizMultipleChoice2() {
   const validWords = words.filter(item => item.word && item.meaning);
   if (validWords.length < 4) {
-    alert("⚠️ Cần ít nhất 4 từ trong file JSON để chơi!");
+    alert("⚠️ Cần ít nhất 4 mục trong file JSON để chơi!");
     return;
   }
 
@@ -711,7 +781,7 @@ function startQuizMultipleChoice2() {
         alert("❌ Sai!\nCâu hỏi: " + questionText + "\nĐáp án đúng: " + correctAnswer);
       }
 
-      speakText(item.word);
+      speakWordAndMeaning(item.word, item.meaning);
 
       if (opt === correctAnswer) {
         startQuizMultipleChoice2();
