@@ -21,7 +21,7 @@ let currentItem = null;
 let voices = [];
 let selectedGender = "female"; // Mặc định là giọng Nữ
 
-// Hàm tải danh sách giọng đọc an toàn (hỗ trợ cả các trình duyệt tải chậm)
+// Hàm tải danh sách giọng đọc an toàn (hỗ trợ các trình duyệt tải chậm)
 function loadVoices() {
   voices = window.speechSynthesis.getVoices();
 }
@@ -31,6 +31,22 @@ if (window.speechSynthesis.onvoiceschanged !== undefined) {
   window.speechSynthesis.onvoiceschanged = loadVoices;
 }
 
+// 🟢 ĐÃ BỔ SUNG: Gắn sự kiện click cho nút toggleVoice (🎧) ở đây
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleVoiceBtn = document.getElementById("toggleVoice");
+  if (toggleVoiceBtn) {
+    toggleVoiceBtn.onclick = () => {
+      if (selectedGender === "female") {
+        selectedGender = "male";
+        alert("🎧 Đã chuyển sang: GIỌNG NAM");
+      } else {
+        selectedGender = "female";
+        alert("🎧 Đã chuyển sang: GIỌNG NỮ");
+      }
+    };
+  }
+});
+
 // Hàm kiểm tra tiếng Việt
 function isVietnamese(text) {
   if (!text) return false;
@@ -38,29 +54,22 @@ function isVietnamese(text) {
   return vietnameseRegex.test(text);
 }
 
-// Cải tiến hàm tìm giọng Nữ/Nam linh hoạt hơn theo ngôn ngữ
+// Hàm tìm giọng Nữ/Nam linh hoạt theo ngôn ngữ
 function getSelectedVoice(langCode) {
   if (voices.length === 0) loadVoices();
 
-  // Lọc tất cả các giọng phù hợp với ngôn ngữ (ví dụ bắt đầu bằng "en" hoặc "vi")
   const langVoices = voices.filter(v => v.lang.toLowerCase().includes(langCode.toLowerCase()));
   if (langVoices.length === 0) return null;
 
   if (selectedGender === "female") {
-    // Ưu tiên tìm các từ khóa chỉ giọng Nữ
     const femaleKeywords = ["female", "woman", "girl", "zira", "samantha", "victoria", "hoang", "linh", "chi", "hiem", "natural", "google"];
     let found = langVoices.find(v => femaleKeywords.some(keyword => v.name.toLowerCase().includes(keyword)));
     if (found) return found;
-    
-    // Nếu không tìm thấy từ khóa Nữ rõ ràng, lấy giọng thứ 2 trong danh sách (thường hệ thống để Nam ở vị trí 0 hoặc Nữ ở vị trí khác)
     return langVoices[1] || langVoices[0];
   } else {
-    // Ưu tiên tìm các từ khóa chỉ giọng Nam
     const maleKeywords = ["male", "man", "boy", "david", "mark", "george", "guy", "james", "brian", "minh"];
     let found = langVoices.find(v => maleKeywords.some(keyword => v.name.toLowerCase().includes(keyword)));
     if (found) return found;
-
-    // Nếu không thấy từ khóa Nam, lấy giọng đầu tiên
     return langVoices[0];
   }
 }
@@ -176,7 +185,7 @@ function startQuiz() {
       
       if (userValue.toLowerCase() === item.meaning.toLowerCase()) {
         currentItem = { ...item, resultType: "quiz" };
-        addPoint(item.word);
+        if (typeof addPoint === 'function') addPoint(item.word);
 
         const content = `
           <div style="text-align:center;">
@@ -248,7 +257,7 @@ function startQuizMultipleChoice() {
     card.querySelectorAll(".option").forEach(btn => {
       btn.onclick = () => {
         if (btn.textContent === item.meaning) {
-          addPoint(item.word);
+          if (typeof addPoint === 'function') addPoint(item.word);
           const content = `
             <div style="text-align:center;">
               <p style="margin:5px 0;color:lime;font-size:1.5em;">✅ Chính xác!</p>
@@ -340,7 +349,7 @@ function startMatching() {
   document.querySelectorAll(".match-meaning").forEach(el => {
     el.onclick = () => {
       if (selectedWord === el.dataset.word) {
-        addPoint(selectedWord);
+        if (typeof addPoint === 'function') addPoint(selectedWord);
         alert("✅ Ghép đúng!");
         el.style.visibility = "hidden";
         document.querySelector(`.match-word[data-word="${selectedWord}"]`).style.visibility = "hidden";
@@ -391,7 +400,7 @@ function startSpeedQuiz() {
       const ans = document.getElementById("answer").value.trim();
       if (ans.toLowerCase() === item.meaning.toLowerCase()) {
         scoreLocal++;
-        addPoint(item.word);
+        if (typeof addPoint === 'function') addPoint(item.word);
         alert("✅ Chính xác!");
       } else {
         alert("❌ Sai! Đáp án: " + item.meaning);
@@ -451,7 +460,7 @@ function startHangman() {
     }
 
     if (hidden.toLowerCase() === target.toLowerCase()) {
-      addPoint(item.word);
+      if (typeof addPoint === 'function') addPoint(item.word);
       alert("✅ Bạn thắng! Đáp án đúng là: " + target);
       if (typeof speakText === 'function') speakText(item.word);
     } else if (lives <= 0) {
@@ -490,7 +499,7 @@ function startMemoryCards() {
     flipped.push(card);
     if (flipped.length === 2) {
       if (flipped[0].dataset.pair === flipped[1].dataset.pair) {
-        addPoint(flipped[0].dataset.pair);
+        if (typeof addPoint === 'function') addPoint(flipped[0].dataset.pair);
         alert("✅ Khớp!");
         flipped.forEach(c => c.disabled = true);
       } else {
@@ -526,7 +535,7 @@ function startListeningQuiz() {
   document.getElementById("check").onclick = () => {
     const ans = document.getElementById("ans").value.trim();
     if (ans.toLowerCase() === item.meaning.toLowerCase()) {
-       addPoint(item.word);
+       if (typeof addPoint === 'function') addPoint(item.word);
        alert("✅ Chính xác!\nCâu hỏi: " + item.word + "\nĐáp án: " + item.meaning);
     } else {
        alert("❌ Sai!\nCâu hỏi: " + item.word + "\nĐáp án đúng: " + item.meaning);
@@ -572,7 +581,7 @@ function startSynonymChallenge() {
     btn.onclick = () => {
       if (opt === item.meaning) {
         currentItem = { ...item, resultType: "correct" };
-        addPoint(item.word);
+        if (typeof addPoint === 'function') addPoint(item.word);
 
         const content = `
           <div style="text-align:center;">
@@ -643,7 +652,7 @@ function startSpellingBee() {
     const result = document.getElementById("result");
 
     if (ans.toLowerCase() === item.meaning.toLowerCase() || ans.toLowerCase() === item.word.toLowerCase()) {
-      addPoint(item.word);
+      if (typeof addPoint === 'function') addPoint(item.word);
       result.textContent = "✅ Chính xác! Đáp án: " + item.meaning;
       result.style.color = "green";
       speakText(item.meaning);
@@ -692,7 +701,7 @@ function startAntonymBattle() {
     btn.onclick = () => {
       if (opt === item.meaning) {
         currentItem = { ...item, resultType: "antonym_correct" };
-        addPoint(item.word);
+        if (typeof addPoint === 'function') addPoint(item.word);
 
         const content = `
           <div style="text-align:center;">
@@ -791,7 +800,7 @@ function startQuickTranslationRace() {
       const ans = document.getElementById("answer").value.trim();
       if (ans.toLowerCase() === item.meaning.toLowerCase()) {
         localScore++;
-        addPoint(item.word);
+        if (typeof addPoint === 'function') addPoint(item.word);
         alert("✅ Chính xác!\nĐáp án: " + item.meaning);
         speakText(item.word);
       } else {
@@ -852,8 +861,8 @@ function startQuizMultipleChoice2() {
     btn.style.margin = "5px";
     btn.onclick = () => {
       if (opt === correctAnswer) {
-        addPoint(item.word);
-        alert("✅ Chính xác!\nĐáp án: ` + correctAnswer);
+        if (typeof addPoint === 'function') addPoint(item.word);
+        alert("✅ Chính xác!\nĐáp án: " + correctAnswer); // 🟢 Đã sửa lỗi sai dấu ở đây
       } else {
         alert("❌ Sai!\nĐáp án đúng: " + correctAnswer);
       }
