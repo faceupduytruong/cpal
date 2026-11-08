@@ -36,10 +36,10 @@ if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !=
 function toggleVoice() {
   if (selectedGender === "female") {
     selectedGender = "male";
-    alert("🎧 Đã chuyển sang: GIỌNG NAM");
+    alert("🎧 Đã chuyển sang: GIỌNG NAM 👨‍🦰");
   } else {
     selectedGender = "female";
-    alert("🎧 Đã chuyển sang: GIỌNG NỮ");
+    alert("🎧 Đã chuyển sang: GIỌNG NỮ 👩‍🦰");
   }
 }
 
