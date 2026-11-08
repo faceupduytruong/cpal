@@ -21,7 +21,7 @@ let currentItem = null;
 let voices = [];
 let selectedGender = "female"; // Mặc định là giọng Nữ
 
-// Hàm tải danh sách giọng đọc an toàn (hỗ trợ các trình duyệt tải chậm)
+// Hàm tải danh sách giọng đọc an toàn
 function loadVoices() {
   voices = window.speechSynthesis.getVoices();
 }
@@ -30,22 +30,6 @@ loadVoices();
 if (window.speechSynthesis.onvoiceschanged !== undefined) {
   window.speechSynthesis.onvoiceschanged = loadVoices;
 }
-
-// 🟢 ĐÃ BỔ SUNG: Gắn sự kiện click cho nút toggleVoice (🎧) ở đây
-document.addEventListener("DOMContentLoaded", () => {
-  const toggleVoiceBtn = document.getElementById("toggleVoice");
-  if (toggleVoiceBtn) {
-    toggleVoiceBtn.onclick = () => {
-      if (selectedGender === "female") {
-        selectedGender = "male";
-        alert("🎧 Đã chuyển sang: GIỌNG NAM");
-      } else {
-        selectedGender = "female";
-        alert("🎧 Đã chuyển sang: GIỌNG NỮ");
-      }
-    };
-  }
-});
 
 // Hàm kiểm tra tiếng Việt
 function isVietnamese(text) {
@@ -64,17 +48,16 @@ function getSelectedVoice(langCode) {
   if (selectedGender === "female") {
     const femaleKeywords = ["female", "woman", "girl", "zira", "samantha", "victoria", "hoang", "linh", "chi", "hiem", "natural", "google"];
     let found = langVoices.find(v => femaleKeywords.some(keyword => v.name.toLowerCase().includes(keyword)));
-    if (found) return found;
-    return langVoices[1] || langVoices[0];
+    // Nếu tìm thấy rõ ràng giọng nữ thì trả về, nếu không trả về phần tử đầu tiên kết hợp tinh chỉnh pitch bên dưới
+    return found || langVoices[0];
   } else {
     const maleKeywords = ["male", "man", "boy", "david", "mark", "george", "guy", "james", "brian", "minh"];
     let found = langVoices.find(v => maleKeywords.some(keyword => v.name.toLowerCase().includes(keyword)));
-    if (found) return found;
-    return langVoices[0];
+    return found || langVoices[0];
   }
 }
 
-// Hàm lấy cấu hình giọng đọc
+// Hàm lấy cấu hình giọng đọc kèm theo độ cao (pitch) giả lập Nam/Nữ nếu máy thiếu giọng
 function getVoiceConfig(text) {
   const isVi = isVietnamese(text);
   const langCode = isVi ? "vi" : "en";
@@ -82,9 +65,18 @@ function getVoiceConfig(text) {
 
   const chosenVoice = getSelectedVoice(langCode);
 
+  // Tinh chỉnh độ cao giọng (pitch): Nữ thường giọng cao (1.3 - 1.4), Nam giọng trầm/chuẩn (0.9 - 1.0)
+  let voicePitch = 1.0;
+  if (selectedGender === "female") {
+    voicePitch = 1.35; // Làm giọng cao lên thành giọng nữ
+  } else {
+    voicePitch = 0.9;  // Làm giọng trầm xuống thành giọng nam
+  }
+
   return {
     lang: fullLang,
-    voice: chosenVoice
+    voice: chosenVoice,
+    pitch: voicePitch
   };
 }
 
@@ -110,6 +102,7 @@ function speakText(text) {
     const utter = new SpeechSynthesisUtterance(text);
     const config = getVoiceConfig(text);
     utter.lang = config.lang;
+    utter.pitch = config.pitch; // Áp dụng độ cao giọng Nam/Nữ
     if (config.voice) utter.voice = config.voice;
     speechSynthesis.speak(utter);
   }
@@ -122,6 +115,7 @@ function speakWordAndMeaning(word, meaning) {
     const utterWord = new SpeechSynthesisUtterance(word);
     const configWord = getVoiceConfig(word);
     utterWord.lang = configWord.lang;
+    utterWord.pitch = configWord.pitch;
     if (configWord.voice) utterWord.voice = configWord.voice;
 
     if (meaning) {
@@ -130,6 +124,7 @@ function speakWordAndMeaning(word, meaning) {
           const utterMeaning = new SpeechSynthesisUtterance(meaning);
           const configMeaning = getVoiceConfig(meaning);
           utterMeaning.lang = configMeaning.lang;
+          utterMeaning.pitch = configMeaning.pitch;
           if (configMeaning.voice) utterMeaning.voice = configMeaning.voice;
           speechSynthesis.speak(utterMeaning);
         }, 300);
@@ -596,6 +591,7 @@ function startSynonymChallenge() {
         const utter = new SpeechSynthesisUtterance(item.word);
         const config = getVoiceConfig(item.word);
         utter.lang = config.lang;
+        utter.pitch = config.pitch;
         if (config.voice) utter.voice = config.voice;
         
         utter.onend = () => {
@@ -716,6 +712,7 @@ function startAntonymBattle() {
         const utter = new SpeechSynthesisUtterance(item.word);
         const config = getVoiceConfig(item.word);
         utter.lang = config.lang;
+        utter.pitch = config.pitch;
         if (config.voice) utter.voice = config.voice;
         
         utter.onend = () => {
@@ -862,7 +859,7 @@ function startQuizMultipleChoice2() {
     btn.onclick = () => {
       if (opt === correctAnswer) {
         if (typeof addPoint === 'function') addPoint(item.word);
-        alert("✅ Chính xác!\nĐáp án: " + correctAnswer); // 🟢 Đã sửa lỗi sai dấu ở đây
+        alert("✅ Chính xác!\nĐáp án: " + correctAnswer);
       } else {
         alert("❌ Sai!\nĐáp án đúng: " + correctAnswer);
       }
