@@ -223,3 +223,14 @@ function closePopup(popupId) {
   }
   popup.style.display = "none";
 }
+
+// Xử lý sự kiện khi ấn vào nút toggleVoice (🎧)
+document.getElementById("toggleVoice").onclick = () => {
+  if (selectedGender === "female") {
+    selectedGender = "male";
+    alert("🎧 Đã chuyển sang: GIỌNG NAM");
+  } else {
+    selectedGender = "female";
+    alert("🎧 Đã chuyển sang: GIỌNG NỮ");
+  }
+};
