@@ -353,7 +353,7 @@
     #toggleTheme,
     #toolsBtn,
     #showprogress,
-    #btn-station
+    #btn-station,
     #toggleVoice {
       font-family: 'Quicksand', sans-serif;
       font-size: 18px;
@@ -377,7 +377,7 @@
     body.dark-mode #toggleTheme,
     body.dark-mode #toolsBtn,
     body.dark-mode #showprogress,
-    body.dark-mode #btn-station
+    body.dark-mode #btn-station,
     body.dark-mode #toggleVoice {
       background-color: rgba(0, 0, 0, 0.3);
       color: #fff;
