@@ -294,5 +294,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61587013716220',
     thumbnail: 'https://www.dropbox.com/scl/fi/1x1yskuritiwypwqisckk/Ba-b-ch-u-nh-Bo.gif?rlkey=ovj6b9rpapdl7jz3sglb3rn19&st=f275i4wn&raw=1'
   },
+ 'American Study (Du học Mỹ)': {
+    url: 'https://www.facebook.com/americanstudy.vietnam',
+    thumbnail: 'https://www.dropbox.com/scl/fi/z5p412vcbizdsd3peovxy/American-Study-Du-h-c-M.avif?rlkey=1kuah55kiqqyzm4ma2yilx7nz&st=10mguy4n&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
