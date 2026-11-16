@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/AdaptedEnglishBooks/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7vlelwwj2m2sme9d8ecuu/Adapted-Books.png?rlkey=sp06euq68jdgctb9z60ds0b34&st=8p029ftg&raw=1'
   },
+  'Language with Movies & Series': {
+    url: 'https://www.facebook.com/Language.with.Movies.Series',
+    thumbnail: 'https://www.dropbox.com/scl/fi/t3x7i9uvre0tfd1qfftvk/Language-with-Movies-Series.jpg?rlkey=k2inzecxj0xuvn32n3dg26ta0&st=8i8oy3h4&raw=1'
+  },
   'BetterSpeak': {
     url: 'https://www.facebook.com/profile.php?id=61578857345477&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/s5avswgfnnvn7ac1546vj/BetterSpeak.jpg?rlkey=7ncveoi6zrz7e6ti7ml91oqhi&st=on3hmm9f&raw=1'
