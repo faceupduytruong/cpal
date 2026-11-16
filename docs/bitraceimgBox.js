@@ -691,6 +691,13 @@ container.innerHTML = `
       </div>
 
         <div class="image-box">
+  <div onclick="openRightHalfPopup('https://www.facebook.com/soilnstring' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+          <img src="https://www.dropbox.com/scl/fi/wu81t1l4ta9huyay73a8h/Soil-String-Studio.webp?rlkey=so8pmtvqudvmopcp3uztsz1g7&st=o6xnrtsv&raw=1">
+</div>
+        <div class="caption">Soil & String Studio</div>
+      </div>
+
+        <div class="image-box">
   <div onclick="openRightHalfPopup('https://www.facebook.com/profile.php?id=61584626482676' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
           <img src="https://www.dropbox.com/scl/fi/7d1olz3pe158ou53iqn7d/.png?rlkey=yltd2480b9jez7kea9xgl7kuv&st=5q0a1wxe&raw=1">
 </div>
