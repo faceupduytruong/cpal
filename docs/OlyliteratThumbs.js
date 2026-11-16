@@ -74,5 +74,17 @@ const folderLinks = {
     url: 'https://www.facebook.com/truyentranhdocxuoi199x',
     thumbnail: 'https://www.dropbox.com/scl/fi/x2vrsguq32p07k9mvqnru/T-truy-n-tranh-c-xu-i-199x.gif?rlkey=ya0yye9qll2g37d3d245aksgo&st=boir6zy8&raw=1'
   },
+  '8x9x.pro.vn': {
+    url: 'https://8x9x.pro.vn/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/xonn5rq4bcq6j49zh6h5l/8x9x.pro.vn.jpg?rlkey=n7zcgnqx9g0r1tc8r62hqe2i5&st=dc23uebu&raw=1'
+  },
+  'nuocmatvn.id.vn': {
+    url: 'https://nuocmatvn.id.vn/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/4o0gjz7iv99smpq3tyvsh/nuocmatvn.id.vn.jpg?rlkey=ggcx2unzce7xm69ds36n07zz8&st=b0t7izuk&raw=1'
+  },
+  'hoangclub.vn': {
+    url: 'https://hoangclub.vn/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/v48x0af8xr78df69rd2hn/hoangclub.vn.jpg?rlkey=v0tzt89q0qr4td9ky9cpac5em&st=s76g1gxj&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
