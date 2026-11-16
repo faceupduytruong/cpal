@@ -58,5 +58,9 @@ const folderLinks = {
     url: 'https://www.youtube.com/@Spiderum/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/8ha7jw01mhgtcbwy6ow2g/Spiderum.jpg?rlkey=vre5lrehim5nnlfow776pcqi9&st=kuhcq36z&raw=1',
   },
+  'Sử Ký Hoạt Hình': {
+    url: 'https://www.facebook.com/profile.php?id=61595586188881',
+    thumbnail: 'https://www.dropbox.com/scl/fi/tfdqy6i7nuo0lc47rku84/S-K-Ho-t-H-nh.jpg?rlkey=245cbmh3n2z64j894brtjp0cz&st=n9exmr41&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
