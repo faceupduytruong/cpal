@@ -298,5 +298,9 @@ const folderLinks = {
     url: 'https://www.facebook.com/americanstudy.vietnam',
     thumbnail: 'https://www.dropbox.com/scl/fi/z5p412vcbizdsd3peovxy/American-Study-Du-h-c-M.avif?rlkey=1kuah55kiqqyzm4ma2yilx7nz&st=10mguy4n&raw=1'
   },
+ 'Việt Nam hiếu học': {
+    url: 'https://vietnamhieuhoc.com/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/jp3bupzb6rhvy3c611f6i/Vi-t-Nam-hi-u-h-c.jpg?rlkey=wkcjo016n0dt9wba2xy9qmvxl&st=0d2u9as2&raw=1'
+  },
   // thêm các mục khác nếu cần
 };
