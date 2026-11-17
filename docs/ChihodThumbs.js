@@ -294,6 +294,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61587013716220',
     thumbnail: 'https://www.dropbox.com/scl/fi/1x1yskuritiwypwqisckk/Ba-b-ch-u-nh-Bo.gif?rlkey=ovj6b9rpapdl7jz3sglb3rn19&st=f275i4wn&raw=1'
   },
+ 'Bé Toàn Diện (Facebook)': {
+    url: 'https://www.facebook.com/profile.php?id=100093335229764',
+    thumbnail: 'https://www.dropbox.com/scl/fi/i50yl83ye06eox4cqb7fp/B-To-n-Di-n-Facebook.png?rlkey=ikyd9oq1zludhrlv76k0kw71v&st=nglyahtr&raw=1'
+  },
+ 'Bé toàn diện (Web)': {
+    url: 'https://betoandien.com/eduapp/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/9t62t7m2k1nr0yhclb4de/B-to-n-di-n-Web.gif?rlkey=hvxhot89jblim7lo9mr4ufq42&st=4pr9cd4y&raw=1'
+  },
  'American Study (Du học Mỹ)': {
     url: 'https://www.facebook.com/americanstudy.vietnam',
     thumbnail: 'https://www.dropbox.com/scl/fi/z5p412vcbizdsd3peovxy/American-Study-Du-h-c-M.avif?rlkey=1kuah55kiqqyzm4ma2yilx7nz&st=10mguy4n&raw=1'
