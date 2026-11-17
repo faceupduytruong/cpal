@@ -834,6 +834,27 @@ container.innerHTML = `
 </div>
         <div class="caption">Đàm Tài Cap (Excel)</div>
       </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://ksf.id.vn/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/f3q7h4gxiisiamdsvgk2b/KSF-Ecosystem-Web.png?rlkey=6fct2qlcd3oiw6cfbo34q81gv&st=c8ecqakc&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">KSF Ecosystem (Web)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://logic.ksf.id.vn/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/vb42yu5mhl4ernikwjvf3/Logic-Control-Center-App.png?rlkey=lfltsm2rxoqkfr02a6fdq28ud&st=jnxp9e4j&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Logic Control Center (App)</div>
+      </div>
+
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://www.facebook.com/KSFecosystem' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/vd5zolgh91nqma5zc6p4h/Ping-999ms.jpg?rlkey=way4v3ebiaywoyyrnssjoewjr&st=kigtwivp&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Ping 999ms (Facebook)</div>
+      </div>
       
 </div>
 
