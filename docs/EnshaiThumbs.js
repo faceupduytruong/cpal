@@ -31,7 +31,7 @@ const folderLinks = {
     thumbnail: 'https://www.dropbox.com/scl/fi/vsdtfowuya104x8nojqnw/Google-Translate.gif?rlkey=l97fdx41s83ld0v8ul6383u8n&st=7rgce54l&raw=1'
   },
   'Adapted English Books': {
-    url: 'https://www.facebook.com/AdaptedEnglishBooks/reels/',
+    url: 'https://www.facebook.com/AdaptedEnglishBooks',
     thumbnail: 'https://www.dropbox.com/scl/fi/7vlelwwj2m2sme9d8ecuu/Adapted-Books.png?rlkey=sp06euq68jdgctb9z60ds0b34&st=8p029ftg&raw=1'
   },
   'Language with Movies & Series': {
