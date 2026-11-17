@@ -30,13 +30,17 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/vsdtfowuya104x8nojqnw/Google-Translate.gif?rlkey=l97fdx41s83ld0v8ul6383u8n&st=7rgce54l&raw=1'
   },
-  'Adapted Books': {
+  'Adapted English Books': {
     url: 'https://www.facebook.com/AdaptedEnglishBooks/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/7vlelwwj2m2sme9d8ecuu/Adapted-Books.png?rlkey=sp06euq68jdgctb9z60ds0b34&st=8p029ftg&raw=1'
   },
   'Language with Movies & Series': {
     url: 'https://www.facebook.com/Language.with.Movies.Series',
     thumbnail: 'https://www.dropbox.com/scl/fi/t3x7i9uvre0tfd1qfftvk/Language-with-Movies-Series.jpg?rlkey=k2inzecxj0xuvn32n3dg26ta0&st=8i8oy3h4&raw=1'
+  },
+  'Book&Audio Language Club': {
+    url: 'https://www.facebook.com/bookandaudio',
+    thumbnail: 'https://www.dropbox.com/scl/fi/oz4octczfrmx684n79w2c/Book-Audio-Language-Club.png?rlkey=te8bzs57r25k0hv83gojtu8jj&st=53n44sv&raw=1'
   },
   'BetterSpeak': {
     url: 'https://www.facebook.com/profile.php?id=61578857345477&sk=reels_tab',
