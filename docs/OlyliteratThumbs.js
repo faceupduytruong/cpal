@@ -78,6 +78,10 @@ const folderLinks = {
     url: 'https://8x9x.pro.vn/',
     thumbnail: 'https://www.dropbox.com/scl/fi/xonn5rq4bcq6j49zh6h5l/8x9x.pro.vn.jpg?rlkey=n7zcgnqx9g0r1tc8r62hqe2i5&st=dc23uebu&raw=1'
   },
+  'Ánh sao xanh': {
+    url: 'https://www.anhsaoxanh.top/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/v342w6kf9zda85a6ig8vp/nh-sao-xanh.jpg?rlkey=t6ytj09d6stpei7pxlo2c6ucj&st=wo26zhba&raw=1'
+  },
   'nuocmatvn.id.vn': {
     url: 'https://nuocmatvn.id.vn/',
     thumbnail: 'https://www.dropbox.com/scl/fi/4o0gjz7iv99smpq3tyvsh/nuocmatvn.id.vn.jpg?rlkey=ggcx2unzce7xm69ds36n07zz8&st=b0t7izuk&raw=1'
