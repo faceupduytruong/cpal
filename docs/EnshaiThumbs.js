@@ -162,6 +162,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/groups/503186386034982/',
     thumbnail: 'https://www.dropbox.com/scl/fi/uecd9uzbnvjxz0ninljs7/English-Worksheet.gif?rlkey=m2rjrp5n6lxtx09sy9v7bav6t&st=lypjmhp0&raw=1',
   },
+  '88Talk': {
+    url: 'https://www.facebook.com/profile.php?id=100083016807146',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8o1i87gprviaj9ulsbe6z/88Talk.jpg?rlkey=mbbuq3s1eaug6lsuu7grojk6f&st=3ynqliv0&raw=1',
+  },
   'Kids - Alphabet, Numbers & More': {
     url: 'https://www.facebook.com/profile.php?id=100094537200262&sk=photos',
     thumbnail: 'https://www.dropbox.com/scl/fi/vtfhtqx897sd8if9ggc8j/Kids-Education-Alphabet-Numbers-More.png?rlkey=r24n87hjp7nti14oqtq5mwnln&st=lw4ql4wf&raw=1',
