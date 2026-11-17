@@ -36,7 +36,7 @@ const folderLinks = {
   },
   'Hồng Diễm Dạy Văn': {
     url: 'https://www.facebook.com/motchutvan',
-    thumbnail: 'https://www.dropbox.com/scl/fi/17gkg6upjmw510t63xdv7/H-ng-Di-m-D-y-V-n.jpg?rlkey=i4ux06xnpn06z4ilv2gp8nv1o&st=50508wyj&raw=1'
+    thumbnail: 'https://www.dropbox.com/scl/fi/17gkg6upjmw510t63xdv7/H-ng-Di-m-D-y-V-n.jpg?rlkey=i4ux06xnpn06z4ilv2gp8nv1o&st=sx4p4rk6&raw=1'
   },
   'Van Tuan Nguyen': {
     url: 'https://www.youtube.com/@vantuannguyen/videos',
