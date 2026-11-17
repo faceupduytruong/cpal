@@ -188,6 +188,10 @@ const folderLinks = {
     url: 'https://www.facebook.com/bao.yen.7771',
     thumbnail: 'https://www.dropbox.com/scl/fi/pchv2c3hnfelbo8fll7xr/V-B-o-Y-n-Iris-Vu.jpg?rlkey=eu8s5ysxulxtgqxgi05lglj2q&st=vmb89m9y&raw=1'
   },
+  'Minh Khuu Academy': {
+    url: 'https://www.facebook.com/minhkhuuacademy',
+    thumbnail: 'https://www.dropbox.com/scl/fi/qgfedyirovjeidm4x7dv5/Minh-Khuu-Academy.jpg?rlkey=su5rinf21zvbdhi9i308b2qwq&st=92qok15b&raw=1'
+  },
   'Nexusvocab': {
     url: 'https://nexusvocab.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/vrtq1gsfwhi2e7at6g0qm/5.webp?rlkey=55iqa1apiqhizk6io35wi5mv6&st=5t3fvyll&raw=1'
