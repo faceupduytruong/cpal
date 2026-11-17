@@ -34,6 +34,10 @@ const folderLinks = {
     url: 'https://www.youtube.com/@kimoanh-hocvan-vanhoc/playlists',
     thumbnail: 'https://www.dropbox.com/scl/fi/g3fcaelkc9wfq93s9dc3k/Kim-Oanh-H-c-V-n-V-n-H-c.gif?rlkey=3fwgqfw0iej5u4avufuwpmfyb&st=4vdvca9c&raw=1'
   },
+  'Hồng Diễm Dạy Văn': {
+    url: 'https://www.facebook.com/motchutvan',
+    thumbnail: 'https://www.dropbox.com/scl/fi/17gkg6upjmw510t63xdv7/H-ng-Di-m-D-y-V-n.jpg?rlkey=i4ux06xnpn06z4ilv2gp8nv1o&st=50508wyj&raw=1'
+  },
   'Van Tuan Nguyen': {
     url: 'https://www.youtube.com/@vantuannguyen/videos',
     thumbnail: 'https://www.dropbox.com/scl/fi/z0g2nud5ve6j9o30tc37p/Van-Tuan-Nguyen.gif?rlkey=ry0ji1oqj0vlxzrq1shnk517g&st=5309drcf&raw=1',
