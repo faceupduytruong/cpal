@@ -194,7 +194,7 @@ const folderLinks = {
     url: 'https://toanmath.com/',
     thumbnail: 'https://www.dropbox.com/scl/fi/wqckjpffva0wmqtwro7sm/Toanmath-thi-free.webp?rlkey=zxsovaf7k6p17cockdfc320jw&st=wzhjqtci&raw=1',
   },
-  'DPAD - Luyện Thi Đại Học Môn TOÁN': {
+  'DPAD - Luyện Thi ĐH Môn TOÁN': {
     url: 'https://www.facebook.com/profile.php?id=100093079451170',
     thumbnail: 'https://www.dropbox.com/scl/fi/j81u84fjxmlzxjkssakvp/DPAD-Luy-n-Thi-i-H-c-M-n-TO-N.jpg?rlkey=58i1ehzope0024m5of64xbuoq&st=6gf50lmr&raw=1',
   },
