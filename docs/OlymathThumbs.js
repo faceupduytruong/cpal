@@ -226,5 +226,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61594718217749',
     thumbnail: 'https://www.dropbox.com/scl/fi/q0m76ha9ybwzek71yvksq/PlayTo-n.com.png?rlkey=lu10izgbu4li1au2s2014n0n1&st=xutojn8b&raw=1',
   },   
+   'NAVI Math (Web)': {
+    url: 'https://navi.eduflow.vn/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/p1vt92wewyqyezgpor62j/NAVI-Math-Web.jpg?rlkey=jjjhexbk94ncfoaye5o1ujiyn&st=s7zb0kot&raw=1',
+  },
+   'NAVI Math (Facebook)': {
+    url: 'https://www.facebook.com/profile.php?id=61595122867577',
+    thumbnail: 'https://www.dropbox.com/scl/fi/krpgbsoxhaahpgzo50pjr/NAVI-Math-Facebook.png?rlkey=h3vzy5o5v165e69zxdp58szs5&st=zomo69qx&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
