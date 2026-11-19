@@ -144,6 +144,13 @@ container.innerHTML = `
 </div>
         <div class="caption">Techrum.vn</div>
       </div>
+
+<div class="image-box">
+       <div onclick="openRightHalfPopup('https://voz.vn/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/wch12k1mts44q8b4jrpta/Voz.vn.png?rlkey=j4bc9cvpxl5lcoqnk9xgt6rsl&st=5pelhw9d&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">Voz.vn</div>
+      </div>
       
 </div>
 
