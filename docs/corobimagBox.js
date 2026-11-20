@@ -157,7 +157,19 @@ container.innerHTML = `
       
 </div>
 
-     <!-- Hàng thứ 4 -->
+<!-- Hàng thứ 4 -->
+    <div class="image-row glass-bg">
+    <h2 class="row-title">Great-looking website</h2>
+      <div class="image-box">
+       <div onclick="openRightHalfPopup('https://qtitpc.dev/' + chatParams, 'SmartApp Popup', window.innerWidth, 745)">
+       <img src="https://www.dropbox.com/scl/fi/u6w4npavacjjxp0rr57ms/qtitpc.dev.webp?rlkey=zpjuf7nhxwbyiezsokxu2mw77&st=cq20w9av&raw=1" alt="Ảnh 1">
+</div>
+        <div class="caption">qtitpc</div>
+      </div>
+      
+</div>
+
+     <!-- Hàng thứ 5 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Laptop Buying Suggestions</h2>
       <div class="image-box">
@@ -232,7 +244,7 @@ container.innerHTML = `
      
 </div>
 
-     <!-- Hàng thứ 5 -->
+     <!-- Hàng thứ 6 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Affordable Wholesale Laptops</h2>
       <div class="image-box">
@@ -286,7 +298,7 @@ container.innerHTML = `
       
 </div>
 
-     <!-- Hàng thứ 6 -->
+     <!-- Hàng thứ 7 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Accessory Buying Suggestions</h2>
       <div class="image-box">
@@ -305,7 +317,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 7 -->
+     <!-- Hàng thứ 8 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Games</h2>
       <div class="image-box">
@@ -352,7 +364,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 8 -->
+     <!-- Hàng thứ 9 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Setup My Desk</h2>
       <div class="image-box">
@@ -364,7 +376,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 9 -->
+     <!-- Hàng thứ 10 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Smart Tech Toys</h2>
       <div class="image-box">
@@ -467,7 +479,7 @@ container.innerHTML = `
 
 </div>
 
-     <!-- Hàng thứ 10 -->
+     <!-- Hàng thứ 11 -->
     <div class="image-row glass-bg">
     <h2 class="row-title">Essentials for daily life</h2>
       <div class="image-box">
