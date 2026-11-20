@@ -252,6 +252,14 @@ const folderLinks = {
     url: 'https://www.facebook.com/hacknao3000chuhan/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/a6yh7vm9dg9ykcc0owc1i/Hack-N-o-3000-Ch-H-n.jpg?rlkey=hg9p24nxribgona365cqtl5yj&st=ptdf6so5&raw=1'
   },
+  'Tâm HSK (Web)': {
+    url: 'https://hsk.kassertam.com/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/aufzlexpaksts4bn7c7xv/T-m-HSK-Web.jpg?rlkey=gc0xjcou53hptugc8v56hczqx&st=bxn7iezb&raw=1'
+  },
+  'Yêu tiếng Trung Prepedu (Web)': {
+    url: 'https://trungtiengyeu.prepedu.com/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/y9az3t6i32ariennvnt67/Y-u-ti-ng-Trung-Prepedu-Web.jpg?rlkey=lrnl1xhfbwhdj0yaz37bvrxxq&st=eg7jfh1z&raw=1'
+  },
   'Vocapy (Tiếng Trung-Nhật-Hàn)': {
     url: 'https://vocapy.com/home',
     thumbnail: 'https://www.dropbox.com/scl/fi/qw1lg41dtaeoxdqb8iwnq/Vocapy.com.png?rlkey=nlfd9bz67obq259qg7nyekkdq&st=lqa50ual&raw=1'
