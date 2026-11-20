@@ -116,7 +116,7 @@ const folderLinks = {
     url: 'https://www.facebook.com/tienganhnez/reels/',
     thumbnail: 'https://www.dropbox.com/scl/fi/0g75vbh7j09yyizmksdpl/Ti-ng-Anh-N.jpg?rlkey=jl5mvdx6yy3a7b85m3ewwwpny&st=jvy5g3a9&raw=1',
   },
-  'Hành trình chinh phục 12 thì': {
+  'Hành trình chinh phục 12 thì (App)': {
     url: 'https://hieze.github.io/nikita.html',
     thumbnail: 'https://www.dropbox.com/scl/fi/alog7v9tesakopg1iydmu/H-nh-tr-nh-chinh-ph-c-12-th.avif?rlkey=2rs1ji7seym4rqi41shcas1e0&st=y50zeupr&raw=1',
   },
