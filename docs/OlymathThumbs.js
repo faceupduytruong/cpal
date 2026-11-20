@@ -234,5 +234,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61595122867577',
     thumbnail: 'https://www.dropbox.com/scl/fi/krpgbsoxhaahpgzo50pjr/NAVI-Math-Facebook.png?rlkey=h3vzy5o5v165e69zxdp58szs5&st=zomo69qx&raw=1',
   },
+   'Bamedonghanh (Web)': {
+    url: 'https://bamedonghanh.pro.vn/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/nhh7lwr919qxl4w34hm9j/Bamedonghanh-Web.jpg?rlkey=0vtmksfrqv9bhcv7ydvt06m7a&st=or7tpqyd&raw=1',
+  },
+   'Ba mẹ đồng hành (Facebook)': {
+    url: 'https://www.facebook.com/profile.php?id=61596719128095',
+    thumbnail: 'https://www.dropbox.com/scl/fi/8ntwwn6uj11tmnhk0uvt2/Ba-m-ng-h-nh-Facebook.jpg?rlkey=2hkhhmv0dd6jey83xvkyxna2c&st=manrmbn6&raw=1',
+  },
   // thêm các mục khác nếu cần
 };
