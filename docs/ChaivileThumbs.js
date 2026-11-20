@@ -20,6 +20,10 @@ const folderLinks = {
     url: 'https://translate.google.com.vn/?lfhs=2&sl=en&tl=vi&op=translate',
     thumbnail: 'https://www.dropbox.com/scl/fi/ghr6z9a8jq4v62ir7e9yo/Google-Translate.webp?rlkey=akonaabgl62h1tcovkfduh9ie&st=fd0zik9q&raw=1'
   },
+  '5 phút mỗi ngày': {
+    url: 'https://www.facebook.com/profile.php?id=61590322652352&sk=photos',
+    thumbnail: 'https://www.dropbox.com/scl/fi/82mi4lctjgjut6dkrsjwj/5-ph-t-m-i-ng-y.png?rlkey=nmbq90pkdovzjxgbe3k1ehwdb&st=gji6jgta&raw=1'
+  },
   'Tiểu Bảo': {
     url: 'https://www.facebook.com/profile.php?id=61591222604133&sk=reels_tab',
     thumbnail: 'https://www.dropbox.com/scl/fi/s66rlw7j7r34aojs7tdh4/Ti-u-B-o.png?rlkey=5wyh8gqvxmqbb6qog54rkrtjy&st=nj3s2s2w&raw=1'
