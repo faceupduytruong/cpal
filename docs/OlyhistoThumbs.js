@@ -62,9 +62,13 @@ const folderLinks = {
     url: 'https://www.facebook.com/profile.php?id=61595586188881',
     thumbnail: 'https://www.dropbox.com/scl/fi/tfdqy6i7nuo0lc47rku84/S-K-Ho-t-H-nh.jpg?rlkey=245cbmh3n2z64j894brtjp0cz&st=n9exmr41&raw=1',
   },
-  'Ôn tập Lịch sử Đảng': {
+  'Ôn tập Triết học (App)': {
     url: 'https://quiz.qtitpc.dev/',
-    thumbnail: 'https://www.dropbox.com/scl/fi/uelcbkl50ekc6ajffwvqw/n-t-p-L-ch-s-ng.jpg?rlkey=1cr0fxhqwg05f5owehc7pj6gd&st=zocu3rqx&raw=1',
+    thumbnail: 'https://www.dropbox.com/scl/fi/uelcbkl50ekc6ajffwvqw/n-t-p-Tri-t-h-c-App.jpg?rlkey=1cr0fxhqwg05f5owehc7pj6gd&st=9bmf0y7q&raw=1',
+  },
+  'Ôn tập Triết học (Web)': {
+    url: 'https://quiz-llctpl.vercel.app/',
+    thumbnail: 'https://www.dropbox.com/scl/fi/0nsih9j71gryoihk7acd9/n-t-p-Tri-t-h-c-Web.jpg?rlkey=9jadjsxi0m6vfrumj4mr46l2i&st=p64cjlrd&raw=1',
   },
   // thêm các mục khác nếu cần
 };
